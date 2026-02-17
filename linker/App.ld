@@ -8,7 +8,7 @@
  *
  ******************************************************************************
  *
- * @brief Linker file for VPTemplate Auth Project Target system STM32G474
+ * @brief Linker file for VPTemplate Application Project Target system STM32G474
  *
  *
  *****************************************************************************/
@@ -24,7 +24,7 @@
  * correct C-Environemt and call the main() function.
  *
  */
-ENTRY(StartApp_Handler)
+ENTRY(Reset_Handler)
 
 /*
  * Specifies the memory areas for the target system.
@@ -40,17 +40,21 @@ MEMORY
   FLASH  (rx)      : ORIGIN = 0x08000000,  LENGTH = 512K
 }
 
+
 /***** GLOBAL SYMBOLS ********************************************************/
 
 /* Symbols used for memory management
  * This includes the stack and also a possible heap memory
  */
-_size_of_stack = 0x200;                             /* Size of stack in bytes */
+
+
 _size_of_heap  = 0x0;                               /* Size of heap in bytes */
+
+_size_of_stack =0x1000;
 
 /* Highest usable address of the RAM. */
 _end_of_ram = ORIGIN(RAM) + LENGTH(RAM) - 4;        /* End of RAM */
-_initial_stack_pointer = _end_of_ram;               /* Set the symbol for initial stack pointer */
+
 
 /***** SECTIONS **************************************************************/
 
@@ -136,7 +140,27 @@ SECTIONS
     . = ALIGN(4);
 
      _end_of_heap = .;
+     
+     
   } >RAM
+ 
+  .stack (NOLOAD) :
+  {
+      . = _end_of_ram - _size_of_stack
+
+      . = ALIGN(4);
+	    
+      _sstack = . ;
+	    
+      . +=  _size_of_stack;
+	    
+      . = ALIGN(4);
+	    
+      _estack = .; 
+		
+      _initial_stack_pointer = .;
+		
+  } > RAM
 
   /* Remove information from the standard libraries */
   /DISCARD/ :
