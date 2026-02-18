@@ -16,6 +16,7 @@
 
 /***** INCLUDES **************************************************************/
 #include "stm32g4xx_hal.h"
+
 #include "System.h"
 
 #include "HardwareConfig.h"
@@ -31,8 +32,19 @@
 #include "ADCModule.h"
 #include "TimerModule.h"
 #include "Scheduler.h"
+#include "StateTable.h"
 
 #include "GlobalObjects.h"
+
+#include "stdbool.h"
+
+typedef enum
+{
+	BOOTUP = 0,
+	PREPARE_APPLICATION = 1,
+	FAILURE = 2,
+	START_APPLICATION = 3
+}State;
 
 
 /***** PRIVATE CONSTANTS *****************************************************/
@@ -48,8 +60,13 @@
 static int32_t initializePeripherals();
 
 
+static State current_state = BOOTUP;
+
+
+
 /***** PRIVATE VARIABLES *****************************************************/
 static Scheduler gScheduler;            // Global Scheduler instance
+
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
@@ -60,41 +77,58 @@ static Scheduler gScheduler;            // Global Scheduler instance
  */
 int main(void)
 {
-    // Initialize the HAL
-    HAL_Init();
 
-    SystemClock_Config();
-
-    // Initialize Peripherals
-    initializePeripherals();
 
     // Initialize Scheduler
-    schedInitialize(&gScheduler);
+
 
     while (1)
     {
-        // Toggle all LEDs to the their functionality (Toggle frequency depends on HAL_Delay at end of loop)
-        ledToggleLED(LED0);
-        HAL_Delay(100);
-        ledToggleLED(LED1);
-        HAL_Delay(100);
-        ledToggleLED(LED2);
-        HAL_Delay(100);
-        ledToggleLED(LED3);
-        HAL_Delay(100);
-        ledToggleLED(LED4);
-        HAL_Delay(100);
+    	swtich(current_state)
+		{
+    		case BOOTUP:
+    			// Initialize the HAL
+				if(HAL_Init() != HAL_OK)
+				{
+					current_state = FAILURE;
+				}
 
-        uint8_t buf[10];
-        uartReceiveData(buf, 2);
-        if (buf[0] == 'X' && buf[1] == '\r')
-        {
-            displayShowDigit(RIGHT_DISPLAY, DIGIT_DASH);
-        }
-        else
-        {
-            displayShowDigit(RIGHT_DISPLAY, DIGIT_OFF);
-        }
+				SystemClock_Config();
+
+				// Initialize Peripherals
+				if(initializePeripherals() != ERROR_OK)
+				{
+					current_state = FAILURE;
+				}
+
+				current_state = PREPARE_APPLICATION;
+    			break;
+    		case PREPARE_APPLICATION:
+    		    schedInitialize(&gScheduler);
+    		    // check for description
+
+    		    if(descritp)
+    		    {
+    		    	current_state = START_APPLICATION;
+    		    }
+    		    if(timeout)
+    		    {
+    		    	current_state = FAILURE;
+    		    }
+
+    			break;
+    		case FAILURE:
+    			break;
+    		case START_APPLICATION:
+
+    			__set_MSP();
+    			SCB->vector = StartOfStackAdress
+    			break;
+    		default:
+    			break;
+		}
+
+
     }
 }
 
@@ -124,3 +158,6 @@ static int32_t initializePeripherals()
 
     return ERROR_OK;
 }
+
+
+
