@@ -20,6 +20,7 @@
 #include "stm32g4xx_hal_rcc.h"
 
 
+
 #include "System.h"
 
 #include "HardwareConfig.h"
@@ -35,8 +36,29 @@
 #include "ADCModule.h"
 #include "TimerModule.h"
 #include "Scheduler.h"
+#include "StateTable.h"
 
 #include "GlobalObjects.h"
+
+#include "stdbool.h"
+
+typedef enum
+{
+	BOOTUP = 0,
+	PREPARE_APPLICATION = 1,
+	FAILURE = 2,
+	START_APPLICATION = 3
+}State;
+
+#include "stdbool.h"
+
+typedef enum
+{
+	BOOTUP = 0,
+	PREPARE_APPLICATION = 1,
+	FAILURE = 2,
+	START_APPLICATION = 3
+}State;
 
 #include "stdbool.h"
 
@@ -157,22 +179,3 @@ static int32_t initializePeripherals()
 
     return ERROR_OK;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
