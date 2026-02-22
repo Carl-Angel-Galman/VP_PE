@@ -1,3 +1,4 @@
+
 /******************************************************************************
  * @file main.c
  *
@@ -47,7 +48,7 @@
 /***** PRIVATE PROTOTYPES ****************************************************/
 static int32_t initializePeripherals();
 
-
+static void change_vector_table(void);
 /***** PRIVATE VARIABLES *****************************************************/
 static Scheduler gScheduler;            // Global Scheduler instance
 
@@ -60,11 +61,14 @@ static Scheduler gScheduler;            // Global Scheduler instance
  */
 int main(void)
 {
-    // Initialize the HAL
+    change_vector_table();
+
     HAL_Init();
 
     // Initialize the System Clock
     SystemClock_Config();
+
+
 
     // Initialize Peripherals
     initializePeripherals();
@@ -77,64 +81,12 @@ int main(void)
 
     while (1)
     {
-        // Read to buttons
-        Button_Status_t but1 = buttonGetButtonStatus(BTN_SW1);
-        Button_Status_t but2 = buttonGetButtonStatus(BTN_SW2);
-        Button_Status_t but3 = buttonGetButtonStatus(BTN_B1);
 
-        // Read the POT1 input from ADC
-        int adcValue = adcReadChannel(ADC_INPUT0);
-
-        // If SW1 is pressed, print some debug message on the terminal
-        if (but1 == BUTTON_PRESSED)
-        {
             // Toggle all LEDs to the their functionality (Toggle frequency depends on HAL_Delay at end of loop)
-            ledToggleLED(LED0);
-            HAL_Delay(25);
-            ledToggleLED(LED1);
-            HAL_Delay(25);
-            ledToggleLED(LED2);
-            HAL_Delay(25);
-            ledToggleLED(LED3);
-            HAL_Delay(25);
-            ledToggleLED(LED4);
-            HAL_Delay(25);
-        }
+        ledSetLED(LED0, LED_ON);
+        ledSetLED(LED1, LED_ON);
 
-        // If SW2 is pressed, print the ADC digit value on the terminal
-        if (but2 == BUTTON_PRESSED)
-        {
-        	HAL_GPIO_WritePin(BEEP_GPIO_PORT, BEEP_PIN, GPIO_PIN_RESET);
-        }
-        else
-        {
-        	HAL_GPIO_WritePin(BEEP_GPIO_PORT, BEEP_PIN, GPIO_PIN_SET);
-        }
 
-        if (but3 == BUTTON_PRESSED)
-        {
-        	outputLogf("ADC Val: %d\n\r", adcValue);
-        }
-
-        globalCounter++;
-        if (globalCounter > 99)
-        {
-            globalCounter = 0;
-        }
-
-        if (left == 1)
-        {
-            displayShowDigit(LEFT_DISPLAY, (globalCounter / 10));
-        }
-        else
-        {
-            displayShowDigit(RIGHT_DISPLAY, (globalCounter % 10));
-        }
-
-        left = !left;
-
-        // Remove this HAL_Delay as soon as there is a Scheduler used
-        HAL_Delay(25);
     }
 }
 
@@ -152,7 +104,7 @@ static int32_t initializePeripherals()
     uartInitialize(115200);
 
     // Initialize GPIOs for LED and 7-Segment output
-	ledInitialize();
+    ledInitialize();
     displayInitialize();
 
     // Initialize GPIOs for Buttons
@@ -163,4 +115,23 @@ static int32_t initializePeripherals()
     adcInitialize();
 
     return ERROR_OK;
+}
+
+static void change_vector_table(void)
+{
+    const uint32_t app_base = 0x08010200;
+    uint32_t app_msp = *(uint32_t *)app_base;
+
+    __disable_irq();
+
+    //HAL_RCC_DeInit();
+    HAL_DeInit();
+
+    SCB->VTOR = app_base;
+    __DSB(); __ISB();
+
+    __HAL_RCC_AHB1_FORCE_RESET();
+    __HAL_RCC_AHB1_RELEASE_RESET();
+    __enable_irq();
+    // Initialize the HAL
 }

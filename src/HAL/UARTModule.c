@@ -122,34 +122,22 @@ int32_t uartSendData(uint8_t* pDataBuffer, int32_t bufferLength)
     return result;
 }
 
-int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength)
+int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength, uint32_t timeout)
 {
     int32_t result = UART_ERR_OK;
 
-    HAL_StatusTypeDef halStatus = HAL_UART_Receive(&gUARTHandle, pDataBuffer, bufferLength, HAL_MAX_DELAY);
+    HAL_StatusTypeDef halStatus = HAL_UART_Receive(&gUARTHandle, pDataBuffer, bufferLength, timeout);
 
-    if (halStatus != HAL_OK )
+
+    if(halStatus == HAL_TIMEOUT)
+    {
+        result = UART_ERR_TIMEOUT;
+    }
+    else  if (halStatus != HAL_OK )
     {
         result = UART_ERR_RECEIVE;
     }
-
     return result;
-}
-
-int32_t uartHasData(int8_t* pHasData)
-{
-	int32_t result = UART_ERR_OK;
-
-	if (__HAL_UART_GET_FLAG(&gUARTHandle, UART_FLAG_RXNE)==SET)
-	{
-		*pHasData = 1;
-	}
-	else
-	{
-		*pHasData = 0;
-	}
-
-	return result;
 }
 
 /***** PRIVATE FUNCTIONS *****************************************************/

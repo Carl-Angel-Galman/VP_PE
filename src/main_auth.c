@@ -15,7 +15,11 @@
 
 
 /***** INCLUDES **************************************************************/
+#include "stm32g4xx.h"
 #include "stm32g4xx_hal.h"
+#include "stm32g4xx_hal_rcc.h"
+
+
 #include "System.h"
 
 #include "HardwareConfig.h"
@@ -34,6 +38,9 @@
 
 #include "GlobalObjects.h"
 
+#include "stdbool.h"
+
+#include "Authenticator.h"
 
 /***** PRIVATE CONSTANTS *****************************************************/
 
@@ -42,14 +49,23 @@
 
 
 /***** PRIVATE TYPES *********************************************************/
-
+typedef enum
+{
+    BOOTUP = 0,
+    PREPARE_APPLICATION = 1,
+    FAILURE = 2,
+    START_APPLICATION = 3
+}State;
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 static int32_t initializePeripherals();
 
 
+static State current_state = BOOTUP;
+
+
 /***** PRIVATE VARIABLES *****************************************************/
-static Scheduler gScheduler;            // Global Scheduler instance
+
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
@@ -60,41 +76,58 @@ static Scheduler gScheduler;            // Global Scheduler instance
  */
 int main(void)
 {
-    // Initialize the HAL
-    HAL_Init();
-
-    SystemClock_Config();
-
-    // Initialize Peripherals
-    initializePeripherals();
-
-    // Initialize Scheduler
-    schedInitialize(&gScheduler);
-
-    while (1)
+    while(1)
     {
-        // Toggle all LEDs to the their functionality (Toggle frequency depends on HAL_Delay at end of loop)
-        ledToggleLED(LED0);
-        HAL_Delay(100);
-        ledToggleLED(LED1);
-        HAL_Delay(100);
-        ledToggleLED(LED2);
-        HAL_Delay(100);
-        ledToggleLED(LED3);
-        HAL_Delay(100);
-        ledToggleLED(LED4);
-        HAL_Delay(100);
+    switch(current_state)
+    {
 
-        uint8_t buf[10];
-        uartReceiveData(buf, 2);
-        if (buf[0] == 'X' && buf[1] == '\r')
-        {
-            displayShowDigit(RIGHT_DISPLAY, DIGIT_DASH);
-        }
-        else
-        {
-            displayShowDigit(RIGHT_DISPLAY, DIGIT_OFF);
-        }
+        case BOOTUP:
+            // Initialize the HAL
+            HAL_Init();
+
+            SystemClock_Config();
+
+            // Initialize Peripherals
+            initializePeripherals();
+
+            current_state = PREPARE_APPLICATION;
+            break;
+
+        case PREPARE_APPLICATION:
+
+            int8_t res = Auth_WaitForA();
+
+            if(res == AUTH_ERR__TIMEOUT)
+            {
+                current_state = FAILURE;
+            }else{
+                current_state = START_APPLICATION;
+            }
+
+
+            break;
+
+        case FAILURE:
+
+            while(1);
+
+            break;
+        case START_APPLICATION:
+
+            {
+
+                copy_and_decrypt_auth_section();
+
+                verify();
+
+            }
+
+            break;
+        default:
+            break;
+    }
+
+
     }
 }
 
@@ -112,7 +145,7 @@ static int32_t initializePeripherals()
     uartInitialize(115200);
 
     // Initialize GPIOs for LED and 7-Segment output
-	ledInitialize();
+    ledInitialize();
     displayInitialize();
 
     // Initialize GPIOs for Buttons
@@ -124,3 +157,22 @@ static int32_t initializePeripherals()
 
     return ERROR_OK;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
