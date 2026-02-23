@@ -28,20 +28,10 @@
  *
  * @retval : None
  */
-  .align 4
-  MARKER:
-    .word 0xDEC0ADDE 
-     /*DEADC0DE written in Little Endian  */
- 	 
-ENDMARKER:
-    .word 0xEA1DADAB
-    /*ABAD1DEA written in Little Endian*/
- 	
- 
-.section .text.Start_Handler
-.type Start_Handler, %function
-.global Start_Handler
-Start_Handler:
+.section .text.Reset_Handler
+.type Reset_Handler, %function
+.global Reset_Handler
+Reset_Handler:
     /* Copy the data segment initializers from flash to SRAM */
     ldr r0, =_sdata
     ldr r1, =_edata
@@ -72,35 +62,10 @@ Start_Handler:
 .loopFillZerobss:
     cmp r2, r4
     bcc .fillZerobss
-     
-    ldr r2, =_sstack
-    ldr r4, =_estack
-    
-    /*Overwrite the first address of the stack with end marker*/
-    ldr r3, =ENDMARKER
-    ldr r3, [r3]
-    str r3, [r2]
-    adds r2, r2, #4
-    
-    /*Loads the Marker in the right register*/
-    ldr r3, = MARKER
-    ldr r3, [r3]
-    
-    b .loopFillStack
-    
-/*Fill the current stack pointer with the MARKER*/
-.fillStack:
-    str  r3, [r2]
-    adds r2, r2, #4
 
-.loopFillStack:
-    /* Condition to check if the current stack pointer has reached the end of the stack */
-    cmp r2, r4
-    bcc .fillStack
-    
     /* Initialize the Stack-Pointer */
+    /* Load address of initial_stack_pointer into R0 for. Symbol defined in Linker Script */
     ldr r0, =_initial_stack_pointer
-    
     /* Set stack pointer */
     mov   sp, r0
 
@@ -110,5 +75,4 @@ Start_Handler:
     /* Call the application's entry point.*/
     bl main
     bx lr
-.size Start_Handler, .-Start_Handler
-
+.size Reset_Handler, .-Reset_Handler

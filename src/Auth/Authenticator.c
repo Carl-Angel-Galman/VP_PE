@@ -214,7 +214,7 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
         case INITIAL:
         	if (elapsed >= 10000u)
         	{
-        		ledSetLED(LED1);
+        		ledSetLED(LED1, LED_ON);
         		key_input_stage = FIRST_WARNING;
         	}
 
@@ -273,28 +273,6 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
             return -1;
         }
     }
-}
-
-int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
-{
-	uint32_t start = HAL_GetTick();
-	uint32_t now;
-	uint32_t elapsed;
-
-	uint8_t len = 0;
-	uint8_t ch;
-
-	ledSetLED(LED1, LED_OFF);
-
-	*outLen = 0;
-
-	while(1)
-	{
-		now = HAL_GetTick();
-		        elapsed = now - start;
-	}
-
-	return 0;
 }
 
 int8_t Auth_init(void)

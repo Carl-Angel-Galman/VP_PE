@@ -1,0 +1,5 @@
+src/Service/StackMonitor.c:56:24:get_msp	16	static
+src/Service/StackMonitor.c:79:10:GetFreeBytes	24	static
+src/Service/StackMonitor.c:108:10:GetUsedBytes	24	static
+src/Service/StackMonitor.c:124:9:GetUsage	8	static
+src/Service/StackMonitor.c:137:6:isCorrupted	16	static
