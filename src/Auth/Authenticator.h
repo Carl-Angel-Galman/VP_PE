@@ -30,6 +30,7 @@
 #define AUTH_ERR_OK                  0          //!< No error occured
 #define AUTH_ERR_FAILURE        -1         //!< Error during UART initialization
 #define AUTH_ERR_TIMEOUT		-2
+#define AUTH_ERR_INVALID_PTR    -3
 
 /***** TYPES *****************************************************************/
 
@@ -37,7 +38,7 @@
 /***** PROTOTYPES ************************************************************/
 void verify(void) __attribute__((section(".auth"), used, noinline));
 
-void copy_and_decrypt_auth_section(void);
+int8_t copy_and_decrypt_auth_section(uint8_t key[]);
 
 int8_t Auth_WaitForA(void);
 
@@ -47,3 +48,5 @@ int8_t Auth_init(void);
 
 
 #endif
+
+
