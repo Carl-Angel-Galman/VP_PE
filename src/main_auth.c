@@ -20,7 +20,6 @@
 #include "stm32g4xx_hal_rcc.h"
 
 
-
 #include "System.h"
 
 #include "HardwareConfig.h"
@@ -36,29 +35,8 @@
 #include "ADCModule.h"
 #include "TimerModule.h"
 #include "Scheduler.h"
-#include "StateTable.h"
 
 #include "GlobalObjects.h"
-
-#include "stdbool.h"
-
-typedef enum
-{
-	BOOTUP = 0,
-	PREPARE_APPLICATION = 1,
-	FAILURE = 2,
-	START_APPLICATION = 3
-}State;
-
-#include "stdbool.h"
-
-typedef enum
-{
-	BOOTUP = 0,
-	PREPARE_APPLICATION = 1,
-	FAILURE = 2,
-	START_APPLICATION = 3
-}State;
 
 #include "stdbool.h"
 
@@ -73,10 +51,10 @@ typedef enum
 /***** PRIVATE TYPES *********************************************************/
 typedef enum
 {
-    BOOTUP = 0,
-    PREPARE_APPLICATION = 1,
-    FAILURE = 2,
-    START_APPLICATION = 3
+	BOOTUP = 0,
+	PREPARE_APPLICATION = 1,
+	FAILURE = 2,
+	START_APPLICATION = 3
 }State;
 
 /***** PRIVATE PROTOTYPES ****************************************************/
@@ -98,59 +76,65 @@ static State current_state = BOOTUP;
  */
 int main(void)
 {
-    while(1)
-    {
-    switch(current_state)
-    {
+	while(1)
+	{
+	switch(current_state)
+	{
 
-        case BOOTUP:
-            // Initialize the HAL
-            HAL_Init();
+		case BOOTUP:
+			// Initialize the HAL
+			HAL_Init();
 
-            SystemClock_Config();
+			SystemClock_Config();
 
-            // Initialize Peripherals
-            initializePeripherals();
+			// Initialize Peripherals
+			initializePeripherals();
 
-            current_state = PREPARE_APPLICATION;
-            break;
+			current_state = PREPARE_APPLICATION;
+			break;
 
-        case PREPARE_APPLICATION:
+		case PREPARE_APPLICATION:
 
-            int8_t res = Auth_WaitForA();
+			int8_t res = Auth_WaitForA();
 
-            if(res == AUTH_ERR__TIMEOUT)
-            {
-                current_state = FAILURE;
-            }else{
-                current_state = START_APPLICATION;
-            }
-
-
-            break;
-
-        case FAILURE:
-
-            while(1);
-
-            break;
-        case START_APPLICATION:
-
-            {
-
-                copy_and_decrypt_auth_section();
-
-                verify();
-
-            }
-
-            break;
-        default:
-            break;
-    }
+			if(res == AUTH_ERR__TIMEOUT)
+			{
+				current_state = FAILURE;
+			}else{
+				current_state = START_APPLICATION;
+			}
 
 
-    }
+			break;
+
+		case FAILURE:
+
+			while(1);
+
+			break;
+		case START_APPLICATION:
+
+			{
+				uint8_t key_len = 8U;
+
+				int8_t key[key_len];
+
+				int8_t res = Auth_ReadKey(key, &key_len);
+
+
+				copy_and_decrypt_auth_section(key);
+
+				verify();
+
+			}
+
+			break;
+		default:
+			break;
+	}
+
+
+	}
 }
 
 /***** PRIVATE FUNCTIONS *****************************************************/
@@ -167,7 +151,7 @@ static int32_t initializePeripherals()
     uartInitialize(115200);
 
     // Initialize GPIOs for LED and 7-Segment output
-    ledInitialize();
+	ledInitialize();
     displayInitialize();
 
     // Initialize GPIOs for Buttons
@@ -179,3 +163,22 @@ static int32_t initializePeripherals()
 
     return ERROR_OK;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
