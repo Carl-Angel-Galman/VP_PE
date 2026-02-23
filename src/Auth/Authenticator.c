@@ -57,10 +57,10 @@ typedef void (*app_start_function)(void);
 
 typedef enum
 {
-    INITIAL = 0,
-    FIRST_WARNING = 1,
-    SECOND_WARNING = 2,
-    TIMEOUT = 3
+	INITIAL = 0,
+	FIRST_WARNING = 1,
+	SECOND_WARNING = 2,
+	TIMEOUT = 3
 
 }KEY_INPUT_STAGES;
 
@@ -103,28 +103,29 @@ static Scheduler auth_Scheduler;
 __attribute__((section(".auth"), used, noinline))
 void verify(void)
 {
-    __disable_irq();
+	__disable_irq();
 
 
-    uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
-    app_start_function start = (app_start_function) *(start_app_ptr);
-    start();
+	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
+	app_start_function start = (app_start_function) *(start_app_ptr);
+	start();
 
-    while (1) { }
+	while (1) { }
     //switch_to_app();
 //    if (sig[0]=='U' && sig[1]=='M' && sig[2]=='M' && sig[3]=='S')
 //        {
 //        }
 }
 
-int32_t  read_for_encryption_key(void)
-{
 
-}
 
- void copy_and_decrypt_auth_section(void)
+int8_t copy_and_decrypt_auth_section(uint8_t key[])
 {
-    uint8_t  *dst = &_sauth;
+	if(key == 0)
+	{
+		return AUTH_ERR_INVALID_PTR;
+	}
+	uint8_t  *dst = &_sauth;
     const uint8_t  *src = &_sloadauth;
     size_t len = (size_t)(&_eauth - &_sauth);
 
@@ -138,6 +139,8 @@ int32_t  read_for_encryption_key(void)
 //	}
 
     //__DSB();__ISB();
+
+    return AUTH_ERR_OK;
 }
 
 
@@ -147,14 +150,14 @@ int32_t  read_for_encryption_key(void)
 
 static void switch_to_app(void)
 {
-    __disable_irq();
+	__disable_irq();
 
 
-    uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
-    app_start_function start = (app_start_function) *(start_app_ptr);
-    start();
+	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
+	app_start_function start = (app_start_function) *(start_app_ptr);
+	start();
 
-    while (1) { }
+	while (1) { }
 
 }
 
@@ -196,7 +199,7 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
     uint8_t len = 0;
     uint8_t ch;
 
-    ledSetLED(LED1, LED_OFF);
+	ledSetLED(LED1, LED_OFF);
 
     *outLen = 0;
 
@@ -209,33 +212,33 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
         {
 
         case INITIAL:
-            if (elapsed >= 10000u)
-            {
-                ledSetLED(LED1);
-                key_input_stage = FIRST_WARNING;
-            }
+        	if (elapsed >= 10000u)
+        	{
+        		ledSetLED(LED1);
+        		key_input_stage = FIRST_WARNING;
+        	}
 
-            break;
+        	break;
 
         case FIRST_WARNING:
 
-            if (elapsed >= 30000u)
-            {
-                auth_Scheduler.pTask_250ms = Flash_D1;
-                key_input_stage = FIRST_WARNING;
-            }
-            break;
+        	if (elapsed >= 30000u)
+        	{
+        		auth_Scheduler.pTask_250ms = Flash_D1;
+        		key_input_stage = FIRST_WARNING;
+        	}
+        	break;
 
         case SECOND_WARNING:
-            schedCycle(&auth_Scheduler);
-            if (elapsed >= 45000u)
-                            key_input_stage = FIRST_WARNING;
+        	schedCycle(&auth_Scheduler);
+        	if (elapsed >= 45000u)
+        	        		key_input_stage = FIRST_WARNING;
 
-            break;
+        	break;
 
         case TIMEOUT:
-                return AUTH_ERR_TIMEOUT;
-            break;
+        		return AUTH_ERR_TIMEOUT;
+        	break;
 
         }
 
@@ -274,35 +277,35 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
 
 int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
 {
-    uint32_t start = HAL_GetTick();
-    uint32_t now;
-    uint32_t elapsed;
+	uint32_t start = HAL_GetTick();
+	uint32_t now;
+	uint32_t elapsed;
 
-    uint8_t len = 0;
-    uint8_t ch;
+	uint8_t len = 0;
+	uint8_t ch;
 
-    ledSetLED(LED1, LED_OFF);
+	ledSetLED(LED1, LED_OFF);
 
-    *outLen = 0;
+	*outLen = 0;
 
-    while(1)
-    {
-        now = HAL_GetTick();
-                elapsed = now - start;
-    }
+	while(1)
+	{
+		now = HAL_GetTick();
+		        elapsed = now - start;
+	}
 
-    return 0;
+	return 0;
 }
 
 int8_t Auth_init(void)
 {
-    if(schedInitialize(&auth_Scheduler) != SCHED_ERR_OK)
-    {
-        return AUTH_ERR_FAILURE;
-    }
+	if(schedInitialize(&auth_Scheduler) != SCHED_ERR_OK)
+	{
+		return AUTH_ERR_FAILURE;
+	}
 
 
-    return AUTH_ERR_OK;
+	return AUTH_ERR_OK;
 }
 
 static void D1_FlashUpdate(int32_t nowMs)
