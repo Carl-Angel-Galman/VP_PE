@@ -97,7 +97,7 @@ int main(void)
 
 			int8_t res = Auth_WaitForA();
 
-			if(res == AUTH_ERR__TIMEOUT)
+			if(res == AUTH_ERR_TIMEOUT)
 			{
 				current_state = FAILURE;
 			}else{
