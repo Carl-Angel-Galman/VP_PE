@@ -241,7 +241,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":395:5 -1
      (nil))
 (call_insn 55 54 56 11 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_MspInit") [flags 0x3]  <function_decl 0x7f55ba8e4200 HAL_SPI_MspInit>) [0 HAL_SPI_MspInit S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_MspInit") [flags 0x3]  <function_decl 0x7f5b0f6e4200 HAL_SPI_MspInit>) [0 HAL_SPI_MspInit S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_MspInit") [flags 0x3]  <function_decl 0x7f47378e4200 HAL_SPI_MspInit>) [0 HAL_SPI_MspInit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -959,7 +967,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":517:3 -1
      (nil))
 (call_insn 27 26 28 5 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_MspDeInit") [flags 0x3]  <function_decl 0x7f55ba8e4300 HAL_SPI_MspDeInit>) [0 HAL_SPI_MspDeInit S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_MspDeInit") [flags 0x3]  <function_decl 0x7f5b0f6e4300 HAL_SPI_MspDeInit>) [0 HAL_SPI_MspDeInit S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_MspDeInit") [flags 0x3]  <function_decl 0x7f47378e4300 HAL_SPI_MspDeInit>) [0 HAL_SPI_MspDeInit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1292,7 +1308,15 @@ Forwarding edge 28->29 to 46 failed.
      (nil))
 (call_insn 28 27 29 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1974,7 +1998,15 @@ Forwarding edge 28->29 to 46 failed.
 (note 229 228 230 23 [bb 23] NOTE_INSN_BASIC_BLOCK)
 (call_insn 230 229 231 23 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2542,7 +2574,15 @@ Forwarding edge 28->29 to 46 failed.
 (note 412 411 413 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
 (call_insn 413 412 414 40 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2714,7 +2754,15 @@ Forwarding edge 28->29 to 46 failed.
      (nil))
 (call_insn 466 465 467 48 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3164,7 +3212,15 @@ Forwarding edge 31->32 to 42 failed.
      (nil))
 (call_insn 37 36 38 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive") [flags 0x3]  <function_decl 0x7f55ba8e4600 HAL_SPI_TransmitReceive>) [0 HAL_SPI_TransmitReceive S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive") [flags 0x3]  <function_decl 0x7f5b0f6e4600 HAL_SPI_TransmitReceive>) [0 HAL_SPI_TransmitReceive S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive") [flags 0x3]  <function_decl 0x7f47378e4600 HAL_SPI_TransmitReceive>) [0 HAL_SPI_TransmitReceive S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3236,7 +3292,15 @@ Forwarding edge 31->32 to 42 failed.
      (nil))
 (call_insn 58 57 59 8 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3913,7 +3977,15 @@ Forwarding edge 31->32 to 42 failed.
 (note 262 261 263 26 [bb 26] NOTE_INSN_BASIC_BLOCK)
 (call_insn 263 262 264 26 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4154,7 +4226,15 @@ Forwarding edge 31->32 to 42 failed.
 (note 338 337 339 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
 (call_insn 339 338 340 36 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4333,7 +4413,15 @@ Forwarding edge 31->32 to 42 failed.
      (nil))
 (call_insn 393 392 394 43 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4492,7 +4580,15 @@ Forwarding edge 31->32 to 42 failed.
      (nil))
 (call_insn 442 441 443 48 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4697,7 +4793,15 @@ Forwarding edge 31->32 to 42 failed.
      (nil))
 (call_insn 498 497 499 54 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4809,7 +4913,15 @@ Forwarding edge 31->32 to 42 failed.
      (nil))
 (call_insn 529 528 530 57 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f47379e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5288,7 +5400,15 @@ Forwarding edge 46->47 to 79 failed.
      (nil))
 (call_insn 32 31 33 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6454,7 +6574,15 @@ Forwarding edge 46->47 to 79 failed.
 (note 376 375 377 41 [bb 41] NOTE_INSN_BASIC_BLOCK)
 (call_insn 377 376 378 41 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7501,7 +7629,15 @@ Forwarding edge 46->47 to 79 failed.
 (note 710 709 711 73 [bb 73] NOTE_INSN_BASIC_BLOCK)
 (call_insn 711 710 712 73 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7673,7 +7809,15 @@ Forwarding edge 46->47 to 79 failed.
      (nil))
 (call_insn 763 762 764 80 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7857,7 +8001,15 @@ Forwarding edge 46->47 to 79 failed.
      (nil))
 (call_insn 814 813 815 85 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8041,7 +8193,15 @@ Forwarding edge 46->47 to 79 failed.
      (nil))
 (call_insn 866 865 867 90 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8497,7 +8657,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1589:17 -1
      (nil))
 (insn 95 94 96 11 (set (reg/f:SI 188)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_TxISR_16BIT") [flags 0x3]  <function_decl 0x7f55ba9e4800 SPI_TxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1589:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_TxISR_16BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4800 SPI_TxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1589:17 -1
+=======
+        (symbol_ref:SI ("SPI_TxISR_16BIT") [flags 0x3]  <function_decl 0x7f47379e4800 SPI_TxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1589:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 96 95 97 11 (set (mem/f:SI (plus:SI (reg/f:SI 187)
                 (const_int 80 [0x50])) [7 hspi_42(D)->TxISR+0 S4 A32])
@@ -8515,7 +8683,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1593:17 -1
      (nil))
 (insn 102 101 103 12 (set (reg/f:SI 190)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_TxISR_8BIT") [flags 0x3]  <function_decl 0x7f55ba9e4700 SPI_TxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1593:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_TxISR_8BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4700 SPI_TxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1593:17 -1
+=======
+        (symbol_ref:SI ("SPI_TxISR_8BIT") [flags 0x3]  <function_decl 0x7f47379e4700 SPI_TxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1593:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 103 102 104 12 (set (mem/f:SI (plus:SI (reg/f:SI 189)
                 (const_int 80 [0x50])) [7 hspi_42(D)->TxISR+0 S4 A32])
@@ -8948,7 +9124,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 32 31 33 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive_IT") [flags 0x3]  <function_decl 0x7f55ba8e4900 HAL_SPI_TransmitReceive_IT>) [0 HAL_SPI_TransmitReceive_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive_IT") [flags 0x3]  <function_decl 0x7f5b0f6e4900 HAL_SPI_TransmitReceive_IT>) [0 HAL_SPI_TransmitReceive_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive_IT") [flags 0x3]  <function_decl 0x7f47378e4900 HAL_SPI_TransmitReceive_IT>) [0 HAL_SPI_TransmitReceive_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9271,7 +9455,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1680:17 -1
      (nil))
 (insn 128 127 129 14 (set (reg/f:SI 209)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f55ba9e4a00 SPI_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1680:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4a00 SPI_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1680:17 -1
+=======
+        (symbol_ref:SI ("SPI_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f47379e4a00 SPI_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1680:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 129 128 130 14 (set (mem/f:SI (plus:SI (reg/f:SI 208)
                 (const_int 76 [0x4c])) [7 hspi_55(D)->RxISR+0 S4 A32])
@@ -9315,7 +9507,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1686:17 -1
      (nil))
 (insn 142 141 143 15 (set (reg/f:SI 213)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f55ba9e4900 SPI_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1686:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4900 SPI_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1686:17 -1
+=======
+        (symbol_ref:SI ("SPI_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f47379e4900 SPI_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1686:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 143 142 144 15 (set (mem/f:SI (plus:SI (reg/f:SI 212)
                 (const_int 76 [0x4c])) [7 hspi_55(D)->RxISR+0 S4 A32])
@@ -10136,7 +10336,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1790:21 -1
      (nil))
 (insn 121 120 122 17 (set (reg/f:SI 196)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_2linesRxISR_16BIT") [flags 0x3]  <function_decl 0x7f55ba9e4e00 SPI_2linesRxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1790:21 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_2linesRxISR_16BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4e00 SPI_2linesRxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1790:21 -1
+=======
+        (symbol_ref:SI ("SPI_2linesRxISR_16BIT") [flags 0x3]  <function_decl 0x7f47379e4e00 SPI_2linesRxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1790:21 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 122 121 123 17 (set (mem/f:SI (plus:SI (reg/f:SI 195)
                 (const_int 76 [0x4c])) [7 hspi_47(D)->RxISR+0 S4 A32])
@@ -10147,7 +10355,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1791:21 -1
      (nil))
 (insn 124 123 125 17 (set (reg/f:SI 198)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_2linesTxISR_16BIT") [flags 0x3]  <function_decl 0x7f55ba9e4d00 SPI_2linesTxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1791:21 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_2linesTxISR_16BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4d00 SPI_2linesTxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1791:21 -1
+=======
+        (symbol_ref:SI ("SPI_2linesTxISR_16BIT") [flags 0x3]  <function_decl 0x7f47379e4d00 SPI_2linesTxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1791:21 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 125 124 126 17 (set (mem/f:SI (plus:SI (reg/f:SI 197)
                 (const_int 80 [0x50])) [7 hspi_47(D)->TxISR+0 S4 A32])
@@ -10165,7 +10381,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1795:21 -1
      (nil))
 (insn 131 130 132 18 (set (reg/f:SI 200)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_2linesRxISR_8BIT") [flags 0x3]  <function_decl 0x7f55ba9e4b00 SPI_2linesRxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1795:21 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_2linesRxISR_8BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4b00 SPI_2linesRxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1795:21 -1
+=======
+        (symbol_ref:SI ("SPI_2linesRxISR_8BIT") [flags 0x3]  <function_decl 0x7f47379e4b00 SPI_2linesRxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1795:21 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 132 131 133 18 (set (mem/f:SI (plus:SI (reg/f:SI 199)
                 (const_int 76 [0x4c])) [7 hspi_47(D)->RxISR+0 S4 A32])
@@ -10176,7 +10400,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1796:21 -1
      (nil))
 (insn 134 133 135 18 (set (reg/f:SI 202)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_2linesTxISR_8BIT") [flags 0x3]  <function_decl 0x7f55ba9e4c00 SPI_2linesTxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1796:21 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_2linesTxISR_8BIT") [flags 0x3]  <function_decl 0x7f5b0f7e4c00 SPI_2linesTxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1796:21 -1
+=======
+        (symbol_ref:SI ("SPI_2linesTxISR_8BIT") [flags 0x3]  <function_decl 0x7f47379e4c00 SPI_2linesTxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1796:21 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 135 134 136 18 (set (mem/f:SI (plus:SI (reg/f:SI 201)
                 (const_int 80 [0x50])) [7 hspi_47(D)->TxISR+0 S4 A32])
@@ -11047,7 +11279,15 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [8 hspi_84(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1908:7 -1
      (nil))
 (insn 134 133 135 14 (set (reg/f:SI 240)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAHalfTransmitCplt") [flags 0x3]  <function_decl 0x7f55ba9e1e00 SPI_DMAHalfTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1908:38 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAHalfTransmitCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1e00 SPI_DMAHalfTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1908:38 -1
+=======
+        (symbol_ref:SI ("SPI_DMAHalfTransmitCplt") [flags 0x3]  <function_decl 0x7f47379e1e00 SPI_DMAHalfTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1908:38 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 135 134 136 14 (set (mem/f:SI (plus:SI (reg/f:SI 134 [ _21 ])
                 (const_int 48 [0x30])) [10 _21->XferHalfCpltCallback+0 S4 A32])
@@ -11062,7 +11302,15 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [8 hspi_84(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1911:7 -1
      (nil))
 (insn 138 137 139 14 (set (reg/f:SI 242)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f55ba9e1b00 SPI_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1911:34 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1b00 SPI_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1911:34 -1
+=======
+        (symbol_ref:SI ("SPI_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f47379e1b00 SPI_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1911:34 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 139 138 140 14 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 44 [0x2c])) [10 _22->XferCpltCallback+0 S4 A32])
@@ -11077,7 +11325,15 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [8 hspi_84(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":1914:7 -1
      (nil))
 (insn 142 141 143 14 (set (reg/f:SI 244)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f55ba9e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1914:35 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f5b0f7e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1914:35 -1
+=======
+        (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f47379e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":1914:35 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 143 142 144 14 (set (mem/f:SI (plus:SI (reg/f:SI 136 [ _23 ])
                 (const_int 52 [0x34])) [10 _23->XferErrorCallback+0 S4 A32])
@@ -11385,7 +11641,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 235 234 236 19 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f55bac2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f4737c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11783,7 +12047,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 32 31 33 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive_DMA") [flags 0x3]  <function_decl 0x7f55ba8e4c00 HAL_SPI_TransmitReceive_DMA>) [0 HAL_SPI_TransmitReceive_DMA S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive_DMA") [flags 0x3]  <function_decl 0x7f5b0f6e4c00 HAL_SPI_TransmitReceive_DMA>) [0 HAL_SPI_TransmitReceive_DMA S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_SPI_TransmitReceive_DMA") [flags 0x3]  <function_decl 0x7f47378e4c00 HAL_SPI_TransmitReceive_DMA>) [0 HAL_SPI_TransmitReceive_DMA S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12515,7 +12787,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_98(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2070:7 -1
      (nil))
 (insn 251 250 252 23 (set (reg/f:SI 289)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAHalfReceiveCplt") [flags 0x3]  <function_decl 0x7f55ba9e1f00 SPI_DMAHalfReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2070:38 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAHalfReceiveCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1f00 SPI_DMAHalfReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2070:38 -1
+=======
+        (symbol_ref:SI ("SPI_DMAHalfReceiveCplt") [flags 0x3]  <function_decl 0x7f47379e1f00 SPI_DMAHalfReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2070:38 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 252 251 253 23 (set (mem/f:SI (plus:SI (reg/f:SI 171 [ _58 ])
                 (const_int 48 [0x30])) [10 _58->XferHalfCpltCallback+0 S4 A32])
@@ -12530,7 +12810,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_98(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2073:7 -1
      (nil))
 (insn 255 254 256 23 (set (reg/f:SI 291)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f55ba9e1c00 SPI_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2073:34 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1c00 SPI_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2073:34 -1
+=======
+        (symbol_ref:SI ("SPI_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f47379e1c00 SPI_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2073:34 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 256 255 257 23 (set (mem/f:SI (plus:SI (reg/f:SI 172 [ _59 ])
                 (const_int 44 [0x2c])) [10 _59->XferCpltCallback+0 S4 A32])
@@ -12545,7 +12833,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_98(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2076:7 -1
      (nil))
 (insn 259 258 260 23 (set (reg/f:SI 293)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f55ba9e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2076:35 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f5b0f7e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2076:35 -1
+=======
+        (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f47379e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2076:35 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 260 259 261 23 (set (mem/f:SI (plus:SI (reg/f:SI 173 [ _60 ])
                 (const_int 52 [0x34])) [10 _60->XferErrorCallback+0 S4 A32])
@@ -12627,7 +12923,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 283 282 284 23 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f55bac2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f4737c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13928,7 +14232,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_130(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2233:9 -1
      (nil))
 (insn 296 295 297 29 (set (reg/f:SI 338)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAHalfReceiveCplt") [flags 0x3]  <function_decl 0x7f55ba9e1f00 SPI_DMAHalfReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2233:40 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAHalfReceiveCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1f00 SPI_DMAHalfReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2233:40 -1
+=======
+        (symbol_ref:SI ("SPI_DMAHalfReceiveCplt") [flags 0x3]  <function_decl 0x7f47379e1f00 SPI_DMAHalfReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2233:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 297 296 298 29 (set (mem/f:SI (plus:SI (reg/f:SI 180 [ _67 ])
                 (const_int 48 [0x30])) [10 _67->XferHalfCpltCallback+0 S4 A32])
@@ -13943,7 +14255,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_130(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2234:9 -1
      (nil))
 (insn 300 299 301 29 (set (reg/f:SI 340)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f55ba9e1c00 SPI_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2234:40 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1c00 SPI_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2234:40 -1
+=======
+        (symbol_ref:SI ("SPI_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f47379e1c00 SPI_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2234:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 301 300 302 29 (set (mem/f:SI (plus:SI (reg/f:SI 181 [ _68 ])
                 (const_int 44 [0x2c])) [10 _68->XferCpltCallback+0 S4 A32])
@@ -13965,7 +14285,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_130(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2239:9 -1
      (nil))
 (insn 308 307 309 30 (set (reg/f:SI 342)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAHalfTransmitReceiveCplt") [flags 0x3]  <function_decl 0x7f55ba9e4000 SPI_DMAHalfTransmitReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2239:40 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAHalfTransmitReceiveCplt") [flags 0x3]  <function_decl 0x7f5b0f7e4000 SPI_DMAHalfTransmitReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2239:40 -1
+=======
+        (symbol_ref:SI ("SPI_DMAHalfTransmitReceiveCplt") [flags 0x3]  <function_decl 0x7f47379e4000 SPI_DMAHalfTransmitReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2239:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 309 308 310 30 (set (mem/f:SI (plus:SI (reg/f:SI 182 [ _69 ])
                 (const_int 48 [0x30])) [10 _69->XferHalfCpltCallback+0 S4 A32])
@@ -13980,7 +14308,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_130(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2240:9 -1
      (nil))
 (insn 312 311 313 30 (set (reg/f:SI 344)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMATransmitReceiveCplt") [flags 0x3]  <function_decl 0x7f55ba9e1d00 SPI_DMATransmitReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2240:40 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMATransmitReceiveCplt") [flags 0x3]  <function_decl 0x7f5b0f7e1d00 SPI_DMATransmitReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2240:40 -1
+=======
+        (symbol_ref:SI ("SPI_DMATransmitReceiveCplt") [flags 0x3]  <function_decl 0x7f47379e1d00 SPI_DMATransmitReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2240:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 313 312 314 30 (set (mem/f:SI (plus:SI (reg/f:SI 183 [ _70 ])
                 (const_int 44 [0x2c])) [10 _70->XferCpltCallback+0 S4 A32])
@@ -13997,7 +14333,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_130(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2244:7 -1
      (nil))
 (insn 318 317 319 31 (set (reg/f:SI 346)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f55ba9e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2244:35 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f5b0f7e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2244:35 -1
+=======
+        (symbol_ref:SI ("SPI_DMAError") [flags 0x3]  <function_decl 0x7f47379e4100 SPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2244:35 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 319 318 320 31 (set (mem/f:SI (plus:SI (reg/f:SI 184 [ _71 ])
                 (const_int 52 [0x34])) [10 _71->XferErrorCallback+0 S4 A32])
@@ -14079,7 +14423,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 342 341 343 31 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f55bac2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f4737c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14307,7 +14659,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 405 404 406 33 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f55bac2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f4737c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14634,7 +14994,15 @@ try_optimize_cfg iteration 2
         (reg:QI 192)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2321:13 -1
      (nil))
 (insn 9 8 10 2 (set (reg/f:SI 193)
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f55bb54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2322:61 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b1034da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2322:61 -1
+=======
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f473854da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2322:61 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 10 9 11 2 (set (reg:SI 114 [ SystemCoreClock.7_1 ])
         (mem/c:SI (reg/f:SI 193) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2322:61 -1
@@ -14733,7 +15101,15 @@ try_optimize_cfg iteration 2
                 (const_int -28 [0xffffffffffffffe4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2331:17 -1
      (nil))
 (insn 34 33 35 4 (set (reg/f:SI 201)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_AbortTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7400 SPI_AbortTx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2331:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_AbortTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7400 SPI_AbortTx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2331:17 -1
+=======
+        (symbol_ref:SI ("SPI_AbortTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7400 SPI_AbortTx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2331:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 35 34 57 4 (set (mem/f:SI (plus:SI (reg/f:SI 200)
                 (const_int 80 [0x50])) [7 hspi_93(D)->TxISR+0 S4 A32])
@@ -14862,7 +15238,15 @@ try_optimize_cfg iteration 2
                 (const_int -28 [0xffffffffffffffe4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2348:17 -1
      (nil))
 (insn 74 73 75 10 (set (reg/f:SI 209)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_AbortRx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7300 SPI_AbortRx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2348:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_AbortRx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7300 SPI_AbortRx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2348:17 -1
+=======
+        (symbol_ref:SI ("SPI_AbortRx_ISR") [flags 0x3]  <function_decl 0x7f47379e7300 SPI_AbortRx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2348:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 75 74 97 10 (set (mem/f:SI (plus:SI (reg/f:SI 208)
                 (const_int 76 [0x4c])) [7 hspi_93(D)->RxISR+0 S4 A32])
@@ -15034,7 +15418,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 125 124 126 17 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f55bac2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f5b0fa2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f4737c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15102,7 +15494,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 143 142 144 19 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15125,7 +15525,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 148 147 149 19 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15193,7 +15601,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 166 165 167 21 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15222,7 +15638,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 173 172 174 21 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15341,7 +15765,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 203 202 204 25 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f55bac2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f5b0fa2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f4737c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15407,7 +15839,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 221 220 222 27 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15436,7 +15876,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 228 227 229 27 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15482,7 +15930,15 @@ try_optimize_cfg iteration 2
 (note 238 237 239 29 [bb 29] NOTE_INSN_BASIC_BLOCK)
 (call_insn 239 238 240 29 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15511,7 +15967,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 246 245 247 29 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15881,7 +16345,15 @@ try_optimize_cfg iteration 2
         (reg:SI 181)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2483:13 -1
      (nil))
 (insn 11 10 12 2 (set (reg/f:SI 182)
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f55bb54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2484:61 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b1034da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2484:61 -1
+=======
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f473854da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2484:61 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 12 11 13 2 (set (reg:SI 114 [ SystemCoreClock.17_1 ])
         (mem/c:SI (reg/f:SI 182) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2484:61 -1
@@ -15980,7 +16452,15 @@ try_optimize_cfg iteration 2
                 (const_int -28 [0xffffffffffffffe4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2493:17 -1
      (nil))
 (insn 36 35 37 4 (set (reg/f:SI 190)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_AbortTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7400 SPI_AbortTx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2493:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_AbortTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7400 SPI_AbortTx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2493:17 -1
+=======
+        (symbol_ref:SI ("SPI_AbortTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7400 SPI_AbortTx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2493:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 37 36 59 4 (set (mem/f:SI (plus:SI (reg/f:SI 189)
                 (const_int 80 [0x50])) [7 hspi_83(D)->TxISR+0 S4 A32])
@@ -16109,7 +16589,15 @@ try_optimize_cfg iteration 2
                 (const_int -28 [0xffffffffffffffe4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2510:17 -1
      (nil))
 (insn 76 75 77 10 (set (reg/f:SI 198)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_AbortRx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7300 SPI_AbortRx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2510:17 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_AbortRx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7300 SPI_AbortRx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2510:17 -1
+=======
+        (symbol_ref:SI ("SPI_AbortRx_ISR") [flags 0x3]  <function_decl 0x7f47379e7300 SPI_AbortRx_ISR>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2510:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 77 76 99 10 (set (mem/f:SI (plus:SI (reg/f:SI 197)
                 (const_int 76 [0x4c])) [7 hspi_83(D)->RxISR+0 S4 A32])
@@ -16262,7 +16750,15 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [8 hspi_83(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2534:11 -1
      (nil))
 (insn 122 121 123 17 (set (reg/f:SI 207)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f55ba9e4300 SPI_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2534:39 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f5b0f7e4300 SPI_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2534:39 -1
+=======
+        (symbol_ref:SI ("SPI_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f47379e4300 SPI_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2534:39 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 123 122 124 17 (set (mem/f:SI (plus:SI (reg/f:SI 146 [ _33 ])
                 (const_int 56 [0x38])) [10 _33->XferAbortCallback+0 S4 A32])
@@ -16348,7 +16844,15 @@ try_optimize_cfg iteration 2
                 (const_int 88 [0x58])) [8 hspi_83(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2548:11 -1
      (nil))
 (insn 148 147 149 21 (set (reg/f:SI 213)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f55ba9e4400 SPI_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2548:39 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f5b0f7e4400 SPI_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2548:39 -1
+=======
+        (symbol_ref:SI ("SPI_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f47379e4400 SPI_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2548:39 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 149 148 150 21 (set (mem/f:SI (plus:SI (reg/f:SI 152 [ _39 ])
                 (const_int 56 [0x38])) [10 _39->XferAbortCallback+0 S4 A32])
@@ -16438,7 +16942,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 175 174 176 25 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f55bac2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f4737c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16567,7 +17079,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 211 210 212 30 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f55bac2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f4737c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16818,7 +17338,15 @@ try_optimize_cfg iteration 2
                 (const_int -28 [0xffffffffffffffe4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2622:5 -1
      (nil))
 (call_insn 284 283 285 37 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17203,7 +17731,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 17 16 18 4 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f55bac2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f5b0fa2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f4737c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17295,7 +17831,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 41 40 42 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f55bac2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f5b0fa2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f4737c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18335,7 +18879,15 @@ Forwarding edge 32->33 to 35 failed.
                 (const_int 88 [0x58])) [8 hspi_94(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2784:15 -1
      (nil))
 (insn 231 230 232 26 (set (reg/f:SI 253)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f55ba9e4200 SPI_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2784:43 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f5b0f7e4200 SPI_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2784:43 -1
+=======
+        (symbol_ref:SI ("SPI_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f47379e4200 SPI_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2784:43 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 232 231 233 26 (set (mem/f:SI (plus:SI (reg/f:SI 188 [ _75 ])
                 (const_int 56 [0x38])) [10 _75->XferAbortCallback+0 S4 A32])
@@ -18354,7 +18906,15 @@ Forwarding edge 32->33 to 35 failed.
      (nil))
 (call_insn 236 235 237 26 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f55bac2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f4737c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18432,7 +18992,15 @@ Forwarding edge 32->33 to 35 failed.
                 (const_int 84 [0x54])) [8 hspi_94(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2795:15 -1
      (nil))
 (insn 256 255 257 29 (set (reg/f:SI 260)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f55ba9e4200 SPI_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2795:43 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f5b0f7e4200 SPI_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2795:43 -1
+=======
+        (symbol_ref:SI ("SPI_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f47379e4200 SPI_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":2795:43 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 257 256 258 29 (set (mem/f:SI (plus:SI (reg/f:SI 194 [ _81 ])
                 (const_int 56 [0x38])) [10 _81->XferAbortCallback+0 S4 A32])
@@ -18451,7 +19019,15 @@ Forwarding edge 32->33 to 35 failed.
      (nil))
 (call_insn 261 260 262 29 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f55bac2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f5b0fa2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f4737c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18510,7 +19086,15 @@ Forwarding edge 32->33 to 35 failed.
                 (const_int -28 [0xffffffffffffffe4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":2808:9 -1
      (nil))
 (call_insn 279 278 280 32 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18942,7 +19526,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19045,7 +19637,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 35 34 36 4 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19213,7 +19813,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3046:7 -1
      (nil))
 (call_insn 80 79 81 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19234,7 +19842,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3055:3 -1
      (nil))
 (call_insn 86 85 89 10 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7300 HAL_SPI_TxCpltCallback>) [0 HAL_SPI_TxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7300 HAL_SPI_TxCpltCallback>) [0 HAL_SPI_TxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7300 HAL_SPI_TxCpltCallback>) [0 HAL_SPI_TxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19340,7 +19956,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19446,7 +20070,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 38 37 39 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19615,7 +20247,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 86 85 87 10 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19812,7 +20452,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 142 141 143 17 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f47379e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19971,7 +20619,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3159:7 -1
      (nil))
 (call_insn 185 184 186 22 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19992,7 +20648,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3168:3 -1
      (nil))
 (call_insn 191 190 194 23 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20090,7 +20754,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20236,7 +20908,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 48 47 49 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20346,7 +21026,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 79 78 80 10 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20433,7 +21121,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 102 101 103 13 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20642,7 +21338,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3255:7 -1
      (nil))
 (call_insn 158 157 159 18 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20663,7 +21367,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3264:3 -1
      (nil))
 (call_insn 164 163 167 19 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7500 HAL_SPI_TxRxCpltCallback>) [0 HAL_SPI_TxRxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7500 HAL_SPI_TxRxCpltCallback>) [0 HAL_SPI_TxRxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7500 HAL_SPI_TxRxCpltCallback>) [0 HAL_SPI_TxRxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20722,7 +21434,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3282:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7600 HAL_SPI_TxHalfCpltCallback>) [0 HAL_SPI_TxHalfCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7600 HAL_SPI_TxHalfCpltCallback>) [0 HAL_SPI_TxHalfCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7600 HAL_SPI_TxHalfCpltCallback>) [0 HAL_SPI_TxHalfCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20779,7 +21499,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3300:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7700 HAL_SPI_RxHalfCpltCallback>) [0 HAL_SPI_RxHalfCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7700 HAL_SPI_RxHalfCpltCallback>) [0 HAL_SPI_RxHalfCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7700 HAL_SPI_RxHalfCpltCallback>) [0 HAL_SPI_RxHalfCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20836,7 +21564,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3318:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7800 HAL_SPI_TxRxHalfCpltCallback>) [0 HAL_SPI_TxRxHalfCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7800 HAL_SPI_TxRxHalfCpltCallback>) [0 HAL_SPI_TxRxHalfCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7800 HAL_SPI_TxRxHalfCpltCallback>) [0 HAL_SPI_TxRxHalfCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20953,7 +21689,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3341:3 -1
      (nil))
 (call_insn 26 25 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21040,7 +21784,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3361:3 -1
      (nil))
 (call_insn 18 17 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21158,7 +21910,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 20 19 21 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21181,7 +21941,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 25 24 26 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21249,7 +22017,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 43 42 44 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21278,7 +22054,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 50 49 51 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21522,7 +22306,15 @@ Forwarding edge 8->9 to 14 failed.
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3427:3 -1
      (nil))
 (call_insn 117 116 120 12 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21666,7 +22458,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 27 26 28 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21695,7 +22495,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 34 33 35 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21741,7 +22549,15 @@ Forwarding edge 8->9 to 14 failed.
 (note 44 43 45 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 45 44 46 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21770,7 +22586,15 @@ Forwarding edge 8->9 to 14 failed.
      (nil))
 (call_insn 52 51 53 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22014,7 +22838,15 @@ Forwarding edge 8->9 to 14 failed.
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3494:3 -1
      (nil))
 (call_insn 119 118 122 12 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7a00 HAL_SPI_AbortCpltCallback>) [0 HAL_SPI_AbortCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22392,7 +23224,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3533:19 -1
      (nil))
 (insn 103 102 104 9 (set (reg/f:SI 187)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_2linesRxISR_8BITCRC") [flags 0x3]  <function_decl 0x7f55ba9e7100 SPI_2linesRxISR_8BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3533:19 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_2linesRxISR_8BITCRC") [flags 0x3]  <function_decl 0x7f5b0f7e7100 SPI_2linesRxISR_8BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3533:19 -1
+=======
+        (symbol_ref:SI ("SPI_2linesRxISR_8BITCRC") [flags 0x3]  <function_decl 0x7f47379e7100 SPI_2linesRxISR_8BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3533:19 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 104 103 105 9 (set (mem/f:SI (plus:SI (reg/f:SI 186)
                 (const_int 76 [0x4c])) [7 hspi_38(D)->RxISR+0 S4 A32])
@@ -22459,7 +23299,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3543:7 -1
      (nil))
 (call_insn 124 123 127 11 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22638,7 +23486,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3574:7 -1
      (nil))
 (call_insn 41 40 44 5 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23039,7 +23895,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3622:7 -1
      (nil))
 (call_insn 112 111 115 10 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23222,7 +24086,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3645:19 -1
      (nil))
 (insn 42 41 43 5 (set (reg/f:SI 145)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_2linesRxISR_16BITCRC") [flags 0x3]  <function_decl 0x7f55ba9e7200 SPI_2linesRxISR_16BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3645:19 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_2linesRxISR_16BITCRC") [flags 0x3]  <function_decl 0x7f5b0f7e7200 SPI_2linesRxISR_16BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3645:19 -1
+=======
+        (symbol_ref:SI ("SPI_2linesRxISR_16BITCRC") [flags 0x3]  <function_decl 0x7f47379e7200 SPI_2linesRxISR_16BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3645:19 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 43 42 44 5 (set (mem/f:SI (plus:SI (reg/f:SI 144)
                 (const_int 76 [0x4c])) [7 hspi_19(D)->RxISR+0 S4 A32])
@@ -23289,7 +24161,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3655:7 -1
      (nil))
 (call_insn 63 62 66 7 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23388,7 +24268,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3679:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23672,7 +24560,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3715:7 -1
      (nil))
 (call_insn 73 72 76 7 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRxTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7500 SPI_CloseRxTx_ISR>) [0 SPI_CloseRxTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23799,7 +24695,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3740:5 -1
      (nil))
 (call_insn 27 26 30 4 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f47379e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24057,7 +24961,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3770:19 -1
      (nil))
 (insn 64 63 65 8 (set (reg/f:SI 153)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_RxISR_8BITCRC") [flags 0x3]  <function_decl 0x7f55ba9e4f00 SPI_RxISR_8BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3770:19 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_RxISR_8BITCRC") [flags 0x3]  <function_decl 0x7f5b0f7e4f00 SPI_RxISR_8BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3770:19 -1
+=======
+        (symbol_ref:SI ("SPI_RxISR_8BITCRC") [flags 0x3]  <function_decl 0x7f47379e4f00 SPI_RxISR_8BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3770:19 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 65 64 66 8 (set (mem/f:SI (plus:SI (reg/f:SI 152)
                 (const_int 76 [0x4c])) [7 hspi_21(D)->RxISR+0 S4 A32])
@@ -24075,7 +24987,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3774:5 -1
      (nil))
 (call_insn 71 70 74 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f47379e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24174,7 +25094,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3797:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f47379e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24427,7 +25355,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3826:19 -1
      (nil))
 (insn 63 62 64 8 (set (reg/f:SI 152)
+<<<<<<< HEAD
         (symbol_ref:SI ("SPI_RxISR_16BITCRC") [flags 0x3]  <function_decl 0x7f55ba9e7000 SPI_RxISR_16BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3826:19 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SPI_RxISR_16BITCRC") [flags 0x3]  <function_decl 0x7f5b0f7e7000 SPI_RxISR_16BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3826:19 -1
+=======
+        (symbol_ref:SI ("SPI_RxISR_16BITCRC") [flags 0x3]  <function_decl 0x7f47379e7000 SPI_RxISR_16BITCRC>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3826:19 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 64 63 65 8 (set (mem/f:SI (plus:SI (reg/f:SI 151)
                 (const_int 76 [0x4c])) [7 hspi_21(D)->RxISR+0 S4 A32])
@@ -24445,7 +25381,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3830:5 -1
      (nil))
 (call_insn 70 69 73 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseRx_ISR") [flags 0x3]  <function_decl 0x7f47379e7600 SPI_CloseRx_ISR>) [0 SPI_CloseRx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24650,7 +25594,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3855:5 -1
      (nil))
 (call_insn 51 50 54 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7700 SPI_CloseTx_ISR>) [0 SPI_CloseTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7700 SPI_CloseTx_ISR>) [0 SPI_CloseTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7700 SPI_CloseTx_ISR>) [0 SPI_CloseTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24852,7 +25804,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3881:5 -1
      (nil))
 (call_insn 50 49 53 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SPI_CloseTx_ISR") [flags 0x3]  <function_decl 0x7f55ba9e7700 SPI_CloseTx_ISR>) [0 SPI_CloseTx_ISR S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseTx_ISR") [flags 0x3]  <function_decl 0x7f5b0f7e7700 SPI_CloseTx_ISR>) [0 SPI_CloseTx_ISR S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("SPI_CloseTx_ISR") [flags 0x3]  <function_decl 0x7f47379e7700 SPI_CloseTx_ISR>) [0 SPI_CloseTx_ISR S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24949,7 +25909,15 @@ try_optimize_cfg iteration 2
 (note 8 6 11 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 11 8 12 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24981,7 +25949,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 18 17 19 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24994,7 +25970,15 @@ try_optimize_cfg iteration 2
         (reg:SI 0 r0)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3904:19 -1
      (nil))
 (insn 20 19 21 2 (set (reg/f:SI 158)
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f55bb54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3907:43 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b1034da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3907:43 -1
+=======
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f473854da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3907:43 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 21 20 22 2 (set (reg:SI 116 [ SystemCoreClock.46_3 ])
         (mem/c:SI (reg/f:SI 158) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3907:43 -1
@@ -25044,7 +26028,15 @@ try_optimize_cfg iteration 2
 (note 33 32 34 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 34 33 35 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25513,7 +26505,15 @@ try_optimize_cfg iteration 2
 (note 6 5 9 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 9 6 10 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25545,7 +26545,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25558,7 +26566,15 @@ try_optimize_cfg iteration 2
         (reg:SI 0 r0)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3974:19 -1
      (nil))
 (insn 18 17 19 2 (set (reg/f:SI 158)
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f55bb54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3977:43 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b1034da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3977:43 -1
+=======
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f473854da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":3977:43 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 19 18 20 2 (set (reg:SI 116 [ SystemCoreClock.49_3 ])
         (mem/c:SI (reg/f:SI 158) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":3977:43 -1
@@ -25689,7 +26705,15 @@ try_optimize_cfg iteration 2
 (note 53 52 54 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 54 53 55 8 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26225,7 +27249,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26370,7 +27402,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 77 76 78 12 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26521,7 +27561,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26605,7 +27653,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 36 35 37 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26689,7 +27745,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 58 57 59 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26817,7 +27881,15 @@ try_optimize_cfg iteration 2
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 6 3 7 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26868,7 +27940,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 18 17 19 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26999,7 +28079,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4135:5 -1
      (nil))
 (call_insn 52 51 53 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27077,7 +28165,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4150:9 -1
      (nil))
 (call_insn 74 73 75 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27112,7 +28208,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4160:9 -1
      (nil))
 (call_insn 84 83 85 10 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7500 HAL_SPI_TxRxCpltCallback>) [0 HAL_SPI_TxRxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7500 HAL_SPI_TxRxCpltCallback>) [0 HAL_SPI_TxRxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxRxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7500 HAL_SPI_TxRxCpltCallback>) [0 HAL_SPI_TxRxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27147,7 +28251,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4171:7 -1
      (nil))
 (call_insn 94 93 97 11 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27233,7 +28345,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27256,7 +28376,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 18 17 19 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTransaction") [flags 0x3]  <function_decl 0x7f47379e7800 SPI_EndRxTransaction>) [0 SPI_EndRxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27387,7 +28515,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4207:5 -1
      (nil))
 (call_insn 52 51 53 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27428,7 +28564,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4219:7 -1
      (nil))
 (call_insn 63 62 64 8 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7400 HAL_SPI_RxCpltCallback>) [0 HAL_SPI_RxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27449,7 +28593,15 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4228:7 -1
      (nil))
 (call_insn 69 68 72 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27508,7 +28660,15 @@ try_optimize_cfg iteration 2
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 6 3 7 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27559,7 +28719,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 18 17 19 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27712,7 +28880,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4271:5 -1
      (nil))
 (call_insn 59 58 60 8 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f55ba8e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f47378e7900 HAL_SPI_ErrorCallback>) [0 HAL_SPI_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27733,7 +28909,15 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [21 hspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4280:5 -1
      (nil))
 (call_insn 65 64 68 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f55ba8e7300 HAL_SPI_TxCpltCallback>) [0 HAL_SPI_TxCpltCallback S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f5b0f6e7300 HAL_SPI_TxCpltCallback>) [0 HAL_SPI_TxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f47378e7300 HAL_SPI_TxCpltCallback>) [0 HAL_SPI_TxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27816,7 +29000,15 @@ try_optimize_cfg iteration 2
         (reg:SI 117 [ _4 ])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4296:3 -1
      (nil))
 (insn 13 12 14 2 (set (reg/f:SI 139)
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f55bb54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":4298:56 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b1034da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":4298:56 -1
+=======
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f473854da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":4298:56 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 14 13 15 2 (set (reg:SI 118 [ SystemCoreClock.54_5 ])
         (mem/c:SI (reg/f:SI 139) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4298:56 -1
@@ -27962,7 +29154,15 @@ try_optimize_cfg iteration 2
 (note 53 52 54 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 54 53 55 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27991,7 +29191,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 61 60 62 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28037,7 +29245,15 @@ try_optimize_cfg iteration 2
 (note 71 70 72 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (call_insn 72 71 73 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28066,7 +29282,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 79 78 80 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28190,7 +29414,15 @@ try_optimize_cfg iteration 2
      (nil))
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (insn 6 3 7 2 (set (reg/f:SI 156)
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f55bb54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":4339:56 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b1034da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":4339:56 -1
+=======
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f473854da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_spi.c":4339:56 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 7 6 8 2 (set (reg:SI 114 [ SystemCoreClock.57_1 ])
         (mem/c:SI (reg/f:SI 156) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_spi.c":4339:56 -1
@@ -28336,7 +29568,15 @@ try_optimize_cfg iteration 2
 (note 46 45 47 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 47 46 48 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28359,7 +29599,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 52 51 53 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f55ba9e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f5b0f7e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_EndRxTxTransaction") [flags 0x3]  <function_decl 0x7f47379e7900 SPI_EndRxTxTransaction>) [0 SPI_EndRxTxTransaction S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28427,7 +29675,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 70 69 71 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28456,7 +29712,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 77 76 78 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28640,7 +29904,15 @@ try_optimize_cfg iteration 2
 (note 127 126 128 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (call_insn 128 127 129 16 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28669,7 +29941,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 135 134 136 16 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4500 SPI_WaitFlagStateUntilTimeout>) [0 SPI_WaitFlagStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28715,7 +29995,15 @@ try_optimize_cfg iteration 2
 (note 145 144 146 18 [bb 18] NOTE_INSN_BASIC_BLOCK)
 (call_insn 146 145 147 18 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ba9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5b0f7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f47379d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28744,7 +30032,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 153 152 154 18 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f55ba9e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f5b0f7e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("SPI_WaitFifoStateUntilTimeout") [flags 0x3]  <function_decl 0x7f47379e4600 SPI_WaitFifoStateUntilTimeout>) [0 SPI_WaitFifoStateUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

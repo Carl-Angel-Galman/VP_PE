@@ -146,7 +146,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 33 32 34 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f26429d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ed5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2d135d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -167,7 +175,15 @@ try_optimize_cfg iteration 2
 (note 37 65 38 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 38 37 39 6 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f26429d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f55ed5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2d135d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

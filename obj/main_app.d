@@ -41,7 +41,11 @@ obj/main_app.o: src/main_app.c lib/HAL/Inc/stm32g4xx_hal.h \
  src/Util/Log/printf.h src/Util/Log/LogOutput.h src/HAL/UARTModule.h \
  src/HAL/ButtonModule.h src/HAL/LEDModule.h src/HAL/DisplayModule.h \
  src/HAL/ADCModule.h src/HAL/TimerModule.h src/OS/Scheduler.h \
+<<<<<<< HEAD
+ src/Service/GlobalObjects.h src/App/Application.h src/App/AppTasks.h
+=======
  src/Service/GlobalObjects.h
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 lib/HAL/Inc/stm32g4xx_hal.h:
 lib/HAL/Inc/stm32g4xx_hal_conf.h:
 lib/HAL/Inc/stm32g4xx_hal_rcc.h:
@@ -129,3 +133,8 @@ src/HAL/ADCModule.h:
 src/HAL/TimerModule.h:
 src/OS/Scheduler.h:
 src/Service/GlobalObjects.h:
+<<<<<<< HEAD
+src/App/Application.h:
+src/App/AppTasks.h:
+=======
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec

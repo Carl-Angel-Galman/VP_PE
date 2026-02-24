@@ -220,7 +220,15 @@ try_optimize_cfg iteration 2
         (reg:SI 117)) "src/Util/Log/printf.c":153:5 -1
      (nil))
 (call_insn 17 16 20 4 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("_putchar") [flags 0x41]  <function_decl 0x7f98d2651b00 _putchar>) [0 _putchar S4 A32])
+=======
+<<<<<<< HEAD
+            (call (mem:SI (symbol_ref:SI ("_putchar") [flags 0x41]  <function_decl 0x7fb36e051b00 _putchar>) [0 _putchar S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("_putchar") [flags 0x41]  <function_decl 0x7ff015e51b00 _putchar>) [0 _putchar S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -739,7 +747,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7f98d2694b00 _is_digit>) [0 _is_digit S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7fb36e094b00 _is_digit>) [0 _is_digit S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7ff015e94b00 _is_digit>) [0 _is_digit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2266,7 +2282,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 292 291 293 46 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7f98d2694f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7fb36e094f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7ff015e94f00 _out_rev>) [0 _out_rev S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 16 [0x10])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2706,7 +2730,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 114 113 115 16 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_format") [flags 0x3]  <function_decl 0x7f98d26a7100 _ntoa_format>) [0 _ntoa_format S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_format") [flags 0x3]  <function_decl 0x7fb36e0a7100 _ntoa_format>) [0 _ntoa_format S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_format") [flags 0x3]  <function_decl 0x7ff015ea7100 _ntoa_format>) [0 _ntoa_format S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 32 [0x20])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2911,7 +2943,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn/u 34 33 35 8 (parallel [
             (set (reg:TI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7f98d2939600 __aeabi_uldivmod>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7fb36e339600 __aeabi_uldivmod>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7ff016139600 __aeabi_uldivmod>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3059,7 +3099,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn/u 82 81 83 14 (parallel [
             (set (reg:DI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7f98d2939600 __aeabi_uldivmod>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7fb36e339600 __aeabi_uldivmod>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7ff016139600 __aeabi_uldivmod>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3188,7 +3236,15 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 115 114 116 16 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_format") [flags 0x3]  <function_decl 0x7f98d26a7100 _ntoa_format>) [0 _ntoa_format S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_format") [flags 0x3]  <function_decl 0x7fb36e0a7100 _ntoa_format>) [0 _ntoa_format S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_format") [flags 0x3]  <function_decl 0x7ff015ea7100 _ntoa_format>) [0 _ntoa_format S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 32 [0x20])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3485,7 +3541,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 15 14 16 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpeq") [flags 0x41]  <function_decl 0x7f98d2935100 __aeabi_dcmpeq>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpeq") [flags 0x41]  <function_decl 0x7fb36e335100 __aeabi_dcmpeq>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpeq") [flags 0x41]  <function_decl 0x7ff016135100 __aeabi_dcmpeq>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3544,7 +3608,15 @@ Forwarding edge 67->68 to 70 failed.
         (reg:SI 158)) "src/Util/Log/printf.c":350:12 -1
      (nil))
 (insn 29 28 30 6 (set (reg/f:SI 159)
+<<<<<<< HEAD
         (symbol_ref/f:SI ("*.LC0") [flags 0x2]  <var_decl 0x7f98d27873f0 *.LC0>)) "src/Util/Log/printf.c":350:12 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref/f:SI ("*.LC0") [flags 0x2]  <var_decl 0x7fb36e1873f0 *.LC0>)) "src/Util/Log/printf.c":350:12 -1
+=======
+        (symbol_ref/f:SI ("*.LC0") [flags 0x2]  <var_decl 0x7ff015f873f0 *.LC0>)) "src/Util/Log/printf.c":350:12 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 30 29 31 6 (set (mem:SI (reg/f:SI 111 virtual-outgoing-args) [0  S4 A32])
         (reg/f:SI 159)) "src/Util/Log/printf.c":350:12 -1
@@ -3567,7 +3639,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn 35 34 36 6 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7f98d2694f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7fb36e094f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7ff015e94f00 _out_rev>) [0 _out_rev S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 16 [0x10])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3604,7 +3684,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 43 42 44 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3663,7 +3751,15 @@ Forwarding edge 67->68 to 70 failed.
         (reg:SI 163)) "src/Util/Log/printf.c":352:12 -1
      (nil))
 (insn 57 56 58 10 (set (reg/f:SI 164)
+<<<<<<< HEAD
         (symbol_ref/f:SI ("*.LC1") [flags 0x2]  <var_decl 0x7f98d2787480 *.LC1>)) "src/Util/Log/printf.c":352:12 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref/f:SI ("*.LC1") [flags 0x2]  <var_decl 0x7fb36e187480 *.LC1>)) "src/Util/Log/printf.c":352:12 -1
+=======
+        (symbol_ref/f:SI ("*.LC1") [flags 0x2]  <var_decl 0x7ff015f87480 *.LC1>)) "src/Util/Log/printf.c":352:12 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 58 57 59 10 (set (mem:SI (reg/f:SI 111 virtual-outgoing-args) [0  S4 A32])
         (reg/f:SI 164)) "src/Util/Log/printf.c":352:12 -1
@@ -3686,7 +3782,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn 63 62 64 10 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7f98d2694f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7fb36e094f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7ff015e94f00 _out_rev>) [0 _out_rev S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 16 [0x10])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3723,7 +3827,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 71 70 72 11 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7f98d2935600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7fb36e335600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7ff016135600 __aeabi_dcmpgt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3779,7 +3891,15 @@ Forwarding edge 67->68 to 70 failed.
  -> 87)
 (note 83 82 84 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
 (insn 84 83 85 15 (set (reg/f:SI 150 [ iftmp.19_61 ])
+<<<<<<< HEAD
         (symbol_ref/f:SI ("*.LC2") [flags 0x2]  <var_decl 0x7f98d2787510 *.LC2>)) "src/Util/Log/printf.c":354:12 discrim 1 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref/f:SI ("*.LC2") [flags 0x2]  <var_decl 0x7fb36e187510 *.LC2>)) "src/Util/Log/printf.c":354:12 discrim 1 -1
+=======
+        (symbol_ref/f:SI ("*.LC2") [flags 0x2]  <var_decl 0x7ff015f87510 *.LC2>)) "src/Util/Log/printf.c":354:12 discrim 1 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (jump_insn 85 84 86 15 (set (pc)
         (label_ref 90)) -1
@@ -3789,7 +3909,15 @@ Forwarding edge 67->68 to 70 failed.
 (code_label 87 86 88 16 81 (nil) [1 uses])
 (note 88 87 89 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 89 88 90 16 (set (reg/f:SI 150 [ iftmp.19_61 ])
+<<<<<<< HEAD
         (symbol_ref/f:SI ("*.LC3") [flags 0x2]  <var_decl 0x7f98d27875a0 *.LC3>)) "src/Util/Log/printf.c":354:12 discrim 2 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref/f:SI ("*.LC3") [flags 0x2]  <var_decl 0x7fb36e1875a0 *.LC3>)) "src/Util/Log/printf.c":354:12 discrim 2 -1
+=======
+        (symbol_ref/f:SI ("*.LC3") [flags 0x2]  <var_decl 0x7ff015f875a0 *.LC3>)) "src/Util/Log/printf.c":354:12 discrim 2 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (code_label 90 89 91 17 82 (nil) [1 uses])
 (note 91 90 92 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
@@ -3869,7 +3997,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn 115 114 116 20 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7f98d2694f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7fb36e094f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7ff015e94f00 _out_rev>) [0 _out_rev S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 16 [0x10])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3906,7 +4042,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 123 122 124 21 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7f98d2935600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7fb36e335600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7ff016135600 __aeabi_dcmpgt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3942,7 +4086,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 130 129 131 22 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4025,7 +4177,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn 151 150 152 25 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_etoa") [flags 0x3]  <function_decl 0x7f98d26a7700 _etoa>) [0 _etoa S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_etoa") [flags 0x3]  <function_decl 0x7fb36e0a7700 _etoa>) [0 _etoa S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_etoa") [flags 0x3]  <function_decl 0x7ff015ea7700 _etoa>) [0 _etoa S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4072,7 +4232,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 162 161 163 26 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4125,7 +4293,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 175 174 176 29 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4260,7 +4436,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 219 218 220 36 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7f98d2936300 __aeabi_d2iz>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7fb36e336300 __aeabi_d2iz>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7ff016136300 __aeabi_d2iz>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4284,7 +4468,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 223 222 224 36 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7f98d2936d00 __aeabi_i2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7fb36e336d00 __aeabi_i2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7ff016136d00 __aeabi_i2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4307,7 +4499,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 227 226 228 36 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4327,7 +4527,15 @@ Forwarding edge 67->68 to 70 failed.
         (reg:DF 193 [ _6 ])) "src/Util/Log/printf.c":384:23 -1
      (nil))
 (insn 230 229 231 36 (set (reg/f:SI 194)
+<<<<<<< HEAD
         (symbol_ref:SI ("pow10.0") [flags 0x2]  <var_decl 0x7f98d26b05a0 pow10>)) "src/Util/Log/printf.c":384:39 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("pow10.0") [flags 0x2]  <var_decl 0x7fb36e0b05a0 pow10>)) "src/Util/Log/printf.c":384:39 -1
+=======
+        (symbol_ref:SI ("pow10.0") [flags 0x2]  <var_decl 0x7ff015eb05a0 pow10>)) "src/Util/Log/printf.c":384:39 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 231 230 232 36 (set (reg:SI 195)
         (mem/c:SI (plus:SI (reg/f:SI 108 virtual-incoming-args)
@@ -4352,7 +4560,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 237 236 238 36 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4378,7 +4594,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 241 240 242 36 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_d2uiz") [flags 0x41]  <function_decl 0x7f98d2936400 __aeabi_d2uiz>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2uiz") [flags 0x41]  <function_decl 0x7fb36e336400 __aeabi_d2uiz>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2uiz") [flags 0x41]  <function_decl 0x7ff016136400 __aeabi_d2uiz>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4403,7 +4627,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 245 244 246 36 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ui2d") [flags 0x41]  <function_decl 0x7f98d2936e00 __aeabi_ui2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ui2d") [flags 0x41]  <function_decl 0x7fb36e336e00 __aeabi_ui2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ui2d") [flags 0x41]  <function_decl 0x7ff016136e00 __aeabi_ui2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4427,7 +4659,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 249 248 250 36 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4457,7 +4697,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 254 253 255 36 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7f98d2935600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7fb36e335600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7ff016135600 __aeabi_dcmpgt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4511,7 +4759,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 266 265 267 39 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ui2d") [flags 0x41]  <function_decl 0x7f98d2936e00 __aeabi_ui2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ui2d") [flags 0x41]  <function_decl 0x7fb36e336e00 __aeabi_ui2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ui2d") [flags 0x41]  <function_decl 0x7ff016136e00 __aeabi_ui2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4527,7 +4783,15 @@ Forwarding edge 67->68 to 70 failed.
                     (const_int -16 [0xfffffffffffffff0])) [13 frac+0 S4 A64]))
         (nil)))
 (insn 268 267 269 39 (set (reg/f:SI 204)
+<<<<<<< HEAD
         (symbol_ref:SI ("pow10.0") [flags 0x2]  <var_decl 0x7f98d26b05a0 pow10>)) "src/Util/Log/printf.c":391:22 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("pow10.0") [flags 0x2]  <var_decl 0x7fb36e0b05a0 pow10>)) "src/Util/Log/printf.c":391:22 -1
+=======
+        (symbol_ref:SI ("pow10.0") [flags 0x2]  <var_decl 0x7ff015eb05a0 pow10>)) "src/Util/Log/printf.c":391:22 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 269 268 270 39 (set (reg:SI 205)
         (mem/c:SI (plus:SI (reg/f:SI 108 virtual-incoming-args)
@@ -4552,7 +4816,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 275 274 276 39 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpge") [flags 0x41]  <function_decl 0x7f98d2935500 __aeabi_dcmpge>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpge") [flags 0x41]  <function_decl 0x7fb36e335500 __aeabi_dcmpge>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpge") [flags 0x41]  <function_decl 0x7ff016135500 __aeabi_dcmpge>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4622,7 +4894,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 294 293 295 43 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4724,7 +5004,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 319 318 320 48 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7f98d2936d00 __aeabi_i2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7fb36e336d00 __aeabi_i2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7ff016136d00 __aeabi_i2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4747,7 +5035,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 323 322 324 48 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4783,7 +5079,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 330 329 331 48 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4852,7 +5156,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn/u 345 344 346 51 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7f98d2935600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7fb36e335600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7ff016135600 __aeabi_dcmpgt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5781,7 +6093,15 @@ Forwarding edge 67->68 to 70 failed.
      (nil))
 (call_insn 619 618 620 87 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7f98d2694f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7fb36e094f00 _out_rev>) [0 _out_rev S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_out_rev") [flags 0x3]  <function_decl 0x7ff015e94f00 _out_rev>) [0 _out_rev S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 16 [0x10])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5983,7 +6303,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpeq") [flags 0x41]  <function_decl 0x7f98d2935100 __aeabi_dcmpeq>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpeq") [flags 0x41]  <function_decl 0x7fb36e335100 __aeabi_dcmpeq>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpeq") [flags 0x41]  <function_decl 0x7ff016135100 __aeabi_dcmpeq>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6019,7 +6347,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 18 17 19 4 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7f98d2935600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7fb36e335600 __aeabi_dcmpgt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpgt") [flags 0x41]  <function_decl 0x7ff016135600 __aeabi_dcmpgt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6055,7 +6391,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 25 24 26 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6138,7 +6482,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn 46 45 47 8 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7f98d26a7800 _ftoa>) [0 _ftoa S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7fb36e0a7800 _ftoa>) [0 _ftoa S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7ff015ea7800 _ftoa>) [0 _ftoa S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6182,7 +6534,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 56 55 57 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6349,7 +6709,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 100 99 101 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7f98d2936d00 __aeabi_i2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7fb36e336d00 __aeabi_i2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7ff016136d00 __aeabi_i2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6372,7 +6740,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 104 103 105 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6399,7 +6775,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 109 108 110 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6430,7 +6814,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 115 114 116 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6457,7 +6849,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 120 119 121 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6484,7 +6884,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 125 124 126 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6508,7 +6916,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 129 128 130 15 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7f98d2936300 __aeabi_d2iz>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7fb36e336300 __aeabi_d2iz>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7ff016136300 __aeabi_d2iz>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6532,7 +6948,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 133 132 134 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7f98d2936d00 __aeabi_i2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7fb36e336d00 __aeabi_i2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7ff016136d00 __aeabi_i2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6555,7 +6979,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 137 136 138 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6582,7 +7014,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 142 141 143 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6606,7 +7046,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 146 145 147 15 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7f98d2936300 __aeabi_d2iz>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7fb36e336300 __aeabi_d2iz>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_d2iz") [flags 0x41]  <function_decl 0x7ff016136300 __aeabi_d2iz>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6630,7 +7078,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 150 149 151 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7f98d2936d00 __aeabi_i2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7fb36e336d00 __aeabi_i2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7ff016136d00 __aeabi_i2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6653,7 +7109,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 154 153 155 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6678,7 +7142,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 158 157 159 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7f98d2936d00 __aeabi_i2d>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7fb36e336d00 __aeabi_i2d>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_i2d") [flags 0x41]  <function_decl 0x7ff016136d00 __aeabi_i2d>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6701,7 +7173,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 162 161 163 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6728,7 +7208,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 167 166 168 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6758,7 +7246,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 172 171 173 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6828,7 +7324,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 188 187 189 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6856,7 +7360,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 193 192 194 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7f98d2935000 __aeabi_dsub>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7fb36e335000 __aeabi_dsub>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dsub") [flags 0x41]  <function_decl 0x7ff016135000 __aeabi_dsub>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6885,7 +7397,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 198 197 199 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7f98d2933d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7fb36e333d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7ff016133d00 __aeabi_ddiv>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6913,7 +7433,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 203 202 204 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6941,7 +7469,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 208 207 209 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7f98d2933d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7fb36e333d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7ff016133d00 __aeabi_ddiv>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6969,7 +7505,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 213 212 214 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6997,7 +7541,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 218 217 219 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7f98d2933d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7fb36e333d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7ff016133d00 __aeabi_ddiv>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7025,7 +7577,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 223 222 224 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7052,7 +7612,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 228 227 229 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7f98d2933d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7fb36e333d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7ff016133d00 __aeabi_ddiv>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7079,7 +7647,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 233 232 234 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7f98d2933c00 __aeabi_dadd>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7fb36e333c00 __aeabi_dadd>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dadd") [flags 0x41]  <function_decl 0x7ff016133c00 __aeabi_dadd>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7106,7 +7682,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 238 237 239 15 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7f98d2933e00 __aeabi_dmul>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7fb36e333e00 __aeabi_dmul>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dmul") [flags 0x41]  <function_decl 0x7ff016133e00 __aeabi_dmul>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7141,7 +7725,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 245 244 246 15 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7200,7 +7792,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 259 258 260 18 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7f98d2933d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7fb36e333d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7ff016133d00 __aeabi_ddiv>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7304,7 +7904,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 293 292 294 24 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpge") [flags 0x41]  <function_decl 0x7f98d2935500 __aeabi_dcmpge>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpge") [flags 0x41]  <function_decl 0x7fb36e335500 __aeabi_dcmpge>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmpge") [flags 0x41]  <function_decl 0x7ff016135500 __aeabi_dcmpge>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7347,7 +7955,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 303 302 304 27 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7f98d2935200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7fb36e335200 __aeabi_dcmplt>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_dcmplt") [flags 0x41]  <function_decl 0x7ff016135200 __aeabi_dcmplt>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7654,7 +8270,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn/u 393 392 394 44 (parallel [
             (set (reg:DF 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7f98d2933d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7fb36e333d00 __aeabi_ddiv>) [0  S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("__aeabi_ddiv") [flags 0x41]  <function_decl 0x7ff016133d00 __aeabi_ddiv>) [0  S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7771,7 +8395,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn 426 425 427 48 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7f98d26a7800 _ftoa>) [0 _ftoa S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7fb36e0a7800 _ftoa>) [0 _ftoa S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7ff015ea7800 _ftoa>) [0 _ftoa S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7970,7 +8602,15 @@ Forwarding edge 27->28 to 34 failed.
      (nil))
 (call_insn 477 476 478 52 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7f98d26a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7fb36e0a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7ff015ea7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8485,7 +9125,15 @@ Forwarding edge 49->50 to 137 failed.
  -> 17)
 (note 14 13 15 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (insn 15 14 16 4 (set (reg/f:SI 350)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_null") [flags 0x3]  <function_decl 0x7f98d2694300 _out_null>)) "src/Util/Log/printf.c":584:9 -1
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_null") [flags 0x3]  <function_decl 0x7fb36e094300 _out_null>)) "src/Util/Log/printf.c":584:9 -1
+=======
+        (symbol_ref:SI ("_out_null") [flags 0x3]  <function_decl 0x7ff015e94300 _out_null>)) "src/Util/Log/printf.c":584:9 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
      (nil))
 (insn 16 15 17 4 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -76 [0xffffffffffffffb4])) [11 out+0 S4 A32])
@@ -8897,7 +9545,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 135 134 136 17 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7f98d2694b00 _is_digit>) [0 _is_digit S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7fb36e094b00 _is_digit>) [0 _is_digit S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7ff015e94b00 _is_digit>) [0 _is_digit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8933,7 +9589,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 143 142 144 18 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_atoi") [flags 0x3]  <function_decl 0x7f98d2694d00 _atoi>) [0 _atoi S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_atoi") [flags 0x3]  <function_decl 0x7fb36e094d00 _atoi>) [0 _atoi S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_atoi") [flags 0x3]  <function_decl 0x7ff015e94d00 _atoi>) [0 _atoi S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9121,7 +9785,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 200 199 201 25 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7f98d2694b00 _is_digit>) [0 _is_digit S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7fb36e094b00 _is_digit>) [0 _is_digit S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_is_digit") [flags 0x3]  <function_decl 0x7ff015e94b00 _is_digit>) [0 _is_digit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9157,7 +9829,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 208 207 209 26 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_atoi") [flags 0x3]  <function_decl 0x7f98d2694d00 _atoi>) [0 _atoi S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_atoi") [flags 0x3]  <function_decl 0x7fb36e094d00 _atoi>) [0 _atoi S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_atoi") [flags 0x3]  <function_decl 0x7ff015e94d00 _atoi>) [0 _atoi S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10283,7 +10963,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 534 533 535 71 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7f98d26a7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7fb36e0a7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7ff015ea7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 40 [0x28])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10435,7 +11123,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 572 571 573 73 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7f98d26a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7fb36e0a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7ff015ea7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10661,7 +11357,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 639 638 640 80 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7f98d26a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7fb36e0a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7ff015ea7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10805,7 +11509,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 676 675 677 83 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7f98d26a7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7fb36e0a7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7ff015ea7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 40 [0x28])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10932,7 +11644,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 706 705 707 85 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7f98d26a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7fb36e0a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7ff015ea7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11141,7 +11861,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 767 766 768 92 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7f98d26a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7fb36e0a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7ff015ea7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11288,7 +12016,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 805 804 806 96 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7f98d26a7800 _ftoa>) [0 _ftoa S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7fb36e0a7800 _ftoa>) [0 _ftoa S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ftoa") [flags 0x3]  <function_decl 0x7ff015ea7800 _ftoa>) [0 _ftoa S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11502,7 +12238,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 863 862 864 103 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_etoa") [flags 0x3]  <function_decl 0x7f98d26a7700 _etoa>) [0 _etoa S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_etoa") [flags 0x3]  <function_decl 0x7fb36e0a7700 _etoa>) [0 _etoa S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_etoa") [flags 0x3]  <function_decl 0x7ff015ea7700 _etoa>) [0 _etoa S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11889,7 +12633,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 970 969 971 116 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_strnlen_s") [flags 0x3]  <function_decl 0x7f98d2694900 _strnlen_s>) [0 _strnlen_s S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_strnlen_s") [flags 0x3]  <function_decl 0x7fb36e094900 _strnlen_s>) [0 _strnlen_s S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_strnlen_s") [flags 0x3]  <function_decl 0x7ff015e94900 _strnlen_s>) [0 _strnlen_s S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12425,7 +13177,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 1117 1116 1118 133 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7f98d26a7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7fb36e0a7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long_long") [flags 0x3]  <function_decl 0x7ff015ea7500 _ntoa_long_long>) [0 _ntoa_long_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 40 [0x28])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12534,7 +13294,15 @@ Forwarding edge 49->50 to 137 failed.
      (nil))
 (call_insn 1143 1142 1144 134 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7f98d26a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+<<<<<<< HEAD
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7fb36e0a7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("_ntoa_long") [flags 0x3]  <function_decl 0x7ff015ea7300 _ntoa_long>) [0 _ntoa_long S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12875,11 +13643,27 @@ try_optimize_cfg iteration 2
         (reg:SI 117)) "src/Util/Log/printf.c":867:19 -1
      (nil))
 (insn 13 12 14 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_char") [flags 0x3]  <function_decl 0x7f98d2694500 _out_char>)) "src/Util/Log/printf.c":867:19 -1
      (nil))
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7f98d26a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_char") [flags 0x3]  <function_decl 0x7fb36e094500 _out_char>)) "src/Util/Log/printf.c":867:19 -1
+     (nil))
+(call_insn 14 13 15 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7fb36e0a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+        (symbol_ref:SI ("_out_char") [flags 0x3]  <function_decl 0x7ff015e94500 _out_char>)) "src/Util/Log/printf.c":867:19 -1
+     (nil))
+(call_insn 14 13 15 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7ff015ea7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12971,11 +13755,27 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [4 buffer+0 S4 A32])) "src/Util/Log/printf.c":877:19 -1
      (nil))
 (insn 13 12 14 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7f98d2694100 _out_buffer>)) "src/Util/Log/printf.c":877:19 -1
      (nil))
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7f98d26a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7fb36e094100 _out_buffer>)) "src/Util/Log/printf.c":877:19 -1
+     (nil))
+(call_insn 14 13 15 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7fb36e0a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+        (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7ff015e94100 _out_buffer>)) "src/Util/Log/printf.c":877:19 -1
+     (nil))
+(call_insn 14 13 15 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7ff015ea7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13072,11 +13872,27 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [4 buffer+0 S4 A32])) "src/Util/Log/printf.c":887:19 -1
      (nil))
 (insn 14 13 15 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7f98d2694100 _out_buffer>)) "src/Util/Log/printf.c":887:19 -1
      (nil))
 (call_insn 15 14 16 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7f98d26a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7fb36e094100 _out_buffer>)) "src/Util/Log/printf.c":887:19 -1
+     (nil))
+(call_insn 15 14 16 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7fb36e0a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+        (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7ff015e94100 _out_buffer>)) "src/Util/Log/printf.c":887:19 -1
+     (nil))
+(call_insn 15 14 16 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7ff015ea7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13168,11 +13984,27 @@ try_optimize_cfg iteration 2
         (reg:SI 116)) "src/Util/Log/printf.c":896:10 -1
      (nil))
 (insn 13 12 14 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_char") [flags 0x3]  <function_decl 0x7f98d2694500 _out_char>)) "src/Util/Log/printf.c":896:10 -1
      (nil))
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7f98d26a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_char") [flags 0x3]  <function_decl 0x7fb36e094500 _out_char>)) "src/Util/Log/printf.c":896:10 -1
+     (nil))
+(call_insn 14 13 15 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7fb36e0a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+        (symbol_ref:SI ("_out_char") [flags 0x3]  <function_decl 0x7ff015e94500 _out_char>)) "src/Util/Log/printf.c":896:10 -1
+     (nil))
+(call_insn 14 13 15 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7ff015ea7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13265,11 +14097,27 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [4 buffer+0 S4 A32])) "src/Util/Log/printf.c":902:10 -1
      (nil))
 (insn 14 13 15 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7f98d2694100 _out_buffer>)) "src/Util/Log/printf.c":902:10 -1
      (nil))
 (call_insn 15 14 16 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7f98d26a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7fb36e094100 _out_buffer>)) "src/Util/Log/printf.c":902:10 -1
+     (nil))
+(call_insn 15 14 16 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7fb36e0a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+        (symbol_ref:SI ("_out_buffer") [flags 0x3]  <function_decl 0x7ff015e94100 _out_buffer>)) "src/Util/Log/printf.c":902:10 -1
+     (nil))
+(call_insn 15 14 16 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7ff015ea7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13379,11 +14227,27 @@ try_optimize_cfg iteration 2
         (reg:SI 119)) "src/Util/Log/printf.c":911:19 -1
      (nil))
 (insn 19 18 20 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("_out_fct") [flags 0x3]  <function_decl 0x7f98d2694700 _out_fct>)) "src/Util/Log/printf.c":911:19 -1
      (nil))
 (call_insn 20 19 21 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7f98d26a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+<<<<<<< HEAD
+        (symbol_ref:SI ("_out_fct") [flags 0x3]  <function_decl 0x7fb36e094700 _out_fct>)) "src/Util/Log/printf.c":911:19 -1
+     (nil))
+(call_insn 20 19 21 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7fb36e0a7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+=======
+        (symbol_ref:SI ("_out_fct") [flags 0x3]  <function_decl 0x7ff015e94700 _out_fct>)) "src/Util/Log/printf.c":911:19 -1
+     (nil))
+(call_insn 20 19 21 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("_vsnprintf") [flags 0x3]  <function_decl 0x7ff015ea7c00 _vsnprintf>) [0 _vsnprintf S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+>>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
