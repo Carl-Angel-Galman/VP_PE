@@ -35,7 +35,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn/i 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f85920d9500 strlen>) [0 __builtin_strlen S4 A32])
+                (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f8d89cd9500 strlen>) [0 __builtin_strlen S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -62,7 +62,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 12 11 0 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8590e3fd00 uartSendData>) [0 uartSendData S4 A32])
+                (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8d88c3fd00 uartSendData>) [0 uartSendData S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -129,7 +129,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f8590e3ff00 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
+                (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f8d88c3ff00 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -221,11 +221,11 @@ try_optimize_cfg iteration 2
         (const_int 128 [0x80])) "src/Util/Log/LogOutput.c":90:11 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f8590e303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":90:11 -1
+        (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f8d88c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":90:11 -1
      (nil))
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("vsnprintf_") [flags 0x41]  <function_decl 0x7f8591ceb800 vsnprintf_>) [0 vsnprintf_ S4 A32])
+                (call (mem:SI (symbol_ref:SI ("vsnprintf_") [flags 0x41]  <function_decl 0x7f8d89aeb800 vsnprintf_>) [0 vsnprintf_ S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -278,11 +278,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [4 ret+0 S4 A32])) "src/Util/Log/LogOutput.c":94:9 -1
      (nil))
 (insn 28 27 29 5 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f8590e303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":94:9 -1
+        (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f8d88c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":94:9 -1
      (nil))
 (call_insn 29 28 30 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8590e3fd00 uartSendData>) [0 uartSendData S4 A32])
+                (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8d88c3fd00 uartSendData>) [0 uartSendData S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

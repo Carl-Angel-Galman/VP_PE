@@ -88,7 +88,6 @@ int8_t key[] = "VP2026";
 
 volatile int8_t *sig = (volatile int8_t *)APP_SIGNATURE_ADDR ;
 
-
 int8_t key_input_buffer[8u];
 
 bool key_received = false;
@@ -111,10 +110,7 @@ void verify(void)
 	start();
 
 	while (1) { }
-    //switch_to_app();
-//    if (sig[0]=='U' && sig[1]=='M' && sig[2]=='M' && sig[3]=='S')
-//        {
-//        }
+
 }
 
 
@@ -167,24 +163,22 @@ int8_t Auth_WaitForA(void)
     uint32_t start = HAL_GetTick();
     uint8_t ch;
 
-   // while ((HAL_GetTick() - start) < 15000u)
-    //{
-        int32_t r = uartReceiveData(&ch, 1, 5000u);
 
-        if (r == UART_ERR_OK)
-        {
-            if (ch == (uint8_t)'A')
-            {
-                return AUTH_ERR_OK ;
-            }
-            // ignore other chars
-        }
-        else if (r == UART_ERR_TIMEOUT)
-        {
-            return AUTH_ERR_TIMEOUT; // treat UART error as failure
-        }
-        // UART_ERR_TIMEOUT -> just keep looping
-    //}
+	int32_t r = uartReceiveData(&ch, 1, 5000u);
+
+	if (r == UART_ERR_OK)
+	{
+		if (ch == (uint8_t)'A')
+		{
+			return AUTH_ERR_OK ;
+		}
+		// ignore other chars
+	}
+	else if (r == UART_ERR_TIMEOUT)
+	{
+		return AUTH_ERR_TIMEOUT; // treat UART error as failure
+	}
+
 
     return -1; // 15s timeout
 }
@@ -225,21 +219,19 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
         	if (elapsed >= 30000u)
         	{
         		auth_Scheduler.pTask_250ms = Flash_D1;
-        		key_input_stage = FIRST_WARNING;
+        		key_input_stage = SECOND_WARNING;
         	}
         	break;
 
         case SECOND_WARNING:
         	schedCycle(&auth_Scheduler);
         	if (elapsed >= 45000u)
-        	        		key_input_stage = FIRST_WARNING;
-
+        	        		key_input_stage = TIMEOUT;
         	break;
 
         case TIMEOUT:
         		return AUTH_ERR_TIMEOUT;
         	break;
-
         }
 
 
@@ -284,15 +276,6 @@ int8_t Auth_init(void)
 
 
 	return AUTH_ERR_OK;
-}
-
-static void D1_FlashUpdate(int32_t nowMs)
-{
-    static uint32_t lastToggleMs = 0;
-    if ((nowMs - lastToggleMs) >= 250u) { // 4 Hz
-        lastToggleMs = nowMs;
-        ledToggleLED(LED1);
-    }
 }
 
 static void Flash_D1(void)

@@ -108,7 +108,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [6 hrng+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rng.c":190:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_MspInit") [flags 0x3]  <function_decl 0x7fa835824600 HAL_RNG_MspInit>) [0 HAL_RNG_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_MspInit") [flags 0x3]  <function_decl 0x7ff4c8e24600 HAL_RNG_MspInit>) [0 HAL_RNG_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -374,7 +374,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [6 hrng+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rng.c":245:3 -1
      (nil))
 (call_insn 37 36 38 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_MspDeInit") [flags 0x3]  <function_decl 0x7fa835824700 HAL_RNG_MspDeInit>) [0 HAL_RNG_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_MspDeInit") [flags 0x3]  <function_decl 0x7ff4c8e24700 HAL_RNG_MspDeInit>) [0 HAL_RNG_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -646,7 +646,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 35 34 36 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fa8359d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7ff4c8fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -667,7 +667,7 @@ try_optimize_cfg iteration 2
 (note 39 69 40 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 40 39 41 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fa8359d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7ff4c8fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1289,7 +1289,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hrng+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rng.c":691:5 -1
      (nil))
 (call_insn 47 46 48 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_ErrorCallback") [flags 0x3]  <function_decl 0x7fa835824c00 HAL_RNG_ErrorCallback>) [0 HAL_RNG_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_ErrorCallback") [flags 0x3]  <function_decl 0x7ff4c8e24c00 HAL_RNG_ErrorCallback>) [0 HAL_RNG_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1451,7 +1451,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hrng+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rng.c":719:7 -1
      (nil))
 (call_insn 92 91 95 11 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_ReadyDataCallback") [flags 0x3]  <function_decl 0x7fa835824d00 HAL_RNG_ReadyDataCallback>) [0 HAL_RNG_ReadyDataCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_RNG_ReadyDataCallback") [flags 0x3]  <function_decl 0x7ff4c8e24d00 HAL_RNG_ReadyDataCallback>) [0 HAL_RNG_ReadyDataCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

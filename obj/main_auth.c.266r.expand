@@ -55,7 +55,7 @@ try_optimize_cfg iteration 2
 (code_label 111 2 5 4 12 (nil) [1 uses])
 (note 5 111 6 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (insn 6 5 7 4 (set (reg/f:SI 128)
-        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7ffbf0981d80 current_state>)) "src/main_auth.c":81:2 -1
+        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7f0c1f981d80 current_state>)) "src/main_auth.c":81:2 -1
      (nil))
 (insn 7 6 8 4 (set (reg:SI 114 [ current_state.0_1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 128) [0 current_state+0 S1 A8]))) "src/main_auth.c":81:2 -1
@@ -92,7 +92,7 @@ try_optimize_cfg iteration 2
 (note 14 13 15 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 15 14 16 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_Init") [flags 0x41]  <function_decl 0x7ffbf09d7800 HAL_Init>) [0 HAL_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_Init") [flags 0x41]  <function_decl 0x7f0c1f9d7800 HAL_Init>) [0 HAL_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -101,7 +101,7 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (call_insn 16 15 17 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SystemClock_Config") [flags 0x41]  <function_decl 0x7ffbf09e0b00 SystemClock_Config>) [0 SystemClock_Config S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SystemClock_Config") [flags 0x41]  <function_decl 0x7f0c1f9e0b00 SystemClock_Config>) [0 SystemClock_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -111,7 +111,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 17 16 18 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("initializePeripherals") [flags 0x3]  <function_decl 0x7ffbf09f1b00 initializePeripherals>) [0 initializePeripherals S4 A32])
+                (call (mem:SI (symbol_ref:SI ("initializePeripherals") [flags 0x3]  <function_decl 0x7f0c1f9f1b00 initializePeripherals>) [0 initializePeripherals S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -120,7 +120,7 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 18 17 19 5 (set (reg/f:SI 129)
-        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7ffbf0981d80 current_state>)) "src/main_auth.c":93:18 -1
+        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7f0c1f981d80 current_state>)) "src/main_auth.c":93:18 -1
      (nil))
 (insn 19 18 20 5 (set (reg:SI 130)
         (const_int 1 [0x1])) "src/main_auth.c":93:18 -1
@@ -140,7 +140,7 @@ try_optimize_cfg iteration 2
 (note 25 24 26 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 26 25 27 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("Auth_WaitForA") [flags 0x41]  <function_decl 0x7ffbf09f1800 Auth_WaitForA>) [0 Auth_WaitForA S4 A32])
+                (call (mem:SI (symbol_ref:SI ("Auth_WaitForA") [flags 0x41]  <function_decl 0x7f0c1f9f1800 Auth_WaitForA>) [0 Auth_WaitForA S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -175,7 +175,7 @@ try_optimize_cfg iteration 2
  -> 40)
 (note 33 32 34 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (insn 34 33 35 7 (set (reg/f:SI 135)
-        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7ffbf0981d80 current_state>)) "src/main_auth.c":102:19 -1
+        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7f0c1f981d80 current_state>)) "src/main_auth.c":102:19 -1
      (nil))
 (insn 35 34 36 7 (set (reg:SI 136)
         (const_int 2 [0x2])) "src/main_auth.c":102:19 -1
@@ -194,7 +194,7 @@ try_optimize_cfg iteration 2
 (code_label 40 39 41 8 9 (nil) [1 uses])
 (note 41 40 42 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (insn 42 41 43 8 (set (reg/f:SI 138)
-        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7ffbf0981d80 current_state>)) "src/main_auth.c":104:19 -1
+        (symbol_ref:SI ("current_state") [flags 0x2]  <var_decl 0x7f0c1f981d80 current_state>)) "src/main_auth.c":104:19 -1
      (nil))
 (insn 43 42 44 8 (set (reg:SI 139)
         (const_int 3 [0x3])) "src/main_auth.c":104:19 -1
@@ -355,7 +355,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 95 94 96 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("Auth_ReadKey") [flags 0x41]  <function_decl 0x7ffbf09f1900 Auth_ReadKey>) [0 Auth_ReadKey S4 A32])
+                (call (mem:SI (symbol_ref:SI ("Auth_ReadKey") [flags 0x41]  <function_decl 0x7f0c1f9f1900 Auth_ReadKey>) [0 Auth_ReadKey S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -377,25 +377,25 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 99 98 100 12 (set (reg:SI 0 r0)
         (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -8 [0xfffffffffffffff8])) [2 key.2+0 S4 A64])) "src/main_auth.c":125:5 -1
+                (const_int -8 [0xfffffffffffffff8])) [2 key.2+0 S4 A64])) "src/main_auth.c":124:5 -1
      (nil))
 (call_insn 100 99 101 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("copy_and_decrypt_auth_section") [flags 0x41]  <function_decl 0x7ffbf09f1700 copy_and_decrypt_auth_section>) [0 copy_and_decrypt_auth_section S4 A32])
+                (call (mem:SI (symbol_ref:SI ("copy_and_decrypt_auth_section") [flags 0x41]  <function_decl 0x7f0c1f9f1700 copy_and_decrypt_auth_section>) [0 copy_and_decrypt_auth_section S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":125:5 -1
+        ]) "src/main_auth.c":124:5 -1
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (expr_list:SI (use (reg:SI 0 r0))
             (nil))))
 (call_insn 101 100 102 12 (parallel [
-            (call (mem:SI (symbol_ref:SI ("verify") [flags 0x41]  <function_decl 0x7ffbf09f1600 verify>) [0 verify S4 A32])
+            (call (mem:SI (symbol_ref:SI ("verify") [flags 0x41]  <function_decl 0x7f0c1f9f1600 verify>) [0 verify S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":127:5 -1
+        ]) "src/main_auth.c":126:5 -1
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
@@ -448,52 +448,62 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg:SI 0 r0)
-        (const_int 115200 [0x1c200])) "src/main_auth.c":151:5 -1
+        (const_int 115200 [0x1c200])) "src/main_auth.c":150:5 -1
      (nil))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("uartInitialize") [flags 0x41]  <function_decl 0x7ffbf09e8600 uartInitialize>) [0 uartInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("uartInitialize") [flags 0x41]  <function_decl 0x7f0c1f9e8600 uartInitialize>) [0 uartInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":151:5 -1
+        ]) "src/main_auth.c":150:5 -1
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (expr_list:SI (use (reg:SI 0 r0))
             (nil))))
 (call_insn 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("ledInitialize") [flags 0x41]  <function_decl 0x7ffbf09e8b00 ledInitialize>) [0 ledInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("ledInitialize") [flags 0x41]  <function_decl 0x7f0c1f9e8b00 ledInitialize>) [0 ledInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":154:2 -1
+        ]) "src/main_auth.c":153:2 -1
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("displayInitialize") [flags 0x41]  <function_decl 0x7ffbf09e8e00 displayInitialize>) [0 displayInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("displayInitialize") [flags 0x41]  <function_decl 0x7f0c1f9e8e00 displayInitialize>) [0 displayInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":155:5 -1
+        ]) "src/main_auth.c":154:5 -1
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("buttonInitialize") [flags 0x41]  <function_decl 0x7ffbf09e8900 buttonInitialize>) [0 buttonInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("buttonInitialize") [flags 0x41]  <function_decl 0x7f0c1f9e8900 buttonInitialize>) [0 buttonInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":158:5 -1
+        ]) "src/main_auth.c":157:5 -1
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("timerInitialize") [flags 0x41]  <function_decl 0x7ffbf09f1300 timerInitialize>) [0 timerInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("timerInitialize") [flags 0x41]  <function_decl 0x7f0c1f9f1300 timerInitialize>) [0 timerInitialize S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/main_auth.c":160:5 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (nil)))
+(call_insn 11 10 12 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("adcInitialize") [flags 0x41]  <function_decl 0x7f0c1f9f1000 adcInitialize>) [0 adcInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -501,24 +511,14 @@ try_optimize_cfg iteration 2
      (nil)
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
-(call_insn 11 10 12 2 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("adcInitialize") [flags 0x41]  <function_decl 0x7ffbf09f1000 adcInitialize>) [0 adcInitialize S4 A32])
-                    (const_int 0 [0])))
-            (use (const_int 0 [0]))
-            (clobber (reg:SI 14 lr))
-        ]) "src/main_auth.c":162:5 -1
-     (nil)
-    (expr_list (clobber (reg:SI 12 ip))
-        (nil)))
 (insn 12 11 15 2 (set (reg:SI 114 [ _8 ])
-        (const_int 0 [0])) "src/main_auth.c":164:12 -1
+        (const_int 0 [0])) "src/main_auth.c":163:12 -1
      (nil))
 (insn 15 12 19 2 (set (reg:SI 115 [ <retval> ])
-        (reg:SI 114 [ _8 ])) "src/main_auth.c":164:12 discrim 1 -1
+        (reg:SI 114 [ _8 ])) "src/main_auth.c":163:12 discrim 1 -1
      (nil))
 (insn 19 15 20 2 (set (reg/i:SI 0 r0)
-        (reg:SI 115 [ <retval> ])) "src/main_auth.c":165:1 -1
+        (reg:SI 115 [ <retval> ])) "src/main_auth.c":164:1 -1
      (nil))
-(insn 20 19 0 2 (use (reg/i:SI 0 r0)) "src/main_auth.c":165:1 -1
+(insn 20 19 0 2 (use (reg/i:SI 0 r0)) "src/main_auth.c":164:1 -1
      (nil))

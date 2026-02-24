@@ -118,7 +118,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":521:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MspInit") [flags 0x3]  <function_decl 0x7efc93937100 HAL_I2C_MspInit>) [0 HAL_I2C_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MspInit") [flags 0x3]  <function_decl 0x7f9222d37100 HAL_I2C_MspInit>) [0 HAL_I2C_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -656,7 +656,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":611:3 -1
      (nil))
 (call_insn 27 26 28 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MspDeInit") [flags 0x3]  <function_decl 0x7efc93937200 HAL_I2C_MspDeInit>) [0 HAL_I2C_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MspDeInit") [flags 0x3]  <function_decl 0x7f9222d37200 HAL_I2C_MspDeInit>) [0 HAL_I2C_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -977,7 +977,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1011,7 +1011,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 42 41 43 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1199,7 +1199,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1100:7 -1
      (nil))
 (call_insn 98 97 99 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1276,7 +1276,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1105:7 -1
      (nil))
 (call_insn 120 119 121 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1311,7 +1311,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 129 128 130 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1521,7 +1521,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 188 187 189 16 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1635,7 +1635,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1135:11 -1
      (nil))
 (call_insn 224 223 225 19 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1712,7 +1712,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1140:11 -1
      (nil))
 (call_insn 246 245 247 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1765,7 +1765,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 262 261 263 23 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2087,7 +2087,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2121,7 +2121,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 42 41 43 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2309,7 +2309,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1215:7 -1
      (nil))
 (call_insn 98 97 99 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2386,7 +2386,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1220:7 -1
      (nil))
 (call_insn 120 119 121 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2421,7 +2421,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 129 128 130 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnRXNEFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb100 I2C_WaitOnRXNEFlagUntilTimeout>) [0 I2C_WaitOnRXNEFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnRXNEFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb100 I2C_WaitOnRXNEFlagUntilTimeout>) [0 I2C_WaitOnRXNEFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2634,7 +2634,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 189 188 190 16 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2748,7 +2748,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1251:11 -1
      (nil))
 (call_insn 225 224 226 19 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2825,7 +2825,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1256:11 -1
      (nil))
 (call_insn 247 246 248 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2878,7 +2878,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 263 262 264 23 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3254,7 +3254,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 49 48 50 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3389,7 +3389,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 84 83 85 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3513,7 +3513,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 117 116 118 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3619,7 +3619,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 147 146 148 15 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3707,7 +3707,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 171 170 172 18 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3888,7 +3888,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 224 223 225 22 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4028,7 +4028,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 264 263 265 26 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4405,7 +4405,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 49 48 50 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4540,7 +4540,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 84 83 85 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4644,7 +4644,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 112 111 113 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4732,7 +4732,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 136 135 137 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnRXNEFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb100 I2C_WaitOnRXNEFlagUntilTimeout>) [0 I2C_WaitOnRXNEFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnRXNEFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb100 I2C_WaitOnRXNEFlagUntilTimeout>) [0 I2C_WaitOnRXNEFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5025,7 +5025,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 222 221 223 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5127,7 +5127,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 250 249 251 22 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5544,7 +5544,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1583:23 -1
      (nil))
 (insn 67 66 68 8 (set (reg/f:SI 152)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1583:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1583:23 -1
      (nil))
 (insn 68 67 69 8 (set (mem/f:SI (plus:SI (reg/f:SI 151)
                 (const_int 52 [0x34])) [7 hi2c_15(D)->XferISR+0 S4 A32])
@@ -5669,7 +5669,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1598:5 -1
      (nil))
 (call_insn 111 110 112 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5704,7 +5704,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1610:5 -1
      (nil))
 (call_insn 118 117 119 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5996,7 +5996,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1652:23 -1
      (nil))
 (insn 67 66 68 8 (set (reg/f:SI 152)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1652:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1652:23 -1
      (nil))
 (insn 68 67 69 8 (set (mem/f:SI (plus:SI (reg/f:SI 151)
                 (const_int 52 [0x34])) [7 hi2c_15(D)->XferISR+0 S4 A32])
@@ -6121,7 +6121,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1667:5 -1
      (nil))
 (call_insn 111 110 112 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6156,7 +6156,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1679:5 -1
      (nil))
 (call_insn 118 117 119 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6439,7 +6439,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1716:23 -1
      (nil))
 (insn 66 65 67 6 (set (reg/f:SI 154)
-        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1716:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1716:23 -1
      (nil))
 (insn 67 66 68 6 (set (mem/f:SI (plus:SI (reg/f:SI 153)
                 (const_int 52 [0x34])) [7 hi2c_11(D)->XferISR+0 S4 A32])
@@ -6467,7 +6467,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1728:5 -1
      (nil))
 (call_insn 74 73 75 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6750,7 +6750,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1765:23 -1
      (nil))
 (insn 66 65 67 6 (set (reg/f:SI 154)
-        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1765:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1765:23 -1
      (nil))
 (insn 67 66 68 6 (set (mem/f:SI (plus:SI (reg/f:SI 153)
                 (const_int 52 [0x34])) [7 hi2c_11(D)->XferISR+0 S4 A32])
@@ -6778,7 +6778,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1777:5 -1
      (nil))
 (call_insn 74 73 75 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7086,7 +7086,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1821:23 -1
      (nil))
 (insn 67 66 68 8 (set (reg/f:SI 178)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1821:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1821:23 -1
      (nil))
 (insn 68 67 69 8 (set (mem/f:SI (plus:SI (reg/f:SI 177)
                 (const_int 52 [0x34])) [7 hi2c_42(D)->XferISR+0 S4 A32])
@@ -7224,7 +7224,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_42(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1839:13 -1
      (nil))
 (insn 113 112 114 13 (set (reg/f:SI 197)
-        (symbol_ref:SI ("I2C_DMAMasterTransmitCplt") [flags 0x3]  <function_decl 0x7efc937e1c00 I2C_DMAMasterTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1839:40 -1
+        (symbol_ref:SI ("I2C_DMAMasterTransmitCplt") [flags 0x3]  <function_decl 0x7f9222be1c00 I2C_DMAMasterTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1839:40 -1
      (nil))
 (insn 114 113 115 13 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 44 [0x2c])) [14 _10->XferCpltCallback+0 S4 A32])
@@ -7239,7 +7239,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_42(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1842:13 -1
      (nil))
 (insn 117 116 118 13 (set (reg/f:SI 199)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1842:41 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1842:41 -1
      (nil))
 (insn 118 117 119 13 (set (mem/f:SI (plus:SI (reg/f:SI 124 [ _11 ])
                 (const_int 52 [0x34])) [14 _11->XferErrorCallback+0 S4 A32])
@@ -7326,7 +7326,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 141 140 142 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7479,7 +7479,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1870:9 -1
      (nil))
 (call_insn 185 184 186 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7551,7 +7551,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1882:9 -1
      (nil))
 (call_insn 203 202 204 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7669,7 +7669,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1905:21 -1
      (nil))
 (insn 238 237 239 18 (set (reg/f:SI 248)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1905:21 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1905:21 -1
      (nil))
 (insn 239 238 240 18 (set (mem/f:SI (plus:SI (reg/f:SI 247)
                 (const_int 52 [0x34])) [7 hi2c_42(D)->XferISR+0 S4 A32])
@@ -7710,7 +7710,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1909:7 -1
      (nil))
 (call_insn 250 249 251 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7745,7 +7745,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1920:7 -1
      (nil))
 (call_insn 257 256 258 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8055,7 +8055,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1965:23 -1
      (nil))
 (insn 67 66 68 8 (set (reg/f:SI 178)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1965:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1965:23 -1
      (nil))
 (insn 68 67 69 8 (set (mem/f:SI (plus:SI (reg/f:SI 177)
                 (const_int 52 [0x34])) [7 hi2c_42(D)->XferISR+0 S4 A32])
@@ -8193,7 +8193,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_42(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1983:13 -1
      (nil))
 (insn 113 112 114 13 (set (reg/f:SI 197)
-        (symbol_ref:SI ("I2C_DMAMasterReceiveCplt") [flags 0x3]  <function_decl 0x7efc937e1d00 I2C_DMAMasterReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1983:40 -1
+        (symbol_ref:SI ("I2C_DMAMasterReceiveCplt") [flags 0x3]  <function_decl 0x7f9222be1d00 I2C_DMAMasterReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1983:40 -1
      (nil))
 (insn 114 113 115 13 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 44 [0x2c])) [14 _10->XferCpltCallback+0 S4 A32])
@@ -8208,7 +8208,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_42(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1986:13 -1
      (nil))
 (insn 117 116 118 13 (set (reg/f:SI 199)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1986:41 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":1986:41 -1
      (nil))
 (insn 118 117 119 13 (set (mem/f:SI (plus:SI (reg/f:SI 124 [ _11 ])
                 (const_int 52 [0x34])) [14 _11->XferErrorCallback+0 S4 A32])
@@ -8295,7 +8295,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 141 140 142 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8448,7 +8448,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2014:9 -1
      (nil))
 (call_insn 185 184 186 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8520,7 +8520,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2026:9 -1
      (nil))
 (call_insn 203 202 204 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8638,7 +8638,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2049:21 -1
      (nil))
 (insn 238 237 239 18 (set (reg/f:SI 248)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2049:21 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2049:21 -1
      (nil))
 (insn 239 238 240 18 (set (mem/f:SI (plus:SI (reg/f:SI 247)
                 (const_int 52 [0x34])) [7 hi2c_42(D)->XferISR+0 S4 A32])
@@ -8679,7 +8679,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2053:7 -1
      (nil))
 (call_insn 250 249 251 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8714,7 +8714,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2064:7 -1
      (nil))
 (call_insn 257 256 258 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9045,7 +9045,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2106:23 -1
      (nil))
 (insn 76 75 77 9 (set (reg/f:SI 176)
-        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2106:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2106:23 -1
      (nil))
 (insn 77 76 78 9 (set (mem/f:SI (plus:SI (reg/f:SI 175)
                 (const_int 52 [0x34])) [7 hi2c_31(D)->XferISR+0 S4 A32])
@@ -9080,7 +9080,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_31(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2111:11 -1
      (nil))
 (insn 85 84 86 10 (set (reg/f:SI 179)
-        (symbol_ref:SI ("I2C_DMASlaveTransmitCplt") [flags 0x3]  <function_decl 0x7efc937e1e00 I2C_DMASlaveTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2111:38 -1
+        (symbol_ref:SI ("I2C_DMASlaveTransmitCplt") [flags 0x3]  <function_decl 0x7f9222be1e00 I2C_DMASlaveTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2111:38 -1
      (nil))
 (insn 86 85 87 10 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 44 [0x2c])) [14 _5->XferCpltCallback+0 S4 A32])
@@ -9095,7 +9095,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_31(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2114:11 -1
      (nil))
 (insn 89 88 90 10 (set (reg/f:SI 181)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2114:39 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2114:39 -1
      (nil))
 (insn 90 89 91 10 (set (mem/f:SI (plus:SI (reg/f:SI 119 [ _6 ])
                 (const_int 52 [0x34])) [14 _6->XferErrorCallback+0 S4 A32])
@@ -9182,7 +9182,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 113 112 114 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9347,7 +9347,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2150:7 -1
      (nil))
 (call_insn 160 159 161 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9779,7 +9779,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2209:23 -1
      (nil))
 (insn 76 75 77 9 (set (reg/f:SI 176)
-        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2209:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2209:23 -1
      (nil))
 (insn 77 76 78 9 (set (mem/f:SI (plus:SI (reg/f:SI 175)
                 (const_int 52 [0x34])) [7 hi2c_31(D)->XferISR+0 S4 A32])
@@ -9814,7 +9814,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_31(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2214:11 -1
      (nil))
 (insn 85 84 86 10 (set (reg/f:SI 179)
-        (symbol_ref:SI ("I2C_DMASlaveReceiveCplt") [flags 0x3]  <function_decl 0x7efc937e1f00 I2C_DMASlaveReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2214:38 -1
+        (symbol_ref:SI ("I2C_DMASlaveReceiveCplt") [flags 0x3]  <function_decl 0x7f9222be1f00 I2C_DMASlaveReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2214:38 -1
      (nil))
 (insn 86 85 87 10 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 44 [0x2c])) [14 _5->XferCpltCallback+0 S4 A32])
@@ -9829,7 +9829,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_31(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2217:11 -1
      (nil))
 (insn 89 88 90 10 (set (reg/f:SI 181)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2217:39 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2217:39 -1
      (nil))
 (insn 90 89 91 10 (set (mem/f:SI (plus:SI (reg/f:SI 119 [ _6 ])
                 (const_int 52 [0x34])) [14 _6->XferErrorCallback+0 S4 A32])
@@ -9916,7 +9916,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 113 112 114 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10081,7 +10081,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2253:7 -1
      (nil))
 (call_insn 160 159 161 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10457,7 +10457,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 53 52 54 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10491,7 +10491,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 61 60 62 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10647,7 +10647,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 103 102 104 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryWrite") [flags 0x3]  <function_decl 0x7efc937e7900 I2C_RequestMemoryWrite>) [0 I2C_RequestMemoryWrite S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryWrite") [flags 0x3]  <function_decl 0x7f9222be7900 I2C_RequestMemoryWrite>) [0 I2C_RequestMemoryWrite S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10777,7 +10777,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2341:7 -1
      (nil))
 (call_insn 143 142 144 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10854,7 +10854,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2346:7 -1
      (nil))
 (call_insn 165 164 166 15 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10885,7 +10885,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 172 171 173 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11096,7 +11096,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 231 230 232 21 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11210,7 +11210,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2377:11 -1
      (nil))
 (call_insn 267 266 268 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11287,7 +11287,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2382:11 -1
      (nil))
 (call_insn 289 288 290 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11339,7 +11339,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 303 302 304 27 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11728,7 +11728,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 53 52 54 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11762,7 +11762,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 61 60 62 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11918,7 +11918,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 103 102 104 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryRead") [flags 0x3]  <function_decl 0x7efc937e7a00 I2C_RequestMemoryRead>) [0 I2C_RequestMemoryRead S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryRead") [flags 0x3]  <function_decl 0x7f9222be7a00 I2C_RequestMemoryRead>) [0 I2C_RequestMemoryRead S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12048,7 +12048,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2477:7 -1
      (nil))
 (call_insn 143 142 144 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12125,7 +12125,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2482:7 -1
      (nil))
 (call_insn 165 164 166 15 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12165,7 +12165,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 175 174 176 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12381,7 +12381,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 235 234 236 21 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12495,7 +12495,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2513:11 -1
      (nil))
 (call_insn 271 270 272 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12572,7 +12572,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2518:11 -1
      (nil))
 (call_insn 293 292 294 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12624,7 +12624,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 307 306 308 27 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnSTOPFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb200 I2C_WaitOnSTOPFlagUntilTimeout>) [0 I2C_WaitOnSTOPFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13024,7 +13024,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 65 64 66 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13114,7 +13114,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2597:23 -1
      (nil))
 (insn 88 87 89 11 (set (reg/f:SI 159)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2597:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2597:23 -1
      (nil))
 (insn 89 88 90 11 (set (mem/f:SI (plus:SI (reg/f:SI 158)
                 (const_int 52 [0x34])) [7 hi2c_16(D)->XferISR+0 S4 A32])
@@ -13244,7 +13244,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryWrite") [flags 0x3]  <function_decl 0x7efc937e7900 I2C_RequestMemoryWrite>) [0 I2C_RequestMemoryWrite S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryWrite") [flags 0x3]  <function_decl 0x7f9222be7900 I2C_RequestMemoryWrite>) [0 I2C_RequestMemoryWrite S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13337,7 +13337,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2619:5 -1
      (nil))
 (call_insn 158 157 159 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13372,7 +13372,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2631:5 -1
      (nil))
 (call_insn 165 164 166 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13656,7 +13656,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 65 64 66 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13746,7 +13746,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2689:23 -1
      (nil))
 (insn 88 87 89 11 (set (reg/f:SI 159)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2689:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2689:23 -1
      (nil))
 (insn 89 88 90 11 (set (mem/f:SI (plus:SI (reg/f:SI 158)
                 (const_int 52 [0x34])) [7 hi2c_16(D)->XferISR+0 S4 A32])
@@ -13876,7 +13876,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryRead") [flags 0x3]  <function_decl 0x7efc937e7a00 I2C_RequestMemoryRead>) [0 I2C_RequestMemoryRead S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryRead") [flags 0x3]  <function_decl 0x7f9222be7a00 I2C_RequestMemoryRead>) [0 I2C_RequestMemoryRead S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13969,7 +13969,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2711:5 -1
      (nil))
 (call_insn 158 157 159 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14004,7 +14004,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2723:5 -1
      (nil))
 (call_insn 165 164 166 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14300,7 +14300,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 65 64 66 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14390,7 +14390,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2781:23 -1
      (nil))
 (insn 88 87 89 11 (set (reg/f:SI 182)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2781:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2781:23 -1
      (nil))
 (insn 89 88 90 11 (set (mem/f:SI (plus:SI (reg/f:SI 181)
                 (const_int 52 [0x34])) [7 hi2c_39(D)->XferISR+0 S4 A32])
@@ -14520,7 +14520,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryWrite") [flags 0x3]  <function_decl 0x7efc937e7900 I2C_RequestMemoryWrite>) [0 I2C_RequestMemoryWrite S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryWrite") [flags 0x3]  <function_decl 0x7f9222be7900 I2C_RequestMemoryWrite>) [0 I2C_RequestMemoryWrite S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14606,7 +14606,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_39(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2806:11 -1
      (nil))
 (insn 155 154 156 17 (set (reg/f:SI 209)
-        (symbol_ref:SI ("I2C_DMAMasterTransmitCplt") [flags 0x3]  <function_decl 0x7efc937e1c00 I2C_DMAMasterTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2806:38 -1
+        (symbol_ref:SI ("I2C_DMAMasterTransmitCplt") [flags 0x3]  <function_decl 0x7f9222be1c00 I2C_DMAMasterTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2806:38 -1
      (nil))
 (insn 156 155 157 17 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 44 [0x2c])) [14 _10->XferCpltCallback+0 S4 A32])
@@ -14621,7 +14621,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_39(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2809:11 -1
      (nil))
 (insn 159 158 160 17 (set (reg/f:SI 211)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2809:39 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2809:39 -1
      (nil))
 (insn 160 159 161 17 (set (mem/f:SI (plus:SI (reg/f:SI 124 [ _11 ])
                 (const_int 52 [0x34])) [14 _11->XferErrorCallback+0 S4 A32])
@@ -14707,7 +14707,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 183 182 184 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14860,7 +14860,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2837:7 -1
      (nil))
 (call_insn 227 226 228 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14932,7 +14932,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2849:7 -1
      (nil))
 (call_insn 245 244 246 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15331,7 +15331,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 65 64 66 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15421,7 +15421,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2926:23 -1
      (nil))
 (insn 88 87 89 11 (set (reg/f:SI 182)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2926:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2926:23 -1
      (nil))
 (insn 89 88 90 11 (set (mem/f:SI (plus:SI (reg/f:SI 181)
                 (const_int 52 [0x34])) [7 hi2c_39(D)->XferISR+0 S4 A32])
@@ -15551,7 +15551,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryRead") [flags 0x3]  <function_decl 0x7efc937e7a00 I2C_RequestMemoryRead>) [0 I2C_RequestMemoryRead S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_RequestMemoryRead") [flags 0x3]  <function_decl 0x7f9222be7a00 I2C_RequestMemoryRead>) [0 I2C_RequestMemoryRead S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15637,7 +15637,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_39(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2950:11 -1
      (nil))
 (insn 155 154 156 17 (set (reg/f:SI 209)
-        (symbol_ref:SI ("I2C_DMAMasterReceiveCplt") [flags 0x3]  <function_decl 0x7efc937e1d00 I2C_DMAMasterReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2950:38 -1
+        (symbol_ref:SI ("I2C_DMAMasterReceiveCplt") [flags 0x3]  <function_decl 0x7f9222be1d00 I2C_DMAMasterReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2950:38 -1
      (nil))
 (insn 156 155 157 17 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 44 [0x2c])) [14 _10->XferCpltCallback+0 S4 A32])
@@ -15652,7 +15652,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_39(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2953:11 -1
      (nil))
 (insn 159 158 160 17 (set (reg/f:SI 211)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2953:39 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2953:39 -1
      (nil))
 (insn 160 159 161 17 (set (mem/f:SI (plus:SI (reg/f:SI 124 [ _11 ])
                 (const_int 52 [0x34])) [14 _11->XferErrorCallback+0 S4 A32])
@@ -15738,7 +15738,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 183 182 184 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15891,7 +15891,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2980:7 -1
      (nil))
 (call_insn 227 226 228 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15963,7 +15963,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":2992:7 -1
      (nil))
 (call_insn 245 244 246 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16421,7 +16421,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 75 74 76 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16530,7 +16530,7 @@ try_optimize_cfg iteration 2
 (note 103 102 104 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (call_insn 104 103 105 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16797,7 +16797,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 180 179 181 21 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16913,7 +16913,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 214 213 215 24 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17051,7 +17051,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 251 250 252 27 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17454,7 +17454,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3194:23 -1
      (nil))
 (insn 57 56 58 6 (set (reg/f:SI 152)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3194:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3194:23 -1
      (nil))
 (insn 58 57 59 6 (set (mem/f:SI (plus:SI (reg/f:SI 151)
                 (const_int 52 [0x34])) [7 hi2c_19(D)->XferISR+0 S4 A32])
@@ -17645,7 +17645,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3217:7 -1
      (nil))
 (call_insn 124 123 125 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7efc937eb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7f9222beb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17728,7 +17728,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3227:5 -1
      (nil))
 (call_insn 151 150 152 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17763,7 +17763,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3235:5 -1
      (nil))
 (call_insn 158 157 159 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18055,7 +18055,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3280:23 -1
      (nil))
 (insn 57 56 58 6 (set (reg/f:SI 178)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3280:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3280:23 -1
      (nil))
 (insn 58 57 59 6 (set (mem/f:SI (plus:SI (reg/f:SI 177)
                 (const_int 52 [0x34])) [7 hi2c_46(D)->XferISR+0 S4 A32])
@@ -18246,7 +18246,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3303:7 -1
      (nil))
 (call_insn 124 123 125 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7efc937eb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7f9222beb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18341,7 +18341,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_46(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3317:13 -1
      (nil))
 (insn 153 152 154 20 (set (reg/f:SI 209)
-        (symbol_ref:SI ("I2C_DMAMasterTransmitCplt") [flags 0x3]  <function_decl 0x7efc937e1c00 I2C_DMAMasterTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3317:40 -1
+        (symbol_ref:SI ("I2C_DMAMasterTransmitCplt") [flags 0x3]  <function_decl 0x7f9222be1c00 I2C_DMAMasterTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3317:40 -1
      (nil))
 (insn 154 153 155 20 (set (mem/f:SI (plus:SI (reg/f:SI 122 [ _9 ])
                 (const_int 44 [0x2c])) [14 _9->XferCpltCallback+0 S4 A32])
@@ -18356,7 +18356,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_46(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3320:13 -1
      (nil))
 (insn 157 156 158 20 (set (reg/f:SI 211)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3320:41 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3320:41 -1
      (nil))
 (insn 158 157 159 20 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 52 [0x34])) [14 _10->XferErrorCallback+0 S4 A32])
@@ -18443,7 +18443,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 181 180 182 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18597,7 +18597,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3347:9 -1
      (nil))
 (call_insn 225 224 226 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18669,7 +18669,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3359:9 -1
      (nil))
 (call_insn 243 242 244 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18787,7 +18787,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3382:21 -1
      (nil))
 (insn 278 277 279 25 (set (reg/f:SI 260)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3382:21 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3382:21 -1
      (nil))
 (insn 279 278 280 25 (set (mem/f:SI (plus:SI (reg/f:SI 259)
                 (const_int 52 [0x34])) [7 hi2c_46(D)->XferISR+0 S4 A32])
@@ -18828,7 +18828,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3386:7 -1
      (nil))
 (call_insn 290 289 291 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18863,7 +18863,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3397:7 -1
      (nil))
 (call_insn 297 296 298 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19141,7 +19141,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3442:23 -1
      (nil))
 (insn 57 56 58 6 (set (reg/f:SI 152)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3442:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3442:23 -1
      (nil))
 (insn 58 57 59 6 (set (mem/f:SI (plus:SI (reg/f:SI 151)
                 (const_int 52 [0x34])) [7 hi2c_19(D)->XferISR+0 S4 A32])
@@ -19332,7 +19332,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3465:7 -1
      (nil))
 (call_insn 124 123 125 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7efc937eb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7f9222beb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19415,7 +19415,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3475:5 -1
      (nil))
 (call_insn 151 150 152 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19450,7 +19450,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3483:5 -1
      (nil))
 (call_insn 158 157 159 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19742,7 +19742,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3528:23 -1
      (nil))
 (insn 57 56 58 6 (set (reg/f:SI 178)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3528:23 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3528:23 -1
      (nil))
 (insn 58 57 59 6 (set (mem/f:SI (plus:SI (reg/f:SI 177)
                 (const_int 52 [0x34])) [7 hi2c_46(D)->XferISR+0 S4 A32])
@@ -19933,7 +19933,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3551:7 -1
      (nil))
 (call_insn 124 123 125 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7efc937eb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7f9222beb900 I2C_ConvertOtherXferOptions>) [0 I2C_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20028,7 +20028,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_46(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3565:13 -1
      (nil))
 (insn 153 152 154 20 (set (reg/f:SI 209)
-        (symbol_ref:SI ("I2C_DMAMasterReceiveCplt") [flags 0x3]  <function_decl 0x7efc937e1d00 I2C_DMAMasterReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3565:40 -1
+        (symbol_ref:SI ("I2C_DMAMasterReceiveCplt") [flags 0x3]  <function_decl 0x7f9222be1d00 I2C_DMAMasterReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3565:40 -1
      (nil))
 (insn 154 153 155 20 (set (mem/f:SI (plus:SI (reg/f:SI 122 [ _9 ])
                 (const_int 44 [0x2c])) [14 _9->XferCpltCallback+0 S4 A32])
@@ -20043,7 +20043,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_46(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3568:13 -1
      (nil))
 (insn 157 156 158 20 (set (reg/f:SI 211)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3568:41 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3568:41 -1
      (nil))
 (insn 158 157 159 20 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 52 [0x34])) [14 _10->XferErrorCallback+0 S4 A32])
@@ -20130,7 +20130,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 181 180 182 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20284,7 +20284,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3595:9 -1
      (nil))
 (call_insn 225 224 226 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20356,7 +20356,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3607:9 -1
      (nil))
 (call_insn 243 242 244 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20474,7 +20474,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3630:21 -1
      (nil))
 (insn 278 277 279 25 (set (reg/f:SI 260)
-        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3630:21 -1
+        (symbol_ref:SI ("I2C_Master_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7b00 I2C_Master_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3630:21 -1
      (nil))
 (insn 279 278 280 25 (set (mem/f:SI (plus:SI (reg/f:SI 259)
                 (const_int 52 [0x34])) [7 hi2c_46(D)->XferISR+0 S4 A32])
@@ -20515,7 +20515,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3634:7 -1
      (nil))
 (call_insn 290 289 291 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20550,7 +20550,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3645:7 -1
      (nil))
 (call_insn 297 296 298 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20757,7 +20757,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3681:5 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20842,7 +20842,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3691:7 -1
      (nil))
 (call_insn 63 62 64 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20931,7 +20931,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_36(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3702:15 -1
      (nil))
 (insn 85 84 86 12 (set (reg/f:SI 167)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3702:43 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3702:43 -1
      (nil))
 (insn 86 85 87 12 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 56 [0x38])) [14 _14->XferAbortCallback+0 S4 A32])
@@ -20950,7 +20950,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 90 89 91 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21140,7 +21140,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3726:23 -1
      (nil))
 (insn 140 139 141 14 (set (reg/f:SI 194)
-        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3726:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3726:23 -1
      (nil))
 (insn 141 140 142 14 (set (mem/f:SI (plus:SI (reg/f:SI 193)
                 (const_int 52 [0x34])) [7 hi2c_36(D)->XferISR+0 S4 A32])
@@ -21221,7 +21221,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3742:5 -1
      (nil))
 (call_insn 164 163 165 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21492,7 +21492,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3782:5 -1
      (nil))
 (call_insn 53 52 54 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21533,7 +21533,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3789:7 -1
      (nil))
 (call_insn 63 62 64 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21622,7 +21622,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_74(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3800:15 -1
      (nil))
 (insn 85 84 86 12 (set (reg/f:SI 205)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3800:43 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3800:43 -1
      (nil))
 (insn 86 85 87 12 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 56 [0x38])) [14 _14->XferAbortCallback+0 S4 A32])
@@ -21641,7 +21641,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 90 89 91 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21810,7 +21810,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_74(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3822:15 -1
      (nil))
 (insn 135 134 136 17 (set (reg/f:SI 218)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3822:43 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3822:43 -1
      (nil))
 (insn 136 135 137 17 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 56 [0x38])) [14 _29->XferAbortCallback+0 S4 A32])
@@ -21829,7 +21829,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 140 139 141 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22019,7 +22019,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3850:23 -1
      (nil))
 (insn 190 189 191 19 (set (reg/f:SI 245)
-        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3850:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3850:23 -1
      (nil))
 (insn 191 190 192 19 (set (mem/f:SI (plus:SI (reg/f:SI 244)
                 (const_int 52 [0x34])) [7 hi2c_74(D)->XferISR+0 S4 A32])
@@ -22054,7 +22054,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_74(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3855:11 -1
      (nil))
 (insn 199 198 200 20 (set (reg/f:SI 248)
-        (symbol_ref:SI ("I2C_DMASlaveTransmitCplt") [flags 0x3]  <function_decl 0x7efc937e1e00 I2C_DMASlaveTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3855:38 -1
+        (symbol_ref:SI ("I2C_DMASlaveTransmitCplt") [flags 0x3]  <function_decl 0x7f9222be1e00 I2C_DMASlaveTransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3855:38 -1
      (nil))
 (insn 200 199 201 20 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 44 [0x2c])) [14 _41->XferCpltCallback+0 S4 A32])
@@ -22069,7 +22069,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_74(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3858:11 -1
      (nil))
 (insn 203 202 204 20 (set (reg/f:SI 250)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3858:39 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3858:39 -1
      (nil))
 (insn 204 203 205 20 (set (mem/f:SI (plus:SI (reg/f:SI 155 [ _42 ])
                 (const_int 52 [0x34])) [14 _42->XferErrorCallback+0 S4 A32])
@@ -22156,7 +22156,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 227 226 228 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22479,7 +22479,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3919:5 -1
      (nil))
 (call_insn 324 323 325 27 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22708,7 +22708,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3957:5 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22793,7 +22793,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3967:7 -1
      (nil))
 (call_insn 63 62 64 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22882,7 +22882,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_36(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3978:15 -1
      (nil))
 (insn 85 84 86 12 (set (reg/f:SI 167)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3978:43 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":3978:43 -1
      (nil))
 (insn 86 85 87 12 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 56 [0x38])) [14 _14->XferAbortCallback+0 S4 A32])
@@ -22901,7 +22901,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 90 89 91 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23091,7 +23091,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4002:23 -1
      (nil))
 (insn 140 139 141 14 (set (reg/f:SI 194)
-        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4002:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4002:23 -1
      (nil))
 (insn 141 140 142 14 (set (mem/f:SI (plus:SI (reg/f:SI 193)
                 (const_int 52 [0x34])) [7 hi2c_36(D)->XferISR+0 S4 A32])
@@ -23172,7 +23172,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4018:5 -1
      (nil))
 (call_insn 164 163 165 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23399,7 +23399,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4055:5 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23484,7 +23484,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4065:7 -1
      (nil))
 (call_insn 63 62 64 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23573,7 +23573,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_74(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4076:15 -1
      (nil))
 (insn 85 84 86 12 (set (reg/f:SI 205)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4076:43 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4076:43 -1
      (nil))
 (insn 86 85 87 12 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 56 [0x38])) [14 _14->XferAbortCallback+0 S4 A32])
@@ -23592,7 +23592,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 90 89 91 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23761,7 +23761,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_74(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4098:15 -1
      (nil))
 (insn 135 134 136 17 (set (reg/f:SI 218)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4098:43 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4098:43 -1
      (nil))
 (insn 136 135 137 17 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 56 [0x38])) [14 _29->XferAbortCallback+0 S4 A32])
@@ -23780,7 +23780,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 140 139 141 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23970,7 +23970,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4126:23 -1
      (nil))
 (insn 190 189 191 19 (set (reg/f:SI 245)
-        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4126:23 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4126:23 -1
      (nil))
 (insn 191 190 192 19 (set (mem/f:SI (plus:SI (reg/f:SI 244)
                 (const_int 52 [0x34])) [7 hi2c_74(D)->XferISR+0 S4 A32])
@@ -24005,7 +24005,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_74(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4131:11 -1
      (nil))
 (insn 199 198 200 20 (set (reg/f:SI 248)
-        (symbol_ref:SI ("I2C_DMASlaveReceiveCplt") [flags 0x3]  <function_decl 0x7efc937e1f00 I2C_DMASlaveReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4131:38 -1
+        (symbol_ref:SI ("I2C_DMASlaveReceiveCplt") [flags 0x3]  <function_decl 0x7f9222be1f00 I2C_DMASlaveReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4131:38 -1
      (nil))
 (insn 200 199 201 20 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 44 [0x2c])) [14 _41->XferCpltCallback+0 S4 A32])
@@ -24020,7 +24020,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_74(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4134:11 -1
      (nil))
 (insn 203 202 204 20 (set (reg/f:SI 250)
-        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7efc937e7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4134:39 -1
+        (symbol_ref:SI ("I2C_DMAError") [flags 0x3]  <function_decl 0x7f9222be7000 I2C_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4134:39 -1
      (nil))
 (insn 204 203 205 20 (set (mem/f:SI (plus:SI (reg/f:SI 155 [ _42 ])
                 (const_int 52 [0x34])) [14 _42->XferErrorCallback+0 S4 A32])
@@ -24107,7 +24107,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 227 226 228 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24430,7 +24430,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4195:5 -1
      (nil))
 (call_insn 324 323 325 27 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24567,7 +24567,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4219:19 -1
      (nil))
 (insn 18 17 19 4 (set (reg/f:SI 124)
-        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4219:19 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4219:19 -1
      (nil))
 (insn 19 18 20 4 (set (mem/f:SI (plus:SI (reg/f:SI 123)
                 (const_int 52 [0x34])) [7 hi2c_5(D)->XferISR+0 S4 A32])
@@ -24581,7 +24581,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4222:5 -1
      (nil))
 (call_insn 22 21 23 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24774,7 +24774,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4253:5 -1
      (nil))
 (call_insn 42 41 43 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24965,7 +24965,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4281:7 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25024,7 +25024,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4286:7 -1
      (nil))
 (call_insn 56 55 57 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25085,7 +25085,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4299:5 -1
      (nil))
 (call_insn 73 72 74 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25120,7 +25120,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4307:5 -1
      (nil))
 (call_insn 80 79 81 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25667,7 +25667,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4391:5 -1
      (nil))
 (call_insn 99 98 102 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26441,7 +26441,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4650:5 -1
      (nil))
 (call_insn 48 47 49 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27002,7 +27002,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4686:9 -1
      (nil))
 (call_insn 211 210 212 19 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27107,7 +27107,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4693:11 -1
      (nil))
 (call_insn 240 239 241 21 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27162,7 +27162,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4697:11 -1
      (nil))
 (call_insn 255 254 258 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27214,7 +27214,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4707:9 -1
      (nil))
 (call_insn 270 269 271 25 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27238,7 +27238,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4713:9 -1
      (nil))
 (call_insn 277 276 278 26 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27419,7 +27419,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4732:11 -1
      (nil))
 (call_insn 329 328 330 34 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27443,7 +27443,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4740:7 -1
      (nil))
 (call_insn 336 335 337 35 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27518,7 +27518,7 @@ Forwarding edge 26->27 to 36 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4751:5 -1
      (nil))
 (call_insn 355 354 356 38 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterCplt") [flags 0x3]  <function_decl 0x7efc937e7500 I2C_ITMasterCplt>) [0 I2C_ITMasterCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterCplt") [flags 0x3]  <function_decl 0x7f9222be7500 I2C_ITMasterCplt>) [0 I2C_ITMasterCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27816,7 +27816,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4780:5 -1
      (nil))
 (call_insn 43 42 44 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveCplt") [flags 0x3]  <function_decl 0x7efc937e7600 I2C_ITSlaveCplt>) [0 I2C_ITSlaveCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveCplt") [flags 0x3]  <function_decl 0x7f9222be7600 I2C_ITSlaveCplt>) [0 I2C_ITSlaveCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27953,7 +27953,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4795:9 -1
      (nil))
 (call_insn 80 79 81 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITListenCplt") [flags 0x3]  <function_decl 0x7efc937e7700 I2C_ITListenCplt>) [0 I2C_ITListenCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITListenCplt") [flags 0x3]  <function_decl 0x7f9222be7700 I2C_ITListenCplt>) [0 I2C_ITListenCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28028,7 +28028,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4803:9 -1
      (nil))
 (call_insn 101 100 102 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28042,7 +28042,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4807:9 -1
      (nil))
 (call_insn 103 102 104 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28162,7 +28162,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4827:9 -1
      (nil))
 (call_insn 140 139 141 21 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28413,7 +28413,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4849:7 -1
      (nil))
 (call_insn 213 212 216 29 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28492,7 +28492,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4855:5 -1
      (nil))
 (call_insn 236 235 237 33 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITAddrCplt") [flags 0x3]  <function_decl 0x7efc937e7200 I2C_ITAddrCplt>) [0 I2C_ITAddrCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITAddrCplt") [flags 0x3]  <function_decl 0x7f9222be7200 I2C_ITAddrCplt>) [0 I2C_ITAddrCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28737,7 +28737,7 @@ Forwarding edge 21->22 to 41 failed.
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4880:9 -1
      (nil))
 (call_insn 306 305 307 40 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29033,7 +29033,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4922:5 -1
      (nil))
 (call_insn 47 46 48 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29048,7 +29048,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4925:5 -1
      (nil))
 (call_insn 49 48 50 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29349,7 +29349,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4957:7 -1
      (nil))
 (call_insn 143 142 144 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29516,7 +29516,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4978:9 -1
      (nil))
 (call_insn 192 191 193 20 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29540,7 +29540,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":4984:9 -1
      (nil))
 (call_insn 199 198 202 21 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29719,7 +29719,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5003:11 -1
      (nil))
 (call_insn 251 250 252 29 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7300 I2C_ITMasterSeqCplt>) [0 I2C_ITMasterSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29743,7 +29743,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5011:7 -1
      (nil))
 (call_insn 258 257 261 30 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29823,7 +29823,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5017:5 -1
      (nil))
 (call_insn 281 280 282 34 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterCplt") [flags 0x3]  <function_decl 0x7efc937e7500 I2C_ITMasterCplt>) [0 I2C_ITMasterCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITMasterCplt") [flags 0x3]  <function_decl 0x7f9222be7500 I2C_ITMasterCplt>) [0 I2C_ITMasterCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30123,7 +30123,7 @@ Forwarding edge 39->40 to 44 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5051:5 -1
      (nil))
 (call_insn 43 42 44 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveCplt") [flags 0x3]  <function_decl 0x7efc937e7600 I2C_ITSlaveCplt>) [0 I2C_ITSlaveCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveCplt") [flags 0x3]  <function_decl 0x7f9222be7600 I2C_ITSlaveCplt>) [0 I2C_ITSlaveCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30474,7 +30474,7 @@ Forwarding edge 39->40 to 44 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5093:11 -1
      (nil))
 (call_insn 138 137 139 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITListenCplt") [flags 0x3]  <function_decl 0x7efc937e7700 I2C_ITListenCplt>) [0 I2C_ITListenCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITListenCplt") [flags 0x3]  <function_decl 0x7f9222be7700 I2C_ITListenCplt>) [0 I2C_ITListenCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30549,7 +30549,7 @@ Forwarding edge 39->40 to 44 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5101:11 -1
      (nil))
 (call_insn 159 158 160 26 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30563,7 +30563,7 @@ Forwarding edge 39->40 to 44 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5105:11 -1
      (nil))
 (call_insn 161 160 162 26 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30792,7 +30792,7 @@ Forwarding edge 39->40 to 44 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5141:11 -1
      (nil))
 (call_insn 231 230 232 37 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30897,7 +30897,7 @@ Forwarding edge 39->40 to 44 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5153:5 -1
      (nil))
 (call_insn 264 263 265 43 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITAddrCplt") [flags 0x3]  <function_decl 0x7efc937e7200 I2C_ITAddrCplt>) [0 I2C_ITAddrCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITAddrCplt") [flags 0x3]  <function_decl 0x7f9222be7200 I2C_ITAddrCplt>) [0 I2C_ITAddrCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31049,7 +31049,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5181:3 -1
      (nil))
 (call_insn 24 23 25 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31075,7 +31075,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31199,7 +31199,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 64 63 65 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31283,7 +31283,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 89 88 90 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31450,7 +31450,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5235:3 -1
      (nil))
 (call_insn 24 23 25 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7efc937eb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TransferConfig") [flags 0x3]  <function_decl 0x7f9222beb800 I2C_TransferConfig>) [0 I2C_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31476,7 +31476,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31600,7 +31600,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 64 63 65 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937eb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnTXISFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222beb000 I2C_WaitOnTXISFlagUntilTimeout>) [0 I2C_WaitOnTXISFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31684,7 +31684,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 89 88 90 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7efc937e7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9222be7f00 I2C_WaitOnFlagUntilTimeout>) [0 I2C_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32099,7 +32099,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5320:11 -1
      (nil))
 (call_insn 90 89 91 7 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AddrCallback") [flags 0x3]  <function_decl 0x7efc93942700 HAL_I2C_AddrCallback>) [0 HAL_I2C_AddrCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AddrCallback") [flags 0x3]  <function_decl 0x7f9222d42700 HAL_I2C_AddrCallback>) [0 HAL_I2C_AddrCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32133,7 +32133,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5329:9 -1
      (nil))
 (call_insn 99 98 100 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32176,7 +32176,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5338:9 -1
      (nil))
 (call_insn 109 108 110 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AddrCallback") [flags 0x3]  <function_decl 0x7efc93942700 HAL_I2C_AddrCallback>) [0 HAL_I2C_AddrCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AddrCallback") [flags 0x3]  <function_decl 0x7f9222d42700 HAL_I2C_AddrCallback>) [0 HAL_I2C_AddrCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32202,7 +32202,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5346:7 -1
      (nil))
 (call_insn 116 115 117 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32245,7 +32245,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5355:7 -1
      (nil))
 (call_insn 126 125 127 9 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AddrCallback") [flags 0x3]  <function_decl 0x7efc93942700 HAL_I2C_AddrCallback>) [0 HAL_I2C_AddrCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AddrCallback") [flags 0x3]  <function_decl 0x7f9222d42700 HAL_I2C_AddrCallback>) [0 HAL_I2C_AddrCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32412,7 +32412,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5389:5 -1
      (nil))
 (call_insn 29 28 30 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32441,7 +32441,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5398:5 -1
      (nil))
 (call_insn 35 34 36 4 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942300 HAL_I2C_MasterTxCpltCallback>) [0 HAL_I2C_MasterTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42300 HAL_I2C_MasterTxCpltCallback>) [0 HAL_I2C_MasterTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32501,7 +32501,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5409:5 -1
      (nil))
 (call_insn 52 51 53 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32530,7 +32530,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5418:5 -1
      (nil))
 (call_insn 58 57 61 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942400 HAL_I2C_MasterRxCpltCallback>) [0 HAL_I2C_MasterRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42400 HAL_I2C_MasterRxCpltCallback>) [0 HAL_I2C_MasterRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32785,7 +32785,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5458:5 -1
      (nil))
 (call_insn 64 63 65 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32814,7 +32814,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5467:5 -1
      (nil))
 (call_insn 70 69 71 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveTxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942500 HAL_I2C_SlaveTxCpltCallback>) [0 HAL_I2C_SlaveTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveTxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42500 HAL_I2C_SlaveTxCpltCallback>) [0 HAL_I2C_SlaveTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32886,7 +32886,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5478:5 -1
      (nil))
 (call_insn 91 90 92 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32915,7 +32915,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5487:5 -1
      (nil))
 (call_insn 97 96 100 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveRxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942600 HAL_I2C_SlaveRxCpltCallback>) [0 HAL_I2C_SlaveRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveRxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42600 HAL_I2C_SlaveRxCpltCallback>) [0 HAL_I2C_SlaveRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33057,7 +33057,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5514:5 -1
      (nil))
 (call_insn 22 21 23 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33116,7 +33116,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5519:5 -1
      (nil))
 (call_insn 39 38 40 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33337,7 +33337,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5552:3 -1
      (nil))
 (call_insn 101 100 102 12 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33414,7 +33414,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5561:5 -1
      (nil))
 (call_insn 121 120 122 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33535,7 +33535,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5580:7 -1
      (nil))
 (call_insn 156 155 157 17 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MemTxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942900 HAL_I2C_MemTxCpltCallback>) [0 HAL_I2C_MemTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MemTxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42900 HAL_I2C_MemTxCpltCallback>) [0 HAL_I2C_MemTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33584,7 +33584,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5594:7 -1
      (nil))
 (call_insn 170 169 171 18 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942300 HAL_I2C_MasterTxCpltCallback>) [0 HAL_I2C_MasterTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42300 HAL_I2C_MasterTxCpltCallback>) [0 HAL_I2C_MasterTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33704,7 +33704,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5615:7 -1
      (nil))
 (call_insn 205 204 206 21 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MemRxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942a00 HAL_I2C_MemRxCpltCallback>) [0 HAL_I2C_MemRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MemRxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42a00 HAL_I2C_MemRxCpltCallback>) [0 HAL_I2C_MemRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33753,7 +33753,7 @@ Forwarding edge 22->23 to 24 failed.
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5629:7 -1
      (nil))
 (call_insn 219 218 220 22 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942400 HAL_I2C_MasterRxCpltCallback>) [0 HAL_I2C_MasterRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42400 HAL_I2C_MasterRxCpltCallback>) [0 HAL_I2C_MasterRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33944,7 +33944,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5657:5 -1
      (nil))
 (call_insn 31 30 32 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34013,7 +34013,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5662:5 -1
      (nil))
 (call_insn 50 49 51 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34098,7 +34098,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5677:3 -1
      (nil))
 (call_insn 72 71 73 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34592,7 +34592,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5737:5 -1
      (nil))
 (call_insn 211 210 212 21 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34634,7 +34634,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5743:7 -1
      (nil))
 (call_insn 221 220 222 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITListenCplt") [flags 0x3]  <function_decl 0x7efc937e7700 I2C_ITListenCplt>) [0 I2C_ITListenCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITListenCplt") [flags 0x3]  <function_decl 0x7f9222be7700 I2C_ITListenCplt>) [0 I2C_ITListenCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34676,7 +34676,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5749:5 -1
      (nil))
 (call_insn 232 231 233 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34740,7 +34740,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5762:5 -1
      (nil))
 (call_insn 248 247 249 24 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_ListenCpltCallback") [flags 0x3]  <function_decl 0x7efc93942800 HAL_I2C_ListenCpltCallback>) [0 HAL_I2C_ListenCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_ListenCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42800 HAL_I2C_ListenCpltCallback>) [0 HAL_I2C_ListenCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34823,7 +34823,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5778:5 -1
      (nil))
 (call_insn 272 271 273 26 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveRxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942600 HAL_I2C_SlaveRxCpltCallback>) [0 HAL_I2C_SlaveRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveRxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42600 HAL_I2C_SlaveRxCpltCallback>) [0 HAL_I2C_SlaveRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -34883,7 +34883,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5793:5 -1
      (nil))
 (call_insn 289 288 292 27 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveTxCpltCallback") [flags 0x3]  <function_decl 0x7efc93942500 HAL_I2C_SlaveTxCpltCallback>) [0 HAL_I2C_SlaveTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_SlaveTxCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42500 HAL_I2C_SlaveTxCpltCallback>) [0 HAL_I2C_SlaveTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35182,7 +35182,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5833:3 -1
      (nil))
 (call_insn 76 75 77 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35225,7 +35225,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5845:3 -1
      (nil))
 (call_insn 86 85 0 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_ListenCpltCallback") [flags 0x3]  <function_decl 0x7efc93942800 HAL_I2C_ListenCpltCallback>) [0 HAL_I2C_ListenCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_ListenCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42800 HAL_I2C_ListenCpltCallback>) [0 HAL_I2C_ListenCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35469,7 +35469,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5874:5 -1
      (nil))
 (call_insn 42 41 43 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35498,7 +35498,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5878:25 -1
      (nil))
 (insn 48 47 49 6 (set (reg/f:SI 169)
-        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7efc937e7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5878:25 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_IT") [flags 0x3]  <function_decl 0x7f9222be7c00 I2C_Slave_ISR_IT>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5878:25 -1
      (nil))
 (insn 49 48 50 6 (set (mem/f:SI (plus:SI (reg/f:SI 168)
                 (const_int 52 [0x34])) [7 hi2c_44(D)->XferISR+0 S4 A32])
@@ -35519,7 +35519,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5883:5 -1
      (nil))
 (call_insn 56 55 57 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Disable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb500 I2C_Disable_IRQ>) [0 I2C_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35711,7 +35711,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 111 110 112 15 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetState") [flags 0x41]  <function_decl 0x7efc93a2f700 HAL_DMA_GetState>) [0 HAL_DMA_GetState S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetState") [flags 0x41]  <function_decl 0x7f9222e2f700 HAL_DMA_GetState>) [0 HAL_DMA_GetState S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35747,7 +35747,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [8 hi2c_44(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5909:11 -1
      (nil))
 (insn 119 118 120 16 (set (reg/f:SI 189)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5909:39 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5909:39 -1
      (nil))
 (insn 120 119 121 16 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 56 [0x38])) [14 _14->XferAbortCallback+0 S4 A32])
@@ -35780,7 +35780,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 128 127 129 16 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35852,7 +35852,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5923:7 -1
      (nil))
 (call_insn 146 145 149 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7efc937eb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7f9222beb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35986,7 +35986,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 186 185 187 25 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetState") [flags 0x41]  <function_decl 0x7efc93a2f700 HAL_DMA_GetState>) [0 HAL_DMA_GetState S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetState") [flags 0x41]  <function_decl 0x7f9222e2f700 HAL_DMA_GetState>) [0 HAL_DMA_GetState S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36022,7 +36022,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [8 hi2c_44(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5939:11 -1
      (nil))
 (insn 194 193 195 26 (set (reg/f:SI 206)
-        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7efc937e7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5939:39 -1
+        (symbol_ref:SI ("I2C_DMAAbort") [flags 0x3]  <function_decl 0x7f9222be7100 I2C_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5939:39 -1
      (nil))
 (insn 195 194 196 26 (set (mem/f:SI (plus:SI (reg/f:SI 143 [ _30 ])
                 (const_int 56 [0x38])) [14 _30->XferAbortCallback+0 S4 A32])
@@ -36055,7 +36055,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 203 202 204 26 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7efc93a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9222e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36127,7 +36127,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5953:7 -1
      (nil))
 (call_insn 221 220 224 28 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7efc937eb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7f9222beb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36148,7 +36148,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5958:5 -1
      (nil))
 (call_insn 229 228 230 30 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7efc937eb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7f9222beb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36264,7 +36264,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5981:5 -1
      (nil))
 (call_insn 25 24 26 4 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AbortCpltCallback") [flags 0x3]  <function_decl 0x7efc93942c00 HAL_I2C_AbortCpltCallback>) [0 HAL_I2C_AbortCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f9222d42c00 HAL_I2C_AbortCpltCallback>) [0 HAL_I2C_AbortCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36310,7 +36310,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":5995:5 -1
      (nil))
 (call_insn 38 37 41 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_ErrorCallback") [flags 0x3]  <function_decl 0x7efc93942b00 HAL_I2C_ErrorCallback>) [0 HAL_I2C_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_I2C_ErrorCallback") [flags 0x3]  <function_decl 0x7f9222d42b00 HAL_I2C_ErrorCallback>) [0 HAL_I2C_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36575,7 +36575,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6037:5 -1
      (nil))
 (call_insn 25 24 26 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36750,7 +36750,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 82 81 83 8 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36788,7 +36788,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6059:7 -1
      (nil))
 (call_insn 90 89 91 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36813,7 +36813,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6064:7 -1
      (nil))
 (call_insn 97 96 100 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36949,7 +36949,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6086:5 -1
      (nil))
 (call_insn 29 28 32 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37076,7 +37076,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6112:5 -1
      (nil))
 (call_insn 25 24 26 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37251,7 +37251,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 82 81 83 8 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efc93a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9222e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37289,7 +37289,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6134:7 -1
      (nil))
 (call_insn 90 89 91 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37314,7 +37314,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6139:7 -1
      (nil))
 (call_insn 97 96 100 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7efc937eb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Enable_IRQ") [flags 0x3]  <function_decl 0x7f9222beb400 I2C_Enable_IRQ>) [0 I2C_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37461,7 +37461,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6161:5 -1
      (nil))
 (call_insn 31 30 34 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7efc937e7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITSlaveSeqCplt") [flags 0x3]  <function_decl 0x7f9222be7400 I2C_ITSlaveSeqCplt>) [0 I2C_ITSlaveSeqCplt S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37549,7 +37549,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6184:3 -1
      (nil))
 (call_insn 18 17 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7efc937e7800 I2C_ITError>) [0 I2C_ITError S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_ITError") [flags 0x3]  <function_decl 0x7f9222be7800 I2C_ITError>) [0 I2C_ITError S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37689,7 +37689,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6207:3 -1
      (nil))
 (call_insn 32 31 0 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7efc937eb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_TreatErrorCallback") [flags 0x3]  <function_decl 0x7f9222beb600 I2C_TreatErrorCallback>) [0 I2C_TreatErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37789,7 +37789,7 @@ try_optimize_cfg iteration 2
 (note 17 16 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38064,7 +38064,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 14 13 15 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_IsAcknowledgeFailed") [flags 0x3]  <function_decl 0x7efc937eb300 I2C_IsAcknowledgeFailed>) [0 I2C_IsAcknowledgeFailed S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_IsAcknowledgeFailed") [flags 0x3]  <function_decl 0x7f9222beb300 I2C_IsAcknowledgeFailed>) [0 I2C_IsAcknowledgeFailed S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38121,7 +38121,7 @@ try_optimize_cfg iteration 2
 (note 28 27 29 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 29 28 30 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38364,7 +38364,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 14 13 15 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_IsAcknowledgeFailed") [flags 0x3]  <function_decl 0x7efc937eb300 I2C_IsAcknowledgeFailed>) [0 I2C_IsAcknowledgeFailed S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_IsAcknowledgeFailed") [flags 0x3]  <function_decl 0x7f9222beb300 I2C_IsAcknowledgeFailed>) [0 I2C_IsAcknowledgeFailed S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38405,7 +38405,7 @@ try_optimize_cfg iteration 2
 (note 24 23 25 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 25 24 26 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38656,7 +38656,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 14 13 15 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("I2C_IsAcknowledgeFailed") [flags 0x3]  <function_decl 0x7efc937eb300 I2C_IsAcknowledgeFailed>) [0 I2C_IsAcknowledgeFailed S4 A32])
+                (call (mem:SI (symbol_ref:SI ("I2C_IsAcknowledgeFailed") [flags 0x3]  <function_decl 0x7f9222beb300 I2C_IsAcknowledgeFailed>) [0 I2C_IsAcknowledgeFailed S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38889,7 +38889,7 @@ try_optimize_cfg iteration 2
 (note 80 79 81 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (call_insn 81 80 82 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39151,7 +39151,7 @@ try_optimize_cfg iteration 2
 (note 21 20 22 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 22 21 23 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efc937d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9222bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39337,7 +39337,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hi2c+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6417:5 -1
      (nil))
 (call_insn 76 75 77 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7efc937eb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
+            (call (mem:SI (symbol_ref:SI ("I2C_Flush_TXDR") [flags 0x3]  <function_decl 0x7f9222beb700 I2C_Flush_TXDR>) [0 I2C_Flush_TXDR S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39709,7 +39709,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hi2c_23(D)->XferISR+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6480:12 -1
      (nil))
 (insn 13 12 14 2 (set (reg/f:SI 130)
-        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6480:6 -1
+        (symbol_ref:SI ("I2C_Master_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7d00 I2C_Master_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6480:6 -1
      (nil))
 (insn 14 13 15 2 (set (reg:CC 100 cc)
         (compare:CC (reg/f:SI 114 [ _1 ])
@@ -39732,7 +39732,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hi2c_23(D)->XferISR+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6481:12 -1
      (nil))
 (insn 19 18 20 4 (set (reg/f:SI 132)
-        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7efc937e7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6480:45 discrim 1 -1
+        (symbol_ref:SI ("I2C_Slave_ISR_DMA") [flags 0x3]  <function_decl 0x7f9222be7e00 I2C_Slave_ISR_DMA>)) "lib/HAL/Src/stm32g4xx_hal_i2c.c":6480:45 discrim 1 -1
      (nil))
 (insn 20 19 21 4 (set (reg:CC 100 cc)
         (compare:CC (reg/f:SI 115 [ _2 ])

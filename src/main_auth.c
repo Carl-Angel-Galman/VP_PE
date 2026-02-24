@@ -121,7 +121,6 @@ int main(void)
 
 				int8_t res = Auth_ReadKey(key, &key_len);
 
-
 				copy_and_decrypt_auth_section(key);
 
 				verify();

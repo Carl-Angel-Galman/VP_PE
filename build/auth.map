@@ -84,10 +84,6 @@ Discarded input sections
                 0x00000000       0x20 obj/Authenticator.o
  .text.Auth_init
                 0x00000000       0x20 obj/Authenticator.o
- .text.D1_FlashUpdate
-                0x00000000       0x2c obj/Authenticator.o
- .bss.lastToggleMs.0
-                0x00000000        0x4 obj/Authenticator.o
  .text          0x00000000        0x0 obj/ADCModule.o
  .data          0x00000000        0x0 obj/ADCModule.o
  .bss           0x00000000        0x0 obj/ADCModule.o
@@ -2172,97 +2168,97 @@ LOAD /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thum
  .comment       0x00000046       0x47 obj/libstm32.a(stm32g4xx_hal_uart.o)
  .comment       0x00000046       0x47 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
-.debug_line     0x00000000     0xfa98
+.debug_line     0x00000000     0xfa75
  .debug_line    0x00000000       0x3f obj/vectors_auth.o
  .debug_line    0x0000003f       0x62 obj/startup_auth.o
  .debug_line    0x000000a1      0x228 obj/main_auth.o
  .debug_line    0x000002c9      0x281 obj/System.o
- .debug_line    0x0000054a      0x3bf obj/Authenticator.o
- .debug_line    0x00000909      0x426 obj/ADCModule.o
- .debug_line    0x00000d2f      0x1c8 obj/ButtonModule.o
- .debug_line    0x00000ef7      0x203 obj/DisplayModule.o
- .debug_line    0x000010fa      0x133 obj/HAL.o
- .debug_line    0x0000122d      0x1ca obj/LEDModule.o
- .debug_line    0x000013f7      0x211 obj/TimerModule.o
- .debug_line    0x00001608      0x289 obj/UARTModule.o
- .debug_line    0x00001891       0x89 obj/FaultHandler.o
- .debug_line    0x0000191a      0x10f obj/Scheduler.o
- .debug_line    0x00001a29       0xb8 obj/SystemHandler.o
- .debug_line    0x00001ae1     0x1bff obj/libstm32.a(stm32g4xx_hal_adc.o)
- .debug_line    0x000036e0     0x159d obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
- .debug_line    0x00004c7d      0x586 obj/libstm32.a(stm32g4xx_hal.o)
- .debug_line    0x00005203      0x6d8 obj/libstm32.a(stm32g4xx_hal_cortex.o)
- .debug_line    0x000058db      0x896 obj/libstm32.a(stm32g4xx_hal_dma.o)
- .debug_line    0x00006171      0x56b obj/libstm32.a(stm32g4xx_hal_gpio.o)
- .debug_line    0x000066dc      0x731 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
- .debug_line    0x00006e0d      0xa40 obj/libstm32.a(stm32g4xx_hal_rcc.o)
- .debug_line    0x0000784d      0xce5 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
- .debug_line    0x00008532     0x3912 obj/libstm32.a(stm32g4xx_hal_tim.o)
- .debug_line    0x0000be44     0x1a78 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
- .debug_line    0x0000d8bc     0x1b88 obj/libstm32.a(stm32g4xx_hal_uart.o)
- .debug_line    0x0000f444      0x654 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+ .debug_line    0x0000054a      0x39c obj/Authenticator.o
+ .debug_line    0x000008e6      0x426 obj/ADCModule.o
+ .debug_line    0x00000d0c      0x1c8 obj/ButtonModule.o
+ .debug_line    0x00000ed4      0x203 obj/DisplayModule.o
+ .debug_line    0x000010d7      0x133 obj/HAL.o
+ .debug_line    0x0000120a      0x1ca obj/LEDModule.o
+ .debug_line    0x000013d4      0x211 obj/TimerModule.o
+ .debug_line    0x000015e5      0x289 obj/UARTModule.o
+ .debug_line    0x0000186e       0x89 obj/FaultHandler.o
+ .debug_line    0x000018f7      0x10f obj/Scheduler.o
+ .debug_line    0x00001a06       0xb8 obj/SystemHandler.o
+ .debug_line    0x00001abe     0x1bff obj/libstm32.a(stm32g4xx_hal_adc.o)
+ .debug_line    0x000036bd     0x159d obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+ .debug_line    0x00004c5a      0x586 obj/libstm32.a(stm32g4xx_hal.o)
+ .debug_line    0x000051e0      0x6d8 obj/libstm32.a(stm32g4xx_hal_cortex.o)
+ .debug_line    0x000058b8      0x896 obj/libstm32.a(stm32g4xx_hal_dma.o)
+ .debug_line    0x0000614e      0x56b obj/libstm32.a(stm32g4xx_hal_gpio.o)
+ .debug_line    0x000066b9      0x731 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+ .debug_line    0x00006dea      0xa40 obj/libstm32.a(stm32g4xx_hal_rcc.o)
+ .debug_line    0x0000782a      0xce5 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+ .debug_line    0x0000850f     0x3912 obj/libstm32.a(stm32g4xx_hal_tim.o)
+ .debug_line    0x0000be21     0x1a78 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+ .debug_line    0x0000d899     0x1b88 obj/libstm32.a(stm32g4xx_hal_uart.o)
+ .debug_line    0x0000f421      0x654 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
-.debug_info     0x00000000    0x15399
+.debug_info     0x00000000    0x1535e
  .debug_info    0x00000000      0x639 obj/vectors_auth.o
  .debug_info    0x00000639       0x35 obj/startup_auth.o
  .debug_info    0x0000066e      0x2b7 obj/main_auth.o
  .debug_info    0x00000925      0x585 obj/System.o
- .debug_info    0x00000eaa      0x624 obj/Authenticator.o
- .debug_info    0x000014ce     0x1408 obj/ADCModule.o
- .debug_info    0x000028d6      0x534 obj/ButtonModule.o
- .debug_info    0x00002e0a      0x5bb obj/DisplayModule.o
- .debug_info    0x000033c5      0x2d6 obj/HAL.o
- .debug_info    0x0000369b      0x562 obj/LEDModule.o
- .debug_info    0x00003bfd      0xeaf obj/TimerModule.o
- .debug_info    0x00004aac      0xe42 obj/UARTModule.o
- .debug_info    0x000058ee       0x67 obj/FaultHandler.o
- .debug_info    0x00005955      0x1b6 obj/Scheduler.o
- .debug_info    0x00005b0b       0xcf obj/SystemHandler.o
- .debug_info    0x00005bda     0x2021 obj/libstm32.a(stm32g4xx_hal_adc.o)
- .debug_info    0x00007bfb     0x1d63 obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
- .debug_info    0x0000995e      0xb51 obj/libstm32.a(stm32g4xx_hal.o)
- .debug_info    0x0000a4af      0xda9 obj/libstm32.a(stm32g4xx_hal_cortex.o)
- .debug_info    0x0000b258      0x85b obj/libstm32.a(stm32g4xx_hal_dma.o)
- .debug_info    0x0000bab3      0x75f obj/libstm32.a(stm32g4xx_hal_gpio.o)
- .debug_info    0x0000c212      0x93b obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
- .debug_info    0x0000cb4d      0xbe0 obj/libstm32.a(stm32g4xx_hal_rcc.o)
- .debug_info    0x0000d72d      0xc41 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
- .debug_info    0x0000e36e     0x2a82 obj/libstm32.a(stm32g4xx_hal_tim.o)
- .debug_info    0x00010df0     0x1cb5 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
- .debug_info    0x00012aa5     0x1b7d obj/libstm32.a(stm32g4xx_hal_uart.o)
- .debug_info    0x00014622      0xd77 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+ .debug_info    0x00000eaa      0x5e9 obj/Authenticator.o
+ .debug_info    0x00001493     0x1408 obj/ADCModule.o
+ .debug_info    0x0000289b      0x534 obj/ButtonModule.o
+ .debug_info    0x00002dcf      0x5bb obj/DisplayModule.o
+ .debug_info    0x0000338a      0x2d6 obj/HAL.o
+ .debug_info    0x00003660      0x562 obj/LEDModule.o
+ .debug_info    0x00003bc2      0xeaf obj/TimerModule.o
+ .debug_info    0x00004a71      0xe42 obj/UARTModule.o
+ .debug_info    0x000058b3       0x67 obj/FaultHandler.o
+ .debug_info    0x0000591a      0x1b6 obj/Scheduler.o
+ .debug_info    0x00005ad0       0xcf obj/SystemHandler.o
+ .debug_info    0x00005b9f     0x2021 obj/libstm32.a(stm32g4xx_hal_adc.o)
+ .debug_info    0x00007bc0     0x1d63 obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+ .debug_info    0x00009923      0xb51 obj/libstm32.a(stm32g4xx_hal.o)
+ .debug_info    0x0000a474      0xda9 obj/libstm32.a(stm32g4xx_hal_cortex.o)
+ .debug_info    0x0000b21d      0x85b obj/libstm32.a(stm32g4xx_hal_dma.o)
+ .debug_info    0x0000ba78      0x75f obj/libstm32.a(stm32g4xx_hal_gpio.o)
+ .debug_info    0x0000c1d7      0x93b obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+ .debug_info    0x0000cb12      0xbe0 obj/libstm32.a(stm32g4xx_hal_rcc.o)
+ .debug_info    0x0000d6f2      0xc41 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+ .debug_info    0x0000e333     0x2a82 obj/libstm32.a(stm32g4xx_hal_tim.o)
+ .debug_info    0x00010db5     0x1cb5 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+ .debug_info    0x00012a6a     0x1b7d obj/libstm32.a(stm32g4xx_hal_uart.o)
+ .debug_info    0x000145e7      0xd77 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
-.debug_abbrev   0x00000000     0x33c9
+.debug_abbrev   0x00000000     0x338e
  .debug_abbrev  0x00000000       0x21 obj/vectors_auth.o
  .debug_abbrev  0x00000021       0x21 obj/startup_auth.o
  .debug_abbrev  0x00000042      0x14b obj/main_auth.o
  .debug_abbrev  0x0000018d      0x1d1 obj/System.o
- .debug_abbrev  0x0000035e      0x296 obj/Authenticator.o
- .debug_abbrev  0x000005f4      0x28f obj/ADCModule.o
- .debug_abbrev  0x00000883      0x1ac obj/ButtonModule.o
- .debug_abbrev  0x00000a2f      0x1c2 obj/DisplayModule.o
- .debug_abbrev  0x00000bf1       0xd7 obj/HAL.o
- .debug_abbrev  0x00000cc8      0x1a9 obj/LEDModule.o
- .debug_abbrev  0x00000e71      0x1fd obj/TimerModule.o
- .debug_abbrev  0x0000106e      0x1e4 obj/UARTModule.o
- .debug_abbrev  0x00001252       0x2f obj/FaultHandler.o
- .debug_abbrev  0x00001281       0xc0 obj/Scheduler.o
- .debug_abbrev  0x00001341       0x71 obj/SystemHandler.o
- .debug_abbrev  0x000013b2      0x2c8 obj/libstm32.a(stm32g4xx_hal_adc.o)
- .debug_abbrev  0x0000167a      0x2ec obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
- .debug_abbrev  0x00001966      0x240 obj/libstm32.a(stm32g4xx_hal.o)
- .debug_abbrev  0x00001ba6      0x31a obj/libstm32.a(stm32g4xx_hal_cortex.o)
- .debug_abbrev  0x00001ec0      0x1e0 obj/libstm32.a(stm32g4xx_hal_dma.o)
- .debug_abbrev  0x000020a0      0x1c9 obj/libstm32.a(stm32g4xx_hal_gpio.o)
- .debug_abbrev  0x00002269      0x22a obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
- .debug_abbrev  0x00002493      0x2c7 obj/libstm32.a(stm32g4xx_hal_rcc.o)
- .debug_abbrev  0x0000275a      0x256 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
- .debug_abbrev  0x000029b0      0x29e obj/libstm32.a(stm32g4xx_hal_tim.o)
- .debug_abbrev  0x00002c4e      0x2be obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
- .debug_abbrev  0x00002f0c      0x289 obj/libstm32.a(stm32g4xx_hal_uart.o)
- .debug_abbrev  0x00003195      0x234 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+ .debug_abbrev  0x0000035e      0x25b obj/Authenticator.o
+ .debug_abbrev  0x000005b9      0x28f obj/ADCModule.o
+ .debug_abbrev  0x00000848      0x1ac obj/ButtonModule.o
+ .debug_abbrev  0x000009f4      0x1c2 obj/DisplayModule.o
+ .debug_abbrev  0x00000bb6       0xd7 obj/HAL.o
+ .debug_abbrev  0x00000c8d      0x1a9 obj/LEDModule.o
+ .debug_abbrev  0x00000e36      0x1fd obj/TimerModule.o
+ .debug_abbrev  0x00001033      0x1e4 obj/UARTModule.o
+ .debug_abbrev  0x00001217       0x2f obj/FaultHandler.o
+ .debug_abbrev  0x00001246       0xc0 obj/Scheduler.o
+ .debug_abbrev  0x00001306       0x71 obj/SystemHandler.o
+ .debug_abbrev  0x00001377      0x2c8 obj/libstm32.a(stm32g4xx_hal_adc.o)
+ .debug_abbrev  0x0000163f      0x2ec obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+ .debug_abbrev  0x0000192b      0x240 obj/libstm32.a(stm32g4xx_hal.o)
+ .debug_abbrev  0x00001b6b      0x31a obj/libstm32.a(stm32g4xx_hal_cortex.o)
+ .debug_abbrev  0x00001e85      0x1e0 obj/libstm32.a(stm32g4xx_hal_dma.o)
+ .debug_abbrev  0x00002065      0x1c9 obj/libstm32.a(stm32g4xx_hal_gpio.o)
+ .debug_abbrev  0x0000222e      0x22a obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+ .debug_abbrev  0x00002458      0x2c7 obj/libstm32.a(stm32g4xx_hal_rcc.o)
+ .debug_abbrev  0x0000271f      0x256 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+ .debug_abbrev  0x00002975      0x29e obj/libstm32.a(stm32g4xx_hal_tim.o)
+ .debug_abbrev  0x00002c13      0x2be obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+ .debug_abbrev  0x00002ed1      0x289 obj/libstm32.a(stm32g4xx_hal_uart.o)
+ .debug_abbrev  0x0000315a      0x234 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
-.debug_aranges  0x00000000     0x15b0
+.debug_aranges  0x00000000     0x15a8
  .debug_aranges
                 0x00000000       0x20 obj/vectors_auth.o
  .debug_aranges
@@ -2272,172 +2268,172 @@ LOAD /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thum
  .debug_aranges
                 0x00000068       0x38 obj/System.o
  .debug_aranges
-                0x000000a0       0x58 obj/Authenticator.o
+                0x000000a0       0x50 obj/Authenticator.o
  .debug_aranges
-                0x000000f8       0x50 obj/ADCModule.o
+                0x000000f0       0x50 obj/ADCModule.o
  .debug_aranges
-                0x00000148       0x28 obj/ButtonModule.o
+                0x00000140       0x28 obj/ButtonModule.o
  .debug_aranges
-                0x00000170       0x28 obj/DisplayModule.o
+                0x00000168       0x28 obj/DisplayModule.o
  .debug_aranges
-                0x00000198       0x20 obj/HAL.o
+                0x00000190       0x20 obj/HAL.o
  .debug_aranges
-                0x000001b8       0x30 obj/LEDModule.o
+                0x000001b0       0x30 obj/LEDModule.o
  .debug_aranges
-                0x000001e8       0x30 obj/TimerModule.o
+                0x000001e0       0x30 obj/TimerModule.o
  .debug_aranges
-                0x00000218       0x30 obj/UARTModule.o
+                0x00000210       0x30 obj/UARTModule.o
  .debug_aranges
-                0x00000248       0x38 obj/FaultHandler.o
+                0x00000240       0x38 obj/FaultHandler.o
  .debug_aranges
-                0x00000280       0x28 obj/Scheduler.o
+                0x00000278       0x28 obj/Scheduler.o
  .debug_aranges
-                0x000002a8       0x40 obj/SystemHandler.o
+                0x000002a0       0x40 obj/SystemHandler.o
  .debug_aranges
-                0x000002e8      0x248 obj/libstm32.a(stm32g4xx_hal_adc.o)
+                0x000002e0      0x248 obj/libstm32.a(stm32g4xx_hal_adc.o)
  .debug_aranges
-                0x00000530      0x1c0 obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+                0x00000528      0x1c0 obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
  .debug_aranges
-                0x000006f0      0x130 obj/libstm32.a(stm32g4xx_hal.o)
+                0x000006e8      0x130 obj/libstm32.a(stm32g4xx_hal.o)
  .debug_aranges
-                0x00000820      0x118 obj/libstm32.a(stm32g4xx_hal_cortex.o)
+                0x00000818      0x118 obj/libstm32.a(stm32g4xx_hal_cortex.o)
  .debug_aranges
-                0x00000938       0x90 obj/libstm32.a(stm32g4xx_hal_dma.o)
+                0x00000930       0x90 obj/libstm32.a(stm32g4xx_hal_dma.o)
  .debug_aranges
-                0x000009c8       0x58 obj/libstm32.a(stm32g4xx_hal_gpio.o)
+                0x000009c0       0x58 obj/libstm32.a(stm32g4xx_hal_gpio.o)
  .debug_aranges
-                0x00000a20      0x140 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+                0x00000a18      0x140 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
  .debug_aranges
-                0x00000b60       0x98 obj/libstm32.a(stm32g4xx_hal_rcc.o)
+                0x00000b58       0x98 obj/libstm32.a(stm32g4xx_hal_rcc.o)
  .debug_aranges
-                0x00000bf8       0xb0 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+                0x00000bf0       0xb0 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
  .debug_aranges
-                0x00000ca8      0x3e0 obj/libstm32.a(stm32g4xx_hal_tim.o)
+                0x00000ca0      0x3e0 obj/libstm32.a(stm32g4xx_hal_tim.o)
  .debug_aranges
-                0x00001088      0x240 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+                0x00001080      0x240 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
  .debug_aranges
-                0x000012c8      0x248 obj/libstm32.a(stm32g4xx_hal_uart.o)
+                0x000012c0      0x248 obj/libstm32.a(stm32g4xx_hal_uart.o)
  .debug_aranges
-                0x00001510       0xa0 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+                0x00001508       0xa0 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
-.debug_str      0x00000000     0x7254
- .debug_str     0x00000000     0x7254 obj/vectors_auth.o
+.debug_str      0x00000000     0x7232
+ .debug_str     0x00000000     0x7232 obj/vectors_auth.o
                                 0x8d2 (size before relaxing)
- .debug_str     0x00007254       0x48 obj/startup_auth.o
- .debug_str     0x00007254      0x305 obj/main_auth.o
- .debug_str     0x00007254      0x4eb obj/System.o
- .debug_str     0x00007254      0x495 obj/Authenticator.o
- .debug_str     0x00007254     0x13d5 obj/ADCModule.o
- .debug_str     0x00007254      0x443 obj/ButtonModule.o
- .debug_str     0x00007254      0x474 obj/DisplayModule.o
- .debug_str     0x00007254      0x2db obj/HAL.o
- .debug_str     0x00007254      0x423 obj/LEDModule.o
- .debug_str     0x00007254     0x10e4 obj/TimerModule.o
- .debug_str     0x00007254      0xba0 obj/UARTModule.o
- .debug_str     0x00007254      0x101 obj/FaultHandler.o
- .debug_str     0x00007254      0x23f obj/Scheduler.o
- .debug_str     0x00007254      0x19e obj/SystemHandler.o
- .debug_str     0x00007254     0x12ac obj/libstm32.a(stm32g4xx_hal_adc.o)
- .debug_str     0x00007254     0x128c obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
- .debug_str     0x00007254      0xdbf obj/libstm32.a(stm32g4xx_hal.o)
- .debug_str     0x00007254      0xd04 obj/libstm32.a(stm32g4xx_hal_cortex.o)
- .debug_str     0x00007254      0x748 obj/libstm32.a(stm32g4xx_hal_dma.o)
- .debug_str     0x00007254      0x4e7 obj/libstm32.a(stm32g4xx_hal_gpio.o)
- .debug_str     0x00007254      0x789 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
- .debug_str     0x00007254      0x7ea obj/libstm32.a(stm32g4xx_hal_rcc.o)
- .debug_str     0x00007254      0xa0c obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
- .debug_str     0x00007254     0x1835 obj/libstm32.a(stm32g4xx_hal_tim.o)
- .debug_str     0x00007254     0x14bf obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
- .debug_str     0x00007254     0x1174 obj/libstm32.a(stm32g4xx_hal_uart.o)
- .debug_str     0x00007254      0xa9f obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+ .debug_str     0x00007232       0x48 obj/startup_auth.o
+ .debug_str     0x00007232      0x305 obj/main_auth.o
+ .debug_str     0x00007232      0x4eb obj/System.o
+ .debug_str     0x00007232      0x473 obj/Authenticator.o
+ .debug_str     0x00007232     0x13d5 obj/ADCModule.o
+ .debug_str     0x00007232      0x443 obj/ButtonModule.o
+ .debug_str     0x00007232      0x474 obj/DisplayModule.o
+ .debug_str     0x00007232      0x2db obj/HAL.o
+ .debug_str     0x00007232      0x423 obj/LEDModule.o
+ .debug_str     0x00007232     0x10e4 obj/TimerModule.o
+ .debug_str     0x00007232      0xba0 obj/UARTModule.o
+ .debug_str     0x00007232      0x101 obj/FaultHandler.o
+ .debug_str     0x00007232      0x23f obj/Scheduler.o
+ .debug_str     0x00007232      0x19e obj/SystemHandler.o
+ .debug_str     0x00007232     0x12ac obj/libstm32.a(stm32g4xx_hal_adc.o)
+ .debug_str     0x00007232     0x128c obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+ .debug_str     0x00007232      0xdbf obj/libstm32.a(stm32g4xx_hal.o)
+ .debug_str     0x00007232      0xd04 obj/libstm32.a(stm32g4xx_hal_cortex.o)
+ .debug_str     0x00007232      0x748 obj/libstm32.a(stm32g4xx_hal_dma.o)
+ .debug_str     0x00007232      0x4e7 obj/libstm32.a(stm32g4xx_hal_gpio.o)
+ .debug_str     0x00007232      0x789 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+ .debug_str     0x00007232      0x7ea obj/libstm32.a(stm32g4xx_hal_rcc.o)
+ .debug_str     0x00007232      0xa0c obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+ .debug_str     0x00007232     0x1835 obj/libstm32.a(stm32g4xx_hal_tim.o)
+ .debug_str     0x00007232     0x14bf obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+ .debug_str     0x00007232     0x1174 obj/libstm32.a(stm32g4xx_hal_uart.o)
+ .debug_str     0x00007232      0xa9f obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
 .debug_rnglists
-                0x00000000     0x108a
+                0x00000000     0x1084
  .debug_rnglists
                 0x00000000       0x1a obj/main_auth.o
  .debug_rnglists
                 0x0000001a       0x27 obj/System.o
  .debug_rnglists
-                0x00000041       0x3e obj/Authenticator.o
+                0x00000041       0x38 obj/Authenticator.o
  .debug_rnglists
-                0x0000007f       0x39 obj/ADCModule.o
+                0x00000079       0x39 obj/ADCModule.o
  .debug_rnglists
-                0x000000b8       0x1b obj/ButtonModule.o
+                0x000000b2       0x1b obj/ButtonModule.o
  .debug_rnglists
-                0x000000d3       0x1b obj/DisplayModule.o
+                0x000000cd       0x1b obj/DisplayModule.o
  .debug_rnglists
-                0x000000ee       0x13 obj/HAL.o
+                0x000000e8       0x13 obj/HAL.o
  .debug_rnglists
-                0x00000101       0x21 obj/LEDModule.o
+                0x000000fb       0x21 obj/LEDModule.o
  .debug_rnglists
-                0x00000122       0x20 obj/TimerModule.o
+                0x0000011c       0x20 obj/TimerModule.o
  .debug_rnglists
-                0x00000142       0x20 obj/UARTModule.o
+                0x0000013c       0x20 obj/UARTModule.o
  .debug_rnglists
-                0x00000162       0x25 obj/FaultHandler.o
+                0x0000015c       0x25 obj/FaultHandler.o
  .debug_rnglists
-                0x00000187       0x19 obj/Scheduler.o
+                0x00000181       0x19 obj/Scheduler.o
  .debug_rnglists
-                0x000001a0       0x2b obj/SystemHandler.o
+                0x0000019a       0x2b obj/SystemHandler.o
  .debug_rnglists
-                0x000001cb      0x1c0 obj/libstm32.a(stm32g4xx_hal_adc.o)
+                0x000001c5      0x1c0 obj/libstm32.a(stm32g4xx_hal_adc.o)
  .debug_rnglists
-                0x0000038b      0x15a obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+                0x00000385      0x15a obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
  .debug_rnglists
-                0x000004e5       0xdf obj/libstm32.a(stm32g4xx_hal.o)
+                0x000004df       0xdf obj/libstm32.a(stm32g4xx_hal.o)
  .debug_rnglists
-                0x000005c4       0xce obj/libstm32.a(stm32g4xx_hal_cortex.o)
+                0x000005be       0xce obj/libstm32.a(stm32g4xx_hal_cortex.o)
  .debug_rnglists
-                0x00000692       0x71 obj/libstm32.a(stm32g4xx_hal_dma.o)
+                0x0000068c       0x71 obj/libstm32.a(stm32g4xx_hal_dma.o)
  .debug_rnglists
-                0x00000703       0x3f obj/libstm32.a(stm32g4xx_hal_gpio.o)
+                0x000006fd       0x3f obj/libstm32.a(stm32g4xx_hal_gpio.o)
  .debug_rnglists
-                0x00000742       0xf1 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+                0x0000073c       0xf1 obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
  .debug_rnglists
-                0x00000833       0x73 obj/libstm32.a(stm32g4xx_hal_rcc.o)
+                0x0000082d       0x73 obj/libstm32.a(stm32g4xx_hal_rcc.o)
  .debug_rnglists
-                0x000008a6       0x87 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+                0x000008a0       0x87 obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
  .debug_rnglists
-                0x0000092d      0x328 obj/libstm32.a(stm32g4xx_hal_tim.o)
+                0x00000927      0x328 obj/libstm32.a(stm32g4xx_hal_tim.o)
  .debug_rnglists
-                0x00000c55      0x1cb obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+                0x00000c4f      0x1cb obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
  .debug_rnglists
-                0x00000e20      0x1f1 obj/libstm32.a(stm32g4xx_hal_uart.o)
+                0x00000e1a      0x1f1 obj/libstm32.a(stm32g4xx_hal_uart.o)
  .debug_rnglists
-                0x00001011       0x79 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+                0x0000100b       0x79 obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
-.debug_frame    0x00000000     0x5ae0
+.debug_frame    0x00000000     0x5abc
  .debug_frame   0x00000000       0x54 obj/main_auth.o
  .debug_frame   0x00000054       0x94 obj/System.o
- .debug_frame   0x000000e8      0x118 obj/Authenticator.o
- .debug_frame   0x00000200      0x104 obj/ADCModule.o
- .debug_frame   0x00000304       0x58 obj/ButtonModule.o
- .debug_frame   0x0000035c       0x58 obj/DisplayModule.o
- .debug_frame   0x000003b4       0x34 obj/HAL.o
- .debug_frame   0x000003e8       0x7c obj/LEDModule.o
- .debug_frame   0x00000464       0x74 obj/TimerModule.o
- .debug_frame   0x000004d8       0x80 obj/UARTModule.o
- .debug_frame   0x00000558       0x70 obj/FaultHandler.o
- .debug_frame   0x000005c8       0x60 obj/Scheduler.o
- .debug_frame   0x00000628       0xac obj/SystemHandler.o
- .debug_frame   0x000006d4       0x20 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
- .debug_frame   0x000006f4       0x28 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x0000071c       0x20 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-strlen.o)
- .debug_frame   0x0000073c       0x2c /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00000768       0x34 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000079c      0xacc obj/libstm32.a(stm32g4xx_hal_adc.o)
- .debug_frame   0x00001268      0x81c obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
- .debug_frame   0x00001a84      0x4a0 obj/libstm32.a(stm32g4xx_hal.o)
- .debug_frame   0x00001f24      0x498 obj/libstm32.a(stm32g4xx_hal_cortex.o)
- .debug_frame   0x000023bc      0x24c obj/libstm32.a(stm32g4xx_hal_dma.o)
- .debug_frame   0x00002608      0x14c obj/libstm32.a(stm32g4xx_hal_gpio.o)
- .debug_frame   0x00002754      0x4fc obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
- .debug_frame   0x00002c50      0x23c obj/libstm32.a(stm32g4xx_hal_rcc.o)
- .debug_frame   0x00002e8c      0x2ac obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
- .debug_frame   0x00003138     0x1220 obj/libstm32.a(stm32g4xx_hal_tim.o)
- .debug_frame   0x00004358      0xa68 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
- .debug_frame   0x00004dc0      0xa84 obj/libstm32.a(stm32g4xx_hal_uart.o)
- .debug_frame   0x00005844      0x29c obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
+ .debug_frame   0x000000e8       0xf4 obj/Authenticator.o
+ .debug_frame   0x000001dc      0x104 obj/ADCModule.o
+ .debug_frame   0x000002e0       0x58 obj/ButtonModule.o
+ .debug_frame   0x00000338       0x58 obj/DisplayModule.o
+ .debug_frame   0x00000390       0x34 obj/HAL.o
+ .debug_frame   0x000003c4       0x7c obj/LEDModule.o
+ .debug_frame   0x00000440       0x74 obj/TimerModule.o
+ .debug_frame   0x000004b4       0x80 obj/UARTModule.o
+ .debug_frame   0x00000534       0x70 obj/FaultHandler.o
+ .debug_frame   0x000005a4       0x60 obj/Scheduler.o
+ .debug_frame   0x00000604       0xac obj/SystemHandler.o
+ .debug_frame   0x000006b0       0x20 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x000006d0       0x28 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x000006f8       0x20 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-strlen.o)
+ .debug_frame   0x00000718       0x2c /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000744       0x34 /home/kali/Tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000778      0xacc obj/libstm32.a(stm32g4xx_hal_adc.o)
+ .debug_frame   0x00001244      0x81c obj/libstm32.a(stm32g4xx_hal_adc_ex.o)
+ .debug_frame   0x00001a60      0x4a0 obj/libstm32.a(stm32g4xx_hal.o)
+ .debug_frame   0x00001f00      0x498 obj/libstm32.a(stm32g4xx_hal_cortex.o)
+ .debug_frame   0x00002398      0x24c obj/libstm32.a(stm32g4xx_hal_dma.o)
+ .debug_frame   0x000025e4      0x14c obj/libstm32.a(stm32g4xx_hal_gpio.o)
+ .debug_frame   0x00002730      0x4fc obj/libstm32.a(stm32g4xx_hal_pwr_ex.o)
+ .debug_frame   0x00002c2c      0x23c obj/libstm32.a(stm32g4xx_hal_rcc.o)
+ .debug_frame   0x00002e68      0x2ac obj/libstm32.a(stm32g4xx_hal_rcc_ex.o)
+ .debug_frame   0x00003114     0x1220 obj/libstm32.a(stm32g4xx_hal_tim.o)
+ .debug_frame   0x00004334      0xa68 obj/libstm32.a(stm32g4xx_hal_tim_ex.o)
+ .debug_frame   0x00004d9c      0xa84 obj/libstm32.a(stm32g4xx_hal_uart.o)
+ .debug_frame   0x00005820      0x29c obj/libstm32.a(stm32g4xx_hal_uart_ex.o)
 
 .debug_line_str
                 0x00000000      0x1ac
