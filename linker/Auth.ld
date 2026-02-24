@@ -35,9 +35,9 @@ ENTRY(Reset_Handler)
 MEMORY
 {
   /* RAM Memory Region incl. SRAM1 and SRAM2 */
-  RAM    (rw)      : ORIGIN = 0x20000000,  LENGTH = 128K
+  RAM    (rw)      : ORIGIN = 0x20000000,  LENGTH = 16K
   /* FLASH Memory Region using mapped address 0x08000000. */
-  FLASH  (rx)      : ORIGIN = 0x08000000,  LENGTH = 512K
+  FLASH  (rx)      : ORIGIN = 0x08000000,  LENGTH = 64K
 }
 
 
@@ -55,6 +55,7 @@ _size_of_stack =0x1000;
 /* Highest usable address of the RAM. */
 _end_of_ram = ORIGIN(RAM) + LENGTH(RAM) - 4;        /* End of RAM */
 
+_initial_stack_pointer = _end_of_ram;
 
 /***** SECTIONS **************************************************************/
 
@@ -113,6 +114,20 @@ SECTIONS
 
     _edata = .;        /* define a global symbol at data end */
   } >RAM AT> FLASH
+  
+ 
+  .auth :
+	{
+	  . = ALIGN(4);
+	  _sauth = .;
+	  KEEP(*(.auth))
+	  KEEP(*(.auth*))
+	  . = ALIGN(4);
+	  _eauth = .;
+	} >RAM AT>FLASH
+	
+	  	_sloadauth = LOADADDR(.auth);   /* LMA (stored) in FLASH */
+	
 
   /* Uninitialized data section */
   . = ALIGN(4);
@@ -144,23 +159,6 @@ SECTIONS
      
   } >RAM
  
-  .stack (NOLOAD) :
-  {
-      . = _end_of_ram - _size_of_stack
-
-      . = ALIGN(4);
-	    
-      _sstack = . ;
-	    
-      . +=  _size_of_stack;
-	    
-      . = ALIGN(4);
-	    
-      _estack = .; 
-		
-      _initial_stack_pointer = .;
-		
-  } > RAM
 
   /* Remove information from the standard libraries */
   /DISCARD/ :

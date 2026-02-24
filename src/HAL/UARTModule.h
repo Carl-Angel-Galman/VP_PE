@@ -26,6 +26,7 @@
 #define UART_ERR_INIT_FAILURE        -1         //!< Error during UART initialization
 #define UART_ERR_TRANSMIT            -2         //!< Error during UART tranmission
 #define UART_ERR_RECEIVE             -3         //!< Error during UART receive
+#define UART_ERR_TIMEOUT 			 -4
 
 
 /***** TYPES *****************************************************************/
@@ -64,17 +65,6 @@ int32_t uartSendData(uint8_t* pDataBuffer, int32_t bufferLength);
  *
  * @return Returns UART_ERR_OK if no error occured, otherwise UART_ERR_RECEIVE
  */
-int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength);
-
-/**
- * @brief Checks for available data in the UART RX buffer
- *
- * @param pHasData	Pointer to store flag whether data is available.
- * 					0 = no data available
- * 					1 = data available
- *
- * 	@return Returns UART_ERR_OK if no error occured, otherwise UART_ERR_RECEIVE
- */
-int32_t uartHasData(int8_t* pHasData);
+int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength, uint32_t timeout);
 
 #endif

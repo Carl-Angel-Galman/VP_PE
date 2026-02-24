@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 ;; Function outputLog (outputLog, funcdef_no=361, decl_uid=13056, cgraph_uid=365, symbol_order=365)
+=======
+;; Function outputLog (outputLog, funcdef_no=361, decl_uid=13055, cgraph_uid=365, symbol_order=365)
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 
 
 ;; Generating RTL for gimple basic block 2
@@ -35,7 +39,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn/i 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f3863cd9500 strlen>) [0 __builtin_strlen S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f8d89cd9500 strlen>) [0 __builtin_strlen S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -62,7 +70,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 12 11 0 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f3862c3fd00 uartSendData>) [0 uartSendData S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8d88c3fd00 uartSendData>) [0 uartSendData S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -73,7 +85,11 @@ try_optimize_cfg iteration 2
             (expr_list:SI (use (reg:SI 1 r1))
                 (nil)))))
 
+<<<<<<< HEAD
 ;; Function outputLogf (outputLogf, funcdef_no=362, decl_uid=13060, cgraph_uid=366, symbol_order=366)
+=======
+;; Function outputLogf (outputLogf, funcdef_no=362, decl_uid=13059, cgraph_uid=366, symbol_order=366)
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 
 
 ;; Generating RTL for gimple basic block 2
@@ -129,7 +145,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f3862c40000 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f8d88c3ff00 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -156,7 +176,11 @@ try_optimize_cfg iteration 2
 (insn 21 20 0 2 (use (reg/i:SI 0 r0)) "src/Util/Log/LogOutput.c":71:1 -1
      (nil))
 
+<<<<<<< HEAD
 ;; Function internalFormattedOutput (internalFormattedOutput, funcdef_no=363, decl_uid=13053, cgraph_uid=367, symbol_order=367)
+=======
+;; Function internalFormattedOutput (internalFormattedOutput, funcdef_no=363, decl_uid=13052, cgraph_uid=367, symbol_order=367)
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 
 
 ;; Generating RTL for gimple basic block 2
@@ -221,11 +245,19 @@ try_optimize_cfg iteration 2
         (const_int 128 [0x80])) "src/Util/Log/LogOutput.c":90:11 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f3862c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":90:11 -1
      (nil))
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("vsnprintf_") [flags 0x41]  <function_decl 0x7f3863aeb800 vsnprintf_>) [0 vsnprintf_ S4 A32])
+=======
+        (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f8d88c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":90:11 -1
+     (nil))
+(call_insn 13 12 14 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("vsnprintf_") [flags 0x41]  <function_decl 0x7f8d89aeb800 vsnprintf_>) [0 vsnprintf_ S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -278,11 +310,19 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [4 ret+0 S4 A32])) "src/Util/Log/LogOutput.c":94:9 -1
      (nil))
 (insn 28 27 29 5 (set (reg:SI 0 r0)
+<<<<<<< HEAD
         (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f3862c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":94:9 -1
      (nil))
 (call_insn 29 28 30 5 (parallel [
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f3862c3fd00 uartSendData>) [0 uartSendData S4 A32])
+=======
+        (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f8d88c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":94:9 -1
+     (nil))
+(call_insn 29 28 30 5 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8d88c3fd00 uartSendData>) [0 uartSendData S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

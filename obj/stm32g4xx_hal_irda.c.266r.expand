@@ -109,7 +109,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":356:5 -1
      (nil))
 (call_insn 25 24 26 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_MspInit") [flags 0x3]  <function_decl 0x7f7caaf06800 HAL_IRDA_MspInit>) [0 HAL_IRDA_MspInit S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_MspInit") [flags 0x3]  <function_decl 0x7f292af06800 HAL_IRDA_MspInit>) [0 HAL_IRDA_MspInit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -161,7 +165,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_SetConfig") [flags 0x3]  <function_decl 0x7f7caade1b00 IRDA_SetConfig>) [0 IRDA_SetConfig S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_SetConfig") [flags 0x3]  <function_decl 0x7f292ade1b00 IRDA_SetConfig>) [0 IRDA_SetConfig S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -306,7 +314,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 79 78 80 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_CheckIdleState") [flags 0x3]  <function_decl 0x7f7caade1c00 IRDA_CheckIdleState>) [0 IRDA_CheckIdleState S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_CheckIdleState") [flags 0x3]  <function_decl 0x7f292ade1c00 IRDA_CheckIdleState>) [0 IRDA_CheckIdleState S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -411,7 +423,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":415:3 -1
      (nil))
 (call_insn 19 18 20 5 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_MspDeInit") [flags 0x3]  <function_decl 0x7f7caaf06900 HAL_IRDA_MspDeInit>) [0 HAL_IRDA_MspDeInit S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_MspDeInit") [flags 0x3]  <function_decl 0x7f292af06900 HAL_IRDA_MspDeInit>) [0 HAL_IRDA_MspDeInit S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -791,7 +807,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f7caadd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f292add8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -968,7 +988,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 101 100 102 14 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f7caade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f292ade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1153,7 +1177,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 157 156 158 21 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f7caade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f292ade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1489,7 +1517,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f7caadd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f292add8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1947,7 +1979,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 188 187 189 27 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f7caade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f292ade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3320,7 +3356,11 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [7 hirda_23(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1101:10 -1
      (nil))
 (insn 60 59 61 9 (set (reg/f:SI 155)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f7caade4000 IRDA_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1101:37 -1
+=======
+        (symbol_ref:SI ("IRDA_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f292ade4000 IRDA_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1101:37 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 61 60 62 9 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [9 _3->XferCpltCallback+0 S4 A32])
@@ -3335,7 +3375,11 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [7 hirda_23(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1104:10 -1
      (nil))
 (insn 64 63 65 9 (set (reg/f:SI 157)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMATransmitHalfCplt") [flags 0x3]  <function_decl 0x7f7caade4100 IRDA_DMATransmitHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1104:41 -1
+=======
+        (symbol_ref:SI ("IRDA_DMATransmitHalfCplt") [flags 0x3]  <function_decl 0x7f292ade4100 IRDA_DMATransmitHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1104:41 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 65 64 66 9 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 48 [0x30])) [9 _4->XferHalfCpltCallback+0 S4 A32])
@@ -3350,7 +3394,11 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [7 hirda_23(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1107:10 -1
      (nil))
 (insn 68 67 69 9 (set (reg/f:SI 159)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMAError") [flags 0x3]  <function_decl 0x7f7caade4400 IRDA_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1107:38 -1
+=======
+        (symbol_ref:SI ("IRDA_DMAError") [flags 0x3]  <function_decl 0x7f292ade4400 IRDA_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1107:38 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 69 68 70 9 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [9 _5->XferErrorCallback+0 S4 A32])
@@ -3422,7 +3470,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 88 87 89 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f7cab02f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f292b02f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3803,7 +3855,11 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hirda_30(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1180:10 -1
      (nil))
 (insn 57 56 58 9 (set (reg/f:SI 160)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f7caade4200 IRDA_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1180:37 -1
+=======
+        (symbol_ref:SI ("IRDA_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f292ade4200 IRDA_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1180:37 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 58 57 59 9 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [9 _3->XferCpltCallback+0 S4 A32])
@@ -3818,7 +3874,11 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hirda_30(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1183:10 -1
      (nil))
 (insn 61 60 62 9 (set (reg/f:SI 162)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMAReceiveHalfCplt") [flags 0x3]  <function_decl 0x7f7caade4300 IRDA_DMAReceiveHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1183:41 -1
+=======
+        (symbol_ref:SI ("IRDA_DMAReceiveHalfCplt") [flags 0x3]  <function_decl 0x7f292ade4300 IRDA_DMAReceiveHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1183:41 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 62 61 63 9 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 48 [0x30])) [9 _4->XferHalfCpltCallback+0 S4 A32])
@@ -3833,7 +3893,11 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hirda_30(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1186:10 -1
      (nil))
 (insn 65 64 66 9 (set (reg/f:SI 164)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMAError") [flags 0x3]  <function_decl 0x7f7caade4400 IRDA_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1186:38 -1
+=======
+        (symbol_ref:SI ("IRDA_DMAError") [flags 0x3]  <function_decl 0x7f292ade4400 IRDA_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1186:38 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 66 65 67 9 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [9 _5->XferErrorCallback+0 S4 A32])
@@ -3905,7 +3969,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 85 84 86 9 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f7cab02f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f292b02f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4860,7 +4928,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 33 32 34 6 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f7cab02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f292b02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4900,7 +4972,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 42 41 43 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f7cab02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f292b02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4950,7 +5026,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1340:7 -1
      (nil))
 (call_insn 56 55 57 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_EndTxTransfer") [flags 0x3]  <function_decl 0x7f7caade1e00 IRDA_EndTxTransfer>) [0 IRDA_EndTxTransfer S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_EndTxTransfer") [flags 0x3]  <function_decl 0x7f292ade1e00 IRDA_EndTxTransfer>) [0 IRDA_EndTxTransfer S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5067,7 +5147,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 86 85 87 13 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f7cab02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f292b02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5107,7 +5191,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 95 94 96 14 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f7cab02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f292b02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5157,7 +5245,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1366:7 -1
      (nil))
 (call_insn 109 108 110 16 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_EndRxTransfer") [flags 0x3]  <function_decl 0x7f7caade1f00 IRDA_EndRxTransfer>) [0 IRDA_EndRxTransfer S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_EndRxTransfer") [flags 0x3]  <function_decl 0x7f292ade1f00 IRDA_EndRxTransfer>) [0 IRDA_EndRxTransfer S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5386,7 +5478,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f7cab02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f292b02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5426,7 +5522,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 55 54 56 6 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f7cab02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f292b02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5572,7 +5672,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 94 93 95 10 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f7cab02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f292b02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5612,7 +5716,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 103 102 104 11 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f7cab02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f292b02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5916,7 +6024,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f7cab02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f292b02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5956,7 +6068,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 48 47 49 6 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f7cab02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f292b02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6235,7 +6351,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f7cab02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f292b02f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6275,7 +6395,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 55 54 56 6 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f7cab02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f292b02f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6563,7 +6687,11 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [7 hirda_53(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1601:12 -1
      (nil))
 (insn 36 35 37 5 (set (reg/f:SI 167)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f7caade4600 IRDA_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1601:40 -1
+=======
+        (symbol_ref:SI ("IRDA_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f292ade4600 IRDA_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1601:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 37 36 38 5 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 56 [0x38])) [9 _13->XferAbortCallback+0 S4 A32])
@@ -6649,7 +6777,11 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hirda_53(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1615:12 -1
      (nil))
 (insn 62 61 63 9 (set (reg/f:SI 173)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f7caade4700 IRDA_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1615:40 -1
+=======
+        (symbol_ref:SI ("IRDA_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f292ade4700 IRDA_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1615:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 63 62 64 9 (set (mem/f:SI (plus:SI (reg/f:SI 132 [ _19 ])
                 (const_int 56 [0x38])) [9 _19->XferAbortCallback+0 S4 A32])
@@ -6765,7 +6897,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 96 95 97 13 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f7cab02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f292b02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6909,7 +7045,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 136 135 137 18 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f7cab02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f292b02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7072,7 +7212,11 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1694:5 -1
      (nil))
 (call_insn 182 181 183 22 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ef00 HAL_IRDA_AbortCpltCallback>) [0 HAL_IRDA_AbortCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ef00 HAL_IRDA_AbortCpltCallback>) [0 HAL_IRDA_AbortCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7249,7 +7393,11 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [7 hirda_21(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1731:12 -1
      (nil))
 (insn 34 33 35 5 (set (reg/f:SI 141)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f7caade4800 IRDA_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1731:40 -1
+=======
+        (symbol_ref:SI ("IRDA_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f292ade4800 IRDA_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1731:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 35 34 36 5 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 56 [0x38])) [9 _13->XferAbortCallback+0 S4 A32])
@@ -7268,7 +7416,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f7cab02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f292b02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7366,7 +7518,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1754:7 -1
      (nil))
 (call_insn 64 63 65 7 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf21000 HAL_IRDA_AbortTransmitCpltCallback>) [0 HAL_IRDA_AbortTransmitCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f292af21000 HAL_IRDA_AbortTransmitCpltCallback>) [0 HAL_IRDA_AbortTransmitCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7413,7 +7569,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1772:5 -1
      (nil))
 (call_insn 77 76 78 8 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf21000 HAL_IRDA_AbortTransmitCpltCallback>) [0 HAL_IRDA_AbortTransmitCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f292af21000 HAL_IRDA_AbortTransmitCpltCallback>) [0 HAL_IRDA_AbortTransmitCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7616,7 +7776,11 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [7 hirda_27(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1810:12 -1
      (nil))
 (insn 41 40 42 5 (set (reg/f:SI 149)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f7caade4900 IRDA_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1810:40 -1
+=======
+        (symbol_ref:SI ("IRDA_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f292ade4900 IRDA_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1810:40 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 42 41 43 5 (set (mem/f:SI (plus:SI (reg/f:SI 130 [ _17 ])
                 (const_int 56 [0x38])) [9 _17->XferAbortCallback+0 S4 A32])
@@ -7635,7 +7799,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f7cab02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f292b02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7747,7 +7915,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1836:7 -1
      (nil))
 (call_insn 75 74 76 7 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf21100 HAL_IRDA_AbortReceiveCpltCallback>) [0 HAL_IRDA_AbortReceiveCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f292af21100 HAL_IRDA_AbortReceiveCpltCallback>) [0 HAL_IRDA_AbortReceiveCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7808,7 +7980,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1857:5 -1
      (nil))
 (call_insn 92 91 93 8 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf21100 HAL_IRDA_AbortReceiveCpltCallback>) [0 HAL_IRDA_AbortReceiveCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f292af21100 HAL_IRDA_AbortReceiveCpltCallback>) [0 HAL_IRDA_AbortReceiveCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8059,7 +8235,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1885:7 -1
      (nil))
 (call_insn 32 31 33 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_Receive_IT") [flags 0x3]  <function_decl 0x7f7caade4c00 IRDA_Receive_IT>) [0 IRDA_Receive_IT S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_Receive_IT") [flags 0x3]  <function_decl 0x7f292ade4c00 IRDA_Receive_IT>) [0 IRDA_Receive_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8537,7 +8717,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1935:9 -1
      (nil))
 (call_insn 162 161 163 26 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_Receive_IT") [flags 0x3]  <function_decl 0x7f7caade4c00 IRDA_Receive_IT>) [0 IRDA_Receive_IT S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_Receive_IT") [flags 0x3]  <function_decl 0x7f292ade4c00 IRDA_Receive_IT>) [0 IRDA_Receive_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8613,7 +8797,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1947:9 -1
      (nil))
 (call_insn 182 181 183 29 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_EndRxTransfer") [flags 0x3]  <function_decl 0x7f7caade1f00 IRDA_EndRxTransfer>) [0 IRDA_EndRxTransfer S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_EndRxTransfer") [flags 0x3]  <function_decl 0x7f292ade1f00 IRDA_EndRxTransfer>) [0 IRDA_EndRxTransfer S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8704,7 +8892,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int 52 [0x34])) [7 hirda_63(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1959:18 -1
      (nil))
 (insn 204 203 205 31 (set (reg/f:SI 218)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDA_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f7caade4500 IRDA_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1959:46 -1
+=======
+        (symbol_ref:SI ("IRDA_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f292ade4500 IRDA_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":1959:46 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 205 204 206 31 (set (mem/f:SI (plus:SI (reg/f:SI 157 [ _44 ])
                 (const_int 56 [0x38])) [9 _44->XferAbortCallback+0 S4 A32])
@@ -8723,7 +8915,11 @@ Forwarding edge 36->37 to 45 failed.
      (nil))
 (call_insn 209 208 210 31 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f7cab02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f292b02f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8795,7 +8991,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1975:13 -1
      (nil))
 (call_insn 227 226 228 33 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f7caaf1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f292af1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8816,7 +9016,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1986:11 -1
      (nil))
 (call_insn 233 232 236 34 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f7caaf1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f292af1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8837,7 +9041,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":1999:9 -1
      (nil))
 (call_insn 241 240 242 36 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f7caaf1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f292af1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8911,7 +9119,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2011:5 -1
      (nil))
 (call_insn 262 261 263 40 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_Transmit_IT") [flags 0x3]  <function_decl 0x7f7caade4a00 IRDA_Transmit_IT>) [0 IRDA_Transmit_IT S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_Transmit_IT") [flags 0x3]  <function_decl 0x7f292ade4a00 IRDA_Transmit_IT>) [0 IRDA_Transmit_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8972,7 +9184,11 @@ Forwarding edge 36->37 to 45 failed.
                 (const_int -28 [0xffffffffffffffe4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2018:5 -1
      (nil))
 (call_insn 278 277 281 43 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_EndTransmit_IT") [flags 0x3]  <function_decl 0x7f7caade4b00 IRDA_EndTransmit_IT>) [0 IRDA_EndTransmit_IT S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_EndTransmit_IT") [flags 0x3]  <function_decl 0x7f292ade4b00 IRDA_EndTransmit_IT>) [0 IRDA_EndTransmit_IT S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10735,7 +10951,11 @@ Forwarding edge 53->54 to 59 failed.
 (note 393 392 394 63 [bb 63] NOTE_INSN_BASIC_BLOCK)
 (call_insn 394 393 395 63 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f7cab004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f292b004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10756,7 +10976,11 @@ Forwarding edge 53->54 to 59 failed.
                 (const_int 24 [0x18])) [4 hirda_115(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2286:27 -1
      (nil))
 (insn 398 397 399 63 (set (reg/f:SI 299)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f7caadf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2286:27 -1
+=======
+        (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f292adf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2286:27 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 399 398 400 63 (set (reg:SI 165 [ _52 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 164 [ _51 ])
@@ -10820,7 +11044,11 @@ Forwarding edge 53->54 to 59 failed.
 (note 415 414 416 64 [bb 64] NOTE_INSN_BASIC_BLOCK)
 (call_insn 416 415 417 64 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f7cab004400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f292b004400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10841,7 +11069,11 @@ Forwarding edge 53->54 to 59 failed.
                 (const_int 24 [0x18])) [4 hirda_115(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2290:27 -1
      (nil))
 (insn 420 419 421 64 (set (reg/f:SI 304)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f7caadf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2290:27 -1
+=======
+        (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f292adf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2290:27 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 421 420 422 64 (set (reg:SI 175 [ _62 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 174 [ _61 ])
@@ -10912,7 +11144,11 @@ Forwarding edge 53->54 to 59 failed.
                 (const_int 24 [0x18])) [4 hirda_115(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2293:27 -1
      (nil))
 (insn 440 439 441 65 (set (reg/f:SI 309)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f7caadf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2293:27 -1
+=======
+        (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f292adf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2293:27 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 441 440 442 65 (set (reg:SI 185 [ _72 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 184 [ _71 ])
@@ -10975,7 +11211,11 @@ Forwarding edge 53->54 to 59 failed.
 (note 457 456 458 66 [bb 66] NOTE_INSN_BASIC_BLOCK)
 (call_insn 458 457 459 66 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f7cab004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f292b004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10996,7 +11236,11 @@ Forwarding edge 53->54 to 59 failed.
                 (const_int 24 [0x18])) [4 hirda_115(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2297:27 -1
      (nil))
 (insn 462 461 463 66 (set (reg/f:SI 314)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f7caadf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2297:27 -1
+=======
+        (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f292adf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2297:27 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 463 462 464 66 (set (reg:SI 195 [ _82 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 194 [ _81 ])
@@ -11067,7 +11311,11 @@ Forwarding edge 53->54 to 59 failed.
                 (const_int 24 [0x18])) [4 hirda_115(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2300:27 -1
      (nil))
 (insn 482 481 483 67 (set (reg/f:SI 319)
+<<<<<<< HEAD
         (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f7caadf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2300:27 -1
+=======
+        (symbol_ref:SI ("IRDAPrescTable.0") [flags 0x2]  <var_decl 0x7f292adf0d80 IRDAPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_irda.c":2300:27 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 483 482 484 67 (set (reg:SI 205 [ _92 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 204 [ _91 ])
@@ -11280,7 +11528,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f7caadd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f292add8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11340,7 +11592,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 24 23 25 4 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f7caade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f292ade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11429,7 +11685,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 48 47 49 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f7caade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("IRDA_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f292ade1d00 IRDA_WaitOnFlagUntilTimeout>) [0 IRDA_WaitOnFlagUntilTimeout S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11609,7 +11869,11 @@ try_optimize_cfg iteration 2
 (note 17 16 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f7caadd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f292add8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12137,7 +12401,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2469:5 -1
      (nil))
 (call_insn 39 38 42 5 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_TxCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ea00 HAL_IRDA_TxCpltCallback>) [0 HAL_IRDA_TxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_TxCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ea00 HAL_IRDA_TxCpltCallback>) [0 HAL_IRDA_TxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12196,7 +12464,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2490:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ec00 HAL_IRDA_TxHalfCpltCallback>) [0 HAL_IRDA_TxHalfCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ec00 HAL_IRDA_TxHalfCpltCallback>) [0 HAL_IRDA_TxHalfCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12387,7 +12659,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2526:3 -1
      (nil))
 (call_insn 47 46 0 5 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_RxCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1eb00 HAL_IRDA_RxCpltCallback>) [0 HAL_IRDA_RxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_RxCpltCallback") [flags 0x3]  <function_decl 0x7f292af1eb00 HAL_IRDA_RxCpltCallback>) [0 HAL_IRDA_RxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12444,7 +12720,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2545:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ed00 HAL_IRDA_RxHalfCpltCallback>) [0 HAL_IRDA_RxHalfCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ed00 HAL_IRDA_RxHalfCpltCallback>) [0 HAL_IRDA_RxHalfCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12575,7 +12855,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2565:7 -1
      (nil))
 (call_insn 26 25 27 5 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_EndTxTransfer") [flags 0x3]  <function_decl 0x7f7caade1e00 IRDA_EndTxTransfer>) [0 IRDA_EndTxTransfer S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_EndTxTransfer") [flags 0x3]  <function_decl 0x7f292ade1e00 IRDA_EndTxTransfer>) [0 IRDA_EndTxTransfer S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12653,7 +12937,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2575:7 -1
      (nil))
 (call_insn 46 45 47 8 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("IRDA_EndRxTransfer") [flags 0x3]  <function_decl 0x7f7caade1f00 IRDA_EndRxTransfer>) [0 IRDA_EndRxTransfer S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("IRDA_EndRxTransfer") [flags 0x3]  <function_decl 0x7f292ade1f00 IRDA_EndRxTransfer>) [0 IRDA_EndRxTransfer S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12689,7 +12977,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2585:3 -1
      (nil))
 (call_insn 55 54 0 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f7caaf1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f292af1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12776,7 +13068,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2606:3 -1
      (nil))
 (call_insn 18 17 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f7caaf1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_ErrorCallback") [flags 0x3]  <function_decl 0x7f292af1ee00 HAL_IRDA_ErrorCallback>) [0 HAL_IRDA_ErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12987,7 +13283,11 @@ Forwarding edge 4->5 to 8 failed.
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2653:3 -1
      (nil))
 (call_insn 50 49 53 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ef00 HAL_IRDA_AbortCpltCallback>) [0 HAL_IRDA_AbortCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ef00 HAL_IRDA_AbortCpltCallback>) [0 HAL_IRDA_AbortCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13200,7 +13500,11 @@ Forwarding edge 4->5 to 8 failed.
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2701:3 -1
      (nil))
 (call_insn 50 49 53 6 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ef00 HAL_IRDA_AbortCpltCallback>) [0 HAL_IRDA_AbortCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ef00 HAL_IRDA_AbortCpltCallback>) [0 HAL_IRDA_AbortCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13285,7 +13589,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2729:3 -1
      (nil))
 (call_insn 17 16 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf21000 HAL_IRDA_AbortTransmitCpltCallback>) [0 HAL_IRDA_AbortTransmitCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f292af21000 HAL_IRDA_AbortTransmitCpltCallback>) [0 HAL_IRDA_AbortTransmitCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13382,7 +13690,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2759:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf21100 HAL_IRDA_AbortReceiveCpltCallback>) [0 HAL_IRDA_AbortReceiveCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f292af21100 HAL_IRDA_AbortReceiveCpltCallback>) [0 HAL_IRDA_AbortReceiveCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13795,7 +14107,11 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2823:3 -1
      (nil))
 (call_insn 17 16 0 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_TxCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1ea00 HAL_IRDA_TxCpltCallback>) [0 HAL_IRDA_TxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_TxCpltCallback") [flags 0x3]  <function_decl 0x7f292af1ea00 HAL_IRDA_TxCpltCallback>) [0 HAL_IRDA_TxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14185,7 +14501,11 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [20 hirda+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_irda.c":2874:7 -1
      (nil))
 (call_insn 100 99 101 9 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_RxCpltCallback") [flags 0x3]  <function_decl 0x7f7caaf1eb00 HAL_IRDA_RxCpltCallback>) [0 HAL_IRDA_RxCpltCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_IRDA_RxCpltCallback") [flags 0x3]  <function_decl 0x7f292af1eb00 HAL_IRDA_RxCpltCallback>) [0 HAL_IRDA_RxCpltCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

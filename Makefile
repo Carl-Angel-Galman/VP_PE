@@ -73,6 +73,9 @@ CFLAGS += -I$(LIB_DIR)/STM32G4xx/Include
 
 # Include files for App
 CFLAGS += -I$(SRC_DIR)/App
+
+CFLAGS += -I$(SRC_DIR)/Auth
+
 # Include files for HAL
 CFLAGS += -I$(SRC_DIR)/HAL
 # Include files for OS
@@ -81,6 +84,7 @@ CFLAGS += -I$(SRC_DIR)/OS
 CFLAGS += -I$(SRC_DIR)/Service
 # Include files for Utils
 CFLAGS += -I$(SRC_DIR)/Util
+
 
 ###############################################################################
 # Source files for the HAL library
@@ -134,6 +138,7 @@ vpath %.c $(dir $(APP_SRC_C))
 ###############################################################################
 AUTH_SRC_C += $(SRC_DIR)/main_auth.c
 AUTH_SRC_C += $(SRC_DIR)/System.c
+AUTH_SRC_C += $(wildcard $(SRC_DIR)/Auth/*.c)
 AUTH_SRC_C += $(wildcard $(SRC_DIR)/HAL/*.c)
 AUTH_SRC_C += $(wildcard $(SRC_DIR)/OS/*.c)
 AUTH_SRC_C += $(wildcard $(SRC_DIR)/Service/*.c)
@@ -148,6 +153,28 @@ vpath %.c $(dir $(AUTH_SRC_C))
 DEPS := $(APP_OBJS_C:.o=.d)
 
 all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(BLD_DIR)/auth.bin
+
+#PYTHON ?= python3
+#
+#AUTH_ELF         := $(BLD_DIR)/auth.elf
+#AUTH_ELF_PATCH   := $(BLD_DIR)/auth_patched.elf
+#AUTH_SECTION_RAW := $(BLD_DIR)/auth_section.bin
+#AUTH_SECTION_ENC := $(BLD_DIR)/auth_section.bin.enc
+#ENCRYPT_SCRIPT   := ../../Scripts/encrypt_file.py
+#
+#$(AUTH_ELF_PATCH): $(AUTH_ELF) $(ENCRYPT_SCRIPT) | $(BLD_DIR)
+#	@echo "  OBJCOPY dump .auth -> $(notdir $(AUTH_SECTION_RAW))"
+#	@$(OBJCOPY) --dump-section .auth=$(AUTH_SECTION_RAW) $(AUTH_ELF)
+#	@echo "  PYTHON  encrypt -> $(notdir $(AUTH_SECTION_ENC))"
+#	@$(PYTHON) $(ENCRYPT_SCRIPT) -o $(AUTH_SECTION_ENC) $(AUTH_SECTION_RAW)
+#	@echo "  OBJCOPY update .auth in $(notdir $@)"
+#	@cp $(AUTH_ELF) $@
+#	@$(OBJCOPY) --update-section .auth=$(AUTH_SECTION_ENC) $@
+#	@$(OBJCOPY) --set-section-flags .auth=alloc,load,readonly $@
+#
+#$(BLD_DIR)/auth.bin: $(AUTH_ELF_PATCH)
+#	@echo "  OBJCOPY $(notdir $@) (from patched ELF)"
+#	@$(OBJCOPY) $< -O binary $@
 
 ###############################################################################
 # Rules

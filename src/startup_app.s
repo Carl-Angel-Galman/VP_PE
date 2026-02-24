@@ -30,18 +30,18 @@
  */
   .align 4
   MARKER:
-    .word 0xDEC0ADDE 
-     /*DEADC0DE written in Little Endian  */
+ 	.word 0xDEC0ADDE 
+ 	 /*DEADC0DE written in Little Endian  */
  	 
 ENDMARKER:
-    .word 0xEA1DADAB
-    /*ABAD1DEA written in Little Endian*/
+	.word 0xEA1DADAB
+	/*ABAD1DEA written in Little Endian*/
  	
  
-.section .text.Reset_Handler
-.type Reset_Handler, %function
-.global Reset_Handler
-Reset_Handler:
+.section .text.Start_Handler
+.type Start_Handler, %function
+.global Start_Handler
+Start_Handler:
     /* Copy the data segment initializers from flash to SRAM */
     ldr r0, =_sdata
     ldr r1, =_edata
@@ -94,12 +94,12 @@ Reset_Handler:
     adds r2, r2, #4
 
 .loopFillStack:
-    /* Condition to check if the current stack pointer has reached the end of the stack */
+	/* Condition to check if the current stack pointer has reached the end of the stack */
     cmp r2, r4
     bcc .fillStack
     
     /* Initialize the Stack-Pointer */
-    ldr r0, =_initial_stack_pointer
+   	ldr r0, =_initial_stack_pointer
     
     /* Set stack pointer */
     mov   sp, r0
@@ -110,4 +110,5 @@ Reset_Handler:
     /* Call the application's entry point.*/
     bl main
     bx lr
-.size Reset_Handler, .-Reset_Handler
+.size Start_Handler, .-Start_Handler
+

@@ -15,7 +15,10 @@
 
 
 /***** INCLUDES **************************************************************/
+#include "stm32g4xx.h"
 #include "stm32g4xx_hal.h"
+#include "stm32g4xx_hal_rcc.h"
+
 
 #include "System.h"
 
@@ -32,20 +35,12 @@
 #include "ADCModule.h"
 #include "TimerModule.h"
 #include "Scheduler.h"
-#include "StateTable.h"
 
 #include "GlobalObjects.h"
 
 #include "stdbool.h"
 
-typedef enum
-{
-	BOOTUP = 0,
-	PREPARE_APPLICATION = 1,
-	FAILURE = 2,
-	START_APPLICATION = 3
-}State;
-
+#include "Authenticator.h"
 
 /***** PRIVATE CONSTANTS *****************************************************/
 
@@ -54,7 +49,13 @@ typedef enum
 
 
 /***** PRIVATE TYPES *********************************************************/
-
+typedef enum
+{
+	BOOTUP = 0,
+	PREPARE_APPLICATION = 1,
+	FAILURE = 2,
+	START_APPLICATION = 3
+}State;
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 static int32_t initializePeripherals();
@@ -63,9 +64,7 @@ static int32_t initializePeripherals();
 static State current_state = BOOTUP;
 
 
-
 /***** PRIVATE VARIABLES *****************************************************/
-static Scheduler gScheduler;            // Global Scheduler instance
 
 
 
@@ -77,59 +76,64 @@ static Scheduler gScheduler;            // Global Scheduler instance
  */
 int main(void)
 {
+	while(1)
+	{
+	switch(current_state)
+	{
+
+		case BOOTUP:
+			// Initialize the HAL
+			HAL_Init();
+
+			SystemClock_Config();
+
+			// Initialize Peripherals
+			initializePeripherals();
+
+			current_state = PREPARE_APPLICATION;
+			break;
+
+		case PREPARE_APPLICATION:
+
+			int8_t res = Auth_WaitForA();
+
+			if(res == AUTH_ERR_TIMEOUT)
+			{
+				current_state = FAILURE;
+			}else{
+				current_state = START_APPLICATION;
+			}
 
 
-    // Initialize Scheduler
+			break;
+
+		case FAILURE:
+
+			while(1);
+
+			break;
+		case START_APPLICATION:
+
+			{
+				uint8_t key_len = 8U;
+
+				int8_t key[key_len];
+
+				int8_t res = Auth_ReadKey(key, &key_len);
+
+				copy_and_decrypt_auth_section(key);
+
+				verify();
+
+			}
+
+			break;
+		default:
+			break;
+	}
 
 
-    while (1)
-    {
-    	swtich(current_state)
-		{
-    		case BOOTUP:
-    			// Initialize the HAL
-				if(HAL_Init() != HAL_OK)
-				{
-					current_state = FAILURE;
-				}
-
-				SystemClock_Config();
-
-				// Initialize Peripherals
-				if(initializePeripherals() != ERROR_OK)
-				{
-					current_state = FAILURE;
-				}
-
-				current_state = PREPARE_APPLICATION;
-    			break;
-    		case PREPARE_APPLICATION:
-    		    schedInitialize(&gScheduler);
-    		    // check for description
-
-    		    if(descritp)
-    		    {
-    		    	current_state = START_APPLICATION;
-    		    }
-    		    if(timeout)
-    		    {
-    		    	current_state = FAILURE;
-    		    }
-
-    			break;
-    		case FAILURE:
-    			break;
-    		case START_APPLICATION:
-
-    			__set_MSP();
-    			SCB->vector = StartOfStackAdress
-    			break;
-    		default:
-    			break;
-		}
-
-
-    }
+	}
 }
 
 /***** PRIVATE FUNCTIONS *****************************************************/
@@ -158,6 +162,22 @@ static int32_t initializePeripherals()
 
     return ERROR_OK;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
