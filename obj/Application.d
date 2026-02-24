@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 obj/Application.o: src/App/Application.c src/App/Application.h \
  src/Util/Global.h src/Util/Log/printf.h src/HAL/UARTModule.h \
  src/HAL/ButtonModule.h src/HAL/LEDModule.h lib/HAL/Inc/stm32g4xx_hal.h \
@@ -7,6 +8,15 @@ obj/Application.o: src/App/Application.c src/App/Application.h \
  lib/Core/Include/cmsis_version.h lib/Core/Include/cmsis_compiler.h \
  lib/Core/Include/cmsis_gcc.h lib/Core/Include/mpu_armv7.h \
  lib/STM32G4xx/Include/system_stm32g4xx.h \
+=======
+obj/Application.o: src/App/Application.c \
+ lib/STM32G4xx/Include/stm32g4xx.h lib/STM32G4xx/Include/stm32g474xx.h \
+ lib/Core/Include/core_cm4.h lib/Core/Include/cmsis_version.h \
+ lib/Core/Include/cmsis_compiler.h lib/Core/Include/cmsis_gcc.h \
+ lib/Core/Include/mpu_armv7.h lib/STM32G4xx/Include/system_stm32g4xx.h \
+ lib/HAL/Inc/stm32g4xx_hal.h lib/HAL/Inc/stm32g4xx_hal_conf.h \
+ lib/HAL/Inc/stm32g4xx_hal_rcc.h lib/HAL/Inc/stm32g4xx_hal_def.h \
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
  lib/HAL/Inc/Legacy/stm32_hal_legacy.h lib/HAL/Inc/stm32g4xx_hal_rcc_ex.h \
  lib/HAL/Inc/stm32g4xx_hal_gpio.h lib/HAL/Inc/stm32g4xx_hal_gpio_ex.h \
  lib/HAL/Inc/stm32g4xx_hal_dma.h lib/HAL/Inc/stm32g4xx_hal_dma_ex.h \
@@ -39,6 +49,7 @@ obj/Application.o: src/App/Application.c src/App/Application.h \
  lib/HAL/Inc/stm32g4xx_hal_tim_ex.h lib/HAL/Inc/stm32g4xx_hal_uart.h \
  lib/HAL/Inc/stm32g4xx_hal_uart_ex.h lib/HAL/Inc/stm32g4xx_hal_usart.h \
  lib/HAL/Inc/stm32g4xx_hal_usart_ex.h lib/HAL/Inc/stm32g4xx_hal_wwdg.h \
+<<<<<<< HEAD
  src/Util/StateTable/StateTable.h
 src/App/Application.h:
 src/Util/Global.h:
@@ -50,6 +61,9 @@ lib/HAL/Inc/stm32g4xx_hal.h:
 lib/HAL/Inc/stm32g4xx_hal_conf.h:
 lib/HAL/Inc/stm32g4xx_hal_rcc.h:
 lib/HAL/Inc/stm32g4xx_hal_def.h:
+=======
+ lib/HAL/Inc/stm32g4xx_hal_rcc.h
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 lib/STM32G4xx/Include/stm32g4xx.h:
 lib/STM32G4xx/Include/stm32g474xx.h:
 lib/Core/Include/core_cm4.h:
@@ -58,6 +72,13 @@ lib/Core/Include/cmsis_compiler.h:
 lib/Core/Include/cmsis_gcc.h:
 lib/Core/Include/mpu_armv7.h:
 lib/STM32G4xx/Include/system_stm32g4xx.h:
+<<<<<<< HEAD
+=======
+lib/HAL/Inc/stm32g4xx_hal.h:
+lib/HAL/Inc/stm32g4xx_hal_conf.h:
+lib/HAL/Inc/stm32g4xx_hal_rcc.h:
+lib/HAL/Inc/stm32g4xx_hal_def.h:
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 lib/HAL/Inc/Legacy/stm32_hal_legacy.h:
 lib/HAL/Inc/stm32g4xx_hal_rcc_ex.h:
 lib/HAL/Inc/stm32g4xx_hal_gpio.h:
@@ -120,4 +141,8 @@ lib/HAL/Inc/stm32g4xx_hal_uart_ex.h:
 lib/HAL/Inc/stm32g4xx_hal_usart.h:
 lib/HAL/Inc/stm32g4xx_hal_usart_ex.h:
 lib/HAL/Inc/stm32g4xx_hal_wwdg.h:
+<<<<<<< HEAD
 src/Util/StateTable/StateTable.h:
+=======
+lib/HAL/Inc/stm32g4xx_hal_rcc.h:
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec

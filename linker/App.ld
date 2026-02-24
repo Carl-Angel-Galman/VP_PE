@@ -35,9 +35,9 @@ ENTRY(Reset_Handler)
 MEMORY
 {
   /* RAM Memory Region incl. SRAM1 and SRAM2 */
-  RAM    (rw)      : ORIGIN = 0x20000000,  LENGTH = 128K
-  /* FLASH Memory Region using mapped address 0x08000000. */
-  FLASH  (rx)      : ORIGIN = 0x08000000,  LENGTH = 512K
+  RAM    (rw)      : ORIGIN = 0x20004000,  LENGTH = 64K
+  /* FLASH Memory Region using mapped address 0x08010000. */
+  FLASH  (rx)      : ORIGIN = 0x08010000,  LENGTH = 128K
 }
 
 
@@ -48,12 +48,24 @@ MEMORY
  */
 
 
-_size_of_heap  = 0x0;                               /* Size of heap in bytes */
+/* --- Heap/stack sizes --- */
 
-_size_of_stack =0x1000;
+_size_of_heap  = 0x0;      /* bytes */
 
-/* Highest usable address of the RAM. */
-_end_of_ram = ORIGIN(RAM) + LENGTH(RAM) - 4;        /* End of RAM */
+_size_of_stack = 0x1000;   /* 4 KB */
+
+
+/* --- Handy RAM symbols --- */
+
+_ram_start = ORIGIN(RAM);
+
+_ram_end   = ORIGIN(RAM) + LENGTH(RAM);
+
+/* Initial stack pointer should be the TOP of RAM on Cortex-M */
+
+_estack = _ram_end;              /* common STM32 name */
+
+_initial_stack_pointer = _estack;
 
 
 /***** SECTIONS **************************************************************/
@@ -61,8 +73,17 @@ _end_of_ram = ORIGIN(RAM) + LENGTH(RAM) - 4;        /* End of RAM */
 /* Define output sections */
 SECTIONS
 {
+  .signature :
+  {
+  _signature_adress = .;
+    BYTE(0x55);
+    BYTE(0x4D);
+    BYTE(0x4D);
+    BYTE(0x53);
+  } > FLASH
+
   /* Section for Interrupt Vector Table */
-  .isr_vector :
+  .isr_vector ALIGN(512):
   {
     . = ALIGN(4);
     /* Include the .isr_vector section which must include the vector interrupt table */
@@ -75,7 +96,8 @@ SECTIONS
   {
     . = ALIGN(4);
     _stext = .;         /* Define global symbol for start of code */
-
+    KEEP(*(.text.Start_Handler))
+      KEEP(*(.text.*Start_Handler*))
     *(.text)            /* .text sections (code) */
     *(.text*)           /* .text* sections (code) */
 
@@ -132,6 +154,8 @@ SECTIONS
 
   .heap (NOLOAD):
   {
+  	
+  
     . = ALIGN(4);
 
     _start_of_heap = .;
@@ -144,21 +168,18 @@ SECTIONS
      
   } >RAM
  
-  .stack (NOLOAD) :
+  .stack (NOLOAD):
   {
-      . = _end_of_ram - _size_of_stack
-
-      . = ALIGN(4);
-	    
+      . = ORIGIN(RAM) + LENGTH(RAM) - _size_of_stack;
+	
+    	
       _sstack = . ;
-	    
+		    
       . +=  _size_of_stack;
-	    
-      . = ALIGN(4);
-	    
-      _estack = .; 
+	    	    
+    _estack = .;
 		
-      _initial_stack_pointer = .;
+    _initial_stack_pointer = .;
 		
   } > RAM
 

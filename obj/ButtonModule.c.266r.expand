@@ -237,7 +237,11 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/ButtonModule.c":56:4 -1
      (nil))
 (call_insn 61 60 62 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fa5ad604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7eff25e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -279,7 +283,11 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/ButtonModule.c":63:4 -1
      (nil))
 (call_insn 71 70 72 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fa5ad604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7eff25e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -321,7 +329,11 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/ButtonModule.c":69:4 -1
      (nil))
 (call_insn 81 80 82 2 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fa5ad604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7eff25e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -509,7 +521,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 31 30 32 7 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GPIO_ReadPin") [flags 0x41]  <function_decl 0x7fa5ad614000 HAL_GPIO_ReadPin>) [0 HAL_GPIO_ReadPin S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GPIO_ReadPin") [flags 0x41]  <function_decl 0x7eff25e14000 HAL_GPIO_ReadPin>) [0 HAL_GPIO_ReadPin S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -587,7 +603,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 58 11 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GPIO_ReadPin") [flags 0x41]  <function_decl 0x7fa5ad614000 HAL_GPIO_ReadPin>) [0 HAL_GPIO_ReadPin S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GPIO_ReadPin") [flags 0x41]  <function_decl 0x7eff25e14000 HAL_GPIO_ReadPin>) [0 HAL_GPIO_ReadPin S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -665,7 +685,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 83 82 84 15 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GPIO_ReadPin") [flags 0x41]  <function_decl 0x7fa5ad614000 HAL_GPIO_ReadPin>) [0 HAL_GPIO_ReadPin S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GPIO_ReadPin") [flags 0x41]  <function_decl 0x7eff25e14000 HAL_GPIO_ReadPin>) [0 HAL_GPIO_ReadPin S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

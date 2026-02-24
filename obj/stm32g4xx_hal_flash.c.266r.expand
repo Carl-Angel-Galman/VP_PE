@@ -70,7 +70,11 @@ try_optimize_cfg iteration 2
         (reg:SI 123)) "lib/HAL/Src/stm32g4xx_hal_flash.c":177:12 -1
      (nil))
 (insn 10 9 11 2 (set (reg/f:SI 124)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":183:3 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":183:3 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 11 10 12 2 (set (reg:SI 114 [ _1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 124) [0 pFlash.Lock+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_flash.c":183:3 -1
@@ -98,7 +102,11 @@ try_optimize_cfg iteration 2
 (code_label 18 17 19 5 2 (nil) [1 uses])
 (note 19 18 20 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (insn 20 19 21 5 (set (reg/f:SI 125)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":183:3 discrim 2 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":183:3 discrim 2 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 21 20 22 5 (set (reg:SI 126)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash.c":183:3 discrim 2 -1
@@ -114,7 +122,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 25 24 26 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7f5104842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7fb0cce42200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -150,7 +162,11 @@ try_optimize_cfg iteration 2
  -> 86)
 (note 32 31 33 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (insn 33 32 34 6 (set (reg/f:SI 131)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":190:22 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":190:22 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 34 33 35 6 (set (reg:SI 132)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":190:22 -1
@@ -184,7 +200,11 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [2 Address+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_flash.c":195:7 -1
      (nil))
 (call_insn 42 41 43 7 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_Program_DoubleWord") [flags 0x3]  <function_decl 0x7f51047e1b00 FLASH_Program_DoubleWord>) [0 FLASH_Program_DoubleWord S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_Program_DoubleWord") [flags 0x3]  <function_decl 0x7fb0ccde1b00 FLASH_Program_DoubleWord>) [0 FLASH_Program_DoubleWord S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -253,7 +273,11 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [2 Address+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_flash.c":201:7 -1
      (nil))
 (call_insn 61 60 62 10 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_Program_Fast") [flags 0x3]  <function_decl 0x7f51047e1c00 FLASH_Program_Fast>) [0 FLASH_Program_Fast S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_Program_Fast") [flags 0x3]  <function_decl 0x7fb0ccde1c00 FLASH_Program_Fast>) [0 FLASH_Program_Fast S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -293,7 +317,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 71 70 72 12 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7f5104842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7fb0cce42200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -356,7 +384,11 @@ try_optimize_cfg iteration 2
 (code_label 86 85 87 14 4 (nil) [2 uses])
 (note 87 86 88 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (insn 88 87 89 14 (set (reg/f:SI 143)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":225:3 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":225:3 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 89 88 90 14 (set (reg:SI 144)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":225:3 -1
@@ -453,7 +485,11 @@ try_optimize_cfg iteration 2
      (nil))
 (note 5 4 8 2 NOTE_INSN_FUNCTION_BEG)
 (insn 8 5 9 2 (set (reg/f:SI 122)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 9 8 10 2 (set (reg:SI 114 [ _1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 122) [0 pFlash.Lock+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 -1
@@ -481,7 +517,11 @@ try_optimize_cfg iteration 2
 (code_label 16 15 17 5 11 (nil) [1 uses])
 (note 17 16 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (insn 18 17 19 5 (set (reg/f:SI 123)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 discrim 2 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 discrim 2 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 19 18 20 5 (set (reg:SI 124)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 discrim 2 -1
@@ -493,7 +533,11 @@ try_optimize_cfg iteration 2
         (reg:QI 125)) "lib/HAL/Src/stm32g4xx_hal_flash.c":250:3 discrim 2 -1
      (nil))
 (insn 22 21 23 5 (set (reg/f:SI 126)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":253:20 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":253:20 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 23 22 24 5 (set (reg:SI 127)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":253:20 -1
@@ -507,7 +551,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 26 25 27 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7f5104842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7fb0cce42200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -543,7 +591,11 @@ try_optimize_cfg iteration 2
  -> 40)
 (note 33 32 34 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (insn 34 33 35 6 (set (reg/f:SI 131)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":261:5 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":261:5 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 35 34 36 6 (set (reg:SI 132)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":261:5 -1
@@ -578,7 +630,11 @@ try_optimize_cfg iteration 2
  -> 52)
 (note 45 44 46 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (insn 46 45 47 8 (set (reg/f:SI 135)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":268:31 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":268:31 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 47 46 48 8 (set (reg:SI 136)
         (const_int 4 [0x4])) "lib/HAL/Src/stm32g4xx_hal_flash.c":268:31 -1
@@ -598,7 +654,11 @@ try_optimize_cfg iteration 2
 (code_label 52 51 53 9 15 (nil) [1 uses])
 (note 53 52 54 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (insn 54 53 55 9 (set (reg/f:SI 138)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":272:31 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":272:31 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 55 54 56 9 (set (reg:SI 139)
         (const_int 3 [0x3])) "lib/HAL/Src/stm32g4xx_hal_flash.c":272:31 -1
@@ -613,7 +673,11 @@ try_optimize_cfg iteration 2
 (code_label 58 57 59 10 16 (nil) [1 uses])
 (note 59 58 60 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (insn 60 59 61 10 (set (reg/f:SI 141)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":274:20 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":274:20 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 61 60 62 10 (set (reg:SI 142)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
@@ -666,7 +730,11 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [2 Address+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_flash.c":282:7 -1
      (nil))
 (call_insn 75 74 76 12 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_Program_DoubleWord") [flags 0x3]  <function_decl 0x7f51047e1b00 FLASH_Program_DoubleWord>) [0 FLASH_Program_DoubleWord S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_Program_DoubleWord") [flags 0x3]  <function_decl 0x7fb0ccde1b00 FLASH_Program_DoubleWord>) [0 FLASH_Program_DoubleWord S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -728,7 +796,11 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [2 Address+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_flash.c":287:7 -1
      (nil))
 (call_insn 92 91 93 15 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_Program_Fast") [flags 0x3]  <function_decl 0x7f51047e1c00 FLASH_Program_Fast>) [0 FLASH_Program_Fast S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_Program_Fast") [flags 0x3]  <function_decl 0x7fb0ccde1c00 FLASH_Program_Fast>) [0 FLASH_Program_Fast S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -881,7 +953,11 @@ try_optimize_cfg iteration 2
         (reg:SI 121 [ _8 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":311:3 -1
      (nil))
 (insn 16 15 18 2 (set (reg/f:SI 162)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":315:13 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":315:13 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 18 16 19 2 (set (reg:QI 164)
         (mem/v/c:QI (plus:SI (reg/f:SI 162)
@@ -959,7 +1035,11 @@ try_optimize_cfg iteration 2
  -> 118)
 (note 38 37 39 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (insn 39 38 40 6 (set (reg/f:SI 167)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":326:11 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":326:11 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 40 39 41 6 (set (reg:SI 129 [ _16 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 167)
@@ -974,7 +1054,11 @@ try_optimize_cfg iteration 2
             (reg:SI 168))) "lib/HAL/Src/stm32g4xx_hal_flash.c":326:22 -1
      (nil))
 (insn 43 42 44 6 (set (reg/f:SI 169)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":326:22 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":326:22 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 44 43 47 6 (set (mem/v/c:SI (plus:SI (reg/f:SI 169)
                 (const_int 4 [0x4])) [2 pFlash.ErrorCode+0 S4 A32])
@@ -1062,7 +1146,11 @@ try_optimize_cfg iteration 2
 (code_label 69 68 70 10 25 (nil) [1 uses])
 (note 70 69 71 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 71 70 72 10 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x41]  <function_decl 0x7f510483d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x41]  <function_decl 0x7fb0cce3d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1071,7 +1159,11 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 72 71 73 10 (set (reg/f:SI 174)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":335:15 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":335:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 73 72 74 10 (set (reg:QI 175)
         (mem/v/c:QI (plus:SI (reg/f:SI 174)
@@ -1098,7 +1190,11 @@ try_optimize_cfg iteration 2
  -> 85)
 (note 78 77 79 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 79 78 80 11 (set (reg/f:SI 177)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":338:46 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":338:46 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 80 79 81 11 (set (reg:SI 139 [ _26 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 177)
@@ -1108,7 +1204,11 @@ try_optimize_cfg iteration 2
         (reg:SI 139 [ _26 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":338:7 -1
      (nil))
 (call_insn 82 81 83 11 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_OperationErrorCallback") [flags 0x3]  <function_decl 0x7f510483db00 HAL_FLASH_OperationErrorCallback>) [0 HAL_FLASH_OperationErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_OperationErrorCallback") [flags 0x3]  <function_decl 0x7fb0cce3db00 HAL_FLASH_OperationErrorCallback>) [0 HAL_FLASH_OperationErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1141,7 +1241,11 @@ try_optimize_cfg iteration 2
  -> 97)
 (note 90 89 91 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
 (insn 91 90 92 13 (set (reg/f:SI 179)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":342:46 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":342:46 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 92 91 93 13 (set (reg:SI 140 [ _27 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 179)
@@ -1151,7 +1255,11 @@ try_optimize_cfg iteration 2
         (reg:SI 140 [ _27 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":342:7 -1
      (nil))
 (call_insn 94 93 95 13 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_OperationErrorCallback") [flags 0x3]  <function_decl 0x7f510483db00 HAL_FLASH_OperationErrorCallback>) [0 HAL_FLASH_OperationErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_OperationErrorCallback") [flags 0x3]  <function_decl 0x7fb0cce3db00 HAL_FLASH_OperationErrorCallback>) [0 HAL_FLASH_OperationErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1201,7 +1309,11 @@ try_optimize_cfg iteration 2
 (code_label 106 105 107 16 29 (nil) [1 uses])
 (note 107 106 108 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 108 107 109 16 (set (reg/f:SI 182)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":347:46 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":347:46 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 109 108 110 16 (set (reg:SI 141 [ _28 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 182)
@@ -1211,7 +1323,11 @@ try_optimize_cfg iteration 2
         (reg:SI 141 [ _28 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":347:7 -1
      (nil))
 (call_insn 111 110 112 16 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_OperationErrorCallback") [flags 0x3]  <function_decl 0x7f510483db00 HAL_FLASH_OperationErrorCallback>) [0 HAL_FLASH_OperationErrorCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_OperationErrorCallback") [flags 0x3]  <function_decl 0x7fb0cce3db00 HAL_FLASH_OperationErrorCallback>) [0 HAL_FLASH_OperationErrorCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1223,7 +1339,11 @@ try_optimize_cfg iteration 2
 (code_label 112 111 113 17 27 (nil) [3 uses])
 (note 113 112 114 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (insn 114 113 115 17 (set (reg/f:SI 183)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":355:29 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":355:29 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 115 114 116 17 (set (reg:SI 184)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":355:29 -1
@@ -1271,7 +1391,11 @@ try_optimize_cfg iteration 2
         (reg:SI 186)) "lib/HAL/Src/stm32g4xx_hal_flash.c":362:5 discrim 4 -1
      (nil))
 (insn 129 128 131 19 (set (reg/f:SI 187)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":364:15 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":364:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 131 129 132 19 (set (reg:QI 189)
         (mem/v/c:QI (plus:SI (reg/f:SI 187)
@@ -1293,7 +1417,11 @@ try_optimize_cfg iteration 2
  -> 181)
 (note 135 134 136 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
 (insn 136 135 137 20 (set (reg/f:SI 190)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":367:13 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":367:13 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 137 136 138 20 (set (reg:SI 147 [ _37 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 190)
@@ -1304,14 +1432,22 @@ try_optimize_cfg iteration 2
             (const_int -1 [0xffffffffffffffff]))) "lib/HAL/Src/stm32g4xx_hal_flash.c":367:28 -1
      (nil))
 (insn 139 138 140 20 (set (reg/f:SI 191)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":367:28 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":367:28 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 140 139 141 20 (set (mem/v/c:SI (plus:SI (reg/f:SI 191)
                 (const_int 24 [0x18])) [2 pFlash.NbPagesToErase+0 S4 A32])
         (reg:SI 148 [ _38 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":367:28 -1
      (nil))
 (insn 141 140 142 20 (set (reg/f:SI 192)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":370:17 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":370:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 142 141 143 20 (set (reg:SI 149 [ _39 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 192)
@@ -1330,7 +1466,11 @@ try_optimize_cfg iteration 2
  -> 165)
 (note 145 144 146 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
 (insn 146 145 147 21 (set (reg/f:SI 193)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":373:48 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":373:48 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 147 146 148 21 (set (reg:SI 150 [ _40 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 193)
@@ -1340,7 +1480,11 @@ try_optimize_cfg iteration 2
         (reg:SI 150 [ _40 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":373:9 -1
      (nil))
 (call_insn 149 148 150 21 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7f510483da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7fb0cce3da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1350,7 +1494,11 @@ try_optimize_cfg iteration 2
         (expr_list:SI (use (reg:SI 0 r0))
             (nil))))
 (insn 150 149 151 21 (set (reg/f:SI 194)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":376:15 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":376:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 151 150 152 21 (set (reg:SI 151 [ _41 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 194)
@@ -1361,14 +1509,22 @@ try_optimize_cfg iteration 2
             (const_int 1 [0x1]))) "lib/HAL/Src/stm32g4xx_hal_flash.c":376:20 -1
      (nil))
 (insn 153 152 154 21 (set (reg/f:SI 195)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":376:20 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":376:20 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 154 153 155 21 (set (mem/v/c:SI (plus:SI (reg/f:SI 195)
                 (const_int 20 [0x14])) [2 pFlash.Page+0 S4 A32])
         (reg:SI 152 [ _42 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":376:20 -1
      (nil))
 (insn 155 154 156 21 (set (reg/f:SI 196)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":377:18 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":377:18 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 156 155 157 21 (set (reg:SI 197)
         (mem/v/c:SI (plus:SI (reg/f:SI 196)
@@ -1379,7 +1535,11 @@ try_optimize_cfg iteration 2
         (reg:SI 197)) "lib/HAL/Src/stm32g4xx_hal_flash.c":377:18 -1
      (nil))
 (insn 158 157 159 21 (set (reg/f:SI 198)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":378:41 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":378:41 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 159 158 160 21 (set (reg:SI 153 [ _43 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 198)
@@ -1393,7 +1553,11 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [2 tmp_page+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_flash.c":378:9 -1
      (nil))
 (call_insn 162 161 163 21 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x41]  <function_decl 0x7f510483d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x41]  <function_decl 0x7fb0cce3d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1411,7 +1575,11 @@ try_optimize_cfg iteration 2
 (code_label 165 164 166 22 32 (nil) [1 uses])
 (note 166 165 167 22 [bb 22] NOTE_INSN_BASIC_BLOCK)
 (insn 167 166 168 22 (set (reg/f:SI 199)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":384:21 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":384:21 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 168 167 169 22 (set (reg:SI 200)
         (const_int -1 [0xffffffffffffffff])) "lib/HAL/Src/stm32g4xx_hal_flash.c":384:21 -1
@@ -1421,7 +1589,11 @@ try_optimize_cfg iteration 2
         (reg:SI 200)) "lib/HAL/Src/stm32g4xx_hal_flash.c":384:21 -1
      (nil))
 (insn 170 169 171 22 (set (reg/f:SI 201)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":385:33 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":385:33 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 171 170 172 22 (set (reg:SI 202)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":385:33 -1
@@ -1434,7 +1606,11 @@ try_optimize_cfg iteration 2
         (reg:QI 203)) "lib/HAL/Src/stm32g4xx_hal_flash.c":385:33 -1
      (nil))
 (call_insn 174 173 175 22 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x41]  <function_decl 0x7f510483d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x41]  <function_decl 0x7fb0cce3d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1443,7 +1619,11 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 175 174 176 22 (set (reg/f:SI 204)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":391:48 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":391:48 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 176 175 177 22 (set (reg:SI 154 [ _44 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 204)
@@ -1453,7 +1633,11 @@ try_optimize_cfg iteration 2
         (reg:SI 154 [ _44 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":391:9 -1
      (nil))
 (call_insn 178 177 179 22 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7f510483da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7fb0cce3da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1470,7 +1654,11 @@ try_optimize_cfg iteration 2
 (code_label 181 180 182 23 31 (nil) [1 uses])
 (note 182 181 183 23 [bb 23] NOTE_INSN_BASIC_BLOCK)
 (call_insn 183 182 184 23 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x41]  <function_decl 0x7f510483d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
+=======
+            (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x41]  <function_decl 0x7fb0cce3d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1479,7 +1667,11 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 184 183 185 23 (set (reg/f:SI 205)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":399:17 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":399:17 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 185 184 186 23 (set (reg:QI 206)
         (mem/v/c:QI (plus:SI (reg/f:SI 205)
@@ -1506,7 +1698,11 @@ try_optimize_cfg iteration 2
  -> 197)
 (note 190 189 191 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
 (insn 191 190 192 24 (set (reg/f:SI 208)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":404:48 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":404:48 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 192 191 193 24 (set (reg:SI 155 [ _45 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 208)
@@ -1516,7 +1712,11 @@ try_optimize_cfg iteration 2
         (reg:SI 155 [ _45 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":404:9 -1
      (nil))
 (call_insn 194 193 195 24 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7f510483da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7fb0cce3da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1566,7 +1766,11 @@ try_optimize_cfg iteration 2
 (code_label 206 205 207 27 35 (nil) [1 uses])
 (note 207 206 208 27 [bb 27] NOTE_INSN_BASIC_BLOCK)
 (insn 208 207 209 27 (set (reg/f:SI 211)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":411:48 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":411:48 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 209 208 210 27 (set (reg:SI 156 [ _46 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 211)
@@ -1576,7 +1780,11 @@ try_optimize_cfg iteration 2
         (reg:SI 156 [ _46 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":411:9 -1
      (nil))
 (call_insn 211 210 212 27 (parallel [
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7f510483da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+=======
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FLASH_EndOfOperationCallback") [flags 0x3]  <function_decl 0x7fb0cce3da00 HAL_FLASH_EndOfOperationCallback>) [0 HAL_FLASH_EndOfOperationCallback S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1588,7 +1796,11 @@ try_optimize_cfg iteration 2
 (code_label 212 211 213 28 34 (nil) [2 uses])
 (note 213 212 214 28 [bb 28] NOTE_INSN_BASIC_BLOCK)
 (insn 214 213 215 28 (set (reg/f:SI 212)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":419:31 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":419:31 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 215 214 216 28 (set (reg:SI 213)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":419:31 -1
@@ -1603,7 +1815,11 @@ try_optimize_cfg iteration 2
 (code_label 218 217 219 29 30 (nil) [3 uses])
 (note 219 218 220 29 [bb 29] NOTE_INSN_BASIC_BLOCK)
 (insn 220 219 222 29 (set (reg/f:SI 215)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":423:13 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":423:13 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 222 220 223 29 (set (reg:QI 217)
         (mem/v/c:QI (plus:SI (reg/f:SI 215)
@@ -1643,7 +1859,11 @@ try_optimize_cfg iteration 2
         (reg:SI 161 [ _55 ])) "lib/HAL/Src/stm32g4xx_hal_flash.c":426:5 discrim 4 -1
      (nil))
 (insn 232 231 233 30 (set (reg/f:SI 218)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":429:5 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":429:5 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 233 232 234 30 (set (reg:SI 219)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash.c":429:5 -1
@@ -2273,7 +2493,11 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7f5104842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x3]  <function_decl 0x7fb0cce42200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2330,7 +2554,11 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 116)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":631:16 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":631:16 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 6 5 9 2 (set (reg:SI 114 [ _2 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 116)
@@ -2404,7 +2632,11 @@ try_optimize_cfg iteration 2
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 6 3 7 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f51047d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fb0ccdd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2425,7 +2657,11 @@ try_optimize_cfg iteration 2
 (note 10 27 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 11 10 12 4 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f51047d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fb0ccdd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2530,7 +2766,11 @@ try_optimize_cfg iteration 2
  -> 75)
 (note 39 38 40 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (insn 40 39 41 8 (set (reg/f:SI 141)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":675:11 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":675:11 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 41 40 42 8 (set (reg:SI 121 [ _8 ])
         (mem/v/c:SI (plus:SI (reg/f:SI 141)
@@ -2545,7 +2785,11 @@ try_optimize_cfg iteration 2
             (reg:SI 142))) "lib/HAL/Src/stm32g4xx_hal_flash.c":675:22 -1
      (nil))
 (insn 44 43 45 8 (set (reg/f:SI 143)
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7f5104be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":675:22 -1
+=======
+        (symbol_ref:SI ("pFlash") [flags 0x2]  <var_decl 0x7fb0cd1e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash.c":675:22 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 45 44 48 8 (set (mem/v/c:SI (plus:SI (reg/f:SI 143)
                 (const_int 4 [0x4])) [2 pFlash.ErrorCode+0 S4 A32])

@@ -94,14 +94,22 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 117)
+<<<<<<< HEAD
         (symbol_ref:SI ("_sstack") [flags 0x40]  <var_decl 0x7ff422584e10 _sstack>)) "src/Service/StackMonitor.c":81:15 -1
+=======
+        (symbol_ref:SI ("_sstack") [flags 0x40]  <var_decl 0x7f6946384e10 _sstack>)) "src/Service/StackMonitor.c":81:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 6 5 7 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -4 [0xfffffffffffffffc])) [3 p+0 S4 A32])
         (reg/f:SI 117)) "src/Service/StackMonitor.c":81:15 -1
      (nil))
 (insn 7 6 8 2 (set (reg/f:SI 118)
+<<<<<<< HEAD
         (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7ff422584d80 _estack>)) "src/Service/StackMonitor.c":82:15 -1
+=======
+        (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7f6946384d80 _estack>)) "src/Service/StackMonitor.c":82:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 8 7 9 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -12 [0xfffffffffffffff4])) [3 high+0 S4 A32])
@@ -244,14 +252,22 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 117)
+<<<<<<< HEAD
         (symbol_ref:SI ("_sstack") [flags 0x40]  <var_decl 0x7ff422584e10 _sstack>)) "src/Service/StackMonitor.c":110:15 -1
+=======
+        (symbol_ref:SI ("_sstack") [flags 0x40]  <var_decl 0x7f6946384e10 _sstack>)) "src/Service/StackMonitor.c":110:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 6 5 7 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -4 [0xfffffffffffffffc])) [3 p+0 S4 A32])
         (reg/f:SI 117)) "src/Service/StackMonitor.c":110:15 -1
      (nil))
 (insn 7 6 8 2 (set (reg/f:SI 118)
+<<<<<<< HEAD
         (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7ff422584d80 _estack>)) "src/Service/StackMonitor.c":111:15 -1
+=======
+        (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7f6946384d80 _estack>)) "src/Service/StackMonitor.c":111:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 8 7 9 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -12 [0xfffffffffffffff4])) [3 high+0 S4 A32])
@@ -391,7 +407,11 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("GetUsedBytes") [flags 0x3]  <function_decl 0x7ff4225e1c00 GetUsedBytes>) [0 GetUsedBytes S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("GetUsedBytes") [flags 0x3]  <function_decl 0x7f69463e1c00 GetUsedBytes>) [0 GetUsedBytes S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -458,7 +478,11 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 119)
+<<<<<<< HEAD
         (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7ff422584d80 _estack>)) "src/Service/StackMonitor.c":139:15 -1
+=======
+        (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7f6946384d80 _estack>)) "src/Service/StackMonitor.c":139:15 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 6 5 7 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -4 [0xfffffffffffffffc])) [3 p+0 S4 A32])
@@ -498,7 +522,11 @@ try_optimize_cfg iteration 2
 (note 17 16 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 5 (parallel [
             (set (reg:SI 0 r0)
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("get_msp") [flags 0x3]  <function_decl 0x7ff4225e1f00 get_msp>) [0 get_msp S4 A32])
+=======
+                (call (mem:SI (symbol_ref:SI ("get_msp") [flags 0x3]  <function_decl 0x7f69463e1f00 get_msp>) [0 get_msp S4 A32])
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -511,7 +539,11 @@ try_optimize_cfg iteration 2
         (reg:SI 0 r0)) "src/Service/StackMonitor.c":142:19 -1
      (nil))
 (insn 20 19 21 5 (set (reg:SI 115 [ _sstack.0_2 ])
+<<<<<<< HEAD
         (symbol_ref:SI ("_sstack") [flags 0x40]  <var_decl 0x7ff422584e10 _sstack>)) "src/Service/StackMonitor.c":144:12 -1
+=======
+        (symbol_ref:SI ("_sstack") [flags 0x40]  <var_decl 0x7f6946384e10 _sstack>)) "src/Service/StackMonitor.c":144:12 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 21 20 22 5 (set (reg:SI 122)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
@@ -530,7 +562,11 @@ try_optimize_cfg iteration 2
  -> 29)
 (note 24 23 25 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (insn 25 24 26 6 (set (reg:SI 116 [ _estack.1_3 ])
+<<<<<<< HEAD
         (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7ff422584d80 _estack>)) "src/Service/StackMonitor.c":144:39 discrim 2 -1
+=======
+        (symbol_ref:SI ("_estack") [flags 0x40]  <var_decl 0x7f6946384d80 _estack>)) "src/Service/StackMonitor.c":144:39 discrim 2 -1
+>>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
      (nil))
 (insn 26 25 27 6 (set (reg:SI 123)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
