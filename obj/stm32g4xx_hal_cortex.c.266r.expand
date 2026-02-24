@@ -1693,7 +1693,7 @@ try_optimize_cfg iteration 2
         (const_int -1 [0xffffffffffffffff])) "lib/Core/Include/core_cm4.h":2025:3 -1
      (nil))
 (call_insn 24 23 25 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPriority") [flags 0x3]  <function_decl 0x7f252a558600 __NVIC_SetPriority>) [0 __NVIC_SetPriority S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPriority") [flags 0x3]  <function_decl 0x7f7080358600 __NVIC_SetPriority>) [0 __NVIC_SetPriority S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1771,7 +1771,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [1 PriorityGroup+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cortex.c":170:3 -1
      (nil))
 (call_insn 7 6 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPriorityGrouping") [flags 0x3]  <function_decl 0x7f252a4fe400 __NVIC_SetPriorityGrouping>) [0 __NVIC_SetPriorityGrouping S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPriorityGrouping") [flags 0x3]  <function_decl 0x7f70802fe400 __NVIC_SetPriorityGrouping>) [0 __NVIC_SetPriorityGrouping S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1827,7 +1827,7 @@ try_optimize_cfg iteration 2
 (note 7 4 10 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 10 7 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPriorityGrouping") [flags 0x3]  <function_decl 0x7f252a4fe600 __NVIC_GetPriorityGrouping>) [0 __NVIC_GetPriorityGrouping S4 A32])
+                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPriorityGrouping") [flags 0x3]  <function_decl 0x7f70802fe600 __NVIC_GetPriorityGrouping>) [0 __NVIC_GetPriorityGrouping S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1853,7 +1853,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 15 14 16 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("NVIC_EncodePriority") [flags 0x3]  <function_decl 0x7f252a558a00 NVIC_EncodePriority>) [0 NVIC_EncodePriority S4 A32])
+                (call (mem:SI (symbol_ref:SI ("NVIC_EncodePriority") [flags 0x3]  <function_decl 0x7f7080358a00 NVIC_EncodePriority>) [0 NVIC_EncodePriority S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1878,7 +1878,7 @@ try_optimize_cfg iteration 2
         (reg:SI 117)) "lib/HAL/Src/stm32g4xx_hal_cortex.c":196:3 discrim 1 -1
      (nil))
 (call_insn 20 19 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPriority") [flags 0x3]  <function_decl 0x7f252a558600 __NVIC_SetPriority>) [0 __NVIC_SetPriority S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPriority") [flags 0x3]  <function_decl 0x7f7080358600 __NVIC_SetPriority>) [0 __NVIC_SetPriority S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1933,7 +1933,7 @@ try_optimize_cfg iteration 2
         (reg:SI 116)) "lib/HAL/Src/stm32g4xx_hal_cortex.c":214:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_EnableIRQ") [flags 0x3]  <function_decl 0x7f252a4fe800 __NVIC_EnableIRQ>) [0 __NVIC_EnableIRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_EnableIRQ") [flags 0x3]  <function_decl 0x7f70802fe800 __NVIC_EnableIRQ>) [0 __NVIC_EnableIRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1987,7 +1987,7 @@ try_optimize_cfg iteration 2
         (reg:SI 116)) "lib/HAL/Src/stm32g4xx_hal_cortex.c":230:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_DisableIRQ") [flags 0x3]  <function_decl 0x7f252a4fec00 __NVIC_DisableIRQ>) [0 __NVIC_DisableIRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_DisableIRQ") [flags 0x3]  <function_decl 0x7f70802fec00 __NVIC_DisableIRQ>) [0 __NVIC_DisableIRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2022,7 +2022,7 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_SystemReset") [flags 0x3]  <function_decl 0x7f252a561200 __NVIC_SystemReset>) [0 __NVIC_SystemReset S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_SystemReset") [flags 0x3]  <function_decl 0x7f7080361200 __NVIC_SystemReset>) [0 __NVIC_SystemReset S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2075,7 +2075,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SysTick_Config") [flags 0x3]  <function_decl 0x7f252a56f400 SysTick_Config>) [0 SysTick_Config S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SysTick_Config") [flags 0x3]  <function_decl 0x7f708036f400 SysTick_Config>) [0 SysTick_Config S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2130,7 +2130,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPriorityGrouping") [flags 0x3]  <function_decl 0x7f252a4fe600 __NVIC_GetPriorityGrouping>) [0 __NVIC_GetPriorityGrouping S4 A32])
+                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPriorityGrouping") [flags 0x3]  <function_decl 0x7f70802fe600 __NVIC_GetPriorityGrouping>) [0 __NVIC_GetPriorityGrouping S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2207,7 +2207,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPriority") [flags 0x3]  <function_decl 0x7f252a558800 __NVIC_GetPriority>) [0 __NVIC_GetPriority S4 A32])
+                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPriority") [flags 0x3]  <function_decl 0x7f7080358800 __NVIC_GetPriority>) [0 __NVIC_GetPriority S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2235,7 +2235,7 @@ try_optimize_cfg iteration 2
         (reg:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_cortex.c":310:3 discrim 1 -1
      (nil))
 (call_insn 19 18 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("NVIC_DecodePriority") [flags 0x3]  <function_decl 0x7f252a558c00 NVIC_DecodePriority>) [0 NVIC_DecodePriority S4 A32])
+            (call (mem:SI (symbol_ref:SI ("NVIC_DecodePriority") [flags 0x3]  <function_decl 0x7f7080358c00 NVIC_DecodePriority>) [0 NVIC_DecodePriority S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2292,7 +2292,7 @@ try_optimize_cfg iteration 2
         (reg:SI 116)) "lib/HAL/Src/stm32g4xx_hal_cortex.c":326:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPendingIRQ") [flags 0x3]  <function_decl 0x7f252a558000 __NVIC_SetPendingIRQ>) [0 __NVIC_SetPendingIRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_SetPendingIRQ") [flags 0x3]  <function_decl 0x7f7080358000 __NVIC_SetPendingIRQ>) [0 __NVIC_SetPendingIRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2353,7 +2353,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPendingIRQ") [flags 0x3]  <function_decl 0x7f252a4fee00 __NVIC_GetPendingIRQ>) [0 __NVIC_GetPendingIRQ S4 A32])
+                (call (mem:SI (symbol_ref:SI ("__NVIC_GetPendingIRQ") [flags 0x3]  <function_decl 0x7f70802fee00 __NVIC_GetPendingIRQ>) [0 __NVIC_GetPendingIRQ S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2418,7 +2418,7 @@ try_optimize_cfg iteration 2
         (reg:SI 116)) "lib/HAL/Src/stm32g4xx_hal_cortex.c":360:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("__NVIC_ClearPendingIRQ") [flags 0x3]  <function_decl 0x7f252a558200 __NVIC_ClearPendingIRQ>) [0 __NVIC_ClearPendingIRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("__NVIC_ClearPendingIRQ") [flags 0x3]  <function_decl 0x7f7080358200 __NVIC_ClearPendingIRQ>) [0 __NVIC_ClearPendingIRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2479,7 +2479,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("__NVIC_GetActive") [flags 0x3]  <function_decl 0x7f252a558400 __NVIC_GetActive>) [0 __NVIC_GetActive S4 A32])
+                (call (mem:SI (symbol_ref:SI ("__NVIC_GetActive") [flags 0x3]  <function_decl 0x7f7080358400 __NVIC_GetActive>) [0 __NVIC_GetActive S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2622,7 +2622,7 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SYSTICK_Callback") [flags 0x3]  <function_decl 0x7f2529c3b700 HAL_SYSTICK_Callback>) [0 HAL_SYSTICK_Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SYSTICK_Callback") [flags 0x3]  <function_decl 0x7f707fa3b700 HAL_SYSTICK_Callback>) [0 HAL_SYSTICK_Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

@@ -117,7 +117,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":346:5 -1
      (nil))
 (call_insn 25 24 26 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_MspInit") [flags 0x3]  <function_decl 0x7f9ab98b1600 HAL_SMARTCARD_MspInit>) [0 HAL_SMARTCARD_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_MspInit") [flags 0x3]  <function_decl 0x7f6f580b1600 HAL_SMARTCARD_MspInit>) [0 HAL_SMARTCARD_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -247,7 +247,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 60 59 61 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_SetConfig") [flags 0x3]  <function_decl 0x7f9ab99e1b00 SMARTCARD_SetConfig>) [0 SMARTCARD_SetConfig S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_SetConfig") [flags 0x3]  <function_decl 0x7f6f581e1b00 SMARTCARD_SetConfig>) [0 SMARTCARD_SetConfig S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -350,7 +350,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":375:5 -1
      (nil))
 (call_insn 89 88 90 12 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARD_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f9ab99e1c00 SMARTCARD_AdvFeatureConfig>) [0 SMARTCARD_AdvFeatureConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARD_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f6f581e1c00 SMARTCARD_AdvFeatureConfig>) [0 SMARTCARD_AdvFeatureConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -391,7 +391,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 100 99 101 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_CheckIdleState") [flags 0x3]  <function_decl 0x7f9ab99e1d00 SMARTCARD_CheckIdleState>) [0 SMARTCARD_CheckIdleState S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_CheckIdleState") [flags 0x3]  <function_decl 0x7f6f581e1d00 SMARTCARD_CheckIdleState>) [0 SMARTCARD_CheckIdleState S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -589,7 +589,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":422:3 -1
      (nil))
 (call_insn 46 45 47 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_MspDeInit") [flags 0x3]  <function_decl 0x7f9ab98b1700 HAL_SMARTCARD_MspDeInit>) [0 HAL_SMARTCARD_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_MspDeInit") [flags 0x3]  <function_decl 0x7f6f580b1700 HAL_SMARTCARD_MspDeInit>) [0 HAL_SMARTCARD_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -952,7 +952,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 49 48 50 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9ab99d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6f581d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1251,7 +1251,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9ab99e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f6f581e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1411,7 +1411,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 183 182 184 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9ab99e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f6f581e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1924,7 +1924,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 52 51 53 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9ab99d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6f581d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2022,7 +2022,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 79 78 80 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9ab99e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f6f581e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2637,7 +2637,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1031:25 -1
      (nil))
 (insn 121 120 122 13 (set (reg/f:SI 198)
-        (symbol_ref:SI ("SMARTCARD_TxISR_FIFOEN") [flags 0x3]  <function_decl 0x7f9ab99e5a00 SMARTCARD_TxISR_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1031:25 -1
+        (symbol_ref:SI ("SMARTCARD_TxISR_FIFOEN") [flags 0x3]  <function_decl 0x7f6f581e5a00 SMARTCARD_TxISR_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1031:25 -1
      (nil))
 (insn 122 121 123 13 (set (mem/f:SI (plus:SI (reg/f:SI 197)
                 (const_int 112 [0x70])) [18 hsmartcard_51(D)->TxISR+0 S4 A32])
@@ -2721,7 +2721,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1045:25 -1
      (nil))
 (insn 146 145 147 14 (set (reg/f:SI 207)
-        (symbol_ref:SI ("SMARTCARD_TxISR") [flags 0x3]  <function_decl 0x7f9ab99e5900 SMARTCARD_TxISR>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1045:25 -1
+        (symbol_ref:SI ("SMARTCARD_TxISR") [flags 0x3]  <function_decl 0x7f6f581e5900 SMARTCARD_TxISR>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1045:25 -1
      (nil))
 (insn 147 146 148 14 (set (mem/f:SI (plus:SI (reg/f:SI 206)
                 (const_int 112 [0x70])) [18 hsmartcard_51(D)->TxISR+0 S4 A32])
@@ -3100,7 +3100,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1104:25 -1
      (nil))
 (insn 70 69 71 11 (set (reg/f:SI 159)
-        (symbol_ref:SI ("SMARTCARD_RxISR_FIFOEN") [flags 0x3]  <function_decl 0x7f9ab99e5d00 SMARTCARD_RxISR_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1104:25 -1
+        (symbol_ref:SI ("SMARTCARD_RxISR_FIFOEN") [flags 0x3]  <function_decl 0x7f6f581e5d00 SMARTCARD_RxISR_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1104:25 -1
      (nil))
 (insn 71 70 72 11 (set (mem/f:SI (plus:SI (reg/f:SI 158)
                 (const_int 108 [0x6c])) [18 hsmartcard_25(D)->RxISR+0 S4 A32])
@@ -3182,7 +3182,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1116:25 -1
      (nil))
 (insn 95 94 96 12 (set (reg/f:SI 168)
-        (symbol_ref:SI ("SMARTCARD_RxISR") [flags 0x3]  <function_decl 0x7f9ab99e5c00 SMARTCARD_RxISR>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1116:25 -1
+        (symbol_ref:SI ("SMARTCARD_RxISR") [flags 0x3]  <function_decl 0x7f6f581e5c00 SMARTCARD_RxISR>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1116:25 -1
      (nil))
 (insn 96 95 97 12 (set (mem/f:SI (plus:SI (reg/f:SI 167)
                 (const_int 108 [0x6c])) [18 hsmartcard_25(D)->RxISR+0 S4 A32])
@@ -3713,7 +3713,7 @@ try_optimize_cfg iteration 2
                 (const_int 116 [0x74])) [19 hsmartcard_56(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1185:15 -1
      (nil))
 (insn 114 113 115 12 (set (reg/f:SI 201)
-        (symbol_ref:SI ("SMARTCARD_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f9ab99e5100 SMARTCARD_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1185:42 -1
+        (symbol_ref:SI ("SMARTCARD_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f6f581e5100 SMARTCARD_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1185:42 -1
      (nil))
 (insn 115 114 116 12 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 44 [0x2c])) [6 _29->XferCpltCallback+0 S4 A32])
@@ -3728,7 +3728,7 @@ try_optimize_cfg iteration 2
                 (const_int 116 [0x74])) [19 hsmartcard_56(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1188:15 -1
      (nil))
 (insn 118 117 119 12 (set (reg/f:SI 203)
-        (symbol_ref:SI ("SMARTCARD_DMAError") [flags 0x3]  <function_decl 0x7f9ab99e5300 SMARTCARD_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1188:43 -1
+        (symbol_ref:SI ("SMARTCARD_DMAError") [flags 0x3]  <function_decl 0x7f6f581e5300 SMARTCARD_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1188:43 -1
      (nil))
 (insn 119 118 120 12 (set (mem/f:SI (plus:SI (reg/f:SI 143 [ _30 ])
                 (const_int 52 [0x34])) [6 _30->XferErrorCallback+0 S4 A32])
@@ -3800,7 +3800,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 138 137 139 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f6f5842f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4219,7 +4219,7 @@ try_optimize_cfg iteration 2
                 (const_int 120 [0x78])) [19 hsmartcard_29(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1262:15 -1
      (nil))
 (insn 57 56 58 9 (set (reg/f:SI 159)
-        (symbol_ref:SI ("SMARTCARD_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f9ab99e5200 SMARTCARD_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1262:42 -1
+        (symbol_ref:SI ("SMARTCARD_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f6f581e5200 SMARTCARD_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1262:42 -1
      (nil))
 (insn 58 57 59 9 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [6 _3->XferCpltCallback+0 S4 A32])
@@ -4234,7 +4234,7 @@ try_optimize_cfg iteration 2
                 (const_int 120 [0x78])) [19 hsmartcard_29(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1265:15 -1
      (nil))
 (insn 61 60 62 9 (set (reg/f:SI 161)
-        (symbol_ref:SI ("SMARTCARD_DMAError") [flags 0x3]  <function_decl 0x7f9ab99e5300 SMARTCARD_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1265:43 -1
+        (symbol_ref:SI ("SMARTCARD_DMAError") [flags 0x3]  <function_decl 0x7f6f581e5300 SMARTCARD_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1265:43 -1
      (nil))
 (insn 62 61 63 9 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 52 [0x34])) [6 _4->XferErrorCallback+0 S4 A32])
@@ -4306,7 +4306,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 81 80 82 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f6f5842f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4712,7 +4712,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 48 47 49 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f9ab9c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f6f5842f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4752,7 +4752,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 58 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f9ab9c2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f6f5842f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4898,7 +4898,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 96 95 97 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f9ab9c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f6f5842f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4938,7 +4938,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 105 104 106 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f9ab9c2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f6f5842f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5320,7 +5320,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 60 59 61 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f9ab9c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f6f5842f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5360,7 +5360,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 8 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f9ab9c2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f6f5842f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5717,7 +5717,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 62 61 63 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f9ab9c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f6f5842f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5757,7 +5757,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 71 70 72 8 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f9ab9c2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f6f5842f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6057,7 +6057,7 @@ try_optimize_cfg iteration 2
                 (const_int 116 [0x74])) [19 hsmartcard_53(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1565:17 -1
      (nil))
 (insn 38 37 39 5 (set (reg/f:SI 167)
-        (symbol_ref:SI ("SMARTCARD_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f9ab99e5500 SMARTCARD_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1565:45 -1
+        (symbol_ref:SI ("SMARTCARD_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f6f581e5500 SMARTCARD_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1565:45 -1
      (nil))
 (insn 39 38 40 5 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 56 [0x38])) [6 _13->XferAbortCallback+0 S4 A32])
@@ -6143,7 +6143,7 @@ try_optimize_cfg iteration 2
                 (const_int 120 [0x78])) [19 hsmartcard_53(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1579:17 -1
      (nil))
 (insn 64 63 65 9 (set (reg/f:SI 173)
-        (symbol_ref:SI ("SMARTCARD_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f9ab99e5600 SMARTCARD_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1579:45 -1
+        (symbol_ref:SI ("SMARTCARD_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f6f581e5600 SMARTCARD_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1579:45 -1
      (nil))
 (insn 65 64 66 9 (set (mem/f:SI (plus:SI (reg/f:SI 132 [ _19 ])
                 (const_int 56 [0x38])) [6 _19->XferAbortCallback+0 S4 A32])
@@ -6259,7 +6259,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 98 97 99 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6f5842f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6403,7 +6403,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 138 137 139 18 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6f5842f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6588,7 +6588,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1664:5 -1
      (nil))
 (call_insn 190 189 191 22 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4800 HAL_SMARTCARD_AbortCpltCallback>) [0 HAL_SMARTCARD_AbortCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4800 HAL_SMARTCARD_AbortCpltCallback>) [0 HAL_SMARTCARD_AbortCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6843,7 +6843,7 @@ try_optimize_cfg iteration 2
                 (const_int 116 [0x74])) [19 hsmartcard_32(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1709:17 -1
      (nil))
 (insn 55 54 56 7 (set (reg/f:SI 156)
-        (symbol_ref:SI ("SMARTCARD_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f9ab99e5700 SMARTCARD_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1709:45 -1
+        (symbol_ref:SI ("SMARTCARD_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f6f581e5700 SMARTCARD_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1709:45 -1
      (nil))
 (insn 56 55 57 7 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 56 [0x38])) [6 _22->XferAbortCallback+0 S4 A32])
@@ -6862,7 +6862,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 60 59 61 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6f5842f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6971,7 +6971,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1735:7 -1
      (nil))
 (call_insn 88 87 89 9 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4900 HAL_SMARTCARD_AbortTransmitCpltCallback>) [0 HAL_SMARTCARD_AbortTransmitCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4900 HAL_SMARTCARD_AbortTransmitCpltCallback>) [0 HAL_SMARTCARD_AbortTransmitCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7043,7 +7043,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1759:5 -1
      (nil))
 (call_insn 108 107 109 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4900 HAL_SMARTCARD_AbortTransmitCpltCallback>) [0 HAL_SMARTCARD_AbortTransmitCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4900 HAL_SMARTCARD_AbortTransmitCpltCallback>) [0 HAL_SMARTCARD_AbortTransmitCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7310,7 +7310,7 @@ try_optimize_cfg iteration 2
                 (const_int 120 [0x78])) [19 hsmartcard_33(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1805:17 -1
      (nil))
 (insn 57 56 58 7 (set (reg/f:SI 157)
-        (symbol_ref:SI ("SMARTCARD_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f9ab99e5800 SMARTCARD_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1805:45 -1
+        (symbol_ref:SI ("SMARTCARD_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f6f581e5800 SMARTCARD_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1805:45 -1
      (nil))
 (insn 58 57 59 7 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 56 [0x38])) [6 _22->XferAbortCallback+0 S4 A32])
@@ -7329,7 +7329,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 62 61 63 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6f5842f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7452,7 +7452,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1836:7 -1
      (nil))
 (call_insn 94 93 95 9 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4a00 HAL_SMARTCARD_AbortReceiveCpltCallback>) [0 HAL_SMARTCARD_AbortReceiveCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4a00 HAL_SMARTCARD_AbortReceiveCpltCallback>) [0 HAL_SMARTCARD_AbortReceiveCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7524,7 +7524,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1862:5 -1
      (nil))
 (call_insn 114 113 115 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4a00 HAL_SMARTCARD_AbortReceiveCpltCallback>) [0 HAL_SMARTCARD_AbortReceiveCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4a00 HAL_SMARTCARD_AbortReceiveCpltCallback>) [0 HAL_SMARTCARD_AbortReceiveCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8686,7 +8686,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1974:9 -1
      (nil))
 (call_insn 253 252 254 38 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndRxTransfer") [flags 0x3]  <function_decl 0x7f9ab99e5000 SMARTCARD_EndRxTransfer>) [0 SMARTCARD_EndRxTransfer S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndRxTransfer") [flags 0x3]  <function_decl 0x7f6f581e5000 SMARTCARD_EndRxTransfer>) [0 SMARTCARD_EndRxTransfer S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8777,7 +8777,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int 120 [0x78])) [19 hsmartcard_145(D)->hdmarx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1986:23 -1
      (nil))
 (insn 275 274 276 40 (set (reg/f:SI 308)
-        (symbol_ref:SI ("SMARTCARD_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f9ab99e5400 SMARTCARD_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1986:51 -1
+        (symbol_ref:SI ("SMARTCARD_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f6f581e5400 SMARTCARD_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":1986:51 -1
      (nil))
 (insn 276 275 277 40 (set (mem/f:SI (plus:SI (reg/f:SI 184 [ _71 ])
                 (const_int 56 [0x38])) [6 _71->XferAbortCallback+0 S4 A32])
@@ -8796,7 +8796,7 @@ Forwarding edge 54->55 to 81 failed.
      (nil))
 (call_insn 280 279 281 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6f5842f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8868,7 +8868,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2002:13 -1
      (nil))
 (call_insn 298 297 299 42 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8889,7 +8889,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2013:11 -1
      (nil))
 (call_insn 304 303 307 43 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8950,7 +8950,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2026:9 -1
      (nil))
 (call_insn 322 321 323 47 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndTxTransfer") [flags 0x3]  <function_decl 0x7f9ab99e1f00 SMARTCARD_EndTxTransfer>) [0 SMARTCARD_EndTxTransfer S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndTxTransfer") [flags 0x3]  <function_decl 0x7f6f581e1f00 SMARTCARD_EndTxTransfer>) [0 SMARTCARD_EndTxTransfer S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9041,7 +9041,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int 116 [0x74])) [19 hsmartcard_145(D)->hdmatx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2038:23 -1
      (nil))
 (insn 344 343 345 49 (set (reg/f:SI 320)
-        (symbol_ref:SI ("SMARTCARD_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f9ab99e5400 SMARTCARD_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2038:51 -1
+        (symbol_ref:SI ("SMARTCARD_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f6f581e5400 SMARTCARD_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2038:51 -1
      (nil))
 (insn 345 344 346 49 (set (mem/f:SI (plus:SI (reg/f:SI 200 [ _87 ])
                 (const_int 56 [0x38])) [6 _87->XferAbortCallback+0 S4 A32])
@@ -9060,7 +9060,7 @@ Forwarding edge 54->55 to 81 failed.
      (nil))
 (call_insn 349 348 350 49 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f9ab9c2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6f5842f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9132,7 +9132,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2054:13 -1
      (nil))
 (call_insn 367 366 368 51 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9153,7 +9153,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2065:11 -1
      (nil))
 (call_insn 373 372 376 52 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9174,7 +9174,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2078:9 -1
      (nil))
 (call_insn 381 380 382 54 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9273,7 +9273,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2097:5 -1
      (nil))
 (call_insn 409 408 410 58 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9617,7 +9617,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2122:7 -1
      (nil))
 (call_insn 510 509 511 73 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndTransmit_IT") [flags 0x3]  <function_decl 0x7f9ab99e5b00 SMARTCARD_EndTransmit_IT>) [0 SMARTCARD_EndTransmit_IT S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndTransmit_IT") [flags 0x3]  <function_decl 0x7f6f581e5b00 SMARTCARD_EndTransmit_IT>) [0 SMARTCARD_EndTransmit_IT S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9678,7 +9678,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2135:5 -1
      (nil))
 (call_insn 526 525 527 76 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_SMARTCARDEx_TxFifoEmptyCallback") [flags 0x41]  <function_decl 0x7f9ab9887f00 HAL_SMARTCARDEx_TxFifoEmptyCallback>) [0 HAL_SMARTCARDEx_TxFifoEmptyCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_SMARTCARDEx_TxFifoEmptyCallback") [flags 0x41]  <function_decl 0x7f6f58087f00 HAL_SMARTCARDEx_TxFifoEmptyCallback>) [0 HAL_SMARTCARDEx_TxFifoEmptyCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9735,7 +9735,7 @@ Forwarding edge 54->55 to 81 failed.
                 (const_int -28 [0xffffffffffffffe4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2148:5 -1
      (nil))
 (call_insn 543 542 546 79 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_SMARTCARDEx_RxFifoFullCallback") [flags 0x41]  <function_decl 0x7f9ab9887e00 HAL_SMARTCARDEx_RxFifoFullCallback>) [0 HAL_SMARTCARDEx_RxFifoFullCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_SMARTCARDEx_RxFifoFullCallback") [flags 0x41]  <function_decl 0x7f6f58087e00 HAL_SMARTCARDEx_RxFifoFullCallback>) [0 HAL_SMARTCARDEx_RxFifoFullCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11292,7 +11292,7 @@ Forwarding edge 27->28 to 33 failed.
 (note 334 333 335 37 [bb 37] NOTE_INSN_BASIC_BLOCK)
 (call_insn 335 334 336 37 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f9ab9c04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f6f58404300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11313,7 +11313,7 @@ Forwarding edge 27->28 to 33 failed.
                 (const_int 44 [0x2c])) [5 hsmartcard_135(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2423:72 -1
      (nil))
 (insn 339 338 340 37 (set (reg/f:SI 333)
-        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f9ab99edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2423:55 -1
+        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f6f581edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2423:55 -1
      (nil))
 (insn 340 339 341 37 (set (reg:SI 186 [ _73 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 185 [ _72 ])
@@ -11377,7 +11377,7 @@ Forwarding edge 27->28 to 33 failed.
 (note 356 355 357 38 [bb 38] NOTE_INSN_BASIC_BLOCK)
 (call_insn 357 356 358 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f9ab9c04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f6f58404400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11398,7 +11398,7 @@ Forwarding edge 27->28 to 33 failed.
                 (const_int 44 [0x2c])) [5 hsmartcard_135(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2428:72 -1
      (nil))
 (insn 361 360 362 38 (set (reg/f:SI 338)
-        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f9ab99edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2428:55 -1
+        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f6f581edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2428:55 -1
      (nil))
 (insn 362 361 363 38 (set (reg:SI 196 [ _83 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 195 [ _82 ])
@@ -11469,7 +11469,7 @@ Forwarding edge 27->28 to 33 failed.
                 (const_int 44 [0x2c])) [5 hsmartcard_135(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2432:77 -1
      (nil))
 (insn 381 380 382 39 (set (reg/f:SI 343)
-        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f9ab99edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2432:60 -1
+        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f6f581edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2432:60 -1
      (nil))
 (insn 382 381 383 39 (set (reg:SI 206 [ _93 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 205 [ _92 ])
@@ -11532,7 +11532,7 @@ Forwarding edge 27->28 to 33 failed.
 (note 398 397 399 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
 (call_insn 399 398 400 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f9ab9c04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f6f58404100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11553,7 +11553,7 @@ Forwarding edge 27->28 to 33 failed.
                 (const_int 44 [0x2c])) [5 hsmartcard_135(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2437:72 -1
      (nil))
 (insn 403 402 404 40 (set (reg/f:SI 348)
-        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f9ab99edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2437:55 -1
+        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f6f581edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2437:55 -1
      (nil))
 (insn 404 403 405 40 (set (reg:SI 216 [ _103 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 215 [ _102 ])
@@ -11624,7 +11624,7 @@ Forwarding edge 27->28 to 33 failed.
                 (const_int 44 [0x2c])) [5 hsmartcard_135(D)->Init.ClockPrescaler+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2441:87 -1
      (nil))
 (insn 423 422 424 41 (set (reg/f:SI 353)
-        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f9ab99edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2441:70 -1
+        (symbol_ref:SI ("SMARTCARDPrescTable.0") [flags 0x2]  <var_decl 0x7f6f581edf30 SMARTCARDPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2441:70 -1
      (nil))
 (insn 424 423 425 41 (set (reg:SI 226 [ _113 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 225 [ _112 ])
@@ -12397,7 +12397,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9ab99d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6f581d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12457,7 +12457,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 24 23 25 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9ab99e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f6f581e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12546,7 +12546,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 48 47 49 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f9ab99e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMARTCARD_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f6f581e1e00 SMARTCARD_WaitOnFlagUntilTimeout>) [0 SMARTCARD_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12726,7 +12726,7 @@ try_optimize_cfg iteration 2
 (note 17 16 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f9ab99d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6f581d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13590,7 +13590,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2701:3 -1
      (nil))
 (call_insn 38 37 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13721,7 +13721,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2721:7 -1
      (nil))
 (call_insn 26 25 27 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndTxTransfer") [flags 0x3]  <function_decl 0x7f9ab99e1f00 SMARTCARD_EndTxTransfer>) [0 SMARTCARD_EndTxTransfer S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndTxTransfer") [flags 0x3]  <function_decl 0x7f6f581e1f00 SMARTCARD_EndTxTransfer>) [0 SMARTCARD_EndTxTransfer S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13799,7 +13799,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2731:7 -1
      (nil))
 (call_insn 46 45 47 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndRxTransfer") [flags 0x3]  <function_decl 0x7f9ab99e5000 SMARTCARD_EndRxTransfer>) [0 SMARTCARD_EndRxTransfer S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARD_EndRxTransfer") [flags 0x3]  <function_decl 0x7f6f581e5000 SMARTCARD_EndRxTransfer>) [0 SMARTCARD_EndRxTransfer S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13835,7 +13835,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2741:3 -1
      (nil))
 (call_insn 55 54 0 9 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13922,7 +13922,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2762:3 -1
      (nil))
 (call_insn 18 17 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f9ab98b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_ErrorCallback") [flags 0x3]  <function_decl 0x7f6f580b4700 HAL_SMARTCARD_ErrorCallback>) [0 HAL_SMARTCARD_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14133,7 +14133,7 @@ Forwarding edge 4->5 to 8 failed.
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2810:3 -1
      (nil))
 (call_insn 50 49 53 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4800 HAL_SMARTCARD_AbortCpltCallback>) [0 HAL_SMARTCARD_AbortCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4800 HAL_SMARTCARD_AbortCpltCallback>) [0 HAL_SMARTCARD_AbortCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14346,7 +14346,7 @@ Forwarding edge 4->5 to 8 failed.
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2859:3 -1
      (nil))
 (call_insn 50 49 53 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4800 HAL_SMARTCARD_AbortCpltCallback>) [0 HAL_SMARTCARD_AbortCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4800 HAL_SMARTCARD_AbortCpltCallback>) [0 HAL_SMARTCARD_AbortCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14445,7 +14445,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2889:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4900 HAL_SMARTCARD_AbortTransmitCpltCallback>) [0 HAL_SMARTCARD_AbortTransmitCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4900 HAL_SMARTCARD_AbortTransmitCpltCallback>) [0 HAL_SMARTCARD_AbortTransmitCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14542,7 +14542,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":2920:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4a00 HAL_SMARTCARD_AbortReceiveCpltCallback>) [0 HAL_SMARTCARD_AbortReceiveCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4a00 HAL_SMARTCARD_AbortReceiveCpltCallback>) [0 HAL_SMARTCARD_AbortReceiveCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16045,7 +16045,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":3041:3 -1
      (nil))
 (call_insn 155 154 0 17 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_TxCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4500 HAL_SMARTCARD_TxCpltCallback>) [0 HAL_SMARTCARD_TxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_TxCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4500 HAL_SMARTCARD_TxCpltCallback>) [0 HAL_SMARTCARD_TxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16345,7 +16345,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":3087:7 -1
      (nil))
 (call_insn 76 75 77 7 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16712,7 +16712,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":3145:9 -1
      (nil))
 (call_insn 82 81 83 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f9ab98b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMARTCARD_RxCpltCallback") [flags 0x3]  <function_decl 0x7f6f580b4600 HAL_SMARTCARD_RxCpltCallback>) [0 HAL_SMARTCARD_RxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16839,7 +16839,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [22 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":3161:25 -1
      (nil))
 (insn 117 116 118 13 (set (reg/f:SI 190)
-        (symbol_ref:SI ("SMARTCARD_RxISR") [flags 0x3]  <function_decl 0x7f9ab99e5c00 SMARTCARD_RxISR>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":3161:25 -1
+        (symbol_ref:SI ("SMARTCARD_RxISR") [flags 0x3]  <function_decl 0x7f6f581e5c00 SMARTCARD_RxISR>)) "lib/HAL/Src/stm32g4xx_hal_smartcard.c":3161:25 -1
      (nil))
 (insn 118 117 119 13 (set (mem/f:SI (plus:SI (reg/f:SI 189)
                 (const_int 108 [0x6c])) [18 hsmartcard_45(D)->RxISR+0 S4 A32])

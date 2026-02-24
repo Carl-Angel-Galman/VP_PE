@@ -311,7 +311,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hopamp+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_opamp.c":365:5 -1
      (nil))
 (call_insn 78 77 79 15 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_OPAMP_MspInit") [flags 0x3]  <function_decl 0x7ff5079ba000 HAL_OPAMP_MspInit>) [0 HAL_OPAMP_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_OPAMP_MspInit") [flags 0x3]  <function_decl 0x7f8b5efba000 HAL_OPAMP_MspInit>) [0 HAL_OPAMP_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1071,7 +1071,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hopamp+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_opamp.c":487:5 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_OPAMP_MspDeInit") [flags 0x3]  <function_decl 0x7ff5079ba100 HAL_OPAMP_MspDeInit>) [0 HAL_OPAMP_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_OPAMP_MspDeInit") [flags 0x3]  <function_decl 0x7f8b5efba100 HAL_OPAMP_MspDeInit>) [0 HAL_OPAMP_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2101,7 +2101,7 @@ try_optimize_cfg iteration 2
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_opamp.c":722:9 -1
      (nil))
 (call_insn 94 93 95 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7ff5077d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f8b5edd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2247,7 +2247,7 @@ try_optimize_cfg iteration 2
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_opamp.c":745:7 -1
      (nil))
 (call_insn 137 136 138 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7ff5077d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f8b5edd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2421,7 +2421,7 @@ try_optimize_cfg iteration 2
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_opamp.c":772:9 -1
      (nil))
 (call_insn 186 185 187 17 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7ff5077d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f8b5edd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2567,7 +2567,7 @@ try_optimize_cfg iteration 2
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_opamp.c":795:7 -1
      (nil))
 (call_insn 229 228 230 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7ff5077d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f8b5edd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
