@@ -123,18 +123,18 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[])
 	}
 	uint8_t  *dst = &_sauth;
     const uint8_t  *src = &_sloadauth;
-    size_t len = (size_t)(&_eauth - &_sauth);
+    size_t section_len = (size_t)(&_eauth - &_sauth);
 
     key_len = (int32_t)strlen(key);   // <-- add this (or make it const)
 
-    memcpy(dst, src, len);
-//
-//    for (size_t i = 0; i < len; i++)
-//	{
-//		dst[i] ^= key[i % key_len];
-//	}
+    memcpy(dst, src, section_len);
 
-    //__DSB();__ISB();
+    for (size_t i = 0; i < section_len; i++)
+	{
+		dst[i] ^= key[i % key_len];
+	}
+
+    __DSB();__ISB();
 
     return AUTH_ERR_OK;
 }

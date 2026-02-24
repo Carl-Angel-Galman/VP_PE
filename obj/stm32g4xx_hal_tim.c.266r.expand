@@ -108,7 +108,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":306:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Base_MspInit") [flags 0x3]  <function_decl 0x7ff654f5f800 HAL_TIM_Base_MspInit>) [0 HAL_TIM_Base_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Base_MspInit") [flags 0x3]  <function_decl 0x7fb782b5f800 HAL_TIM_Base_MspInit>) [0 HAL_TIM_Base_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -155,7 +155,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":314:3 -1
      (nil))
 (call_insn 40 39 41 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -498,7 +498,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":353:3 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Base_MspDeInit") [flags 0x3]  <function_decl 0x7ff654f5f900 HAL_TIM_Base_MspDeInit>) [0 HAL_TIM_Base_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Base_MspDeInit") [flags 0x3]  <function_decl 0x7fb782b5f900 HAL_TIM_Base_MspDeInit>) [0 HAL_TIM_Base_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2199,7 +2199,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_40(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":563:13 -1
      (nil))
 (insn 57 56 58 11 (set (reg/f:SI 164)
-        (symbol_ref:SI ("TIM_DMAPeriodElapsedCplt") [flags 0x3]  <function_decl 0x7ff654fe4600 TIM_DMAPeriodElapsedCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":563:51 -1
+        (symbol_ref:SI ("TIM_DMAPeriodElapsedCplt") [flags 0x3]  <function_decl 0x7fb782be4600 TIM_DMAPeriodElapsedCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":563:51 -1
      (nil))
 (insn 58 57 59 11 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [7 _3->XferCpltCallback+0 S4 A32])
@@ -2214,7 +2214,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_40(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":564:13 -1
      (nil))
 (insn 61 60 62 11 (set (reg/f:SI 166)
-        (symbol_ref:SI ("TIM_DMAPeriodElapsedHalfCplt") [flags 0x3]  <function_decl 0x7ff654fe4700 TIM_DMAPeriodElapsedHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":564:55 -1
+        (symbol_ref:SI ("TIM_DMAPeriodElapsedHalfCplt") [flags 0x3]  <function_decl 0x7fb782be4700 TIM_DMAPeriodElapsedHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":564:55 -1
      (nil))
 (insn 62 61 63 11 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 48 [0x30])) [7 _4->XferHalfCpltCallback+0 S4 A32])
@@ -2229,7 +2229,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_40(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":567:13 -1
      (nil))
 (insn 65 64 66 11 (set (reg/f:SI 168)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":567:52 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":567:52 -1
      (nil))
 (insn 66 65 67 11 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [7 _5->XferErrorCallback+0 S4 A32])
@@ -2279,7 +2279,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 79 78 80 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2727,7 +2727,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2961,7 +2961,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":688:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_MspInit") [flags 0x3]  <function_decl 0x7ff654f62200 HAL_TIM_OC_MspInit>) [0 HAL_TIM_OC_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_MspInit") [flags 0x3]  <function_decl 0x7fb782b62200 HAL_TIM_OC_MspInit>) [0 HAL_TIM_OC_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3008,7 +3008,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":696:3 -1
      (nil))
 (call_insn 40 39 41 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3351,7 +3351,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":735:3 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_MspDeInit") [flags 0x3]  <function_decl 0x7ff654f62300 HAL_TIM_OC_MspDeInit>) [0 HAL_TIM_OC_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_MspDeInit") [flags 0x3]  <function_decl 0x7fb782b62300 HAL_TIM_OC_MspDeInit>) [0 HAL_TIM_OC_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4330,7 +4330,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 120 [ _7 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":814:3 -1
      (nil))
 (call_insn 202 201 203 35 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4964,7 +4964,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":859:3 -1
      (nil))
 (call_insn 12 11 13 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6444,7 +6444,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 136 [ _23 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":939:3 -1
      (nil))
 (call_insn 255 254 256 41 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7260,7 +7260,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 130 [ _17 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1016:3 -1
      (nil))
 (call_insn 65 64 66 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9030,7 +9030,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_126(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1080:17 -1
      (nil))
 (insn 335 334 336 56 (set (reg/f:SI 317)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1080:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1080:52 -1
      (nil))
 (insn 336 335 337 56 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 44 [0x2c])) [7 _13->XferCpltCallback+0 S4 A32])
@@ -9045,7 +9045,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_126(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1081:17 -1
      (nil))
 (insn 339 338 340 56 (set (reg/f:SI 319)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1081:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1081:56 -1
      (nil))
 (insn 340 339 341 56 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 48 [0x30])) [7 _14->XferHalfCpltCallback+0 S4 A32])
@@ -9060,7 +9060,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_126(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1084:17 -1
      (nil))
 (insn 343 342 344 56 (set (reg/f:SI 321)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1084:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1084:53 -1
      (nil))
 (insn 344 343 345 56 (set (mem/f:SI (plus:SI (reg/f:SI 128 [ _15 ])
                 (const_int 52 [0x34])) [7 _15->XferErrorCallback+0 S4 A32])
@@ -9110,7 +9110,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 357 356 358 56 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9192,7 +9192,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_126(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1101:17 -1
      (nil))
 (insn 381 380 382 59 (set (reg/f:SI 328)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1101:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1101:52 -1
      (nil))
 (insn 382 381 383 59 (set (mem/f:SI (plus:SI (reg/f:SI 140 [ _27 ])
                 (const_int 44 [0x2c])) [7 _27->XferCpltCallback+0 S4 A32])
@@ -9207,7 +9207,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_126(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1102:17 -1
      (nil))
 (insn 385 384 386 59 (set (reg/f:SI 330)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1102:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1102:56 -1
      (nil))
 (insn 386 385 387 59 (set (mem/f:SI (plus:SI (reg/f:SI 141 [ _28 ])
                 (const_int 48 [0x30])) [7 _28->XferHalfCpltCallback+0 S4 A32])
@@ -9222,7 +9222,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_126(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1105:17 -1
      (nil))
 (insn 389 388 390 59 (set (reg/f:SI 332)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1105:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1105:53 -1
      (nil))
 (insn 390 389 391 59 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 52 [0x34])) [7 _29->XferErrorCallback+0 S4 A32])
@@ -9272,7 +9272,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 403 402 404 59 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9354,7 +9354,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_126(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1122:17 -1
      (nil))
 (insn 427 426 428 62 (set (reg/f:SI 339)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1122:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1122:52 -1
      (nil))
 (insn 428 427 429 62 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 44 [0x2c])) [7 _41->XferCpltCallback+0 S4 A32])
@@ -9369,7 +9369,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_126(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1123:17 -1
      (nil))
 (insn 431 430 432 62 (set (reg/f:SI 341)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1123:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1123:56 -1
      (nil))
 (insn 432 431 433 62 (set (mem/f:SI (plus:SI (reg/f:SI 155 [ _42 ])
                 (const_int 48 [0x30])) [7 _42->XferHalfCpltCallback+0 S4 A32])
@@ -9384,7 +9384,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_126(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1126:17 -1
      (nil))
 (insn 435 434 436 62 (set (reg/f:SI 343)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1126:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1126:53 -1
      (nil))
 (insn 436 435 437 62 (set (mem/f:SI (plus:SI (reg/f:SI 156 [ _43 ])
                 (const_int 52 [0x34])) [7 _43->XferErrorCallback+0 S4 A32])
@@ -9434,7 +9434,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 449 448 450 62 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9516,7 +9516,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_126(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1142:17 -1
      (nil))
 (insn 473 472 474 65 (set (reg/f:SI 350)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1142:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1142:52 -1
      (nil))
 (insn 474 473 475 65 (set (mem/f:SI (plus:SI (reg/f:SI 168 [ _55 ])
                 (const_int 44 [0x2c])) [7 _55->XferCpltCallback+0 S4 A32])
@@ -9531,7 +9531,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_126(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1143:17 -1
      (nil))
 (insn 477 476 478 65 (set (reg/f:SI 352)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1143:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1143:56 -1
      (nil))
 (insn 478 477 479 65 (set (mem/f:SI (plus:SI (reg/f:SI 169 [ _56 ])
                 (const_int 48 [0x30])) [7 _56->XferHalfCpltCallback+0 S4 A32])
@@ -9546,7 +9546,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_126(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1146:17 -1
      (nil))
 (insn 481 480 482 65 (set (reg/f:SI 354)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1146:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1146:53 -1
      (nil))
 (insn 482 481 483 65 (set (mem/f:SI (plus:SI (reg/f:SI 170 [ _57 ])
                 (const_int 52 [0x34])) [7 _57->XferErrorCallback+0 S4 A32])
@@ -9596,7 +9596,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 495 494 496 65 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9682,7 +9682,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 182 [ _69 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1164:3 -1
      (nil))
 (call_insn 524 523 525 69 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10392,7 +10392,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 24 23 25 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10447,7 +10447,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10502,7 +10502,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 54 53 55 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10557,7 +10557,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 74 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10586,7 +10586,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 134 [ _21 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1245:3 -1
      (nil))
 (call_insn 81 80 82 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11279,7 +11279,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1329:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_MspInit") [flags 0x3]  <function_decl 0x7ff654f62c00 HAL_TIM_PWM_MspInit>) [0 HAL_TIM_PWM_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_MspInit") [flags 0x3]  <function_decl 0x7fb782b62c00 HAL_TIM_PWM_MspInit>) [0 HAL_TIM_PWM_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11326,7 +11326,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1337:3 -1
      (nil))
 (call_insn 40 39 41 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11669,7 +11669,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1376:3 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_MspDeInit") [flags 0x3]  <function_decl 0x7ff654f62d00 HAL_TIM_PWM_MspDeInit>) [0 HAL_TIM_PWM_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_MspDeInit") [flags 0x3]  <function_decl 0x7fb782b62d00 HAL_TIM_PWM_MspDeInit>) [0 HAL_TIM_PWM_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12648,7 +12648,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 120 [ _7 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1455:3 -1
      (nil))
 (call_insn 202 201 203 35 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13282,7 +13282,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1500:3 -1
      (nil))
 (call_insn 12 11 13 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14762,7 +14762,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 136 [ _23 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1579:3 -1
      (nil))
 (call_insn 255 254 256 41 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15578,7 +15578,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 130 [ _17 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1656:3 -1
      (nil))
 (call_insn 65 64 66 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17348,7 +17348,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_126(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1720:17 -1
      (nil))
 (insn 335 334 336 56 (set (reg/f:SI 317)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1720:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1720:52 -1
      (nil))
 (insn 336 335 337 56 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 44 [0x2c])) [7 _13->XferCpltCallback+0 S4 A32])
@@ -17363,7 +17363,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_126(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1721:17 -1
      (nil))
 (insn 339 338 340 56 (set (reg/f:SI 319)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1721:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1721:56 -1
      (nil))
 (insn 340 339 341 56 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 48 [0x30])) [7 _14->XferHalfCpltCallback+0 S4 A32])
@@ -17378,7 +17378,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_126(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1724:17 -1
      (nil))
 (insn 343 342 344 56 (set (reg/f:SI 321)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1724:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1724:53 -1
      (nil))
 (insn 344 343 345 56 (set (mem/f:SI (plus:SI (reg/f:SI 128 [ _15 ])
                 (const_int 52 [0x34])) [7 _15->XferErrorCallback+0 S4 A32])
@@ -17428,7 +17428,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 357 356 358 56 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17510,7 +17510,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_126(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1741:17 -1
      (nil))
 (insn 381 380 382 59 (set (reg/f:SI 328)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1741:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1741:52 -1
      (nil))
 (insn 382 381 383 59 (set (mem/f:SI (plus:SI (reg/f:SI 140 [ _27 ])
                 (const_int 44 [0x2c])) [7 _27->XferCpltCallback+0 S4 A32])
@@ -17525,7 +17525,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_126(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1742:17 -1
      (nil))
 (insn 385 384 386 59 (set (reg/f:SI 330)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1742:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1742:56 -1
      (nil))
 (insn 386 385 387 59 (set (mem/f:SI (plus:SI (reg/f:SI 141 [ _28 ])
                 (const_int 48 [0x30])) [7 _28->XferHalfCpltCallback+0 S4 A32])
@@ -17540,7 +17540,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_126(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1745:17 -1
      (nil))
 (insn 389 388 390 59 (set (reg/f:SI 332)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1745:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1745:53 -1
      (nil))
 (insn 390 389 391 59 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 52 [0x34])) [7 _29->XferErrorCallback+0 S4 A32])
@@ -17590,7 +17590,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 403 402 404 59 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17672,7 +17672,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_126(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1761:17 -1
      (nil))
 (insn 427 426 428 62 (set (reg/f:SI 339)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1761:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1761:52 -1
      (nil))
 (insn 428 427 429 62 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 44 [0x2c])) [7 _41->XferCpltCallback+0 S4 A32])
@@ -17687,7 +17687,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_126(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1762:17 -1
      (nil))
 (insn 431 430 432 62 (set (reg/f:SI 341)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1762:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1762:56 -1
      (nil))
 (insn 432 431 433 62 (set (mem/f:SI (plus:SI (reg/f:SI 155 [ _42 ])
                 (const_int 48 [0x30])) [7 _42->XferHalfCpltCallback+0 S4 A32])
@@ -17702,7 +17702,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_126(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1765:17 -1
      (nil))
 (insn 435 434 436 62 (set (reg/f:SI 343)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1765:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1765:53 -1
      (nil))
 (insn 436 435 437 62 (set (mem/f:SI (plus:SI (reg/f:SI 156 [ _43 ])
                 (const_int 52 [0x34])) [7 _43->XferErrorCallback+0 S4 A32])
@@ -17752,7 +17752,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 449 448 450 62 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17834,7 +17834,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_126(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1781:17 -1
      (nil))
 (insn 473 472 474 65 (set (reg/f:SI 350)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1781:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1781:52 -1
      (nil))
 (insn 474 473 475 65 (set (mem/f:SI (plus:SI (reg/f:SI 168 [ _55 ])
                 (const_int 44 [0x2c])) [7 _55->XferCpltCallback+0 S4 A32])
@@ -17849,7 +17849,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_126(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1782:17 -1
      (nil))
 (insn 477 476 478 65 (set (reg/f:SI 352)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1782:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1782:56 -1
      (nil))
 (insn 478 477 479 65 (set (mem/f:SI (plus:SI (reg/f:SI 169 [ _56 ])
                 (const_int 48 [0x30])) [7 _56->XferHalfCpltCallback+0 S4 A32])
@@ -17864,7 +17864,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_126(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1785:17 -1
      (nil))
 (insn 481 480 482 65 (set (reg/f:SI 354)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1785:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":1785:53 -1
      (nil))
 (insn 482 481 483 65 (set (mem/f:SI (plus:SI (reg/f:SI 170 [ _57 ])
                 (const_int 52 [0x34])) [7 _57->XferErrorCallback+0 S4 A32])
@@ -17914,7 +17914,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 495 494 496 65 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18000,7 +18000,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 182 [ _69 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1803:3 -1
      (nil))
 (call_insn 524 523 525 69 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18710,7 +18710,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 24 23 25 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18765,7 +18765,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18820,7 +18820,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 54 53 55 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18875,7 +18875,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 74 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18904,7 +18904,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 134 [ _21 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1884:3 -1
      (nil))
 (call_insn 81 80 82 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19597,7 +19597,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1968:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_MspInit") [flags 0x3]  <function_decl 0x7ff654f64600 HAL_TIM_IC_MspInit>) [0 HAL_TIM_IC_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_MspInit") [flags 0x3]  <function_decl 0x7fb782b64600 HAL_TIM_IC_MspInit>) [0 HAL_TIM_IC_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19644,7 +19644,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":1976:3 -1
      (nil))
 (call_insn 40 39 41 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19987,7 +19987,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2015:3 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_MspDeInit") [flags 0x3]  <function_decl 0x7ff654f64700 HAL_TIM_IC_MspDeInit>) [0 HAL_TIM_IC_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_MspDeInit") [flags 0x3]  <function_decl 0x7fb782b64700 HAL_TIM_IC_MspDeInit>) [0 HAL_TIM_IC_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21207,7 +21207,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2096:3 -1
      (nil))
 (call_insn 286 285 287 54 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21655,7 +21655,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2133:3 -1
      (nil))
 (call_insn 12 11 13 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23263,7 +23263,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 130 [ _17 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2211:3 -1
      (nil))
 (call_insn 339 338 340 60 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23893,7 +23893,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 130 [ _17 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2282:3 -1
      (nil))
 (call_insn 65 64 66 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25502,7 +25502,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_105(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2347:17 -1
      (nil))
 (insn 324 323 325 62 (set (reg/f:SI 285)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2347:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2347:52 -1
      (nil))
 (insn 325 324 326 62 (set (mem/f:SI (plus:SI (reg/f:SI 114 [ _1 ])
                 (const_int 44 [0x2c])) [7 _1->XferCpltCallback+0 S4 A32])
@@ -25517,7 +25517,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_105(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2348:17 -1
      (nil))
 (insn 328 327 329 62 (set (reg/f:SI 287)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2348:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2348:56 -1
      (nil))
 (insn 329 328 330 62 (set (mem/f:SI (plus:SI (reg/f:SI 115 [ _2 ])
                 (const_int 48 [0x30])) [7 _2->XferHalfCpltCallback+0 S4 A32])
@@ -25532,7 +25532,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_105(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2351:17 -1
      (nil))
 (insn 332 331 333 62 (set (reg/f:SI 289)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2351:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2351:53 -1
      (nil))
 (insn 333 332 334 62 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 52 [0x34])) [7 _3->XferErrorCallback+0 S4 A32])
@@ -25582,7 +25582,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 346 345 347 62 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25664,7 +25664,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_105(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2367:17 -1
      (nil))
 (insn 370 369 371 65 (set (reg/f:SI 296)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2367:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2367:52 -1
      (nil))
 (insn 371 370 372 65 (set (mem/f:SI (plus:SI (reg/f:SI 128 [ _15 ])
                 (const_int 44 [0x2c])) [7 _15->XferCpltCallback+0 S4 A32])
@@ -25679,7 +25679,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_105(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2368:17 -1
      (nil))
 (insn 374 373 375 65 (set (reg/f:SI 298)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2368:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2368:56 -1
      (nil))
 (insn 375 374 376 65 (set (mem/f:SI (plus:SI (reg/f:SI 129 [ _16 ])
                 (const_int 48 [0x30])) [7 _16->XferHalfCpltCallback+0 S4 A32])
@@ -25694,7 +25694,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_105(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2371:17 -1
      (nil))
 (insn 378 377 379 65 (set (reg/f:SI 300)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2371:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2371:53 -1
      (nil))
 (insn 379 378 380 65 (set (mem/f:SI (plus:SI (reg/f:SI 130 [ _17 ])
                 (const_int 52 [0x34])) [7 _17->XferErrorCallback+0 S4 A32])
@@ -25744,7 +25744,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 392 391 393 65 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25826,7 +25826,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_105(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2387:17 -1
      (nil))
 (insn 416 415 417 68 (set (reg/f:SI 307)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2387:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2387:52 -1
      (nil))
 (insn 417 416 418 68 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 44 [0x2c])) [7 _29->XferCpltCallback+0 S4 A32])
@@ -25841,7 +25841,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_105(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2388:17 -1
      (nil))
 (insn 420 419 421 68 (set (reg/f:SI 309)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2388:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2388:56 -1
      (nil))
 (insn 421 420 422 68 (set (mem/f:SI (plus:SI (reg/f:SI 143 [ _30 ])
                 (const_int 48 [0x30])) [7 _30->XferHalfCpltCallback+0 S4 A32])
@@ -25856,7 +25856,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_105(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2391:17 -1
      (nil))
 (insn 424 423 425 68 (set (reg/f:SI 311)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2391:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2391:53 -1
      (nil))
 (insn 425 424 426 68 (set (mem/f:SI (plus:SI (reg/f:SI 144 [ _31 ])
                 (const_int 52 [0x34])) [7 _31->XferErrorCallback+0 S4 A32])
@@ -25906,7 +25906,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 438 437 439 68 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25988,7 +25988,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_105(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2407:17 -1
      (nil))
 (insn 462 461 463 71 (set (reg/f:SI 318)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2407:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2407:52 -1
      (nil))
 (insn 463 462 464 71 (set (mem/f:SI (plus:SI (reg/f:SI 156 [ _43 ])
                 (const_int 44 [0x2c])) [7 _43->XferCpltCallback+0 S4 A32])
@@ -26003,7 +26003,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_105(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2408:17 -1
      (nil))
 (insn 466 465 467 71 (set (reg/f:SI 320)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2408:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2408:56 -1
      (nil))
 (insn 467 466 468 71 (set (mem/f:SI (plus:SI (reg/f:SI 157 [ _44 ])
                 (const_int 48 [0x30])) [7 _44->XferHalfCpltCallback+0 S4 A32])
@@ -26018,7 +26018,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_105(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2411:17 -1
      (nil))
 (insn 470 469 471 71 (set (reg/f:SI 322)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2411:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":2411:53 -1
      (nil))
 (insn 471 470 472 71 (set (mem/f:SI (plus:SI (reg/f:SI 158 [ _45 ])
                 (const_int 52 [0x34])) [7 _45->XferErrorCallback+0 S4 A32])
@@ -26068,7 +26068,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 484 483 485 71 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26154,7 +26154,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 170 [ _57 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2429:3 -1
      (nil))
 (call_insn 513 512 514 75 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26617,7 +26617,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2467:3 -1
      (nil))
 (call_insn 12 11 13 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26707,7 +26707,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 30 29 31 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26762,7 +26762,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 45 44 46 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26817,7 +26817,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 60 59 61 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26872,7 +26872,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 75 74 80 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27456,7 +27456,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2591:5 -1
      (nil))
 (call_insn 28 27 29 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OnePulse_MspInit") [flags 0x3]  <function_decl 0x7ff654f67000 HAL_TIM_OnePulse_MspInit>) [0 HAL_TIM_OnePulse_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OnePulse_MspInit") [flags 0x3]  <function_decl 0x7fb782b67000 HAL_TIM_OnePulse_MspInit>) [0 HAL_TIM_OnePulse_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27503,7 +27503,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2599:3 -1
      (nil))
 (call_insn 41 40 42 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -27814,7 +27814,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2646:3 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OnePulse_MspDeInit") [flags 0x3]  <function_decl 0x7ff654f67100 HAL_TIM_OnePulse_MspDeInit>) [0 HAL_TIM_OnePulse_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OnePulse_MspDeInit") [flags 0x3]  <function_decl 0x7fb782b67100 HAL_TIM_OnePulse_MspDeInit>) [0 HAL_TIM_OnePulse_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28258,7 +28258,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2741:3 -1
      (nil))
 (call_insn 62 61 63 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28286,7 +28286,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2742:3 -1
      (nil))
 (call_insn 68 67 69 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28586,7 +28586,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2775:3 -1
      (nil))
 (call_insn 12 11 13 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -28614,7 +28614,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2776:3 -1
      (nil))
 (call_insn 18 17 19 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29350,7 +29350,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 122 [ _9 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2847:3 -1
      (nil))
 (call_insn 76 75 77 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29378,7 +29378,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 123 [ _10 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2848:3 -1
      (nil))
 (call_insn 82 81 83 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29730,7 +29730,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 122 [ _9 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2886:3 -1
      (nil))
 (call_insn 26 25 27 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -29758,7 +29758,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 123 [ _10 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2887:3 -1
      (nil))
 (call_insn 32 31 33 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30292,7 +30292,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":2993:5 -1
      (nil))
 (call_insn 28 27 29 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Encoder_MspInit") [flags 0x3]  <function_decl 0x7ff654f67800 HAL_TIM_Encoder_MspInit>) [0 HAL_TIM_Encoder_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Encoder_MspInit") [flags 0x3]  <function_decl 0x7fb782b67800 HAL_TIM_Encoder_MspInit>) [0 HAL_TIM_Encoder_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30371,7 +30371,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 119 [ _6 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3004:3 -1
      (nil))
 (call_insn 49 48 50 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_Base_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73500 TIM_Base_SetConfig>) [0 TIM_Base_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -30965,7 +30965,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3082:3 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Encoder_MspDeInit") [flags 0x3]  <function_decl 0x7ff654f67900 HAL_TIM_Encoder_MspDeInit>) [0 HAL_TIM_Encoder_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_Encoder_MspDeInit") [flags 0x3]  <function_decl 0x7fb782b67900 HAL_TIM_Encoder_MspDeInit>) [0 HAL_TIM_Encoder_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31652,7 +31652,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3203:7 -1
      (nil))
 (call_insn 136 135 137 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31687,7 +31687,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3209:7 -1
      (nil))
 (call_insn 146 145 147 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31722,7 +31722,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 116 [ _3 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3215:7 -1
      (nil))
 (call_insn 156 155 157 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31750,7 +31750,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 117 [ _4 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3216:7 -1
      (nil))
 (call_insn 162 161 163 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -31999,7 +31999,7 @@ Forwarding edge 4->5 to 8 failed.
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3248:7 -1
      (nil))
 (call_insn 24 23 25 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32034,7 +32034,7 @@ Forwarding edge 4->5 to 8 failed.
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3254:7 -1
      (nil))
 (call_insn 34 33 35 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32069,7 +32069,7 @@ Forwarding edge 4->5 to 8 failed.
         (reg/f:SI 116 [ _3 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3260:7 -1
      (nil))
 (call_insn 44 43 45 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -32097,7 +32097,7 @@ Forwarding edge 4->5 to 8 failed.
         (reg/f:SI 117 [ _4 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3261:7 -1
      (nil))
 (call_insn 50 49 51 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33172,7 +33172,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3358:7 -1
      (nil))
 (call_insn 136 135 137 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33233,7 +33233,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 119 [ _6 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3365:7 -1
      (nil))
 (call_insn 153 152 154 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33294,7 +33294,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 124 [ _11 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3372:7 -1
      (nil))
 (call_insn 170 169 171 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33322,7 +33322,7 @@ Forwarding edge 20->21 to 24 failed.
         (reg/f:SI 125 [ _12 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3373:7 -1
      (nil))
 (call_insn 176 175 177 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33598,7 +33598,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3406:5 -1
      (nil))
 (call_insn 16 15 17 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33675,7 +33675,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 119 [ _6 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3413:5 -1
      (nil))
 (call_insn 37 36 38 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33736,7 +33736,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 124 [ _11 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3420:5 -1
      (nil))
 (call_insn 54 53 55 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -33764,7 +33764,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 125 [ _12 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3421:5 -1
      (nil))
 (call_insn 60 59 61 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35301,7 +35301,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_78(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3561:17 -1
      (nil))
 (insn 246 245 247 47 (set (reg/f:SI 250)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3561:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3561:52 -1
      (nil))
 (insn 247 246 248 47 (set (mem/f:SI (plus:SI (reg/f:SI 114 [ _1 ])
                 (const_int 44 [0x2c])) [7 _1->XferCpltCallback+0 S4 A32])
@@ -35316,7 +35316,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_78(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3562:17 -1
      (nil))
 (insn 250 249 251 47 (set (reg/f:SI 252)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3562:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3562:56 -1
      (nil))
 (insn 251 250 252 47 (set (mem/f:SI (plus:SI (reg/f:SI 115 [ _2 ])
                 (const_int 48 [0x30])) [7 _2->XferHalfCpltCallback+0 S4 A32])
@@ -35331,7 +35331,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_78(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3565:17 -1
      (nil))
 (insn 254 253 255 47 (set (reg/f:SI 254)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3565:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3565:53 -1
      (nil))
 (insn 255 254 256 47 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 52 [0x34])) [7 _3->XferErrorCallback+0 S4 A32])
@@ -35380,7 +35380,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 268 267 269 47 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35487,7 +35487,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 132 [ _19 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3580:7 -1
      (nil))
 (call_insn 298 297 299 49 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35514,7 +35514,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_78(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3587:17 -1
      (nil))
 (insn 305 304 306 50 (set (reg/f:SI 264)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3587:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3587:52 -1
      (nil))
 (insn 306 305 307 50 (set (mem/f:SI (plus:SI (reg/f:SI 133 [ _20 ])
                 (const_int 44 [0x2c])) [7 _20->XferCpltCallback+0 S4 A32])
@@ -35529,7 +35529,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_78(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3588:17 -1
      (nil))
 (insn 309 308 310 50 (set (reg/f:SI 266)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3588:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3588:56 -1
      (nil))
 (insn 310 309 311 50 (set (mem/f:SI (plus:SI (reg/f:SI 134 [ _21 ])
                 (const_int 48 [0x30])) [7 _21->XferHalfCpltCallback+0 S4 A32])
@@ -35544,7 +35544,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_78(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3591:17 -1
      (nil))
 (insn 313 312 314 50 (set (reg/f:SI 268)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3591:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3591:53 -1
      (nil))
 (insn 314 313 315 50 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 52 [0x34])) [7 _22->XferErrorCallback+0 S4 A32])
@@ -35593,7 +35593,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 327 326 328 50 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35700,7 +35700,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 151 [ _38 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3605:7 -1
      (nil))
 (call_insn 357 356 358 52 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35727,7 +35727,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_78(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3612:17 -1
      (nil))
 (insn 364 363 365 53 (set (reg/f:SI 278)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3612:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3612:52 -1
      (nil))
 (insn 365 364 366 53 (set (mem/f:SI (plus:SI (reg/f:SI 152 [ _39 ])
                 (const_int 44 [0x2c])) [7 _39->XferCpltCallback+0 S4 A32])
@@ -35742,7 +35742,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_78(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3613:17 -1
      (nil))
 (insn 368 367 369 53 (set (reg/f:SI 280)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3613:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3613:56 -1
      (nil))
 (insn 369 368 370 53 (set (mem/f:SI (plus:SI (reg/f:SI 153 [ _40 ])
                 (const_int 48 [0x30])) [7 _40->XferHalfCpltCallback+0 S4 A32])
@@ -35757,7 +35757,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_78(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3616:17 -1
      (nil))
 (insn 372 371 373 53 (set (reg/f:SI 282)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3616:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3616:53 -1
      (nil))
 (insn 373 372 374 53 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 52 [0x34])) [7 _41->XferErrorCallback+0 S4 A32])
@@ -35806,7 +35806,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 386 385 387 53 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -35855,7 +35855,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_78(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3626:17 -1
      (nil))
 (insn 399 398 400 55 (set (reg/f:SI 287)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3626:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3626:52 -1
      (nil))
 (insn 400 399 401 55 (set (mem/f:SI (plus:SI (reg/f:SI 162 [ _49 ])
                 (const_int 44 [0x2c])) [7 _49->XferCpltCallback+0 S4 A32])
@@ -35870,7 +35870,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_78(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3627:17 -1
      (nil))
 (insn 403 402 404 55 (set (reg/f:SI 289)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3627:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3627:56 -1
      (nil))
 (insn 404 403 405 55 (set (mem/f:SI (plus:SI (reg/f:SI 163 [ _50 ])
                 (const_int 48 [0x30])) [7 _50->XferHalfCpltCallback+0 S4 A32])
@@ -35885,7 +35885,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_78(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3630:17 -1
      (nil))
 (insn 407 406 408 55 (set (reg/f:SI 291)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3630:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":3630:53 -1
      (nil))
 (insn 408 407 409 55 (set (mem/f:SI (plus:SI (reg/f:SI 164 [ _51 ])
                 (const_int 52 [0x34])) [7 _51->XferErrorCallback+0 S4 A32])
@@ -35934,7 +35934,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 421 420 422 55 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36015,7 +36015,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 176 [ _63 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3642:7 -1
      (nil))
 (call_insn 444 443 445 57 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36043,7 +36043,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 177 [ _64 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3643:7 -1
      (nil))
 (call_insn 450 449 451 57 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36295,7 +36295,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 114 [ _1 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3679:5 -1
      (nil))
 (call_insn 16 15 17 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36345,7 +36345,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36394,7 +36394,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 120 [ _7 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3687:5 -1
      (nil))
 (call_insn 41 40 42 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36444,7 +36444,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 52 51 53 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36477,7 +36477,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 126 [ _13 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3695:5 -1
      (nil))
 (call_insn 62 61 63 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36505,7 +36505,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 127 [ _14 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3696:5 -1
      (nil))
 (call_insn 68 67 69 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7ff654f73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_CCxChannelCmd") [flags 0x3]  <function_decl 0x7fb782b73d00 TIM_CCxChannelCmd>) [0 TIM_CCxChannelCmd S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36581,7 +36581,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 86 85 87 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -36603,7 +36603,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 90 89 91 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37418,7 +37418,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3764:11 -1
      (nil))
 (call_insn 36 35 37 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7ff654f72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7fb782b72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37439,7 +37439,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3774:11 -1
      (nil))
 (call_insn 42 41 43 7 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7ff654f72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7fb782b72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37453,7 +37453,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3775:11 -1
      (nil))
 (call_insn 44 43 45 7 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7ff654f72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7fb782b72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37594,7 +37594,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3795:9 -1
      (nil))
 (call_insn 83 82 84 12 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7ff654f72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7fb782b72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37615,7 +37615,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3805:9 -1
      (nil))
 (call_insn 89 88 90 13 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7ff654f72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7fb782b72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37629,7 +37629,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3806:9 -1
      (nil))
 (call_insn 91 90 92 13 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7ff654f72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7fb782b72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37770,7 +37770,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3825:9 -1
      (nil))
 (call_insn 130 129 131 18 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7ff654f72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7fb782b72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37791,7 +37791,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3835:9 -1
      (nil))
 (call_insn 136 135 137 19 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7ff654f72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7fb782b72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37805,7 +37805,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3836:9 -1
      (nil))
 (call_insn 138 137 139 19 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7ff654f72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7fb782b72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37946,7 +37946,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3855:9 -1
      (nil))
 (call_insn 177 176 178 24 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7ff654f72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7fb782b72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37967,7 +37967,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3865:9 -1
      (nil))
 (call_insn 183 182 184 25 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7ff654f72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_OC_DelayElapsedCallback") [flags 0x3]  <function_decl 0x7fb782b72400 HAL_TIM_OC_DelayElapsedCallback>) [0 HAL_TIM_OC_DelayElapsedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -37981,7 +37981,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3866:9 -1
      (nil))
 (call_insn 185 184 186 25 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7ff654f72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7fb782b72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38081,7 +38081,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3881:7 -1
      (nil))
 (call_insn 213 212 214 29 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PeriodElapsedCallback") [flags 0x3]  <function_decl 0x7ff654f72200 HAL_TIM_PeriodElapsedCallback>) [0 HAL_TIM_PeriodElapsedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PeriodElapsedCallback") [flags 0x3]  <function_decl 0x7fb782b72200 HAL_TIM_PeriodElapsedCallback>) [0 HAL_TIM_PeriodElapsedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38165,7 +38165,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3894:7 -1
      (nil))
 (call_insn 235 234 236 32 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_BreakCallback") [flags 0x41]  <function_decl 0x7ff654f5cc00 HAL_TIMEx_BreakCallback>) [0 HAL_TIMEx_BreakCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_BreakCallback") [flags 0x41]  <function_decl 0x7fb782b5cc00 HAL_TIMEx_BreakCallback>) [0 HAL_TIMEx_BreakCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38249,7 +38249,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3907:7 -1
      (nil))
 (call_insn 257 256 258 35 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_Break2Callback") [flags 0x41]  <function_decl 0x7ff654f5cd00 HAL_TIMEx_Break2Callback>) [0 HAL_TIMEx_Break2Callback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_Break2Callback") [flags 0x41]  <function_decl 0x7fb782b5cd00 HAL_TIMEx_Break2Callback>) [0 HAL_TIMEx_Break2Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38333,7 +38333,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3920:7 -1
      (nil))
 (call_insn 279 278 280 38 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_TriggerCallback") [flags 0x3]  <function_decl 0x7ff654f72900 HAL_TIM_TriggerCallback>) [0 HAL_TIM_TriggerCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_TriggerCallback") [flags 0x3]  <function_decl 0x7fb782b72900 HAL_TIM_TriggerCallback>) [0 HAL_TIM_TriggerCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38417,7 +38417,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3933:7 -1
      (nil))
 (call_insn 301 300 302 41 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_CommutCallback") [flags 0x41]  <function_decl 0x7ff654f5ca00 HAL_TIMEx_CommutCallback>) [0 HAL_TIMEx_CommutCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_CommutCallback") [flags 0x41]  <function_decl 0x7fb782b5ca00 HAL_TIMEx_CommutCallback>) [0 HAL_TIMEx_CommutCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38501,7 +38501,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3946:7 -1
      (nil))
 (call_insn 323 322 324 44 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_EncoderIndexCallback") [flags 0x41]  <function_decl 0x7ff654f5ce00 HAL_TIMEx_EncoderIndexCallback>) [0 HAL_TIMEx_EncoderIndexCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_EncoderIndexCallback") [flags 0x41]  <function_decl 0x7fb782b5ce00 HAL_TIMEx_EncoderIndexCallback>) [0 HAL_TIMEx_EncoderIndexCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38585,7 +38585,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3959:7 -1
      (nil))
 (call_insn 345 344 346 47 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_DirectionChangeCallback") [flags 0x41]  <function_decl 0x7ff654f5cf00 HAL_TIMEx_DirectionChangeCallback>) [0 HAL_TIMEx_DirectionChangeCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_DirectionChangeCallback") [flags 0x41]  <function_decl 0x7fb782b5cf00 HAL_TIMEx_DirectionChangeCallback>) [0 HAL_TIMEx_DirectionChangeCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38669,7 +38669,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3972:7 -1
      (nil))
 (call_insn 367 366 368 50 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_IndexErrorCallback") [flags 0x41]  <function_decl 0x7ff654f5f000 HAL_TIMEx_IndexErrorCallback>) [0 HAL_TIMEx_IndexErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_IndexErrorCallback") [flags 0x41]  <function_decl 0x7fb782b5f000 HAL_TIMEx_IndexErrorCallback>) [0 HAL_TIMEx_IndexErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38753,7 +38753,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":3985:7 -1
      (nil))
 (call_insn 389 388 392 53 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_TransitionErrorCallback") [flags 0x41]  <function_decl 0x7ff654f5f100 HAL_TIMEx_TransitionErrorCallback>) [0 HAL_TIMEx_TransitionErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_TransitionErrorCallback") [flags 0x41]  <function_decl 0x7fb782b5f100 HAL_TIMEx_TransitionErrorCallback>) [0 HAL_TIMEx_TransitionErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38936,7 +38936,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4049:7 -1
      (nil))
 (call_insn 33 32 34 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC1_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1b00 TIM_OC1_SetConfig>) [0 TIM_OC1_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC1_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1b00 TIM_OC1_SetConfig>) [0 TIM_OC1_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38968,7 +38968,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 116 [ _3 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4059:7 -1
      (nil))
 (call_insn 42 41 43 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC2_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73700 TIM_OC2_SetConfig>) [0 TIM_OC2_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC2_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73700 TIM_OC2_SetConfig>) [0 TIM_OC2_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39000,7 +39000,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 117 [ _4 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4069:7 -1
      (nil))
 (call_insn 51 50 52 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC3_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1c00 TIM_OC3_SetConfig>) [0 TIM_OC3_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC3_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1c00 TIM_OC3_SetConfig>) [0 TIM_OC3_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39032,7 +39032,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 118 [ _5 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4079:7 -1
      (nil))
 (call_insn 60 59 61 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC4_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1d00 TIM_OC4_SetConfig>) [0 TIM_OC4_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC4_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1d00 TIM_OC4_SetConfig>) [0 TIM_OC4_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39064,7 +39064,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 119 [ _6 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4089:7 -1
      (nil))
 (call_insn 69 68 70 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC5_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1e00 TIM_OC5_SetConfig>) [0 TIM_OC5_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC5_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1e00 TIM_OC5_SetConfig>) [0 TIM_OC5_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39096,7 +39096,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 120 [ _7 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4099:7 -1
      (nil))
 (call_insn 78 77 83 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC6_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1f00 TIM_OC6_SetConfig>) [0 TIM_OC6_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC6_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1f00 TIM_OC6_SetConfig>) [0 TIM_OC6_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39298,7 +39298,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4140:5 -1
      (nil))
 (call_insn 38 37 39 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI1_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73600 TIM_TI1_SetConfig>) [0 TIM_TI1_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI1_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73600 TIM_TI1_SetConfig>) [0 TIM_TI1_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39436,7 +39436,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 128 [ _15 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4156:5 -1
      (nil))
 (call_insn 75 74 76 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI2_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4100 TIM_TI2_SetConfig>) [0 TIM_TI2_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI2_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4100 TIM_TI2_SetConfig>) [0 TIM_TI2_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39578,7 +39578,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 142 [ _29 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4172:5 -1
      (nil))
 (call_insn 113 112 114 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI3_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4300 TIM_TI3_SetConfig>) [0 TIM_TI3_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI3_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4300 TIM_TI3_SetConfig>) [0 TIM_TI3_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39700,7 +39700,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 155 [ _42 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4188:5 -1
      (nil))
 (call_insn 146 145 147 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI4_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4400 TIM_TI4_SetConfig>) [0 TIM_TI4_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI4_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4400 TIM_TI4_SetConfig>) [0 TIM_TI4_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -39977,7 +39977,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 115 [ _2 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4241:7 -1
      (nil))
 (call_insn 33 32 34 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC1_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1b00 TIM_OC1_SetConfig>) [0 TIM_OC1_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC1_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1b00 TIM_OC1_SetConfig>) [0 TIM_OC1_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -40095,7 +40095,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 129 [ _16 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4258:7 -1
      (nil))
 (call_insn 65 64 66 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC2_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73700 TIM_OC2_SetConfig>) [0 TIM_OC2_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC2_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73700 TIM_OC2_SetConfig>) [0 TIM_OC2_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -40217,7 +40217,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 144 [ _31 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4275:7 -1
      (nil))
 (call_insn 98 97 99 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC3_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1c00 TIM_OC3_SetConfig>) [0 TIM_OC3_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC3_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1c00 TIM_OC3_SetConfig>) [0 TIM_OC3_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -40335,7 +40335,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 158 [ _45 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4292:7 -1
      (nil))
 (call_insn 130 129 131 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC4_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1d00 TIM_OC4_SetConfig>) [0 TIM_OC4_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC4_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1d00 TIM_OC4_SetConfig>) [0 TIM_OC4_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -40457,7 +40457,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 173 [ _60 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4309:7 -1
      (nil))
 (call_insn 163 162 164 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC5_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1e00 TIM_OC5_SetConfig>) [0 TIM_OC5_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC5_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1e00 TIM_OC5_SetConfig>) [0 TIM_OC5_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -40575,7 +40575,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 187 [ _74 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4326:7 -1
      (nil))
 (call_insn 195 194 196 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC6_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1f00 TIM_OC6_SetConfig>) [0 TIM_OC6_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC6_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1f00 TIM_OC6_SetConfig>) [0 TIM_OC6_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -40999,7 +40999,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 121 [ _8 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4395:9 -1
      (nil))
 (call_insn 67 66 68 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC1_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe1b00 TIM_OC1_SetConfig>) [0 TIM_OC1_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC1_SetConfig") [flags 0x3]  <function_decl 0x7fb782be1b00 TIM_OC1_SetConfig>) [0 TIM_OC1_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -41034,7 +41034,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 122 [ _9 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4402:9 -1
      (nil))
 (call_insn 77 76 82 10 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_OC2_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73700 TIM_OC2_SetConfig>) [0 TIM_OC2_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_OC2_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73700 TIM_OC2_SetConfig>) [0 TIM_OC2_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -41129,7 +41129,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 123 [ _10 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4415:9 -1
      (nil))
 (call_insn 108 107 109 15 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI1_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73600 TIM_TI1_SetConfig>) [0 TIM_TI1_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI1_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73600 TIM_TI1_SetConfig>) [0 TIM_TI1_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -41334,7 +41334,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 147 [ _34 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4434:9 -1
      (nil))
 (call_insn 162 161 163 16 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI2_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4100 TIM_TI2_SetConfig>) [0 TIM_TI2_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI2_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4100 TIM_TI2_SetConfig>) [0 TIM_TI2_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -41629,7 +41629,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 19 18 20 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_TIM_DMABurst_MultiWriteStart") [flags 0x3]  <function_decl 0x7ff654f6cb00 HAL_TIM_DMABurst_MultiWriteStart>) [0 HAL_TIM_DMABurst_MultiWriteStart S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_TIM_DMABurst_MultiWriteStart") [flags 0x3]  <function_decl 0x7fb782b6cb00 HAL_TIM_DMABurst_MultiWriteStart>) [0 HAL_TIM_DMABurst_MultiWriteStart S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42129,7 +42129,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_77(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4603:17 -1
      (nil))
 (insn 111 110 112 23 (set (reg/f:SI 211)
-        (symbol_ref:SI ("TIM_DMAPeriodElapsedCplt") [flags 0x3]  <function_decl 0x7ff654fe4600 TIM_DMAPeriodElapsedCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4603:55 -1
+        (symbol_ref:SI ("TIM_DMAPeriodElapsedCplt") [flags 0x3]  <function_decl 0x7fb782be4600 TIM_DMAPeriodElapsedCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4603:55 -1
      (nil))
 (insn 112 111 113 23 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [7 _3->XferCpltCallback+0 S4 A32])
@@ -42144,7 +42144,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_77(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4604:17 -1
      (nil))
 (insn 115 114 116 23 (set (reg/f:SI 213)
-        (symbol_ref:SI ("TIM_DMAPeriodElapsedHalfCplt") [flags 0x3]  <function_decl 0x7ff654fe4700 TIM_DMAPeriodElapsedHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4604:59 -1
+        (symbol_ref:SI ("TIM_DMAPeriodElapsedHalfCplt") [flags 0x3]  <function_decl 0x7fb782be4700 TIM_DMAPeriodElapsedHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4604:59 -1
      (nil))
 (insn 116 115 117 23 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 48 [0x30])) [7 _4->XferHalfCpltCallback+0 S4 A32])
@@ -42159,7 +42159,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_77(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4607:17 -1
      (nil))
 (insn 119 118 120 23 (set (reg/f:SI 215)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4607:56 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4607:56 -1
      (nil))
 (insn 120 119 121 23 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [7 _5->XferErrorCallback+0 S4 A32])
@@ -42206,7 +42206,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 132 131 133 23 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42255,7 +42255,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_77(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4621:17 -1
      (nil))
 (insn 149 148 150 26 (set (reg/f:SI 220)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4621:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4621:52 -1
      (nil))
 (insn 150 149 151 26 (set (mem/f:SI (plus:SI (reg/f:SI 125 [ _12 ])
                 (const_int 44 [0x2c])) [7 _12->XferCpltCallback+0 S4 A32])
@@ -42270,7 +42270,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_77(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4622:17 -1
      (nil))
 (insn 153 152 154 26 (set (reg/f:SI 222)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4622:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4622:56 -1
      (nil))
 (insn 154 153 155 26 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 48 [0x30])) [7 _13->XferHalfCpltCallback+0 S4 A32])
@@ -42285,7 +42285,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_77(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4625:17 -1
      (nil))
 (insn 157 156 158 26 (set (reg/f:SI 224)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4625:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4625:53 -1
      (nil))
 (insn 158 157 159 26 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 52 [0x34])) [7 _14->XferErrorCallback+0 S4 A32])
@@ -42332,7 +42332,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 170 169 171 26 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42381,7 +42381,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_77(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4639:17 -1
      (nil))
 (insn 187 186 188 29 (set (reg/f:SI 229)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4639:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4639:52 -1
      (nil))
 (insn 188 187 189 29 (set (mem/f:SI (plus:SI (reg/f:SI 134 [ _21 ])
                 (const_int 44 [0x2c])) [7 _21->XferCpltCallback+0 S4 A32])
@@ -42396,7 +42396,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_77(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4640:17 -1
      (nil))
 (insn 191 190 192 29 (set (reg/f:SI 231)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4640:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4640:56 -1
      (nil))
 (insn 192 191 193 29 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 48 [0x30])) [7 _22->XferHalfCpltCallback+0 S4 A32])
@@ -42411,7 +42411,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_77(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4643:17 -1
      (nil))
 (insn 195 194 196 29 (set (reg/f:SI 233)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4643:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4643:53 -1
      (nil))
 (insn 196 195 197 29 (set (mem/f:SI (plus:SI (reg/f:SI 136 [ _23 ])
                 (const_int 52 [0x34])) [7 _23->XferErrorCallback+0 S4 A32])
@@ -42458,7 +42458,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 208 207 209 29 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42507,7 +42507,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_77(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4657:17 -1
      (nil))
 (insn 225 224 226 32 (set (reg/f:SI 238)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4657:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4657:52 -1
      (nil))
 (insn 226 225 227 32 (set (mem/f:SI (plus:SI (reg/f:SI 143 [ _30 ])
                 (const_int 44 [0x2c])) [7 _30->XferCpltCallback+0 S4 A32])
@@ -42522,7 +42522,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_77(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4658:17 -1
      (nil))
 (insn 229 228 230 32 (set (reg/f:SI 240)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4658:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4658:56 -1
      (nil))
 (insn 230 229 231 32 (set (mem/f:SI (plus:SI (reg/f:SI 144 [ _31 ])
                 (const_int 48 [0x30])) [7 _31->XferHalfCpltCallback+0 S4 A32])
@@ -42537,7 +42537,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_77(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4661:17 -1
      (nil))
 (insn 233 232 234 32 (set (reg/f:SI 242)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4661:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4661:53 -1
      (nil))
 (insn 234 233 235 32 (set (mem/f:SI (plus:SI (reg/f:SI 145 [ _32 ])
                 (const_int 52 [0x34])) [7 _32->XferErrorCallback+0 S4 A32])
@@ -42584,7 +42584,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 246 245 247 32 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42633,7 +42633,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_77(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4675:17 -1
      (nil))
 (insn 263 262 264 35 (set (reg/f:SI 247)
-        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7ff654fe4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4675:52 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseCplt") [flags 0x3]  <function_decl 0x7fb782be4800 TIM_DMADelayPulseCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4675:52 -1
      (nil))
 (insn 264 263 265 35 (set (mem/f:SI (plus:SI (reg/f:SI 152 [ _39 ])
                 (const_int 44 [0x2c])) [7 _39->XferCpltCallback+0 S4 A32])
@@ -42648,7 +42648,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_77(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4676:17 -1
      (nil))
 (insn 267 266 268 35 (set (reg/f:SI 249)
-        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4676:56 -1
+        (symbol_ref:SI ("TIM_DMADelayPulseHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73900 TIM_DMADelayPulseHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4676:56 -1
      (nil))
 (insn 268 267 269 35 (set (mem/f:SI (plus:SI (reg/f:SI 153 [ _40 ])
                 (const_int 48 [0x30])) [7 _40->XferHalfCpltCallback+0 S4 A32])
@@ -42663,7 +42663,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_77(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4679:17 -1
      (nil))
 (insn 271 270 272 35 (set (reg/f:SI 251)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4679:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4679:53 -1
      (nil))
 (insn 272 271 273 35 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 52 [0x34])) [7 _41->XferErrorCallback+0 S4 A32])
@@ -42710,7 +42710,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 284 283 285 35 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42759,7 +42759,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [5 htim_77(D)->hdma[5]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4693:17 -1
      (nil))
 (insn 301 300 302 38 (set (reg/f:SI 256)
-        (symbol_ref:SI ("TIMEx_DMACommutationCplt") [flags 0x41]  <function_decl 0x7ff654f5f400 TIMEx_DMACommutationCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4693:60 -1
+        (symbol_ref:SI ("TIMEx_DMACommutationCplt") [flags 0x41]  <function_decl 0x7fb782b5f400 TIMEx_DMACommutationCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4693:60 -1
      (nil))
 (insn 302 301 303 38 (set (mem/f:SI (plus:SI (reg/f:SI 161 [ _48 ])
                 (const_int 44 [0x2c])) [7 _48->XferCpltCallback+0 S4 A32])
@@ -42774,7 +42774,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [5 htim_77(D)->hdma[5]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4694:17 -1
      (nil))
 (insn 305 304 306 38 (set (reg/f:SI 258)
-        (symbol_ref:SI ("TIMEx_DMACommutationHalfCplt") [flags 0x41]  <function_decl 0x7ff654f5f500 TIMEx_DMACommutationHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4694:64 -1
+        (symbol_ref:SI ("TIMEx_DMACommutationHalfCplt") [flags 0x41]  <function_decl 0x7fb782b5f500 TIMEx_DMACommutationHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4694:64 -1
      (nil))
 (insn 306 305 307 38 (set (mem/f:SI (plus:SI (reg/f:SI 162 [ _49 ])
                 (const_int 48 [0x30])) [7 _49->XferHalfCpltCallback+0 S4 A32])
@@ -42789,7 +42789,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [5 htim_77(D)->hdma[5]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4697:17 -1
      (nil))
 (insn 309 308 310 38 (set (reg/f:SI 260)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4697:61 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4697:61 -1
      (nil))
 (insn 310 309 311 38 (set (mem/f:SI (plus:SI (reg/f:SI 163 [ _50 ])
                 (const_int 52 [0x34])) [7 _50->XferErrorCallback+0 S4 A32])
@@ -42836,7 +42836,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 322 321 323 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -42885,7 +42885,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [5 htim_77(D)->hdma[6]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4711:17 -1
      (nil))
 (insn 339 338 340 41 (set (reg/f:SI 265)
-        (symbol_ref:SI ("TIM_DMATriggerCplt") [flags 0x3]  <function_decl 0x7ff654fe4900 TIM_DMATriggerCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4711:56 -1
+        (symbol_ref:SI ("TIM_DMATriggerCplt") [flags 0x3]  <function_decl 0x7fb782be4900 TIM_DMATriggerCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4711:56 -1
      (nil))
 (insn 340 339 341 41 (set (mem/f:SI (plus:SI (reg/f:SI 170 [ _57 ])
                 (const_int 44 [0x2c])) [7 _57->XferCpltCallback+0 S4 A32])
@@ -42900,7 +42900,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [5 htim_77(D)->hdma[6]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4712:17 -1
      (nil))
 (insn 343 342 344 41 (set (reg/f:SI 267)
-        (symbol_ref:SI ("TIM_DMATriggerHalfCplt") [flags 0x3]  <function_decl 0x7ff654fe4a00 TIM_DMATriggerHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4712:60 -1
+        (symbol_ref:SI ("TIM_DMATriggerHalfCplt") [flags 0x3]  <function_decl 0x7fb782be4a00 TIM_DMATriggerHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4712:60 -1
      (nil))
 (insn 344 343 345 41 (set (mem/f:SI (plus:SI (reg/f:SI 171 [ _58 ])
                 (const_int 48 [0x30])) [7 _58->XferHalfCpltCallback+0 S4 A32])
@@ -42915,7 +42915,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [5 htim_77(D)->hdma[6]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4715:17 -1
      (nil))
 (insn 347 346 348 41 (set (reg/f:SI 269)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4715:57 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4715:57 -1
      (nil))
 (insn 348 347 349 41 (set (mem/f:SI (plus:SI (reg/f:SI 172 [ _59 ])
                 (const_int 52 [0x34])) [7 _59->XferErrorCallback+0 S4 A32])
@@ -42962,7 +42962,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 360 359 361 41 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43369,7 +43369,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 72 71 73 16 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43398,7 +43398,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 80 79 81 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43427,7 +43427,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 88 87 89 18 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43456,7 +43456,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 96 95 97 19 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43485,7 +43485,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 104 103 105 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43514,7 +43514,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 112 111 113 21 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43543,7 +43543,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 120 119 125 22 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43700,7 +43700,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 19 18 20 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_TIM_DMABurst_MultiReadStart") [flags 0x3]  <function_decl 0x7ff654f6ce00 HAL_TIM_DMABurst_MultiReadStart>) [0 HAL_TIM_DMABurst_MultiReadStart S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_TIM_DMABurst_MultiReadStart") [flags 0x3]  <function_decl 0x7fb782b6ce00 HAL_TIM_DMABurst_MultiReadStart>) [0 HAL_TIM_DMABurst_MultiReadStart S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44200,7 +44200,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_77(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4939:17 -1
      (nil))
 (insn 111 110 112 23 (set (reg/f:SI 211)
-        (symbol_ref:SI ("TIM_DMAPeriodElapsedCplt") [flags 0x3]  <function_decl 0x7ff654fe4600 TIM_DMAPeriodElapsedCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4939:55 -1
+        (symbol_ref:SI ("TIM_DMAPeriodElapsedCplt") [flags 0x3]  <function_decl 0x7fb782be4600 TIM_DMAPeriodElapsedCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4939:55 -1
      (nil))
 (insn 112 111 113 23 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [7 _3->XferCpltCallback+0 S4 A32])
@@ -44215,7 +44215,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_77(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4940:17 -1
      (nil))
 (insn 115 114 116 23 (set (reg/f:SI 213)
-        (symbol_ref:SI ("TIM_DMAPeriodElapsedHalfCplt") [flags 0x3]  <function_decl 0x7ff654fe4700 TIM_DMAPeriodElapsedHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4940:59 -1
+        (symbol_ref:SI ("TIM_DMAPeriodElapsedHalfCplt") [flags 0x3]  <function_decl 0x7fb782be4700 TIM_DMAPeriodElapsedHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4940:59 -1
      (nil))
 (insn 116 115 117 23 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 48 [0x30])) [7 _4->XferHalfCpltCallback+0 S4 A32])
@@ -44230,7 +44230,7 @@ try_optimize_cfg iteration 2
                 (const_int 32 [0x20])) [5 htim_77(D)->hdma[0]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4943:17 -1
      (nil))
 (insn 119 118 120 23 (set (reg/f:SI 215)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4943:56 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4943:56 -1
      (nil))
 (insn 120 119 121 23 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [7 _5->XferErrorCallback+0 S4 A32])
@@ -44277,7 +44277,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 132 131 133 23 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44326,7 +44326,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_77(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4957:17 -1
      (nil))
 (insn 149 148 150 26 (set (reg/f:SI 220)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4957:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4957:52 -1
      (nil))
 (insn 150 149 151 26 (set (mem/f:SI (plus:SI (reg/f:SI 125 [ _12 ])
                 (const_int 44 [0x2c])) [7 _12->XferCpltCallback+0 S4 A32])
@@ -44341,7 +44341,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_77(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4958:17 -1
      (nil))
 (insn 153 152 154 26 (set (reg/f:SI 222)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4958:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4958:56 -1
      (nil))
 (insn 154 153 155 26 (set (mem/f:SI (plus:SI (reg/f:SI 126 [ _13 ])
                 (const_int 48 [0x30])) [7 _13->XferHalfCpltCallback+0 S4 A32])
@@ -44356,7 +44356,7 @@ try_optimize_cfg iteration 2
                 (const_int 36 [0x24])) [5 htim_77(D)->hdma[1]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4961:17 -1
      (nil))
 (insn 157 156 158 26 (set (reg/f:SI 224)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4961:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4961:53 -1
      (nil))
 (insn 158 157 159 26 (set (mem/f:SI (plus:SI (reg/f:SI 127 [ _14 ])
                 (const_int 52 [0x34])) [7 _14->XferErrorCallback+0 S4 A32])
@@ -44403,7 +44403,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 170 169 171 26 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44452,7 +44452,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_77(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4975:17 -1
      (nil))
 (insn 187 186 188 29 (set (reg/f:SI 229)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4975:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4975:52 -1
      (nil))
 (insn 188 187 189 29 (set (mem/f:SI (plus:SI (reg/f:SI 134 [ _21 ])
                 (const_int 44 [0x2c])) [7 _21->XferCpltCallback+0 S4 A32])
@@ -44467,7 +44467,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_77(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4976:17 -1
      (nil))
 (insn 191 190 192 29 (set (reg/f:SI 231)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4976:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4976:56 -1
      (nil))
 (insn 192 191 193 29 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 48 [0x30])) [7 _22->XferHalfCpltCallback+0 S4 A32])
@@ -44482,7 +44482,7 @@ try_optimize_cfg iteration 2
                 (const_int 40 [0x28])) [5 htim_77(D)->hdma[2]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4979:17 -1
      (nil))
 (insn 195 194 196 29 (set (reg/f:SI 233)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4979:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4979:53 -1
      (nil))
 (insn 196 195 197 29 (set (mem/f:SI (plus:SI (reg/f:SI 136 [ _23 ])
                 (const_int 52 [0x34])) [7 _23->XferErrorCallback+0 S4 A32])
@@ -44529,7 +44529,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 208 207 209 29 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44578,7 +44578,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_77(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4993:17 -1
      (nil))
 (insn 225 224 226 32 (set (reg/f:SI 238)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4993:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4993:52 -1
      (nil))
 (insn 226 225 227 32 (set (mem/f:SI (plus:SI (reg/f:SI 143 [ _30 ])
                 (const_int 44 [0x2c])) [7 _30->XferCpltCallback+0 S4 A32])
@@ -44593,7 +44593,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_77(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4994:17 -1
      (nil))
 (insn 229 228 230 32 (set (reg/f:SI 240)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4994:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4994:56 -1
      (nil))
 (insn 230 229 231 32 (set (mem/f:SI (plus:SI (reg/f:SI 144 [ _31 ])
                 (const_int 48 [0x30])) [7 _31->XferHalfCpltCallback+0 S4 A32])
@@ -44608,7 +44608,7 @@ try_optimize_cfg iteration 2
                 (const_int 44 [0x2c])) [5 htim_77(D)->hdma[3]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":4997:17 -1
      (nil))
 (insn 233 232 234 32 (set (reg/f:SI 242)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4997:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":4997:53 -1
      (nil))
 (insn 234 233 235 32 (set (mem/f:SI (plus:SI (reg/f:SI 145 [ _32 ])
                 (const_int 52 [0x34])) [7 _32->XferErrorCallback+0 S4 A32])
@@ -44655,7 +44655,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 246 245 247 32 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44704,7 +44704,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_77(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5011:17 -1
      (nil))
 (insn 263 262 264 35 (set (reg/f:SI 247)
-        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7ff654f73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5011:52 -1
+        (symbol_ref:SI ("TIM_DMACaptureCplt") [flags 0x3]  <function_decl 0x7fb782b73b00 TIM_DMACaptureCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5011:52 -1
      (nil))
 (insn 264 263 265 35 (set (mem/f:SI (plus:SI (reg/f:SI 152 [ _39 ])
                 (const_int 44 [0x2c])) [7 _39->XferCpltCallback+0 S4 A32])
@@ -44719,7 +44719,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_77(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5012:17 -1
      (nil))
 (insn 267 266 268 35 (set (reg/f:SI 249)
-        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7ff654f73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5012:56 -1
+        (symbol_ref:SI ("TIM_DMACaptureHalfCplt") [flags 0x3]  <function_decl 0x7fb782b73c00 TIM_DMACaptureHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5012:56 -1
      (nil))
 (insn 268 267 269 35 (set (mem/f:SI (plus:SI (reg/f:SI 153 [ _40 ])
                 (const_int 48 [0x30])) [7 _40->XferHalfCpltCallback+0 S4 A32])
@@ -44734,7 +44734,7 @@ try_optimize_cfg iteration 2
                 (const_int 48 [0x30])) [5 htim_77(D)->hdma[4]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5015:17 -1
      (nil))
 (insn 271 270 272 35 (set (reg/f:SI 251)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5015:53 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5015:53 -1
      (nil))
 (insn 272 271 273 35 (set (mem/f:SI (plus:SI (reg/f:SI 154 [ _41 ])
                 (const_int 52 [0x34])) [7 _41->XferErrorCallback+0 S4 A32])
@@ -44781,7 +44781,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 284 283 285 35 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44830,7 +44830,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [5 htim_77(D)->hdma[5]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5029:17 -1
      (nil))
 (insn 301 300 302 38 (set (reg/f:SI 256)
-        (symbol_ref:SI ("TIMEx_DMACommutationCplt") [flags 0x41]  <function_decl 0x7ff654f5f400 TIMEx_DMACommutationCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5029:60 -1
+        (symbol_ref:SI ("TIMEx_DMACommutationCplt") [flags 0x41]  <function_decl 0x7fb782b5f400 TIMEx_DMACommutationCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5029:60 -1
      (nil))
 (insn 302 301 303 38 (set (mem/f:SI (plus:SI (reg/f:SI 161 [ _48 ])
                 (const_int 44 [0x2c])) [7 _48->XferCpltCallback+0 S4 A32])
@@ -44845,7 +44845,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [5 htim_77(D)->hdma[5]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5030:17 -1
      (nil))
 (insn 305 304 306 38 (set (reg/f:SI 258)
-        (symbol_ref:SI ("TIMEx_DMACommutationHalfCplt") [flags 0x41]  <function_decl 0x7ff654f5f500 TIMEx_DMACommutationHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5030:64 -1
+        (symbol_ref:SI ("TIMEx_DMACommutationHalfCplt") [flags 0x41]  <function_decl 0x7fb782b5f500 TIMEx_DMACommutationHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5030:64 -1
      (nil))
 (insn 306 305 307 38 (set (mem/f:SI (plus:SI (reg/f:SI 162 [ _49 ])
                 (const_int 48 [0x30])) [7 _49->XferHalfCpltCallback+0 S4 A32])
@@ -44860,7 +44860,7 @@ try_optimize_cfg iteration 2
                 (const_int 52 [0x34])) [5 htim_77(D)->hdma[5]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5033:17 -1
      (nil))
 (insn 309 308 310 38 (set (reg/f:SI 260)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5033:61 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5033:61 -1
      (nil))
 (insn 310 309 311 38 (set (mem/f:SI (plus:SI (reg/f:SI 163 [ _50 ])
                 (const_int 52 [0x34])) [7 _50->XferErrorCallback+0 S4 A32])
@@ -44907,7 +44907,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 322 321 323 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -44956,7 +44956,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [5 htim_77(D)->hdma[6]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5047:17 -1
      (nil))
 (insn 339 338 340 41 (set (reg/f:SI 265)
-        (symbol_ref:SI ("TIM_DMATriggerCplt") [flags 0x3]  <function_decl 0x7ff654fe4900 TIM_DMATriggerCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5047:56 -1
+        (symbol_ref:SI ("TIM_DMATriggerCplt") [flags 0x3]  <function_decl 0x7fb782be4900 TIM_DMATriggerCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5047:56 -1
      (nil))
 (insn 340 339 341 41 (set (mem/f:SI (plus:SI (reg/f:SI 170 [ _57 ])
                 (const_int 44 [0x2c])) [7 _57->XferCpltCallback+0 S4 A32])
@@ -44971,7 +44971,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [5 htim_77(D)->hdma[6]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5048:17 -1
      (nil))
 (insn 343 342 344 41 (set (reg/f:SI 267)
-        (symbol_ref:SI ("TIM_DMATriggerHalfCplt") [flags 0x3]  <function_decl 0x7ff654fe4a00 TIM_DMATriggerHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5048:60 -1
+        (symbol_ref:SI ("TIM_DMATriggerHalfCplt") [flags 0x3]  <function_decl 0x7fb782be4a00 TIM_DMATriggerHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5048:60 -1
      (nil))
 (insn 344 343 345 41 (set (mem/f:SI (plus:SI (reg/f:SI 171 [ _58 ])
                 (const_int 48 [0x30])) [7 _58->XferHalfCpltCallback+0 S4 A32])
@@ -44986,7 +44986,7 @@ try_optimize_cfg iteration 2
                 (const_int 56 [0x38])) [5 htim_77(D)->hdma[6]+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5051:17 -1
      (nil))
 (insn 347 346 348 41 (set (reg/f:SI 269)
-        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7ff654f73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5051:57 -1
+        (symbol_ref:SI ("TIM_DMAError") [flags 0x3]  <function_decl 0x7fb782b73a00 TIM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_tim.c":5051:57 -1
      (nil))
 (insn 348 347 349 41 (set (mem/f:SI (plus:SI (reg/f:SI 172 [ _59 ])
                 (const_int 52 [0x34])) [7 _59->XferErrorCallback+0 S4 A32])
@@ -45033,7 +45033,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 360 359 361 41 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7ff65522f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fb782e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45440,7 +45440,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 72 71 73 16 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45469,7 +45469,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 80 79 81 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45498,7 +45498,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 88 87 89 18 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45527,7 +45527,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 96 95 97 19 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45556,7 +45556,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 104 103 105 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45585,7 +45585,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 112 111 113 21 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -45614,7 +45614,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 120 119 125 22 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7ff65522f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fb782e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -46956,7 +46956,7 @@ Forwarding edge 30->31 to 55 failed.
         (reg/f:SI 155 [ _42 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5271:7 -1
      (nil))
 (call_insn 270 269 271 44 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48558,7 +48558,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 118 [ _5 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5432:7 -1
      (nil))
 (call_insn 208 207 209 41 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48663,7 +48663,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 124 [ _11 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5456:7 -1
      (nil))
 (call_insn 236 235 237 42 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48741,7 +48741,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 132 [ _19 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5474:7 -1
      (nil))
 (call_insn 257 256 258 43 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI1_ConfigInputStage") [flags 0x3]  <function_decl 0x7ff654fe4000 TIM_TI1_ConfigInputStage>) [0 TIM_TI1_ConfigInputStage S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI1_ConfigInputStage") [flags 0x3]  <function_decl 0x7fb782be4000 TIM_TI1_ConfigInputStage>) [0 TIM_TI1_ConfigInputStage S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48766,7 +48766,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 135 [ _22 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5477:7 -1
      (nil))
 (call_insn 262 261 263 43 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48816,7 +48816,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 136 [ _23 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5490:7 -1
      (nil))
 (call_insn 276 275 277 44 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI2_ConfigInputStage") [flags 0x3]  <function_decl 0x7ff654fe4200 TIM_TI2_ConfigInputStage>) [0 TIM_TI2_ConfigInputStage S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI2_ConfigInputStage") [flags 0x3]  <function_decl 0x7fb782be4200 TIM_TI2_ConfigInputStage>) [0 TIM_TI2_ConfigInputStage S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48841,7 +48841,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 139 [ _26 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5493:7 -1
      (nil))
 (call_insn 281 280 282 44 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48891,7 +48891,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 140 [ _27 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5506:7 -1
      (nil))
 (call_insn 295 294 296 45 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI1_ConfigInputStage") [flags 0x3]  <function_decl 0x7ff654fe4000 TIM_TI1_ConfigInputStage>) [0 TIM_TI1_ConfigInputStage S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI1_ConfigInputStage") [flags 0x3]  <function_decl 0x7fb782be4000 TIM_TI1_ConfigInputStage>) [0 TIM_TI1_ConfigInputStage S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48916,7 +48916,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 143 [ _30 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5509:7 -1
      (nil))
 (call_insn 300 299 301 45 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -48954,7 +48954,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 144 [ _31 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":5535:9 -1
      (nil))
 (call_insn 311 310 316 46 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ITRx_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4500 TIM_ITRx_SetConfig>) [0 TIM_ITRx_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -49231,7 +49231,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("TIM_SlaveTimer_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4b00 TIM_SlaveTimer_SetConfig>) [0 TIM_SlaveTimer_SetConfig S4 A32])
+                (call (mem:SI (symbol_ref:SI ("TIM_SlaveTimer_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4b00 TIM_SlaveTimer_SetConfig>) [0 TIM_SlaveTimer_SetConfig S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -49504,7 +49504,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("TIM_SlaveTimer_SetConfig") [flags 0x3]  <function_decl 0x7ff654fe4b00 TIM_SlaveTimer_SetConfig>) [0 TIM_SlaveTimer_SetConfig S4 A32])
+                (call (mem:SI (symbol_ref:SI ("TIM_SlaveTimer_SetConfig") [flags 0x3]  <function_decl 0x7fb782be4b00 TIM_SlaveTimer_SetConfig>) [0 TIM_SlaveTimer_SetConfig S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -51227,7 +51227,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6618:3 -1
      (nil))
 (call_insn 88 87 89 12 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_ErrorCallback") [flags 0x3]  <function_decl 0x7ff654f72b00 HAL_TIM_ErrorCallback>) [0 HAL_TIM_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_ErrorCallback") [flags 0x3]  <function_decl 0x7fb782b72b00 HAL_TIM_ErrorCallback>) [0 HAL_TIM_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -51633,7 +51633,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6677:3 -1
      (nil))
 (call_insn 100 99 101 15 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7ff654f72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedCallback") [flags 0x3]  <function_decl 0x7fb782b72700 HAL_TIM_PWM_PulseFinishedCallback>) [0 HAL_TIM_PWM_PulseFinishedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -51895,7 +51895,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6716:3 -1
      (nil))
 (call_insn 64 63 65 11 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedHalfCpltCallback") [flags 0x3]  <function_decl 0x7ff654f72800 HAL_TIM_PWM_PulseFinishedHalfCpltCallback>) [0 HAL_TIM_PWM_PulseFinishedHalfCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PWM_PulseFinishedHalfCpltCallback") [flags 0x3]  <function_decl 0x7fb782b72800 HAL_TIM_PWM_PulseFinishedHalfCpltCallback>) [0 HAL_TIM_PWM_PulseFinishedHalfCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52357,7 +52357,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6779:3 -1
      (nil))
 (call_insn 116 115 117 15 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7ff654f72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureCallback") [flags 0x3]  <function_decl 0x7fb782b72500 HAL_TIM_IC_CaptureCallback>) [0 HAL_TIM_IC_CaptureCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52619,7 +52619,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6818:3 -1
      (nil))
 (call_insn 64 63 65 11 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureHalfCpltCallback") [flags 0x3]  <function_decl 0x7ff654f72600 HAL_TIM_IC_CaptureHalfCpltCallback>) [0 HAL_TIM_IC_CaptureHalfCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_IC_CaptureHalfCpltCallback") [flags 0x3]  <function_decl 0x7fb782b72600 HAL_TIM_IC_CaptureHalfCpltCallback>) [0 HAL_TIM_IC_CaptureHalfCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52734,7 +52734,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6841:3 -1
      (nil))
 (call_insn 22 21 0 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PeriodElapsedCallback") [flags 0x3]  <function_decl 0x7ff654f72200 HAL_TIM_PeriodElapsedCallback>) [0 HAL_TIM_PeriodElapsedCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PeriodElapsedCallback") [flags 0x3]  <function_decl 0x7fb782b72200 HAL_TIM_PeriodElapsedCallback>) [0 HAL_TIM_PeriodElapsedCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52791,7 +52791,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6857:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PeriodElapsedHalfCpltCallback") [flags 0x3]  <function_decl 0x7ff654f72300 HAL_TIM_PeriodElapsedHalfCpltCallback>) [0 HAL_TIM_PeriodElapsedHalfCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_PeriodElapsedHalfCpltCallback") [flags 0x3]  <function_decl 0x7fb782b72300 HAL_TIM_PeriodElapsedHalfCpltCallback>) [0 HAL_TIM_PeriodElapsedHalfCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52892,7 +52892,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6878:3 -1
      (nil))
 (call_insn 22 21 0 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_TriggerCallback") [flags 0x3]  <function_decl 0x7ff654f72900 HAL_TIM_TriggerCallback>) [0 HAL_TIM_TriggerCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_TriggerCallback") [flags 0x3]  <function_decl 0x7fb782b72900 HAL_TIM_TriggerCallback>) [0 HAL_TIM_TriggerCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52949,7 +52949,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [26 htim+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_tim.c":6894:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_TriggerHalfCpltCallback") [flags 0x3]  <function_decl 0x7ff654f72a00 HAL_TIM_TriggerHalfCpltCallback>) [0 HAL_TIM_TriggerHalfCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_TIM_TriggerHalfCpltCallback") [flags 0x3]  <function_decl 0x7fb782b72a00 HAL_TIM_TriggerHalfCpltCallback>) [0 HAL_TIM_TriggerHalfCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -57374,7 +57374,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 119 [ _6 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":7395:7 -1
      (nil))
 (call_insn 181 180 182 34 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7ff654f73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_ETR_SetConfig") [flags 0x3]  <function_decl 0x7fb782b73800 TIM_ETR_SetConfig>) [0 TIM_ETR_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -57604,7 +57604,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 135 [ _22 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":7436:7 -1
      (nil))
 (call_insn 247 246 248 39 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI1_ConfigInputStage") [flags 0x3]  <function_decl 0x7ff654fe4000 TIM_TI1_ConfigInputStage>) [0 TIM_TI1_ConfigInputStage S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI1_ConfigInputStage") [flags 0x3]  <function_decl 0x7fb782be4000 TIM_TI1_ConfigInputStage>) [0 TIM_TI1_ConfigInputStage S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -57655,7 +57655,7 @@ try_optimize_cfg iteration 2
         (reg/f:SI 138 [ _25 ])) "lib/HAL/Src/stm32g4xx_hal_tim.c":7450:7 -1
      (nil))
 (call_insn 261 260 270 40 (parallel [
-            (call (mem:SI (symbol_ref:SI ("TIM_TI2_ConfigInputStage") [flags 0x3]  <function_decl 0x7ff654fe4200 TIM_TI2_ConfigInputStage>) [0 TIM_TI2_ConfigInputStage S4 A32])
+            (call (mem:SI (symbol_ref:SI ("TIM_TI2_ConfigInputStage") [flags 0x3]  <function_decl 0x7fb782be4200 TIM_TI2_ConfigInputStage>) [0 TIM_TI2_ConfigInputStage S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

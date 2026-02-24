@@ -263,7 +263,7 @@ try_optimize_cfg iteration 2
         (reg:SI 125 [ _12 ])) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":169:7 -1
      (nil))
 (insn 27 26 28 5 (set (reg/f:SI 172)
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7efd4654da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":172:53 -1
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f020ab4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":172:53 -1
      (nil))
 (insn 28 27 29 5 (set (reg:SI 126 [ SystemCoreClock.0_13 ])
         (mem/c:SI (reg/f:SI 172) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":172:53 -1
@@ -496,7 +496,7 @@ try_optimize_cfg iteration 2
         (reg:SI 150 [ _37 ])) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":198:7 -1
      (nil))
 (insn 97 96 98 14 (set (reg/f:SI 181)
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7efd4654da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":201:53 -1
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f020ab4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":201:53 -1
      (nil))
 (insn 98 97 99 14 (set (reg:SI 151 [ SystemCoreClock.1_38 ])
         (mem/c:SI (reg/f:SI 181) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":201:53 -1
@@ -4608,7 +4608,7 @@ try_optimize_cfg iteration 2
         (reg:SI 117 [ _4 ])) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":856:3 -1
      (nil))
 (insn 10 9 11 2 (set (reg/f:SI 128)
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7efd4654da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":859:67 -1
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f020ab4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":859:67 -1
      (nil))
 (insn 11 10 12 2 (set (reg:SI 118 [ SystemCoreClock.2_5 ])
         (mem/c:SI (reg/f:SI 128) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_pwr_ex.c":859:67 -1
@@ -5174,7 +5174,7 @@ try_optimize_cfg iteration 2
  -> 15)
 (note 10 9 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 11 10 12 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_PWR_PVDCallback") [flags 0x41]  <function_decl 0x7efd45807b00 HAL_PWR_PVDCallback>) [0 HAL_PWR_PVDCallback S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_PWR_PVDCallback") [flags 0x41]  <function_decl 0x7f0209e07b00 HAL_PWR_PVDCallback>) [0 HAL_PWR_PVDCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5218,7 +5218,7 @@ try_optimize_cfg iteration 2
  -> 27)
 (note 22 21 23 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 23 22 24 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM1Callback") [flags 0x3]  <function_decl 0x7efd45804400 HAL_PWREx_PVM1Callback>) [0 HAL_PWREx_PVM1Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM1Callback") [flags 0x3]  <function_decl 0x7f0209e04400 HAL_PWREx_PVM1Callback>) [0 HAL_PWREx_PVM1Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5262,7 +5262,7 @@ try_optimize_cfg iteration 2
  -> 39)
 (note 34 33 35 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 35 34 36 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM2Callback") [flags 0x3]  <function_decl 0x7efd45804500 HAL_PWREx_PVM2Callback>) [0 HAL_PWREx_PVM2Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM2Callback") [flags 0x3]  <function_decl 0x7f0209e04500 HAL_PWREx_PVM2Callback>) [0 HAL_PWREx_PVM2Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5306,7 +5306,7 @@ try_optimize_cfg iteration 2
  -> 51)
 (note 46 45 47 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 47 46 48 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM3Callback") [flags 0x3]  <function_decl 0x7efd45804600 HAL_PWREx_PVM3Callback>) [0 HAL_PWREx_PVM3Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM3Callback") [flags 0x3]  <function_decl 0x7f0209e04600 HAL_PWREx_PVM3Callback>) [0 HAL_PWREx_PVM3Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5350,7 +5350,7 @@ try_optimize_cfg iteration 2
  -> 65)
 (note 58 57 59 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
 (call_insn 59 58 60 12 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM4Callback") [flags 0x3]  <function_decl 0x7efd45804700 HAL_PWREx_PVM4Callback>) [0 HAL_PWREx_PVM4Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_PWREx_PVM4Callback") [flags 0x3]  <function_decl 0x7f0209e04700 HAL_PWREx_PVM4Callback>) [0 HAL_PWREx_PVM4Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

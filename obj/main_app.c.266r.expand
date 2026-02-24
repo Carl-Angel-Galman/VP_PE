@@ -28,7 +28,7 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("change_vector_table") [flags 0x3]  <function_decl 0x7f0f0d3f1700 change_vector_table>) [0 change_vector_table S4 A32])
+            (call (mem:SI (symbol_ref:SI ("change_vector_table") [flags 0x3]  <function_decl 0x7f273a7f1700 change_vector_table>) [0 change_vector_table S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -38,7 +38,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_Init") [flags 0x41]  <function_decl 0x7f0f0d3d8800 HAL_Init>) [0 HAL_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_Init") [flags 0x41]  <function_decl 0x7f273a7d8800 HAL_Init>) [0 HAL_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -47,7 +47,7 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (call_insn 7 6 8 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SystemClock_Config") [flags 0x41]  <function_decl 0x7f0f0d3e1b00 SystemClock_Config>) [0 SystemClock_Config S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SystemClock_Config") [flags 0x41]  <function_decl 0x7f273a7e1b00 SystemClock_Config>) [0 SystemClock_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -57,7 +57,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("initializePeripherals") [flags 0x3]  <function_decl 0x7f0f0d3f1600 initializePeripherals>) [0 initializePeripherals S4 A32])
+                (call (mem:SI (symbol_ref:SI ("initializePeripherals") [flags 0x3]  <function_decl 0x7f273a7f1600 initializePeripherals>) [0 initializePeripherals S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -66,11 +66,11 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 9 8 10 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gScheduler") [flags 0x2]  <var_decl 0x7f0f0d384d80 gScheduler>)) "src/main_app.c":77:5 -1
+        (symbol_ref:SI ("gScheduler") [flags 0x2]  <var_decl 0x7f273a784d80 gScheduler>)) "src/main_app.c":77:5 -1
      (nil))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("schedInitialize") [flags 0x41]  <function_decl 0x7f0f0d3f1400 schedInitialize>) [0 schedInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("schedInitialize") [flags 0x41]  <function_decl 0x7f273a7f1400 schedInitialize>) [0 schedInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -105,7 +105,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "src/main_app.c":86:9 -1
      (nil))
 (call_insn 19 18 20 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f0f0d3e8d00 ledSetLED>) [0 ledSetLED S4 A32])
+            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f273a7e8d00 ledSetLED>) [0 ledSetLED S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -122,7 +122,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "src/main_app.c":87:9 discrim 1 -1
      (nil))
 (call_insn 22 21 23 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f0f0d3e8d00 ledSetLED>) [0 ledSetLED S4 A32])
+            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f273a7e8d00 ledSetLED>) [0 ledSetLED S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -176,7 +176,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("uartInitialize") [flags 0x41]  <function_decl 0x7f0f0d3e8600 uartInitialize>) [0 uartInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("uartInitialize") [flags 0x41]  <function_decl 0x7f273a7e8600 uartInitialize>) [0 uartInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -187,7 +187,7 @@ try_optimize_cfg iteration 2
             (nil))))
 (call_insn 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("ledInitialize") [flags 0x41]  <function_decl 0x7f0f0d3e8b00 ledInitialize>) [0 ledInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("ledInitialize") [flags 0x41]  <function_decl 0x7f273a7e8b00 ledInitialize>) [0 ledInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -197,7 +197,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("displayInitialize") [flags 0x41]  <function_decl 0x7f0f0d3e8e00 displayInitialize>) [0 displayInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("displayInitialize") [flags 0x41]  <function_decl 0x7f273a7e8e00 displayInitialize>) [0 displayInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -207,7 +207,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("buttonInitialize") [flags 0x41]  <function_decl 0x7f0f0d3e8900 buttonInitialize>) [0 buttonInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("buttonInitialize") [flags 0x41]  <function_decl 0x7f273a7e8900 buttonInitialize>) [0 buttonInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -217,7 +217,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("timerInitialize") [flags 0x41]  <function_decl 0x7f0f0d3f1300 timerInitialize>) [0 timerInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("timerInitialize") [flags 0x41]  <function_decl 0x7f273a7f1300 timerInitialize>) [0 timerInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -227,7 +227,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("adcInitialize") [flags 0x41]  <function_decl 0x7f0f0d3f1000 adcInitialize>) [0 adcInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("adcInitialize") [flags 0x41]  <function_decl 0x7f273a7f1000 adcInitialize>) [0 adcInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -322,7 +322,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 12 30 13 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DeInit") [flags 0x41]  <function_decl 0x7f0f0d3d8900 HAL_DeInit>) [0 HAL_DeInit S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DeInit") [flags 0x41]  <function_decl 0x7f273a7d8900 HAL_DeInit>) [0 HAL_DeInit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

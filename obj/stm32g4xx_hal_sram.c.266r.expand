@@ -116,7 +116,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [19 hsram+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":194:5 -1
      (nil))
 (call_insn 29 28 30 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_MspInit") [flags 0x3]  <function_decl 0x7fa4e34ee000 HAL_SRAM_MspInit>) [0 HAL_SRAM_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_MspInit") [flags 0x3]  <function_decl 0x7f8b088ee000 HAL_SRAM_MspInit>) [0 HAL_SRAM_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -150,7 +150,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 38 37 39 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Init") [flags 0x41]  <function_decl 0x7fa4e3777200 FMC_NORSRAM_Init>) [0 FMC_NORSRAM_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Init") [flags 0x41]  <function_decl 0x7f8b08b77200 FMC_NORSRAM_Init>) [0 FMC_NORSRAM_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -187,7 +187,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Timing_Init") [flags 0x41]  <function_decl 0x7fa4e3777300 FMC_NORSRAM_Timing_Init>) [0 FMC_NORSRAM_Timing_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Timing_Init") [flags 0x41]  <function_decl 0x7f8b08b77300 FMC_NORSRAM_Timing_Init>) [0 FMC_NORSRAM_Timing_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -237,7 +237,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 58 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Extended_Timing_Init") [flags 0x41]  <function_decl 0x7fa4e3777400 FMC_NORSRAM_Extended_Timing_Init>) [0 FMC_NORSRAM_Extended_Timing_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Extended_Timing_Init") [flags 0x41]  <function_decl 0x7f8b08b77400 FMC_NORSRAM_Extended_Timing_Init>) [0 FMC_NORSRAM_Extended_Timing_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -362,7 +362,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [19 hsram+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":235:3 -1
      (nil))
 (call_insn 7 6 8 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_MspDeInit") [flags 0x3]  <function_decl 0x7fa4e34ee100 HAL_SRAM_MspDeInit>) [0 HAL_SRAM_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_MspDeInit") [flags 0x3]  <function_decl 0x7f8b088ee100 HAL_SRAM_MspDeInit>) [0 HAL_SRAM_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -405,7 +405,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 17 16 18 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_DeInit") [flags 0x41]  <function_decl 0x7fa4e3777500 FMC_NORSRAM_DeInit>) [0 FMC_NORSRAM_DeInit S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_DeInit") [flags 0x41]  <function_decl 0x7f8b08b77500 FMC_NORSRAM_DeInit>) [0 FMC_NORSRAM_DeInit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2854,7 +2854,7 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [6 hsram_14(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":668:12 -1
      (nil))
 (insn 45 44 46 8 (set (reg/f:SI 136)
-        (symbol_ref:SI ("SRAM_DMACplt") [flags 0x3]  <function_decl 0x7fa4e35e1b00 SRAM_DMACplt>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":668:37 -1
+        (symbol_ref:SI ("SRAM_DMACplt") [flags 0x3]  <function_decl 0x7f8b089e1b00 SRAM_DMACplt>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":668:37 -1
      (nil))
 (insn 46 45 47 8 (set (mem/f:SI (plus:SI (reg/f:SI 115 [ _2 ])
                 (const_int 44 [0x2c])) [12 _2->XferCpltCallback+0 S4 A32])
@@ -2876,7 +2876,7 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [6 hsram_14(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":672:12 -1
      (nil))
 (insn 53 52 54 9 (set (reg/f:SI 138)
-        (symbol_ref:SI ("SRAM_DMACpltProt") [flags 0x3]  <function_decl 0x7fa4e35e1c00 SRAM_DMACpltProt>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":672:37 -1
+        (symbol_ref:SI ("SRAM_DMACpltProt") [flags 0x3]  <function_decl 0x7f8b089e1c00 SRAM_DMACpltProt>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":672:37 -1
      (nil))
 (insn 54 53 55 9 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [12 _3->XferCpltCallback+0 S4 A32])
@@ -2893,7 +2893,7 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [6 hsram_14(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":674:10 -1
      (nil))
 (insn 59 58 60 10 (set (reg/f:SI 140)
-        (symbol_ref:SI ("SRAM_DMAError") [flags 0x3]  <function_decl 0x7fa4e35e1d00 SRAM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":674:36 -1
+        (symbol_ref:SI ("SRAM_DMAError") [flags 0x3]  <function_decl 0x7f8b089e1d00 SRAM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":674:36 -1
      (nil))
 (insn 60 59 61 10 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 52 [0x34])) [12 _4->XferErrorCallback+0 S4 A32])
@@ -2930,7 +2930,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fa4e382f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f8b08c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3145,7 +3145,7 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [6 hsram_13(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":714:10 -1
      (nil))
 (insn 36 35 37 6 (set (reg/f:SI 134)
-        (symbol_ref:SI ("SRAM_DMACplt") [flags 0x3]  <function_decl 0x7fa4e35e1b00 SRAM_DMACplt>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":714:35 -1
+        (symbol_ref:SI ("SRAM_DMACplt") [flags 0x3]  <function_decl 0x7f8b089e1b00 SRAM_DMACplt>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":714:35 -1
      (nil))
 (insn 37 36 38 6 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 44 [0x2c])) [12 _3->XferCpltCallback+0 S4 A32])
@@ -3160,7 +3160,7 @@ try_optimize_cfg iteration 2
                 (const_int 84 [0x54])) [6 hsram_13(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":715:10 -1
      (nil))
 (insn 40 39 41 6 (set (reg/f:SI 136)
-        (symbol_ref:SI ("SRAM_DMAError") [flags 0x3]  <function_decl 0x7fa4e35e1d00 SRAM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":715:36 -1
+        (symbol_ref:SI ("SRAM_DMAError") [flags 0x3]  <function_decl 0x7f8b089e1d00 SRAM_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sram.c":715:36 -1
      (nil))
 (insn 41 40 42 6 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 52 [0x34])) [12 _4->XferErrorCallback+0 S4 A32])
@@ -3197,7 +3197,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fa4e382f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f8b08c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3414,7 +3414,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 37 36 38 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Enable") [flags 0x41]  <function_decl 0x7fa4e3777600 FMC_NORSRAM_WriteOperation_Enable>) [0 FMC_NORSRAM_WriteOperation_Enable S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Enable") [flags 0x41]  <function_decl 0x7f8b08b77600 FMC_NORSRAM_WriteOperation_Enable>) [0 FMC_NORSRAM_WriteOperation_Enable S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3630,7 +3630,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 37 36 38 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Disable") [flags 0x41]  <function_decl 0x7fa4e3777700 FMC_NORSRAM_WriteOperation_Disable>) [0 FMC_NORSRAM_WriteOperation_Disable S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Disable") [flags 0x41]  <function_decl 0x7f8b08b77700 FMC_NORSRAM_WriteOperation_Disable>) [0 FMC_NORSRAM_WriteOperation_Disable S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3840,7 +3840,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":1052:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_DMA_XferCpltCallback") [flags 0x3]  <function_decl 0x7fa4e34eea00 HAL_SRAM_DMA_XferCpltCallback>) [0 HAL_SRAM_DMA_XferCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_DMA_XferCpltCallback") [flags 0x3]  <function_decl 0x7f8b088eea00 HAL_SRAM_DMA_XferCpltCallback>) [0 HAL_SRAM_DMA_XferCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3935,7 +3935,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":1074:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_DMA_XferCpltCallback") [flags 0x3]  <function_decl 0x7fa4e34eea00 HAL_SRAM_DMA_XferCpltCallback>) [0 HAL_SRAM_DMA_XferCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_DMA_XferCpltCallback") [flags 0x3]  <function_decl 0x7f8b088eea00 HAL_SRAM_DMA_XferCpltCallback>) [0 HAL_SRAM_DMA_XferCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4030,7 +4030,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [6 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sram.c":1096:3 -1
      (nil))
 (call_insn 21 20 0 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_DMA_XferErrorCallback") [flags 0x3]  <function_decl 0x7fa4e34eeb00 HAL_SRAM_DMA_XferErrorCallback>) [0 HAL_SRAM_DMA_XferErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SRAM_DMA_XferErrorCallback") [flags 0x3]  <function_decl 0x7f8b088eeb00 HAL_SRAM_DMA_XferErrorCallback>) [0 HAL_SRAM_DMA_XferErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

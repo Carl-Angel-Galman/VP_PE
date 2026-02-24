@@ -58,7 +58,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -95,7 +95,7 @@ try_optimize_cfg iteration 2
 (note 14 32 15 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 15 14 16 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -178,7 +178,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 41 40 42 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -209,7 +209,7 @@ try_optimize_cfg iteration 2
 (note 48 67 49 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 49 48 50 8 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -277,7 +277,7 @@ try_optimize_cfg iteration 2
  -> 67)
 (note 70 69 71 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 71 70 72 11 (set (reg/f:SI 155)
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7fce6f94da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":255:19 -1
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f6a60d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":255:19 -1
      (nil))
 (insn 72 71 73 11 (set (reg:SI 156)
         (const_int 16000000 [0xf42400])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":255:19 -1
@@ -286,7 +286,7 @@ try_optimize_cfg iteration 2
         (reg:SI 156)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":255:19 -1
      (nil))
 (insn 74 73 75 11 (set (reg/f:SI 157)
-        (symbol_ref:SI ("uwTickPrio") [flags 0x40]  <var_decl 0x7fce6ed84c60 uwTickPrio>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":258:7 -1
+        (symbol_ref:SI ("uwTickPrio") [flags 0x40]  <var_decl 0x7f6a60184c60 uwTickPrio>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":258:7 -1
      (nil))
 (insn 75 74 76 11 (set (reg:SI 133 [ uwTickPrio.0_20 ])
         (mem/c:SI (reg/f:SI 157) [1 uwTickPrio+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":258:7 -1
@@ -296,7 +296,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 77 76 78 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_InitTick") [flags 0x41]  <function_decl 0x7fce6edd8c00 HAL_InitTick>) [0 HAL_InitTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_InitTick") [flags 0x41]  <function_decl 0x7f6a601d8c00 HAL_InitTick>) [0 HAL_InitTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -353,7 +353,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 94 93 95 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -374,7 +374,7 @@ try_optimize_cfg iteration 2
 (note 98 116 99 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (call_insn 99 98 100 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1118,7 +1118,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 112 111 113 19 [bb 19] NOTE_INSN_BASIC_BLOCK)
 (call_insn 113 112 114 19 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1139,7 +1139,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 117 135 118 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
 (call_insn 118 117 119 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1211,7 +1211,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 142 141 143 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
 (call_insn 143 142 144 24 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1232,7 +1232,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 147 165 148 25 [bb 25] NOTE_INSN_BASIC_BLOCK)
 (call_insn 148 147 149 25 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1486,7 +1486,7 @@ Forwarding edge 113->114 to 124 failed.
         (reg:SI 173 [ _60 ])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":399:9 -1
      (nil))
 (insn 223 222 224 35 (set (reg/f:SI 424)
-        (symbol_ref:SI ("uwTickPrio") [flags 0x40]  <var_decl 0x7fce6ed84c60 uwTickPrio>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":402:13 -1
+        (symbol_ref:SI ("uwTickPrio") [flags 0x40]  <var_decl 0x7f6a60184c60 uwTickPrio>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":402:13 -1
      (nil))
 (insn 224 223 225 35 (set (reg:SI 174 [ uwTickPrio.1_61 ])
         (mem/c:SI (reg/f:SI 424) [1 uwTickPrio+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":402:13 -1
@@ -1496,7 +1496,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 226 225 227 35 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_InitTick") [flags 0x41]  <function_decl 0x7fce6edd8c00 HAL_InitTick>) [0 HAL_InitTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_InitTick") [flags 0x41]  <function_decl 0x7f6a601d8c00 HAL_InitTick>) [0 HAL_InitTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1571,7 +1571,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 251 250 252 39 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1592,7 +1592,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 255 273 256 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
 (call_insn 256 255 257 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1714,7 +1714,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 295 294 296 44 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1735,7 +1735,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 299 317 300 45 [bb 45] NOTE_INSN_BASIC_BLOCK)
 (call_insn 300 299 301 45 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1862,7 +1862,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 338 337 339 50 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1883,7 +1883,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 342 360 343 51 [bb 51] NOTE_INSN_BASIC_BLOCK)
 (call_insn 343 342 344 51 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1974,7 +1974,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 373 372 374 55 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1995,7 +1995,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 377 395 378 56 [bb 56] NOTE_INSN_BASIC_BLOCK)
 (call_insn 378 377 379 56 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2232,7 +2232,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 452 451 453 66 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2253,7 +2253,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 456 474 457 67 [bb 67] NOTE_INSN_BASIC_BLOCK)
 (call_insn 457 456 458 67 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2485,7 +2485,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 528 527 529 76 [bb 76] NOTE_INSN_BASIC_BLOCK)
 (call_insn 529 528 530 76 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2506,7 +2506,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 533 552 534 77 [bb 77] NOTE_INSN_BASIC_BLOCK)
 (call_insn 534 533 535 77 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2582,7 +2582,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 559 558 560 81 [bb 81] NOTE_INSN_BASIC_BLOCK)
 (call_insn 560 559 561 81 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2603,7 +2603,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 564 583 565 82 [bb 82] NOTE_INSN_BASIC_BLOCK)
 (call_insn 565 564 566 82 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2770,7 +2770,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 615 614 616 89 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2791,7 +2791,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 619 637 620 90 [bb 90] NOTE_INSN_BASIC_BLOCK)
 (call_insn 620 619 621 90 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2882,7 +2882,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 650 649 651 94 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2903,7 +2903,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 654 672 655 95 [bb 95] NOTE_INSN_BASIC_BLOCK)
 (call_insn 655 654 656 95 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3049,7 +3049,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 698 697 699 101 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3070,7 +3070,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 702 720 703 102 [bb 102] NOTE_INSN_BASIC_BLOCK)
 (call_insn 703 702 704 102 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3304,7 +3304,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 768 767 769 105 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3325,7 +3325,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 772 790 773 106 [bb 106] NOTE_INSN_BASIC_BLOCK)
 (call_insn 773 772 774 106 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3455,7 +3455,7 @@ Forwarding edge 113->114 to 124 failed.
      (nil))
 (call_insn 814 813 815 110 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3476,7 +3476,7 @@ Forwarding edge 113->114 to 124 failed.
 (note 818 836 819 111 [bb 111] NOTE_INSN_BASIC_BLOCK)
 (call_insn 819 818 820 111 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4137,7 +4137,7 @@ try_optimize_cfg iteration 2
 (note 65 64 66 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
 (call_insn 66 65 67 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("RCC_GetSysClockFreqFromPLLSource") [flags 0x3]  <function_decl 0x7fce6ede1b00 RCC_GetSysClockFreqFromPLLSource>) [0 RCC_GetSysClockFreqFromPLLSource S4 A32])
+                (call (mem:SI (symbol_ref:SI ("RCC_GetSysClockFreqFromPLLSource") [flags 0x3]  <function_decl 0x7f6a601e1b00 RCC_GetSysClockFreqFromPLLSource>) [0 RCC_GetSysClockFreqFromPLLSource S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4357,7 +4357,7 @@ try_optimize_cfg iteration 2
 (note 131 130 132 22 [bb 22] NOTE_INSN_BASIC_BLOCK)
 (call_insn 132 131 133 22 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x3]  <function_decl 0x7fce6f004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x3]  <function_decl 0x7f6a60404100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4451,7 +4451,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 159 158 160 24 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4472,7 +4472,7 @@ try_optimize_cfg iteration 2
 (note 163 185 164 25 [bb 25] NOTE_INSN_BASIC_BLOCK)
 (call_insn 164 163 165 25 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4790,7 +4790,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 260 259 261 37 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4811,7 +4811,7 @@ try_optimize_cfg iteration 2
 (note 264 283 265 38 [bb 38] NOTE_INSN_BASIC_BLOCK)
 (call_insn 265 264 266 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fce6edd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6a601d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4998,7 +4998,7 @@ try_optimize_cfg iteration 2
 (note 321 320 322 45 [bb 45] NOTE_INSN_BASIC_BLOCK)
 (call_insn 322 321 323 45 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x3]  <function_decl 0x7fce6f004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x3]  <function_decl 0x7f6a60404100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5025,7 +5025,7 @@ try_optimize_cfg iteration 2
             (const_int 15 [0xf]))) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:100 discrim 1 -1
      (nil))
 (insn 328 327 329 45 (set (reg/f:SI 268)
-        (symbol_ref:SI ("AHBPrescTable") [flags 0x40]  <var_decl 0x7fce6f94dab0 AHBPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:64 discrim 1 -1
+        (symbol_ref:SI ("AHBPrescTable") [flags 0x40]  <var_decl 0x7f6a60d4dab0 AHBPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:64 discrim 1 -1
      (nil))
 (insn 329 328 330 45 (set (reg:SI 227 [ _114 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 268)
@@ -5043,13 +5043,13 @@ try_optimize_cfg iteration 2
             (reg:SI 229 [ _116 ]))) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:47 discrim 1 -1
      (nil))
 (insn 333 332 334 45 (set (reg/f:SI 269)
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7fce6f94da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:19 discrim 1 -1
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f6a60d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:19 discrim 1 -1
      (nil))
 (insn 334 333 335 45 (set (mem/c:SI (reg/f:SI 269) [1 SystemCoreClock+0 S4 A32])
         (reg:SI 230 [ _117 ])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":935:19 discrim 1 -1
      (nil))
 (insn 335 334 336 45 (set (reg/f:SI 270)
-        (symbol_ref:SI ("uwTickPrio") [flags 0x40]  <var_decl 0x7fce6ed84c60 uwTickPrio>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":938:10 -1
+        (symbol_ref:SI ("uwTickPrio") [flags 0x40]  <var_decl 0x7f6a60184c60 uwTickPrio>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":938:10 -1
      (nil))
 (insn 336 335 337 45 (set (reg:SI 231 [ uwTickPrio.4_118 ])
         (mem/c:SI (reg/f:SI 270) [1 uwTickPrio+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":938:10 -1
@@ -5059,7 +5059,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 338 337 339 45 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_InitTick") [flags 0x41]  <function_decl 0x7fce6edd8c00 HAL_InitTick>) [0 HAL_InitTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_InitTick") [flags 0x41]  <function_decl 0x7f6a601d8c00 HAL_InitTick>) [0 HAL_InitTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5206,7 +5206,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1009:3 -1
      (nil))
 (call_insn 31 30 32 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fce6f004e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f6a60404e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5636,7 +5636,7 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7fce6f94da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1102:10 -1
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f6a60d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1102:10 -1
      (nil))
 (insn 6 5 9 2 (set (reg:SI 114 [ _2 ])
         (mem/c:SI (reg/f:SI 116) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1102:10 -1
@@ -5684,7 +5684,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetHCLKFreq") [flags 0x3]  <function_decl 0x7fce6f004200 HAL_RCC_GetHCLKFreq>) [0 HAL_RCC_GetHCLKFreq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetHCLKFreq") [flags 0x3]  <function_decl 0x7f6a60404200 HAL_RCC_GetHCLKFreq>) [0 HAL_RCC_GetHCLKFreq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5711,7 +5711,7 @@ try_optimize_cfg iteration 2
             (const_int 7 [0x7]))) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1114:87 discrim 1 -1
      (nil))
 (insn 11 10 12 2 (set (reg/f:SI 124)
-        (symbol_ref:SI ("APBPrescTable") [flags 0x40]  <var_decl 0x7fce6f94db40 APBPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1114:50 discrim 1 -1
+        (symbol_ref:SI ("APBPrescTable") [flags 0x40]  <var_decl 0x7f6a60d4db40 APBPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1114:50 discrim 1 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 119 [ _6 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 124)
@@ -5771,7 +5771,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetHCLKFreq") [flags 0x3]  <function_decl 0x7fce6f004200 HAL_RCC_GetHCLKFreq>) [0 HAL_RCC_GetHCLKFreq S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetHCLKFreq") [flags 0x3]  <function_decl 0x7f6a60404200 HAL_RCC_GetHCLKFreq>) [0 HAL_RCC_GetHCLKFreq S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5798,7 +5798,7 @@ try_optimize_cfg iteration 2
             (const_int 7 [0x7]))) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1126:86 discrim 1 -1
      (nil))
 (insn 11 10 12 2 (set (reg/f:SI 124)
-        (symbol_ref:SI ("APBPrescTable") [flags 0x40]  <var_decl 0x7fce6f94db40 APBPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1126:49 discrim 1 -1
+        (symbol_ref:SI ("APBPrescTable") [flags 0x40]  <var_decl 0x7f6a60d4db40 APBPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_rcc.c":1126:49 discrim 1 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 119 [ _6 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 124)
@@ -6818,7 +6818,7 @@ try_optimize_cfg iteration 2
  -> 17)
 (note 10 9 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 11 10 12 4 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_RCC_CSSCallback") [flags 0x3]  <function_decl 0x7fce6f004800 HAL_RCC_CSSCallback>) [0 HAL_RCC_CSSCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_RCC_CSSCallback") [flags 0x3]  <function_decl 0x7f6a60404800 HAL_RCC_CSSCallback>) [0 HAL_RCC_CSSCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

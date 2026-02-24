@@ -103,6 +103,7 @@ int main(void)
 			}else{
 				current_state = START_APPLICATION;
 			}
+			current_state = START_APPLICATION;
 
 
 			break;
@@ -121,6 +122,7 @@ int main(void)
 
 				int8_t res = Auth_ReadKey(key, &key_len);
 
+				//uint8_t key[] = "VP2026";
 				copy_and_decrypt_auth_section(key);
 
 				verify();

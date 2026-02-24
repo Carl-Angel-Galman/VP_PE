@@ -116,7 +116,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnand+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nand.c":184:5 -1
      (nil))
 (call_insn 29 28 30 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_MspInit") [flags 0x3]  <function_decl 0x7f6c63794400 HAL_NAND_MspInit>) [0 HAL_NAND_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_MspInit") [flags 0x3]  <function_decl 0x7fe88d194400 HAL_NAND_MspInit>) [0 HAL_NAND_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -150,7 +150,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 38 37 39 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_Init") [flags 0x41]  <function_decl 0x7f6c63777800 FMC_NAND_Init>) [0 FMC_NAND_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_Init") [flags 0x41]  <function_decl 0x7fe88d177800 FMC_NAND_Init>) [0 FMC_NAND_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -187,7 +187,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_CommonSpace_Timing_Init") [flags 0x41]  <function_decl 0x7f6c63777900 FMC_NAND_CommonSpace_Timing_Init>) [0 FMC_NAND_CommonSpace_Timing_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_CommonSpace_Timing_Init") [flags 0x41]  <function_decl 0x7fe88d177900 FMC_NAND_CommonSpace_Timing_Init>) [0 FMC_NAND_CommonSpace_Timing_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -225,7 +225,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 54 53 55 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_AttributeSpace_Timing_Init") [flags 0x41]  <function_decl 0x7f6c63777a00 FMC_NAND_AttributeSpace_Timing_Init>) [0 FMC_NAND_AttributeSpace_Timing_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_AttributeSpace_Timing_Init") [flags 0x41]  <function_decl 0x7fe88d177a00 FMC_NAND_AttributeSpace_Timing_Init>) [0 FMC_NAND_AttributeSpace_Timing_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -329,7 +329,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnand+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nand.c":224:3 -1
      (nil))
 (call_insn 7 6 8 2 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_MspDeInit") [flags 0x3]  <function_decl 0x7f6c63794500 HAL_NAND_MspDeInit>) [0 HAL_NAND_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_MspDeInit") [flags 0x3]  <function_decl 0x7fe88d194500 HAL_NAND_MspDeInit>) [0 HAL_NAND_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -361,7 +361,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_DeInit") [flags 0x41]  <function_decl 0x7f6c63777b00 FMC_NAND_DeInit>) [0 FMC_NAND_DeInit S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_DeInit") [flags 0x41]  <function_decl 0x7fe88d177b00 FMC_NAND_DeInit>) [0 FMC_NAND_DeInit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -552,7 +552,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnand+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nand.c":287:5 -1
      (nil))
 (call_insn 14 13 15 4 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7f6c63794700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7fe88d194700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -621,7 +621,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnand+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nand.c":301:5 -1
      (nil))
 (call_insn 32 31 33 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7f6c63794700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7fe88d194700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -690,7 +690,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnand+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nand.c":315:5 -1
      (nil))
 (call_insn 50 49 51 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7f6c63794700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7fe88d194700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -759,7 +759,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnand+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nand.c":329:5 -1
      (nil))
 (call_insn 68 67 69 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7f6c63794700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NAND_ITCallback") [flags 0x3]  <function_decl 0x7fe88d194700 HAL_NAND_ITCallback>) [0 HAL_NAND_ITCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2911,7 +2911,7 @@ try_optimize_cfg iteration 2
 (note 280 279 281 35 [bb 35] NOTE_INSN_BASIC_BLOCK)
 (call_insn 281 280 282 35 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2932,7 +2932,7 @@ try_optimize_cfg iteration 2
 (note 285 311 286 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
 (call_insn 286 285 287 36 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3007,7 +3007,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 309 308 310 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4411,7 +4411,7 @@ try_optimize_cfg iteration 2
 (note 280 279 281 35 [bb 35] NOTE_INSN_BASIC_BLOCK)
 (call_insn 281 280 282 35 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4432,7 +4432,7 @@ try_optimize_cfg iteration 2
 (note 285 311 286 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
 (call_insn 286 285 287 36 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4507,7 +4507,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 309 308 310 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6007,7 +6007,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 311 412 312 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6028,7 +6028,7 @@ try_optimize_cfg iteration 2
 (note 315 341 316 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
 (call_insn 316 315 317 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6103,7 +6103,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 339 338 340 42 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7493,7 +7493,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 311 412 312 38 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7514,7 +7514,7 @@ try_optimize_cfg iteration 2
 (note 315 341 316 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
 (call_insn 316 315 317 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7589,7 +7589,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 339 338 340 42 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8953,7 +8953,7 @@ try_optimize_cfg iteration 2
 (note 297 296 298 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
 (call_insn 298 297 299 36 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8974,7 +8974,7 @@ try_optimize_cfg iteration 2
 (note 302 328 303 37 [bb 37] NOTE_INSN_BASIC_BLOCK)
 (call_insn 303 302 304 37 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9049,7 +9049,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 326 325 327 39 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10523,7 +10523,7 @@ try_optimize_cfg iteration 2
 (note 297 296 298 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
 (call_insn 298 297 299 36 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10544,7 +10544,7 @@ try_optimize_cfg iteration 2
 (note 302 328 303 37 [bb 37] NOTE_INSN_BASIC_BLOCK)
 (call_insn 303 302 304 37 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10619,7 +10619,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 326 325 327 39 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12223,7 +12223,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 336 439 337 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12244,7 +12244,7 @@ try_optimize_cfg iteration 2
 (note 340 366 341 42 [bb 42] NOTE_INSN_BASIC_BLOCK)
 (call_insn 341 340 342 42 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12319,7 +12319,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 364 363 365 44 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13813,7 +13813,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 336 439 337 40 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13834,7 +13834,7 @@ try_optimize_cfg iteration 2
 (note 340 366 341 42 [bb 42] NOTE_INSN_BASIC_BLOCK)
 (call_insn 341 340 342 42 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f6c635d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe88cfd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13909,7 +13909,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 364 363 365 44 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7f6c6379c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_NAND_Read_Status") [flags 0x3]  <function_decl 0x7fe88d19c700 HAL_NAND_Read_Status>) [0 HAL_NAND_Read_Status S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15117,7 +15117,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 35 34 36 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_ECC_Enable") [flags 0x41]  <function_decl 0x7f6c63777c00 FMC_NAND_ECC_Enable>) [0 FMC_NAND_ECC_Enable S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_ECC_Enable") [flags 0x41]  <function_decl 0x7fe88d177c00 FMC_NAND_ECC_Enable>) [0 FMC_NAND_ECC_Enable S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15308,7 +15308,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 35 34 36 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_ECC_Disable") [flags 0x41]  <function_decl 0x7f6c63777d00 FMC_NAND_ECC_Disable>) [0 FMC_NAND_ECC_Disable S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_ECC_Disable") [flags 0x41]  <function_decl 0x7fe88d177d00 FMC_NAND_ECC_Disable>) [0 FMC_NAND_ECC_Disable S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15515,7 +15515,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("FMC_NAND_GetECC") [flags 0x41]  <function_decl 0x7f6c63777e00 FMC_NAND_GetECC>) [0 FMC_NAND_GetECC S4 A32])
+                (call (mem:SI (symbol_ref:SI ("FMC_NAND_GetECC") [flags 0x41]  <function_decl 0x7fe88d177e00 FMC_NAND_GetECC>) [0 FMC_NAND_GetECC S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

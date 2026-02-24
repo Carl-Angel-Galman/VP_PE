@@ -257,7 +257,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 64 63 65 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableFindState") [flags 0x3]  <function_decl 0x7f4450e51f00 stateTableFindState>) [0 stateTableFindState S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableFindState") [flags 0x3]  <function_decl 0x7f7010451f00 stateTableFindState>) [0 stateTableFindState S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -292,7 +292,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 71 70 72 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableFindState") [flags 0x3]  <function_decl 0x7f4450e51f00 stateTableFindState>) [0 stateTableFindState S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableFindState") [flags 0x3]  <function_decl 0x7f7010451f00 stateTableFindState>) [0 stateTableFindState S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -489,7 +489,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 121 120 122 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableFindState") [flags 0x3]  <function_decl 0x7f4450e51f00 stateTableFindState>) [0 stateTableFindState S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableFindState") [flags 0x3]  <function_decl 0x7f7010451f00 stateTableFindState>) [0 stateTableFindState S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

@@ -763,7 +763,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [11 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":289:3 -1
      (nil))
 (call_insn 45 44 46 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARDEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7f98221e1b00 SMARTCARDEx_SetNbDataToProcess>) [0 SMARTCARDEx_SetNbDataToProcess S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARDEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7fd9cc3e1b00 SMARTCARDEx_SetNbDataToProcess>) [0 SMARTCARDEx_SetNbDataToProcess S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1190,7 +1190,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [11 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":373:3 -1
      (nil))
 (call_insn 45 44 46 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARDEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7f98221e1b00 SMARTCARDEx_SetNbDataToProcess>) [0 SMARTCARDEx_SetNbDataToProcess S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARDEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7fd9cc3e1b00 SMARTCARDEx_SetNbDataToProcess>) [0 SMARTCARDEx_SetNbDataToProcess S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1443,7 +1443,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [11 hsmartcard+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":422:3 -1
      (nil))
 (call_insn 45 44 46 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMARTCARDEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7f98221e1b00 SMARTCARDEx_SetNbDataToProcess>) [0 SMARTCARDEx_SetNbDataToProcess S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMARTCARDEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7fd9cc3e1b00 SMARTCARDEx_SetNbDataToProcess>) [0 SMARTCARDEx_SetNbDataToProcess S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1704,7 +1704,7 @@ try_optimize_cfg iteration 2
                     (const_int -4 [0xfffffffffffffffc])) [0 tx_fifo_threshold+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":475:73 -1
      (nil))
 (insn 47 46 48 5 (set (reg/f:SI 160)
-        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7f98221ed6c0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":475:73 -1
+        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7fd9cc3ed6c0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":475:73 -1
      (nil))
 (insn 48 47 49 5 (set (reg:SI 125 [ _12 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 160)
@@ -1722,7 +1722,7 @@ try_optimize_cfg iteration 2
                     (const_int -4 [0xfffffffffffffffc])) [0 tx_fifo_threshold+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":476:58 -1
      (nil))
 (insn 52 51 53 5 (set (reg/f:SI 161)
-        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7f98221ed7e0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":476:58 -1
+        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7fd9cc3ed7e0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":476:58 -1
      (nil))
 (insn 53 52 54 5 (set (reg:SI 129 [ _16 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 161)
@@ -1758,7 +1758,7 @@ try_optimize_cfg iteration 2
                     (const_int -3 [0xfffffffffffffffd])) [0 rx_fifo_threshold+0 S1 A8]))) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":477:73 -1
      (nil))
 (insn 62 61 63 5 (set (reg/f:SI 164)
-        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7f98221ed6c0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":477:73 -1
+        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7fd9cc3ed6c0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":477:73 -1
      (nil))
 (insn 63 62 64 5 (set (reg:SI 135 [ _22 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 164)
@@ -1776,7 +1776,7 @@ try_optimize_cfg iteration 2
                     (const_int -3 [0xfffffffffffffffd])) [0 rx_fifo_threshold+0 S1 A8]))) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":478:58 -1
      (nil))
 (insn 67 66 68 5 (set (reg/f:SI 165)
-        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7f98221ed7e0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":478:58 -1
+        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7fd9cc3ed7e0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_smartcard_ex.c":478:58 -1
      (nil))
 (insn 68 67 69 5 (set (reg:SI 139 [ _26 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 165)

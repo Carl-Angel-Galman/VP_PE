@@ -6269,7 +6269,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 712) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":375:7 -1
      (nil))
 (call_insn 79 78 80 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7516,7 +7516,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 940) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":399:13 -1
      (nil))
 (call_insn 455 454 456 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8458,7 +8458,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1117) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":417:13 -1
      (nil))
 (call_insn 742 741 743 39 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9074,7 +9074,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1207) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":426:13 -1
      (nil))
 (call_insn 927 926 928 52 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9863,7 +9863,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1333) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":444:13 -1
      (nil))
 (call_insn 1163 1162 1164 67 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10217,7 +10217,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1392) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":460:11 -1
      (nil))
 (call_insn 1265 1264 1266 68 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11074,7 +11074,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1519) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":481:11 -1
      (nil))
 (call_insn 1519 1518 1520 82 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11879,7 +11879,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1646) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":501:13 -1
      (nil))
 (call_insn 1759 1758 1760 98 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12495,7 +12495,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1736) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":511:11 -1
      (nil))
 (call_insn 1944 1943 1945 111 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13300,7 +13300,7 @@ try_optimize_cfg iteration 2
         (mem/f/c:SI (reg/f:SI 1863) [7 USBx+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_usb.c":531:13 -1
      (nil))
 (call_insn 2184 2183 2185 127 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7f98e63c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x3]  <function_decl 0x7fb677bc3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
