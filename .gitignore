@@ -1,5 +1,8 @@
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2a3d7f89050ac41f2ace7c9242797663db98bf28
 build/
 .project 
 .cproject
@@ -7,7 +10,11 @@ build/
 
 bin/
 out/
+<<<<<<< HEAD
 obj/*.o
+=======
+obj/
+>>>>>>> 2a3d7f89050ac41f2ace7c9242797663db98bf28
 
 *.o
 *.elf

@@ -129,11 +129,17 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[])
 	}
 
 	uint8_t  *dst = &_sauth;
+<<<<<<< HEAD
+=======
+    const uint8_t  *src = &_sloadauth;
+    size_t section_len = (size_t)(&_eauth - &_sauth);
+>>>>>>> 2a3d7f89050ac41f2ace7c9242797663db98bf28
 
 	const uint8_t  *src = &_sloadauth;
 
 	size_t len = (size_t)(&_eauth - &_sauth);
 
+<<<<<<< HEAD
 //    for (size_t i = 0; i < len; i++)
 //	{
 //		dst[i] ^= key[i % key_len];
@@ -145,6 +151,20 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[])
 
     memcpy(dst, src, len);  // copy to RAM
 
+=======
+    memcpy(dst, src, section_len);
+
+<<<<<<< HEAD
+    for (size_t i = 0; i < section_len; i++)
+	{
+		dst[i] ^= key[i % key_len];
+	}
+
+    __DSB();__ISB();
+=======
+    //__DSB();__ISB();
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
+>>>>>>> 2a3d7f89050ac41f2ace7c9242797663db98bf28
 
     return AUTH_ERR_OK;
 }
