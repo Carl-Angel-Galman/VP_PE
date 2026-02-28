@@ -184,14 +184,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 9 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_MspInit") [flags 0x3]  <function_decl 0x7f5698759a00 HAL_LPTIM_MspInit>) [0 HAL_LPTIM_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_MspInit") [flags 0x3]  <function_decl 0x7fb2f2759a00 HAL_LPTIM_MspInit>) [0 HAL_LPTIM_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_MspInit") [flags 0x3]  <function_decl 0x7fdb4e159a00 HAL_LPTIM_MspInit>) [0 HAL_LPTIM_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -796,14 +802,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 20 19 21 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -819,14 +831,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -869,14 +887,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_MspDeInit") [flags 0x3]  <function_decl 0x7f5698759b00 HAL_LPTIM_MspDeInit>) [0 HAL_LPTIM_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_MspDeInit") [flags 0x3]  <function_decl 0x7fb2f2759b00 HAL_LPTIM_MspDeInit>) [0 HAL_LPTIM_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_MspDeInit") [flags 0x3]  <function_decl 0x7fdb4e159b00 HAL_LPTIM_MspDeInit>) [0 HAL_LPTIM_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1143,14 +1167,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1227,14 +1257,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1383,14 +1419,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1406,14 +1448,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1640,14 +1688,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1724,14 +1778,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1775,14 +1835,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1798,14 +1864,20 @@ try_optimize_cfg iteration 2
 (call_insn 71 70 72 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2138,14 +2210,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2161,14 +2239,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2542,14 +2626,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2626,14 +2716,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2782,14 +2878,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2805,14 +2907,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3039,14 +3147,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3123,14 +3237,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3174,14 +3294,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3197,14 +3323,20 @@ try_optimize_cfg iteration 2
 (call_insn 71 70 72 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3537,14 +3669,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3560,14 +3698,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3941,14 +4085,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4025,14 +4175,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4181,14 +4337,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4204,14 +4366,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4438,14 +4606,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4522,14 +4696,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4573,14 +4753,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4596,14 +4782,20 @@ try_optimize_cfg iteration 2
 (call_insn 71 70 72 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4936,14 +5128,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4959,14 +5157,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5394,14 +5598,20 @@ try_optimize_cfg iteration 2
 (call_insn 51 50 52 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5550,14 +5760,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5573,14 +5789,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5883,14 +6105,20 @@ try_optimize_cfg iteration 2
 (call_insn 51 50 52 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5934,14 +6162,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 63 62 64 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5957,14 +6191,20 @@ try_optimize_cfg iteration 2
 (call_insn 65 64 66 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6190,14 +6430,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6213,14 +6459,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6517,14 +6769,20 @@ try_optimize_cfg iteration 2
 (call_insn 36 35 37 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6601,14 +6859,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6757,14 +7021,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6780,14 +7050,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7054,14 +7330,20 @@ try_optimize_cfg iteration 2
 (call_insn 41 40 42 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7138,14 +7420,20 @@ try_optimize_cfg iteration 2
 (call_insn 62 61 63 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7189,14 +7477,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 74 73 75 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7212,14 +7506,20 @@ try_optimize_cfg iteration 2
 (call_insn 76 75 77 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7437,14 +7737,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7460,14 +7766,20 @@ try_optimize_cfg iteration 2
 (call_insn 18 17 19 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7778,14 +8090,20 @@ try_optimize_cfg iteration 2
 (call_insn 47 46 48 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7934,14 +8252,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7957,14 +8281,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8245,14 +8575,20 @@ try_optimize_cfg iteration 2
 (call_insn 52 51 53 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8296,14 +8632,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 64 63 65 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8319,14 +8661,20 @@ try_optimize_cfg iteration 2
 (call_insn 66 65 67 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8570,14 +8918,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7f5698777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fb2f2777000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LPTIM_Disable") [flags 0x3]  <function_decl 0x7fdb4e177000 LPTIM_Disable>) [0 LPTIM_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8593,14 +8947,20 @@ try_optimize_cfg iteration 2
 (call_insn 18 17 19 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7f5698770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fb2f2770f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_LPTIM_GetState") [flags 0x3]  <function_decl 0x7fdb4e170f00 HAL_LPTIM_GetState>) [0 HAL_LPTIM_GetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9032,14 +9392,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 25 24 26 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_CompareMatchCallback") [flags 0x3]  <function_decl 0x7f5698770800 HAL_LPTIM_CompareMatchCallback>) [0 HAL_LPTIM_CompareMatchCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_CompareMatchCallback") [flags 0x3]  <function_decl 0x7fb2f2770800 HAL_LPTIM_CompareMatchCallback>) [0 HAL_LPTIM_CompareMatchCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_CompareMatchCallback") [flags 0x3]  <function_decl 0x7fdb4e170800 HAL_LPTIM_CompareMatchCallback>) [0 HAL_LPTIM_CompareMatchCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9123,14 +9489,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 47 46 48 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_AutoReloadMatchCallback") [flags 0x3]  <function_decl 0x7f5698770900 HAL_LPTIM_AutoReloadMatchCallback>) [0 HAL_LPTIM_AutoReloadMatchCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_AutoReloadMatchCallback") [flags 0x3]  <function_decl 0x7fb2f2770900 HAL_LPTIM_AutoReloadMatchCallback>) [0 HAL_LPTIM_AutoReloadMatchCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_AutoReloadMatchCallback") [flags 0x3]  <function_decl 0x7fdb4e170900 HAL_LPTIM_AutoReloadMatchCallback>) [0 HAL_LPTIM_AutoReloadMatchCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9214,14 +9586,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_TriggerCallback") [flags 0x3]  <function_decl 0x7f5698770a00 HAL_LPTIM_TriggerCallback>) [0 HAL_LPTIM_TriggerCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_TriggerCallback") [flags 0x3]  <function_decl 0x7fb2f2770a00 HAL_LPTIM_TriggerCallback>) [0 HAL_LPTIM_TriggerCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_TriggerCallback") [flags 0x3]  <function_decl 0x7fdb4e170a00 HAL_LPTIM_TriggerCallback>) [0 HAL_LPTIM_TriggerCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9305,14 +9683,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 91 90 92 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_CompareWriteCallback") [flags 0x3]  <function_decl 0x7f5698770b00 HAL_LPTIM_CompareWriteCallback>) [0 HAL_LPTIM_CompareWriteCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_CompareWriteCallback") [flags 0x3]  <function_decl 0x7fb2f2770b00 HAL_LPTIM_CompareWriteCallback>) [0 HAL_LPTIM_CompareWriteCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_CompareWriteCallback") [flags 0x3]  <function_decl 0x7fdb4e170b00 HAL_LPTIM_CompareWriteCallback>) [0 HAL_LPTIM_CompareWriteCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9396,14 +9780,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 113 112 114 17 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_AutoReloadWriteCallback") [flags 0x3]  <function_decl 0x7f5698770c00 HAL_LPTIM_AutoReloadWriteCallback>) [0 HAL_LPTIM_AutoReloadWriteCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_AutoReloadWriteCallback") [flags 0x3]  <function_decl 0x7fb2f2770c00 HAL_LPTIM_AutoReloadWriteCallback>) [0 HAL_LPTIM_AutoReloadWriteCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_AutoReloadWriteCallback") [flags 0x3]  <function_decl 0x7fdb4e170c00 HAL_LPTIM_AutoReloadWriteCallback>) [0 HAL_LPTIM_AutoReloadWriteCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9487,14 +9877,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 135 134 136 20 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_DirectionUpCallback") [flags 0x3]  <function_decl 0x7f5698770d00 HAL_LPTIM_DirectionUpCallback>) [0 HAL_LPTIM_DirectionUpCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_DirectionUpCallback") [flags 0x3]  <function_decl 0x7fb2f2770d00 HAL_LPTIM_DirectionUpCallback>) [0 HAL_LPTIM_DirectionUpCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_DirectionUpCallback") [flags 0x3]  <function_decl 0x7fdb4e170d00 HAL_LPTIM_DirectionUpCallback>) [0 HAL_LPTIM_DirectionUpCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9578,14 +9974,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 157 156 160 23 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_DirectionDownCallback") [flags 0x3]  <function_decl 0x7f5698770e00 HAL_LPTIM_DirectionDownCallback>) [0 HAL_LPTIM_DirectionDownCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_DirectionDownCallback") [flags 0x3]  <function_decl 0x7fb2f2770e00 HAL_LPTIM_DirectionDownCallback>) [0 HAL_LPTIM_DirectionDownCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_LPTIM_DirectionDownCallback") [flags 0x3]  <function_decl 0x7fdb4e170e00 HAL_LPTIM_DirectionDownCallback>) [0 HAL_LPTIM_DirectionDownCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9932,14 +10334,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 10 9 11 2 (set (reg/f:SI 123)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f569914da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_lptim.c":2326:54 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7fb2f314da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_lptim.c":2326:54 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7fdb4eb4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_lptim.c":2326:54 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 11 10 12 2 (set (reg:SI 114 [ SystemCoreClock.0_1 ])
         (mem/c:SI (reg/f:SI 123) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_lptim.c":2326:54 -1
@@ -10515,14 +10923,20 @@ try_optimize_cfg iteration 2
 (call_insn 114 113 115 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10649,14 +11063,20 @@ try_optimize_cfg iteration 2
 (call_insn 149 148 150 20 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7f56985e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fb2f25e1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LPTIM_WaitForFlag") [flags 0x3]  <function_decl 0x7fdb4dfe1b00 LPTIM_WaitForFlag>) [0 LPTIM_WaitForFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

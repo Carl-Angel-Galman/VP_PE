@@ -74,14 +74,20 @@ try_optimize_cfg iteration 2
 (note 4 3 7 2 NOTE_INSN_FUNCTION_BEG)
 (insn 7 4 8 2 (set (reg/f:SI 152)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 8 7 9 2 (set (reg:SI 114 [ _1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 152) [0 pFlash.Lock+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 -1
@@ -110,14 +116,20 @@ try_optimize_cfg iteration 2
 (note 16 15 17 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (insn 17 16 18 5 (set (reg/f:SI 153)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 discrim 2 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 discrim 2 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 discrim 2 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 18 17 19 5 (set (reg:SI 154)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":148:3 discrim 2 -1
@@ -134,14 +146,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -178,14 +196,20 @@ try_optimize_cfg iteration 2
 (note 29 28 30 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (insn 30 29 31 6 (set (reg/f:SI 159)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":155:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":155:22 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":155:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 31 30 32 6 (set (reg:SI 160)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":155:22 -1
@@ -272,14 +296,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 55 54 56 8 (set (reg/f:SI 161)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":167:34 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":167:34 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":167:34 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 56 55 57 8 (set (reg:SI 162)
         (const_int 3 [0x3])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":167:34 -1
@@ -300,14 +330,20 @@ try_optimize_cfg iteration 2
 (note 62 61 63 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (insn 63 62 64 9 (set (reg/f:SI 164)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":171:34 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":171:34 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":171:34 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 64 63 65 9 (set (reg:SI 165)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":171:34 -1
@@ -366,14 +402,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 82 81 83 11 (set (reg/f:SI 167)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":178:32 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":178:32 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":178:32 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 83 82 84 11 (set (reg:SI 168)
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":178:32 -1
@@ -394,14 +436,20 @@ try_optimize_cfg iteration 2
 (note 89 88 90 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
 (insn 90 89 91 12 (set (reg/f:SI 170)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":182:32 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":182:32 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":182:32 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 91 90 92 12 (set (reg:SI 171)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":182:32 -1
@@ -447,14 +495,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 104 103 105 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_MassErase") [flags 0x3]  <function_decl 0x7f2c95fe1b00 FLASH_MassErase>) [0 FLASH_MassErase S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_MassErase") [flags 0x3]  <function_decl 0x7f04641e1b00 FLASH_MassErase>) [0 FLASH_MassErase S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_MassErase") [flags 0x3]  <function_decl 0x7fdd177e1b00 FLASH_MassErase>) [0 FLASH_MassErase S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -469,14 +523,20 @@ try_optimize_cfg iteration 2
 (call_insn 106 105 107 14 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -572,14 +632,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x3]  <function_decl 0x7f2c9603d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x3]  <function_decl 0x7f046423d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x3]  <function_decl 0x7fdd1783d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -595,14 +661,20 @@ try_optimize_cfg iteration 2
 (call_insn 135 134 136 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -732,14 +804,20 @@ try_optimize_cfg iteration 2
 (note 171 170 172 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
 (call_insn 172 171 173 20 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x3]  <function_decl 0x7f2c9603d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x3]  <function_decl 0x7f046423d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_FlushCaches") [flags 0x3]  <function_decl 0x7fdd1783d300 FLASH_FlushCaches>) [0 FLASH_FlushCaches S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -751,14 +829,20 @@ try_optimize_cfg iteration 2
 (note 174 173 175 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
 (insn 175 174 176 21 (set (reg/f:SI 192)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":230:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":230:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":230:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 176 175 177 21 (set (reg:SI 193)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":230:3 -1
@@ -853,14 +937,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 9 8 10 2 (set (reg/f:SI 151)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 10 9 11 2 (set (reg:SI 114 [ _1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 151) [0 pFlash.Lock+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 -1
@@ -889,14 +979,20 @@ try_optimize_cfg iteration 2
 (note 18 17 19 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (insn 19 18 20 5 (set (reg/f:SI 152)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 discrim 2 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 discrim 2 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 discrim 2 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 20 19 21 5 (set (reg:SI 153)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":246:3 discrim 2 -1
@@ -909,14 +1005,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 23 22 24 5 (set (reg/f:SI 155)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":251:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":251:20 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":251:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 24 23 25 5 (set (reg:SI 156)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":251:20 -1
@@ -1003,14 +1105,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 48 47 49 7 (set (reg/f:SI 157)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":263:32 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":263:32 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":263:32 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 49 48 50 7 (set (reg:SI 158)
         (const_int 3 [0x3])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":263:32 -1
@@ -1031,14 +1139,20 @@ try_optimize_cfg iteration 2
 (note 55 54 56 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (insn 56 55 57 8 (set (reg/f:SI 160)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":267:32 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":267:32 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":267:32 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 57 56 58 8 (set (reg:SI 161)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":267:32 -1
@@ -1097,14 +1211,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 75 74 76 10 (set (reg/f:SI 163)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":274:30 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":274:30 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":274:30 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 76 75 77 10 (set (reg:SI 164)
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":274:30 -1
@@ -1125,14 +1245,20 @@ try_optimize_cfg iteration 2
 (note 82 81 83 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 83 82 84 11 (set (reg/f:SI 166)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":278:30 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":278:30 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":278:30 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 84 83 85 11 (set (reg:SI 167)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":278:30 -1
@@ -1174,14 +1300,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 96 95 97 12 (set (reg/f:SI 170)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":284:15 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":284:15 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":284:15 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 97 96 98 12 (set (mem/v/c:SI (plus:SI (reg/f:SI 170)
                 (const_int 16 [0x10])) [2 pFlash.Bank+0 S4 A32])
@@ -1208,14 +1340,20 @@ try_optimize_cfg iteration 2
 (note 102 101 103 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
 (insn 103 102 104 13 (set (reg/f:SI 172)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":289:29 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":289:29 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":289:29 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 104 103 105 13 (set (reg:SI 173)
         (const_int 2 [0x2])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":289:29 -1
@@ -1240,14 +1378,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 110 109 111 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_MassErase") [flags 0x3]  <function_decl 0x7f2c95fe1b00 FLASH_MassErase>) [0 FLASH_MassErase S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_MassErase") [flags 0x3]  <function_decl 0x7f04641e1b00 FLASH_MassErase>) [0 FLASH_MassErase S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_MassErase") [flags 0x3]  <function_decl 0x7fdd177e1b00 FLASH_MassErase>) [0 FLASH_MassErase S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1265,14 +1409,20 @@ try_optimize_cfg iteration 2
 (note 114 113 115 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (insn 115 114 116 14 (set (reg/f:SI 176)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":295:29 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":295:29 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":295:29 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 116 115 117 14 (set (reg:SI 177)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":295:29 -1
@@ -1294,14 +1444,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 121 120 122 14 (set (reg/f:SI 180)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":296:27 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":296:27 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":296:27 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 122 121 123 14 (set (mem/v/c:SI (plus:SI (reg/f:SI 180)
                 (const_int 24 [0x18])) [2 pFlash.NbPagesToErase+0 S4 A32])
@@ -1317,14 +1473,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 125 124 126 14 (set (reg/f:SI 182)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":297:17 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":297:17 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":297:17 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 126 125 127 14 (set (mem/v/c:SI (plus:SI (reg/f:SI 182)
                 (const_int 20 [0x14])) [2 pFlash.Page+0 S4 A32])
@@ -1354,14 +1516,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x3]  <function_decl 0x7f2c9603d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x3]  <function_decl 0x7f046423d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_PageErase") [flags 0x3]  <function_decl 0x7fdd1783d200 FLASH_PageErase>) [0 FLASH_PageErase S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1475,14 +1643,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 9 8 10 2 (set (reg/f:SI 151)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 10 9 11 2 (set (reg:SI 114 [ _1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 151) [0 pFlash.Lock+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 -1
@@ -1511,14 +1685,20 @@ try_optimize_cfg iteration 2
 (note 18 17 19 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (insn 19 18 20 5 (set (reg/f:SI 152)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 discrim 2 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 discrim 2 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 discrim 2 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 20 19 21 5 (set (reg:SI 153)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":325:3 discrim 2 -1
@@ -1531,14 +1711,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 23 22 24 5 (set (reg/f:SI 155)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":327:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":327:20 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":327:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 24 23 25 5 (set (reg:SI 156)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":327:20 -1
@@ -1606,14 +1792,20 @@ try_optimize_cfg iteration 2
 (call_insn 41 40 42 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_WRPConfig") [flags 0x3]  <function_decl 0x7f2c95fe1c00 FLASH_OB_WRPConfig>) [0 FLASH_OB_WRPConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_WRPConfig") [flags 0x3]  <function_decl 0x7f04641e1c00 FLASH_OB_WRPConfig>) [0 FLASH_OB_WRPConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_WRPConfig") [flags 0x3]  <function_decl 0x7fdd177e1c00 FLASH_OB_WRPConfig>) [0 FLASH_OB_WRPConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1691,14 +1883,20 @@ try_optimize_cfg iteration 2
 (call_insn 61 60 62 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_RDPConfig") [flags 0x3]  <function_decl 0x7f2c95fe1d00 FLASH_OB_RDPConfig>) [0 FLASH_OB_RDPConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_RDPConfig") [flags 0x3]  <function_decl 0x7f04641e1d00 FLASH_OB_RDPConfig>) [0 FLASH_OB_RDPConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_RDPConfig") [flags 0x3]  <function_decl 0x7fdd177e1d00 FLASH_OB_RDPConfig>) [0 FLASH_OB_RDPConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1785,14 +1983,20 @@ try_optimize_cfg iteration 2
 (call_insn 84 83 85 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_UserConfig") [flags 0x3]  <function_decl 0x7f2c95fe1e00 FLASH_OB_UserConfig>) [0 FLASH_OB_UserConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_UserConfig") [flags 0x3]  <function_decl 0x7f04641e1e00 FLASH_OB_UserConfig>) [0 FLASH_OB_UserConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_UserConfig") [flags 0x3]  <function_decl 0x7fdd177e1e00 FLASH_OB_UserConfig>) [0 FLASH_OB_UserConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1919,14 +2123,20 @@ try_optimize_cfg iteration 2
 (call_insn 117 116 118 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_PCROPConfig") [flags 0x3]  <function_decl 0x7f2c95fe1f00 FLASH_OB_PCROPConfig>) [0 FLASH_OB_PCROPConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_PCROPConfig") [flags 0x3]  <function_decl 0x7f04641e1f00 FLASH_OB_PCROPConfig>) [0 FLASH_OB_PCROPConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_PCROPConfig") [flags 0x3]  <function_decl 0x7fdd177e1f00 FLASH_OB_PCROPConfig>) [0 FLASH_OB_PCROPConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2015,14 +2225,20 @@ try_optimize_cfg iteration 2
 (call_insn 140 139 141 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_SecMemConfig") [flags 0x3]  <function_decl 0x7f2c95fe3400 FLASH_OB_SecMemConfig>) [0 FLASH_OB_SecMemConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_SecMemConfig") [flags 0x3]  <function_decl 0x7f04641e3400 FLASH_OB_SecMemConfig>) [0 FLASH_OB_SecMemConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_SecMemConfig") [flags 0x3]  <function_decl 0x7fdd177e3400 FLASH_OB_SecMemConfig>) [0 FLASH_OB_SecMemConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2099,14 +2315,20 @@ try_optimize_cfg iteration 2
 (call_insn 160 159 161 22 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_BootLockConfig") [flags 0x3]  <function_decl 0x7f2c95fe3600 FLASH_OB_BootLockConfig>) [0 FLASH_OB_BootLockConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_BootLockConfig") [flags 0x3]  <function_decl 0x7f04641e3600 FLASH_OB_BootLockConfig>) [0 FLASH_OB_BootLockConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_BootLockConfig") [flags 0x3]  <function_decl 0x7fdd177e3600 FLASH_OB_BootLockConfig>) [0 FLASH_OB_BootLockConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2147,14 +2369,20 @@ try_optimize_cfg iteration 2
 (note 170 169 171 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
 (insn 171 170 172 24 (set (reg/f:SI 195)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":393:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":393:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":393:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 172 171 173 24 (set (reg:SI 196)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":393:3 -1
@@ -2377,14 +2605,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 44 43 45 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetWRP") [flags 0x3]  <function_decl 0x7f2c95fe3000 FLASH_OB_GetWRP>) [0 FLASH_OB_GetWRP S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetWRP") [flags 0x3]  <function_decl 0x7f04641e3000 FLASH_OB_GetWRP>) [0 FLASH_OB_GetWRP S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetWRP") [flags 0x3]  <function_decl 0x7fdd177e3000 FLASH_OB_GetWRP>) [0 FLASH_OB_GetWRP S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2400,14 +2634,20 @@ try_optimize_cfg iteration 2
 (call_insn 47 46 48 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetRDP") [flags 0x3]  <function_decl 0x7f2c95fe3100 FLASH_OB_GetRDP>) [0 FLASH_OB_GetRDP S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetRDP") [flags 0x3]  <function_decl 0x7f04641e3100 FLASH_OB_GetRDP>) [0 FLASH_OB_GetRDP S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetRDP") [flags 0x3]  <function_decl 0x7fdd177e3100 FLASH_OB_GetRDP>) [0 FLASH_OB_GetRDP S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2429,14 +2669,20 @@ try_optimize_cfg iteration 2
 (call_insn 51 50 52 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetUser") [flags 0x3]  <function_decl 0x7f2c95fe3200 FLASH_OB_GetUser>) [0 FLASH_OB_GetUser S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetUser") [flags 0x3]  <function_decl 0x7f04641e3200 FLASH_OB_GetUser>) [0 FLASH_OB_GetUser S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetUser") [flags 0x3]  <function_decl 0x7fdd177e3200 FLASH_OB_GetUser>) [0 FLASH_OB_GetUser S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2549,14 +2795,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 80 79 81 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetPCROP") [flags 0x3]  <function_decl 0x7f2c95fe3300 FLASH_OB_GetPCROP>) [0 FLASH_OB_GetPCROP S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetPCROP") [flags 0x3]  <function_decl 0x7f04641e3300 FLASH_OB_GetPCROP>) [0 FLASH_OB_GetPCROP S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetPCROP") [flags 0x3]  <function_decl 0x7fdd177e3300 FLASH_OB_GetPCROP>) [0 FLASH_OB_GetPCROP S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2590,14 +2842,20 @@ try_optimize_cfg iteration 2
 (call_insn 88 87 89 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetBootLock") [flags 0x3]  <function_decl 0x7f2c95fe3700 FLASH_OB_GetBootLock>) [0 FLASH_OB_GetBootLock S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetBootLock") [flags 0x3]  <function_decl 0x7f04641e3700 FLASH_OB_GetBootLock>) [0 FLASH_OB_GetBootLock S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetBootLock") [flags 0x3]  <function_decl 0x7fdd177e3700 FLASH_OB_GetBootLock>) [0 FLASH_OB_GetBootLock S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2699,14 +2957,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 114 113 117 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetSecMem") [flags 0x3]  <function_decl 0x7f2c95fe3500 FLASH_OB_GetSecMem>) [0 FLASH_OB_GetSecMem S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetSecMem") [flags 0x3]  <function_decl 0x7f04641e3500 FLASH_OB_GetSecMem>) [0 FLASH_OB_GetSecMem S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("FLASH_OB_GetSecMem") [flags 0x3]  <function_decl 0x7fdd177e3500 FLASH_OB_GetSecMem>) [0 FLASH_OB_GetSecMem S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3456,14 +3720,20 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 138)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":622:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":622:22 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":622:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 6 5 7 2 (set (reg:QI 139)
         (mem/v/c:QI (plus:SI (reg/f:SI 138)
@@ -3641,14 +3911,20 @@ try_optimize_cfg iteration 2
 (note 59 58 60 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (insn 60 59 61 9 (set (reg/f:SI 144)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f2c963e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":645:28 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f04645e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":645:28 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7fdd17be9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":645:28 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 61 60 62 9 (set (reg:SI 145)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ex.c":645:28 -1
@@ -3731,14 +4007,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3976,14 +4258,20 @@ try_optimize_cfg iteration 2
 (call_insn 77 76 78 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4063,14 +4351,20 @@ try_optimize_cfg iteration 2
 (call_insn 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4155,14 +4449,20 @@ try_optimize_cfg iteration 2
 (call_insn 28 27 29 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4324,14 +4624,20 @@ try_optimize_cfg iteration 2
 (call_insn 12 11 13 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5287,14 +5593,20 @@ try_optimize_cfg iteration 2
 (call_insn 275 274 276 36 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5418,14 +5730,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6213,14 +6531,20 @@ try_optimize_cfg iteration 2
 (call_insn 229 228 230 22 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6312,14 +6636,20 @@ try_optimize_cfg iteration 2
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6471,14 +6801,20 @@ try_optimize_cfg iteration 2
 (call_insn 50 49 51 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6558,14 +6894,20 @@ try_optimize_cfg iteration 2
 (call_insn 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6650,14 +6992,20 @@ try_optimize_cfg iteration 2
 (call_insn 28 27 29 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f2c96042200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7f0464242200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("FLASH_WaitForLastOperation") [flags 0x41]  <function_decl 0x7fdd17842200 FLASH_WaitForLastOperation>) [0 FLASH_WaitForLastOperation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

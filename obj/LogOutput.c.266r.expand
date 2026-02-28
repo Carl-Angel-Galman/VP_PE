@@ -40,14 +40,20 @@ try_optimize_cfg iteration 2
 (call_insn/i 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f102f4d9500 strlen>) [0 __builtin_strlen S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f3863cd9500 strlen>) [0 __builtin_strlen S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("strlen") [flags 0x41]  <function_decl 0x7f8d89cd9500 strlen>) [0 __builtin_strlen S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -75,14 +81,20 @@ try_optimize_cfg iteration 2
 (call_insn 12 11 0 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f102e43fd00 uartSendData>) [0 uartSendData S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f3862c3fd00 uartSendData>) [0 uartSendData S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8d88c3fd00 uartSendData>) [0 uartSendData S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -154,14 +166,20 @@ try_optimize_cfg iteration 2
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f102e43ff00 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f3862c40000 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("internalFormattedOutput") [flags 0x3]  <function_decl 0x7f8d88c3ff00 internalFormattedOutput>) [0 internalFormattedOutput S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -258,6 +276,7 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 12 11 13 2 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f102e4303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":90:11 -1
      (nil))
 (call_insn 13 12 14 2 (parallel [
@@ -265,6 +284,8 @@ try_optimize_cfg iteration 2
                 (call (mem:SI (symbol_ref:SI ("vsnprintf_") [flags 0x41]  <function_decl 0x7f102f2eb800 vsnprintf_>) [0 vsnprintf_ S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f3862c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":90:11 -1
      (nil))
 (call_insn 13 12 14 2 (parallel [
@@ -277,7 +298,10 @@ try_optimize_cfg iteration 2
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("vsnprintf_") [flags 0x41]  <function_decl 0x7f8d89aeb800 vsnprintf_>) [0 vsnprintf_ S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -331,6 +355,7 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 28 27 29 5 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f102e4303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":94:9 -1
      (nil))
 (call_insn 29 28 30 5 (parallel [
@@ -338,6 +363,8 @@ try_optimize_cfg iteration 2
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f102e43fd00 uartSendData>) [0 uartSendData S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gOutputBuffer") [flags 0x2]  <var_decl 0x7f3862c303f0 gOutputBuffer>)) "src/Util/Log/LogOutput.c":94:9 -1
      (nil))
 (call_insn 29 28 30 5 (parallel [
@@ -350,7 +377,10 @@ try_optimize_cfg iteration 2
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("uartSendData") [flags 0x41]  <function_decl 0x7f8d88c3fd00 uartSendData>) [0 uartSendData S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

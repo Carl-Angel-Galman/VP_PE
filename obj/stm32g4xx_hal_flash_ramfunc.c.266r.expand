@@ -248,14 +248,20 @@ Forwarding edge 20->21 to 23 failed.
      (nil))
 (insn 9 8 10 2 (set (reg/f:SI 217)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f8dd07e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f80adde9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f5b051e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 10 9 11 2 (set (reg:SI 114 [ _1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 217) [0 pFlash.Lock+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 -1
@@ -284,14 +290,20 @@ Forwarding edge 20->21 to 23 failed.
 (note 18 17 19 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (insn 19 18 20 5 (set (reg/f:SI 218)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f8dd07e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 discrim 2 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f80adde9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 discrim 2 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f5b051e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 discrim 2 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 20 19 21 5 (set (reg:SI 219)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":137:3 discrim 2 -1
@@ -844,14 +856,20 @@ Forwarding edge 20->21 to 23 failed.
      (nil))
 (insn 180 179 181 19 (set (reg/f:SI 238)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f8dd0f4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":207:59 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f80ae54da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":207:59 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5b0594da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":207:59 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 181 180 182 19 (set (reg:SI 200 [ SystemCoreClock.0_87 ])
         (mem/c:SI (reg/f:SI 238) [2 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":207:59 -1
@@ -985,14 +1003,20 @@ Forwarding edge 20->21 to 23 failed.
 (note 219 218 220 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
 (insn 220 219 221 24 (set (reg/f:SI 246)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f8dd07e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":227:3 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f80adde9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":227:3 -1
 =======
         (symbol_ref:SI ("pFlash") [flags 0x40]  <var_decl 0x7f5b051e9750 pFlash>)) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":227:3 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 221 220 222 24 (set (reg:SI 247)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_flash_ramfunc.c":227:3 -1

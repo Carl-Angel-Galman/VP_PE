@@ -315,14 +315,20 @@ try_optimize_cfg iteration 2
 (call_insn 47 46 48 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd39a3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f0b50dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f16007d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -344,14 +350,20 @@ try_optimize_cfg iteration 2
 (call_insn 52 51 53 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd39a3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f0b50dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f16007d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -580,14 +592,20 @@ try_optimize_cfg iteration 2
 (call_insn 118 117 119 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd39a3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f0b50dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f16007d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -609,14 +627,20 @@ try_optimize_cfg iteration 2
 (call_insn 123 122 124 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd39a3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f0b50dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f16007d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4147,14 +4171,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 280 279 281 53 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7fd39a604400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f0b51004400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f1600a04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4192,14 +4222,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 290 289 291 55 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4359,14 +4395,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 338 337 339 64 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4404,14 +4446,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 348 347 349 66 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4571,14 +4619,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 396 395 397 75 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4616,14 +4670,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 406 405 407 77 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4783,14 +4843,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 454 453 455 86 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4828,14 +4894,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 464 463 465 88 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4995,14 +5067,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 512 511 513 97 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5040,14 +5118,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 522 521 523 99 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5207,14 +5291,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 570 569 571 108 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5252,14 +5342,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 580 579 581 110 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5419,14 +5515,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 628 627 629 119 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5464,14 +5566,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 638 637 639 121 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5576,14 +5684,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 670 669 671 127 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5621,14 +5735,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 680 679 681 129 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5733,14 +5853,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 712 711 713 135 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5778,14 +5904,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 722 721 723 137 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5890,14 +6022,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 754 753 755 143 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5935,14 +6073,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 764 763 765 145 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6047,14 +6191,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 796 795 797 151 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6267,14 +6417,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 860 859 861 163 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6517,14 +6673,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 932 931 933 174 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6767,14 +6929,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 1004 1003 1005 185 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fd39a604300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f0b51004300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f1600a04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7441,14 +7609,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 1202 1201 1203 212 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7671,14 +7845,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 1268 1267 1269 222 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7846,14 +8026,20 @@ Forwarding edge 160->161 to 232 failed.
 (call_insn 1318 1317 1319 229 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fd39a604100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f0b51004100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f1600a04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8141,14 +8327,20 @@ try_optimize_cfg iteration 2
 (note 10 9 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 11 10 12 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_LSECSS_Callback") [flags 0x3]  <function_decl 0x7fd39a9f7b00 HAL_RCCEx_LSECSS_Callback>) [0 HAL_RCCEx_LSECSS_Callback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_LSECSS_Callback") [flags 0x3]  <function_decl 0x7f0b513f7b00 HAL_RCCEx_LSECSS_Callback>) [0 HAL_RCCEx_LSECSS_Callback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_LSECSS_Callback") [flags 0x3]  <function_decl 0x7f1600df7b00 HAL_RCCEx_LSECSS_Callback>) [0 HAL_RCCEx_LSECSS_Callback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8340,14 +8532,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 33 32 34 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fd39a604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0b51004e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f1600a04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8453,14 +8651,20 @@ try_optimize_cfg iteration 2
 (note 60 59 61 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 61 60 62 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_EnableBkUpAccess") [flags 0x41]  <function_decl 0x7fd39a204d00 HAL_PWR_EnableBkUpAccess>) [0 HAL_PWR_EnableBkUpAccess S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_EnableBkUpAccess") [flags 0x41]  <function_decl 0x7f0b50c04d00 HAL_PWR_EnableBkUpAccess>) [0 HAL_PWR_EnableBkUpAccess S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_EnableBkUpAccess") [flags 0x41]  <function_decl 0x7f1600604d00 HAL_PWR_EnableBkUpAccess>) [0 HAL_PWR_EnableBkUpAccess S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8528,14 +8732,20 @@ try_optimize_cfg iteration 2
 (note 78 77 79 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 79 78 80 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_DisableBkUpAccess") [flags 0x41]  <function_decl 0x7fd39a204e00 HAL_PWR_DisableBkUpAccess>) [0 HAL_PWR_DisableBkUpAccess S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_DisableBkUpAccess") [flags 0x41]  <function_decl 0x7f0b50c04e00 HAL_PWR_DisableBkUpAccess>) [0 HAL_PWR_DisableBkUpAccess S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_DisableBkUpAccess") [flags 0x41]  <function_decl 0x7f1600604e00 HAL_PWR_DisableBkUpAccess>) [0 HAL_PWR_DisableBkUpAccess S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8741,14 +8951,20 @@ try_optimize_cfg iteration 2
 (note 37 36 38 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 38 37 39 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_EnableBkUpAccess") [flags 0x41]  <function_decl 0x7fd39a204d00 HAL_PWR_EnableBkUpAccess>) [0 HAL_PWR_EnableBkUpAccess S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_EnableBkUpAccess") [flags 0x41]  <function_decl 0x7f0b50c04d00 HAL_PWR_EnableBkUpAccess>) [0 HAL_PWR_EnableBkUpAccess S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_EnableBkUpAccess") [flags 0x41]  <function_decl 0x7f1600604d00 HAL_PWR_EnableBkUpAccess>) [0 HAL_PWR_EnableBkUpAccess S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8804,14 +9020,20 @@ try_optimize_cfg iteration 2
 (note 52 51 53 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 53 52 54 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_DisableBkUpAccess") [flags 0x41]  <function_decl 0x7fd39a204e00 HAL_PWR_DisableBkUpAccess>) [0 HAL_PWR_DisableBkUpAccess S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_DisableBkUpAccess") [flags 0x41]  <function_decl 0x7f0b50c04e00 HAL_PWR_DisableBkUpAccess>) [0 HAL_PWR_DisableBkUpAccess S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWR_DisableBkUpAccess") [flags 0x41]  <function_decl 0x7f1600604e00 HAL_PWR_DisableBkUpAccess>) [0 HAL_PWR_DisableBkUpAccess S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9324,14 +9546,20 @@ try_optimize_cfg iteration 2
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd39a3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f0b50dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f16007d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9364,14 +9592,20 @@ try_optimize_cfg iteration 2
 (call_insn 15 14 16 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd39a3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f0b50dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f16007d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9874,14 +10108,20 @@ Forwarding edge 20->21 to 22 failed.
      (nil))
 (call_insn 26 25 27 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_SyncOkCallback") [flags 0x3]  <function_decl 0x7fd39a9fa300 HAL_RCCEx_CRS_SyncOkCallback>) [0 HAL_RCCEx_CRS_SyncOkCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_SyncOkCallback") [flags 0x3]  <function_decl 0x7f0b513fa300 HAL_RCCEx_CRS_SyncOkCallback>) [0 HAL_RCCEx_CRS_SyncOkCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_SyncOkCallback") [flags 0x3]  <function_decl 0x7f1600dfa300 HAL_RCCEx_CRS_SyncOkCallback>) [0 HAL_RCCEx_CRS_SyncOkCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9948,14 +10188,20 @@ Forwarding edge 20->21 to 22 failed.
      (nil))
 (call_insn 44 43 45 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_SyncWarnCallback") [flags 0x3]  <function_decl 0x7fd39a9fa400 HAL_RCCEx_CRS_SyncWarnCallback>) [0 HAL_RCCEx_CRS_SyncWarnCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_SyncWarnCallback") [flags 0x3]  <function_decl 0x7f0b513fa400 HAL_RCCEx_CRS_SyncWarnCallback>) [0 HAL_RCCEx_CRS_SyncWarnCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_SyncWarnCallback") [flags 0x3]  <function_decl 0x7f1600dfa400 HAL_RCCEx_CRS_SyncWarnCallback>) [0 HAL_RCCEx_CRS_SyncWarnCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10022,14 +10268,20 @@ Forwarding edge 20->21 to 22 failed.
      (nil))
 (call_insn 62 61 63 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_ExpectedSyncCallback") [flags 0x3]  <function_decl 0x7fd39a9fa500 HAL_RCCEx_CRS_ExpectedSyncCallback>) [0 HAL_RCCEx_CRS_ExpectedSyncCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_ExpectedSyncCallback") [flags 0x3]  <function_decl 0x7f0b513fa500 HAL_RCCEx_CRS_ExpectedSyncCallback>) [0 HAL_RCCEx_CRS_ExpectedSyncCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_ExpectedSyncCallback") [flags 0x3]  <function_decl 0x7f1600dfa500 HAL_RCCEx_CRS_ExpectedSyncCallback>) [0 HAL_RCCEx_CRS_ExpectedSyncCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10202,14 +10454,20 @@ Forwarding edge 20->21 to 22 failed.
      (nil))
 (call_insn 111 110 112 20 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_ErrorCallback") [flags 0x3]  <function_decl 0x7fd39a9fa600 HAL_RCCEx_CRS_ErrorCallback>) [0 HAL_RCCEx_CRS_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_ErrorCallback") [flags 0x3]  <function_decl 0x7f0b513fa600 HAL_RCCEx_CRS_ErrorCallback>) [0 HAL_RCCEx_CRS_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_RCCEx_CRS_ErrorCallback") [flags 0x3]  <function_decl 0x7f1600dfa600 HAL_RCCEx_CRS_ErrorCallback>) [0 HAL_RCCEx_CRS_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

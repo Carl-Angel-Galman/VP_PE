@@ -147,14 +147,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_MspInit") [flags 0x3]  <function_decl 0x7fe927551400 HAL_I2S_MspInit>) [0 HAL_I2S_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_MspInit") [flags 0x3]  <function_decl 0x7f4e27b51400 HAL_I2S_MspInit>) [0 HAL_I2S_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_MspInit") [flags 0x3]  <function_decl 0x7fa054f51400 HAL_I2S_MspInit>) [0 HAL_I2S_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -328,14 +334,20 @@ try_optimize_cfg iteration 2
 (call_insn 79 78 80 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_GetPeriphCLKFreq") [flags 0x41]  <function_decl 0x7fe9279f7600 HAL_RCCEx_GetPeriphCLKFreq>) [0 HAL_RCCEx_GetPeriphCLKFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_GetPeriphCLKFreq") [flags 0x41]  <function_decl 0x7f4e27ff7600 HAL_RCCEx_GetPeriphCLKFreq>) [0 HAL_RCCEx_GetPeriphCLKFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_GetPeriphCLKFreq") [flags 0x41]  <function_decl 0x7fa0553f7600 HAL_RCCEx_GetPeriphCLKFreq>) [0 HAL_RCCEx_GetPeriphCLKFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1076,14 +1088,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_MspDeInit") [flags 0x3]  <function_decl 0x7fe927551500 HAL_I2S_MspDeInit>) [0 HAL_I2S_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_MspDeInit") [flags 0x3]  <function_decl 0x7f4e27b51500 HAL_I2S_MspDeInit>) [0 HAL_I2S_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_MspDeInit") [flags 0x3]  <function_decl 0x7fa054f51500 HAL_I2S_MspDeInit>) [0 HAL_I2S_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1700,14 +1718,20 @@ try_optimize_cfg iteration 2
 (call_insn 129 128 130 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fe9273e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f4e279e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fa054de3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1896,14 +1920,20 @@ try_optimize_cfg iteration 2
 (call_insn 182 181 183 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fe9273e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f4e279e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fa054de3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2149,14 +2179,20 @@ try_optimize_cfg iteration 2
 (call_insn 252 251 253 27 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fe9273e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f4e279e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fa054de3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2833,14 +2869,20 @@ try_optimize_cfg iteration 2
 (call_insn 148 147 149 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fe9273e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f4e279e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fa054de3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4529,14 +4571,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 106 105 107 14 (set (reg/f:SI 190)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("I2S_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7fe9273e1c00 I2S_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1136:38 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("I2S_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f4e279e1c00 I2S_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1136:38 -1
 =======
         (symbol_ref:SI ("I2S_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7fa054de1c00 I2S_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1136:38 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 107 106 108 14 (set (mem/f:SI (plus:SI (reg/f:SI 120 [ _7 ])
                 (const_int 48 [0x30])) [9 _7->XferHalfCpltCallback+0 S4 A32])
@@ -4552,14 +4600,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 110 109 111 14 (set (reg/f:SI 192)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("I2S_DMATxCplt") [flags 0x3]  <function_decl 0x7fe9273e1b00 I2S_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1139:34 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("I2S_DMATxCplt") [flags 0x3]  <function_decl 0x7f4e279e1b00 I2S_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1139:34 -1
 =======
         (symbol_ref:SI ("I2S_DMATxCplt") [flags 0x3]  <function_decl 0x7fa054de1b00 I2S_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1139:34 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 111 110 112 14 (set (mem/f:SI (plus:SI (reg/f:SI 121 [ _8 ])
                 (const_int 44 [0x2c])) [9 _8->XferCpltCallback+0 S4 A32])
@@ -4575,14 +4629,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 114 113 115 14 (set (reg/f:SI 194)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("I2S_DMAError") [flags 0x3]  <function_decl 0x7fe9273e1f00 I2S_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1142:35 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("I2S_DMAError") [flags 0x3]  <function_decl 0x7f4e279e1f00 I2S_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1142:35 -1
 =======
         (symbol_ref:SI ("I2S_DMAError") [flags 0x3]  <function_decl 0x7fa054de1f00 I2S_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1142:35 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 115 114 116 14 (set (mem/f:SI (plus:SI (reg/f:SI 122 [ _9 ])
                 (const_int 52 [0x34])) [9 _9->XferErrorCallback+0 S4 A32])
@@ -4650,14 +4710,20 @@ try_optimize_cfg iteration 2
 (call_insn 134 133 135 14 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fe92762f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f4e27c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fa05502f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5281,14 +5347,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 106 105 107 14 (set (reg/f:SI 198)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("I2S_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7fe9273e1e00 I2S_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1227:38 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("I2S_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f4e279e1e00 I2S_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1227:38 -1
 =======
         (symbol_ref:SI ("I2S_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7fa054de1e00 I2S_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1227:38 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 107 106 108 14 (set (mem/f:SI (plus:SI (reg/f:SI 120 [ _7 ])
                 (const_int 48 [0x30])) [9 _7->XferHalfCpltCallback+0 S4 A32])
@@ -5304,14 +5376,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 110 109 111 14 (set (reg/f:SI 200)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("I2S_DMARxCplt") [flags 0x3]  <function_decl 0x7fe9273e1d00 I2S_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1230:34 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("I2S_DMARxCplt") [flags 0x3]  <function_decl 0x7f4e279e1d00 I2S_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1230:34 -1
 =======
         (symbol_ref:SI ("I2S_DMARxCplt") [flags 0x3]  <function_decl 0x7fa054de1d00 I2S_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1230:34 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 111 110 112 14 (set (mem/f:SI (plus:SI (reg/f:SI 121 [ _8 ])
                 (const_int 44 [0x2c])) [9 _8->XferCpltCallback+0 S4 A32])
@@ -5327,14 +5405,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 114 113 115 14 (set (reg/f:SI 202)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("I2S_DMAError") [flags 0x3]  <function_decl 0x7fe9273e1f00 I2S_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1233:35 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("I2S_DMAError") [flags 0x3]  <function_decl 0x7f4e279e1f00 I2S_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1233:35 -1
 =======
         (symbol_ref:SI ("I2S_DMAError") [flags 0x3]  <function_decl 0x7fa054de1f00 I2S_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_i2s.c":1233:35 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 115 114 116 14 (set (mem/f:SI (plus:SI (reg/f:SI 122 [ _9 ])
                 (const_int 52 [0x34])) [9 _9->XferErrorCallback+0 S4 A32])
@@ -5472,14 +5556,20 @@ try_optimize_cfg iteration 2
 (call_insn 154 153 155 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fe92762f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f4e27c2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fa05502f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6375,14 +6465,20 @@ try_optimize_cfg iteration 2
 (call_insn 28 27 29 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fe92762f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f4e27c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fa05502f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6457,14 +6553,20 @@ try_optimize_cfg iteration 2
 (call_insn 48 47 49 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fe9273e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f4e279e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fa054de3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6556,14 +6658,20 @@ try_optimize_cfg iteration 2
 (call_insn 72 71 73 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fe9273e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f4e279e3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("I2S_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7fa054de3200 I2S_WaitFlagStateUntilTimeout>) [0 I2S_WaitFlagStateUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6799,14 +6907,20 @@ try_optimize_cfg iteration 2
 (call_insn 136 135 137 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fe92762f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f4e27c2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fa05502f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7238,14 +7352,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("I2S_Receive_IT") [flags 0x3]  <function_decl 0x7fe9273e3100 I2S_Receive_IT>) [0 I2S_Receive_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("I2S_Receive_IT") [flags 0x3]  <function_decl 0x7f4e279e3100 I2S_Receive_IT>) [0 I2S_Receive_IT S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("I2S_Receive_IT") [flags 0x3]  <function_decl 0x7fa054de3100 I2S_Receive_IT>) [0 I2S_Receive_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7321,14 +7441,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 54 53 55 9 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("I2S_Transmit_IT") [flags 0x3]  <function_decl 0x7fe9273e3000 I2S_Transmit_IT>) [0 I2S_Transmit_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("I2S_Transmit_IT") [flags 0x3]  <function_decl 0x7f4e279e3000 I2S_Transmit_IT>) [0 I2S_Transmit_IT S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("I2S_Transmit_IT") [flags 0x3]  <function_decl 0x7fa054de3000 I2S_Transmit_IT>) [0 I2S_Transmit_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7541,14 +7667,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 113 112 116 15 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_ErrorCallback") [flags 0x3]  <function_decl 0x7fe927559400 HAL_I2S_ErrorCallback>) [0 HAL_I2S_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_ErrorCallback") [flags 0x3]  <function_decl 0x7f4e27b59400 HAL_I2S_ErrorCallback>) [0 HAL_I2S_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_ErrorCallback") [flags 0x3]  <function_decl 0x7fa054f59400 HAL_I2S_ErrorCallback>) [0 HAL_I2S_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7953,14 +8085,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 32 31 0 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxCpltCallback") [flags 0x3]  <function_decl 0x7fe927559100 HAL_I2S_TxCpltCallback>) [0 HAL_I2S_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxCpltCallback") [flags 0x3]  <function_decl 0x7f4e27b59100 HAL_I2S_TxCpltCallback>) [0 HAL_I2S_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxCpltCallback") [flags 0x3]  <function_decl 0x7fa054f59100 HAL_I2S_TxCpltCallback>) [0 HAL_I2S_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8018,14 +8156,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7fe927559000 HAL_I2S_TxHalfCpltCallback>) [0 HAL_I2S_TxHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f4e27b59000 HAL_I2S_TxHalfCpltCallback>) [0 HAL_I2S_TxHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7fa054f59000 HAL_I2S_TxHalfCpltCallback>) [0 HAL_I2S_TxHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8164,14 +8308,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 32 31 0 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxCpltCallback") [flags 0x3]  <function_decl 0x7fe927559300 HAL_I2S_RxCpltCallback>) [0 HAL_I2S_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxCpltCallback") [flags 0x3]  <function_decl 0x7f4e27b59300 HAL_I2S_RxCpltCallback>) [0 HAL_I2S_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxCpltCallback") [flags 0x3]  <function_decl 0x7fa054f59300 HAL_I2S_RxCpltCallback>) [0 HAL_I2S_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8229,14 +8379,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7fe927559200 HAL_I2S_RxHalfCpltCallback>) [0 HAL_I2S_RxHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f4e27b59200 HAL_I2S_RxHalfCpltCallback>) [0 HAL_I2S_RxHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7fa054f59200 HAL_I2S_RxHalfCpltCallback>) [0 HAL_I2S_RxHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8384,14 +8540,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_ErrorCallback") [flags 0x3]  <function_decl 0x7fe927559400 HAL_I2S_ErrorCallback>) [0 HAL_I2S_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_ErrorCallback") [flags 0x3]  <function_decl 0x7f4e27b59400 HAL_I2S_ErrorCallback>) [0 HAL_I2S_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_ErrorCallback") [flags 0x3]  <function_decl 0x7fa054f59400 HAL_I2S_ErrorCallback>) [0 HAL_I2S_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8582,14 +8744,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 47 46 50 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxCpltCallback") [flags 0x3]  <function_decl 0x7fe927559100 HAL_I2S_TxCpltCallback>) [0 HAL_I2S_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxCpltCallback") [flags 0x3]  <function_decl 0x7f4e27b59100 HAL_I2S_TxCpltCallback>) [0 HAL_I2S_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_TxCpltCallback") [flags 0x3]  <function_decl 0x7fa054f59100 HAL_I2S_TxCpltCallback>) [0 HAL_I2S_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8785,14 +8953,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 48 47 51 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxCpltCallback") [flags 0x3]  <function_decl 0x7fe927559300 HAL_I2S_RxCpltCallback>) [0 HAL_I2S_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxCpltCallback") [flags 0x3]  <function_decl 0x7f4e27b59300 HAL_I2S_RxCpltCallback>) [0 HAL_I2S_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_I2S_RxCpltCallback") [flags 0x3]  <function_decl 0x7fa054f59300 HAL_I2S_RxCpltCallback>) [0 HAL_I2S_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8872,14 +9046,20 @@ try_optimize_cfg iteration 2
 (call_insn 11 8 12 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe9273d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f4e279d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fa054dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8917,14 +9097,20 @@ try_optimize_cfg iteration 2
 (call_insn 20 19 21 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe9273d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f4e279d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fa054dd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

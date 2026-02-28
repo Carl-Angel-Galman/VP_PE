@@ -125,14 +125,20 @@ Forwarding edge 4->5 to 7 failed.
 (call_insn 30 29 31 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InitI2S") [flags 0x3]  <function_decl 0x7f00ed3e1d00 SAI_InitI2S>) [0 SAI_InitI2S S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InitI2S") [flags 0x3]  <function_decl 0x7f745e5e1d00 SAI_InitI2S>) [0 SAI_InitI2S S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InitI2S") [flags 0x3]  <function_decl 0x7f2420fe1d00 SAI_InitI2S>) [0 SAI_InitI2S S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -180,14 +186,20 @@ Forwarding edge 4->5 to 7 failed.
 (call_insn 42 41 43 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InitPCM") [flags 0x3]  <function_decl 0x7f00ed3e1e00 SAI_InitPCM>) [0 SAI_InitPCM S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InitPCM") [flags 0x3]  <function_decl 0x7f745e5e1e00 SAI_InitPCM>) [0 SAI_InitPCM S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InitPCM") [flags 0x3]  <function_decl 0x7f2420fe1e00 SAI_InitPCM>) [0 SAI_InitPCM S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -251,14 +263,20 @@ Forwarding edge 4->5 to 7 failed.
 (call_insn 60 59 61 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Init") [flags 0x3]  <function_decl 0x7f00ed268b00 HAL_SAI_Init>) [0 HAL_SAI_Init S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Init") [flags 0x3]  <function_decl 0x7f745e468b00 HAL_SAI_Init>) [0 HAL_SAI_Init S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Init") [flags 0x3]  <function_decl 0x7f2420e68b00 HAL_SAI_Init>) [0 HAL_SAI_Init S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -609,14 +627,20 @@ Forwarding edge 17->18 to 22 failed.
      (nil))
 (call_insn 54 53 55 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_MspInit") [flags 0x3]  <function_decl 0x7f00ed268d00 HAL_SAI_MspInit>) [0 HAL_SAI_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_MspInit") [flags 0x3]  <function_decl 0x7f745e468d00 HAL_SAI_MspInit>) [0 HAL_SAI_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_MspInit") [flags 0x3]  <function_decl 0x7f2420e68d00 HAL_SAI_MspInit>) [0 HAL_SAI_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -634,14 +658,20 @@ Forwarding edge 17->18 to 22 failed.
 (call_insn 58 57 59 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1053,14 +1083,20 @@ Forwarding edge 17->18 to 22 failed.
 (call_insn 193 192 194 35 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_GetPeriphCLKFreq") [flags 0x41]  <function_decl 0x7f00ed9f7600 HAL_RCCEx_GetPeriphCLKFreq>) [0 HAL_RCCEx_GetPeriphCLKFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_GetPeriphCLKFreq") [flags 0x41]  <function_decl 0x7f745ebf7600 HAL_RCCEx_GetPeriphCLKFreq>) [0 HAL_RCCEx_GetPeriphCLKFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_GetPeriphCLKFreq") [flags 0x41]  <function_decl 0x7f24215f7600 HAL_RCCEx_GetPeriphCLKFreq>) [0 HAL_RCCEx_GetPeriphCLKFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2420,14 +2456,20 @@ try_optimize_cfg iteration 2
 (call_insn 28 27 29 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2576,14 +2618,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 71 70 72 9 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_MspDeInit") [flags 0x3]  <function_decl 0x7f00ed268e00 HAL_SAI_MspDeInit>) [0 HAL_SAI_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_MspDeInit") [flags 0x3]  <function_decl 0x7f745e468e00 HAL_SAI_MspDeInit>) [0 HAL_SAI_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_MspDeInit") [flags 0x3]  <function_decl 0x7f2420e68e00 HAL_SAI_MspDeInit>) [0 HAL_SAI_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2809,14 +2857,20 @@ try_optimize_cfg iteration 2
 (call_insn 11 8 12 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f00ed3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f745e5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2420fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3031,14 +3085,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 72 71 73 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SAI_FillFifo") [flags 0x3]  <function_decl 0x7f00ed3e1b00 SAI_FillFifo>) [0 SAI_FillFifo S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("SAI_FillFifo") [flags 0x3]  <function_decl 0x7f745e5e1b00 SAI_FillFifo>) [0 SAI_FillFifo S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("SAI_FillFifo") [flags 0x3]  <function_decl 0x7f2420fe1b00 SAI_FillFifo>) [0 SAI_FillFifo S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3567,14 +3627,20 @@ try_optimize_cfg iteration 2
 (call_insn 221 220 222 20 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f00ed3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f745e5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2420fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3683,14 +3749,20 @@ try_optimize_cfg iteration 2
 (call_insn 248 247 249 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3939,14 +4011,20 @@ try_optimize_cfg iteration 2
 (call_insn 11 8 12 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f00ed3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f745e5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2420fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4670,14 +4748,20 @@ try_optimize_cfg iteration 2
 (call_insn 220 219 221 20 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f00ed3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f745e5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2420fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4786,14 +4870,20 @@ try_optimize_cfg iteration 2
 (call_insn 247 246 248 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5234,14 +5324,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 72 71 73 11 (set (reg/f:SI 158)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_Transmit_IT8Bit") [flags 0x3]  <function_decl 0x7f00ed3e6000 SAI_Transmit_IT8Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1218:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_Transmit_IT8Bit") [flags 0x3]  <function_decl 0x7f745e5e6000 SAI_Transmit_IT8Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1218:37 -1
 =======
         (symbol_ref:SI ("SAI_Transmit_IT8Bit") [flags 0x3]  <function_decl 0x7f2420fe6000 SAI_Transmit_IT8Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1218:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 73 72 74 11 (set (mem/f:SI (plus:SI (reg/f:SI 157)
                 (const_int 140 [0x8c])) [12 hsai_24(D)->InterruptServiceRoutine+0 S4 A32])
@@ -5280,14 +5376,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 86 85 87 13 (set (reg/f:SI 161)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_Transmit_IT16Bit") [flags 0x3]  <function_decl 0x7f00ed3e6100 SAI_Transmit_IT16Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1222:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_Transmit_IT16Bit") [flags 0x3]  <function_decl 0x7f745e5e6100 SAI_Transmit_IT16Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1222:37 -1
 =======
         (symbol_ref:SI ("SAI_Transmit_IT16Bit") [flags 0x3]  <function_decl 0x7f2420fe6100 SAI_Transmit_IT16Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1222:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 87 86 88 13 (set (mem/f:SI (plus:SI (reg/f:SI 160)
                 (const_int 140 [0x8c])) [12 hsai_24(D)->InterruptServiceRoutine+0 S4 A32])
@@ -5306,14 +5408,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 93 92 94 14 (set (reg/f:SI 163)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_Transmit_IT32Bit") [flags 0x3]  <function_decl 0x7f00ed3e6200 SAI_Transmit_IT32Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1226:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_Transmit_IT32Bit") [flags 0x3]  <function_decl 0x7f745e5e6200 SAI_Transmit_IT32Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1226:37 -1
 =======
         (symbol_ref:SI ("SAI_Transmit_IT32Bit") [flags 0x3]  <function_decl 0x7f2420fe6200 SAI_Transmit_IT32Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1226:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 94 93 95 14 (set (mem/f:SI (plus:SI (reg/f:SI 162)
                 (const_int 140 [0x8c])) [12 hsai_24(D)->InterruptServiceRoutine+0 S4 A32])
@@ -5327,14 +5435,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 98 97 99 15 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("SAI_FillFifo") [flags 0x3]  <function_decl 0x7f00ed3e1b00 SAI_FillFifo>) [0 SAI_FillFifo S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("SAI_FillFifo") [flags 0x3]  <function_decl 0x7f745e5e1b00 SAI_FillFifo>) [0 SAI_FillFifo S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("SAI_FillFifo") [flags 0x3]  <function_decl 0x7f2420fe1b00 SAI_FillFifo>) [0 SAI_FillFifo S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5353,14 +5467,20 @@ try_optimize_cfg iteration 2
 (call_insn 101 100 102 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5783,14 +5903,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 72 71 73 11 (set (reg/f:SI 158)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_Receive_IT8Bit") [flags 0x3]  <function_decl 0x7f00ed3e6300 SAI_Receive_IT8Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1280:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_Receive_IT8Bit") [flags 0x3]  <function_decl 0x7f745e5e6300 SAI_Receive_IT8Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1280:37 -1
 =======
         (symbol_ref:SI ("SAI_Receive_IT8Bit") [flags 0x3]  <function_decl 0x7f2420fe6300 SAI_Receive_IT8Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1280:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 73 72 74 11 (set (mem/f:SI (plus:SI (reg/f:SI 157)
                 (const_int 140 [0x8c])) [12 hsai_24(D)->InterruptServiceRoutine+0 S4 A32])
@@ -5829,14 +5955,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 86 85 87 13 (set (reg/f:SI 161)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_Receive_IT16Bit") [flags 0x3]  <function_decl 0x7f00ed3e6400 SAI_Receive_IT16Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1284:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_Receive_IT16Bit") [flags 0x3]  <function_decl 0x7f745e5e6400 SAI_Receive_IT16Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1284:37 -1
 =======
         (symbol_ref:SI ("SAI_Receive_IT16Bit") [flags 0x3]  <function_decl 0x7f2420fe6400 SAI_Receive_IT16Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1284:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 87 86 88 13 (set (mem/f:SI (plus:SI (reg/f:SI 160)
                 (const_int 140 [0x8c])) [12 hsai_24(D)->InterruptServiceRoutine+0 S4 A32])
@@ -5855,14 +5987,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 93 92 94 14 (set (reg/f:SI 163)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_Receive_IT32Bit") [flags 0x3]  <function_decl 0x7f00ed3e6500 SAI_Receive_IT32Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1288:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_Receive_IT32Bit") [flags 0x3]  <function_decl 0x7f745e5e6500 SAI_Receive_IT32Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1288:37 -1
 =======
         (symbol_ref:SI ("SAI_Receive_IT32Bit") [flags 0x3]  <function_decl 0x7f2420fe6500 SAI_Receive_IT32Bit>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1288:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 94 93 95 14 (set (mem/f:SI (plus:SI (reg/f:SI 162)
                 (const_int 140 [0x8c])) [12 hsai_24(D)->InterruptServiceRoutine+0 S4 A32])
@@ -5880,14 +6018,20 @@ try_optimize_cfg iteration 2
 (call_insn 99 98 100 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6526,14 +6670,20 @@ try_optimize_cfg iteration 2
 (call_insn 45 44 46 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f00ed62f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f745e82f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f242122f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6601,14 +6751,20 @@ try_optimize_cfg iteration 2
 (call_insn 63 62 64 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f00ed62f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f745e82f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f242122f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6626,14 +6782,20 @@ try_optimize_cfg iteration 2
 (call_insn 67 66 68 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6957,14 +7119,20 @@ try_optimize_cfg iteration 2
 (call_insn 52 51 53 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f00ed62f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f745e82f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f242122f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7032,14 +7200,20 @@ try_optimize_cfg iteration 2
 (call_insn 70 69 71 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f00ed62f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f745e82f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f242122f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7085,14 +7259,20 @@ try_optimize_cfg iteration 2
 (call_insn 82 81 83 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7280,14 +7460,20 @@ try_optimize_cfg iteration 2
 (call_insn 10 7 11 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f00ed3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f745e5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2420fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7480,14 +7666,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 65 64 66 9 (set (reg/f:SI 177)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f00ed3e6700 SAI_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1496:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f745e5e6700 SAI_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1496:40 -1
 =======
         (symbol_ref:SI ("SAI_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f2420fe6700 SAI_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1496:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 66 65 67 9 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 48 [0x30])) [18 _3->XferHalfCpltCallback+0 S4 A32])
@@ -7503,14 +7695,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 69 68 70 9 (set (reg/f:SI 179)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMATxCplt") [flags 0x3]  <function_decl 0x7f00ed3e6600 SAI_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1499:36 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMATxCplt") [flags 0x3]  <function_decl 0x7f745e5e6600 SAI_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1499:36 -1
 =======
         (symbol_ref:SI ("SAI_DMATxCplt") [flags 0x3]  <function_decl 0x7f2420fe6600 SAI_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1499:36 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 70 69 71 9 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 44 [0x2c])) [18 _4->XferCpltCallback+0 S4 A32])
@@ -7526,14 +7724,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 73 72 74 9 (set (reg/f:SI 181)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAError") [flags 0x3]  <function_decl 0x7f00ed3e6a00 SAI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1502:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAError") [flags 0x3]  <function_decl 0x7f745e5e6a00 SAI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1502:37 -1
 =======
         (symbol_ref:SI ("SAI_DMAError") [flags 0x3]  <function_decl 0x7f2420fe6a00 SAI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1502:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 74 73 75 9 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [18 _5->XferErrorCallback+0 S4 A32])
@@ -7613,14 +7817,20 @@ try_optimize_cfg iteration 2
 (call_insn 95 94 96 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f00ed62f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f745e82f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f242122f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7684,14 +7894,20 @@ try_optimize_cfg iteration 2
 (call_insn 112 111 113 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7764,14 +7980,20 @@ try_optimize_cfg iteration 2
 (call_insn 131 130 132 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f00ed3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f745e5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2420fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8213,14 +8435,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 63 62 64 9 (set (reg/f:SI 170)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f00ed3e6900 SAI_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1582:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f745e5e6900 SAI_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1582:40 -1
 =======
         (symbol_ref:SI ("SAI_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f2420fe6900 SAI_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1582:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 64 63 65 9 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 48 [0x30])) [18 _3->XferHalfCpltCallback+0 S4 A32])
@@ -8236,14 +8464,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 67 66 68 9 (set (reg/f:SI 172)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMARxCplt") [flags 0x3]  <function_decl 0x7f00ed3e6800 SAI_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1585:36 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMARxCplt") [flags 0x3]  <function_decl 0x7f745e5e6800 SAI_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1585:36 -1
 =======
         (symbol_ref:SI ("SAI_DMARxCplt") [flags 0x3]  <function_decl 0x7f2420fe6800 SAI_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1585:36 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 68 67 69 9 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 44 [0x2c])) [18 _4->XferCpltCallback+0 S4 A32])
@@ -8259,14 +8493,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 71 70 72 9 (set (reg/f:SI 174)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAError") [flags 0x3]  <function_decl 0x7f00ed3e6a00 SAI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1588:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAError") [flags 0x3]  <function_decl 0x7f745e5e6a00 SAI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1588:37 -1
 =======
         (symbol_ref:SI ("SAI_DMAError") [flags 0x3]  <function_decl 0x7f2420fe6a00 SAI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1588:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 72 71 73 9 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 52 [0x34])) [18 _5->XferErrorCallback+0 S4 A32])
@@ -8346,14 +8586,20 @@ try_optimize_cfg iteration 2
 (call_insn 93 92 94 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f00ed62f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f745e82f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f242122f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8417,14 +8663,20 @@ try_optimize_cfg iteration 2
 (call_insn 110 109 111 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9582,14 +9834,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 80 79 81 12 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9827,14 +10085,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (insn 144 143 145 22 (set (reg/f:SI 231)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f00ed3e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1768:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f745e5e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1768:43 -1
 =======
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f2420fe6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1768:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 145 144 146 22 (set (mem/f:SI (plus:SI (reg/f:SI 139 [ _26 ])
                 (const_int 56 [0x38])) [18 _26->XferAbortCallback+0 S4 A32])
@@ -9854,14 +10118,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 149 148 150 22 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f00ed62f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f745e82f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f242122f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9914,14 +10184,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 161 160 162 23 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9962,14 +10238,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (insn 171 170 172 25 (set (reg/f:SI 238)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f00ed3e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1787:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f745e5e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1787:43 -1
 =======
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f2420fe6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1787:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 172 171 173 25 (set (mem/f:SI (plus:SI (reg/f:SI 145 [ _32 ])
                 (const_int 56 [0x38])) [18 _32->XferAbortCallback+0 S4 A32])
@@ -9989,14 +10271,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 176 175 177 25 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f00ed62f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f745e82f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f242122f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10049,14 +10337,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 188 187 189 26 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10079,14 +10373,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 194 193 195 27 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Abort") [flags 0x3]  <function_decl 0x7f00ed284800 HAL_SAI_Abort>) [0 HAL_SAI_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Abort") [flags 0x3]  <function_decl 0x7f745e484800 HAL_SAI_Abort>) [0 HAL_SAI_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Abort") [flags 0x3]  <function_decl 0x7f2420e84800 HAL_SAI_Abort>) [0 HAL_SAI_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10101,14 +10401,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 196 195 199 27 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10248,14 +10554,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (insn 234 233 235 33 (set (reg/f:SI 252)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f00ed3e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1834:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f745e5e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1834:43 -1
 =======
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f2420fe6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1834:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 235 234 236 33 (set (mem/f:SI (plus:SI (reg/f:SI 157 [ _44 ])
                 (const_int 56 [0x38])) [18 _44->XferAbortCallback+0 S4 A32])
@@ -10275,14 +10587,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 239 238 240 33 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f00ed62f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f745e82f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f242122f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10335,14 +10653,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 251 250 252 34 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10383,14 +10707,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (insn 261 260 262 36 (set (reg/f:SI 259)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f00ed3e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1853:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f745e5e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1853:43 -1
 =======
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f2420fe6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1853:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 262 261 263 36 (set (mem/f:SI (plus:SI (reg/f:SI 163 [ _50 ])
                 (const_int 56 [0x38])) [18 _50->XferAbortCallback+0 S4 A32])
@@ -10410,14 +10740,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 266 265 267 36 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f00ed62f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f745e82f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f242122f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10470,14 +10806,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 278 277 279 37 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10500,14 +10842,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 284 283 285 38 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Abort") [flags 0x3]  <function_decl 0x7f00ed284800 HAL_SAI_Abort>) [0 HAL_SAI_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Abort") [flags 0x3]  <function_decl 0x7f745e484800 HAL_SAI_Abort>) [0 HAL_SAI_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_SAI_Abort") [flags 0x3]  <function_decl 0x7f2420e84800 HAL_SAI_Abort>) [0 HAL_SAI_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10522,14 +10870,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 286 285 289 38 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10669,14 +11023,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (insn 324 323 325 44 (set (reg/f:SI 273)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f00ed3e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1900:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f745e5e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1900:43 -1
 =======
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f2420fe6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1900:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 325 324 326 44 (set (mem/f:SI (plus:SI (reg/f:SI 175 [ _62 ])
                 (const_int 56 [0x38])) [18 _62->XferAbortCallback+0 S4 A32])
@@ -10696,14 +11056,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 329 328 330 44 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f00ed62f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f745e82f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f242122f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10756,14 +11122,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 341 340 342 45 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10804,14 +11176,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (insn 351 350 352 47 (set (reg/f:SI 280)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f00ed3e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1919:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f745e5e6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1919:43 -1
 =======
         (symbol_ref:SI ("SAI_DMAAbort") [flags 0x3]  <function_decl 0x7f2420fe6b00 SAI_DMAAbort>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":1919:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 352 351 353 47 (set (mem/f:SI (plus:SI (reg/f:SI 181 [ _68 ])
                 (const_int 56 [0x38])) [18 _68->XferAbortCallback+0 S4 A32])
@@ -10831,14 +11209,20 @@ Forwarding edge 53->54 to 55 failed.
 (call_insn 356 355 357 47 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f00ed62f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f745e82f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f242122f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10891,14 +11275,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 368 367 369 48 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10977,14 +11367,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 390 389 393 49 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11080,14 +11476,20 @@ Forwarding edge 53->54 to 55 failed.
      (nil))
 (call_insn 417 416 418 53 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13521,14 +13923,20 @@ try_optimize_cfg iteration 2
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (insn 6 3 7 2 (set (reg/f:SI 127)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f00edf4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":2365:64 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f745f14da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":2365:64 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f242194da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_sai.c":2365:64 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 7 6 8 2 (set (reg:SI 114 [ SystemCoreClock.4_1 ])
         (mem/c:SI (reg/f:SI 127) [4 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_sai.c":2365:64 -1
@@ -13766,14 +14174,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13835,14 +14249,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed284f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f745e484f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e84f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14002,14 +14422,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14071,14 +14497,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed284f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f745e484f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e84f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14293,14 +14725,20 @@ try_optimize_cfg iteration 2
 (call_insn 13 12 14 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14362,14 +14800,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed284f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f745e484f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e84f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14759,14 +15203,20 @@ try_optimize_cfg iteration 2
 (call_insn 34 33 35 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14842,14 +15292,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 53 52 56 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed287100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f745e487100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e87100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15056,14 +15512,20 @@ try_optimize_cfg iteration 2
 (call_insn 48 47 49 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15139,14 +15601,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 67 66 70 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed287100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f745e487100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e87100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15443,14 +15911,20 @@ try_optimize_cfg iteration 2
 (call_insn 72 71 73 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15526,14 +16000,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 91 90 94 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed287100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f745e487100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e87100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15660,14 +16140,20 @@ try_optimize_cfg iteration 2
 (call_insn 27 26 28 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15731,14 +16217,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 44 43 0 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed284f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f745e484f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e84f00 HAL_SAI_TxCpltCallback>) [0 HAL_SAI_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15796,14 +16288,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f00ed284e00 HAL_SAI_TxHalfCpltCallback>) [0 HAL_SAI_TxHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f745e484e00 HAL_SAI_TxHalfCpltCallback>) [0 HAL_SAI_TxHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f2420e84e00 HAL_SAI_TxHalfCpltCallback>) [0 HAL_SAI_TxHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15928,14 +16426,20 @@ try_optimize_cfg iteration 2
 (call_insn 27 26 28 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f00ed3e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f745e5e1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_InterruptFlag") [flags 0x3]  <function_decl 0x7f2420fe1c00 SAI_InterruptFlag>) [0 SAI_InterruptFlag S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15999,14 +16503,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 44 43 0 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f00ed287100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f745e487100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f2420e87100 HAL_SAI_RxCpltCallback>) [0 HAL_SAI_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16064,14 +16574,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f00ed287000 HAL_SAI_RxHalfCpltCallback>) [0 HAL_SAI_RxHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f745e487000 HAL_SAI_RxHalfCpltCallback>) [0 HAL_SAI_RxHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f2420e87000 HAL_SAI_RxHalfCpltCallback>) [0 HAL_SAI_RxHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16174,14 +16690,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16225,14 +16747,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 32 31 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16367,14 +16895,20 @@ try_optimize_cfg iteration 2
 (call_insn 30 29 31 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f00ed3e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f745e5e1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("SAI_Disable") [flags 0x3]  <function_decl 0x7f2420fe1f00 SAI_Disable>) [0 SAI_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16446,14 +16980,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 49 48 0 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f00ed287200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f745e487200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_SAI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2420e87200 HAL_SAI_ErrorCallback>) [0 HAL_SAI_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

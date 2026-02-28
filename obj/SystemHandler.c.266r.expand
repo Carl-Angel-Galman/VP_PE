@@ -108,14 +108,20 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_IncTick") [flags 0x41]  <function_decl 0x7f1cf87d8d00 HAL_IncTick>) [0 HAL_IncTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_IncTick") [flags 0x41]  <function_decl 0x7f1ccc5d8d00 HAL_IncTick>) [0 HAL_IncTick S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_IncTick") [flags 0x41]  <function_decl 0x7fd352dd8d00 HAL_IncTick>) [0 HAL_IncTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

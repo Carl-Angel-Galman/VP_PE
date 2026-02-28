@@ -90,14 +90,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 16 15 17 2 (set (reg/f:SI 123)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":54:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":54:45 -1
 =======
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f9804984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":54:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 17 16 18 2 (set (reg:SI 124)
         (const_int 1073742848 [0x40000400])) "src/HAL/TimerModule.c":54:45 -1
@@ -107,14 +113,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 19 18 20 2 (set (reg/f:SI 125)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":55:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":55:45 -1
 =======
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f9804984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":55:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 20 19 21 2 (set (reg:SI 126)
         (const_int 1280 [0x500])) "src/HAL/TimerModule.c":55:45 -1
@@ -125,14 +137,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 22 21 23 2 (set (reg/f:SI 127)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":56:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":56:45 -1
 =======
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f9804984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":56:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 23 22 24 2 (set (reg:SI 128)
         (const_int 0 [0])) "src/HAL/TimerModule.c":56:45 -1
@@ -143,14 +161,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 25 24 26 2 (set (reg/f:SI 129)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":57:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":57:45 -1
 =======
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f9804984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":57:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 26 25 27 2 (set (reg:SI 130)
         (const_int 999 [0x3e7])) "src/HAL/TimerModule.c":57:45 -1
@@ -161,14 +185,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 28 27 29 2 (set (reg/f:SI 131)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":58:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":58:45 -1
 =======
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f9804984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":58:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 29 28 30 2 (set (reg:SI 132)
         (const_int 0 [0])) "src/HAL/TimerModule.c":58:45 -1
@@ -179,14 +209,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 31 30 32 2 (set (reg/f:SI 133)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":59:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":59:45 -1
 =======
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f9804984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":59:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 32 31 33 2 (set (reg:SI 134)
         (const_int 128 [0x80])) "src/HAL/TimerModule.c":59:45 -1
@@ -197,6 +233,7 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 34 33 35 2 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":61:9 -1
      (nil))
 (call_insn 35 34 36 2 (parallel [
@@ -204,6 +241,8 @@ try_optimize_cfg iteration 2
                 (call (mem:SI (symbol_ref:SI ("HAL_TIM_Base_Init") [flags 0x41]  <function_decl 0x7fc9b5b5f600 HAL_TIM_Base_Init>) [0 HAL_TIM_Base_Init S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":61:9 -1
      (nil))
 (call_insn 35 34 36 2 (parallel [
@@ -216,7 +255,10 @@ try_optimize_cfg iteration 2
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("HAL_TIM_Base_Init") [flags 0x41]  <function_decl 0x7f980495f600 HAL_TIM_Base_Init>) [0 HAL_TIM_Base_Init S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -269,6 +311,7 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 50 49 51 5 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":68:9 -1
      (nil))
 (call_insn 51 50 52 5 (parallel [
@@ -276,6 +319,8 @@ try_optimize_cfg iteration 2
                 (call (mem:SI (symbol_ref:SI ("HAL_TIM_ConfigClockSource") [flags 0x41]  <function_decl 0x7fc9b5b6c600 HAL_TIM_ConfigClockSource>) [0 HAL_TIM_ConfigClockSource S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":68:9 -1
      (nil))
 (call_insn 51 50 52 5 (parallel [
@@ -288,7 +333,10 @@ try_optimize_cfg iteration 2
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("HAL_TIM_ConfigClockSource") [flags 0x41]  <function_decl 0x7f980496c600 HAL_TIM_ConfigClockSource>) [0 HAL_TIM_ConfigClockSource S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -349,6 +397,7 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 68 67 69 7 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":76:9 -1
      (nil))
 (call_insn 69 68 70 7 (parallel [
@@ -356,6 +405,8 @@ try_optimize_cfg iteration 2
                 (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_MasterConfigSynchronization") [flags 0x41]  <function_decl 0x7fc9b5b58100 HAL_TIMEx_MasterConfigSynchronization>) [0 HAL_TIMEx_MasterConfigSynchronization S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":76:9 -1
      (nil))
 (call_insn 69 68 70 7 (parallel [
@@ -368,7 +419,10 @@ try_optimize_cfg iteration 2
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("HAL_TIMEx_MasterConfigSynchronization") [flags 0x41]  <function_decl 0x7f9804958100 HAL_TIMEx_MasterConfigSynchronization>) [0 HAL_TIMEx_MasterConfigSynchronization S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -408,6 +462,7 @@ try_optimize_cfg iteration 2
 (note 79 78 80 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (insn 80 79 81 9 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":81:5 -1
      (nil))
 (call_insn 81 80 82 9 (parallel [
@@ -415,6 +470,8 @@ try_optimize_cfg iteration 2
                 (call (mem:SI (symbol_ref:SI ("HAL_TIM_Base_Start_IT") [flags 0x41]  <function_decl 0x7fc9b5b5fc00 HAL_TIM_Base_Start_IT>) [0 HAL_TIM_Base_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":81:5 -1
      (nil))
 (call_insn 81 80 82 9 (parallel [
@@ -427,7 +484,10 @@ try_optimize_cfg iteration 2
             (set (reg:SI 0 r0)
                 (call (mem:SI (symbol_ref:SI ("HAL_TIM_Base_Start_IT") [flags 0x41]  <function_decl 0x7f980495fc00 HAL_TIM_Base_Start_IT>) [0 HAL_TIM_Base_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -555,14 +615,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 25 24 26 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_NVIC_SetPriority") [flags 0x41]  <function_decl 0x7fc9b5e2fa00 HAL_NVIC_SetPriority>) [0 HAL_NVIC_SetPriority S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_NVIC_SetPriority") [flags 0x41]  <function_decl 0x7f65fdc2fa00 HAL_NVIC_SetPriority>) [0 HAL_NVIC_SetPriority S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_NVIC_SetPriority") [flags 0x41]  <function_decl 0x7f9804c2fa00 HAL_NVIC_SetPriority>) [0 HAL_NVIC_SetPriority S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -578,14 +644,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 30 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_NVIC_EnableIRQ") [flags 0x41]  <function_decl 0x7fc9b5e2fb00 HAL_NVIC_EnableIRQ>) [0 HAL_NVIC_EnableIRQ S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_NVIC_EnableIRQ") [flags 0x41]  <function_decl 0x7f65fdc2fb00 HAL_NVIC_EnableIRQ>) [0 HAL_NVIC_EnableIRQ S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_NVIC_EnableIRQ") [flags 0x41]  <function_decl 0x7f9804c2fb00 HAL_NVIC_EnableIRQ>) [0 HAL_NVIC_EnableIRQ S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -625,12 +697,15 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7fc9b5b84d80 gTimer3Handle>)) "src/HAL/TimerModule.c":113:5 -1
      (nil))
 (call_insn 6 5 0 2 (parallel [
             (call (mem:SI (symbol_ref:SI ("HAL_TIM_IRQHandler") [flags 0x41]  <function_decl 0x7fc9b5b6c000 HAL_TIM_IRQHandler>) [0 HAL_TIM_IRQHandler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gTimer3Handle") [flags 0x2]  <var_decl 0x7f65fd984d80 gTimer3Handle>)) "src/HAL/TimerModule.c":113:5 -1
      (nil))
 (call_insn 6 5 0 2 (parallel [
@@ -641,7 +716,10 @@ try_optimize_cfg iteration 2
 (call_insn 6 5 0 2 (parallel [
             (call (mem:SI (symbol_ref:SI ("HAL_TIM_IRQHandler") [flags 0x41]  <function_decl 0x7f980496c000 HAL_TIM_IRQHandler>) [0 HAL_TIM_IRQHandler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

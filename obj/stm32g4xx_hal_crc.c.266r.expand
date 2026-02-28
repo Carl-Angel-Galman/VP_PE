@@ -123,14 +123,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspInit") [flags 0x3]  <function_decl 0x7f1da2dc2000 HAL_CRC_MspInit>) [0 HAL_CRC_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspInit") [flags 0x3]  <function_decl 0x7fc0d93c2000 HAL_CRC_MspInit>) [0 HAL_CRC_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspInit") [flags 0x3]  <function_decl 0x7f5a79bc2000 HAL_CRC_MspInit>) [0 HAL_CRC_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -251,14 +257,20 @@ try_optimize_cfg iteration 2
 (call_insn 61 60 62 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_CRCEx_Polynomial_Set") [flags 0x41]  <function_decl 0x7f1da2db7b00 HAL_CRCEx_Polynomial_Set>) [0 HAL_CRCEx_Polynomial_Set S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_CRCEx_Polynomial_Set") [flags 0x41]  <function_decl 0x7fc0d93b7b00 HAL_CRCEx_Polynomial_Set>) [0 HAL_CRCEx_Polynomial_Set S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_CRCEx_Polynomial_Set") [flags 0x41]  <function_decl 0x7f5a79bb7b00 HAL_CRCEx_Polynomial_Set>) [0 HAL_CRCEx_Polynomial_Set S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -634,14 +646,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspDeInit") [flags 0x3]  <function_decl 0x7f1da2dc2100 HAL_CRC_MspDeInit>) [0 HAL_CRC_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspDeInit") [flags 0x3]  <function_decl 0x7fc0d93c2100 HAL_CRC_MspDeInit>) [0 HAL_CRC_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspDeInit") [flags 0x3]  <function_decl 0x7f5a79bc2100 HAL_CRC_MspDeInit>) [0 HAL_CRC_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1022,14 +1040,20 @@ try_optimize_cfg iteration 2
 (call_insn 69 68 70 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7f1da29e1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7fc0d8fe1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7f5a797e1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1066,14 +1090,20 @@ try_optimize_cfg iteration 2
 (call_insn 78 77 79 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7f1da29e1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7fc0d8fe1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7f5a797e1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1411,14 +1441,20 @@ try_optimize_cfg iteration 2
 (call_insn 76 75 77 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7f1da29e1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7fc0d8fe1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7f5a797e1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1455,14 +1491,20 @@ try_optimize_cfg iteration 2
 (call_insn 85 84 86 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7f1da29e1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7fc0d8fe1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7f5a797e1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

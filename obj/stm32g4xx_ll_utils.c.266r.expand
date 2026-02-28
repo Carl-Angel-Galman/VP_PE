@@ -1169,14 +1169,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 8 7 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_InitTick") [flags 0x3]  <function_decl 0x7f18717e8500 LL_InitTick>) [0 LL_InitTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_InitTick") [flags 0x3]  <function_decl 0x7f63845e8500 LL_InitTick>) [0 LL_InitTick S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_InitTick") [flags 0x3]  <function_decl 0x7f948a1e8500 LL_InitTick>) [0 LL_InitTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1378,14 +1384,20 @@ try_optimize_cfg iteration 2
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (insn 6 3 7 2 (set (reg/f:SI 114)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f187214ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":267:19 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f638514ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":267:19 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f948ad4ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":267:19 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 7 6 8 2 (set (reg:SI 115)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
@@ -1564,14 +1576,20 @@ try_optimize_cfg iteration 2
 (call_insn 30 29 31 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_PWR_GetRegulVoltageScaling") [flags 0x3]  <function_decl 0x7f18714d9700 LL_PWR_GetRegulVoltageScaling>) [0 LL_PWR_GetRegulVoltageScaling S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_PWR_GetRegulVoltageScaling") [flags 0x3]  <function_decl 0x7f63842d9700 LL_PWR_GetRegulVoltageScaling>) [0 LL_PWR_GetRegulVoltageScaling S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_PWR_GetRegulVoltageScaling") [flags 0x3]  <function_decl 0x7f9489ed9700 LL_PWR_GetRegulVoltageScaling>) [0 LL_PWR_GetRegulVoltageScaling S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1941,14 +1959,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 168 167 169 28 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_FLASH_SetLatency") [flags 0x3]  <function_decl 0x7f18714be700 LL_FLASH_SetLatency>) [0 LL_FLASH_SetLatency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_FLASH_SetLatency") [flags 0x3]  <function_decl 0x7f63842be700 LL_FLASH_SetLatency>) [0 LL_FLASH_SetLatency S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_FLASH_SetLatency") [flags 0x3]  <function_decl 0x7f9489ebe700 LL_FLASH_SetLatency>) [0 LL_FLASH_SetLatency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1969,14 +1993,20 @@ try_optimize_cfg iteration 2
 (call_insn 172 171 173 29 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_FLASH_GetLatency") [flags 0x3]  <function_decl 0x7f18714bea00 LL_FLASH_GetLatency>) [0 LL_FLASH_GetLatency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_FLASH_GetLatency") [flags 0x3]  <function_decl 0x7f63842bea00 LL_FLASH_GetLatency>) [0 LL_FLASH_GetLatency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_FLASH_GetLatency") [flags 0x3]  <function_decl 0x7f9489ebea00 LL_FLASH_GetLatency>) [0 LL_FLASH_GetLatency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2156,14 +2186,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UTILS_PLL_IsBusy") [flags 0x3]  <function_decl 0x7f1871515d00 UTILS_PLL_IsBusy>) [0 UTILS_PLL_IsBusy S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UTILS_PLL_IsBusy") [flags 0x3]  <function_decl 0x7f6384315d00 UTILS_PLL_IsBusy>) [0 UTILS_PLL_IsBusy S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UTILS_PLL_IsBusy") [flags 0x3]  <function_decl 0x7f9489f15d00 UTILS_PLL_IsBusy>) [0 UTILS_PLL_IsBusy S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2199,14 +2235,20 @@ try_optimize_cfg iteration 2
 (call_insn 17 16 18 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UTILS_GetPLLOutputFrequency") [flags 0x3]  <function_decl 0x7f1871515b00 UTILS_GetPLLOutputFrequency>) [0 UTILS_GetPLLOutputFrequency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UTILS_GetPLLOutputFrequency") [flags 0x3]  <function_decl 0x7f6384315b00 UTILS_GetPLLOutputFrequency>) [0 UTILS_GetPLLOutputFrequency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UTILS_GetPLLOutputFrequency") [flags 0x3]  <function_decl 0x7f9489f15b00 UTILS_GetPLLOutputFrequency>) [0 UTILS_GetPLLOutputFrequency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2223,14 +2265,20 @@ try_optimize_cfg iteration 2
 (call_insn 19 18 20 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_IsReady") [flags 0x3]  <function_decl 0x7f1871402700 LL_RCC_HSI_IsReady>) [0 LL_RCC_HSI_IsReady S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_IsReady") [flags 0x3]  <function_decl 0x7f6384202700 LL_RCC_HSI_IsReady>) [0 LL_RCC_HSI_IsReady S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_IsReady") [flags 0x3]  <function_decl 0x7f9489e02700 LL_RCC_HSI_IsReady>) [0 LL_RCC_HSI_IsReady S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2255,14 +2303,20 @@ try_optimize_cfg iteration 2
 (note 23 22 24 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 24 23 28 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_Enable") [flags 0x3]  <function_decl 0x7f1871402300 LL_RCC_HSI_Enable>) [0 LL_RCC_HSI_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_Enable") [flags 0x3]  <function_decl 0x7f6384202300 LL_RCC_HSI_Enable>) [0 LL_RCC_HSI_Enable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_Enable") [flags 0x3]  <function_decl 0x7f9489e02300 LL_RCC_HSI_Enable>) [0 LL_RCC_HSI_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2275,14 +2329,20 @@ try_optimize_cfg iteration 2
 (call_insn 26 25 27 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_IsReady") [flags 0x3]  <function_decl 0x7f1871402700 LL_RCC_HSI_IsReady>) [0 LL_RCC_HSI_IsReady S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_IsReady") [flags 0x3]  <function_decl 0x7f6384202700 LL_RCC_HSI_IsReady>) [0 LL_RCC_HSI_IsReady S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSI_IsReady") [flags 0x3]  <function_decl 0x7f9489e02700 LL_RCC_HSI_IsReady>) [0 LL_RCC_HSI_IsReady S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2343,14 +2403,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 43 42 46 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_ConfigDomain_SYS") [flags 0x3]  <function_decl 0x7f1871448300 LL_RCC_PLL_ConfigDomain_SYS>) [0 LL_RCC_PLL_ConfigDomain_SYS S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_ConfigDomain_SYS") [flags 0x3]  <function_decl 0x7f6384248300 LL_RCC_PLL_ConfigDomain_SYS>) [0 LL_RCC_PLL_ConfigDomain_SYS S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_ConfigDomain_SYS") [flags 0x3]  <function_decl 0x7f9489e48300 LL_RCC_PLL_ConfigDomain_SYS>) [0 LL_RCC_PLL_ConfigDomain_SYS S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2430,14 +2496,20 @@ try_optimize_cfg iteration 2
 (call_insn 65 64 66 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UTILS_EnablePLLAndSwitchSystem") [flags 0x3]  <function_decl 0x7f1871515c00 UTILS_EnablePLLAndSwitchSystem>) [0 UTILS_EnablePLLAndSwitchSystem S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UTILS_EnablePLLAndSwitchSystem") [flags 0x3]  <function_decl 0x7f6384315c00 UTILS_EnablePLLAndSwitchSystem>) [0 UTILS_EnablePLLAndSwitchSystem S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UTILS_EnablePLLAndSwitchSystem") [flags 0x3]  <function_decl 0x7f9489f15c00 UTILS_EnablePLLAndSwitchSystem>) [0 UTILS_EnablePLLAndSwitchSystem S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2496,14 +2568,20 @@ try_optimize_cfg iteration 2
 (call_insn 78 77 79 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f18717e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f63845e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f948a1e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2560,14 +2638,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 92 91 93 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f187141c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f638421c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f9489e1c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2582,14 +2666,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 94 93 95 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f18717e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f63845e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f948a1e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2718,14 +2808,20 @@ try_optimize_cfg iteration 2
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UTILS_PLL_IsBusy") [flags 0x3]  <function_decl 0x7f1871515d00 UTILS_PLL_IsBusy>) [0 UTILS_PLL_IsBusy S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UTILS_PLL_IsBusy") [flags 0x3]  <function_decl 0x7f6384315d00 UTILS_PLL_IsBusy>) [0 UTILS_PLL_IsBusy S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UTILS_PLL_IsBusy") [flags 0x3]  <function_decl 0x7f9489f15d00 UTILS_PLL_IsBusy>) [0 UTILS_PLL_IsBusy S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2762,14 +2858,20 @@ try_optimize_cfg iteration 2
 (call_insn 19 18 20 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UTILS_GetPLLOutputFrequency") [flags 0x3]  <function_decl 0x7f1871515b00 UTILS_GetPLLOutputFrequency>) [0 UTILS_GetPLLOutputFrequency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UTILS_GetPLLOutputFrequency") [flags 0x3]  <function_decl 0x7f6384315b00 UTILS_GetPLLOutputFrequency>) [0 UTILS_GetPLLOutputFrequency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UTILS_GetPLLOutputFrequency") [flags 0x3]  <function_decl 0x7f9489f15b00 UTILS_GetPLLOutputFrequency>) [0 UTILS_GetPLLOutputFrequency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2786,14 +2888,20 @@ try_optimize_cfg iteration 2
 (call_insn 21 20 22 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_IsReady") [flags 0x3]  <function_decl 0x7f18717fbd00 LL_RCC_HSE_IsReady>) [0 LL_RCC_HSE_IsReady S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_IsReady") [flags 0x3]  <function_decl 0x7f63845fbd00 LL_RCC_HSE_IsReady>) [0 LL_RCC_HSE_IsReady S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_IsReady") [flags 0x3]  <function_decl 0x7f948a1fbd00 LL_RCC_HSE_IsReady>) [0 LL_RCC_HSE_IsReady S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2834,14 +2942,20 @@ try_optimize_cfg iteration 2
 (note 29 28 30 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 30 29 31 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_EnableBypass") [flags 0x3]  <function_decl 0x7f18717fb500 LL_RCC_HSE_EnableBypass>) [0 LL_RCC_HSE_EnableBypass S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_EnableBypass") [flags 0x3]  <function_decl 0x7f63845fb500 LL_RCC_HSE_EnableBypass>) [0 LL_RCC_HSE_EnableBypass S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_EnableBypass") [flags 0x3]  <function_decl 0x7f948a1fb500 LL_RCC_HSE_EnableBypass>) [0 LL_RCC_HSE_EnableBypass S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2858,14 +2972,20 @@ try_optimize_cfg iteration 2
 (note 34 33 35 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 35 34 36 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_DisableBypass") [flags 0x3]  <function_decl 0x7f18717fb700 LL_RCC_HSE_DisableBypass>) [0 LL_RCC_HSE_DisableBypass S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_DisableBypass") [flags 0x3]  <function_decl 0x7f63845fb700 LL_RCC_HSE_DisableBypass>) [0 LL_RCC_HSE_DisableBypass S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_DisableBypass") [flags 0x3]  <function_decl 0x7f948a1fb700 LL_RCC_HSE_DisableBypass>) [0 LL_RCC_HSE_DisableBypass S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2877,14 +2997,20 @@ try_optimize_cfg iteration 2
 (note 37 36 38 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 38 37 42 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_Enable") [flags 0x3]  <function_decl 0x7f18717fb900 LL_RCC_HSE_Enable>) [0 LL_RCC_HSE_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_Enable") [flags 0x3]  <function_decl 0x7f63845fb900 LL_RCC_HSE_Enable>) [0 LL_RCC_HSE_Enable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_Enable") [flags 0x3]  <function_decl 0x7f948a1fb900 LL_RCC_HSE_Enable>) [0 LL_RCC_HSE_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2897,14 +3023,20 @@ try_optimize_cfg iteration 2
 (call_insn 40 39 41 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_IsReady") [flags 0x3]  <function_decl 0x7f18717fbd00 LL_RCC_HSE_IsReady>) [0 LL_RCC_HSE_IsReady S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_IsReady") [flags 0x3]  <function_decl 0x7f63845fbd00 LL_RCC_HSE_IsReady>) [0 LL_RCC_HSE_IsReady S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_HSE_IsReady") [flags 0x3]  <function_decl 0x7f948a1fbd00 LL_RCC_HSE_IsReady>) [0 LL_RCC_HSE_IsReady S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2965,14 +3097,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 60 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_ConfigDomain_SYS") [flags 0x3]  <function_decl 0x7f1871448300 LL_RCC_PLL_ConfigDomain_SYS>) [0 LL_RCC_PLL_ConfigDomain_SYS S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_ConfigDomain_SYS") [flags 0x3]  <function_decl 0x7f6384248300 LL_RCC_PLL_ConfigDomain_SYS>) [0 LL_RCC_PLL_ConfigDomain_SYS S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_ConfigDomain_SYS") [flags 0x3]  <function_decl 0x7f9489e48300 LL_RCC_PLL_ConfigDomain_SYS>) [0 LL_RCC_PLL_ConfigDomain_SYS S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3052,14 +3190,20 @@ try_optimize_cfg iteration 2
 (call_insn 79 78 80 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UTILS_EnablePLLAndSwitchSystem") [flags 0x3]  <function_decl 0x7f1871515c00 UTILS_EnablePLLAndSwitchSystem>) [0 UTILS_EnablePLLAndSwitchSystem S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UTILS_EnablePLLAndSwitchSystem") [flags 0x3]  <function_decl 0x7f6384315c00 UTILS_EnablePLLAndSwitchSystem>) [0 UTILS_EnablePLLAndSwitchSystem S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UTILS_EnablePLLAndSwitchSystem") [flags 0x3]  <function_decl 0x7f9489f15c00 UTILS_EnablePLLAndSwitchSystem>) [0 UTILS_EnablePLLAndSwitchSystem S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3118,14 +3262,20 @@ try_optimize_cfg iteration 2
 (call_insn 92 91 93 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f18717e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f63845e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f948a1e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3182,14 +3332,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 106 105 107 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f187141c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f638421c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f9489e1c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3204,14 +3360,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 108 107 109 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f18717e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f63845e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f948a1e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3437,14 +3599,20 @@ try_optimize_cfg iteration 2
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_IsReady") [flags 0x3]  <function_decl 0x7f1871448100 LL_RCC_PLL_IsReady>) [0 LL_RCC_PLL_IsReady S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_IsReady") [flags 0x3]  <function_decl 0x7f6384248100 LL_RCC_PLL_IsReady>) [0 LL_RCC_PLL_IsReady S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_IsReady") [flags 0x3]  <function_decl 0x7f9489e48100 LL_RCC_PLL_IsReady>) [0 LL_RCC_PLL_IsReady S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3583,14 +3751,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 14 13 15 2 (set (reg/f:SI 132)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("AHBPrescTable") [flags 0x40]  <var_decl 0x7f187214cab0 AHBPrescTable>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":640:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("AHBPrescTable") [flags 0x40]  <var_decl 0x7f638514cab0 AHBPrescTable>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":640:20 -1
 =======
         (symbol_ref:SI ("AHBPrescTable") [flags 0x40]  <var_decl 0x7f948ad4cab0 AHBPrescTable>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":640:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 15 14 16 2 (set (reg:SI 117 [ _4 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 132)
@@ -3617,14 +3791,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 21 20 22 2 (set (reg/f:SI 135)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f187214ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":643:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f638514ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":643:22 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f948ad4ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":643:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 22 21 23 2 (set (reg:SI 120 [ SystemCoreClock.4_7 ])
         (mem/c:SI (reg/f:SI 135) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_utils.c":643:22 -1
@@ -3652,14 +3832,20 @@ try_optimize_cfg iteration 2
 (call_insn 28 27 29 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f18717e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f63845e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f948a1e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3698,14 +3884,20 @@ try_optimize_cfg iteration 2
 (note 37 36 38 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 38 37 39 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_Enable") [flags 0x3]  <function_decl 0x7f1871441d00 LL_RCC_PLL_Enable>) [0 LL_RCC_PLL_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_Enable") [flags 0x3]  <function_decl 0x7f6384241d00 LL_RCC_PLL_Enable>) [0 LL_RCC_PLL_Enable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_Enable") [flags 0x3]  <function_decl 0x7f9489e41d00 LL_RCC_PLL_Enable>) [0 LL_RCC_PLL_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3715,14 +3907,20 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 39 38 43 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_EnableDomain_SYS") [flags 0x3]  <function_decl 0x7f1871459300 LL_RCC_PLL_EnableDomain_SYS>) [0 LL_RCC_PLL_EnableDomain_SYS S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_EnableDomain_SYS") [flags 0x3]  <function_decl 0x7f6384259300 LL_RCC_PLL_EnableDomain_SYS>) [0 LL_RCC_PLL_EnableDomain_SYS S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_EnableDomain_SYS") [flags 0x3]  <function_decl 0x7f9489e59300 LL_RCC_PLL_EnableDomain_SYS>) [0 LL_RCC_PLL_EnableDomain_SYS S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3735,14 +3933,20 @@ try_optimize_cfg iteration 2
 (call_insn 41 40 42 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_IsReady") [flags 0x3]  <function_decl 0x7f1871448100 LL_RCC_PLL_IsReady>) [0 LL_RCC_PLL_IsReady S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_IsReady") [flags 0x3]  <function_decl 0x7f6384248100 LL_RCC_PLL_IsReady>) [0 LL_RCC_PLL_IsReady S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_PLL_IsReady") [flags 0x3]  <function_decl 0x7f9489e48100 LL_RCC_PLL_IsReady>) [0 LL_RCC_PLL_IsReady S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3777,14 +3981,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f187141c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f638421c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAHBPrescaler") [flags 0x3]  <function_decl 0x7f9489e1c100 LL_RCC_SetAHBPrescaler>) [0 LL_RCC_SetAHBPrescaler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3798,14 +4008,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 52 51 56 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetSysClkSource") [flags 0x3]  <function_decl 0x7f1871416c00 LL_RCC_SetSysClkSource>) [0 LL_RCC_SetSysClkSource S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetSysClkSource") [flags 0x3]  <function_decl 0x7f6384216c00 LL_RCC_SetSysClkSource>) [0 LL_RCC_SetSysClkSource S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetSysClkSource") [flags 0x3]  <function_decl 0x7f9489e16c00 LL_RCC_SetSysClkSource>) [0 LL_RCC_SetSysClkSource S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3819,14 +4035,20 @@ try_optimize_cfg iteration 2
 (call_insn 54 53 55 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_GetSysClkSource") [flags 0x3]  <function_decl 0x7f1871416f00 LL_RCC_GetSysClkSource>) [0 LL_RCC_GetSysClkSource S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_GetSysClkSource") [flags 0x3]  <function_decl 0x7f6384216f00 LL_RCC_GetSysClkSource>) [0 LL_RCC_GetSysClkSource S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_RCC_GetSysClkSource") [flags 0x3]  <function_decl 0x7f9489e16f00 LL_RCC_GetSysClkSource>) [0 LL_RCC_GetSysClkSource S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3862,14 +4084,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 63 62 64 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAPB1Prescaler") [flags 0x3]  <function_decl 0x7f187141c400 LL_RCC_SetAPB1Prescaler>) [0 LL_RCC_SetAPB1Prescaler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAPB1Prescaler") [flags 0x3]  <function_decl 0x7f638421c400 LL_RCC_SetAPB1Prescaler>) [0 LL_RCC_SetAPB1Prescaler S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAPB1Prescaler") [flags 0x3]  <function_decl 0x7f9489e1c400 LL_RCC_SetAPB1Prescaler>) [0 LL_RCC_SetAPB1Prescaler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3891,14 +4119,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 67 66 68 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAPB2Prescaler") [flags 0x3]  <function_decl 0x7f187141c700 LL_RCC_SetAPB2Prescaler>) [0 LL_RCC_SetAPB2Prescaler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAPB2Prescaler") [flags 0x3]  <function_decl 0x7f638421c700 LL_RCC_SetAPB2Prescaler>) [0 LL_RCC_SetAPB2Prescaler S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_RCC_SetAPB2Prescaler") [flags 0x3]  <function_decl 0x7f9489e1c700 LL_RCC_SetAPB2Prescaler>) [0 LL_RCC_SetAPB2Prescaler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3911,14 +4145,20 @@ try_optimize_cfg iteration 2
 (note 69 68 70 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 70 69 71 11 (set (reg/f:SI 143)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f187214ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":674:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f638514ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":674:22 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f948ad4ca20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_ll_utils.c":674:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 71 70 72 11 (set (reg:SI 126 [ SystemCoreClock.5_13 ])
         (mem/c:SI (reg/f:SI 143) [1 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_ll_utils.c":674:22 -1
@@ -3946,14 +4186,20 @@ try_optimize_cfg iteration 2
 (call_insn 77 76 78 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f18717e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f63845e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_SetFlashLatency") [flags 0x3]  <function_decl 0x7f948a1e8a00 LL_SetFlashLatency>) [0 LL_SetFlashLatency S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3996,14 +4242,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 88 87 89 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f18717e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f63845e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_SetSystemCoreClock") [flags 0x3]  <function_decl 0x7f948a1e8900 LL_SetSystemCoreClock>) [0 LL_SetSystemCoreClock S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

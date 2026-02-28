@@ -68,14 +68,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_WWDG_MspInit") [flags 0x3]  <function_decl 0x7fcf10bcf200 HAL_WWDG_MspInit>) [0 HAL_WWDG_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_WWDG_MspInit") [flags 0x3]  <function_decl 0x7fc87a3cf200 HAL_WWDG_MspInit>) [0 HAL_WWDG_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_WWDG_MspInit") [flags 0x3]  <function_decl 0x7fc2869cf200 HAL_WWDG_MspInit>) [0 HAL_WWDG_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -372,14 +378,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 25 24 28 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_WWDG_EarlyWakeupCallback") [flags 0x3]  <function_decl 0x7fcf10bcf500 HAL_WWDG_EarlyWakeupCallback>) [0 HAL_WWDG_EarlyWakeupCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_WWDG_EarlyWakeupCallback") [flags 0x3]  <function_decl 0x7fc87a3cf500 HAL_WWDG_EarlyWakeupCallback>) [0 HAL_WWDG_EarlyWakeupCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_WWDG_EarlyWakeupCallback") [flags 0x3]  <function_decl 0x7fc2869cf500 HAL_WWDG_EarlyWakeupCallback>) [0 HAL_WWDG_EarlyWakeupCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

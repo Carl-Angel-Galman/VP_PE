@@ -127,14 +127,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7fcbfd79e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f143ab9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f43d1b9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -187,14 +193,20 @@ try_optimize_cfg iteration 2
 (call_insn 42 41 43 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7fcbfd7a7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f143aba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f43d1ba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -257,14 +269,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 59 58 60 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7fcbfd7ab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f143abab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f43d1bab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -358,14 +376,20 @@ try_optimize_cfg iteration 2
 (call_insn 84 83 85 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7fcbfd7a7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f143aba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f43d1ba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -506,14 +530,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 25 24 26 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7fcbfd79e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f143ab9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f43d1b9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -566,14 +596,20 @@ try_optimize_cfg iteration 2
 (call_insn 39 38 40 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7fcbfd7a7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f143aba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f43d1ba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -636,14 +672,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 56 55 57 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7fcbfd7ab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f143abab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f43d1bab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -763,14 +805,20 @@ try_optimize_cfg iteration 2
 (call_insn 88 87 89 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7fcbfd7a7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f143aba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f43d1ba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -983,14 +1031,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7fcbfd79e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f143ab9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f43d1b9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1043,14 +1097,20 @@ try_optimize_cfg iteration 2
 (call_insn 60 59 61 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7fcbfd7a7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f143aba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f43d1ba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1113,14 +1173,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 77 76 78 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7fcbfd7ab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f143abab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f43d1bab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1274,14 +1340,20 @@ try_optimize_cfg iteration 2
 (call_insn 118 117 119 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7fcbfd7a7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f143aba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f43d1ba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1440,14 +1512,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 29 28 30 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7fcbfd79e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f143ab9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspInit") [flags 0x3]  <function_decl 0x7f43d1b9e800 HAL_UART_MspInit>) [0 HAL_UART_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1500,14 +1578,20 @@ try_optimize_cfg iteration 2
 (call_insn 43 42 44 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7fcbfd7a7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f143aba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_SetConfig") [flags 0x3]  <function_decl 0x7f43d1ba7e00 UART_SetConfig>) [0 UART_SetConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1570,14 +1654,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 60 59 61 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7fcbfd7ab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f143abab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_AdvFeatureConfig") [flags 0x3]  <function_decl 0x7f43d1bab100 UART_AdvFeatureConfig>) [0 UART_AdvFeatureConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1759,14 +1849,20 @@ try_optimize_cfg iteration 2
 (call_insn 110 109 111 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7fcbfd7a7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f143aba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f43d1ba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1937,14 +2033,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 38 37 39 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspDeInit") [flags 0x3]  <function_decl 0x7fcbfd79e900 HAL_UART_MspDeInit>) [0 HAL_UART_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspDeInit") [flags 0x3]  <function_decl 0x7f143ab9e900 HAL_UART_MspDeInit>) [0 HAL_UART_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_MspDeInit") [flags 0x3]  <function_decl 0x7f43d1b9e900 HAL_UART_MspDeInit>) [0 HAL_UART_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2312,14 +2414,20 @@ try_optimize_cfg iteration 2
 (call_insn 50 49 51 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fcbfd7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f143abd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f43d1bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2479,14 +2587,20 @@ try_optimize_cfg iteration 2
 (call_insn 95 94 96 14 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fcbfd7ab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f143abab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f43d1bab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2704,14 +2818,20 @@ try_optimize_cfg iteration 2
 (call_insn 161 160 162 21 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fcbfd7ab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f143abab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f43d1bab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3045,14 +3165,20 @@ try_optimize_cfg iteration 2
 (call_insn 53 52 54 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fcbfd7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f143abd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f43d1bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3493,14 +3619,20 @@ try_optimize_cfg iteration 2
 (call_insn 185 184 186 27 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fcbfd7ab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f143abab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f43d1bab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4080,14 +4212,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 77 76 78 12 (set (reg/f:SI 156)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_TxISR_16BIT_FIFOEN") [flags 0x3]  <function_decl 0x7fcbfd7e4a00 UART_TxISR_16BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1322:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_TxISR_16BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f143abe4a00 UART_TxISR_16BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1322:22 -1
 =======
         (symbol_ref:SI ("UART_TxISR_16BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f43d1be4a00 UART_TxISR_16BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1322:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 78 77 79 12 (set (mem/f:SI (plus:SI (reg/f:SI 155)
                 (const_int 116 [0x74])) [8 huart_22(D)->TxISR+0 S4 A32])
@@ -4106,14 +4244,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 84 83 85 13 (set (reg/f:SI 158)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_TxISR_8BIT_FIFOEN") [flags 0x3]  <function_decl 0x7fcbfd7e4900 UART_TxISR_8BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1326:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_TxISR_8BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f143abe4900 UART_TxISR_8BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1326:22 -1
 =======
         (symbol_ref:SI ("UART_TxISR_8BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f43d1be4900 UART_TxISR_8BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1326:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 85 84 86 13 (set (mem/f:SI (plus:SI (reg/f:SI 157)
                 (const_int 116 [0x74])) [8 huart_22(D)->TxISR+0 S4 A32])
@@ -4214,14 +4358,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 114 113 115 17 (set (reg/f:SI 167)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_TxISR_16BIT") [flags 0x3]  <function_decl 0x7fcbfd7e4800 UART_TxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1339:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_TxISR_16BIT") [flags 0x3]  <function_decl 0x7f143abe4800 UART_TxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1339:22 -1
 =======
         (symbol_ref:SI ("UART_TxISR_16BIT") [flags 0x3]  <function_decl 0x7f43d1be4800 UART_TxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1339:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 115 114 116 17 (set (mem/f:SI (plus:SI (reg/f:SI 166)
                 (const_int 116 [0x74])) [8 huart_22(D)->TxISR+0 S4 A32])
@@ -4240,14 +4390,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 121 120 122 18 (set (reg/f:SI 169)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_TxISR_8BIT") [flags 0x3]  <function_decl 0x7fcbfd7e4700 UART_TxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1343:22 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_TxISR_8BIT") [flags 0x3]  <function_decl 0x7f143abe4700 UART_TxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1343:22 -1
 =======
         (symbol_ref:SI ("UART_TxISR_8BIT") [flags 0x3]  <function_decl 0x7f43d1be4700 UART_TxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1343:22 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 122 121 123 18 (set (mem/f:SI (plus:SI (reg/f:SI 168)
                 (const_int 116 [0x74])) [8 huart_22(D)->TxISR+0 S4 A32])
@@ -4597,14 +4753,20 @@ try_optimize_cfg iteration 2
 (call_insn 72 71 73 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_Start_Receive_IT") [flags 0x3]  <function_decl 0x7fcbfd7ab200 UART_Start_Receive_IT>) [0 UART_Start_Receive_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_Start_Receive_IT") [flags 0x3]  <function_decl 0x7f143abab200 UART_Start_Receive_IT>) [0 UART_Start_Receive_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_Start_Receive_IT") [flags 0x3]  <function_decl 0x7f43d1bab200 UART_Start_Receive_IT>) [0 UART_Start_Receive_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4904,14 +5066,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 65 64 66 10 (set (reg/f:SI 157)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMATransmitCplt") [flags 0x3]  <function_decl 0x7fcbfd7e1d00 UART_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1435:39 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f143abe1d00 UART_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1435:39 -1
 =======
         (symbol_ref:SI ("UART_DMATransmitCplt") [flags 0x3]  <function_decl 0x7f43d1be1d00 UART_DMATransmitCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1435:39 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 66 65 67 10 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 44 [0x2c])) [11 _4->XferCpltCallback+0 S4 A32])
@@ -4927,14 +5095,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 69 68 70 10 (set (reg/f:SI 159)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7fcbfd7e4000 UART_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1438:43 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f143abe4000 UART_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1438:43 -1
 =======
         (symbol_ref:SI ("UART_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f43d1be4000 UART_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1438:43 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 70 69 71 10 (set (mem/f:SI (plus:SI (reg/f:SI 118 [ _5 ])
                 (const_int 48 [0x30])) [11 _5->XferHalfCpltCallback+0 S4 A32])
@@ -4950,14 +5124,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 73 72 74 10 (set (reg/f:SI 161)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMAError") [flags 0x3]  <function_decl 0x7fcbfd7e4100 UART_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1441:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMAError") [flags 0x3]  <function_decl 0x7f143abe4100 UART_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1441:40 -1
 =======
         (symbol_ref:SI ("UART_DMAError") [flags 0x3]  <function_decl 0x7f43d1be4100 UART_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1441:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 74 73 75 10 (set (mem/f:SI (plus:SI (reg/f:SI 119 [ _6 ])
                 (const_int 52 [0x34])) [11 _6->XferErrorCallback+0 S4 A32])
@@ -5030,14 +5210,20 @@ try_optimize_cfg iteration 2
 (call_insn 93 92 94 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fcbfda2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f143ae2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f43d1e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5469,14 +5655,20 @@ try_optimize_cfg iteration 2
 (call_insn 72 71 73 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_Start_Receive_DMA") [flags 0x3]  <function_decl 0x7fcbfd7ab300 UART_Start_Receive_DMA>) [0 UART_Start_Receive_DMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_Start_Receive_DMA") [flags 0x3]  <function_decl 0x7f143abab300 UART_Start_Receive_DMA>) [0 UART_Start_Receive_DMA S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_Start_Receive_DMA") [flags 0x3]  <function_decl 0x7f43d1bab300 UART_Start_Receive_DMA>) [0 UART_Start_Receive_DMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6316,14 +6508,20 @@ try_optimize_cfg iteration 2
 (call_insn 38 37 39 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6364,14 +6562,20 @@ try_optimize_cfg iteration 2
 (call_insn 47 46 48 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7fcbfda2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f143ae2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f43d1e2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6422,14 +6626,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 61 60 62 9 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_EndTxTransfer") [flags 0x3]  <function_decl 0x7fcbfd7e1b00 UART_EndTxTransfer>) [0 UART_EndTxTransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_EndTxTransfer") [flags 0x3]  <function_decl 0x7f143abe1b00 UART_EndTxTransfer>) [0 UART_EndTxTransfer S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_EndTxTransfer") [flags 0x3]  <function_decl 0x7f43d1be1b00 UART_EndTxTransfer>) [0 UART_EndTxTransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6543,14 +6753,20 @@ try_optimize_cfg iteration 2
 (call_insn 90 89 91 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6591,14 +6807,20 @@ try_optimize_cfg iteration 2
 (call_insn 99 98 100 14 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7fcbfda2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f143ae2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f43d1e2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6649,14 +6871,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 113 112 114 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7fcbfd7e1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7f143abe1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7f43d1be1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6946,14 +7174,20 @@ try_optimize_cfg iteration 2
 (call_insn 61 60 62 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6994,14 +7228,20 @@ try_optimize_cfg iteration 2
 (call_insn 70 69 71 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7fcbfda2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f143ae2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f43d1e2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7148,14 +7388,20 @@ try_optimize_cfg iteration 2
 (call_insn 109 108 110 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7196,14 +7442,20 @@ try_optimize_cfg iteration 2
 (call_insn 118 117 119 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7fcbfda2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f143ae2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f43d1e2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7623,14 +7875,20 @@ try_optimize_cfg iteration 2
 (call_insn 46 45 47 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7671,14 +7929,20 @@ try_optimize_cfg iteration 2
 (call_insn 55 54 56 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7fcbfda2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f143ae2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f43d1e2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8062,14 +8326,20 @@ try_optimize_cfg iteration 2
 (call_insn 61 60 62 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8110,14 +8380,20 @@ try_optimize_cfg iteration 2
 (call_insn 70 69 71 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7fcbfda2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f143ae2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_GetError") [flags 0x41]  <function_decl 0x7f43d1e2f800 HAL_DMA_GetError>) [0 HAL_DMA_GetError S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8503,14 +8779,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 51 50 52 7 (set (reg/f:SI 184)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7fcbfd7e4300 UART_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1918:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f143abe4300 UART_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1918:40 -1
 =======
         (symbol_ref:SI ("UART_DMATxAbortCallback") [flags 0x3]  <function_decl 0x7f43d1be4300 UART_DMATxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1918:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 52 51 53 7 (set (mem/f:SI (plus:SI (reg/f:SI 131 [ _18 ])
                 (const_int 56 [0x38])) [11 _18->XferAbortCallback+0 S4 A32])
@@ -8597,14 +8879,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 77 76 78 11 (set (reg/f:SI 190)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7fcbfd7e4400 UART_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1932:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f143abe4400 UART_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1932:40 -1
 =======
         (symbol_ref:SI ("UART_DMARxAbortCallback") [flags 0x3]  <function_decl 0x7f43d1be4400 UART_DMARxAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":1932:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 78 77 79 11 (set (mem/f:SI (plus:SI (reg/f:SI 137 [ _24 ])
                 (const_int 56 [0x38])) [11 _24->XferAbortCallback+0 S4 A32])
@@ -8721,14 +9009,20 @@ try_optimize_cfg iteration 2
 (call_insn 111 110 112 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fcbfda2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f143ae2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f43d1e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8873,14 +9167,20 @@ try_optimize_cfg iteration 2
 (call_insn 151 150 152 20 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fcbfda2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f143ae2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f43d1e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9151,14 +9451,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 227 226 228 26 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9366,14 +9672,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 41 40 42 5 (set (reg/f:SI 152)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7fcbfd7e4500 UART_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2062:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f143abe4500 UART_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2062:40 -1
 =======
         (symbol_ref:SI ("UART_DMATxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f43d1be4500 UART_DMATxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2062:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 42 41 43 5 (set (mem/f:SI (plus:SI (reg/f:SI 130 [ _17 ])
                 (const_int 56 [0x38])) [11 _17->XferAbortCallback+0 S4 A32])
@@ -9393,14 +9705,20 @@ try_optimize_cfg iteration 2
 (call_insn 46 45 47 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fcbfda2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f143ae2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f43d1e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9510,14 +9828,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 74 73 75 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f143aba7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9624,14 +9948,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 104 103 105 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f143aba7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9891,14 +10221,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 56 55 57 7 (set (reg/f:SI 161)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7fcbfd7e4600 UART_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2158:40 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f143abe4600 UART_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2158:40 -1
 =======
         (symbol_ref:SI ("UART_DMARxOnlyAbortCallback") [flags 0x3]  <function_decl 0x7f43d1be4600 UART_DMARxOnlyAbortCallback>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2158:40 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 57 56 58 7 (set (mem/f:SI (plus:SI (reg/f:SI 135 [ _22 ])
                 (const_int 56 [0x38])) [11 _22->XferAbortCallback+0 S4 A32])
@@ -9918,14 +10254,20 @@ try_optimize_cfg iteration 2
 (call_insn 61 60 62 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fcbfda2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f143ae2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f43d1e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10086,14 +10428,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 103 102 104 9 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f143aba7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10177,14 +10525,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 126 125 127 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f143aba7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11275,14 +11629,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 235 234 236 37 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7fcbfd7e1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7f143abe1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7f43d1be1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11374,14 +11734,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (insn 257 256 258 39 (set (reg/f:SI 301)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMAAbortOnError") [flags 0x3]  <function_decl 0x7fcbfd7e4200 UART_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2339:46 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f143abe4200 UART_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2339:46 -1
 =======
         (symbol_ref:SI ("UART_DMAAbortOnError") [flags 0x3]  <function_decl 0x7f43d1be4200 UART_DMAAbortOnError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":2339:46 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 258 257 259 39 (set (mem/f:SI (plus:SI (reg/f:SI 168 [ _55 ])
                 (const_int 56 [0x38])) [11 _55->XferAbortCallback+0 S4 A32])
@@ -11401,14 +11767,20 @@ Forwarding edge 44->45 to 79 failed.
 (call_insn 262 261 263 39 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7fcbfda2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f143ae2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f43d1e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11481,14 +11853,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 280 279 281 41 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11510,14 +11888,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 286 285 289 42 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11539,14 +11923,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 294 293 295 44 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11916,14 +12306,20 @@ Forwarding edge 44->45 to 79 failed.
 (call_insn 394 393 395 53 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7fcbfda2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f143ae2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f43d1e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11969,14 +12365,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 407 406 410 54 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12188,14 +12590,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 468 467 471 58 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12272,14 +12680,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 490 489 491 62 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_WakeupCallback") [flags 0x41]  <function_decl 0x7fcbfd78c500 HAL_UARTEx_WakeupCallback>) [0 HAL_UARTEx_WakeupCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_WakeupCallback") [flags 0x41]  <function_decl 0x7f143ab8c500 HAL_UARTEx_WakeupCallback>) [0 HAL_UARTEx_WakeupCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_WakeupCallback") [flags 0x41]  <function_decl 0x7f43d1b8c500 HAL_UARTEx_WakeupCallback>) [0 HAL_UARTEx_WakeupCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12451,14 +12865,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 537 536 538 71 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_EndTransmit_IT") [flags 0x3]  <function_decl 0x7fcbfd7e4b00 UART_EndTransmit_IT>) [0 UART_EndTransmit_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_EndTransmit_IT") [flags 0x3]  <function_decl 0x7f143abe4b00 UART_EndTransmit_IT>) [0 UART_EndTransmit_IT S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_EndTransmit_IT") [flags 0x3]  <function_decl 0x7f43d1be4b00 UART_EndTransmit_IT>) [0 UART_EndTransmit_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12520,14 +12940,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 553 552 554 74 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_TxFifoEmptyCallback") [flags 0x41]  <function_decl 0x7fcbfd78c700 HAL_UARTEx_TxFifoEmptyCallback>) [0 HAL_UARTEx_TxFifoEmptyCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_TxFifoEmptyCallback") [flags 0x41]  <function_decl 0x7f143ab8c700 HAL_UARTEx_TxFifoEmptyCallback>) [0 HAL_UARTEx_TxFifoEmptyCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_TxFifoEmptyCallback") [flags 0x41]  <function_decl 0x7f43d1b8c700 HAL_UARTEx_TxFifoEmptyCallback>) [0 HAL_UARTEx_TxFifoEmptyCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12585,14 +13011,20 @@ Forwarding edge 44->45 to 79 failed.
      (nil))
 (call_insn 570 569 573 77 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_RxFifoFullCallback") [flags 0x41]  <function_decl 0x7fcbfd78c600 HAL_UARTEx_RxFifoFullCallback>) [0 HAL_UARTEx_RxFifoFullCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_RxFifoFullCallback") [flags 0x41]  <function_decl 0x7f143ab8c600 HAL_UARTEx_RxFifoFullCallback>) [0 HAL_UARTEx_RxFifoFullCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_RxFifoFullCallback") [flags 0x41]  <function_decl 0x7f43d1b8c600 HAL_UARTEx_RxFifoFullCallback>) [0 HAL_UARTEx_RxFifoFullCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13579,14 +14011,20 @@ try_optimize_cfg iteration 2
 (call_insn 34 33 35 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7fcbfd7a7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f143aba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f43d1ba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13746,14 +14184,20 @@ try_optimize_cfg iteration 2
 (call_insn 34 33 35 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7fcbfd7a7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f143aba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_CheckIdleState") [flags 0x3]  <function_decl 0x7f43d1ba7f00 UART_CheckIdleState>) [0 UART_CheckIdleState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16247,14 +16691,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 490 489 491 81 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fcbfda04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f143ae04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f43d1e04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16290,14 +16740,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 502 501 503 83 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fcbfda04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f143ae04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f43d1e04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16375,14 +16831,20 @@ Forwarding edge 70->71 to 76 failed.
      (nil))
 (insn 527 526 528 87 (set (reg/f:SI 335)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7fcbfd784240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3106:50 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f143ab84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3106:50 -1
 =======
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f43d1b84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3106:50 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 528 527 529 87 (set (reg:SI 172 [ _59 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 171 [ _58 ])
@@ -16510,14 +16972,20 @@ Forwarding edge 70->71 to 76 failed.
      (nil))
 (insn 563 562 564 90 (set (reg/f:SI 348)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7fcbfd784240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3118:31 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f143ab84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3118:31 -1
 =======
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f43d1b84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3118:31 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 564 563 565 90 (set (reg:SI 180 [ _67 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 179 [ _66 ])
@@ -16545,14 +17013,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn/u 571 570 572 90 (parallel [
             (set (reg:DI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7fcbfe539600 __aeabi_uldivmod>) [0  S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7f143bb39600 __aeabi_uldivmod>) [0  S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7f43d2939600 __aeabi_uldivmod>) [0  S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16652,14 +17126,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn/u 593 592 594 90 (parallel [
             (set (reg:DI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7fcbfe539600 __aeabi_uldivmod>) [0  S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7f143bb39600 __aeabi_uldivmod>) [0  S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("__aeabi_uldivmod") [flags 0x41]  <function_decl 0x7f43d2939600 __aeabi_uldivmod>) [0  S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16815,14 +17295,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 639 638 640 97 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fcbfda04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f143ae04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f43d1e04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16844,14 +17330,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 645 644 646 98 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7fcbfda04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f143ae04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f43d1e04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16887,14 +17379,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 657 656 658 100 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fcbfda04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f143ae04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f43d1e04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16972,14 +17470,20 @@ Forwarding edge 70->71 to 76 failed.
      (nil))
 (insn 682 681 683 104 (set (reg/f:SI 378)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7fcbfd784240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3160:29 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f143ab84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3160:29 -1
 =======
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f43d1b84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3160:29 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 683 682 684 104 (set (reg:SI 195 [ _82 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 194 [ _81 ])
@@ -17199,14 +17703,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 747 746 748 110 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7fcbfda04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f143ae04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK1Freq") [flags 0x41]  <function_decl 0x7f43d1e04300 HAL_RCC_GetPCLK1Freq>) [0 HAL_RCC_GetPCLK1Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17228,14 +17738,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 753 752 754 111 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7fcbfda04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f143ae04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetPCLK2Freq") [flags 0x41]  <function_decl 0x7f43d1e04400 HAL_RCC_GetPCLK2Freq>) [0 HAL_RCC_GetPCLK2Freq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17271,14 +17787,20 @@ Forwarding edge 70->71 to 76 failed.
 (call_insn 765 764 766 113 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7fcbfda04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f143ae04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_RCC_GetSysClockFreq") [flags 0x41]  <function_decl 0x7f43d1e04100 HAL_RCC_GetSysClockFreq>) [0 HAL_RCC_GetSysClockFreq S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17356,14 +17878,20 @@ Forwarding edge 70->71 to 76 failed.
      (nil))
 (insn 790 789 791 117 (set (reg/f:SI 402)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7fcbfd784240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3201:29 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f143ab84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3201:29 -1
 =======
         (symbol_ref:SI ("UARTPrescTable") [flags 0x2]  <var_decl 0x7f43d1b84240 UARTPrescTable>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3201:29 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 791 790 792 117 (set (reg:SI 213 [ _100 ])
         (zero_extend:SI (mem/u:HI (plus:SI (mult:SI (reg:SI 212 [ _99 ])
@@ -18244,14 +18772,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fcbfd7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f143abd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f43d1bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18312,14 +18846,20 @@ try_optimize_cfg iteration 2
 (call_insn 24 23 25 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fcbfd7ab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f143abab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f43d1bab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18409,14 +18949,20 @@ try_optimize_cfg iteration 2
 (call_insn 48 47 49 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fcbfd7ab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f143abab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("UART_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7f43d1bab000 UART_WaitOnFlagUntilTimeout>) [0 UART_WaitOnFlagUntilTimeout S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18616,14 +19162,20 @@ try_optimize_cfg iteration 2
 (call_insn 18 17 19 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fcbfd7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f143abd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f43d1bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -19571,14 +20123,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 141 140 142 20 (set (reg/f:SI 193)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_RxISR_16BIT_FIFOEN") [flags 0x3]  <function_decl 0x7fcbfd7e4f00 UART_RxISR_16BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3438:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_RxISR_16BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f143abe4f00 UART_RxISR_16BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3438:20 -1
 =======
         (symbol_ref:SI ("UART_RxISR_16BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f43d1be4f00 UART_RxISR_16BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3438:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 142 141 143 20 (set (mem/f:SI (plus:SI (reg/f:SI 192)
                 (const_int 112 [0x70])) [8 huart_34(D)->RxISR+0 S4 A32])
@@ -19597,14 +20155,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 148 147 149 21 (set (reg/f:SI 195)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_RxISR_8BIT_FIFOEN") [flags 0x3]  <function_decl 0x7fcbfd7e4e00 UART_RxISR_8BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3442:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_RxISR_8BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f143abe4e00 UART_RxISR_8BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3442:20 -1
 =======
         (symbol_ref:SI ("UART_RxISR_8BIT_FIFOEN") [flags 0x3]  <function_decl 0x7f43d1be4e00 UART_RxISR_8BIT_FIFOEN>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3442:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 149 148 150 21 (set (mem/f:SI (plus:SI (reg/f:SI 194)
                 (const_int 112 [0x70])) [8 huart_34(D)->RxISR+0 S4 A32])
@@ -19729,14 +20293,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 185 184 186 25 (set (reg/f:SI 206)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_RxISR_16BIT") [flags 0x3]  <function_decl 0x7fcbfd7e4d00 UART_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3456:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f143abe4d00 UART_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3456:20 -1
 =======
         (symbol_ref:SI ("UART_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f43d1be4d00 UART_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3456:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 186 185 187 25 (set (mem/f:SI (plus:SI (reg/f:SI 205)
                 (const_int 112 [0x70])) [8 huart_34(D)->RxISR+0 S4 A32])
@@ -19755,14 +20325,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 192 191 193 26 (set (reg/f:SI 208)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_RxISR_8BIT") [flags 0x3]  <function_decl 0x7fcbfd7e4c00 UART_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3460:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f143abe4c00 UART_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3460:20 -1
 =======
         (symbol_ref:SI ("UART_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f43d1be4c00 UART_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3460:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 193 192 194 26 (set (mem/f:SI (plus:SI (reg/f:SI 207)
                 (const_int 112 [0x70])) [8 huart_34(D)->RxISR+0 S4 A32])
@@ -19951,14 +20527,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 29 28 30 4 (set (reg/f:SI 153)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7fcbfd7e1e00 UART_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3493:37 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f143abe1e00 UART_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3493:37 -1
 =======
         (symbol_ref:SI ("UART_DMAReceiveCplt") [flags 0x3]  <function_decl 0x7f43d1be1e00 UART_DMAReceiveCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3493:37 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 30 29 31 4 (set (mem/f:SI (plus:SI (reg/f:SI 115 [ _2 ])
                 (const_int 44 [0x2c])) [11 _2->XferCpltCallback+0 S4 A32])
@@ -19974,14 +20556,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 33 32 34 4 (set (reg/f:SI 155)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7fcbfd7e1f00 UART_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3496:41 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f143abe1f00 UART_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3496:41 -1
 =======
         (symbol_ref:SI ("UART_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f43d1be1f00 UART_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3496:41 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 34 33 35 4 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 48 [0x30])) [11 _3->XferHalfCpltCallback+0 S4 A32])
@@ -19997,14 +20585,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 37 36 38 4 (set (reg/f:SI 157)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_DMAError") [flags 0x3]  <function_decl 0x7fcbfd7e4100 UART_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3499:38 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_DMAError") [flags 0x3]  <function_decl 0x7f143abe4100 UART_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3499:38 -1
 =======
         (symbol_ref:SI ("UART_DMAError") [flags 0x3]  <function_decl 0x7f43d1be4100 UART_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":3499:38 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 38 37 39 4 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 52 [0x34])) [11 _4->XferErrorCallback+0 S4 A32])
@@ -20077,14 +20671,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fcbfda2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f143ae2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f43d1e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20679,14 +21279,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 42 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5b00 HAL_UART_TxCpltCallback>) [0 HAL_UART_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5b00 HAL_UART_TxCpltCallback>) [0 HAL_UART_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5b00 HAL_UART_TxCpltCallback>) [0 HAL_UART_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20746,14 +21352,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5a00 HAL_UART_TxHalfCpltCallback>) [0 HAL_UART_TxHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5a00 HAL_UART_TxHalfCpltCallback>) [0 HAL_UART_TxHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5a00 HAL_UART_TxHalfCpltCallback>) [0 HAL_UART_TxHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21029,14 +21641,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 67 66 68 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21059,14 +21677,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 73 72 76 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21173,14 +21797,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 20 19 21 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21203,14 +21833,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 26 25 29 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5c00 HAL_UART_RxHalfCpltCallback>) [0 HAL_UART_RxHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5c00 HAL_UART_RxHalfCpltCallback>) [0 HAL_UART_RxHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5c00 HAL_UART_RxHalfCpltCallback>) [0 HAL_UART_RxHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21364,14 +22000,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 31 30 32 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_EndTxTransfer") [flags 0x3]  <function_decl 0x7fcbfd7e1b00 UART_EndTxTransfer>) [0 UART_EndTxTransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_EndTxTransfer") [flags 0x3]  <function_decl 0x7f143abe1b00 UART_EndTxTransfer>) [0 UART_EndTxTransfer S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_EndTxTransfer") [flags 0x3]  <function_decl 0x7f43d1be1b00 UART_EndTxTransfer>) [0 UART_EndTxTransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21446,14 +22088,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7fcbfd7e1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7f143abe1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("UART_EndRxTransfer") [flags 0x3]  <function_decl 0x7f43d1be1c00 UART_EndRxTransfer>) [0 UART_EndRxTransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21490,14 +22138,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 59 58 0 9 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21585,14 +22239,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 18 17 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21867,14 +22527,20 @@ Forwarding edge 4->5 to 10 failed.
      (nil))
 (call_insn 67 66 70 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22125,14 +22791,20 @@ Forwarding edge 4->5 to 8 failed.
      (nil))
 (call_insn 60 59 63 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5f00 HAL_UART_AbortCpltCallback>) [0 HAL_UART_AbortCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22270,14 +22942,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 31 30 0 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f143aba7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortTransmitCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba7000 HAL_UART_AbortTransmitCpltCallback>) [0 HAL_UART_AbortTransmitCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22412,14 +23090,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 31 30 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f143aba7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_AbortReceiveCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba7100 HAL_UART_AbortReceiveCpltCallback>) [0 HAL_UART_AbortReceiveCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23589,14 +24273,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 20 19 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5b00 HAL_UART_TxCpltCallback>) [0 HAL_UART_TxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5b00 HAL_UART_TxCpltCallback>) [0 HAL_UART_TxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_TxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5b00 HAL_UART_TxCpltCallback>) [0 HAL_UART_TxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23945,14 +24635,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 87 86 88 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23975,14 +24671,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 93 92 94 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24381,14 +25083,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 87 86 88 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24411,14 +25119,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 93 92 94 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25050,14 +25764,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 140 139 141 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25241,14 +25961,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 190 189 191 19 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25271,14 +25997,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 196 195 197 20 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25425,14 +26157,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 238 237 239 27 (set (reg/f:SI 252)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_RxISR_8BIT") [flags 0x3]  <function_decl 0x7fcbfd7e4c00 UART_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":4390:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f143abe4c00 UART_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":4390:20 -1
 =======
         (symbol_ref:SI ("UART_RxISR_8BIT") [flags 0x3]  <function_decl 0x7f43d1be4c00 UART_RxISR_8BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":4390:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 239 238 240 27 (set (mem/f:SI (plus:SI (reg/f:SI 251)
                 (const_int 112 [0x70])) [8 huart_72(D)->RxISR+0 S4 A32])
@@ -26074,14 +26812,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 140 139 141 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f143aba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_ErrorCallback") [flags 0x3]  <function_decl 0x7f43d1ba5e00 HAL_UART_ErrorCallback>) [0 HAL_UART_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26265,14 +27009,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 190 189 191 19 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7fcbfd7a7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f143aba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UARTEx_RxEventCallback") [flags 0x3]  <function_decl 0x7f43d1ba7200 HAL_UARTEx_RxEventCallback>) [0 HAL_UARTEx_RxEventCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26295,14 +27045,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 196 195 197 20 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7fcbfd7a5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f143aba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_UART_RxCpltCallback") [flags 0x3]  <function_decl 0x7f43d1ba5d00 HAL_UART_RxCpltCallback>) [0 HAL_UART_RxCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26449,14 +27205,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 238 237 239 27 (set (reg/f:SI 251)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("UART_RxISR_16BIT") [flags 0x3]  <function_decl 0x7fcbfd7e4d00 UART_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":4533:20 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("UART_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f143abe4d00 UART_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":4533:20 -1
 =======
         (symbol_ref:SI ("UART_RxISR_16BIT") [flags 0x3]  <function_decl 0x7f43d1be4d00 UART_RxISR_16BIT>)) "lib/HAL/Src/stm32g4xx_hal_uart.c":4533:20 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 239 238 240 27 (set (mem/f:SI (plus:SI (reg/f:SI 250)
                 (const_int 112 [0x70])) [8 huart_69(D)->RxISR+0 S4 A32])

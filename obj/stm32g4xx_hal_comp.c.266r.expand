@@ -1541,14 +1541,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 51 50 52 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspInit") [flags 0x3]  <function_decl 0x7f4206590600 HAL_COMP_MspInit>) [0 HAL_COMP_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspInit") [flags 0x3]  <function_decl 0x7f4f02b90600 HAL_COMP_MspInit>) [0 HAL_COMP_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspInit") [flags 0x3]  <function_decl 0x7ff062d90600 HAL_COMP_MspInit>) [0 HAL_COMP_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1718,14 +1724,20 @@ try_optimize_cfg iteration 2
 (note 94 93 95 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 95 94 96 11 (set (reg/f:SI 214)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f4206d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f4f0334da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7ff06354da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 96 95 97 11 (set (reg:SI 136 [ SystemCoreClock.0_23 ])
         (mem/c:SI (reg/f:SI 214) [4 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
@@ -2118,14 +2130,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 228 227 229 36 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f420657cc00 LL_EXTI_EnableRisingTrig_32_63>) [0 LL_EXTI_EnableRisingTrig_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b7cc00 LL_EXTI_EnableRisingTrig_32_63>) [0 LL_EXTI_EnableRisingTrig_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d7cc00 LL_EXTI_EnableRisingTrig_32_63>) [0 LL_EXTI_EnableRisingTrig_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2147,14 +2165,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 234 233 237 37 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f420657ca00 LL_EXTI_EnableRisingTrig_0_31>) [0 LL_EXTI_EnableRisingTrig_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b7ca00 LL_EXTI_EnableRisingTrig_0_31>) [0 LL_EXTI_EnableRisingTrig_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d7ca00 LL_EXTI_EnableRisingTrig_0_31>) [0 LL_EXTI_EnableRisingTrig_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2221,14 +2245,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 255 254 256 41 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f4206584000 LL_EXTI_DisableRisingTrig_32_63>) [0 LL_EXTI_DisableRisingTrig_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b84000 LL_EXTI_DisableRisingTrig_32_63>) [0 LL_EXTI_DisableRisingTrig_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d84000 LL_EXTI_DisableRisingTrig_32_63>) [0 LL_EXTI_DisableRisingTrig_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2250,14 +2280,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 261 260 262 42 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f420657ce00 LL_EXTI_DisableRisingTrig_0_31>) [0 LL_EXTI_DisableRisingTrig_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b7ce00 LL_EXTI_DisableRisingTrig_0_31>) [0 LL_EXTI_DisableRisingTrig_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d7ce00 LL_EXTI_DisableRisingTrig_0_31>) [0 LL_EXTI_DisableRisingTrig_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2343,14 +2379,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 284 283 285 46 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f4206584800 LL_EXTI_EnableFallingTrig_32_63>) [0 LL_EXTI_EnableFallingTrig_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b84800 LL_EXTI_EnableFallingTrig_32_63>) [0 LL_EXTI_EnableFallingTrig_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d84800 LL_EXTI_EnableFallingTrig_32_63>) [0 LL_EXTI_EnableFallingTrig_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2372,14 +2414,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 290 289 293 47 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f4206584600 LL_EXTI_EnableFallingTrig_0_31>) [0 LL_EXTI_EnableFallingTrig_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b84600 LL_EXTI_EnableFallingTrig_0_31>) [0 LL_EXTI_EnableFallingTrig_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d84600 LL_EXTI_EnableFallingTrig_0_31>) [0 LL_EXTI_EnableFallingTrig_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2446,14 +2494,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 311 310 312 51 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f4206584c00 LL_EXTI_DisableFallingTrig_32_63>) [0 LL_EXTI_DisableFallingTrig_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b84c00 LL_EXTI_DisableFallingTrig_32_63>) [0 LL_EXTI_DisableFallingTrig_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d84c00 LL_EXTI_DisableFallingTrig_32_63>) [0 LL_EXTI_DisableFallingTrig_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2475,14 +2529,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 317 316 318 52 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f4206584a00 LL_EXTI_DisableFallingTrig_0_31>) [0 LL_EXTI_DisableFallingTrig_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b84a00 LL_EXTI_DisableFallingTrig_0_31>) [0 LL_EXTI_DisableFallingTrig_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d84a00 LL_EXTI_DisableFallingTrig_0_31>) [0 LL_EXTI_DisableFallingTrig_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2544,14 +2604,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 334 333 335 55 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f4206590000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f4f02b90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7ff062d90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2573,14 +2639,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 340 339 341 56 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f420658ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f4f02b8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7ff062d8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2666,14 +2738,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 363 362 364 60 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_32_63") [flags 0x3]  <function_decl 0x7f420657c000 LL_EXTI_EnableEvent_32_63>) [0 LL_EXTI_EnableEvent_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_32_63") [flags 0x3]  <function_decl 0x7f4f02b7c000 LL_EXTI_EnableEvent_32_63>) [0 LL_EXTI_EnableEvent_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_32_63") [flags 0x3]  <function_decl 0x7ff062d7c000 LL_EXTI_EnableEvent_32_63>) [0 LL_EXTI_EnableEvent_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2695,14 +2773,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 369 368 372 61 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_0_31") [flags 0x3]  <function_decl 0x7f4206576e00 LL_EXTI_EnableEvent_0_31>) [0 LL_EXTI_EnableEvent_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_0_31") [flags 0x3]  <function_decl 0x7f4f02b76e00 LL_EXTI_EnableEvent_0_31>) [0 LL_EXTI_EnableEvent_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_0_31") [flags 0x3]  <function_decl 0x7ff062d76e00 LL_EXTI_EnableEvent_0_31>) [0 LL_EXTI_EnableEvent_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2769,14 +2853,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 390 389 391 65 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f420657c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f4f02b7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7ff062d7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2798,14 +2888,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 396 395 397 66 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f420657c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f4f02b7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7ff062d7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2891,14 +2987,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 419 418 420 70 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_32_63") [flags 0x3]  <function_decl 0x7f4206576400 LL_EXTI_EnableIT_32_63>) [0 LL_EXTI_EnableIT_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_32_63") [flags 0x3]  <function_decl 0x7f4f02b76400 LL_EXTI_EnableIT_32_63>) [0 LL_EXTI_EnableIT_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_32_63") [flags 0x3]  <function_decl 0x7ff062d76400 LL_EXTI_EnableIT_32_63>) [0 LL_EXTI_EnableIT_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2920,14 +3022,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 425 424 428 71 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_0_31") [flags 0x3]  <function_decl 0x7f4206576200 LL_EXTI_EnableIT_0_31>) [0 LL_EXTI_EnableIT_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_0_31") [flags 0x3]  <function_decl 0x7f4f02b76200 LL_EXTI_EnableIT_0_31>) [0 LL_EXTI_EnableIT_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_0_31") [flags 0x3]  <function_decl 0x7ff062d76200 LL_EXTI_EnableIT_0_31>) [0 LL_EXTI_EnableIT_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2994,14 +3102,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 446 445 447 75 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f4206576800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f4f02b76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7ff062d76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3023,14 +3137,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 452 451 455 76 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f4206576600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f4f02b76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7ff062d76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3097,14 +3217,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 473 472 474 80 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f420657c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f4f02b7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7ff062d7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3126,14 +3252,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 479 478 480 81 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f420657c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f4f02b7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7ff062d7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3195,14 +3327,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 496 495 497 84 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f4206576800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f4f02b76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7ff062d76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3224,14 +3362,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 502 501 503 85 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f4206576600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f4f02b76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7ff062d76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3445,14 +3589,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 39 38 40 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspDeInit") [flags 0x3]  <function_decl 0x7f4206590700 HAL_COMP_MspDeInit>) [0 HAL_COMP_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspDeInit") [flags 0x3]  <function_decl 0x7f4f02b90700 HAL_COMP_MspDeInit>) [0 HAL_COMP_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspDeInit") [flags 0x3]  <function_decl 0x7ff062d90700 HAL_COMP_MspDeInit>) [0 HAL_COMP_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3778,14 +3928,20 @@ Forwarding edge 10->11 to 13 failed.
      (nil))
 (insn 54 53 55 8 (set (reg/f:SI 147)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f4206d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f4f0334da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7ff06354da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 55 54 56 8 (set (reg:SI 122 [ SystemCoreClock.9_9 ])
         (mem/c:SI (reg/f:SI 147) [4 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
@@ -4497,14 +4653,20 @@ try_optimize_cfg iteration 2
 (call_insn 102 101 103 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_32_63") [flags 0x3]  <function_decl 0x7f420658a800 LL_EXTI_IsActiveFlag_32_63>) [0 LL_EXTI_IsActiveFlag_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_32_63") [flags 0x3]  <function_decl 0x7f4f02b8a800 LL_EXTI_IsActiveFlag_32_63>) [0 LL_EXTI_IsActiveFlag_32_63 S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_32_63") [flags 0x3]  <function_decl 0x7ff062d8a800 LL_EXTI_IsActiveFlag_32_63>) [0 LL_EXTI_IsActiveFlag_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4549,14 +4711,20 @@ try_optimize_cfg iteration 2
 (call_insn 116 115 117 26 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_0_31") [flags 0x3]  <function_decl 0x7f420658a600 LL_EXTI_IsActiveFlag_0_31>) [0 LL_EXTI_IsActiveFlag_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_0_31") [flags 0x3]  <function_decl 0x7f4f02b8a600 LL_EXTI_IsActiveFlag_0_31>) [0 LL_EXTI_IsActiveFlag_0_31 S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_0_31") [flags 0x3]  <function_decl 0x7ff062d8a600 LL_EXTI_IsActiveFlag_0_31>) [0 LL_EXTI_IsActiveFlag_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4627,14 +4795,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 134 133 135 30 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f4206590000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f4f02b90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7ff062d90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4656,14 +4830,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 140 139 141 31 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f420658ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f4f02b8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7ff062d8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4680,14 +4860,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 144 143 147 32 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_TriggerCallback") [flags 0x3]  <function_decl 0x7f4206590d00 HAL_COMP_TriggerCallback>) [0 HAL_COMP_TriggerCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_TriggerCallback") [flags 0x3]  <function_decl 0x7f4f02b90d00 HAL_COMP_TriggerCallback>) [0 HAL_COMP_TriggerCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_TriggerCallback") [flags 0x3]  <function_decl 0x7ff062d90d00 HAL_COMP_TriggerCallback>) [0 HAL_COMP_TriggerCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

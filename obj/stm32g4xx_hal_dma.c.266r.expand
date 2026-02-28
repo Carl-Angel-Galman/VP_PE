@@ -390,14 +390,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 98 97 99 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7f72385e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -527,14 +533,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 12 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7f72385e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -973,14 +985,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 78 77 79 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7f72385e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1069,14 +1087,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 101 100 102 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7f72385e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1450,14 +1474,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 51 50 52 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7f72385e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fe257be1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fd28b9e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1754,14 +1784,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 51 50 52 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7f72385e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fe257be1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fd28b9e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3077,14 +3113,20 @@ try_optimize_cfg iteration 2
 (call_insn 66 65 67 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f72385d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe257bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd28b9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3248,14 +3290,20 @@ try_optimize_cfg iteration 2
 (call_insn 111 110 112 14 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f72385d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe257bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd28b9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

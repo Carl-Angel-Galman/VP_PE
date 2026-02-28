@@ -3278,14 +3278,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 35 34 36 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_MspInit") [flags 0x3]  <function_decl 0x7f5fd236f600 HAL_ADC_MspInit>) [0 HAL_ADC_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_MspInit") [flags 0x3]  <function_decl 0x7f12fa56f600 HAL_ADC_MspInit>) [0 HAL_ADC_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_MspInit") [flags 0x3]  <function_decl 0x7f52d656f600 HAL_ADC_MspInit>) [0 HAL_ADC_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3334,14 +3340,20 @@ try_optimize_cfg iteration 2
 (call_insn 48 47 49 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDeepPowerDownEnabled") [flags 0x3]  <function_decl 0x7f5fd22d9b00 LL_ADC_IsDeepPowerDownEnabled>) [0 LL_ADC_IsDeepPowerDownEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDeepPowerDownEnabled") [flags 0x3]  <function_decl 0x7f12fa4d9b00 LL_ADC_IsDeepPowerDownEnabled>) [0 LL_ADC_IsDeepPowerDownEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDeepPowerDownEnabled") [flags 0x3]  <function_decl 0x7f52d64d9b00 LL_ADC_IsDeepPowerDownEnabled>) [0 LL_ADC_IsDeepPowerDownEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3377,14 +3389,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 56 55 57 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableDeepPowerDown") [flags 0x3]  <function_decl 0x7f5fd22d9900 LL_ADC_DisableDeepPowerDown>) [0 LL_ADC_DisableDeepPowerDown S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableDeepPowerDown") [flags 0x3]  <function_decl 0x7f12fa4d9900 LL_ADC_DisableDeepPowerDown>) [0 LL_ADC_DisableDeepPowerDown S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableDeepPowerDown") [flags 0x3]  <function_decl 0x7f52d64d9900 LL_ADC_DisableDeepPowerDown>) [0 LL_ADC_DisableDeepPowerDown S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3408,14 +3426,20 @@ try_optimize_cfg iteration 2
 (call_insn 62 61 63 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsInternalRegulatorEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1200 LL_ADC_IsInternalRegulatorEnabled>) [0 LL_ADC_IsInternalRegulatorEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsInternalRegulatorEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1200 LL_ADC_IsInternalRegulatorEnabled>) [0 LL_ADC_IsInternalRegulatorEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsInternalRegulatorEnabled") [flags 0x3]  <function_decl 0x7f52d64e1200 LL_ADC_IsInternalRegulatorEnabled>) [0 LL_ADC_IsInternalRegulatorEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3451,14 +3475,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 70 69 71 12 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableInternalRegulator") [flags 0x3]  <function_decl 0x7f5fd22d9e00 LL_ADC_EnableInternalRegulator>) [0 LL_ADC_EnableInternalRegulator S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableInternalRegulator") [flags 0x3]  <function_decl 0x7f12fa4d9e00 LL_ADC_EnableInternalRegulator>) [0 LL_ADC_EnableInternalRegulator S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableInternalRegulator") [flags 0x3]  <function_decl 0x7f52d64d9e00 LL_ADC_EnableInternalRegulator>) [0 LL_ADC_EnableInternalRegulator S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3469,14 +3499,20 @@ try_optimize_cfg iteration 2
             (nil))))
 (insn 71 70 72 12 (set (reg/f:SI 276)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5fd2b4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":503:89 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f12fab4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":503:89 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f52d6d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":503:89 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 72 71 73 12 (set (reg:SI 123 [ SystemCoreClock.0_10 ])
         (mem/c:SI (reg/f:SI 276) [2 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_adc.c":503:89 -1
@@ -3565,14 +3601,20 @@ try_optimize_cfg iteration 2
 (call_insn 97 96 98 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsInternalRegulatorEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1200 LL_ADC_IsInternalRegulatorEnabled>) [0 LL_ADC_IsInternalRegulatorEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsInternalRegulatorEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1200 LL_ADC_IsInternalRegulatorEnabled>) [0 LL_ADC_IsInternalRegulatorEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsInternalRegulatorEnabled") [flags 0x3]  <function_decl 0x7f52d64e1200 LL_ADC_IsInternalRegulatorEnabled>) [0 LL_ADC_IsInternalRegulatorEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3661,14 +3703,20 @@ try_optimize_cfg iteration 2
 (call_insn 120 119 121 17 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3758,14 +3806,20 @@ try_optimize_cfg iteration 2
 (call_insn 141 140 142 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3837,14 +3891,20 @@ try_optimize_cfg iteration 2
 (call_insn 159 158 160 22 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3862,14 +3922,20 @@ try_optimize_cfg iteration 2
 (call_insn 162 161 163 22 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3912,14 +3978,20 @@ try_optimize_cfg iteration 2
 (call_insn 174 173 175 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3937,14 +4009,20 @@ try_optimize_cfg iteration 2
 (call_insn 177 176 178 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3966,14 +4044,20 @@ try_optimize_cfg iteration 2
 (call_insn 181 180 182 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4090,14 +4174,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 217 216 218 29 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonClock") [flags 0x3]  <function_decl 0x7f5fd225bf00 LL_ADC_SetCommonClock>) [0 LL_ADC_SetCommonClock S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonClock") [flags 0x3]  <function_decl 0x7f12fa45bf00 LL_ADC_SetCommonClock>) [0 LL_ADC_SetCommonClock S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonClock") [flags 0x3]  <function_decl 0x7f52d645bf00 LL_ADC_SetCommonClock>) [0 LL_ADC_SetCommonClock S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4381,14 +4471,20 @@ try_optimize_cfg iteration 2
 (call_insn 292 291 293 34 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4414,14 +4510,20 @@ try_optimize_cfg iteration 2
 (call_insn 297 296 298 34 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5142,14 +5244,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f5fd2371c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f12fa571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f52d6571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5218,14 +5326,20 @@ try_optimize_cfg iteration 2
 (call_insn 38 37 39 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f5fd2371e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f12fa571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f52d6571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6008,14 +6122,20 @@ try_optimize_cfg iteration 2
 (call_insn 243 242 244 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6033,14 +6153,20 @@ try_optimize_cfg iteration 2
 (call_insn 246 245 247 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6083,14 +6209,20 @@ try_optimize_cfg iteration 2
 (call_insn 258 257 259 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6108,14 +6240,20 @@ try_optimize_cfg iteration 2
 (call_insn 261 260 262 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6137,14 +6275,20 @@ try_optimize_cfg iteration 2
 (call_insn 265 264 266 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6325,14 +6469,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 322 321 323 21 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_MspDeInit") [flags 0x3]  <function_decl 0x7f5fd236f700 HAL_ADC_MspDeInit>) [0 HAL_ADC_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_MspDeInit") [flags 0x3]  <function_decl 0x7f12fa56f700 HAL_ADC_MspDeInit>) [0 HAL_ADC_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_MspDeInit") [flags 0x3]  <function_decl 0x7f52d656f700 HAL_ADC_MspDeInit>) [0 HAL_ADC_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6679,14 +6829,20 @@ try_optimize_cfg iteration 2
 (call_insn 27 26 28 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f5fd22d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f12fa4d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f52d64d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6712,14 +6868,20 @@ try_optimize_cfg iteration 2
 (call_insn 32 31 33 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6794,14 +6956,20 @@ try_optimize_cfg iteration 2
 (call_insn 52 51 53 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f5fd2371d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f12fa571d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f52d6571d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7294,14 +7462,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 204 203 205 35 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f5fd22e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f12fa4e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f52d64e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7614,14 +7788,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f5fd2371c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f12fa571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f52d6571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7664,14 +7844,20 @@ try_optimize_cfg iteration 2
 (call_insn 31 30 32 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f5fd2371e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f12fa571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f52d6571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7985,14 +8171,20 @@ try_optimize_cfg iteration 2
 (call_insn 28 27 29 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f5fd22d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f12fa4d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f52d64d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8222,14 +8414,20 @@ try_optimize_cfg iteration 2
 (call_insn 98 97 99 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultiDMATransfer") [flags 0x3]  <function_decl 0x7f5fd22d9000 LL_ADC_GetMultiDMATransfer>) [0 LL_ADC_GetMultiDMATransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultiDMATransfer") [flags 0x3]  <function_decl 0x7f12fa4d9000 LL_ADC_GetMultiDMATransfer>) [0 LL_ADC_GetMultiDMATransfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultiDMATransfer") [flags 0x3]  <function_decl 0x7f52d64d9000 LL_ADC_GetMultiDMATransfer>) [0 LL_ADC_GetMultiDMATransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8295,14 +8493,20 @@ try_optimize_cfg iteration 2
 (call_insn 117 116 118 22 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8340,14 +8544,20 @@ try_optimize_cfg iteration 2
 (call_insn 126 125 127 24 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8540,14 +8750,20 @@ try_optimize_cfg iteration 2
 (call_insn 182 181 183 31 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f5fd2294400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f12fa494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f52d6494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9124,14 +9340,20 @@ Forwarding edge 19->20 to 26 failed.
 (call_insn 8 5 9 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9169,14 +9391,20 @@ Forwarding edge 19->20 to 26 failed.
 (call_insn 17 16 18 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10015,14 +10243,20 @@ try_optimize_cfg iteration 2
 (call_insn 27 26 28 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f5fd22d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f12fa4d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f52d64d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10048,14 +10282,20 @@ try_optimize_cfg iteration 2
 (call_insn 32 31 33 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10130,14 +10370,20 @@ try_optimize_cfg iteration 2
 (call_insn 52 51 53 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f5fd2371d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f12fa571d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f52d6571d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10916,14 +11162,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 287 286 288 42 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f5fd22e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f12fa4e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f52d64e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11367,14 +11619,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f5fd2371c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f12fa571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f52d6571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11443,14 +11701,20 @@ try_optimize_cfg iteration 2
 (call_insn 38 37 39 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f5fd2371e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f12fa571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f52d6571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11720,14 +11984,20 @@ try_optimize_cfg iteration 2
 (call_insn 29 28 30 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f5fd22d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f12fa4d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f52d64d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11753,14 +12023,20 @@ try_optimize_cfg iteration 2
 (call_insn 34 33 35 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11884,14 +12160,20 @@ try_optimize_cfg iteration 2
 (call_insn 67 66 68 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f5fd2371d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f12fa571d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Enable") [flags 0x3]  <function_decl 0x7f52d6571d00 ADC_Enable>) [0 ADC_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12161,14 +12443,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 149 148 150 26 (set (reg/f:SI 184)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("ADC_DMAConvCplt") [flags 0x3]  <function_decl 0x7f5fd2371f00 ADC_DMAConvCplt>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2072:44 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("ADC_DMAConvCplt") [flags 0x3]  <function_decl 0x7f12fa571f00 ADC_DMAConvCplt>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2072:44 -1
 =======
         (symbol_ref:SI ("ADC_DMAConvCplt") [flags 0x3]  <function_decl 0x7f52d6571f00 ADC_DMAConvCplt>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2072:44 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 150 149 151 26 (set (mem/f:SI (plus:SI (reg/f:SI 131 [ _18 ])
                 (const_int 44 [0x2c])) [14 _18->XferCpltCallback+0 S4 A32])
@@ -12184,14 +12472,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 153 152 154 26 (set (reg/f:SI 186)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("ADC_DMAHalfConvCplt") [flags 0x3]  <function_decl 0x7f5fd2376000 ADC_DMAHalfConvCplt>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2075:48 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("ADC_DMAHalfConvCplt") [flags 0x3]  <function_decl 0x7f12fa576000 ADC_DMAHalfConvCplt>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2075:48 -1
 =======
         (symbol_ref:SI ("ADC_DMAHalfConvCplt") [flags 0x3]  <function_decl 0x7f52d6576000 ADC_DMAHalfConvCplt>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2075:48 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 154 153 155 26 (set (mem/f:SI (plus:SI (reg/f:SI 132 [ _19 ])
                 (const_int 48 [0x30])) [14 _19->XferHalfCpltCallback+0 S4 A32])
@@ -12207,14 +12501,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 157 156 158 26 (set (reg/f:SI 188)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("ADC_DMAError") [flags 0x3]  <function_decl 0x7f5fd2376100 ADC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2078:45 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("ADC_DMAError") [flags 0x3]  <function_decl 0x7f12fa576100 ADC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2078:45 -1
 =======
         (symbol_ref:SI ("ADC_DMAError") [flags 0x3]  <function_decl 0x7f52d6576100 ADC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2078:45 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 158 157 159 26 (set (mem/f:SI (plus:SI (reg/f:SI 133 [ _20 ])
                 (const_int 52 [0x34])) [14 _20->XferErrorCallback+0 S4 A32])
@@ -12341,14 +12641,20 @@ try_optimize_cfg iteration 2
 (call_insn 192 191 193 26 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f5fd222f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f12fa42f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f52d642f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12382,14 +12688,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 199 198 200 26 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f5fd22e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f12fa4e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StartConversion") [flags 0x3]  <function_decl 0x7f52d64e8400 LL_ADC_REG_StartConversion>) [0 LL_ADC_REG_StartConversion S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12593,14 +12905,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f5fd2371c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f12fa571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_ConversionStop") [flags 0x3]  <function_decl 0x7f52d6571c00 ADC_ConversionStop>) [0 ADC_ConversionStop S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12703,14 +13021,20 @@ try_optimize_cfg iteration 2
 (call_insn 48 47 49 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f5fd222f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f12fa42f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f52d642f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12816,14 +13140,20 @@ try_optimize_cfg iteration 2
 (call_insn 75 74 76 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f5fd2371e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f12fa571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f52d6571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12856,14 +13186,20 @@ try_optimize_cfg iteration 2
 (call_insn 84 83 85 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f5fd2371e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f12fa571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("ADC_Disable") [flags 0x3]  <function_decl 0x7f52d6571e00 ADC_Disable>) [0 ADC_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13510,14 +13846,20 @@ try_optimize_cfg iteration 2
 (call_insn 37 36 38 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f5fd22d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f12fa4d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultimode") [flags 0x3]  <function_decl 0x7f52d64d5b00 LL_ADC_GetMultimode>) [0 LL_ADC_GetMultimode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13622,14 +13964,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 63 62 64 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_EndOfSamplingCallback") [flags 0x41]  <function_decl 0x7f5fd236a900 HAL_ADCEx_EndOfSamplingCallback>) [0 HAL_ADCEx_EndOfSamplingCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_EndOfSamplingCallback") [flags 0x41]  <function_decl 0x7f12fa56a900 HAL_ADCEx_EndOfSamplingCallback>) [0 HAL_ADCEx_EndOfSamplingCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_EndOfSamplingCallback") [flags 0x41]  <function_decl 0x7f52d656a900 HAL_ADCEx_EndOfSamplingCallback>) [0 HAL_ADCEx_EndOfSamplingCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13794,14 +14142,20 @@ try_optimize_cfg iteration 2
 (call_insn 108 107 109 18 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f5fd2294400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f12fa494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f52d6494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14138,14 +14492,20 @@ try_optimize_cfg iteration 2
 (call_insn 216 215 217 39 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14314,14 +14674,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 261 260 262 43 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvCpltCallback") [flags 0x3]  <function_decl 0x7f5fd2371400 HAL_ADC_ConvCpltCallback>) [0 HAL_ADC_ConvCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvCpltCallback") [flags 0x3]  <function_decl 0x7f12fa571400 HAL_ADC_ConvCpltCallback>) [0 HAL_ADC_ConvCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvCpltCallback") [flags 0x3]  <function_decl 0x7f52d6571400 HAL_ADC_ConvCpltCallback>) [0 HAL_ADC_ConvCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14486,14 +14852,20 @@ try_optimize_cfg iteration 2
 (call_insn 306 305 307 50 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f5fd22a4f00 LL_ADC_INJ_IsTriggerSourceSWStart>) [0 LL_ADC_INJ_IsTriggerSourceSWStart S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f12fa4a4f00 LL_ADC_INJ_IsTriggerSourceSWStart>) [0 LL_ADC_INJ_IsTriggerSourceSWStart S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f52d64a4f00 LL_ADC_INJ_IsTriggerSourceSWStart>) [0 LL_ADC_INJ_IsTriggerSourceSWStart S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14519,14 +14891,20 @@ try_optimize_cfg iteration 2
 (call_insn 311 310 312 50 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f5fd2294400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f12fa494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f52d6494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14925,14 +15303,20 @@ try_optimize_cfg iteration 2
 (call_insn 435 434 436 74 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15101,14 +15485,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 480 479 481 78 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_InjectedConvCpltCallback") [flags 0x41]  <function_decl 0x7f5fd236a500 HAL_ADCEx_InjectedConvCpltCallback>) [0 HAL_ADCEx_InjectedConvCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_InjectedConvCpltCallback") [flags 0x41]  <function_decl 0x7f12fa56a500 HAL_ADCEx_InjectedConvCpltCallback>) [0 HAL_ADCEx_InjectedConvCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_InjectedConvCpltCallback") [flags 0x41]  <function_decl 0x7f52d656a500 HAL_ADCEx_InjectedConvCpltCallback>) [0 HAL_ADCEx_InjectedConvCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15198,14 +15588,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 503 502 504 81 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_LevelOutOfWindowCallback") [flags 0x3]  <function_decl 0x7f5fd2371600 HAL_ADC_LevelOutOfWindowCallback>) [0 HAL_ADC_LevelOutOfWindowCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_LevelOutOfWindowCallback") [flags 0x3]  <function_decl 0x7f12fa571600 HAL_ADC_LevelOutOfWindowCallback>) [0 HAL_ADC_LevelOutOfWindowCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_LevelOutOfWindowCallback") [flags 0x3]  <function_decl 0x7f52d6571600 HAL_ADC_LevelOutOfWindowCallback>) [0 HAL_ADC_LevelOutOfWindowCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15295,14 +15691,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 526 525 527 84 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_LevelOutOfWindow2Callback") [flags 0x41]  <function_decl 0x7f5fd236a700 HAL_ADCEx_LevelOutOfWindow2Callback>) [0 HAL_ADCEx_LevelOutOfWindow2Callback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_LevelOutOfWindow2Callback") [flags 0x41]  <function_decl 0x7f12fa56a700 HAL_ADCEx_LevelOutOfWindow2Callback>) [0 HAL_ADCEx_LevelOutOfWindow2Callback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_LevelOutOfWindow2Callback") [flags 0x41]  <function_decl 0x7f52d656a700 HAL_ADCEx_LevelOutOfWindow2Callback>) [0 HAL_ADCEx_LevelOutOfWindow2Callback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15392,14 +15794,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 549 548 550 87 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_LevelOutOfWindow3Callback") [flags 0x41]  <function_decl 0x7f5fd236a800 HAL_ADCEx_LevelOutOfWindow3Callback>) [0 HAL_ADCEx_LevelOutOfWindow3Callback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_LevelOutOfWindow3Callback") [flags 0x41]  <function_decl 0x7f12fa56a800 HAL_ADCEx_LevelOutOfWindow3Callback>) [0 HAL_ADCEx_LevelOutOfWindow3Callback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_LevelOutOfWindow3Callback") [flags 0x41]  <function_decl 0x7f52d656a800 HAL_ADCEx_LevelOutOfWindow3Callback>) [0 HAL_ADCEx_LevelOutOfWindow3Callback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15576,14 +15984,20 @@ try_optimize_cfg iteration 2
 (call_insn 602 601 603 97 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultiDMATransfer") [flags 0x3]  <function_decl 0x7f5fd22d9000 LL_ADC_GetMultiDMATransfer>) [0 LL_ADC_GetMultiDMATransfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultiDMATransfer") [flags 0x3]  <function_decl 0x7f12fa4d9000 LL_ADC_GetMultiDMATransfer>) [0 LL_ADC_GetMultiDMATransfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetMultiDMATransfer") [flags 0x3]  <function_decl 0x7f52d64d9000 LL_ADC_GetMultiDMATransfer>) [0 LL_ADC_GetMultiDMATransfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15719,14 +16133,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 639 638 640 102 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f5fd2371700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f12fa571700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f52d6571700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -15851,14 +16271,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 673 672 676 106 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_InjectedQueueOverflowCallback") [flags 0x41]  <function_decl 0x7f5fd236a600 HAL_ADCEx_InjectedQueueOverflowCallback>) [0 HAL_ADCEx_InjectedQueueOverflowCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_InjectedQueueOverflowCallback") [flags 0x41]  <function_decl 0x7f12fa56a600 HAL_ADCEx_InjectedQueueOverflowCallback>) [0 HAL_ADCEx_InjectedQueueOverflowCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_ADCEx_InjectedQueueOverflowCallback") [flags 0x41]  <function_decl 0x7f52d656a600 HAL_ADCEx_InjectedQueueOverflowCallback>) [0 HAL_ADCEx_InjectedQueueOverflowCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16595,14 +17021,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 32 31 33 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16659,14 +17091,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 46 45 47 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_SetSequencerRanks") [flags 0x3]  <function_decl 0x7f5fd229c900 LL_ADC_REG_SetSequencerRanks>) [0 LL_ADC_REG_SetSequencerRanks S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_SetSequencerRanks") [flags 0x3]  <function_decl 0x7f12fa49c900 LL_ADC_REG_SetSequencerRanks>) [0 LL_ADC_REG_SetSequencerRanks S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_SetSequencerRanks") [flags 0x3]  <function_decl 0x7f52d649c900 LL_ADC_REG_SetSequencerRanks>) [0 LL_ADC_REG_SetSequencerRanks S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16690,14 +17128,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 50 49 51 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16723,14 +17167,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 55 54 56 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16820,14 +17270,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 77 76 78 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f5fd22be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f12fa4be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f52d64be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16853,14 +17309,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 82 81 83 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetSamplingTimeCommonConfig") [flags 0x3]  <function_decl 0x7f5fd228db00 LL_ADC_SetSamplingTimeCommonConfig>) [0 LL_ADC_SetSamplingTimeCommonConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetSamplingTimeCommonConfig") [flags 0x3]  <function_decl 0x7f12fa48db00 LL_ADC_SetSamplingTimeCommonConfig>) [0 LL_ADC_SetSamplingTimeCommonConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetSamplingTimeCommonConfig") [flags 0x3]  <function_decl 0x7f52d648db00 LL_ADC_SetSamplingTimeCommonConfig>) [0 LL_ADC_SetSamplingTimeCommonConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16910,14 +17372,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 96 95 97 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f5fd22be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f12fa4be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f52d64be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -16943,14 +17411,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 101 100 102 11 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetSamplingTimeCommonConfig") [flags 0x3]  <function_decl 0x7f5fd228db00 LL_ADC_SetSamplingTimeCommonConfig>) [0 LL_ADC_SetSamplingTimeCommonConfig S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetSamplingTimeCommonConfig") [flags 0x3]  <function_decl 0x7f12fa48db00 LL_ADC_SetSamplingTimeCommonConfig>) [0 LL_ADC_SetSamplingTimeCommonConfig S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetSamplingTimeCommonConfig") [flags 0x3]  <function_decl 0x7f52d648db00 LL_ADC_SetSamplingTimeCommonConfig>) [0 LL_ADC_SetSamplingTimeCommonConfig S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17058,14 +17532,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 129 128 130 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffset") [flags 0x3]  <function_decl 0x7f5fd227fe00 LL_ADC_SetOffset>) [0 LL_ADC_SetOffset S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffset") [flags 0x3]  <function_decl 0x7f12fa47fe00 LL_ADC_SetOffset>) [0 LL_ADC_SetOffset S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffset") [flags 0x3]  <function_decl 0x7f52d647fe00 LL_ADC_SetOffset>) [0 LL_ADC_SetOffset S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17111,14 +17591,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 139 138 140 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetSign") [flags 0x3]  <function_decl 0x7f5fd2286b00 LL_ADC_SetOffsetSign>) [0 LL_ADC_SetOffsetSign S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetSign") [flags 0x3]  <function_decl 0x7f12fa486b00 LL_ADC_SetOffsetSign>) [0 LL_ADC_SetOffsetSign S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetSign") [flags 0x3]  <function_decl 0x7f52d6486b00 LL_ADC_SetOffsetSign>) [0 LL_ADC_SetOffsetSign S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17190,14 +17676,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 160 159 161 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetSaturation") [flags 0x3]  <function_decl 0x7f5fd228d000 LL_ADC_SetOffsetSaturation>) [0 LL_ADC_SetOffsetSaturation S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetSaturation") [flags 0x3]  <function_decl 0x7f12fa48d000 LL_ADC_SetOffsetSaturation>) [0 LL_ADC_SetOffsetSaturation S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetSaturation") [flags 0x3]  <function_decl 0x7f52d648d000 LL_ADC_SetOffsetSaturation>) [0 LL_ADC_SetOffsetSaturation S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17231,14 +17723,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 169 168 170 17 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17284,14 +17782,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 179 178 180 18 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17335,14 +17839,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 191 190 192 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17594,14 +18104,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 273 272 274 34 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f5fd2286600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f12fa486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f52d6486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17630,14 +18146,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 280 279 281 35 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17683,14 +18205,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 290 289 291 36 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17734,14 +18262,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 302 301 303 37 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -17993,14 +18527,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 384 383 385 52 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f5fd2286600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f12fa486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f52d6486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18029,14 +18569,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 391 390 392 53 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18082,14 +18628,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 401 400 402 54 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18133,14 +18685,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 413 412 414 55 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18392,14 +18950,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 495 494 496 70 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f5fd2286600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f12fa486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f52d6486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18428,14 +18992,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 502 501 503 71 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18481,14 +19051,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 512 511 513 72 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18532,14 +19108,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 524 523 525 73 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f5fd2286000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f12fa486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetOffsetChannel") [flags 0x3]  <function_decl 0x7f52d6486000 LL_ADC_GetOffsetChannel>) [0 LL_ADC_GetOffsetChannel S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18791,14 +19373,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 606 605 607 88 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f5fd2286600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f12fa486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetOffsetState") [flags 0x3]  <function_decl 0x7f52d6486600 LL_ADC_SetOffsetState>) [0 LL_ADC_SetOffsetState S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18824,14 +19412,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 612 611 613 89 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -18888,14 +19482,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 626 625 627 90 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSingleDiff") [flags 0x3]  <function_decl 0x7f5fd22be400 LL_ADC_SetChannelSingleDiff>) [0 LL_ADC_SetChannelSingleDiff S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSingleDiff") [flags 0x3]  <function_decl 0x7f12fa4be400 LL_ADC_SetChannelSingleDiff>) [0 LL_ADC_SetChannelSingleDiff S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSingleDiff") [flags 0x3]  <function_decl 0x7f52d64be400 LL_ADC_SetChannelSingleDiff>) [0 LL_ADC_SetChannelSingleDiff S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20149,14 +20749,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 1026 1025 1027 150 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f5fd22be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f12fa4be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetChannelSamplingTime") [flags 0x3]  <function_decl 0x7f52d64be000 LL_ADC_SetChannelSamplingTime>) [0 LL_ADC_SetChannelSamplingTime S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20260,14 +20866,20 @@ Forwarding edge 167->168 to 189 failed.
 (call_insn 1057 1056 1058 156 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f5fd2277900 LL_ADC_GetCommonPathInternalCh>) [0 LL_ADC_GetCommonPathInternalCh S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f12fa477900 LL_ADC_GetCommonPathInternalCh>) [0 LL_ADC_GetCommonPathInternalCh S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_GetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f52d6477900 LL_ADC_GetCommonPathInternalCh>) [0 LL_ADC_GetCommonPathInternalCh S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20460,14 +21072,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 1113 1112 1114 165 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f5fd2277300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f12fa477300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f52d6477300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20479,14 +21097,20 @@ Forwarding edge 167->168 to 189 failed.
                 (nil)))))
 (insn 1114 1113 1115 165 (set (reg/f:SI 575)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f5fd2b4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2927:91 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f12fab4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2927:91 -1
 =======
         (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f52d6d4da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_adc.c":2927:91 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 1115 1114 1116 165 (set (reg:SI 303 [ SystemCoreClock.68_220 ])
         (mem/c:SI (reg/f:SI 575) [2 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_adc.c":2927:91 -1
@@ -20749,14 +21373,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 1194 1193 1197 177 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f5fd2277300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f12fa477300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f52d6477300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -20910,14 +21540,20 @@ Forwarding edge 167->168 to 189 failed.
      (nil))
 (call_insn 1242 1241 1245 186 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f5fd2277300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f12fa477300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetCommonPathInternalCh") [flags 0x3]  <function_decl 0x7f52d6477300 LL_ADC_SetCommonPathInternalCh>) [0 LL_ADC_SetCommonPathInternalCh S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21330,14 +21966,20 @@ try_optimize_cfg iteration 2
 (call_insn 44 43 45 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21363,14 +22005,20 @@ try_optimize_cfg iteration 2
 (call_insn 49 48 50 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21599,14 +22247,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 114 113 115 22 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21658,14 +22312,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 128 127 129 23 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21717,14 +22377,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 142 141 143 24 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21760,14 +22426,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 152 151 153 25 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21803,14 +22475,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 162 161 163 26 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21846,14 +22524,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 172 171 173 27 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21889,14 +22573,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 182 181 183 28 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -21979,14 +22669,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 203 202 204 29 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD1") [flags 0x3]  <function_decl 0x7f5fd230e700 LL_ADC_ClearFlag_AWD1>) [0 LL_ADC_ClearFlag_AWD1 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD1") [flags 0x3]  <function_decl 0x7f12fa50e700 LL_ADC_ClearFlag_AWD1>) [0 LL_ADC_ClearFlag_AWD1 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD1") [flags 0x3]  <function_decl 0x7f52d650e700 LL_ADC_ClearFlag_AWD1>) [0 LL_ADC_ClearFlag_AWD1 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22027,14 +22723,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 212 211 213 30 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD1") [flags 0x3]  <function_decl 0x7f5fd2322a00 LL_ADC_EnableIT_AWD1>) [0 LL_ADC_EnableIT_AWD1 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD1") [flags 0x3]  <function_decl 0x7f12fa522a00 LL_ADC_EnableIT_AWD1>) [0 LL_ADC_EnableIT_AWD1 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD1") [flags 0x3]  <function_decl 0x7f52d6522a00 LL_ADC_EnableIT_AWD1>) [0 LL_ADC_EnableIT_AWD1 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22062,14 +22764,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 220 219 221 31 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD1") [flags 0x3]  <function_decl 0x7f5fd232ab00 LL_ADC_DisableIT_AWD1>) [0 LL_ADC_DisableIT_AWD1 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD1") [flags 0x3]  <function_decl 0x7f12fa52ab00 LL_ADC_DisableIT_AWD1>) [0 LL_ADC_DisableIT_AWD1 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD1") [flags 0x3]  <function_decl 0x7f52d652ab00 LL_ADC_DisableIT_AWD1>) [0 LL_ADC_DisableIT_AWD1 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22631,14 +23339,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 401 400 402 62 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22681,14 +23395,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 413 412 414 63 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f5fd22be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f12fa4be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_SetAnalogWDMonitChannels") [flags 0x3]  <function_decl 0x7f52d64be800 LL_ADC_SetAnalogWDMonitChannels>) [0 LL_ADC_SetAnalogWDMonitChannels S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22755,14 +23475,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 430 429 431 65 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD2") [flags 0x3]  <function_decl 0x7f5fd230ea00 LL_ADC_ClearFlag_AWD2>) [0 LL_ADC_ClearFlag_AWD2 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD2") [flags 0x3]  <function_decl 0x7f12fa50ea00 LL_ADC_ClearFlag_AWD2>) [0 LL_ADC_ClearFlag_AWD2 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD2") [flags 0x3]  <function_decl 0x7f52d650ea00 LL_ADC_ClearFlag_AWD2>) [0 LL_ADC_ClearFlag_AWD2 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22803,14 +23529,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 439 438 440 66 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD2") [flags 0x3]  <function_decl 0x7f5fd2322d00 LL_ADC_EnableIT_AWD2>) [0 LL_ADC_EnableIT_AWD2 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD2") [flags 0x3]  <function_decl 0x7f12fa522d00 LL_ADC_EnableIT_AWD2>) [0 LL_ADC_EnableIT_AWD2 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD2") [flags 0x3]  <function_decl 0x7f52d6522d00 LL_ADC_EnableIT_AWD2>) [0 LL_ADC_EnableIT_AWD2 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22838,14 +23570,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 447 446 448 67 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD2") [flags 0x3]  <function_decl 0x7f5fd232ae00 LL_ADC_DisableIT_AWD2>) [0 LL_ADC_DisableIT_AWD2 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD2") [flags 0x3]  <function_decl 0x7f12fa52ae00 LL_ADC_DisableIT_AWD2>) [0 LL_ADC_DisableIT_AWD2 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD2") [flags 0x3]  <function_decl 0x7f52d652ae00 LL_ADC_DisableIT_AWD2>) [0 LL_ADC_DisableIT_AWD2 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22893,14 +23631,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 460 459 461 68 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD3") [flags 0x3]  <function_decl 0x7f5fd230ed00 LL_ADC_ClearFlag_AWD3>) [0 LL_ADC_ClearFlag_AWD3 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD3") [flags 0x3]  <function_decl 0x7f12fa50ed00 LL_ADC_ClearFlag_AWD3>) [0 LL_ADC_ClearFlag_AWD3 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ClearFlag_AWD3") [flags 0x3]  <function_decl 0x7f52d650ed00 LL_ADC_ClearFlag_AWD3>) [0 LL_ADC_ClearFlag_AWD3 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22941,14 +23685,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 469 468 470 69 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD3") [flags 0x3]  <function_decl 0x7f5fd2326000 LL_ADC_EnableIT_AWD3>) [0 LL_ADC_EnableIT_AWD3 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD3") [flags 0x3]  <function_decl 0x7f12fa526000 LL_ADC_EnableIT_AWD3>) [0 LL_ADC_EnableIT_AWD3 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_EnableIT_AWD3") [flags 0x3]  <function_decl 0x7f52d6526000 LL_ADC_EnableIT_AWD3>) [0 LL_ADC_EnableIT_AWD3 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -22976,14 +23726,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 477 476 478 70 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD3") [flags 0x3]  <function_decl 0x7f5fd232c100 LL_ADC_DisableIT_AWD3>) [0 LL_ADC_DisableIT_AWD3 S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD3") [flags 0x3]  <function_decl 0x7f12fa52c100 LL_ADC_DisableIT_AWD3>) [0 LL_ADC_DisableIT_AWD3 S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_DisableIT_AWD3") [flags 0x3]  <function_decl 0x7f52d652c100 LL_ADC_DisableIT_AWD3>) [0 LL_ADC_DisableIT_AWD3 S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23323,14 +24079,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 576 575 577 80 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ConfigAnalogWDThresholds") [flags 0x3]  <function_decl 0x7f5fd22bec00 LL_ADC_ConfigAnalogWDThresholds>) [0 LL_ADC_ConfigAnalogWDThresholds S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ConfigAnalogWDThresholds") [flags 0x3]  <function_decl 0x7f12fa4bec00 LL_ADC_ConfigAnalogWDThresholds>) [0 LL_ADC_ConfigAnalogWDThresholds S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_ConfigAnalogWDThresholds") [flags 0x3]  <function_decl 0x7f52d64bec00 LL_ADC_ConfigAnalogWDThresholds>) [0 LL_ADC_ConfigAnalogWDThresholds S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23602,14 +24364,20 @@ try_optimize_cfg iteration 2
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23635,14 +24403,20 @@ try_optimize_cfg iteration 2
 (call_insn 19 18 20 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23922,14 +24696,20 @@ try_optimize_cfg iteration 2
 (call_insn 100 99 101 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64e8800 LL_ADC_REG_IsConversionOngoing>) [0 LL_ADC_REG_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -23966,14 +24746,20 @@ try_optimize_cfg iteration 2
 (call_insn 108 107 109 16 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f5fd22e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f12fa4e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f52d64e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24009,14 +24795,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 116 115 117 17 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StopConversion") [flags 0x3]  <function_decl 0x7f5fd22e8600 LL_ADC_REG_StopConversion>) [0 LL_ADC_REG_StopConversion S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StopConversion") [flags 0x3]  <function_decl 0x7f12fa4e8600 LL_ADC_REG_StopConversion>) [0 LL_ADC_REG_StopConversion S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_StopConversion") [flags 0x3]  <function_decl 0x7f52d64e8600 LL_ADC_REG_StopConversion>) [0 LL_ADC_REG_StopConversion S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24056,14 +24848,20 @@ try_optimize_cfg iteration 2
 (call_insn 126 125 127 19 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f5fd22f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f12fa4f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_IsConversionOngoing") [flags 0x3]  <function_decl 0x7f52d64f3900 LL_ADC_INJ_IsConversionOngoing>) [0 LL_ADC_INJ_IsConversionOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24100,14 +24898,20 @@ try_optimize_cfg iteration 2
 (call_insn 134 133 135 20 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f5fd22e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f12fa4e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f52d64e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24143,14 +24947,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 142 141 143 21 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_StopConversion") [flags 0x3]  <function_decl 0x7f5fd22f3700 LL_ADC_INJ_StopConversion>) [0 LL_ADC_INJ_StopConversion S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_StopConversion") [flags 0x3]  <function_decl 0x7f12fa4f3700 LL_ADC_INJ_StopConversion>) [0 LL_ADC_INJ_StopConversion S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_INJ_StopConversion") [flags 0x3]  <function_decl 0x7f52d64f3700 LL_ADC_INJ_StopConversion>) [0 LL_ADC_INJ_StopConversion S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24233,14 +25043,20 @@ try_optimize_cfg iteration 2
 (call_insn 169 168 170 27 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24262,14 +25078,20 @@ try_optimize_cfg iteration 2
 (call_insn 174 173 175 28 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24497,14 +25319,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24622,14 +25450,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 40 39 41 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Enable") [flags 0x3]  <function_decl 0x7f5fd22e1500 LL_ADC_Enable>) [0 LL_ADC_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Enable") [flags 0x3]  <function_decl 0x7f12fa4e1500 LL_ADC_Enable>) [0 LL_ADC_Enable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Enable") [flags 0x3]  <function_decl 0x7f52d64e1500 LL_ADC_Enable>) [0 LL_ADC_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24641,14 +25475,20 @@ try_optimize_cfg iteration 2
 (call_insn 41 40 42 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24680,14 +25520,20 @@ try_optimize_cfg iteration 2
 (call_insn 49 48 50 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24723,14 +25569,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 58 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Enable") [flags 0x3]  <function_decl 0x7f5fd22e1500 LL_ADC_Enable>) [0 LL_ADC_Enable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Enable") [flags 0x3]  <function_decl 0x7f12fa4e1500 LL_ADC_Enable>) [0 LL_ADC_Enable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Enable") [flags 0x3]  <function_decl 0x7f52d64e1500 LL_ADC_Enable>) [0 LL_ADC_Enable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24744,14 +25596,20 @@ try_optimize_cfg iteration 2
 (call_insn 60 59 61 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -24969,14 +25827,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f5fd22e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f12fa4e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsDisableOngoing") [flags 0x3]  <function_decl 0x7f52d64e1c00 LL_ADC_IsDisableOngoing>) [0 LL_ADC_IsDisableOngoing S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25002,14 +25866,20 @@ try_optimize_cfg iteration 2
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f5fd22e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f12fa4e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_IsEnabled") [flags 0x3]  <function_decl 0x7f52d64e1900 LL_ADC_IsEnabled>) [0 LL_ADC_IsEnabled S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25088,14 +25958,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 33 32 34 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Disable") [flags 0x3]  <function_decl 0x7f5fd22e1700 LL_ADC_Disable>) [0 LL_ADC_Disable S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Disable") [flags 0x3]  <function_decl 0x7f12fa4e1700 LL_ADC_Disable>) [0 LL_ADC_Disable S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("LL_ADC_Disable") [flags 0x3]  <function_decl 0x7f52d64e1700 LL_ADC_Disable>) [0 LL_ADC_Disable S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25177,14 +26053,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25206,14 +26088,20 @@ try_optimize_cfg iteration 2
 (call_insn 62 61 63 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f5fd1fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f12fa1d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f52d61d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25518,14 +26406,20 @@ try_optimize_cfg iteration 2
 (call_insn 30 29 31 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f5fd2294400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f12fa494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("LL_ADC_REG_IsTriggerSourceSWStart") [flags 0x3]  <function_decl 0x7f52d6494400 LL_ADC_REG_IsTriggerSourceSWStart>) [0 LL_ADC_REG_IsTriggerSourceSWStart S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25746,14 +26640,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 88 87 89 12 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvCpltCallback") [flags 0x3]  <function_decl 0x7f5fd2371400 HAL_ADC_ConvCpltCallback>) [0 HAL_ADC_ConvCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvCpltCallback") [flags 0x3]  <function_decl 0x7f12fa571400 HAL_ADC_ConvCpltCallback>) [0 HAL_ADC_ConvCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvCpltCallback") [flags 0x3]  <function_decl 0x7f52d6571400 HAL_ADC_ConvCpltCallback>) [0 HAL_ADC_ConvCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25799,14 +26699,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 100 99 101 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f5fd2371700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f12fa571700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f52d6571700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -25899,14 +26805,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvHalfCpltCallback") [flags 0x3]  <function_decl 0x7f5fd2371500 HAL_ADC_ConvHalfCpltCallback>) [0 HAL_ADC_ConvHalfCpltCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvHalfCpltCallback") [flags 0x3]  <function_decl 0x7f12fa571500 HAL_ADC_ConvHalfCpltCallback>) [0 HAL_ADC_ConvHalfCpltCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ConvHalfCpltCallback") [flags 0x3]  <function_decl 0x7f52d6571500 HAL_ADC_ConvHalfCpltCallback>) [0 HAL_ADC_ConvHalfCpltCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -26004,14 +26916,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 20 19 0 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f5fd2371700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f12fa571700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_ADC_ErrorCallback") [flags 0x3]  <function_decl 0x7f52d6571700 HAL_ADC_ErrorCallback>) [0 HAL_ADC_ErrorCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

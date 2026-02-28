@@ -216,14 +216,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 55 54 56 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -245,14 +251,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 59 58 60 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -274,14 +286,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 63 62 64 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -332,14 +350,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 75 74 76 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f1508604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f60f1004e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0a1a204e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -389,14 +413,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 87 86 88 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f1508604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f60f1004e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0a1a204e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -446,14 +476,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 99 98 100 2 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f1508604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f60f1004e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0a1a204e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -577,14 +613,20 @@ try_optimize_cfg iteration 2
      (nil))
 (insn 28 27 29 5 (set (reg/f:SI 162)
 <<<<<<< HEAD
+<<<<<<< HEAD
         (symbol_ref:SI ("gSegmentEncodingTable") [flags 0x2]  <var_decl 0x7f1508384d80 gSegmentEncodingTable>)) "src/HAL/DisplayModule.c":137:30 -1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
         (symbol_ref:SI ("gSegmentEncodingTable") [flags 0x2]  <var_decl 0x7f60f0d84d80 gSegmentEncodingTable>)) "src/HAL/DisplayModule.c":137:30 -1
 =======
         (symbol_ref:SI ("gSegmentEncodingTable") [flags 0x2]  <var_decl 0x7f0a19f84d80 gSegmentEncodingTable>)) "src/HAL/DisplayModule.c":137:30 -1
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
      (nil))
 (insn 29 28 30 5 (set (reg:SI 163)
         (mem/u:SI (plus:SI (mult:SI (reg:SI 114 [ _1 ])
@@ -888,14 +930,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 108 107 109 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -924,14 +972,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 116 115 117 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -970,14 +1024,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 126 125 127 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1014,14 +1074,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 134 133 135 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1058,14 +1124,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 142 141 143 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1102,14 +1174,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 150 149 151 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1146,14 +1224,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 158 157 159 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1190,14 +1274,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 166 165 167 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1234,14 +1324,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 174 173 175 8 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f1508614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f60f1014100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0a1a214100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

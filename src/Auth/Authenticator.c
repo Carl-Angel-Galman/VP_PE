@@ -129,12 +129,16 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[])
 
     memcpy(dst, src, section_len);
 
+<<<<<<< HEAD
     for (size_t i = 0; i < section_len; i++)
 	{
 		dst[i] ^= key[i % key_len];
 	}
 
     __DSB();__ISB();
+=======
+    //__DSB();__ISB();
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
 
     return AUTH_ERR_OK;
 }

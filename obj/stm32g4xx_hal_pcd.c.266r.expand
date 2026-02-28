@@ -125,14 +125,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 27 26 28 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_MspInit") [flags 0x3]  <function_decl 0x7fad699d0700 HAL_PCD_MspInit>) [0 HAL_PCD_MspInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_MspInit") [flags 0x3]  <function_decl 0x7fa7763d0700 HAL_PCD_MspInit>) [0 HAL_PCD_MspInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_MspInit") [flags 0x3]  <function_decl 0x7f9c4f5d0700 HAL_PCD_MspInit>) [0 HAL_PCD_MspInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -170,14 +176,20 @@ try_optimize_cfg iteration 2
 (call_insn 37 36 38 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DisableGlobalInt") [flags 0x41]  <function_decl 0x7fad699bac00 USB_DisableGlobalInt>) [0 USB_DisableGlobalInt S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DisableGlobalInt") [flags 0x41]  <function_decl 0x7fa7763bac00 USB_DisableGlobalInt>) [0 USB_DisableGlobalInt S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DisableGlobalInt") [flags 0x41]  <function_decl 0x7f9c4f5bac00 USB_DisableGlobalInt>) [0 USB_DisableGlobalInt S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -985,14 +997,20 @@ try_optimize_cfg iteration 2
 (call_insn 240 239 241 13 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DevInit") [flags 0x41]  <function_decl 0x7fad699baa00 USB_DevInit>) [0 USB_DevInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DevInit") [flags 0x41]  <function_decl 0x7fa7763baa00 USB_DevInit>) [0 USB_DevInit S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DevInit") [flags 0x41]  <function_decl 0x7f9c4f5baa00 USB_DevInit>) [0 USB_DevInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 24 [0x18])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1060,14 +1078,20 @@ try_optimize_cfg iteration 2
 (call_insn 255 254 256 14 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_ActivateLPM") [flags 0x41]  <function_decl 0x7fad699c3d00 HAL_PCDEx_ActivateLPM>) [0 HAL_PCDEx_ActivateLPM S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_ActivateLPM") [flags 0x41]  <function_decl 0x7fa7763c3d00 HAL_PCDEx_ActivateLPM>) [0 HAL_PCDEx_ActivateLPM S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_ActivateLPM") [flags 0x41]  <function_decl 0x7f9c4f5c3d00 HAL_PCDEx_ActivateLPM>) [0 HAL_PCDEx_ActivateLPM S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1186,14 +1210,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_StopDevice") [flags 0x41]  <function_decl 0x7fad699c3600 USB_StopDevice>) [0 USB_StopDevice S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_StopDevice") [flags 0x41]  <function_decl 0x7fa7763c3600 USB_StopDevice>) [0 USB_StopDevice S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_StopDevice") [flags 0x41]  <function_decl 0x7f9c4f5c3600 USB_StopDevice>) [0 USB_StopDevice S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1236,14 +1266,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_MspDeInit") [flags 0x3]  <function_decl 0x7fad699d0800 HAL_PCD_MspDeInit>) [0 HAL_PCD_MspDeInit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_MspDeInit") [flags 0x3]  <function_decl 0x7fa7763d0800 HAL_PCD_MspDeInit>) [0 HAL_PCD_MspDeInit S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_MspDeInit") [flags 0x3]  <function_decl 0x7f9c4f5d0800 HAL_PCD_MspDeInit>) [0 HAL_PCD_MspDeInit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1436,14 +1472,20 @@ try_optimize_cfg iteration 2
 (call_insn 23 22 24 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EnableGlobalInt") [flags 0x41]  <function_decl 0x7fad699bab00 USB_EnableGlobalInt>) [0 USB_EnableGlobalInt S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EnableGlobalInt") [flags 0x41]  <function_decl 0x7fa7763bab00 USB_EnableGlobalInt>) [0 USB_EnableGlobalInt S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EnableGlobalInt") [flags 0x41]  <function_decl 0x7f9c4f5bab00 USB_EnableGlobalInt>) [0 USB_EnableGlobalInt S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1465,14 +1507,20 @@ try_optimize_cfg iteration 2
 (call_insn 27 26 28 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DevConnect") [flags 0x41]  <function_decl 0x7fad699c3400 USB_DevConnect>) [0 USB_DevConnect S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DevConnect") [flags 0x41]  <function_decl 0x7fa7763c3400 USB_DevConnect>) [0 USB_DevConnect S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DevConnect") [flags 0x41]  <function_decl 0x7f9c4f5c3400 USB_DevConnect>) [0 USB_DevConnect S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1603,14 +1651,20 @@ try_optimize_cfg iteration 2
 (call_insn 23 22 24 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DisableGlobalInt") [flags 0x41]  <function_decl 0x7fad699bac00 USB_DisableGlobalInt>) [0 USB_DisableGlobalInt S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DisableGlobalInt") [flags 0x41]  <function_decl 0x7fa7763bac00 USB_DisableGlobalInt>) [0 USB_DisableGlobalInt S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DisableGlobalInt") [flags 0x41]  <function_decl 0x7f9c4f5bac00 USB_DisableGlobalInt>) [0 USB_DisableGlobalInt S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1632,14 +1686,20 @@ try_optimize_cfg iteration 2
 (call_insn 27 26 28 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DevDisconnect") [flags 0x41]  <function_decl 0x7fad699c3500 USB_DevDisconnect>) [0 USB_DevDisconnect S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DevDisconnect") [flags 0x41]  <function_decl 0x7fa7763c3500 USB_DevDisconnect>) [0 USB_DevDisconnect S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DevDisconnect") [flags 0x41]  <function_decl 0x7f9c4f5c3500 USB_DevDisconnect>) [0 USB_DevDisconnect S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1764,14 +1824,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1806,14 +1872,20 @@ try_optimize_cfg iteration 2
 (call_insn 16 15 17 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("PCD_EP_ISR_Handler") [flags 0x3]  <function_decl 0x7fad697e1b00 PCD_EP_ISR_Handler>) [0 PCD_EP_ISR_Handler S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("PCD_EP_ISR_Handler") [flags 0x3]  <function_decl 0x7fa7761e1b00 PCD_EP_ISR_Handler>) [0 PCD_EP_ISR_Handler S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("PCD_EP_ISR_Handler") [flags 0x3]  <function_decl 0x7f9c4f3e1b00 PCD_EP_ISR_Handler>) [0 PCD_EP_ISR_Handler S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1837,14 +1909,20 @@ try_optimize_cfg iteration 2
 (call_insn 22 21 23 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1913,14 +1991,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 40 39 41 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_ResetCallback") [flags 0x3]  <function_decl 0x7fad699d0e00 HAL_PCD_ResetCallback>) [0 HAL_PCD_ResetCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_ResetCallback") [flags 0x3]  <function_decl 0x7fa7763d0e00 HAL_PCD_ResetCallback>) [0 HAL_PCD_ResetCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_ResetCallback") [flags 0x3]  <function_decl 0x7f9c4f5d0e00 HAL_PCD_ResetCallback>) [0 HAL_PCD_ResetCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1939,14 +2023,20 @@ try_optimize_cfg iteration 2
 (call_insn 43 42 44 6 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_SetAddress") [flags 0x3]  <function_decl 0x7fad699d3900 HAL_PCD_SetAddress>) [0 HAL_PCD_SetAddress S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_SetAddress") [flags 0x3]  <function_decl 0x7fa7763d3900 HAL_PCD_SetAddress>) [0 HAL_PCD_SetAddress S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_SetAddress") [flags 0x3]  <function_decl 0x7f9c4f5d3900 HAL_PCD_SetAddress>) [0 HAL_PCD_SetAddress S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1971,14 +2061,20 @@ try_optimize_cfg iteration 2
 (call_insn 49 48 50 7 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2056,14 +2152,20 @@ try_optimize_cfg iteration 2
 (call_insn 71 70 72 9 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2141,14 +2243,20 @@ try_optimize_cfg iteration 2
 (call_insn 93 92 94 11 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2289,14 +2397,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 132 131 133 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_LPM_Callback") [flags 0x41]  <function_decl 0x7fad699d0200 HAL_PCDEx_LPM_Callback>) [0 HAL_PCDEx_LPM_Callback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_LPM_Callback") [flags 0x41]  <function_decl 0x7fa7763d0200 HAL_PCDEx_LPM_Callback>) [0 HAL_PCDEx_LPM_Callback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_LPM_Callback") [flags 0x41]  <function_decl 0x7f9c4f5d0200 HAL_PCDEx_LPM_Callback>) [0 HAL_PCDEx_LPM_Callback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2314,14 +2428,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 136 135 137 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_ResumeCallback") [flags 0x3]  <function_decl 0x7fad699d3000 HAL_PCD_ResumeCallback>) [0 HAL_PCD_ResumeCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_ResumeCallback") [flags 0x3]  <function_decl 0x7fa7763d3000 HAL_PCD_ResumeCallback>) [0 HAL_PCD_ResumeCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_ResumeCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3000 HAL_PCD_ResumeCallback>) [0 HAL_PCD_ResumeCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2380,14 +2500,20 @@ try_optimize_cfg iteration 2
 (call_insn 153 152 154 15 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2526,14 +2652,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 193 192 194 16 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SuspendCallback") [flags 0x3]  <function_decl 0x7fad699d0f00 HAL_PCD_SuspendCallback>) [0 HAL_PCD_SuspendCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SuspendCallback") [flags 0x3]  <function_decl 0x7fa7763d0f00 HAL_PCD_SuspendCallback>) [0 HAL_PCD_SuspendCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SuspendCallback") [flags 0x3]  <function_decl 0x7f9c4f5d0f00 HAL_PCD_SuspendCallback>) [0 HAL_PCD_SuspendCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2557,14 +2689,20 @@ try_optimize_cfg iteration 2
 (call_insn 199 198 200 17 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2773,14 +2911,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 259 258 260 19 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_LPM_Callback") [flags 0x41]  <function_decl 0x7fad699d0200 HAL_PCDEx_LPM_Callback>) [0 HAL_PCDEx_LPM_Callback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_LPM_Callback") [flags 0x41]  <function_decl 0x7fa7763d0200 HAL_PCDEx_LPM_Callback>) [0 HAL_PCDEx_LPM_Callback S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PCDEx_LPM_Callback") [flags 0x41]  <function_decl 0x7f9c4f5d0200 HAL_PCDEx_LPM_Callback>) [0 HAL_PCDEx_LPM_Callback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2803,14 +2947,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 265 264 266 20 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SuspendCallback") [flags 0x3]  <function_decl 0x7fad699d0f00 HAL_PCD_SuspendCallback>) [0 HAL_PCD_SuspendCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SuspendCallback") [flags 0x3]  <function_decl 0x7fa7763d0f00 HAL_PCD_SuspendCallback>) [0 HAL_PCD_SuspendCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SuspendCallback") [flags 0x3]  <function_decl 0x7f9c4f5d0f00 HAL_PCD_SuspendCallback>) [0 HAL_PCD_SuspendCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2834,14 +2984,20 @@ try_optimize_cfg iteration 2
 (call_insn 271 270 272 21 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2910,14 +3066,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 289 288 290 22 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SOFCallback") [flags 0x3]  <function_decl 0x7fad699d0c00 HAL_PCD_SOFCallback>) [0 HAL_PCD_SOFCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SOFCallback") [flags 0x3]  <function_decl 0x7fa7763d0c00 HAL_PCD_SOFCallback>) [0 HAL_PCD_SOFCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SOFCallback") [flags 0x3]  <function_decl 0x7f9c4f5d0c00 HAL_PCD_SOFCallback>) [0 HAL_PCD_SOFCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2941,14 +3103,20 @@ try_optimize_cfg iteration 2
 (call_insn 295 294 296 23 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fad699c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7fa7763c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ReadInterrupts") [flags 0x41]  <function_decl 0x7f9c4f5c3700 USB_ReadInterrupts>) [0 USB_ReadInterrupts S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3489,14 +3657,20 @@ try_optimize_cfg iteration 2
 (call_insn 23 22 24 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DevConnect") [flags 0x41]  <function_decl 0x7fad699c3400 USB_DevConnect>) [0 USB_DevConnect S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DevConnect") [flags 0x41]  <function_decl 0x7fa7763c3400 USB_DevConnect>) [0 USB_DevConnect S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DevConnect") [flags 0x41]  <function_decl 0x7f9c4f5c3400 USB_DevConnect>) [0 USB_DevConnect S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3627,14 +3801,20 @@ try_optimize_cfg iteration 2
 (call_insn 23 22 24 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DevDisconnect") [flags 0x41]  <function_decl 0x7fad699c3500 USB_DevDisconnect>) [0 USB_DevDisconnect S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DevDisconnect") [flags 0x41]  <function_decl 0x7fa7763c3500 USB_DevDisconnect>) [0 USB_DevDisconnect S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DevDisconnect") [flags 0x41]  <function_decl 0x7f9c4f5c3500 USB_DevDisconnect>) [0 USB_DevDisconnect S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3794,14 +3974,20 @@ try_optimize_cfg iteration 2
 (call_insn 31 30 32 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_SetDevAddress") [flags 0x41]  <function_decl 0x7fad699c3300 USB_SetDevAddress>) [0 USB_SetDevAddress S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_SetDevAddress") [flags 0x41]  <function_decl 0x7fa7763c3300 USB_SetDevAddress>) [0 USB_SetDevAddress S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_SetDevAddress") [flags 0x41]  <function_decl 0x7f9c4f5c3300 USB_SetDevAddress>) [0 USB_SetDevAddress S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4256,14 +4442,20 @@ try_optimize_cfg iteration 2
 (call_insn 115 114 116 12 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ActivateEndpoint") [flags 0x41]  <function_decl 0x7fad699bae00 USB_ActivateEndpoint>) [0 USB_ActivateEndpoint S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ActivateEndpoint") [flags 0x41]  <function_decl 0x7fa7763bae00 USB_ActivateEndpoint>) [0 USB_ActivateEndpoint S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ActivateEndpoint") [flags 0x41]  <function_decl 0x7f9c4f5bae00 USB_ActivateEndpoint>) [0 USB_ActivateEndpoint S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4582,14 +4774,20 @@ try_optimize_cfg iteration 2
 (call_insn 77 76 78 8 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DeactivateEndpoint") [flags 0x41]  <function_decl 0x7fad699baf00 USB_DeactivateEndpoint>) [0 USB_DeactivateEndpoint S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DeactivateEndpoint") [flags 0x41]  <function_decl 0x7fa7763baf00 USB_DeactivateEndpoint>) [0 USB_DeactivateEndpoint S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DeactivateEndpoint") [flags 0x41]  <function_decl 0x7f9c4f5baf00 USB_DeactivateEndpoint>) [0 USB_DeactivateEndpoint S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4840,14 +5038,20 @@ try_optimize_cfg iteration 2
 (call_insn 50 49 51 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fad699c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fa7763c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7f9c4f5c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4881,14 +5085,20 @@ try_optimize_cfg iteration 2
 (call_insn 59 58 60 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fad699c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fa7763c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7f9c4f5c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5251,14 +5461,20 @@ try_optimize_cfg iteration 2
 (call_insn 57 56 58 4 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fad699c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fa7763c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7f9c4f5c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5292,14 +5508,20 @@ try_optimize_cfg iteration 2
 (call_insn 66 65 67 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fad699c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fa7763c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7f9c4f5c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5655,14 +5877,20 @@ try_optimize_cfg iteration 2
 (call_insn 92 91 93 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPSetStall") [flags 0x41]  <function_decl 0x7fad699c3100 USB_EPSetStall>) [0 USB_EPSetStall S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPSetStall") [flags 0x41]  <function_decl 0x7fa7763c3100 USB_EPSetStall>) [0 USB_EPSetStall S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPSetStall") [flags 0x41]  <function_decl 0x7f9c4f5c3100 USB_EPSetStall>) [0 USB_EPSetStall S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6036,14 +6264,20 @@ try_optimize_cfg iteration 2
 (call_insn 93 92 94 10 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPClearStall") [flags 0x41]  <function_decl 0x7fad699c3200 USB_EPClearStall>) [0 USB_EPClearStall S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPClearStall") [flags 0x41]  <function_decl 0x7fa7763c3200 USB_EPClearStall>) [0 USB_EPClearStall S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPClearStall") [flags 0x41]  <function_decl 0x7f9c4f5c3200 USB_EPClearStall>) [0 USB_EPClearStall S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6188,14 +6422,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_ActivateRemoteWakeup") [flags 0x41]  <function_decl 0x7fad699c3800 USB_ActivateRemoteWakeup>) [0 USB_ActivateRemoteWakeup S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_ActivateRemoteWakeup") [flags 0x41]  <function_decl 0x7fa7763c3800 USB_ActivateRemoteWakeup>) [0 USB_ActivateRemoteWakeup S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_ActivateRemoteWakeup") [flags 0x41]  <function_decl 0x7f9c4f5c3800 USB_ActivateRemoteWakeup>) [0 USB_ActivateRemoteWakeup S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6268,14 +6508,20 @@ try_optimize_cfg iteration 2
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_DeActivateRemoteWakeup") [flags 0x41]  <function_decl 0x7fad699c3900 USB_DeActivateRemoteWakeup>) [0 USB_DeActivateRemoteWakeup S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_DeActivateRemoteWakeup") [flags 0x41]  <function_decl 0x7fa7763c3900 USB_DeActivateRemoteWakeup>) [0 USB_DeActivateRemoteWakeup S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_DeActivateRemoteWakeup") [flags 0x41]  <function_decl 0x7f9c4f5c3900 USB_DeActivateRemoteWakeup>) [0 USB_DeActivateRemoteWakeup S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6772,14 +7018,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 77 76 78 6 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fad699d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fa7763d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7057,14 +7309,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 156 155 157 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7135,14 +7393,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 173 172 174 10 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SetupStageCallback") [flags 0x3]  <function_decl 0x7fad699d0d00 HAL_PCD_SetupStageCallback>) [0 HAL_PCD_SetupStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SetupStageCallback") [flags 0x3]  <function_decl 0x7fa7763d0d00 HAL_PCD_SetupStageCallback>) [0 HAL_PCD_SetupStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_SetupStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d0d00 HAL_PCD_SetupStageCallback>) [0 HAL_PCD_SetupStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7390,14 +7654,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 246 245 247 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7446,14 +7716,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 256 255 257 14 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataOutStageCallback") [flags 0x3]  <function_decl 0x7fad699d3300 HAL_PCD_DataOutStageCallback>) [0 HAL_PCD_DataOutStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataOutStageCallback") [flags 0x3]  <function_decl 0x7fa7763d3300 HAL_PCD_DataOutStageCallback>) [0 HAL_PCD_DataOutStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataOutStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3300 HAL_PCD_DataOutStageCallback>) [0 HAL_PCD_DataOutStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8257,14 +8533,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 491 490 492 31 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8321,14 +8603,20 @@ try_optimize_cfg iteration 2
 (call_insn 505 504 506 33 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_EP_DB_Receive") [flags 0x3]  <function_decl 0x7fad697e1d00 HAL_PCD_EP_DB_Receive>) [0 HAL_PCD_EP_DB_Receive S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_EP_DB_Receive") [flags 0x3]  <function_decl 0x7fa7761e1d00 HAL_PCD_EP_DB_Receive>) [0 HAL_PCD_EP_DB_Receive S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_EP_DB_Receive") [flags 0x3]  <function_decl 0x7f9c4f3e1d00 HAL_PCD_EP_DB_Receive>) [0 HAL_PCD_EP_DB_Receive S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8647,14 +8935,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 595 594 596 37 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8801,14 +9095,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 636 635 637 39 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8931,14 +9231,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 667 666 668 42 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataOutStageCallback") [flags 0x3]  <function_decl 0x7fad699d3300 HAL_PCD_DataOutStageCallback>) [0 HAL_PCD_DataOutStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataOutStageCallback") [flags 0x3]  <function_decl 0x7fa7763d3300 HAL_PCD_DataOutStageCallback>) [0 HAL_PCD_DataOutStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataOutStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3300 HAL_PCD_DataOutStageCallback>) [0 HAL_PCD_DataOutStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8972,14 +9278,20 @@ try_optimize_cfg iteration 2
 (call_insn 676 675 677 43 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fad699c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fa7763c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7f9c4f5c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9358,14 +9670,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 779 778 780 51 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fad699d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fa7763d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9447,14 +9765,20 @@ try_optimize_cfg iteration 2
 (call_insn 800 799 803 52 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fad699c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7fa7763c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("USB_EPStartXfer") [flags 0x41]  <function_decl 0x7f9c4f5c3000 USB_EPStartXfer>) [0 USB_EPStartXfer S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9489,14 +9813,20 @@ try_optimize_cfg iteration 2
 (call_insn 811 810 812 54 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_EP_DB_Transmit") [flags 0x3]  <function_decl 0x7fad697e1c00 HAL_PCD_EP_DB_Transmit>) [0 HAL_PCD_EP_DB_Transmit S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_EP_DB_Transmit") [flags 0x3]  <function_decl 0x7fa7761e1c00 HAL_PCD_EP_DB_Transmit>) [0 HAL_PCD_EP_DB_Transmit S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_PCD_EP_DB_Transmit") [flags 0x3]  <function_decl 0x7f9c4f3e1c00 HAL_PCD_EP_DB_Transmit>) [0 HAL_PCD_EP_DB_Transmit S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10145,14 +10475,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 151 150 152 13 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10646,14 +10982,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 292 291 293 23 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fad699c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7fa7763c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_ReadPMA") [flags 0x41]  <function_decl 0x7f9c4f5c3b00 USB_ReadPMA>) [0 USB_ReadPMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11623,14 +11965,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 222 221 223 18 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fad699d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fa7763d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12645,14 +12993,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 514 513 515 40 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x41]  <function_decl 0x7fad699c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x41]  <function_decl 0x7fa7763c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x41]  <function_decl 0x7f9c4f5c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13372,14 +13726,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 726 725 727 55 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fad699d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7fa7763d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 =======
             (call (mem:SI (symbol_ref/i:SI ("HAL_PCD_DataInStageCallback") [flags 0x3]  <function_decl 0x7f9c4f5d3400 HAL_PCD_DataInStageCallback>) [0 HAL_PCD_DataInStageCallback S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -14394,14 +14754,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 1018 1017 1019 77 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x41]  <function_decl 0x7fad699c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x41]  <function_decl 0x7fa7763c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("USB_WritePMA") [flags 0x41]  <function_decl 0x7f9c4f5c3a00 USB_WritePMA>) [0 USB_WritePMA S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

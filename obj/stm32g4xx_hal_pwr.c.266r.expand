@@ -832,14 +832,20 @@ try_optimize_cfg iteration 2
 (call_insn 19 18 20 5 (parallel [
             (set (reg:SI 0 r0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f4faec01f00 HAL_PWREx_DisableLowPowerRunMode>) [0 HAL_PWREx_DisableLowPowerRunMode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f2375001f00 HAL_PWREx_DisableLowPowerRunMode>) [0 HAL_PWREx_DisableLowPowerRunMode S4 A32])
 =======
                 (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f1027801f00 HAL_PWREx_DisableLowPowerRunMode>) [0 HAL_PWREx_DisableLowPowerRunMode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -879,14 +885,20 @@ try_optimize_cfg iteration 2
 (note 29 28 30 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 30 29 31 7 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f4faec01e00 HAL_PWREx_EnableLowPowerRunMode>) [0 HAL_PWREx_EnableLowPowerRunMode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f2375001e00 HAL_PWREx_EnableLowPowerRunMode>) [0 HAL_PWREx_EnableLowPowerRunMode S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f1027801e00 HAL_PWREx_EnableLowPowerRunMode>) [0 HAL_PWREx_EnableLowPowerRunMode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1032,14 +1044,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 15 14 16 4 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP1Mode") [flags 0x41]  <function_decl 0x7f4faec04100 HAL_PWREx_EnterSTOP1Mode>) [0 HAL_PWREx_EnterSTOP1Mode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP1Mode") [flags 0x41]  <function_decl 0x7f2375004100 HAL_PWREx_EnterSTOP1Mode>) [0 HAL_PWREx_EnterSTOP1Mode S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP1Mode") [flags 0x41]  <function_decl 0x7f1027804100 HAL_PWREx_EnterSTOP1Mode>) [0 HAL_PWREx_EnterSTOP1Mode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1064,14 +1082,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 22 21 25 5 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP0Mode") [flags 0x41]  <function_decl 0x7f4faec04000 HAL_PWREx_EnterSTOP0Mode>) [0 HAL_PWREx_EnterSTOP0Mode S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP0Mode") [flags 0x41]  <function_decl 0x7f2375004000 HAL_PWREx_EnterSTOP0Mode>) [0 HAL_PWREx_EnterSTOP0Mode S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP0Mode") [flags 0x41]  <function_decl 0x7f1027804000 HAL_PWREx_EnterSTOP0Mode>) [0 HAL_PWREx_EnterSTOP0Mode S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

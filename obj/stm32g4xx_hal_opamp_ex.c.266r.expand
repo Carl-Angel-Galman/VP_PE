@@ -1502,14 +1502,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 399 398 400 23 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f37c5bd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fd8149d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fb12ffd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2168,14 +2174,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 597 596 598 43 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f37c5bd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fd8149d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fb12ffd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3078,14 +3090,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 856 855 857 56 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f37c5bd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fd8149d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fb12ffd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3744,14 +3762,20 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 1054 1053 1055 76 (parallel [
 <<<<<<< HEAD
+<<<<<<< HEAD
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f37c5bd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fd8149d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 =======
             (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7fb12ffd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
 >>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+<<<<<<< HEAD
 >>>>>>> b05968fd57e58e7949fe424cd76956f17b622c87
+=======
+>>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
