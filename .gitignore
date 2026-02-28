@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 build/
 .project 
 .cproject
@@ -13,14 +13,4 @@ out/
 
 .log 
 .tmp
-
-# Build outputs
-build/
-*.bin
-
-# Build outputs
-build/
-*.bin
-=======
-/build
->>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
+*.xml
