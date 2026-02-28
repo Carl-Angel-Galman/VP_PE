@@ -16,3 +16,7 @@ out/
 # Build outputs
 build/
 *.bin
+
+# Build outputs
+build/
+*.bin
