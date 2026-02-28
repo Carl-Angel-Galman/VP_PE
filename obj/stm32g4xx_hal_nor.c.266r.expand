@@ -153,11 +153,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [11 hnor+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":255:5 -1
      (nil))
 (call_insn 29 28 30 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspInit") [flags 0x3]  <function_decl 0x7f73ddb9cc00 HAL_NOR_MspInit>) [0 HAL_NOR_MspInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspInit") [flags 0x3]  <function_decl 0x7febcf59cc00 HAL_NOR_MspInit>) [0 HAL_NOR_MspInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspInit") [flags 0x3]  <function_decl 0x7f22cf79cc00 HAL_NOR_MspInit>) [0 HAL_NOR_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -191,11 +187,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 38 37 39 7 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Init") [flags 0x41]  <function_decl 0x7f73ddb77200 FMC_NORSRAM_Init>) [0 FMC_NORSRAM_Init S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Init") [flags 0x41]  <function_decl 0x7febcf577200 FMC_NORSRAM_Init>) [0 FMC_NORSRAM_Init S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Init") [flags 0x41]  <function_decl 0x7f22cf777200 FMC_NORSRAM_Init>) [0 FMC_NORSRAM_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -232,11 +224,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 46 45 47 7 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Timing_Init") [flags 0x41]  <function_decl 0x7f73ddb77300 FMC_NORSRAM_Timing_Init>) [0 FMC_NORSRAM_Timing_Init S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Timing_Init") [flags 0x41]  <function_decl 0x7febcf577300 FMC_NORSRAM_Timing_Init>) [0 FMC_NORSRAM_Timing_Init S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Timing_Init") [flags 0x41]  <function_decl 0x7f22cf777300 FMC_NORSRAM_Timing_Init>) [0 FMC_NORSRAM_Timing_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -286,11 +274,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 58 7 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Extended_Timing_Init") [flags 0x41]  <function_decl 0x7f73ddb77400 FMC_NORSRAM_Extended_Timing_Init>) [0 FMC_NORSRAM_Extended_Timing_Init S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Extended_Timing_Init") [flags 0x41]  <function_decl 0x7febcf577400 FMC_NORSRAM_Extended_Timing_Init>) [0 FMC_NORSRAM_Extended_Timing_Init S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_Extended_Timing_Init") [flags 0x41]  <function_decl 0x7f22cf777400 FMC_NORSRAM_Extended_Timing_Init>) [0 FMC_NORSRAM_Extended_Timing_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -367,11 +351,7 @@ try_optimize_cfg iteration 2
  -> 79)
 (note 73 72 74 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (insn 74 73 75 8 (set (reg/f:SI 161)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":274:26 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":274:26 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":274:26 -1
      (nil))
 (insn 75 74 76 8 (set (reg:SI 162)
         (const_int 0 [0])) "lib/HAL/Src/stm32g4xx_hal_nor.c":274:26 -1
@@ -387,11 +367,7 @@ try_optimize_cfg iteration 2
 (code_label 79 78 80 9 5 (nil) [1 uses])
 (note 80 79 81 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (insn 81 80 82 9 (set (reg/f:SI 163)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":278:26 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":278:26 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":278:26 -1
      (nil))
 (insn 82 81 83 9 (set (reg:SI 164)
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_nor.c":278:26 -1
@@ -527,11 +503,7 @@ try_optimize_cfg iteration 2
 (code_label 125 124 126 17 8 (nil) [3 uses])
 (note 126 125 127 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (insn 127 126 128 17 (set (reg/f:SI 175)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":303:3 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":303:3 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":303:3 -1
      (nil))
 (insn 128 127 129 17 (set (reg:SI 132 [ uwNORMemoryDataWidth.1_19 ])
         (mem/c:SI (reg/f:SI 175) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":303:3 -1
@@ -596,11 +568,7 @@ try_optimize_cfg iteration 2
 (insn 182 146 148 20 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 148 182 149 20 (set (reg/f:SI 180)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":304:41 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":304:41 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":304:41 -1
      (nil))
 (insn 149 148 150 20 (set (reg:SI 134 [ uwNORMemoryDataWidth.4_21 ])
         (mem/c:SI (reg/f:SI 180) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":304:41 -1
@@ -668,11 +636,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 170 169 171 24 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_NOR_ReturnToReadMode") [flags 0x3]  <function_decl 0x7f73ddba6000 HAL_NOR_ReturnToReadMode>) [0 HAL_NOR_ReturnToReadMode S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_NOR_ReturnToReadMode") [flags 0x3]  <function_decl 0x7febcf5a6000 HAL_NOR_ReturnToReadMode>) [0 HAL_NOR_ReturnToReadMode S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_NOR_ReturnToReadMode") [flags 0x3]  <function_decl 0x7f22cf7a6000 HAL_NOR_ReturnToReadMode>) [0 HAL_NOR_ReturnToReadMode S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -739,11 +703,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [11 hnor+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":327:3 -1
      (nil))
 (call_insn 7 6 8 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspDeInit") [flags 0x3]  <function_decl 0x7f73ddb9cd00 HAL_NOR_MspDeInit>) [0 HAL_NOR_MspDeInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspDeInit") [flags 0x3]  <function_decl 0x7febcf59cd00 HAL_NOR_MspDeInit>) [0 HAL_NOR_MspDeInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspDeInit") [flags 0x3]  <function_decl 0x7f22cf79cd00 HAL_NOR_MspDeInit>) [0 HAL_NOR_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -786,11 +746,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 17 16 18 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_DeInit") [flags 0x41]  <function_decl 0x7f73ddb77500 FMC_NORSRAM_DeInit>) [0 FMC_NORSRAM_DeInit S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_DeInit") [flags 0x41]  <function_decl 0x7febcf577500 FMC_NORSRAM_DeInit>) [0 FMC_NORSRAM_DeInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_DeInit") [flags 0x41]  <function_decl 0x7f22cf777500 FMC_NORSRAM_DeInit>) [0 FMC_NORSRAM_DeInit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1344,11 +1300,7 @@ try_optimize_cfg iteration 2
  -> 156)
 (note 90 89 91 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (insn 91 90 92 17 (set (reg/f:SI 168)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":458:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":458:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":458:7 -1
      (nil))
 (insn 92 91 93 17 (set (reg:SI 119 [ uwNORMemoryDataWidth.7_6 ])
         (mem/c:SI (reg/f:SI 168) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":458:7 -1
@@ -1413,11 +1365,7 @@ try_optimize_cfg iteration 2
 (insn 275 110 112 20 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 112 275 113 20 (set (reg/f:SI 173)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":459:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":459:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":459:7 -1
      (nil))
 (insn 113 112 114 20 (set (reg:SI 121 [ uwNORMemoryDataWidth.10_8 ])
         (mem/c:SI (reg/f:SI 173) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":459:7 -1
@@ -1482,11 +1430,7 @@ try_optimize_cfg iteration 2
 (insn 276 131 133 24 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 133 276 134 24 (set (reg/f:SI 178)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":460:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":460:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":460:7 -1
      (nil))
 (insn 134 133 135 24 (set (reg:SI 123 [ uwNORMemoryDataWidth.13_10 ])
         (mem/c:SI (reg/f:SI 178) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":460:7 -1
@@ -1652,11 +1596,7 @@ try_optimize_cfg iteration 2
         (reg:HI 191)) "lib/HAL/Src/stm32g4xx_hal_nor.c":475:34 -1
      (nil))
 (insn 188 187 189 35 (set (reg/f:SI 192)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":476:55 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":476:55 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":476:55 -1
      (nil))
 (insn 189 188 190 35 (set (reg:SI 129 [ uwNORMemoryDataWidth.18_16 ])
         (mem/c:SI (reg/f:SI 192) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":476:55 -1
@@ -1719,11 +1659,7 @@ try_optimize_cfg iteration 2
         (reg:HI 197)) "lib/HAL/Src/stm32g4xx_hal_nor.c":476:34 discrim 4 -1
      (nil))
 (insn 209 208 210 38 (set (reg/f:SI 198)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":478:55 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":478:55 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":478:55 -1
      (nil))
 (insn 210 209 211 38 (set (reg:SI 132 [ uwNORMemoryDataWidth.21_19 ])
         (mem/c:SI (reg/f:SI 198) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":478:55 -1
@@ -1786,11 +1722,7 @@ try_optimize_cfg iteration 2
         (reg:HI 203)) "lib/HAL/Src/stm32g4xx_hal_nor.c":478:34 discrim 4 -1
      (nil))
 (insn 230 229 231 41 (set (reg/f:SI 204)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":480:55 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":480:55 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":480:55 -1
      (nil))
 (insn 231 230 232 41 (set (reg:SI 135 [ uwNORMemoryDataWidth.24_22 ])
         (mem/c:SI (reg/f:SI 204) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":480:55 -1
@@ -2787,11 +2719,7 @@ try_optimize_cfg iteration 2
  -> 157)
 (note 91 90 92 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (insn 92 91 93 17 (set (reg/f:SI 155)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":619:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":619:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":619:7 -1
      (nil))
 (insn 93 92 94 17 (set (reg:SI 119 [ uwNORMemoryDataWidth.29_6 ])
         (mem/c:SI (reg/f:SI 155) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":619:7 -1
@@ -2856,11 +2784,7 @@ try_optimize_cfg iteration 2
 (insn 213 111 113 20 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 113 213 114 20 (set (reg/f:SI 160)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":620:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":620:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":620:7 -1
      (nil))
 (insn 114 113 115 20 (set (reg:SI 121 [ uwNORMemoryDataWidth.32_8 ])
         (mem/c:SI (reg/f:SI 160) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":620:7 -1
@@ -2925,11 +2849,7 @@ try_optimize_cfg iteration 2
 (insn 214 132 134 24 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 134 214 135 24 (set (reg/f:SI 165)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":621:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":621:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":621:7 -1
      (nil))
 (insn 135 134 136 24 (set (reg:SI 123 [ uwNORMemoryDataWidth.35_10 ])
         (mem/c:SI (reg/f:SI 165) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":621:7 -1
@@ -3529,11 +3449,7 @@ try_optimize_cfg iteration 2
  -> 155)
 (note 89 88 90 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 90 89 91 16 (set (reg/f:SI 157)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":700:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":700:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":700:7 -1
      (nil))
 (insn 91 90 92 16 (set (reg:SI 121 [ uwNORMemoryDataWidth.38_8 ])
         (mem/c:SI (reg/f:SI 157) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":700:7 -1
@@ -3598,11 +3514,7 @@ try_optimize_cfg iteration 2
 (insn 217 109 111 19 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 111 217 112 19 (set (reg/f:SI 162)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":701:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":701:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":701:7 -1
      (nil))
 (insn 112 111 113 19 (set (reg:SI 123 [ uwNORMemoryDataWidth.41_10 ])
         (mem/c:SI (reg/f:SI 162) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":701:7 -1
@@ -3667,11 +3579,7 @@ try_optimize_cfg iteration 2
 (insn 218 130 132 23 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 132 218 133 23 (set (reg/f:SI 167)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":702:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":702:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":702:7 -1
      (nil))
 (insn 133 132 134 23 (set (reg:SI 125 [ uwNORMemoryDataWidth.44_12 ])
         (mem/c:SI (reg/f:SI 167) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":702:7 -1
@@ -4326,11 +4234,7 @@ try_optimize_cfg iteration 2
  -> 164)
 (note 98 97 99 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (insn 99 98 100 17 (set (reg/f:SI 159)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":788:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":788:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":788:7 -1
      (nil))
 (insn 100 99 101 17 (set (reg:SI 119 [ uwNORMemoryDataWidth.47_6 ])
         (mem/c:SI (reg/f:SI 159) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":788:7 -1
@@ -4395,11 +4299,7 @@ try_optimize_cfg iteration 2
 (insn 238 118 120 20 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 120 238 121 20 (set (reg/f:SI 164)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":789:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":789:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":789:7 -1
      (nil))
 (insn 121 120 122 20 (set (reg:SI 121 [ uwNORMemoryDataWidth.50_8 ])
         (mem/c:SI (reg/f:SI 164) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":789:7 -1
@@ -4464,11 +4364,7 @@ try_optimize_cfg iteration 2
 (insn 239 139 141 24 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 141 239 142 24 (set (reg/f:SI 169)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":790:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":790:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":790:7 -1
      (nil))
 (insn 142 141 143 24 (set (reg:SI 123 [ uwNORMemoryDataWidth.53_10 ])
         (mem/c:SI (reg/f:SI 169) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":790:7 -1
@@ -5209,11 +5105,7 @@ try_optimize_cfg iteration 2
  -> 170)
 (note 104 103 105 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 105 104 106 16 (set (reg/f:SI 182)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":884:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":884:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":884:7 -1
      (nil))
 (insn 106 105 107 16 (set (reg:SI 126 [ uwNORMemoryDataWidth.58_13 ])
         (mem/c:SI (reg/f:SI 182) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":884:7 -1
@@ -5278,11 +5170,7 @@ try_optimize_cfg iteration 2
 (insn 291 124 126 19 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 126 291 127 19 (set (reg/f:SI 187)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":885:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":885:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":885:7 -1
      (nil))
 (insn 127 126 128 19 (set (reg:SI 128 [ uwNORMemoryDataWidth.61_15 ])
         (mem/c:SI (reg/f:SI 187) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":885:7 -1
@@ -6206,11 +6094,7 @@ try_optimize_cfg iteration 2
  -> 206)
 (note 89 88 90 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 90 89 91 16 (set (reg/f:SI 172)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":986:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":986:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":986:7 -1
      (nil))
 (insn 91 90 92 16 (set (reg:SI 121 [ uwNORMemoryDataWidth.64_8 ])
         (mem/c:SI (reg/f:SI 172) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":986:7 -1
@@ -6275,11 +6159,7 @@ try_optimize_cfg iteration 2
 (insn 285 109 111 19 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 111 285 112 19 (set (reg/f:SI 177)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":987:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":987:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":987:7 -1
      (nil))
 (insn 112 111 113 19 (set (reg:SI 123 [ uwNORMemoryDataWidth.67_10 ])
         (mem/c:SI (reg/f:SI 177) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":987:7 -1
@@ -6344,11 +6224,7 @@ try_optimize_cfg iteration 2
 (insn 286 130 132 23 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 132 286 133 23 (set (reg/f:SI 182)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":988:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":988:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":988:7 -1
      (nil))
 (insn 133 132 134 23 (set (reg:SI 125 [ uwNORMemoryDataWidth.70_12 ])
         (mem/c:SI (reg/f:SI 182) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":988:7 -1
@@ -6413,11 +6289,7 @@ try_optimize_cfg iteration 2
 (insn 287 151 153 27 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 153 287 154 27 (set (reg/f:SI 187)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":990:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":990:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":990:7 -1
      (nil))
 (insn 154 153 155 27 (set (reg:SI 127 [ uwNORMemoryDataWidth.73_14 ])
         (mem/c:SI (reg/f:SI 187) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":990:7 -1
@@ -6482,11 +6354,7 @@ try_optimize_cfg iteration 2
 (insn 288 172 174 31 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 174 288 175 31 (set (reg/f:SI 192)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":992:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":992:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":992:7 -1
      (nil))
 (insn 175 174 176 31 (set (reg:SI 129 [ uwNORMemoryDataWidth.76_16 ])
         (mem/c:SI (reg/f:SI 192) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":992:7 -1
@@ -7215,11 +7083,7 @@ try_optimize_cfg iteration 2
  -> 217)
 (note 88 87 89 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 89 88 90 16 (set (reg/f:SI 164)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1071:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1071:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1071:7 -1
      (nil))
 (insn 90 89 91 16 (set (reg:SI 121 [ uwNORMemoryDataWidth.79_8 ])
         (mem/c:SI (reg/f:SI 164) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1071:7 -1
@@ -7284,11 +7148,7 @@ try_optimize_cfg iteration 2
 (insn 251 108 110 19 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 110 251 111 19 (set (reg/f:SI 169)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1072:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1072:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1072:7 -1
      (nil))
 (insn 111 110 112 19 (set (reg:SI 123 [ uwNORMemoryDataWidth.82_10 ])
         (mem/c:SI (reg/f:SI 169) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1072:7 -1
@@ -7353,11 +7213,7 @@ try_optimize_cfg iteration 2
 (insn 252 129 131 23 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 131 252 132 23 (set (reg/f:SI 174)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1073:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1073:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1073:7 -1
      (nil))
 (insn 132 131 133 23 (set (reg:SI 125 [ uwNORMemoryDataWidth.85_12 ])
         (mem/c:SI (reg/f:SI 174) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1073:7 -1
@@ -7422,11 +7278,7 @@ try_optimize_cfg iteration 2
 (insn 253 150 152 27 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 152 253 153 27 (set (reg/f:SI 179)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1075:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1075:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1075:7 -1
      (nil))
 (insn 153 152 154 27 (set (reg:SI 127 [ uwNORMemoryDataWidth.88_14 ])
         (mem/c:SI (reg/f:SI 179) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1075:7 -1
@@ -7491,11 +7343,7 @@ try_optimize_cfg iteration 2
 (insn 254 171 173 31 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 173 254 174 31 (set (reg/f:SI 184)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1077:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1077:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1077:7 -1
      (nil))
 (insn 174 173 175 31 (set (reg:SI 129 [ uwNORMemoryDataWidth.91_16 ])
         (mem/c:SI (reg/f:SI 184) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1077:7 -1
@@ -7560,11 +7408,7 @@ try_optimize_cfg iteration 2
 (insn 255 192 194 35 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 194 255 195 35 (set (reg/f:SI 189)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1079:7 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1079:7 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1079:7 -1
      (nil))
 (insn 195 194 196 35 (set (reg:SI 131 [ uwNORMemoryDataWidth.94_18 ])
         (mem/c:SI (reg/f:SI 189) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1079:7 -1
@@ -8046,11 +7890,7 @@ try_optimize_cfg iteration 2
 (code_label 81 80 82 16 212 (nil) [3 uses])
 (note 82 81 83 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
 (insn 83 82 84 16 (set (reg/f:SI 158)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1146:5 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1146:5 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1146:5 -1
      (nil))
 (insn 84 83 85 16 (set (reg:SI 118 [ uwNORMemoryDataWidth.97_5 ])
         (mem/c:SI (reg/f:SI 158) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1146:5 -1
@@ -8115,11 +7955,7 @@ try_optimize_cfg iteration 2
 (insn 210 102 104 19 (const_int 0 [0]) "lib/Core/Include/cmsis_gcc.h":947:1 -1
      (nil))
 (insn 104 210 105 19 (set (reg/f:SI 163)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1149:42 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1149:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1149:42 -1
      (nil))
 (insn 105 104 106 19 (set (reg:SI 120 [ uwNORMemoryDataWidth.100_7 ])
         (mem/c:SI (reg/f:SI 163) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1149:42 -1
@@ -8181,11 +8017,7 @@ try_optimize_cfg iteration 2
         (reg:HI 168)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1149:21 discrim 4 -1
      (nil))
 (insn 125 124 126 23 (set (reg/f:SI 169)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1150:42 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1150:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1150:42 -1
      (nil))
 (insn 126 125 127 23 (set (reg:SI 123 [ uwNORMemoryDataWidth.103_10 ])
         (mem/c:SI (reg/f:SI 169) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1150:42 -1
@@ -8248,11 +8080,7 @@ try_optimize_cfg iteration 2
         (reg:HI 174)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1150:21 discrim 4 -1
      (nil))
 (insn 146 145 147 26 (set (reg/f:SI 175)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1151:42 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1151:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1151:42 -1
      (nil))
 (insn 147 146 148 26 (set (reg:SI 126 [ uwNORMemoryDataWidth.106_13 ])
         (mem/c:SI (reg/f:SI 175) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1151:42 -1
@@ -8315,11 +8143,7 @@ try_optimize_cfg iteration 2
         (reg:HI 180)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1151:21 discrim 4 -1
      (nil))
 (insn 167 166 168 29 (set (reg/f:SI 181)
-<<<<<<< HEAD
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f73dd984d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1152:42 -1
-=======
-        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7febcf384d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1152:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("uwNORMemoryDataWidth") [flags 0x2]  <var_decl 0x7f22cf584d80 uwNORMemoryDataWidth>)) "lib/HAL/Src/stm32g4xx_hal_nor.c":1152:42 -1
      (nil))
 (insn 168 167 169 29 (set (reg:SI 129 [ uwNORMemoryDataWidth.109_16 ])
         (mem/c:SI (reg/f:SI 181) [5 uwNORMemoryDataWidth+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1152:42 -1
@@ -8578,11 +8402,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 37 36 38 6 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Enable") [flags 0x41]  <function_decl 0x7f73ddb77600 FMC_NORSRAM_WriteOperation_Enable>) [0 FMC_NORSRAM_WriteOperation_Enable S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Enable") [flags 0x41]  <function_decl 0x7febcf577600 FMC_NORSRAM_WriteOperation_Enable>) [0 FMC_NORSRAM_WriteOperation_Enable S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Enable") [flags 0x41]  <function_decl 0x7f22cf777600 FMC_NORSRAM_WriteOperation_Enable>) [0 FMC_NORSRAM_WriteOperation_Enable S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8798,11 +8618,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 37 36 38 6 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Disable") [flags 0x41]  <function_decl 0x7f73ddb77700 FMC_NORSRAM_WriteOperation_Disable>) [0 FMC_NORSRAM_WriteOperation_Disable S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Disable") [flags 0x41]  <function_decl 0x7febcf577700 FMC_NORSRAM_WriteOperation_Disable>) [0 FMC_NORSRAM_WriteOperation_Disable S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("FMC_NORSRAM_WriteOperation_Disable") [flags 0x41]  <function_decl 0x7f22cf777700 FMC_NORSRAM_WriteOperation_Disable>) [0 FMC_NORSRAM_WriteOperation_Disable S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9056,11 +8872,7 @@ Forwarding edge 18->19 to 33 failed.
                 (const_int -20 [0xffffffffffffffec])) [11 hnor+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_nor.c":1403:3 -1
      (nil))
 (call_insn 13 12 14 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspWait") [flags 0x3]  <function_decl 0x7f73ddb9ce00 HAL_NOR_MspWait>) [0 HAL_NOR_MspWait S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspWait") [flags 0x3]  <function_decl 0x7febcf59ce00 HAL_NOR_MspWait>) [0 HAL_NOR_MspWait S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_NOR_MspWait") [flags 0x3]  <function_decl 0x7f22cf79ce00 HAL_NOR_MspWait>) [0 HAL_NOR_MspWait S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9072,11 +8884,7 @@ Forwarding edge 18->19 to 33 failed.
                 (nil)))))
 (call_insn 14 13 15 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f73dd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7febcf3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f22cf5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9133,11 +8941,7 @@ Forwarding edge 18->19 to 33 failed.
 (note 27 26 28 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 28 27 29 6 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f73dd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7febcf3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f22cf5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9507,11 +9311,7 @@ Forwarding edge 18->19 to 33 failed.
 (note 136 135 137 23 [bb 23] NOTE_INSN_BASIC_BLOCK)
 (call_insn 137 136 138 23 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f73dd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7febcf3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f22cf5d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

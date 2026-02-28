@@ -67,7 +67,6 @@ static State current_state = BOOTUP;
 /***** PRIVATE VARIABLES *****************************************************/
 
 
-
 /***** PUBLIC FUNCTIONS ******************************************************/
 
 
@@ -83,28 +82,44 @@ int main(void)
 
 		case BOOTUP:
 			// Initialize the HAL
-			HAL_Init();
+			if(HAL_Init() != HAL_OK) break;
 
 			SystemClock_Config();
 
 			// Initialize Peripherals
-			initializePeripherals();
+			if(initializePeripherals() != ERR_OK) break;
 
 			current_state = PREPARE_APPLICATION;
+
 			break;
 
 		case PREPARE_APPLICATION:
-
+		{
 			int8_t res = Auth_WaitForA();
 
 			if(res == AUTH_ERR_TIMEOUT)
 			{
 				current_state = FAILURE;
-			}else{
-				current_state = START_APPLICATION;
+				break;
 			}
 
+			uint8_t key_len = 8U;
 
+			int8_t key[key_len];
+
+			res = Auth_ReadKey(key, &key_len);
+
+			if(res == AUTH_ERR_KEY_LENGHT_BREACH)
+			{
+				current_state = FAILURE;
+				break;
+			}
+
+			copy_and_decrypt_auth_section(key);
+
+			current_state = START_APPLICATION;
+
+			}
 			break;
 
 		case FAILURE:
@@ -112,22 +127,15 @@ int main(void)
 			while(1);
 
 			break;
+
 		case START_APPLICATION:
+		{
+			verify();
 
-			{
-				uint8_t key_len = 8U;
-
-				int8_t key[key_len];
-
-				int8_t res = Auth_ReadKey(key, &key_len);
-
-				copy_and_decrypt_auth_section(key);
-
-				verify();
-
-			}
+		}
 
 			break;
+
 		default:
 			break;
 	}
@@ -147,18 +155,18 @@ int main(void)
 static int32_t initializePeripherals()
 {
     // Initialize UART used for Debug-Outputs
-    uartInitialize(115200);
+    if(uartInitialize(115200) != UART_ERR_OK)	return AUTH_ERR_FAILURE;
 
     // Initialize GPIOs for LED and 7-Segment output
-	ledInitialize();
-    displayInitialize();
+	if(ledInitialize()!= LED_ERR_OK) 			return AUTH_ERR_FAILURE ;
+    if(displayInitialize()!= DISPLAY_ERR_OK) 	return AUTH_ERR_FAILURE;
 
     // Initialize GPIOs for Buttons
-    buttonInitialize();
+    if (buttonInitialize()!= BUTTON_ERR_OK) 	return AUTH_ERR_FAILURE;
 
     // Initialize Timer, DMA and ADC for sensor measurements
-    timerInitialize();
-    adcInitialize();
+    if(timerInitialize()!= TIMER_ERR_OK) 		return AUTH_ERR_FAILURE;
+    if(adcInitialize()!= ADC_ERR_OK) 			return AUTH_ERR_FAILURE;
 
     return ERROR_OK;
 }

@@ -831,11 +831,7 @@ try_optimize_cfg iteration 2
 (note 18 17 19 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 19 18 20 5 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f2375001f00 HAL_PWREx_DisableLowPowerRunMode>) [0 HAL_PWREx_DisableLowPowerRunMode S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f1027801f00 HAL_PWREx_DisableLowPowerRunMode>) [0 HAL_PWREx_DisableLowPowerRunMode S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableLowPowerRunMode") [flags 0x41]  <function_decl 0x7fd3ebe01f00 HAL_PWREx_DisableLowPowerRunMode>) [0 HAL_PWREx_DisableLowPowerRunMode S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -874,11 +870,7 @@ try_optimize_cfg iteration 2
  -> 31)
 (note 29 28 30 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
 (call_insn 30 29 31 7 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f2375001e00 HAL_PWREx_EnableLowPowerRunMode>) [0 HAL_PWREx_EnableLowPowerRunMode S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnableLowPowerRunMode") [flags 0x41]  <function_decl 0x7f1027801e00 HAL_PWREx_EnableLowPowerRunMode>) [0 HAL_PWREx_EnableLowPowerRunMode S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnableLowPowerRunMode") [flags 0x41]  <function_decl 0x7fd3ebe01e00 HAL_PWREx_EnableLowPowerRunMode>) [0 HAL_PWREx_EnableLowPowerRunMode S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1023,11 +1015,7 @@ try_optimize_cfg iteration 2
         (reg:SI 117)) "lib/HAL/Src/stm32g4xx_hal_pwr.c":524:5 -1
      (nil))
 (call_insn 15 14 16 4 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP1Mode") [flags 0x41]  <function_decl 0x7f2375004100 HAL_PWREx_EnterSTOP1Mode>) [0 HAL_PWREx_EnterSTOP1Mode S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP1Mode") [flags 0x41]  <function_decl 0x7f1027804100 HAL_PWREx_EnterSTOP1Mode>) [0 HAL_PWREx_EnterSTOP1Mode S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP1Mode") [flags 0x41]  <function_decl 0x7fd3ebe04100 HAL_PWREx_EnterSTOP1Mode>) [0 HAL_PWREx_EnterSTOP1Mode S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1051,11 +1039,7 @@ try_optimize_cfg iteration 2
         (reg:SI 118)) "lib/HAL/Src/stm32g4xx_hal_pwr.c":528:5 -1
      (nil))
 (call_insn 22 21 25 5 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP0Mode") [flags 0x41]  <function_decl 0x7f2375004000 HAL_PWREx_EnterSTOP0Mode>) [0 HAL_PWREx_EnterSTOP0Mode S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP0Mode") [flags 0x41]  <function_decl 0x7f1027804000 HAL_PWREx_EnterSTOP0Mode>) [0 HAL_PWREx_EnterSTOP0Mode S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_EnterSTOP0Mode") [flags 0x41]  <function_decl 0x7fd3ebe04000 HAL_PWREx_EnterSTOP0Mode>) [0 HAL_PWREx_EnterSTOP0Mode S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

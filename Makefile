@@ -129,6 +129,7 @@ APP_SRC_C += $(wildcard $(SRC_DIR)/Util/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Util/Log/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Util/Filter/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Util/StateTable/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/Util/EventQueue/*.c)
 APP_FILENAMES_S	= $(notdir $(APP_SRC_C))
 APP_OBJS_C = $(addprefix $(OBJ_DIR)/, $(APP_FILENAMES_S:.c=.o))
 vpath %.c $(dir $(APP_SRC_C))
@@ -152,7 +153,7 @@ vpath %.c $(dir $(AUTH_SRC_C))
 
 DEPS := $(APP_OBJS_C:.o=.d)
 
-all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(BLD_DIR)/auth.bin
+all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) $(BLD_DIR)/auth.bin
 
 #PYTHON ?= python3
 #

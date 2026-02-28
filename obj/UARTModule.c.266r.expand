@@ -106,11 +106,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 20 19 21 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("memset") [flags 0x41]  <function_decl 0x7fc2722d4c00 __builtin_memset>) [0 __builtin_memset S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("memset") [flags 0x41]  <function_decl 0x7f16d10d4c00 __builtin_memset>) [0 __builtin_memset S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("memset") [flags 0x41]  <function_decl 0x7f28fa8d4c00 __builtin_memset>) [0 __builtin_memset S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -150,11 +146,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 29 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_PeriphCLKConfig") [flags 0x41]  <function_decl 0x7fc271bf7400 HAL_RCCEx_PeriphCLKConfig>) [0 HAL_RCCEx_PeriphCLKConfig S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_PeriphCLKConfig") [flags 0x41]  <function_decl 0x7f16d09f7400 HAL_RCCEx_PeriphCLKConfig>) [0 HAL_RCCEx_PeriphCLKConfig S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_RCCEx_PeriphCLKConfig") [flags 0x41]  <function_decl 0x7f28fa1f7400 HAL_RCCEx_PeriphCLKConfig>) [0 HAL_RCCEx_PeriphCLKConfig S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -182,11 +174,7 @@ try_optimize_cfg iteration 2
  -> 35)
 (note 33 32 34 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 34 33 35 4 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7fc2715e1c00 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f16d03e1c00 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f28f9be1c00 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -316,11 +304,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/UARTModule.c":71:5 -1
      (nil))
 (call_insn 70 69 71 5 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fc271804e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f16d0604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f28f9e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -331,11 +315,7 @@ try_optimize_cfg iteration 2
             (expr_list:SI (use (reg:SI 1 r1))
                 (nil)))))
 (insn 71 70 72 5 (set (reg/f:SI 153)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":77:26 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":77:26 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":77:26 -1
      (nil))
 (insn 72 71 73 5 (set (reg:SI 154)
         (const_int 1073774592 [0x40008000])) "src/HAL/UARTModule.c":77:26 -1
@@ -344,11 +324,7 @@ try_optimize_cfg iteration 2
         (reg:SI 154)) "src/HAL/UARTModule.c":77:26 -1
      (nil))
 (insn 74 73 75 5 (set (reg/f:SI 155)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":78:31 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":78:31 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":78:31 -1
      (nil))
 (insn 75 74 76 5 (set (reg:SI 156)
         (const_int 115200 [0x1c200])) "src/HAL/UARTModule.c":78:31 -1
@@ -358,11 +334,7 @@ try_optimize_cfg iteration 2
         (reg:SI 156)) "src/HAL/UARTModule.c":78:31 -1
      (nil))
 (insn 77 76 78 5 (set (reg/f:SI 157)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":79:33 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":79:33 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":79:33 -1
      (nil))
 (insn 78 77 79 5 (set (reg:SI 158)
         (const_int 0 [0])) "src/HAL/UARTModule.c":79:33 -1
@@ -372,11 +344,7 @@ try_optimize_cfg iteration 2
         (reg:SI 158)) "src/HAL/UARTModule.c":79:33 -1
      (nil))
 (insn 80 79 81 5 (set (reg/f:SI 159)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":80:31 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":80:31 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":80:31 -1
      (nil))
 (insn 81 80 82 5 (set (reg:SI 160)
         (const_int 0 [0])) "src/HAL/UARTModule.c":80:31 -1
@@ -386,11 +354,7 @@ try_optimize_cfg iteration 2
         (reg:SI 160)) "src/HAL/UARTModule.c":80:31 -1
      (nil))
 (insn 83 82 84 5 (set (reg/f:SI 161)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":81:29 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":81:29 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":81:29 -1
      (nil))
 (insn 84 83 85 5 (set (reg:SI 162)
         (const_int 0 [0])) "src/HAL/UARTModule.c":81:29 -1
@@ -400,11 +364,7 @@ try_optimize_cfg iteration 2
         (reg:SI 162)) "src/HAL/UARTModule.c":81:29 -1
      (nil))
 (insn 86 85 87 5 (set (reg/f:SI 163)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":82:27 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":82:27 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":82:27 -1
      (nil))
 (insn 87 86 88 5 (set (reg:SI 164)
         (const_int 12 [0xc])) "src/HAL/UARTModule.c":82:27 -1
@@ -414,11 +374,7 @@ try_optimize_cfg iteration 2
         (reg:SI 164)) "src/HAL/UARTModule.c":82:27 -1
      (nil))
 (insn 89 88 90 5 (set (reg/f:SI 165)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":83:32 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":83:32 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":83:32 -1
      (nil))
 (insn 90 89 91 5 (set (reg:SI 166)
         (const_int 0 [0])) "src/HAL/UARTModule.c":83:32 -1
@@ -428,11 +384,7 @@ try_optimize_cfg iteration 2
         (reg:SI 166)) "src/HAL/UARTModule.c":83:32 -1
      (nil))
 (insn 92 91 93 5 (set (reg/f:SI 167)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":84:37 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":84:37 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":84:37 -1
      (nil))
 (insn 93 92 94 5 (set (reg:SI 168)
         (const_int 0 [0])) "src/HAL/UARTModule.c":84:37 -1
@@ -442,11 +394,7 @@ try_optimize_cfg iteration 2
         (reg:SI 168)) "src/HAL/UARTModule.c":84:37 -1
      (nil))
 (insn 95 94 96 5 (set (reg/f:SI 169)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":85:37 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":85:37 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":85:37 -1
      (nil))
 (insn 96 95 97 5 (set (reg:SI 170)
         (const_int 0 [0])) "src/HAL/UARTModule.c":85:37 -1
@@ -456,11 +404,7 @@ try_optimize_cfg iteration 2
         (reg:SI 170)) "src/HAL/UARTModule.c":85:37 -1
      (nil))
 (insn 98 97 99 5 (set (reg/f:SI 171)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":86:45 -1
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":86:45 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":86:45 -1
      (nil))
 (insn 99 98 100 5 (set (reg:SI 172)
         (const_int 0 [0])) "src/HAL/UARTModule.c":86:45 -1
@@ -470,19 +414,11 @@ try_optimize_cfg iteration 2
         (reg:SI 172)) "src/HAL/UARTModule.c":86:45 -1
      (nil))
 (insn 101 100 102 5 (set (reg:SI 0 r0)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":88:9 -1
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":88:9 -1
      (nil))
 (call_insn 102 101 103 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UART_Init") [flags 0x41]  <function_decl 0x7fc27159e300 HAL_UART_Init>) [0 HAL_UART_Init S4 A32])
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":88:9 -1
-     (nil))
-(call_insn 102 101 103 5 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UART_Init") [flags 0x41]  <function_decl 0x7f16d039e300 HAL_UART_Init>) [0 HAL_UART_Init S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_UART_Init") [flags 0x41]  <function_decl 0x7f28f9b9e300 HAL_UART_Init>) [0 HAL_UART_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -510,11 +446,7 @@ try_optimize_cfg iteration 2
  -> 109)
 (note 107 106 108 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 108 107 109 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7fc2715e1c00 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f16d03e1c00 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f28f9be1c00 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -528,19 +460,11 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "src/HAL/UARTModule.c":93:9 -1
      (nil))
 (insn 112 111 113 7 (set (reg:SI 0 r0)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":93:9 -1
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":93:9 -1
      (nil))
 (call_insn 113 112 114 7 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_SetTxFifoThreshold") [flags 0x41]  <function_decl 0x7fc27158ce00 HAL_UARTEx_SetTxFifoThreshold>) [0 HAL_UARTEx_SetTxFifoThreshold S4 A32])
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":93:9 -1
-     (nil))
-(call_insn 113 112 114 7 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_SetTxFifoThreshold") [flags 0x41]  <function_decl 0x7f16d038ce00 HAL_UARTEx_SetTxFifoThreshold>) [0 HAL_UARTEx_SetTxFifoThreshold S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_SetTxFifoThreshold") [flags 0x41]  <function_decl 0x7f28f9b8ce00 HAL_UARTEx_SetTxFifoThreshold>) [0 HAL_UARTEx_SetTxFifoThreshold S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -569,11 +493,7 @@ try_optimize_cfg iteration 2
  -> 120)
 (note 118 117 119 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (call_insn 119 118 120 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7fc2715e1c00 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f16d03e1c00 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f28f9be1c00 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -587,19 +507,11 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "src/HAL/UARTModule.c":98:9 -1
      (nil))
 (insn 123 122 124 9 (set (reg:SI 0 r0)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":98:9 -1
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":98:9 -1
      (nil))
 (call_insn 124 123 125 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_SetRxFifoThreshold") [flags 0x41]  <function_decl 0x7fc27158cf00 HAL_UARTEx_SetRxFifoThreshold>) [0 HAL_UARTEx_SetRxFifoThreshold S4 A32])
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":98:9 -1
-     (nil))
-(call_insn 124 123 125 9 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_SetRxFifoThreshold") [flags 0x41]  <function_decl 0x7f16d038cf00 HAL_UARTEx_SetRxFifoThreshold>) [0 HAL_UARTEx_SetRxFifoThreshold S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_SetRxFifoThreshold") [flags 0x41]  <function_decl 0x7f28f9b8cf00 HAL_UARTEx_SetRxFifoThreshold>) [0 HAL_UARTEx_SetRxFifoThreshold S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -628,11 +540,7 @@ try_optimize_cfg iteration 2
  -> 131)
 (note 129 128 130 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 130 129 131 10 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7fc2715e1c00 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f16d03e1c00 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f28f9be1c00 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -643,19 +551,11 @@ try_optimize_cfg iteration 2
 (code_label 131 130 132 11 5 (nil) [1 uses])
 (note 132 131 133 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 133 132 134 11 (set (reg:SI 0 r0)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":103:9 -1
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":103:9 -1
      (nil))
 (call_insn 134 133 135 11 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_DisableFifoMode") [flags 0x41]  <function_decl 0x7fc27158cd00 HAL_UARTEx_DisableFifoMode>) [0 HAL_UARTEx_DisableFifoMode S4 A32])
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":103:9 -1
-     (nil))
-(call_insn 134 133 135 11 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_DisableFifoMode") [flags 0x41]  <function_decl 0x7f16d038cd00 HAL_UARTEx_DisableFifoMode>) [0 HAL_UARTEx_DisableFifoMode S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_UARTEx_DisableFifoMode") [flags 0x41]  <function_decl 0x7f28f9b8cd00 HAL_UARTEx_DisableFifoMode>) [0 HAL_UARTEx_DisableFifoMode S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -683,11 +583,7 @@ try_optimize_cfg iteration 2
  -> 141)
 (note 139 138 140 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
 (call_insn 140 139 141 12 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7fc2715e1c00 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f16d03e1c00 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x41]  <function_decl 0x7f28f9be1c00 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -779,19 +675,11 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 pDataBuffer+0 S4 A32])) "src/HAL/UARTModule.c":115:35 -1
      (nil))
 (insn 14 13 15 2 (set (reg:SI 0 r0)
-<<<<<<< HEAD
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":115:35 -1
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":115:35 -1
      (nil))
 (call_insn 15 14 16 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UART_Transmit") [flags 0x41]  <function_decl 0x7fc27159ea00 HAL_UART_Transmit>) [0 HAL_UART_Transmit S4 A32])
-=======
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":115:35 -1
-     (nil))
-(call_insn 15 14 16 2 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UART_Transmit") [flags 0x41]  <function_decl 0x7f16d039ea00 HAL_UART_Transmit>) [0 HAL_UART_Transmit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_UART_Transmit") [flags 0x41]  <function_decl 0x7f28f9b9ea00 HAL_UART_Transmit>) [0 HAL_UART_Transmit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -851,144 +739,7 @@ try_optimize_cfg iteration 2
 (insn 35 34 0 5 (use (reg/i:SI 0 r0)) "src/HAL/UARTModule.c":123:1 -1
      (nil))
 
-<<<<<<< HEAD
-;; Function uartReceiveData (uartReceiveData, funcdef_no=363, decl_uid=12620, cgraph_uid=367, symbol_order=367)
-
-
-;; Generating RTL for gimple basic block 2
-
-;; Generating RTL for gimple basic block 3
-
-;; Generating RTL for gimple basic block 4
-
-;; Generating RTL for gimple basic block 5
-
-
-try_optimize_cfg iteration 1
-
-Merging block 3 into block 2...
-Merged blocks 2 and 3.
-Merged 2 and 3 without moving.
-Merging block 6 into block 5...
-Merged blocks 5 and 6.
-Merged 5 and 6 without moving.
-Removing jump 31.
-Merging block 7 into block 5...
-Merged blocks 5 and 7.
-Merged 5 and 7 without moving.
-
-
-try_optimize_cfg iteration 2
-
-
-
-;;
-;; Full RTL generated for this function:
-;;
-(note 1 0 5 NOTE_INSN_DELETED)
-(note 5 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
-(insn 2 5 3 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -12 [0xfffffffffffffff4])) [8 pDataBuffer+0 S4 A32])
-        (reg:SI 0 r0 [ pDataBuffer ])) "src/HAL/UARTModule.c":126:1 -1
-     (nil))
-(insn 3 2 4 2 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -16 [0xfffffffffffffff0])) [2 bufferLength+0 S4 A32])
-        (reg:SI 1 r1 [ bufferLength ])) "src/HAL/UARTModule.c":126:1 -1
-     (nil))
-(note 4 3 7 2 NOTE_INSN_FUNCTION_BEG)
-(insn 7 4 8 2 (set (reg:SI 117)
-        (const_int 0 [0])) "src/HAL/UARTModule.c":127:13 -1
-     (nil))
-(insn 8 7 9 2 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])
-        (reg:SI 117)) "src/HAL/UARTModule.c":127:13 -1
-     (nil))
-(insn 9 8 10 2 (set (reg:SI 118)
-        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -16 [0xfffffffffffffff0])) [2 bufferLength+0 S4 A32])) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 10 9 11 2 (set (reg:SI 114 [ _1 ])
-        (zero_extend:SI (subreg:HI (reg:SI 118) 0))) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 11 10 12 2 (set (reg:SI 3 r3)
-        (const_int -1 [0xffffffffffffffff])) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 12 11 13 2 (set (reg:SI 2 r2)
-        (reg:SI 114 [ _1 ])) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 13 12 14 2 (set (reg:SI 1 r1)
-        (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -12 [0xfffffffffffffff4])) [8 pDataBuffer+0 S4 A32])) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 14 13 15 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(call_insn 15 14 16 2 (parallel [
-            (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UART_Receive") [flags 0x41]  <function_decl 0x7fc27159eb00 HAL_UART_Receive>) [0 HAL_UART_Receive S4 A32])
-                    (const_int 0 [0])))
-            (use (const_int 0 [0]))
-            (clobber (reg:SI 14 lr))
-        ]) "src/HAL/UARTModule.c":129:35 -1
-     (nil)
-    (expr_list (clobber (reg:SI 12 ip))
-        (expr_list:SI (use (reg:SI 0 r0))
-            (expr_list:SI (use (reg:SI 1 r1))
-                (expr_list:HI (use (reg:SI 2 r2))
-                    (expr_list:SI (use (reg:SI 3 r3))
-                        (nil)))))))
-(insn 16 15 17 2 (set (reg:SI 119)
-        (reg:SI 0 r0)) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 17 16 18 2 (set (reg:QI 120)
-        (subreg/s/v:QI (reg:SI 119) 0)) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 18 17 19 2 (set (mem/c:QI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -5 [0xfffffffffffffffb])) [0 halStatus+0 S1 A8])
-        (reg:QI 120)) "src/HAL/UARTModule.c":129:35 -1
-     (nil))
-(insn 19 18 20 2 (set (reg:SI 121)
-        (zero_extend:SI (mem/c:QI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                    (const_int -5 [0xfffffffffffffffb])) [0 halStatus+0 S1 A8]))) "src/HAL/UARTModule.c":131:8 -1
-     (nil))
-(insn 20 19 21 2 (set (reg:CC 100 cc)
-        (compare:CC (reg:SI 121)
-            (const_int 0 [0]))) "src/HAL/UARTModule.c":131:8 -1
-     (nil))
-(jump_insn 21 20 22 2 (set (pc)
-        (if_then_else (eq (reg:CC 100 cc)
-                (const_int 0 [0]))
-            (label_ref 25)
-            (pc))) "src/HAL/UARTModule.c":131:8 -1
-     (nil)
- -> 25)
-(note 22 21 23 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
-(insn 23 22 24 4 (set (reg:SI 122)
-        (const_int -3 [0xfffffffffffffffd])) "src/HAL/UARTModule.c":133:16 -1
-     (nil))
-(insn 24 23 25 4 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])
-        (reg:SI 122)) "src/HAL/UARTModule.c":133:16 -1
-     (nil))
-(code_label 25 24 26 5 16 (nil) [1 uses])
-(note 26 25 27 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
-(insn 27 26 30 5 (set (reg:SI 115 [ _10 ])
-        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])) "src/HAL/UARTModule.c":136:12 -1
-     (nil))
-(insn 30 27 34 5 (set (reg:SI 116 [ <retval> ])
-        (reg:SI 115 [ _10 ])) "src/HAL/UARTModule.c":136:12 discrim 1 -1
-     (nil))
-(insn 34 30 35 5 (set (reg/i:SI 0 r0)
-        (reg:SI 116 [ <retval> ])) "src/HAL/UARTModule.c":137:1 -1
-     (nil))
-(insn 35 34 0 5 (use (reg/i:SI 0 r0)) "src/HAL/UARTModule.c":137:1 -1
-     (nil))
-
-;; Function uartHasData (uartHasData, funcdef_no=364, decl_uid=12622, cgraph_uid=368, symbol_order=368)
-=======
 ;; Function uartReceiveData (uartReceiveData, funcdef_no=363, decl_uid=12621, cgraph_uid=367, symbol_order=367)
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 
 
 ;; Generating RTL for gimple basic block 2
@@ -1001,34 +752,21 @@ try_optimize_cfg iteration 2
 
 ;; Generating RTL for gimple basic block 6
 
-<<<<<<< HEAD
-=======
 ;; Generating RTL for gimple basic block 7
 
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 
 try_optimize_cfg iteration 1
 
 Merging block 3 into block 2...
 Merged blocks 2 and 3.
 Merged 2 and 3 without moving.
-<<<<<<< HEAD
-Merging block 7 into block 6...
-Merged blocks 6 and 7.
-Merged 6 and 7 without moving.
-Removing jump 33.
-Merging block 8 into block 6...
-Merged blocks 6 and 8.
-Merged 6 and 8 without moving.
-=======
 Merging block 8 into block 7...
 Merged blocks 7 and 8.
 Merged 7 and 8 without moving.
-Removing jump 42.
+Removing jump 52.
 Merging block 9 into block 7...
 Merged blocks 7 and 9.
 Merged 7 and 9 without moving.
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
 
 
 try_optimize_cfg iteration 2
@@ -1038,94 +776,6 @@ try_optimize_cfg iteration 2
 ;;
 ;; Full RTL generated for this function:
 ;;
-<<<<<<< HEAD
-(note 1 0 4 NOTE_INSN_DELETED)
-(note 4 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
-(insn 2 4 3 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -12 [0xfffffffffffffff4])) [14 pHasData+0 S4 A32])
-        (reg:SI 0 r0 [ pHasData ])) "src/HAL/UARTModule.c":140:1 -1
-     (nil))
-(note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
-(insn 6 3 7 2 (set (reg:SI 119)
-        (const_int 0 [0])) "src/HAL/UARTModule.c":141:10 -1
-     (nil))
-(insn 7 6 8 2 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])
-        (reg:SI 119)) "src/HAL/UARTModule.c":141:10 -1
-     (nil))
-(insn 8 7 9 2 (set (reg/f:SI 120)
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7fc271584d80 gUARTHandle>)) "src/HAL/UARTModule.c":143:6 -1
-     (nil))
-(insn 9 8 10 2 (set (reg/f:SI 114 [ _1 ])
-        (mem/f/c:SI (reg/f:SI 120) [4 gUARTHandle.Instance+0 S4 A32])) "src/HAL/UARTModule.c":143:6 -1
-     (nil))
-(insn 10 9 11 2 (set (reg:SI 115 [ _2 ])
-        (mem/v:SI (plus:SI (reg/f:SI 114 [ _1 ])
-                (const_int 28 [0x1c])) [2 _1->ISR+0 S4 A32])) "src/HAL/UARTModule.c":143:6 -1
-     (nil))
-(insn 11 10 12 2 (set (reg:SI 116 [ _3 ])
-        (and:SI (reg:SI 115 [ _2 ])
-            (const_int 32 [0x20]))) "src/HAL/UARTModule.c":143:6 -1
-     (nil))
-(insn 12 11 13 2 (set (reg:CC 100 cc)
-        (compare:CC (reg:SI 116 [ _3 ])
-            (const_int 32 [0x20]))) "src/HAL/UARTModule.c":143:5 -1
-     (nil))
-(jump_insn 13 12 14 2 (set (pc)
-        (if_then_else (ne (reg:CC 100 cc)
-                (const_int 0 [0]))
-            (label_ref 21)
-            (pc))) "src/HAL/UARTModule.c":143:5 -1
-     (nil)
- -> 21)
-(note 14 13 15 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
-(insn 15 14 16 4 (set (reg/f:SI 121)
-        (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -12 [0xfffffffffffffff4])) [14 pHasData+0 S4 A32])) "src/HAL/UARTModule.c":145:13 -1
-     (nil))
-(insn 16 15 17 4 (set (reg:SI 122)
-        (const_int 1 [0x1])) "src/HAL/UARTModule.c":145:13 -1
-     (nil))
-(insn 17 16 18 4 (set (reg:QI 123)
-        (subreg:QI (reg:SI 122) 0)) "src/HAL/UARTModule.c":145:13 -1
-     (nil))
-(insn 18 17 19 4 (set (mem:QI (reg/f:SI 121) [0 *pHasData_7(D)+0 S1 A8])
-        (reg:QI 123)) "src/HAL/UARTModule.c":145:13 -1
-     (nil))
-(jump_insn 19 18 20 4 (set (pc)
-        (label_ref 27)) -1
-     (nil)
- -> 27)
-(barrier 20 19 21)
-(code_label 21 20 22 5 21 (nil) [1 uses])
-(note 22 21 23 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
-(insn 23 22 24 5 (set (reg/f:SI 124)
-        (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -12 [0xfffffffffffffff4])) [14 pHasData+0 S4 A32])) "src/HAL/UARTModule.c":149:13 -1
-     (nil))
-(insn 24 23 25 5 (set (reg:SI 125)
-        (const_int 0 [0])) "src/HAL/UARTModule.c":149:13 -1
-     (nil))
-(insn 25 24 26 5 (set (reg:QI 126)
-        (subreg:QI (reg:SI 125) 0)) "src/HAL/UARTModule.c":149:13 -1
-     (nil))
-(insn 26 25 27 5 (set (mem:QI (reg/f:SI 124) [0 *pHasData_7(D)+0 S1 A8])
-        (reg:QI 126)) "src/HAL/UARTModule.c":149:13 -1
-     (nil))
-(code_label 27 26 28 6 22 (nil) [1 uses])
-(note 28 27 29 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
-(insn 29 28 32 6 (set (reg:SI 117 [ _10 ])
-        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])) "src/HAL/UARTModule.c":152:9 -1
-     (nil))
-(insn 32 29 36 6 (set (reg:SI 118 [ <retval> ])
-        (reg:SI 117 [ _10 ])) "src/HAL/UARTModule.c":152:9 discrim 1 -1
-     (nil))
-(insn 36 32 37 6 (set (reg/i:SI 0 r0)
-        (reg:SI 118 [ <retval> ])) "src/HAL/UARTModule.c":153:1 -1
-     (nil))
-(insn 37 36 0 6 (use (reg/i:SI 0 r0)) "src/HAL/UARTModule.c":153:1 -1
-=======
 (note 1 0 6 NOTE_INSN_DELETED)
 (note 6 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (insn 2 6 3 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
@@ -1141,19 +791,19 @@ try_optimize_cfg iteration 2
         (reg:SI 2 r2 [ timeout ])) "src/HAL/UARTModule.c":126:1 -1
      (nil))
 (note 5 4 8 2 NOTE_INSN_FUNCTION_BEG)
-(insn 8 5 9 2 (set (reg:SI 117)
+(insn 8 5 9 2 (set (reg:SI 118)
         (const_int 0 [0])) "src/HAL/UARTModule.c":127:13 -1
      (nil))
 (insn 9 8 10 2 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])
-        (reg:SI 117)) "src/HAL/UARTModule.c":127:13 -1
+        (reg:SI 118)) "src/HAL/UARTModule.c":127:13 -1
      (nil))
-(insn 10 9 11 2 (set (reg:SI 118)
+(insn 10 9 11 2 (set (reg:SI 119)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -16 [0xfffffffffffffff0])) [2 bufferLength+0 S4 A32])) "src/HAL/UARTModule.c":129:35 -1
      (nil))
 (insn 11 10 12 2 (set (reg:SI 114 [ _1 ])
-        (zero_extend:SI (subreg:HI (reg:SI 118) 0))) "src/HAL/UARTModule.c":129:35 -1
+        (zero_extend:SI (subreg:HI (reg:SI 119) 0))) "src/HAL/UARTModule.c":129:35 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 3 r3)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
@@ -1167,11 +817,11 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 pDataBuffer+0 S4 A32])) "src/HAL/UARTModule.c":129:35 -1
      (nil))
 (insn 15 14 16 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f16d0384d80 gUARTHandle>)) "src/HAL/UARTModule.c":129:35 -1
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":129:35 -1
      (nil))
 (call_insn 16 15 17 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_UART_Receive") [flags 0x41]  <function_decl 0x7f16d039eb00 HAL_UART_Receive>) [0 HAL_UART_Receive S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_UART_Receive") [flags 0x41]  <function_decl 0x7f28f9b9eb00 HAL_UART_Receive>) [0 HAL_UART_Receive S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1183,22 +833,22 @@ try_optimize_cfg iteration 2
                 (expr_list:HI (use (reg:SI 2 r2))
                     (expr_list:SI (use (reg:SI 3 r3))
                         (nil)))))))
-(insn 17 16 18 2 (set (reg:SI 119)
+(insn 17 16 18 2 (set (reg:SI 120)
         (reg:SI 0 r0)) "src/HAL/UARTModule.c":129:35 -1
      (nil))
-(insn 18 17 19 2 (set (reg:QI 120)
-        (subreg/s/v:QI (reg:SI 119) 0)) "src/HAL/UARTModule.c":129:35 -1
+(insn 18 17 19 2 (set (reg:QI 121)
+        (subreg/s/v:QI (reg:SI 120) 0)) "src/HAL/UARTModule.c":129:35 -1
      (nil))
 (insn 19 18 20 2 (set (mem/c:QI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -5 [0xfffffffffffffffb])) [0 halStatus+0 S1 A8])
-        (reg:QI 120)) "src/HAL/UARTModule.c":129:35 -1
+        (reg:QI 121)) "src/HAL/UARTModule.c":129:35 -1
      (nil))
-(insn 20 19 21 2 (set (reg:SI 121)
+(insn 20 19 21 2 (set (reg:SI 122)
         (zero_extend:SI (mem/c:QI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                     (const_int -5 [0xfffffffffffffffb])) [0 halStatus+0 S1 A8]))) "src/HAL/UARTModule.c":132:7 -1
      (nil))
 (insn 21 20 22 2 (set (reg:CC 100 cc)
-        (compare:CC (reg:SI 121)
+        (compare:CC (reg:SI 122)
             (const_int 3 [0x3]))) "src/HAL/UARTModule.c":132:7 -1
      (nil))
 (jump_insn 22 21 23 2 (set (pc)
@@ -1209,12 +859,12 @@ try_optimize_cfg iteration 2
      (nil)
  -> 28)
 (note 23 22 24 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
-(insn 24 23 25 4 (set (reg:SI 122)
+(insn 24 23 25 4 (set (reg:SI 123)
         (const_int -4 [0xfffffffffffffffc])) "src/HAL/UARTModule.c":134:16 -1
      (nil))
 (insn 25 24 26 4 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])
-        (reg:SI 122)) "src/HAL/UARTModule.c":134:16 -1
+        (reg:SI 123)) "src/HAL/UARTModule.c":134:16 -1
      (nil))
 (jump_insn 26 25 27 4 (set (pc)
         (label_ref 36)) -1
@@ -1223,12 +873,12 @@ try_optimize_cfg iteration 2
 (barrier 27 26 28)
 (code_label 28 27 29 5 16 (nil) [1 uses])
 (note 29 28 30 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
-(insn 30 29 31 5 (set (reg:SI 123)
+(insn 30 29 31 5 (set (reg:SI 124)
         (zero_extend:SI (mem/c:QI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                     (const_int -5 [0xfffffffffffffffb])) [0 halStatus+0 S1 A8]))) "src/HAL/UARTModule.c":136:14 -1
      (nil))
 (insn 31 30 32 5 (set (reg:CC 100 cc)
-        (compare:CC (reg:SI 123)
+        (compare:CC (reg:SI 124)
             (const_int 0 [0]))) "src/HAL/UARTModule.c":136:14 -1
      (nil))
 (jump_insn 32 31 33 5 (set (pc)
@@ -1239,25 +889,69 @@ try_optimize_cfg iteration 2
      (nil)
  -> 36)
 (note 33 32 34 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
-(insn 34 33 35 6 (set (reg:SI 124)
+(insn 34 33 35 6 (set (reg:SI 125)
         (const_int -3 [0xfffffffffffffffd])) "src/HAL/UARTModule.c":138:16 -1
      (nil))
 (insn 35 34 36 6 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
                 (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])
-        (reg:SI 124)) "src/HAL/UARTModule.c":138:16 -1
+        (reg:SI 125)) "src/HAL/UARTModule.c":138:16 -1
      (nil))
 (code_label 36 35 37 7 17 (nil) [2 uses])
 (note 37 36 38 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
-(insn 38 37 41 7 (set (reg:SI 115 [ _12 ])
+(insn 38 37 39 7 (set (reg:SI 126)
         (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
-                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])) "src/HAL/UARTModule.c":140:12 -1
+                (const_int -16 [0xfffffffffffffff0])) [2 bufferLength+0 S4 A32])) "src/HAL/UARTModule.c":141:17 -1
      (nil))
-(insn 41 38 45 7 (set (reg:SI 116 [ <retval> ])
-        (reg:SI 115 [ _12 ])) "src/HAL/UARTModule.c":140:12 discrim 1 -1
+(insn 39 38 40 7 (set (reg:SI 115 [ _2 ])
+        (zero_extend:SI (subreg:HI (reg:SI 126) 0))) "src/HAL/UARTModule.c":141:17 -1
      (nil))
-(insn 45 41 46 7 (set (reg/i:SI 0 r0)
-        (reg:SI 116 [ <retval> ])) "src/HAL/UARTModule.c":141:1 -1
+(insn 40 39 41 7 (set (reg:SI 3 r3)
+        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 timeout+0 S4 A32])) "src/HAL/UARTModule.c":141:17 -1
      (nil))
-(insn 46 45 0 7 (use (reg/i:SI 0 r0)) "src/HAL/UARTModule.c":141:1 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+(insn 41 40 42 7 (set (reg:SI 2 r2)
+        (reg:SI 115 [ _2 ])) "src/HAL/UARTModule.c":141:17 -1
+     (nil))
+(insn 42 41 43 7 (set (reg:SI 1 r1)
+        (mem/f/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [8 pDataBuffer+0 S4 A32])) "src/HAL/UARTModule.c":141:17 -1
+     (nil))
+(insn 43 42 44 7 (set (reg:SI 0 r0)
+        (symbol_ref:SI ("gUARTHandle") [flags 0x2]  <var_decl 0x7f28f9b84d80 gUARTHandle>)) "src/HAL/UARTModule.c":141:17 -1
+     (nil))
+(call_insn 44 43 45 7 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("HAL_UART_Transmit") [flags 0x41]  <function_decl 0x7f28f9b9ea00 HAL_UART_Transmit>) [0 HAL_UART_Transmit S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/HAL/UARTModule.c":141:17 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (expr_list:SI (use (reg:SI 0 r0))
+            (expr_list:SI (use (reg:SI 1 r1))
+                (expr_list:HI (use (reg:SI 2 r2))
+                    (expr_list:SI (use (reg:SI 3 r3))
+                        (nil)))))))
+(insn 45 44 46 7 (set (reg:SI 127)
+        (reg:SI 0 r0)) "src/HAL/UARTModule.c":141:17 -1
+     (nil))
+(insn 46 45 47 7 (set (reg:QI 128)
+        (subreg/s/v:QI (reg:SI 127) 0)) "src/HAL/UARTModule.c":141:17 -1
+     (nil))
+(insn 47 46 48 7 (set (mem/c:QI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -5 [0xfffffffffffffffb])) [0 halStatus+0 S1 A8])
+        (reg:QI 128)) "src/HAL/UARTModule.c":141:17 -1
+     (nil))
+(insn 48 47 51 7 (set (reg:SI 116 [ _15 ])
+        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 result+0 S4 A32])) "src/HAL/UARTModule.c":144:12 -1
+     (nil))
+(insn 51 48 55 7 (set (reg:SI 117 [ <retval> ])
+        (reg:SI 116 [ _15 ])) "src/HAL/UARTModule.c":144:12 discrim 1 -1
+     (nil))
+(insn 55 51 56 7 (set (reg/i:SI 0 r0)
+        (reg:SI 117 [ <retval> ])) "src/HAL/UARTModule.c":145:1 -1
+     (nil))
+(insn 56 55 0 7 (use (reg/i:SI 0 r0)) "src/HAL/UARTModule.c":145:1 -1
      (nil))

@@ -22,19 +22,18 @@
 #include "HardwareConfig.h"
 
 #include "Util/Global.h"
-#include "Util/Log/printf.h"
-#include "Util/Log/LogOutput.h"
 
-#include "UARTModule.h"
-#include "ButtonModule.h"
-#include "LEDModule.h"
-#include "DisplayModule.h"
-#include "ADCModule.h"
-#include "TimerModule.h"
-#include "Scheduler.h"
+#include "Util/Log/printf.h"
+
+#include "Util/Log/LogOutput.h"
 
 #include "GlobalObjects.h"
 
+#include "Application.h"
+
+#include "AppTasks.h"
+
+#include "Scheduler.h"
 
 /***** PRIVATE CONSTANTS *****************************************************/
 
@@ -46,11 +45,11 @@
 
 
 /***** PRIVATE PROTOTYPES ****************************************************/
-static int32_t initializePeripherals();
 
-static void change_vector_table(void);
 /***** PRIVATE VARIABLES *****************************************************/
-static Scheduler gScheduler;            // Global Scheduler instance
+         // Global Scheduler instance
+Scheduler AppScheduler;
+
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
@@ -61,77 +60,33 @@ static Scheduler gScheduler;            // Global Scheduler instance
  */
 int main(void)
 {
-    change_vector_table();
 
-    HAL_Init();
+    int32_t schedulerInitialized = schedInitialize(&AppScheduler);
 
-    // Initialize the System Clock
-    SystemClock_Config();
+    AppScheduler.pTask_1ms = taskApp1ms;
+    AppScheduler.pTask_10ms = taskApp10ms;
+    AppScheduler.pTask_50ms = taskApp50ms;
+    AppScheduler.pTask_250ms = taskApp250ms;
 
 
+	 if((schedulerInitialized == SCHED_ERR_INVALID_PTR))
+	{
+		return APP_INIT_ERR;
+	}
 
-    // Initialize Peripherals
-    initializePeripherals();
+	 int32_t appInitResult = AppInitialize();
+	if(appInitResult == APP_INIT_ERR)
+	{
 
-    // Initialize Scheduler
-    schedInitialize(&gScheduler);
-
-    int globalCounter = 0;
-    uint8_t left = 0;
+		while(1);
+	}
 
     while (1)
     {
-
-            // Toggle all LEDs to the their functionality (Toggle frequency depends on HAL_Delay at end of loop)
-        ledSetLED(LED0, LED_ON);
-        ledSetLED(LED1, LED_ON);
-
-
+    	schedCycle(&AppScheduler);
     }
 }
 
 /***** PRIVATE FUNCTIONS *****************************************************/
 
-/**
- * @brief Initializes the used peripherals like GPIO,
- * ADC, DMA and Timer Interrupts
- *
- * @return Returns ERROR_OK if no error occurred
- */
-static int32_t initializePeripherals()
-{
-    // Initialize UART used for Debug-Outputs
-    uartInitialize(115200);
 
-    // Initialize GPIOs for LED and 7-Segment output
-    ledInitialize();
-    displayInitialize();
-
-    // Initialize GPIOs for Buttons
-    buttonInitialize();
-
-    // Initialize Timer, DMA and ADC for sensor measurements
-    timerInitialize();
-    adcInitialize();
-
-    return ERROR_OK;
-}
-
-static void change_vector_table(void)
-{
-    const uint32_t app_base = 0x08010200;
-    uint32_t app_msp = *(uint32_t *)app_base;
-
-    __disable_irq();
-
-    //HAL_RCC_DeInit();
-    HAL_DeInit();
-
-    SCB->VTOR = app_base;
-    __DSB(); __ISB();
-
-    __HAL_RCC_AHB1_FORCE_RESET();
-    __HAL_RCC_AHB1_RELEASE_RESET();
-    __enable_irq();
-    // Initialize the HAL
-}

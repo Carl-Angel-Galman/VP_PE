@@ -100,11 +100,7 @@ try_optimize_cfg iteration 2
                 (const_int -8 [0xfffffffffffffff8])) [1 tmpreg+0 S4 A64])) "src/HAL/HAL.c":48:5 -1
      (nil))
 (call_insn 25 24 0 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableUCPDDeadBattery") [flags 0x41]  <function_decl 0x7f90c6204b00 HAL_PWREx_DisableUCPDDeadBattery>) [0 HAL_PWREx_DisableUCPDDeadBattery S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableUCPDDeadBattery") [flags 0x41]  <function_decl 0x7fceffc04b00 HAL_PWREx_DisableUCPDDeadBattery>) [0 HAL_PWREx_DisableUCPDDeadBattery S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_PWREx_DisableUCPDDeadBattery") [flags 0x41]  <function_decl 0x7fdf3d204b00 HAL_PWREx_DisableUCPDDeadBattery>) [0 HAL_PWREx_DisableUCPDDeadBattery S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

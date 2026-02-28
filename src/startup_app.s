@@ -96,7 +96,7 @@ Start_Handler:
 .loopFillStack:
 	/* Condition to check if the current stack pointer has reached the end of the stack */
     cmp r2, r4
-    bcc .fillStack
+    bcc .fillStackc
     
     /* Initialize the Stack-Pointer */
    	ldr r0, =_initial_stack_pointer

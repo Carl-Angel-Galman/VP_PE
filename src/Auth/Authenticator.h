@@ -31,6 +31,7 @@
 #define AUTH_ERR_FAILURE        -1         //!< Error during UART initialization
 #define AUTH_ERR_TIMEOUT		-2
 #define AUTH_ERR_INVALID_PTR    -3
+#define AUTH_ERR_KEY_LENGHT_BREACH -4
 
 /***** TYPES *****************************************************************/
 
@@ -42,7 +43,7 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[]);
 
 int8_t Auth_WaitForA(void);
 
-int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen);
+int8_t Auth_ReadKey(int8_t key[8], uint8_t *outLen);
 
 int8_t Auth_init(void);
 

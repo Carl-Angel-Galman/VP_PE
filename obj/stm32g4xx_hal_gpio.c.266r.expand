@@ -2928,11 +2928,7 @@ try_optimize_cfg iteration 2
         (reg:SI 122)) "lib/HAL/Src/stm32g4xx_hal_gpio.c":499:5 -1
      (nil))
 (call_insn 20 19 23 4 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_GPIO_EXTI_Callback") [flags 0x3]  <function_decl 0x7f02a5e14500 HAL_GPIO_EXTI_Callback>) [0 HAL_GPIO_EXTI_Callback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_GPIO_EXTI_Callback") [flags 0x3]  <function_decl 0x7f864ee14500 HAL_GPIO_EXTI_Callback>) [0 HAL_GPIO_EXTI_Callback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_GPIO_EXTI_Callback") [flags 0x3]  <function_decl 0x7f223ca14500 HAL_GPIO_EXTI_Callback>) [0 HAL_GPIO_EXTI_Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

@@ -1540,11 +1540,7 @@ try_optimize_cfg iteration 2
                 (const_int -28 [0xffffffffffffffe4])) [8 hcomp+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":284:7 -1
      (nil))
 (call_insn 51 50 52 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspInit") [flags 0x3]  <function_decl 0x7f4f02b90600 HAL_COMP_MspInit>) [0 HAL_COMP_MspInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspInit") [flags 0x3]  <function_decl 0x7ff062d90600 HAL_COMP_MspInit>) [0 HAL_COMP_MspInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspInit") [flags 0x3]  <function_decl 0x7f97bbf90600 HAL_COMP_MspInit>) [0 HAL_COMP_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1713,11 +1709,7 @@ try_optimize_cfg iteration 2
  -> 120)
 (note 94 93 95 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (insn 95 94 96 11 (set (reg/f:SI 214)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f4f0334da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7ff06354da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f97bc74da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
      (nil))
 (insn 96 95 97 11 (set (reg:SI 136 [ SystemCoreClock.0_23 ])
         (mem/c:SI (reg/f:SI 214) [4 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":317:88 -1
@@ -2109,11 +2101,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":336:11 -1
      (nil))
 (call_insn 228 227 229 36 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b7cc00 LL_EXTI_EnableRisingTrig_32_63>) [0 LL_EXTI_EnableRisingTrig_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d7cc00 LL_EXTI_EnableRisingTrig_32_63>) [0 LL_EXTI_EnableRisingTrig_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f97bbf7cc00 LL_EXTI_EnableRisingTrig_32_63>) [0 LL_EXTI_EnableRisingTrig_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2134,11 +2122,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":340:11 -1
      (nil))
 (call_insn 234 233 237 37 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b7ca00 LL_EXTI_EnableRisingTrig_0_31>) [0 LL_EXTI_EnableRisingTrig_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d7ca00 LL_EXTI_EnableRisingTrig_0_31>) [0 LL_EXTI_EnableRisingTrig_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f97bbf7ca00 LL_EXTI_EnableRisingTrig_0_31>) [0 LL_EXTI_EnableRisingTrig_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2204,11 +2188,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":351:11 -1
      (nil))
 (call_insn 255 254 256 41 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b84000 LL_EXTI_DisableRisingTrig_32_63>) [0 LL_EXTI_DisableRisingTrig_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d84000 LL_EXTI_DisableRisingTrig_32_63>) [0 LL_EXTI_DisableRisingTrig_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_32_63") [flags 0x3]  <function_decl 0x7f97bbf84000 LL_EXTI_DisableRisingTrig_32_63>) [0 LL_EXTI_DisableRisingTrig_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2229,11 +2209,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":355:11 -1
      (nil))
 (call_insn 261 260 262 42 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b7ce00 LL_EXTI_DisableRisingTrig_0_31>) [0 LL_EXTI_DisableRisingTrig_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d7ce00 LL_EXTI_DisableRisingTrig_0_31>) [0 LL_EXTI_DisableRisingTrig_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableRisingTrig_0_31") [flags 0x3]  <function_decl 0x7f97bbf7ce00 LL_EXTI_DisableRisingTrig_0_31>) [0 LL_EXTI_DisableRisingTrig_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2318,11 +2294,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":368:11 -1
      (nil))
 (call_insn 284 283 285 46 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b84800 LL_EXTI_EnableFallingTrig_32_63>) [0 LL_EXTI_EnableFallingTrig_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d84800 LL_EXTI_EnableFallingTrig_32_63>) [0 LL_EXTI_EnableFallingTrig_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f97bbf84800 LL_EXTI_EnableFallingTrig_32_63>) [0 LL_EXTI_EnableFallingTrig_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2343,11 +2315,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":372:11 -1
      (nil))
 (call_insn 290 289 293 47 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b84600 LL_EXTI_EnableFallingTrig_0_31>) [0 LL_EXTI_EnableFallingTrig_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d84600 LL_EXTI_EnableFallingTrig_0_31>) [0 LL_EXTI_EnableFallingTrig_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f97bbf84600 LL_EXTI_EnableFallingTrig_0_31>) [0 LL_EXTI_EnableFallingTrig_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2413,11 +2381,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":383:11 -1
      (nil))
 (call_insn 311 310 312 51 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f4f02b84c00 LL_EXTI_DisableFallingTrig_32_63>) [0 LL_EXTI_DisableFallingTrig_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7ff062d84c00 LL_EXTI_DisableFallingTrig_32_63>) [0 LL_EXTI_DisableFallingTrig_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_32_63") [flags 0x3]  <function_decl 0x7f97bbf84c00 LL_EXTI_DisableFallingTrig_32_63>) [0 LL_EXTI_DisableFallingTrig_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2438,11 +2402,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":387:11 -1
      (nil))
 (call_insn 317 316 318 52 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f4f02b84a00 LL_EXTI_DisableFallingTrig_0_31>) [0 LL_EXTI_DisableFallingTrig_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7ff062d84a00 LL_EXTI_DisableFallingTrig_0_31>) [0 LL_EXTI_DisableFallingTrig_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableFallingTrig_0_31") [flags 0x3]  <function_decl 0x7f97bbf84a00 LL_EXTI_DisableFallingTrig_0_31>) [0 LL_EXTI_DisableFallingTrig_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2503,11 +2463,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":398:9 -1
      (nil))
 (call_insn 334 333 335 55 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f4f02b90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7ff062d90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f97bbf90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2528,11 +2484,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":402:9 -1
      (nil))
 (call_insn 340 339 341 56 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f4f02b8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7ff062d8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f97bbf8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2617,11 +2569,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":414:11 -1
      (nil))
 (call_insn 363 362 364 60 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_32_63") [flags 0x3]  <function_decl 0x7f4f02b7c000 LL_EXTI_EnableEvent_32_63>) [0 LL_EXTI_EnableEvent_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_32_63") [flags 0x3]  <function_decl 0x7ff062d7c000 LL_EXTI_EnableEvent_32_63>) [0 LL_EXTI_EnableEvent_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_32_63") [flags 0x3]  <function_decl 0x7f97bbf7c000 LL_EXTI_EnableEvent_32_63>) [0 LL_EXTI_EnableEvent_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2642,11 +2590,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":418:11 -1
      (nil))
 (call_insn 369 368 372 61 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_0_31") [flags 0x3]  <function_decl 0x7f4f02b76e00 LL_EXTI_EnableEvent_0_31>) [0 LL_EXTI_EnableEvent_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_0_31") [flags 0x3]  <function_decl 0x7ff062d76e00 LL_EXTI_EnableEvent_0_31>) [0 LL_EXTI_EnableEvent_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableEvent_0_31") [flags 0x3]  <function_decl 0x7f97bbf76e00 LL_EXTI_EnableEvent_0_31>) [0 LL_EXTI_EnableEvent_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2712,11 +2656,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":429:11 -1
      (nil))
 (call_insn 390 389 391 65 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f4f02b7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7ff062d7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f97bbf7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2737,11 +2677,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":433:11 -1
      (nil))
 (call_insn 396 395 397 66 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f4f02b7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7ff062d7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f97bbf7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2826,11 +2762,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":446:11 -1
      (nil))
 (call_insn 419 418 420 70 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_32_63") [flags 0x3]  <function_decl 0x7f4f02b76400 LL_EXTI_EnableIT_32_63>) [0 LL_EXTI_EnableIT_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_32_63") [flags 0x3]  <function_decl 0x7ff062d76400 LL_EXTI_EnableIT_32_63>) [0 LL_EXTI_EnableIT_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_32_63") [flags 0x3]  <function_decl 0x7f97bbf76400 LL_EXTI_EnableIT_32_63>) [0 LL_EXTI_EnableIT_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2851,11 +2783,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":450:11 -1
      (nil))
 (call_insn 425 424 428 71 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_0_31") [flags 0x3]  <function_decl 0x7f4f02b76200 LL_EXTI_EnableIT_0_31>) [0 LL_EXTI_EnableIT_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_0_31") [flags 0x3]  <function_decl 0x7ff062d76200 LL_EXTI_EnableIT_0_31>) [0 LL_EXTI_EnableIT_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_EnableIT_0_31") [flags 0x3]  <function_decl 0x7f97bbf76200 LL_EXTI_EnableIT_0_31>) [0 LL_EXTI_EnableIT_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2921,11 +2849,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":461:11 -1
      (nil))
 (call_insn 446 445 447 75 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f4f02b76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7ff062d76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f97bbf76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2946,11 +2870,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":465:11 -1
      (nil))
 (call_insn 452 451 455 76 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f4f02b76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7ff062d76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f97bbf76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3016,11 +2936,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":478:9 -1
      (nil))
 (call_insn 473 472 474 80 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f4f02b7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7ff062d7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_32_63") [flags 0x3]  <function_decl 0x7f97bbf7c400 LL_EXTI_DisableEvent_32_63>) [0 LL_EXTI_DisableEvent_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3041,11 +2957,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":482:9 -1
      (nil))
 (call_insn 479 478 480 81 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f4f02b7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7ff062d7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableEvent_0_31") [flags 0x3]  <function_decl 0x7f97bbf7c200 LL_EXTI_DisableEvent_0_31>) [0 LL_EXTI_DisableEvent_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3106,11 +3018,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":492:9 -1
      (nil))
 (call_insn 496 495 497 84 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f4f02b76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7ff062d76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_32_63") [flags 0x3]  <function_decl 0x7f97bbf76800 LL_EXTI_DisableIT_32_63>) [0 LL_EXTI_DisableIT_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3131,11 +3039,7 @@ try_optimize_cfg iteration 2
                 (const_int -16 [0xfffffffffffffff0])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":496:9 -1
      (nil))
 (call_insn 502 501 503 85 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f4f02b76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7ff062d76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_DisableIT_0_31") [flags 0x3]  <function_decl 0x7f97bbf76600 LL_EXTI_DisableIT_0_31>) [0 LL_EXTI_DisableIT_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3348,11 +3252,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hcomp+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":553:5 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspDeInit") [flags 0x3]  <function_decl 0x7f4f02b90700 HAL_COMP_MspDeInit>) [0 HAL_COMP_MspDeInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspDeInit") [flags 0x3]  <function_decl 0x7ff062d90700 HAL_COMP_MspDeInit>) [0 HAL_COMP_MspDeInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_MspDeInit") [flags 0x3]  <function_decl 0x7f97bbf90700 HAL_COMP_MspDeInit>) [0 HAL_COMP_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3677,11 +3577,7 @@ Forwarding edge 10->11 to 13 failed.
         (reg:QI 146)) "lib/HAL/Src/stm32g4xx_hal_comp.c":805:20 -1
      (nil))
 (insn 54 53 55 8 (set (reg/f:SI 147)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f4f0334da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7ff06354da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x40]  <var_decl 0x7f97bc74da20 SystemCoreClock>)) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
      (nil))
 (insn 55 54 56 8 (set (reg:SI 122 [ SystemCoreClock.9_9 ])
         (mem/c:SI (reg/f:SI 147) [4 SystemCoreClock+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":814:67 -1
@@ -4392,11 +4288,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 102 101 103 23 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_32_63") [flags 0x3]  <function_decl 0x7f4f02b8a800 LL_EXTI_IsActiveFlag_32_63>) [0 LL_EXTI_IsActiveFlag_32_63 S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_32_63") [flags 0x3]  <function_decl 0x7ff062d8a800 LL_EXTI_IsActiveFlag_32_63>) [0 LL_EXTI_IsActiveFlag_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_32_63") [flags 0x3]  <function_decl 0x7f97bbf8a800 LL_EXTI_IsActiveFlag_32_63>) [0 LL_EXTI_IsActiveFlag_32_63 S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4440,11 +4332,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 116 115 117 26 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_0_31") [flags 0x3]  <function_decl 0x7f4f02b8a600 LL_EXTI_IsActiveFlag_0_31>) [0 LL_EXTI_IsActiveFlag_0_31 S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_0_31") [flags 0x3]  <function_decl 0x7ff062d8a600 LL_EXTI_IsActiveFlag_0_31>) [0 LL_EXTI_IsActiveFlag_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("LL_EXTI_IsActiveFlag_0_31") [flags 0x3]  <function_decl 0x7f97bbf8a600 LL_EXTI_IsActiveFlag_0_31>) [0 LL_EXTI_IsActiveFlag_0_31 S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4514,11 +4402,7 @@ try_optimize_cfg iteration 2
                 (const_int -8 [0xfffffffffffffff8])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":911:9 -1
      (nil))
 (call_insn 134 133 135 30 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f4f02b90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7ff062d90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_32_63") [flags 0x3]  <function_decl 0x7f97bbf90000 LL_EXTI_ClearFlag_32_63>) [0 LL_EXTI_ClearFlag_32_63 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4539,11 +4423,7 @@ try_optimize_cfg iteration 2
                 (const_int -8 [0xfffffffffffffff8])) [4 exti_line+0 S4 A64])) "lib/HAL/Src/stm32g4xx_hal_comp.c":915:9 -1
      (nil))
 (call_insn 140 139 141 31 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f4f02b8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7ff062d8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("LL_EXTI_ClearFlag_0_31") [flags 0x3]  <function_decl 0x7f97bbf8ae00 LL_EXTI_ClearFlag_0_31>) [0 LL_EXTI_ClearFlag_0_31 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4559,11 +4439,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hcomp+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_comp.c":925:5 -1
      (nil))
 (call_insn 144 143 147 32 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_TriggerCallback") [flags 0x3]  <function_decl 0x7f4f02b90d00 HAL_COMP_TriggerCallback>) [0 HAL_COMP_TriggerCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_TriggerCallback") [flags 0x3]  <function_decl 0x7ff062d90d00 HAL_COMP_TriggerCallback>) [0 HAL_COMP_TriggerCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_COMP_TriggerCallback") [flags 0x3]  <function_decl 0x7f97bbf90d00 HAL_COMP_TriggerCallback>) [0 HAL_COMP_TriggerCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

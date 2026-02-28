@@ -30,6 +30,13 @@
 
 #include "Scheduler.h"
 
+#include "Util/Global.h"
+
+#include "Util/Log/printf.h"
+
+#include "Util/Log/LogOutput.h"
+
+
 /***** PRIVATE CONSTANTS *****************************************************/
 
 
@@ -104,37 +111,40 @@ void verify(void)
 {
 	__disable_irq();
 
-
 	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
 	app_start_function start = (app_start_function) *(start_app_ptr);
 	start();
 
 	while (1) { }
-
 }
 
 
 
 int8_t copy_and_decrypt_auth_section(uint8_t key[])
 {
+
 	if(key == 0)
 	{
 		return AUTH_ERR_INVALID_PTR;
 	}
+
 	uint8_t  *dst = &_sauth;
-    const uint8_t  *src = &_sloadauth;
-    size_t len = (size_t)(&_eauth - &_sauth);
 
-    key_len = (int32_t)strlen(key);   // <-- add this (or make it const)
+	const uint8_t  *src = &_sloadauth;
 
-    memcpy(dst, src, len);
-//
+	size_t len = (size_t)(&_eauth - &_sauth);
+
 //    for (size_t i = 0; i < len; i++)
 //	{
 //		dst[i] ^= key[i % key_len];
 //	}
+//
+//    __DSB();__ISB();
 
-    //__DSB();__ISB();
+    key_len = (int32_t)strlen(key);   // <-- add this (or make it const)
+
+    memcpy(dst, src, len);  // copy to RAM
+
 
     return AUTH_ERR_OK;
 }
@@ -184,7 +194,7 @@ int8_t Auth_WaitForA(void)
 }
 
 
-int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
+int8_t Auth_ReadKey(int8_t key[8], uint8_t *outLen)
 {
     uint32_t start = HAL_GetTick();
     uint32_t now;
@@ -226,7 +236,10 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
         case SECOND_WARNING:
         	schedCycle(&auth_Scheduler);
         	if (elapsed >= 45000u)
-        	        		key_input_stage = TIMEOUT;
+        	{
+        		ledSetLED(LED1, LED_OFF);
+        		key_input_stage = TIMEOUT;
+        	}
         	break;
 
         case TIMEOUT:
@@ -237,6 +250,7 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
 
         // --- receive next byte with short polling ---
         int32_t r = uartReceiveData(&ch, 1, 20U);
+        //  printf(ch);
 
         if (r == UART_ERR_TIMEOUT)
         {
@@ -262,7 +276,7 @@ int8_t Auth_ReadKey(uint8_t key[8], uint8_t *outLen)
         else
         {
             // too long before '\n' -> failure (strict max length)
-            return -1;
+            return AUTH_ERR_KEY_LENGHT_BREACH;
         }
     }
 }

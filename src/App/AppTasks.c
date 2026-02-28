@@ -16,8 +16,14 @@
 
 /***** INCLUDES **************************************************************/
 #include "Scheduler.h"
+
 #include "AppTasks.h"
 
+#include "Application.h"
+
+#include "Global.h"
+
+#include "StackMonitor.h"
 /***** PRIVATE CONSTANTS *****************************************************/
 
 
@@ -36,18 +42,40 @@
 /***** PUBLIC FUNCTIONS ******************************************************/
 
 
-void taskApp10ms()
+void taskApp1ms(void)
 {
+	AppDisplayDigitsOnSegments();
+
 
 }
 
 
-void taskApp50ms()
+
+void taskApp10ms(void)
 {
+	int32_t ButtonPollResult =  AppPollForButtonEvent();
+
+	if (ButtonPollResult)
+	{
+		AppSendEvent(ButtonPollResult);
+	}
+
 
 }
 
-void taskApp250ms()
+
+void taskApp50ms(void)
+{
+	int32_t AppRunError = AppRun();
+
+	if(AppRunError == APP_RUN_ERR)
+	{
+		AppSendEvent(EVT_ID_ERROR);
+	}
+
+}
+
+void taskApp250ms(void)
 {
 
 }

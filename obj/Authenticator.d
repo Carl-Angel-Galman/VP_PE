@@ -38,7 +38,8 @@ obj/Authenticator.o: src/Auth/Authenticator.c src/Auth/Authenticator.h \
  lib/HAL/Inc/stm32g4xx_hal_uart_ex.h lib/HAL/Inc/stm32g4xx_hal_usart.h \
  lib/HAL/Inc/stm32g4xx_hal_usart_ex.h lib/HAL/Inc/stm32g4xx_hal_wwdg.h \
  lib/HAL/Inc/stm32g4xx_hal_rcc.h src/HAL/UARTModule.h src/HAL/LEDModule.h \
- src/OS/Scheduler.h
+ src/OS/Scheduler.h src/Util/Global.h src/Util/Log/printf.h \
+ src/Util/Log/LogOutput.h
 src/Auth/Authenticator.h:
 lib/STM32G4xx/Include/stm32g4xx.h:
 lib/STM32G4xx/Include/stm32g474xx.h:
@@ -118,3 +119,6 @@ lib/HAL/Inc/stm32g4xx_hal_rcc.h:
 src/HAL/UARTModule.h:
 src/HAL/LEDModule.h:
 src/OS/Scheduler.h:
+src/Util/Global.h:
+src/Util/Log/printf.h:
+src/Util/Log/LogOutput.h:

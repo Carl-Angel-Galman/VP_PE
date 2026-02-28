@@ -161,11 +161,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":140:3 -1
      (nil))
 (call_insn 41 40 42 5 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -414,11 +410,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":179:3 -1
      (nil))
 (call_insn 21 20 22 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -631,11 +623,7 @@ try_optimize_cfg iteration 2
                 (const_int 8 [0x8])) [3 hdac_53(D)->DMA_Handle1+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":226:9 -1
      (nil))
 (insn 35 34 36 6 (set (reg/f:SI 169)
-<<<<<<< HEAD
-        (symbol_ref:SI ("DAC_DMAConvCpltCh1") [flags 0x41]  <function_decl 0x7f65fb9e0400 DAC_DMAConvCpltCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":226:41 -1
-=======
-        (symbol_ref:SI ("DAC_DMAConvCpltCh1") [flags 0x41]  <function_decl 0x7f204f3e0400 DAC_DMAConvCpltCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":226:41 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("DAC_DMAConvCpltCh1") [flags 0x41]  <function_decl 0x7f411c7e0400 DAC_DMAConvCpltCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":226:41 -1
      (nil))
 (insn 36 35 37 6 (set (mem/f:SI (plus:SI (reg/f:SI 115 [ _2 ])
                 (const_int 44 [0x2c])) [6 _2->XferCpltCallback+0 S4 A32])
@@ -650,11 +638,7 @@ try_optimize_cfg iteration 2
                 (const_int 8 [0x8])) [3 hdac_53(D)->DMA_Handle1+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":229:9 -1
      (nil))
 (insn 39 38 40 6 (set (reg/f:SI 171)
-<<<<<<< HEAD
-        (symbol_ref:SI ("DAC_DMAHalfConvCpltCh1") [flags 0x41]  <function_decl 0x7f65fb9e0600 DAC_DMAHalfConvCpltCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":229:45 -1
-=======
-        (symbol_ref:SI ("DAC_DMAHalfConvCpltCh1") [flags 0x41]  <function_decl 0x7f204f3e0600 DAC_DMAHalfConvCpltCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":229:45 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("DAC_DMAHalfConvCpltCh1") [flags 0x41]  <function_decl 0x7f411c7e0600 DAC_DMAHalfConvCpltCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":229:45 -1
      (nil))
 (insn 40 39 41 6 (set (mem/f:SI (plus:SI (reg/f:SI 116 [ _3 ])
                 (const_int 48 [0x30])) [6 _3->XferHalfCpltCallback+0 S4 A32])
@@ -669,11 +653,7 @@ try_optimize_cfg iteration 2
                 (const_int 8 [0x8])) [3 hdac_53(D)->DMA_Handle1+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":232:9 -1
      (nil))
 (insn 43 42 44 6 (set (reg/f:SI 173)
-<<<<<<< HEAD
-        (symbol_ref:SI ("DAC_DMAErrorCh1") [flags 0x41]  <function_decl 0x7f65fb9e0500 DAC_DMAErrorCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":232:42 -1
-=======
-        (symbol_ref:SI ("DAC_DMAErrorCh1") [flags 0x41]  <function_decl 0x7f204f3e0500 DAC_DMAErrorCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":232:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("DAC_DMAErrorCh1") [flags 0x41]  <function_decl 0x7f411c7e0500 DAC_DMAErrorCh1>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":232:42 -1
      (nil))
 (insn 44 43 45 6 (set (mem/f:SI (plus:SI (reg/f:SI 117 [ _4 ])
                 (const_int 52 [0x34])) [6 _4->XferErrorCallback+0 S4 A32])
@@ -719,11 +699,7 @@ try_optimize_cfg iteration 2
                 (const_int 12 [0xc])) [3 hdac_53(D)->DMA_Handle2+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":240:9 -1
      (nil))
 (insn 58 57 59 7 (set (reg/f:SI 177)
-<<<<<<< HEAD
-        (symbol_ref:SI ("DAC_DMAConvCpltCh2") [flags 0x3]  <function_decl 0x7f65fb9d8f00 DAC_DMAConvCpltCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":240:41 -1
-=======
-        (symbol_ref:SI ("DAC_DMAConvCpltCh2") [flags 0x3]  <function_decl 0x7f204f3d8f00 DAC_DMAConvCpltCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":240:41 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("DAC_DMAConvCpltCh2") [flags 0x3]  <function_decl 0x7f411c7d8f00 DAC_DMAConvCpltCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":240:41 -1
      (nil))
 (insn 59 58 60 7 (set (mem/f:SI (plus:SI (reg/f:SI 122 [ _9 ])
                 (const_int 44 [0x2c])) [6 _9->XferCpltCallback+0 S4 A32])
@@ -738,11 +714,7 @@ try_optimize_cfg iteration 2
                 (const_int 12 [0xc])) [3 hdac_53(D)->DMA_Handle2+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":243:9 -1
      (nil))
 (insn 62 61 63 7 (set (reg/f:SI 179)
-<<<<<<< HEAD
-        (symbol_ref:SI ("DAC_DMAHalfConvCpltCh2") [flags 0x3]  <function_decl 0x7f65fb9dd100 DAC_DMAHalfConvCpltCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":243:45 -1
-=======
-        (symbol_ref:SI ("DAC_DMAHalfConvCpltCh2") [flags 0x3]  <function_decl 0x7f204f3dd100 DAC_DMAHalfConvCpltCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":243:45 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("DAC_DMAHalfConvCpltCh2") [flags 0x3]  <function_decl 0x7f411c7dd100 DAC_DMAHalfConvCpltCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":243:45 -1
      (nil))
 (insn 63 62 64 7 (set (mem/f:SI (plus:SI (reg/f:SI 123 [ _10 ])
                 (const_int 48 [0x30])) [6 _10->XferHalfCpltCallback+0 S4 A32])
@@ -757,11 +729,7 @@ try_optimize_cfg iteration 2
                 (const_int 12 [0xc])) [3 hdac_53(D)->DMA_Handle2+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":246:9 -1
      (nil))
 (insn 66 65 67 7 (set (reg/f:SI 181)
-<<<<<<< HEAD
-        (symbol_ref:SI ("DAC_DMAErrorCh2") [flags 0x3]  <function_decl 0x7f65fb9dd000 DAC_DMAErrorCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":246:42 -1
-=======
-        (symbol_ref:SI ("DAC_DMAErrorCh2") [flags 0x3]  <function_decl 0x7f204f3dd000 DAC_DMAErrorCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":246:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("DAC_DMAErrorCh2") [flags 0x3]  <function_decl 0x7f411c7dd000 DAC_DMAErrorCh2>)) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":246:42 -1
      (nil))
 (insn 67 66 68 7 (set (mem/f:SI (plus:SI (reg/f:SI 124 [ _11 ])
                 (const_int 52 [0x34])) [6 _11->XferErrorCallback+0 S4 A32])
@@ -989,11 +957,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 143 142 144 18 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f65fb82f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f204f22f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f411c62f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1074,11 +1038,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 165 164 166 19 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f65fb82f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f204f22f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f411c62f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1184,11 +1144,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":297:5 -1
      (nil))
 (call_insn 194 193 195 21 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1369,11 +1325,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":332:3 -1
      (nil))
 (call_insn 29 28 30 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1411,11 +1363,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 37 36 38 4 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f65fb82f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f204f22f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f411c62f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1478,11 +1426,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 55 54 56 5 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f65fb82f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f204f22f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f411c62f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3519,11 +3463,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":822:5 -1
      (nil))
 (call_insn 72 71 73 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3780,11 +3720,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":856:7 -1
      (nil))
 (call_insn 145 144 146 13 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3989,11 +3925,7 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":878:5 -1
      (nil))
 (call_insn 203 202 204 18 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f65fb5d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f204efd8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_Delay") [flags 0x41]  <function_decl 0x7f411c3d8e00 HAL_Delay>) [0 HAL_Delay S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4774,11 +4706,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [19 hdac+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":1039:3 -1
      (nil))
 (call_insn 10 9 11 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ConvCpltCallbackCh2") [flags 0x3]  <function_decl 0x7f65fb9d8800 HAL_DACEx_ConvCpltCallbackCh2>) [0 HAL_DACEx_ConvCpltCallbackCh2 S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ConvCpltCallbackCh2") [flags 0x3]  <function_decl 0x7f204f3d8800 HAL_DACEx_ConvCpltCallbackCh2>) [0 HAL_DACEx_ConvCpltCallbackCh2 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ConvCpltCallbackCh2") [flags 0x3]  <function_decl 0x7f411c7d8800 HAL_DACEx_ConvCpltCallbackCh2>) [0 HAL_DACEx_ConvCpltCallbackCh2 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4849,11 +4777,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [19 hdac+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":1058:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ConvHalfCpltCallbackCh2") [flags 0x3]  <function_decl 0x7f65fb9d8900 HAL_DACEx_ConvHalfCpltCallbackCh2>) [0 HAL_DACEx_ConvHalfCpltCallbackCh2 S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ConvHalfCpltCallbackCh2") [flags 0x3]  <function_decl 0x7f204f3d8900 HAL_DACEx_ConvHalfCpltCallbackCh2>) [0 HAL_DACEx_ConvHalfCpltCallbackCh2 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ConvHalfCpltCallbackCh2") [flags 0x3]  <function_decl 0x7f411c7d8900 HAL_DACEx_ConvHalfCpltCallbackCh2>) [0 HAL_DACEx_ConvHalfCpltCallbackCh2 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4930,11 +4854,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [19 hdac+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dac_ex.c":1078:3 -1
      (nil))
 (call_insn 15 14 16 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ErrorCallbackCh2") [flags 0x3]  <function_decl 0x7f65fb9d8a00 HAL_DACEx_ErrorCallbackCh2>) [0 HAL_DACEx_ErrorCallbackCh2 S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ErrorCallbackCh2") [flags 0x3]  <function_decl 0x7f204f3d8a00 HAL_DACEx_ErrorCallbackCh2>) [0 HAL_DACEx_ErrorCallbackCh2 S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_DACEx_ErrorCallbackCh2") [flags 0x3]  <function_decl 0x7f411c7d8a00 HAL_DACEx_ErrorCallbackCh2>) [0 HAL_DACEx_ErrorCallbackCh2 S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

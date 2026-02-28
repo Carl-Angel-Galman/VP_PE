@@ -55,11 +55,7 @@ try_optimize_cfg iteration 2
 (note 3 2 6 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 6 3 7 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -194,11 +190,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":347:5 -1
      (nil))
 (call_insn 48 47 49 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_MspInit") [flags 0x3]  <function_decl 0x7f688961e200 HAL_QSPI_MspInit>) [0 HAL_QSPI_MspInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_MspInit") [flags 0x3]  <function_decl 0x7f2cc0a1e200 HAL_QSPI_MspInit>) [0 HAL_QSPI_MspInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_MspInit") [flags 0x3]  <function_decl 0x7f392601e200 HAL_QSPI_MspInit>) [0 HAL_QSPI_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -215,11 +207,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":351:5 -1
      (nil))
 (call_insn 51 50 52 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("HAL_QSPI_SetTimeout") [flags 0x3]  <function_decl 0x7f6889621e00 HAL_QSPI_SetTimeout>) [0 HAL_QSPI_SetTimeout S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("HAL_QSPI_SetTimeout") [flags 0x3]  <function_decl 0x7f2cc0a21e00 HAL_QSPI_SetTimeout>) [0 HAL_QSPI_SetTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("HAL_QSPI_SetTimeout") [flags 0x3]  <function_decl 0x7f3926021e00 HAL_QSPI_SetTimeout>) [0 HAL_QSPI_SetTimeout S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -302,11 +290,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 73 72 74 10 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -721,11 +705,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":419:3 -1
      (nil))
 (call_insn 39 38 40 7 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_MspDeInit") [flags 0x3]  <function_decl 0x7f688961e300 HAL_QSPI_MspDeInit>) [0 HAL_QSPI_MspDeInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_MspDeInit") [flags 0x3]  <function_decl 0x7f2cc0a1e300 HAL_QSPI_MspDeInit>) [0 HAL_QSPI_MspDeInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_MspDeInit") [flags 0x3]  <function_decl 0x7f392601e300 HAL_QSPI_MspDeInit>) [0 HAL_QSPI_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1465,11 +1445,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":555:5 -1
      (nil))
 (call_insn 146 145 147 19 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_FifoThresholdCallback") [flags 0x3]  <function_decl 0x7f6889621200 HAL_QSPI_FifoThresholdCallback>) [0 HAL_QSPI_FifoThresholdCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_FifoThresholdCallback") [flags 0x3]  <function_decl 0x7f2cc0a21200 HAL_QSPI_FifoThresholdCallback>) [0 HAL_QSPI_FifoThresholdCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_FifoThresholdCallback") [flags 0x3]  <function_decl 0x7f3926021200 HAL_QSPI_FifoThresholdCallback>) [0 HAL_QSPI_FifoThresholdCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1689,11 +1665,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":588:7 -1
      (nil))
 (call_insn 209 208 210 25 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f6889621500 HAL_QSPI_TxCpltCallback>) [0 HAL_QSPI_TxCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21500 HAL_QSPI_TxCpltCallback>) [0 HAL_QSPI_TxCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TxCpltCallback") [flags 0x3]  <function_decl 0x7f3926021500 HAL_QSPI_TxCpltCallback>) [0 HAL_QSPI_TxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1976,11 +1948,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":629:7 -1
      (nil))
 (call_insn 299 298 300 34 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f6889621400 HAL_QSPI_RxCpltCallback>) [0 HAL_QSPI_RxCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21400 HAL_QSPI_RxCpltCallback>) [0 HAL_QSPI_RxCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_RxCpltCallback") [flags 0x3]  <function_decl 0x7f3926021400 HAL_QSPI_RxCpltCallback>) [0 HAL_QSPI_RxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2038,11 +2006,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":641:7 -1
      (nil))
 (call_insn 316 315 317 36 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_CmdCpltCallback") [flags 0x3]  <function_decl 0x7f6889621300 HAL_QSPI_CmdCpltCallback>) [0 HAL_QSPI_CmdCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_CmdCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21300 HAL_QSPI_CmdCpltCallback>) [0 HAL_QSPI_CmdCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_CmdCpltCallback") [flags 0x3]  <function_decl 0x7f3926021300 HAL_QSPI_CmdCpltCallback>) [0 HAL_QSPI_CmdCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2146,11 +2110,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":660:9 -1
      (nil))
 (call_insn 345 344 346 39 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f6889621100 HAL_QSPI_AbortCpltCallback>) [0 HAL_QSPI_AbortCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21100 HAL_QSPI_AbortCpltCallback>) [0 HAL_QSPI_AbortCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f3926021100 HAL_QSPI_AbortCpltCallback>) [0 HAL_QSPI_AbortCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2171,11 +2131,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":671:9 -1
      (nil))
 (call_insn 351 350 354 40 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f6889621000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2cc0a21000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f3926021000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2316,11 +2272,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":701:5 -1
      (nil))
 (call_insn 393 392 394 46 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_StatusMatchCallback") [flags 0x3]  <function_decl 0x7f6889621800 HAL_QSPI_StatusMatchCallback>) [0 HAL_QSPI_StatusMatchCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_StatusMatchCallback") [flags 0x3]  <function_decl 0x7f2cc0a21800 HAL_QSPI_StatusMatchCallback>) [0 HAL_QSPI_StatusMatchCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_StatusMatchCallback") [flags 0x3]  <function_decl 0x7f3926021800 HAL_QSPI_StatusMatchCallback>) [0 HAL_QSPI_StatusMatchCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2493,11 +2445,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int 60 [0x3c])) [16 hqspi_136(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":723:12 -1
      (nil))
 (insn 440 439 441 50 (set (reg/f:SI 350)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMAAbortCplt") [flags 0x3]  <function_decl 0x7f68897e3000 QSPI_DMAAbortCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":723:38 -1
-=======
-        (symbol_ref:SI ("QSPI_DMAAbortCplt") [flags 0x3]  <function_decl 0x7f2cc0be3000 QSPI_DMAAbortCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":723:38 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMAAbortCplt") [flags 0x3]  <function_decl 0x7f39261e3000 QSPI_DMAAbortCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":723:38 -1
      (nil))
 (insn 441 440 442 50 (set (mem/f:SI (plus:SI (reg/f:SI 228 [ _115 ])
                 (const_int 56 [0x38])) [6 _115->XferAbortCallback+0 S4 A32])
@@ -2516,11 +2464,7 @@ Forwarding edge 56->57 to 58 failed.
      (nil))
 (call_insn 445 444 446 50 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6889a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f2cc0e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f392642f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2586,11 +2530,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":736:9 -1
      (nil))
 (call_insn 461 460 462 51 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f6889621000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2cc0a21000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f3926021000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2625,11 +2565,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":749:7 -1
      (nil))
 (call_insn 471 470 474 52 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f6889621000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2cc0a21000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f3926021000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2704,11 +2640,7 @@ Forwarding edge 56->57 to 58 failed.
                 (const_int -20 [0xffffffffffffffec])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":764:5 -1
      (nil))
 (call_insn 493 492 494 56 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TimeOutCallback") [flags 0x3]  <function_decl 0x7f6889621900 HAL_QSPI_TimeOutCallback>) [0 HAL_QSPI_TimeOutCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TimeOutCallback") [flags 0x3]  <function_decl 0x7f2cc0a21900 HAL_QSPI_TimeOutCallback>) [0 HAL_QSPI_TimeOutCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TimeOutCallback") [flags 0x3]  <function_decl 0x7f3926021900 HAL_QSPI_TimeOutCallback>) [0 HAL_QSPI_TimeOutCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2798,11 +2730,7 @@ try_optimize_cfg iteration 2
 (note 5 4 8 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 8 5 9 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2956,11 +2884,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 55 54 56 9 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3011,11 +2935,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":829:7 -1
      (nil))
 (call_insn 66 65 67 10 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f68897e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f2cc0be3200 QSPI_Config>) [0 QSPI_Config S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f39261e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3069,11 +2989,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 78 77 79 11 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3285,11 +3201,7 @@ try_optimize_cfg iteration 2
 (note 4 3 7 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 7 4 8 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3447,11 +3359,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 55 54 56 9 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3538,11 +3446,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":924:7 -1
      (nil))
 (call_insn 77 76 78 12 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f68897e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f2cc0be3200 QSPI_Config>) [0 QSPI_Config S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f39261e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3800,11 +3704,7 @@ Forwarding edge 8->9 to 12 failed.
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4056,11 +3956,7 @@ Forwarding edge 8->9 to 12 failed.
      (nil))
 (call_insn 82 81 83 8 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4229,11 +4125,7 @@ Forwarding edge 8->9 to 12 failed.
      (nil))
 (call_insn 129 128 130 13 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4472,11 +4364,7 @@ Forwarding edge 8->9 to 12 failed.
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4762,11 +4650,7 @@ Forwarding edge 8->9 to 12 failed.
      (nil))
 (call_insn 91 90 92 8 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4938,11 +4822,7 @@ Forwarding edge 8->9 to 12 failed.
      (nil))
 (call_insn 139 138 140 13 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6594,11 +6474,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_74(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1342:14 -1
      (nil))
 (insn 172 171 173 22 (set (reg/f:SI 233)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMATxCplt") [flags 0x3]  <function_decl 0x7f68897e1c00 QSPI_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1342:39 -1
-=======
-        (symbol_ref:SI ("QSPI_DMATxCplt") [flags 0x3]  <function_decl 0x7f2cc0be1c00 QSPI_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1342:39 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMATxCplt") [flags 0x3]  <function_decl 0x7f39261e1c00 QSPI_DMATxCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1342:39 -1
      (nil))
 (insn 173 172 174 22 (set (mem/f:SI (plus:SI (reg/f:SI 142 [ _29 ])
                 (const_int 44 [0x2c])) [6 _29->XferCpltCallback+0 S4 A32])
@@ -6613,11 +6489,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_74(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1345:14 -1
      (nil))
 (insn 176 175 177 22 (set (reg/f:SI 235)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f68897e1e00 QSPI_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1345:43 -1
-=======
-        (symbol_ref:SI ("QSPI_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f2cc0be1e00 QSPI_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1345:43 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMATxHalfCplt") [flags 0x3]  <function_decl 0x7f39261e1e00 QSPI_DMATxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1345:43 -1
      (nil))
 (insn 177 176 178 22 (set (mem/f:SI (plus:SI (reg/f:SI 143 [ _30 ])
                 (const_int 48 [0x30])) [6 _30->XferHalfCpltCallback+0 S4 A32])
@@ -6632,11 +6504,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_74(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1348:14 -1
      (nil))
 (insn 180 179 181 22 (set (reg/f:SI 237)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMAError") [flags 0x3]  <function_decl 0x7f68897e1f00 QSPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1348:40 -1
-=======
-        (symbol_ref:SI ("QSPI_DMAError") [flags 0x3]  <function_decl 0x7f2cc0be1f00 QSPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1348:40 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMAError") [flags 0x3]  <function_decl 0x7f39261e1f00 QSPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1348:40 -1
      (nil))
 (insn 181 180 182 22 (set (mem/f:SI (plus:SI (reg/f:SI 144 [ _31 ])
                 (const_int 52 [0x34])) [6 _31->XferErrorCallback+0 S4 A32])
@@ -6768,11 +6636,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 216 215 217 22 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f6889a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f2cc0e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f392642f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7667,11 +7531,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_77(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1484:14 -1
      (nil))
 (insn 169 168 170 22 (set (reg/f:SI 236)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMARxCplt") [flags 0x3]  <function_decl 0x7f68897e1b00 QSPI_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1484:39 -1
-=======
-        (symbol_ref:SI ("QSPI_DMARxCplt") [flags 0x3]  <function_decl 0x7f2cc0be1b00 QSPI_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1484:39 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMARxCplt") [flags 0x3]  <function_decl 0x7f39261e1b00 QSPI_DMARxCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1484:39 -1
      (nil))
 (insn 170 169 171 22 (set (mem/f:SI (plus:SI (reg/f:SI 139 [ _26 ])
                 (const_int 44 [0x2c])) [6 _26->XferCpltCallback+0 S4 A32])
@@ -7686,11 +7546,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_77(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1487:14 -1
      (nil))
 (insn 173 172 174 22 (set (reg/f:SI 238)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f68897e1d00 QSPI_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1487:43 -1
-=======
-        (symbol_ref:SI ("QSPI_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f2cc0be1d00 QSPI_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1487:43 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMARxHalfCplt") [flags 0x3]  <function_decl 0x7f39261e1d00 QSPI_DMARxHalfCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1487:43 -1
      (nil))
 (insn 174 173 175 22 (set (mem/f:SI (plus:SI (reg/f:SI 140 [ _27 ])
                 (const_int 48 [0x30])) [6 _27->XferHalfCpltCallback+0 S4 A32])
@@ -7705,11 +7561,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_77(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1490:14 -1
      (nil))
 (insn 177 176 178 22 (set (reg/f:SI 240)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMAError") [flags 0x3]  <function_decl 0x7f68897e1f00 QSPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1490:40 -1
-=======
-        (symbol_ref:SI ("QSPI_DMAError") [flags 0x3]  <function_decl 0x7f2cc0be1f00 QSPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1490:40 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMAError") [flags 0x3]  <function_decl 0x7f39261e1f00 QSPI_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1490:40 -1
      (nil))
 (insn 178 177 179 22 (set (mem/f:SI (plus:SI (reg/f:SI 141 [ _28 ])
                 (const_int 52 [0x34])) [6 _28->XferErrorCallback+0 S4 A32])
@@ -7841,11 +7693,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 213 212 214 22 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f6889a2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f2cc0e2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f392642f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8222,11 +8070,7 @@ try_optimize_cfg iteration 2
 (note 6 5 9 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 9 6 10 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8380,11 +8224,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 56 55 57 9 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8547,11 +8387,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1623:7 -1
      (nil))
 (call_insn 97 96 98 10 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f68897e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f2cc0be3200 QSPI_Config>) [0 QSPI_Config S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f39261e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8585,11 +8421,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 104 103 105 10 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8776,11 +8608,7 @@ try_optimize_cfg iteration 2
 (note 5 4 8 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 8 5 9 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8938,11 +8766,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 56 55 57 9 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9127,11 +8951,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1726:7 -1
      (nil))
 (call_insn 103 102 104 10 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f68897e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f2cc0be3200 QSPI_Config>) [0 QSPI_Config S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f39261e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9323,11 +9143,7 @@ try_optimize_cfg iteration 2
 (note 5 4 8 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 8 5 9 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9485,11 +9301,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 56 55 57 9 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9654,11 +9466,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":1827:7 -1
      (nil))
 (call_insn 100 99 101 12 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f68897e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f2cc0be3200 QSPI_Config>) [0 QSPI_Config S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("QSPI_Config") [flags 0x3]  <function_decl 0x7f39261e3200 QSPI_Config>) [0 QSPI_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10200,11 +10008,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 9 8 10 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10323,11 +10127,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 41 40 42 5 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f6889a2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f2cc0e2f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort") [flags 0x41]  <function_decl 0x7f392642f100 HAL_DMA_Abort>) [0 HAL_DMA_Abort S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10435,11 +10235,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 70 69 71 7 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10519,11 +10315,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 89 88 90 8 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f68897e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f2cc0be3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("QSPI_WaitFlagStateUntilTimeout") [flags 0x3]  <function_decl 0x7f39261e3100 QSPI_WaitFlagStateUntilTimeout>) [0 QSPI_WaitFlagStateUntilTimeout S4 A32])
                     (const_int 8 [0x8])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10816,11 +10608,7 @@ try_optimize_cfg iteration 2
                 (const_int 60 [0x3c])) [16 hqspi_30(D)->hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2339:12 -1
      (nil))
 (insn 49 48 50 5 (set (reg/f:SI 159)
-<<<<<<< HEAD
-        (symbol_ref:SI ("QSPI_DMAAbortCplt") [flags 0x3]  <function_decl 0x7f68897e3000 QSPI_DMAAbortCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2339:38 -1
-=======
-        (symbol_ref:SI ("QSPI_DMAAbortCplt") [flags 0x3]  <function_decl 0x7f2cc0be3000 QSPI_DMAAbortCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2339:38 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("QSPI_DMAAbortCplt") [flags 0x3]  <function_decl 0x7f39261e3000 QSPI_DMAAbortCplt>)) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2339:38 -1
      (nil))
 (insn 50 49 51 5 (set (mem/f:SI (plus:SI (reg/f:SI 128 [ _15 ])
                 (const_int 56 [0x38])) [6 _15->XferAbortCallback+0 S4 A32])
@@ -10839,11 +10627,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 54 53 55 5 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f6889a2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f2cc0e2f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Abort_IT") [flags 0x41]  <function_decl 0x7f392642f200 HAL_DMA_Abort_IT>) [0 HAL_DMA_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10889,11 +10673,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2349:9 -1
      (nil))
 (call_insn 65 64 66 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f6889621100 HAL_QSPI_AbortCpltCallback>) [0 HAL_QSPI_AbortCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21100 HAL_QSPI_AbortCpltCallback>) [0 HAL_QSPI_AbortCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_AbortCpltCallback") [flags 0x3]  <function_decl 0x7f3926021100 HAL_QSPI_AbortCpltCallback>) [0 HAL_QSPI_AbortCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11753,11 +11533,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2509:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f6889621600 HAL_QSPI_RxHalfCpltCallback>) [0 HAL_QSPI_RxHalfCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21600 HAL_QSPI_RxHalfCpltCallback>) [0 HAL_QSPI_RxHalfCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_RxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f3926021600 HAL_QSPI_RxHalfCpltCallback>) [0 HAL_QSPI_RxHalfCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11814,11 +11590,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2525:3 -1
      (nil))
 (call_insn 10 9 0 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f6889621700 HAL_QSPI_TxHalfCpltCallback>) [0 HAL_QSPI_TxHalfCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f2cc0a21700 HAL_QSPI_TxHalfCpltCallback>) [0 HAL_QSPI_TxHalfCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_TxHalfCpltCallback") [flags 0x3]  <function_decl 0x7f3926021700 HAL_QSPI_TxHalfCpltCallback>) [0 HAL_QSPI_TxHalfCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11942,11 +11714,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 28 27 0 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_QSPI_Abort_IT") [flags 0x3]  <function_decl 0x7f6889621d00 HAL_QSPI_Abort_IT>) [0 HAL_QSPI_Abort_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_QSPI_Abort_IT") [flags 0x3]  <function_decl 0x7f2cc0a21d00 HAL_QSPI_Abort_IT>) [0 HAL_QSPI_Abort_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_QSPI_Abort_IT") [flags 0x3]  <function_decl 0x7f3926021d00 HAL_QSPI_Abort_IT>) [0 HAL_QSPI_Abort_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12138,11 +11906,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [23 hqspi+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_qspi.c":2584:5 -1
      (nil))
 (call_insn 49 48 52 5 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f6889621000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f2cc0a21000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_QSPI_ErrorCallback") [flags 0x3]  <function_decl 0x7f3926021000 HAL_QSPI_ErrorCallback>) [0 HAL_QSPI_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12243,11 +12007,7 @@ try_optimize_cfg iteration 2
 (note 17 16 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 5 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f68897d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f2cc0bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f39261d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

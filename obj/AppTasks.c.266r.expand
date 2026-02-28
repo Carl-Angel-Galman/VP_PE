@@ -1,5 +1,5 @@
 
-;; Function taskApp10ms (taskApp10ms, funcdef_no=0, decl_uid=4659, cgraph_uid=1, symbol_order=0)
+;; Function taskApp1ms (taskApp1ms, funcdef_no=361, decl_uid=4658, cgraph_uid=365, symbol_order=364)
 
 
 ;; Generating RTL for gimple basic block 2
@@ -24,12 +24,26 @@ try_optimize_cfg iteration 2
 ;;
 (note 1 0 3 NOTE_INSN_DELETED)
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
-(note 2 3 0 2 NOTE_INSN_FUNCTION_BEG)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(call_insn 5 2 0 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("AppDisplayDigitsOnSegments") [flags 0x41]  <function_decl 0x7f58e3a92400 AppDisplayDigitsOnSegments>) [0 AppDisplayDigitsOnSegments S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/App/AppTasks.c":47:2 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (nil)))
 
-;; Function taskApp50ms (taskApp50ms, funcdef_no=1, decl_uid=4660, cgraph_uid=2, symbol_order=1)
+;; Function taskApp10ms (taskApp10ms, funcdef_no=362, decl_uid=4660, cgraph_uid=366, symbol_order=365)
 
 
 ;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
 
 
 try_optimize_cfg iteration 1
@@ -37,9 +51,10 @@ try_optimize_cfg iteration 1
 Merging block 3 into block 2...
 Merged blocks 2 and 3.
 Merged 2 and 3 without moving.
-Merging block 4 into block 2...
-Merged blocks 2 and 4.
-Merged 2 and 4 without moving.
+Edge 2->5 redirected to 6
+Merging block 5 into block 4...
+Merged blocks 4 and 5.
+Merged 4 and 5 without moving.
 
 
 try_optimize_cfg iteration 2
@@ -51,9 +66,134 @@ try_optimize_cfg iteration 2
 ;;
 (note 1 0 3 NOTE_INSN_DELETED)
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
-(note 2 3 0 2 NOTE_INSN_FUNCTION_BEG)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(call_insn 5 2 6 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("AppPollForButtonEvent") [flags 0x41]  <function_decl 0x7f58e3a92300 AppPollForButtonEvent>) [0 AppPollForButtonEvent S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/App/AppTasks.c":56:30 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (nil)))
+(insn 6 5 7 2 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 ButtonPollResult+0 S4 A32])
+        (reg:SI 0 r0)) "src/App/AppTasks.c":56:30 -1
+     (nil))
+(insn 7 6 8 2 (set (reg:SI 114)
+        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 ButtonPollResult+0 S4 A32])) "src/App/AppTasks.c":58:5 -1
+     (nil))
+(insn 8 7 9 2 (set (reg:CC 100 cc)
+        (compare:CC (reg:SI 114)
+            (const_int 0 [0]))) "src/App/AppTasks.c":58:5 -1
+     (nil))
+(jump_insn 9 8 10 2 (set (pc)
+        (if_then_else (eq (reg:CC 100 cc)
+                (const_int 0 [0]))
+            (label_ref:SI 15)
+            (pc))) "src/App/AppTasks.c":58:5 277 {arm_cond_branch}
+     (nil)
+ -> 15)
+(note 10 9 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 11 10 12 4 (set (reg:SI 0 r0)
+        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 ButtonPollResult+0 S4 A32])) "src/App/AppTasks.c":60:3 -1
+     (nil))
+(call_insn 12 11 15 4 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("AppSendEvent") [flags 0x41]  <function_decl 0x7f58e3a92200 AppSendEvent>) [0 AppSendEvent S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/App/AppTasks.c":60:3 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (expr_list:SI (use (reg:SI 0 r0))
+            (nil))))
+(code_label 15 12 16 6 2 (nil) [1 uses])
+(note 16 15 0 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 
-;; Function taskApp250ms (taskApp250ms, funcdef_no=2, decl_uid=4661, cgraph_uid=3, symbol_order=2)
+;; Function taskApp50ms (taskApp50ms, funcdef_no=363, decl_uid=4662, cgraph_uid=367, symbol_order=366)
+
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Edge 2->5 redirected to 6
+Merging block 5 into block 4...
+Merged blocks 4 and 5.
+Merged 4 and 5 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(call_insn 5 2 6 2 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("AppRun") [flags 0x41]  <function_decl 0x7f58e3a92100 AppRun>) [0 AppRun S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/App/AppTasks.c":69:24 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (nil)))
+(insn 6 5 7 2 (set (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 AppRunError+0 S4 A32])
+        (reg:SI 0 r0)) "src/App/AppTasks.c":69:24 -1
+     (nil))
+(insn 7 6 8 2 (set (reg:SI 114)
+        (mem/c:SI (plus:SI (reg/f:SI 109 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 AppRunError+0 S4 A32])) "src/App/AppTasks.c":71:4 -1
+     (nil))
+(insn 8 7 9 2 (set (reg:CC 100 cc)
+        (compare:CC (reg:SI 114)
+            (const_int -2 [0xfffffffffffffffe]))) "src/App/AppTasks.c":71:4 -1
+     (nil))
+(jump_insn 9 8 10 2 (set (pc)
+        (if_then_else (ne (reg:CC 100 cc)
+                (const_int 0 [0]))
+            (label_ref:SI 15)
+            (pc))) "src/App/AppTasks.c":71:4 277 {arm_cond_branch}
+     (nil)
+ -> 15)
+(note 10 9 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 11 10 12 4 (set (reg:SI 0 r0)
+        (const_int 2 [0x2])) "src/App/AppTasks.c":73:3 -1
+     (nil))
+(call_insn 12 11 15 4 (parallel [
+            (set (reg:SI 0 r0)
+                (call (mem:SI (symbol_ref:SI ("AppSendEvent") [flags 0x41]  <function_decl 0x7f58e3a92200 AppSendEvent>) [0 AppSendEvent S4 A32])
+                    (const_int 0 [0])))
+            (use (const_int 0 [0]))
+            (clobber (reg:SI 14 lr))
+        ]) "src/App/AppTasks.c":73:3 -1
+     (nil)
+    (expr_list (clobber (reg:SI 12 ip))
+        (expr_list:SI (use (reg:SI 0 r0))
+            (nil))))
+(code_label 15 12 16 6 5 (nil) [1 uses])
+(note 16 15 0 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+
+;; Function taskApp250ms (taskApp250ms, funcdef_no=364, decl_uid=4664, cgraph_uid=368, symbol_order=367)
 
 
 ;; Generating RTL for gimple basic block 2

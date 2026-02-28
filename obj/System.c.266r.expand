@@ -146,11 +146,7 @@ try_optimize_cfg iteration 2
 (code_label 24 22 25 8 5 (nil) [1 uses])
 (note 25 24 26 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
 (insn 26 25 27 8 (set (reg/f:SI 140)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7f343454ca20 SystemCoreClock>)) "src/System.c":144:23 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7ff51394ca20 SystemCoreClock>)) "src/System.c":144:23 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7fecf6d4ca20 SystemCoreClock>)) "src/System.c":144:23 -1
      (nil))
 (insn 27 26 28 8 (set (reg:SI 141)
         (const_int 16000000 [0xf42400])) "src/System.c":144:23 -1
@@ -166,11 +162,7 @@ try_optimize_cfg iteration 2
 (code_label 31 30 32 9 6 (nil) [1 uses])
 (note 32 31 33 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (insn 33 32 34 9 (set (reg/f:SI 142)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7f343454ca20 SystemCoreClock>)) "src/System.c":148:23 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7ff51394ca20 SystemCoreClock>)) "src/System.c":148:23 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7fecf6d4ca20 SystemCoreClock>)) "src/System.c":148:23 -1
      (nil))
 (insn 34 33 35 9 (set (reg:SI 143)
         (const_int 8000000 [0x7a1200])) "src/System.c":148:23 -1
@@ -345,11 +337,7 @@ try_optimize_cfg iteration 2
             (reg:SI 159))) "src/System.c":167:31 -1
      (nil))
 (insn 85 84 86 13 (set (reg/f:SI 160)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7f343454ca20 SystemCoreClock>)) "src/System.c":167:23 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7ff51394ca20 SystemCoreClock>)) "src/System.c":167:23 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7fecf6d4ca20 SystemCoreClock>)) "src/System.c":167:23 -1
      (nil))
 (insn 86 85 91 13 (set (mem/c:SI (reg/f:SI 160) [1 SystemCoreClock+0 S4 A32])
         (reg:SI 132 [ _19 ])) "src/System.c":167:23 -1
@@ -372,11 +360,7 @@ try_optimize_cfg iteration 2
             (const_int 15 [0xf]))) "src/System.c":175:52 -1
      (nil))
 (insn 97 96 98 15 (set (reg/f:SI 161)
-<<<<<<< HEAD
-        (symbol_ref:SI ("AHBPrescTable") [flags 0x2]  <var_decl 0x7f343454cab0 AHBPrescTable>)) "src/System.c":175:22 -1
-=======
-        (symbol_ref:SI ("AHBPrescTable") [flags 0x2]  <var_decl 0x7ff51394cab0 AHBPrescTable>)) "src/System.c":175:22 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("AHBPrescTable") [flags 0x2]  <var_decl 0x7fecf6d4cab0 AHBPrescTable>)) "src/System.c":175:22 -1
      (nil))
 (insn 98 97 99 15 (set (reg:SI 137 [ _24 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 161)
@@ -387,11 +371,7 @@ try_optimize_cfg iteration 2
         (reg:SI 137 [ _24 ])) "src/System.c":175:7 -1
      (nil))
 (insn 100 99 101 15 (set (reg/f:SI 162)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7f343454ca20 SystemCoreClock>)) "src/System.c":177:19 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7ff51394ca20 SystemCoreClock>)) "src/System.c":177:19 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7fecf6d4ca20 SystemCoreClock>)) "src/System.c":177:19 -1
      (nil))
 (insn 101 100 102 15 (set (reg:SI 138 [ SystemCoreClock.0_25 ])
         (mem/c:SI (reg/f:SI 162) [1 SystemCoreClock+0 S4 A32])) "src/System.c":177:19 -1
@@ -405,11 +385,7 @@ try_optimize_cfg iteration 2
             (reg:SI 163))) "src/System.c":177:19 -1
      (nil))
 (insn 104 103 105 15 (set (reg/f:SI 164)
-<<<<<<< HEAD
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7f343454ca20 SystemCoreClock>)) "src/System.c":177:19 -1
-=======
-        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7ff51394ca20 SystemCoreClock>)) "src/System.c":177:19 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("SystemCoreClock") [flags 0x2]  <var_decl 0x7fecf6d4ca20 SystemCoreClock>)) "src/System.c":177:19 -1
      (nil))
 (insn 105 104 0 15 (set (mem/c:SI (reg/f:SI 164) [1 SystemCoreClock+0 S4 A32])
         (reg:SI 139 [ _26 ])) "src/System.c":177:19 -1
@@ -468,11 +444,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("memset") [flags 0x41]  <function_decl 0x7f34346d4c00 __builtin_memset>) [0 __builtin_memset S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("memset") [flags 0x41]  <function_decl 0x7ff513ad4c00 __builtin_memset>) [0 __builtin_memset S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("memset") [flags 0x41]  <function_decl 0x7fecf6ed4c00 __builtin_memset>) [0 __builtin_memset S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -520,11 +492,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 20 19 21 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_PWREx_ControlVoltageScaling") [flags 0x41]  <function_decl 0x7f3433bfaa00 HAL_PWREx_ControlVoltageScaling>) [0 HAL_PWREx_ControlVoltageScaling S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_PWREx_ControlVoltageScaling") [flags 0x41]  <function_decl 0x7ff5131faa00 HAL_PWREx_ControlVoltageScaling>) [0 HAL_PWREx_ControlVoltageScaling S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_PWREx_ControlVoltageScaling") [flags 0x41]  <function_decl 0x7fecf63faa00 HAL_PWREx_ControlVoltageScaling>) [0 HAL_PWREx_ControlVoltageScaling S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -612,11 +580,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 43 42 44 2 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_OscConfig") [flags 0x41]  <function_decl 0x7f3433ff4d00 HAL_RCC_OscConfig>) [0 HAL_RCC_OscConfig S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_OscConfig") [flags 0x41]  <function_decl 0x7ff5135f4d00 HAL_RCC_OscConfig>) [0 HAL_RCC_OscConfig S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_OscConfig") [flags 0x41]  <function_decl 0x7fecf67f4d00 HAL_RCC_OscConfig>) [0 HAL_RCC_OscConfig S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -644,11 +608,7 @@ try_optimize_cfg iteration 2
  -> 50)
 (note 48 47 49 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 49 48 50 4 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x3]  <function_decl 0x7f3434451700 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x3]  <function_decl 0x7ff513851700 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x3]  <function_decl 0x7fecf6c51700 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -705,11 +665,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 65 64 66 5 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_ClockConfig") [flags 0x41]  <function_decl 0x7f3433ff4e00 HAL_RCC_ClockConfig>) [0 HAL_RCC_ClockConfig S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_RCC_ClockConfig") [flags 0x41]  <function_decl 0x7ff5135f4e00 HAL_RCC_ClockConfig>) [0 HAL_RCC_ClockConfig S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_RCC_ClockConfig") [flags 0x41]  <function_decl 0x7fecf67f4e00 HAL_RCC_ClockConfig>) [0 HAL_RCC_ClockConfig S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -738,11 +694,7 @@ try_optimize_cfg iteration 2
  -> 74)
 (note 70 69 71 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
 (call_insn 71 70 74 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x3]  <function_decl 0x7f3434451700 Error_Handler>) [0 Error_Handler S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x3]  <function_decl 0x7ff513851700 Error_Handler>) [0 Error_Handler S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("Error_Handler") [flags 0x3]  <function_decl 0x7fecf6c51700 Error_Handler>) [0 Error_Handler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

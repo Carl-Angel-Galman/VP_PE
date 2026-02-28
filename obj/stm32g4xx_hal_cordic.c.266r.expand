@@ -108,11 +108,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":239:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_MspInit") [flags 0x3]  <function_decl 0x7f1a3cbade00 HAL_CORDIC_MspInit>) [0 HAL_CORDIC_MspInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_MspInit") [flags 0x3]  <function_decl 0x7fd3cddade00 HAL_CORDIC_MspInit>) [0 HAL_CORDIC_MspInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_MspInit") [flags 0x3]  <function_decl 0x7efde75ade00 HAL_CORDIC_MspInit>) [0 HAL_CORDIC_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -299,11 +295,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":294:3 -1
      (nil))
 (call_insn 20 19 21 5 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_MspDeInit") [flags 0x3]  <function_decl 0x7f1a3cbadf00 HAL_CORDIC_MspDeInit>) [0 HAL_CORDIC_MspDeInit S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_MspDeInit") [flags 0x3]  <function_decl 0x7fd3cddadf00 HAL_CORDIC_MspDeInit>) [0 HAL_CORDIC_MspDeInit S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_MspDeInit") [flags 0x3]  <function_decl 0x7efde75adf00 HAL_CORDIC_MspDeInit>) [0 HAL_CORDIC_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -951,11 +943,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 8 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f1a3c7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd3cd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efde71d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -979,11 +967,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":637:5 -1
      (nil))
 (call_insn 55 54 56 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1024,11 +1008,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":644:7 -1
      (nil))
 (call_insn 65 64 95 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1057,11 +1037,7 @@ try_optimize_cfg iteration 2
 (note 70 69 71 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
 (call_insn 71 70 72 11 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f1a3c7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd3cd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efde71d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1167,11 +1143,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":667:7 -1
      (nil))
 (call_insn 104 103 105 14 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1223,11 +1195,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":671:5 -1
      (nil))
 (call_insn 118 117 119 16 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1517,11 +1485,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 50 49 51 8 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f1a3c7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd3cd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efde71d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1545,11 +1509,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":731:5 -1
      (nil))
 (call_insn 55 54 56 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1590,11 +1550,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":738:7 -1
      (nil))
 (call_insn 65 64 66 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1616,11 +1572,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":743:7 -1
      (nil))
 (call_insn 69 68 70 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1647,11 +1599,7 @@ try_optimize_cfg iteration 2
 (note 73 72 74 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 74 73 75 10 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f1a3c7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd3cd9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efde71d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1762,11 +1710,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":765:5 -1
      (nil))
 (call_insn 107 106 108 14 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2717,11 +2661,7 @@ try_optimize_cfg iteration 2
                 (const_int 28 [0x1c])) [5 hcordic_52(D)->hdmaOut+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":949:14 -1
      (nil))
 (insn 97 96 98 16 (set (reg/f:SI 183)
-<<<<<<< HEAD
-        (symbol_ref:SI ("CORDIC_DMAOutCplt") [flags 0x3]  <function_decl 0x7f1a3c7e1e00 CORDIC_DMAOutCplt>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":949:42 -1
-=======
-        (symbol_ref:SI ("CORDIC_DMAOutCplt") [flags 0x3]  <function_decl 0x7fd3cd9e1e00 CORDIC_DMAOutCplt>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":949:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("CORDIC_DMAOutCplt") [flags 0x3]  <function_decl 0x7efde71e1e00 CORDIC_DMAOutCplt>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":949:42 -1
      (nil))
 (insn 98 97 99 16 (set (mem/f:SI (plus:SI (reg/f:SI 121 [ _8 ])
                 (const_int 44 [0x2c])) [8 _8->XferCpltCallback+0 S4 A32])
@@ -2736,11 +2676,7 @@ try_optimize_cfg iteration 2
                 (const_int 28 [0x1c])) [5 hcordic_52(D)->hdmaOut+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":951:14 -1
      (nil))
 (insn 101 100 102 16 (set (reg/f:SI 185)
-<<<<<<< HEAD
-        (symbol_ref:SI ("CORDIC_DMAError") [flags 0x3]  <function_decl 0x7f1a3c7e1f00 CORDIC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":951:43 -1
-=======
-        (symbol_ref:SI ("CORDIC_DMAError") [flags 0x3]  <function_decl 0x7fd3cd9e1f00 CORDIC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":951:43 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("CORDIC_DMAError") [flags 0x3]  <function_decl 0x7efde71e1f00 CORDIC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":951:43 -1
      (nil))
 (insn 102 101 103 16 (set (mem/f:SI (plus:SI (reg/f:SI 122 [ _9 ])
                 (const_int 52 [0x34])) [8 _9->XferErrorCallback+0 S4 A32])
@@ -2847,11 +2783,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 133 132 134 19 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f1a3ca2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fd3cdc2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efde742f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2977,11 +2909,7 @@ try_optimize_cfg iteration 2
                 (const_int 24 [0x18])) [5 hcordic_52(D)->hdmaIn+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":984:14 -1
      (nil))
 (insn 169 168 170 24 (set (reg/f:SI 201)
-<<<<<<< HEAD
-        (symbol_ref:SI ("CORDIC_DMAInCplt") [flags 0x3]  <function_decl 0x7f1a3c7e1d00 CORDIC_DMAInCplt>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":984:41 -1
-=======
-        (symbol_ref:SI ("CORDIC_DMAInCplt") [flags 0x3]  <function_decl 0x7fd3cd9e1d00 CORDIC_DMAInCplt>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":984:41 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("CORDIC_DMAInCplt") [flags 0x3]  <function_decl 0x7efde71e1d00 CORDIC_DMAInCplt>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":984:41 -1
      (nil))
 (insn 170 169 171 24 (set (mem/f:SI (plus:SI (reg/f:SI 137 [ _24 ])
                 (const_int 44 [0x2c])) [8 _24->XferCpltCallback+0 S4 A32])
@@ -2996,11 +2924,7 @@ try_optimize_cfg iteration 2
                 (const_int 24 [0x18])) [5 hcordic_52(D)->hdmaIn+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":986:14 -1
      (nil))
 (insn 173 172 174 24 (set (reg/f:SI 203)
-<<<<<<< HEAD
-        (symbol_ref:SI ("CORDIC_DMAError") [flags 0x3]  <function_decl 0x7f1a3c7e1f00 CORDIC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":986:42 -1
-=======
-        (symbol_ref:SI ("CORDIC_DMAError") [flags 0x3]  <function_decl 0x7fd3cd9e1f00 CORDIC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":986:42 -1
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+        (symbol_ref:SI ("CORDIC_DMAError") [flags 0x3]  <function_decl 0x7efde71e1f00 CORDIC_DMAError>)) "lib/HAL/Src/stm32g4xx_hal_cordic.c":986:42 -1
      (nil))
 (insn 174 173 175 24 (set (mem/f:SI (plus:SI (reg/f:SI 138 [ _25 ])
                 (const_int 52 [0x34])) [8 _25->XferErrorCallback+0 S4 A32])
@@ -3107,11 +3031,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 205 204 206 27 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7f1a3ca2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7fd3cdc2f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_DMA_Start_IT") [flags 0x41]  <function_decl 0x7efde742f000 HAL_DMA_Start_IT>) [0 HAL_DMA_Start_IT S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3469,11 +3389,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":1114:7 -1
      (nil))
 (call_insn 40 39 41 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_ReadOutDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1c00 CORDIC_ReadOutDataIncrementPtr>) [0 CORDIC_ReadOutDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3539,11 +3455,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":1124:9 -1
      (nil))
 (call_insn 55 54 56 9 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7f1a3c7e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7fd3cd9e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("CORDIC_WriteInDataIncrementPtr") [flags 0x3]  <function_decl 0x7efde71e1b00 CORDIC_WriteInDataIncrementPtr>) [0 CORDIC_WriteInDataIncrementPtr S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3618,11 +3530,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":1142:9 -1
      (nil))
 (call_insn 75 74 78 11 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7f1a3cbb7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7fd3cddb7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7efde75b7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4168,11 +4076,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":1283:5 -1
      (nil))
 (call_insn 29 28 32 4 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7f1a3cbb7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7fd3cddb7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7efde75b7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4280,11 +4184,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":1312:3 -1
      (nil))
 (call_insn 24 23 0 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7f1a3cbb7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7fd3cddb7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_CalculateCpltCallback") [flags 0x3]  <function_decl 0x7efde75b7600 HAL_CORDIC_CalculateCpltCallback>) [0 HAL_CORDIC_CalculateCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4375,11 +4275,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [20 hcordic+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_cordic.c":1337:3 -1
      (nil))
 (call_insn 19 18 0 2 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_ErrorCallback") [flags 0x3]  <function_decl 0x7f1a3cbb7500 HAL_CORDIC_ErrorCallback>) [0 HAL_CORDIC_ErrorCallback S4 A32])
-=======
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_ErrorCallback") [flags 0x3]  <function_decl 0x7fd3cddb7500 HAL_CORDIC_ErrorCallback>) [0 HAL_CORDIC_ErrorCallback S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CORDIC_ErrorCallback") [flags 0x3]  <function_decl 0x7efde75b7500 HAL_CORDIC_ErrorCallback>) [0 HAL_CORDIC_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

@@ -137,6 +137,10 @@ int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength, uint32_t tim
     {
         result = UART_ERR_RECEIVE;
     }
+
+    halStatus = HAL_UART_Transmit(&gUARTHandle, pDataBuffer,bufferLength , timeout);
+
+
     return result;
 }
 

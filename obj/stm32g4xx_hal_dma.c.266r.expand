@@ -389,11 +389,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [18 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dma.c":211:3 -1
      (nil))
 (call_insn 98 97 99 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7f61eb3e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -522,11 +518,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [18 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dma.c":230:5 -1
      (nil))
 (call_insn 133 132 134 12 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7f61eb3e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -964,11 +956,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [18 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dma.c":301:3 -1
      (nil))
 (call_insn 78 77 79 8 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXChannelBaseAndMask") [flags 0x3]  <function_decl 0x7f61eb3e1c00 DMA_CalcDMAMUXChannelBaseAndMask>) [0 DMA_CalcDMAMUXChannelBaseAndMask S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1056,11 +1044,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [18 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dma.c":315:5 -1
      (nil))
 (call_insn 101 100 102 10 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fe257be1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7fd28b9e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("DMA_CalcDMAMUXRequestGenBaseAndMask") [flags 0x3]  <function_decl 0x7f61eb3e1d00 DMA_CalcDMAMUXRequestGenBaseAndMask>) [0 DMA_CalcDMAMUXRequestGenBaseAndMask S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1433,11 +1417,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [18 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dma.c":398:5 -1
      (nil))
 (call_insn 51 50 52 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fe257be1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fd28b9e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7f61eb3e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1733,11 +1713,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [18 hdma+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_dma.c":442:5 -1
      (nil))
 (call_insn 51 50 52 6 (parallel [
-<<<<<<< HEAD
-            (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fe257be1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
-=======
-            (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7fd28b9e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+            (call (mem:SI (symbol_ref:SI ("DMA_SetConfig") [flags 0x3]  <function_decl 0x7f61eb3e1b00 DMA_SetConfig>) [0 DMA_SetConfig S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3052,11 +3028,7 @@ try_optimize_cfg iteration 2
 (note 65 64 66 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 66 65 67 10 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe257bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd28b9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f61eb3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3219,11 +3191,7 @@ try_optimize_cfg iteration 2
 (note 110 109 111 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (call_insn 111 110 112 14 (parallel [
             (set (reg:SI 0 r0)
-<<<<<<< HEAD
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fe257bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
-=======
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fd28b9d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
->>>>>>> ac84fa59489a8fe1844682dc77032c1f57b4cbec
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f61eb3d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
