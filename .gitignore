@@ -1,4 +1,4 @@
-/build
+build/
 .project 
 .cproject
 .settings/
@@ -6,9 +6,9 @@
 bin/
 out/
 
-.o
-.elf
-.bin
+*.o
+*.elf
+*.bin
 
 .log 
 .tmp
