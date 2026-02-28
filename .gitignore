@@ -12,3 +12,7 @@ out/
 
 .log 
 .tmp
+
+# Build outputs
+build/
+*.bin
