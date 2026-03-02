@@ -1,4 +1,0 @@
-src/HAL/DisplayModule.c:91:9:displayInitialize	48	static
-src/HAL/DisplayModule.c:134:9:displayShowDigit	24	static
-src/HAL/DisplayModule.c:175:9:displayTwoDigits	16	static
-src/HAL/DisplayModule.c:185:26:alternateDisplays	4	static
