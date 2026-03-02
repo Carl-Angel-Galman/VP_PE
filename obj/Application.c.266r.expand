@@ -33,7 +33,7 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("change_vector_table") [flags 0x3]  <function_decl 0x7fec21e57200 change_vector_table>) [0 change_vector_table S4 A32])
+            (call (mem:SI (symbol_ref:SI ("change_vector_table") [flags 0x3]  <function_decl 0x7f027a457200 change_vector_table>) [0 change_vector_table S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -43,7 +43,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_Init") [flags 0x41]  <function_decl 0x7fec21e3c400 HAL_Init>) [0 HAL_Init S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_Init") [flags 0x41]  <function_decl 0x7f027a43c400 HAL_Init>) [0 HAL_Init S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -52,7 +52,7 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (call_insn 7 6 8 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SystemClock_Config") [flags 0x41]  <function_decl 0x7fec21e53100 SystemClock_Config>) [0 SystemClock_Config S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SystemClock_Config") [flags 0x41]  <function_decl 0x7f027a453100 SystemClock_Config>) [0 SystemClock_Config S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -62,7 +62,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("initializePeripherals") [flags 0x3]  <function_decl 0x7fec21e57300 initializePeripherals>) [0 initializePeripherals S4 A32])
+                (call (mem:SI (symbol_ref:SI ("initializePeripherals") [flags 0x3]  <function_decl 0x7f027a457300 initializePeripherals>) [0 initializePeripherals S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -71,17 +71,17 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 9 8 10 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":167:28 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":167:28 -1
      (nil))
 (insn 10 9 11 2 (set (reg/f:SI 117)
-        (symbol_ref:SI ("gStateList") [flags 0x2]  <var_decl 0x7fec21e353f0 gStateList>)) "src/App/Application.c":167:28 -1
+        (symbol_ref:SI ("gStateList") [flags 0x2]  <var_decl 0x7f027a4353f0 gStateList>)) "src/App/Application.c":167:28 -1
      (nil))
 (insn 11 10 12 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 116)
                 (const_int 12 [0xc])) [1 gStateTable.pStateList+0 S4 A32])
         (reg/f:SI 117)) "src/App/Application.c":167:28 -1
      (nil))
 (insn 12 11 13 2 (set (reg/f:SI 118)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":169:28 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":169:28 -1
      (nil))
 (insn 13 12 14 2 (set (reg:SI 119)
         (const_int 6 [0x6])) "src/App/Application.c":169:28 -1
@@ -97,14 +97,14 @@ try_optimize_cfg iteration 2
         (const_int 8 [0x8])) "src/App/Application.c":171:32 -1
      (nil))
 (insn 17 16 18 2 (set (reg:SI 1 r1)
-        (symbol_ref:SI ("gStateTableEntries") [flags 0x2]  <var_decl 0x7fec21e35870 gStateTableEntries>)) "src/App/Application.c":171:32 -1
+        (symbol_ref:SI ("gStateTableEntries") [flags 0x2]  <var_decl 0x7f027a435870 gStateTableEntries>)) "src/App/Application.c":171:32 -1
      (nil))
 (insn 18 17 19 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":171:32 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":171:32 -1
      (nil))
 (call_insn 19 18 20 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableInitialize") [flags 0x41]  <function_decl 0x7fec21e43e00 stateTableInitialize>) [0 stateTableInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableInitialize") [flags 0x41]  <function_decl 0x7f027a443e00 stateTableInitialize>) [0 stateTableInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -194,11 +194,11 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":190:32 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":190:32 -1
      (nil))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableRunCyclic") [flags 0x41]  <function_decl 0x7fec21e43f00 stateTableRunCyclic>) [0 stateTableRunCyclic S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableRunCyclic") [flags 0x41]  <function_decl 0x7f027a443f00 stateTableRunCyclic>) [0 stateTableRunCyclic S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -292,11 +292,11 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [3 eventID+0 S4 A32])) "src/App/Application.c":202:22 -1
      (nil))
 (insn 7 6 8 2 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":202:22 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":202:22 -1
      (nil))
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableSendEvent") [flags 0x41]  <function_decl 0x7fec21e53000 stateTableSendEvent>) [0 stateTableSendEvent S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableSendEvent") [flags 0x41]  <function_decl 0x7f027a453000 stateTableSendEvent>) [0 stateTableSendEvent S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -369,7 +369,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("buttonGetButtonStatus") [flags 0x41]  <function_decl 0x7fec22cf1500 buttonGetButtonStatus>) [0 buttonGetButtonStatus S4 A32])
+                (call (mem:SI (symbol_ref:SI ("buttonGetButtonStatus") [flags 0x41]  <function_decl 0x7f027b2f1500 buttonGetButtonStatus>) [0 buttonGetButtonStatus S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -393,7 +393,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("buttonGetButtonStatus") [flags 0x41]  <function_decl 0x7fec22cf1500 buttonGetButtonStatus>) [0 buttonGetButtonStatus S4 A32])
+                (call (mem:SI (symbol_ref:SI ("buttonGetButtonStatus") [flags 0x41]  <function_decl 0x7f027b2f1500 buttonGetButtonStatus>) [0 buttonGetButtonStatus S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -417,7 +417,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("buttonGetButtonStatus") [flags 0x41]  <function_decl 0x7fec22cf1500 buttonGetButtonStatus>) [0 buttonGetButtonStatus S4 A32])
+                (call (mem:SI (symbol_ref:SI ("buttonGetButtonStatus") [flags 0x41]  <function_decl 0x7f027b2f1500 buttonGetButtonStatus>) [0 buttonGetButtonStatus S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -561,13 +561,13 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 118)
-        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7fec21e35ea0 leftDigit>)) "src/App/Application.c":231:2 -1
+        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7f027a435ea0 leftDigit>)) "src/App/Application.c":231:2 -1
      (nil))
 (insn 6 5 7 2 (set (reg:SI 114 [ leftDigit.0_1 ])
         (sign_extend:SI (mem/c:QI (reg/f:SI 118) [0 leftDigit+0 S1 A8]))) "src/App/Application.c":231:2 -1
      (nil))
 (insn 7 6 8 2 (set (reg/f:SI 119)
-        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7fec21e35f30 rightDigit>)) "src/App/Application.c":231:2 -1
+        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7f027a435f30 rightDigit>)) "src/App/Application.c":231:2 -1
      (nil))
 (insn 8 7 9 2 (set (reg:SI 115 [ rightDigit.1_2 ])
         (sign_extend:SI (mem/c:QI (reg/f:SI 119) [0 rightDigit+0 S1 A8]))) "src/App/Application.c":231:2 -1
@@ -580,7 +580,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 11 10 12 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("displayTwoDigits") [flags 0x41]  <function_decl 0x7fec21e43d00 displayTwoDigits>) [0 displayTwoDigits S4 A32])
+                (call (mem:SI (symbol_ref:SI ("displayTwoDigits") [flags 0x41]  <function_decl 0x7f027a443d00 displayTwoDigits>) [0 displayTwoDigits S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -666,7 +666,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 9 27 10 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_DeInit") [flags 0x41]  <function_decl 0x7fec21e3c500 HAL_DeInit>) [0 HAL_DeInit S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_DeInit") [flags 0x41]  <function_decl 0x7f027a43c500 HAL_DeInit>) [0 HAL_DeInit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -770,7 +770,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 6 5 7 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("uartInitialize") [flags 0x41]  <function_decl 0x7fec22cf1000 uartInitialize>) [0 uartInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("uartInitialize") [flags 0x41]  <function_decl 0x7f027b2f1000 uartInitialize>) [0 uartInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -781,7 +781,7 @@ try_optimize_cfg iteration 2
             (nil))))
 (call_insn 7 6 8 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("ledInitialize") [flags 0x41]  <function_decl 0x7fec21e43700 ledInitialize>) [0 ledInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("ledInitialize") [flags 0x41]  <function_decl 0x7f027a443700 ledInitialize>) [0 ledInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -791,7 +791,7 @@ try_optimize_cfg iteration 2
         (nil)))
 (call_insn 8 7 9 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("buttonInitialize") [flags 0x41]  <function_decl 0x7fec22cf1400 buttonInitialize>) [0 buttonInitialize S4 A32])
+                (call (mem:SI (symbol_ref:SI ("buttonInitialize") [flags 0x41]  <function_decl 0x7f027b2f1400 buttonInitialize>) [0 buttonInitialize S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -939,11 +939,11 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "src/App/Application.c":298:26 -1
      (nil))
 (insn 15 14 16 4 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":298:26 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":298:26 -1
      (nil))
 (call_insn 16 15 17 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableSendEvent") [flags 0x41]  <function_decl 0x7fec21e53000 stateTableSendEvent>) [0 stateTableSendEvent S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableSendEvent") [flags 0x41]  <function_decl 0x7f027a453000 stateTableSendEvent>) [0 stateTableSendEvent S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -968,11 +968,11 @@ try_optimize_cfg iteration 2
         (const_int 1 [0x1])) "src/App/Application.c":303:26 -1
      (nil))
 (insn 23 22 24 5 (set (reg:SI 0 r0)
-        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7fec21e35e10 gStateTable>)) "src/App/Application.c":303:26 -1
+        (symbol_ref:SI ("gStateTable") [flags 0x2]  <var_decl 0x7f027a435e10 gStateTable>)) "src/App/Application.c":303:26 -1
      (nil))
 (call_insn 24 23 25 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("stateTableSendEvent") [flags 0x41]  <function_decl 0x7fec21e53000 stateTableSendEvent>) [0 stateTableSendEvent S4 A32])
+                (call (mem:SI (symbol_ref:SI ("stateTableSendEvent") [flags 0x41]  <function_decl 0x7f027a453000 stateTableSendEvent>) [0 stateTableSendEvent S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1093,7 +1093,7 @@ try_optimize_cfg iteration 2
      (nil))
 (note 4 3 7 2 NOTE_INSN_FUNCTION_BEG)
 (insn 7 4 8 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7fec21e35ea0 leftDigit>)) "src/App/Application.c":319:12 -1
+        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7f027a435ea0 leftDigit>)) "src/App/Application.c":319:12 -1
      (nil))
 (insn 8 7 9 2 (set (reg:SI 117)
         (const_int 6 [0x6])) "src/App/Application.c":319:12 -1
@@ -1105,7 +1105,7 @@ try_optimize_cfg iteration 2
         (reg:QI 118)) "src/App/Application.c":319:12 -1
      (nil))
 (insn 11 10 12 2 (set (reg/f:SI 119)
-        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7fec21e35f30 rightDigit>)) "src/App/Application.c":320:13 -1
+        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7f027a435f30 rightDigit>)) "src/App/Application.c":320:13 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 120)
         (const_int 7 [0x7])) "src/App/Application.c":320:13 -1
@@ -1221,7 +1221,7 @@ try_optimize_cfg iteration 2
      (nil))
 (note 4 3 7 2 NOTE_INSN_FUNCTION_BEG)
 (insn 7 4 8 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7fec21e35ea0 leftDigit>)) "src/App/Application.c":335:12 -1
+        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7f027a435ea0 leftDigit>)) "src/App/Application.c":335:12 -1
      (nil))
 (insn 8 7 9 2 (set (reg:SI 117)
         (const_int 16 [0x10])) "src/App/Application.c":335:12 -1
@@ -1233,7 +1233,7 @@ try_optimize_cfg iteration 2
         (reg:QI 118)) "src/App/Application.c":335:12 -1
      (nil))
 (insn 11 10 12 2 (set (reg/f:SI 119)
-        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7fec21e35f30 rightDigit>)) "src/App/Application.c":336:14 -1
+        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7f027a435f30 rightDigit>)) "src/App/Application.c":336:14 -1
      (nil))
 (insn 12 11 13 2 (set (reg:SI 120)
         (const_int 16 [0x10])) "src/App/Application.c":336:14 -1
@@ -1303,7 +1303,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "src/App/Application.c":342:2 -1
      (nil))
 (call_insn 9 8 10 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7fec21e43900 ledSetLED>) [0 ledSetLED S4 A32])
+            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f027a443900 ledSetLED>) [0 ledSetLED S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1314,7 +1314,7 @@ try_optimize_cfg iteration 2
             (expr_list:QI (use (reg:SI 1 r1))
                 (nil)))))
 (insn 10 9 11 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7fec21e35ea0 leftDigit>)) "src/App/Application.c":343:12 -1
+        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7f027a435ea0 leftDigit>)) "src/App/Application.c":343:12 -1
      (nil))
 (insn 11 10 12 2 (set (reg:SI 117)
         (const_int 16 [0x10])) "src/App/Application.c":343:12 -1
@@ -1326,7 +1326,7 @@ try_optimize_cfg iteration 2
         (reg:QI 118)) "src/App/Application.c":343:12 -1
      (nil))
 (insn 14 13 15 2 (set (reg/f:SI 119)
-        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7fec21e35f30 rightDigit>)) "src/App/Application.c":344:14 -1
+        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7f027a435f30 rightDigit>)) "src/App/Application.c":344:14 -1
      (nil))
 (insn 15 14 16 2 (set (reg:SI 120)
         (const_int 16 [0x10])) "src/App/Application.c":344:14 -1
@@ -1396,7 +1396,7 @@ try_optimize_cfg iteration 2
         (const_int 3 [0x3])) "src/App/Application.c":350:2 -1
      (nil))
 (call_insn 9 8 10 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7fec21e43900 ledSetLED>) [0 ledSetLED S4 A32])
+            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f027a443900 ledSetLED>) [0 ledSetLED S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1407,7 +1407,7 @@ try_optimize_cfg iteration 2
             (expr_list:QI (use (reg:SI 1 r1))
                 (nil)))))
 (insn 10 9 11 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7fec21e35ea0 leftDigit>)) "src/App/Application.c":351:12 -1
+        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7f027a435ea0 leftDigit>)) "src/App/Application.c":351:12 -1
      (nil))
 (insn 11 10 12 2 (set (reg:SI 117)
         (const_int 16 [0x10])) "src/App/Application.c":351:12 -1
@@ -1419,7 +1419,7 @@ try_optimize_cfg iteration 2
         (reg:QI 118)) "src/App/Application.c":351:12 -1
      (nil))
 (insn 14 13 15 2 (set (reg/f:SI 119)
-        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7fec21e35f30 rightDigit>)) "src/App/Application.c":352:13 -1
+        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7f027a435f30 rightDigit>)) "src/App/Application.c":352:13 -1
      (nil))
 (insn 15 14 16 2 (set (reg:SI 120)
         (const_int 16 [0x10])) "src/App/Application.c":352:13 -1
@@ -1489,7 +1489,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "src/App/Application.c":358:2 -1
      (nil))
 (call_insn 9 8 10 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7fec21e43900 ledSetLED>) [0 ledSetLED S4 A32])
+            (call (mem:SI (symbol_ref:SI ("ledSetLED") [flags 0x41]  <function_decl 0x7f027a443900 ledSetLED>) [0 ledSetLED S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1552,7 +1552,7 @@ try_optimize_cfg iteration 2
      (nil))
 (note 4 3 7 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 7 4 8 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("ledTurnOnAllLEDs") [flags 0x41]  <function_decl 0x7fec21e43a00 ledTurnOnAllLEDs>) [0 ledTurnOnAllLEDs S4 A32])
+            (call (mem:SI (symbol_ref:SI ("ledTurnOnAllLEDs") [flags 0x41]  <function_decl 0x7f027a443a00 ledTurnOnAllLEDs>) [0 ledTurnOnAllLEDs S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1561,7 +1561,7 @@ try_optimize_cfg iteration 2
     (expr_list (clobber (reg:SI 12 ip))
         (nil)))
 (insn 8 7 9 2 (set (reg/f:SI 116)
-        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7fec21e35ea0 leftDigit>)) "src/App/Application.c":365:12 -1
+        (symbol_ref:SI ("leftDigit") [flags 0x2]  <var_decl 0x7f027a435ea0 leftDigit>)) "src/App/Application.c":365:12 -1
      (nil))
 (insn 9 8 10 2 (set (reg:SI 117)
         (const_int 16 [0x10])) "src/App/Application.c":365:12 -1
@@ -1573,7 +1573,7 @@ try_optimize_cfg iteration 2
         (reg:QI 118)) "src/App/Application.c":365:12 -1
      (nil))
 (insn 12 11 13 2 (set (reg/f:SI 119)
-        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7fec21e35f30 rightDigit>)) "src/App/Application.c":366:13 -1
+        (symbol_ref:SI ("rightDigit") [flags 0x2]  <var_decl 0x7f027a435f30 rightDigit>)) "src/App/Application.c":366:13 -1
      (nil))
 (insn 13 12 14 2 (set (reg:SI 120)
         (const_int 16 [0x10])) "src/App/Application.c":366:13 -1

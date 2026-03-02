@@ -155,7 +155,7 @@ DEPS := $(APP_OBJS_C:.o=.d)
 
 all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) $(BLD_DIR)/auth.bin
 
-<<<<<<< HEAD
+
 PYTHON ?= python3
 
 AUTH_ELF         := $(BLD_DIR)/auth.elf
@@ -177,29 +177,6 @@ $(AUTH_ELF_PATCH): $(AUTH_ELF) $(ENCRYPT_SCRIPT) | $(BLD_DIR)
 $(BLD_DIR)/auth.bin: $(AUTH_ELF_PATCH)
 	@echo "  OBJCOPY $(notdir $@) (from patched ELF)"
 	@$(OBJCOPY) $< -O binary $@
-=======
-#PYTHON ?= python3
-#
-#AUTH_ELF         := $(BLD_DIR)/auth.elf
-#AUTH_ELF_PATCH   := $(BLD_DIR)/auth_patched.elf
-#AUTH_SECTION_RAW := $(BLD_DIR)/auth_section.bin
-#AUTH_SECTION_ENC := $(BLD_DIR)/auth_section.bin.enc
-#ENCRYPT_SCRIPT   := ../../Scripts/encrypt_file.py
-#
-#$(AUTH_ELF_PATCH): $(AUTH_ELF) $(ENCRYPT_SCRIPT) | $(BLD_DIR)
-#	@echo "  OBJCOPY dump .auth -> $(notdir $(AUTH_SECTION_RAW))"
-#	@$(OBJCOPY) --dump-section .auth=$(AUTH_SECTION_RAW) $(AUTH_ELF)
-#	@echo "  PYTHON  encrypt -> $(notdir $(AUTH_SECTION_ENC))"
-#	@$(PYTHON) $(ENCRYPT_SCRIPT) -o $(AUTH_SECTION_ENC) $(AUTH_SECTION_RAW)
-#	@echo "  OBJCOPY update .auth in $(notdir $@)"
-#	@cp $(AUTH_ELF) $@
-#	@$(OBJCOPY) --update-section .auth=$(AUTH_SECTION_ENC) $@
-#	@$(OBJCOPY) --set-section-flags .auth=alloc,load,readonly $@
-#
-#$(BLD_DIR)/auth.bin: $(AUTH_ELF_PATCH)
-#	@echo "  OBJCOPY $(notdir $@) (from patched ELF)"
-#	@$(OBJCOPY) $< -O binary $@
->>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
 
 ###############################################################################
 # Rules

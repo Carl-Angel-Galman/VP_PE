@@ -125,7 +125,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":320:5 -1
      (nil))
 (call_insn 25 24 26 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MspInit") [flags 0x3]  <function_decl 0x7faf4e6be500 HAL_SMBUS_MspInit>) [0 HAL_SMBUS_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MspInit") [flags 0x3]  <function_decl 0x7fc507ebe500 HAL_SMBUS_MspInit>) [0 HAL_SMBUS_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -828,7 +828,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":422:3 -1
      (nil))
 (call_insn 26 25 27 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MspDeInit") [flags 0x3]  <function_decl 0x7faf4e6be600 HAL_SMBUS_MspDeInit>) [0 HAL_SMBUS_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MspDeInit") [flags 0x3]  <function_decl 0x7fc507ebe600 HAL_SMBUS_MspDeInit>) [0 HAL_SMBUS_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1928,7 +1928,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":957:7 -1
      (nil))
 (call_insn 108 107 109 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2115,7 +2115,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":970:9 -1
      (nil))
 (call_insn 161 160 162 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2140,7 +2140,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":976:9 -1
      (nil))
 (call_insn 167 166 168 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7faf4e7e5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7fc507fe5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2192,7 +2192,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":979:9 -1
      (nil))
 (call_insn 180 179 181 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2319,7 +2319,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":997:5 -1
      (nil))
 (call_insn 216 215 217 26 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2771,7 +2771,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1059:7 -1
      (nil))
 (call_insn 108 107 109 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2958,7 +2958,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1072:9 -1
      (nil))
 (call_insn 161 160 162 22 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -2983,7 +2983,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1078:9 -1
      (nil))
 (call_insn 167 166 168 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7faf4e7e5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7fc507fe5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3035,7 +3035,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1081:9 -1
      (nil))
 (call_insn 180 179 181 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3072,7 +3072,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1091:5 -1
      (nil))
 (call_insn 189 188 190 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3360,7 +3360,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1137:5 -1
      (nil))
 (call_insn 67 66 68 11 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3415,7 +3415,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1147:7 -1
      (nil))
 (call_insn 79 78 80 12 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3460,7 +3460,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1151:7 -1
      (nil))
 (call_insn 91 90 92 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3663,7 +3663,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1190:5 -1
      (nil))
 (call_insn 36 35 37 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3830,7 +3830,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1210:5 -1
      (nil))
 (call_insn 81 80 86 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7faf4e7e5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7fc507fe5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -3989,7 +3989,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1224:7 -1
      (nil))
 (call_insn 130 129 131 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4048,7 +4048,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1230:7 -1
      (nil))
 (call_insn 146 145 147 15 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4187,7 +4187,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1252:5 -1
      (nil))
 (call_insn 184 183 185 17 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4382,7 +4382,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1286:5 -1
      (nil))
 (call_insn 36 35 37 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4561,7 +4561,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1307:5 -1
      (nil))
 (call_insn 84 83 85 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7faf4e7e5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_ConvertOtherXferOptions") [flags 0x3]  <function_decl 0x7fc507fe5000 SMBUS_ConvertOtherXferOptions>) [0 SMBUS_ConvertOtherXferOptions S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4678,7 +4678,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1316:7 -1
      (nil))
 (call_insn 115 114 116 12 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4730,7 +4730,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1320:7 -1
      (nil))
 (call_insn 129 128 130 13 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4781,7 +4781,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1334:5 -1
      (nil))
 (call_insn 142 141 143 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4870,7 +4870,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1355:3 -1
      (nil))
 (call_insn 11 10 12 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -4968,7 +4968,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1374:5 -1
      (nil))
 (call_insn 16 15 17 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5084,7 +5084,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1399:3 -1
      (nil))
 (call_insn 19 18 20 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Enable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1c00 SMBUS_Enable_IRQ>) [0 SMBUS_Enable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5174,7 +5174,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1415:3 -1
      (nil))
 (call_insn 15 14 16 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5511,7 +5511,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 72 71 73 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7faf4e7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc507fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5620,7 +5620,7 @@ try_optimize_cfg iteration 2
 (note 100 99 101 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (call_insn 101 100 102 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7faf4e7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc507fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5877,7 +5877,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 174 173 175 21 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7faf4e7e1b00 SMBUS_WaitOnFlagUntilTimeout>) [0 SMBUS_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fc507fe1b00 SMBUS_WaitOnFlagUntilTimeout>) [0 SMBUS_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -5982,7 +5982,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 205 204 206 24 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7faf4e7e1b00 SMBUS_WaitOnFlagUntilTimeout>) [0 SMBUS_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fc507fe1b00 SMBUS_WaitOnFlagUntilTimeout>) [0 SMBUS_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6112,7 +6112,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 240 239 241 27 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7faf4e7e1b00 SMBUS_WaitOnFlagUntilTimeout>) [0 SMBUS_WaitOnFlagUntilTimeout S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_WaitOnFlagUntilTimeout") [flags 0x3]  <function_decl 0x7fc507fe1b00 SMBUS_WaitOnFlagUntilTimeout>) [0 SMBUS_WaitOnFlagUntilTimeout S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6577,7 +6577,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 63 62 64 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_Slave_ISR") [flags 0x3]  <function_decl 0x7faf4e7e1f00 SMBUS_Slave_ISR>) [0 SMBUS_Slave_ISR S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_Slave_ISR") [flags 0x3]  <function_decl 0x7fc507fe1f00 SMBUS_Slave_ISR>) [0 SMBUS_Slave_ISR S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6628,7 +6628,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 76 75 77 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_Master_ISR") [flags 0x3]  <function_decl 0x7faf4e7e1e00 SMBUS_Master_ISR>) [0 SMBUS_Master_ISR S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_Master_ISR") [flags 0x3]  <function_decl 0x7fc507fe1e00 SMBUS_Master_ISR>) [0 SMBUS_Master_ISR S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6830,7 +6830,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 128 127 129 20 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_Slave_ISR") [flags 0x3]  <function_decl 0x7faf4e7e1f00 SMBUS_Slave_ISR>) [0 SMBUS_Slave_ISR S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_Slave_ISR") [flags 0x3]  <function_decl 0x7fc507fe1f00 SMBUS_Slave_ISR>) [0 SMBUS_Slave_ISR S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6881,7 +6881,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 141 140 142 22 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_Master_ISR") [flags 0x3]  <function_decl 0x7faf4e7e1e00 SMBUS_Master_ISR>) [0 SMBUS_Master_ISR S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_Master_ISR") [flags 0x3]  <function_decl 0x7fc507fe1e00 SMBUS_Master_ISR>) [0 SMBUS_Master_ISR S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7091,7 +7091,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 196 195 199 30 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("SMBUS_Slave_ISR") [flags 0x3]  <function_decl 0x7faf4e7e1f00 SMBUS_Slave_ISR>) [0 SMBUS_Slave_ISR S4 A32])
+                (call (mem:SI (symbol_ref:SI ("SMBUS_Slave_ISR") [flags 0x3]  <function_decl 0x7fc507fe1f00 SMBUS_Slave_ISR>) [0 SMBUS_Slave_ISR S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7139,7 +7139,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1649:3 -1
      (nil))
 (call_insn 7 6 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_ITErrorHandler") [flags 0x3]  <function_decl 0x7faf4e7e5100 SMBUS_ITErrorHandler>) [0 SMBUS_ITErrorHandler S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_ITErrorHandler") [flags 0x3]  <function_decl 0x7fc507fe5100 SMBUS_ITErrorHandler>) [0 SMBUS_ITErrorHandler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7749,7 +7749,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1852:5 -1
      (nil))
 (call_insn 42 41 43 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ErrorCallback") [flags 0x3]  <function_decl 0x7faf4e6cdb00 HAL_SMBUS_ErrorCallback>) [0 HAL_SMBUS_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ErrorCallback") [flags 0x3]  <function_decl 0x7fc507ecdb00 HAL_SMBUS_ErrorCallback>) [0 HAL_SMBUS_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7797,7 +7797,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1858:5 -1
      (nil))
 (call_insn 55 54 56 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_ITErrorHandler") [flags 0x3]  <function_decl 0x7faf4e7e5100 SMBUS_ITErrorHandler>) [0 SMBUS_ITErrorHandler S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_ITErrorHandler") [flags 0x3]  <function_decl 0x7fc507fe5100 SMBUS_ITErrorHandler>) [0 SMBUS_ITErrorHandler S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7834,7 +7834,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1864:7 -1
      (nil))
 (call_insn 63 62 64 9 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7978,7 +7978,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1889:7 -1
      (nil))
 (call_insn 101 100 102 9 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd500 HAL_SMBUS_MasterTxCpltCallback>) [0 HAL_SMBUS_MasterTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd500 HAL_SMBUS_MasterTxCpltCallback>) [0 HAL_SMBUS_MasterTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8180,7 +8180,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1911:7 -1
      (nil))
 (call_insn 158 157 159 14 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8276,7 +8276,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1929:7 -1
      (nil))
 (call_insn 182 181 183 14 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd600 HAL_SMBUS_MasterRxCpltCallback>) [0 HAL_SMBUS_MasterRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd600 HAL_SMBUS_MasterRxCpltCallback>) [0 HAL_SMBUS_MasterRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8734,7 +8734,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1969:9 -1
      (nil))
 (call_insn 318 317 319 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -8834,7 +8834,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1976:9 -1
      (nil))
 (call_insn 346 345 347 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9040,7 +9040,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":1995:11 -1
      (nil))
 (call_insn 404 403 405 31 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9096,7 +9096,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2006:11 -1
      (nil))
 (call_insn 417 416 418 31 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd500 HAL_SMBUS_MasterTxCpltCallback>) [0 HAL_SMBUS_MasterTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd500 HAL_SMBUS_MasterTxCpltCallback>) [0 HAL_SMBUS_MasterTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9140,7 +9140,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2011:11 -1
      (nil))
 (call_insn 429 428 430 33 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9196,7 +9196,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2022:11 -1
      (nil))
 (call_insn 442 441 445 33 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd600 HAL_SMBUS_MasterRxCpltCallback>) [0 HAL_SMBUS_MasterRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd600 HAL_SMBUS_MasterRxCpltCallback>) [0 HAL_SMBUS_MasterRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9370,7 +9370,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2056:11 -1
      (nil))
 (call_insn 493 492 494 41 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9426,7 +9426,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2067:11 -1
      (nil))
 (call_insn 506 505 507 41 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd500 HAL_SMBUS_MasterTxCpltCallback>) [0 HAL_SMBUS_MasterTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterTxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd500 HAL_SMBUS_MasterTxCpltCallback>) [0 HAL_SMBUS_MasterTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9470,7 +9470,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2072:11 -1
      (nil))
 (call_insn 518 517 519 43 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9526,7 +9526,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2083:11 -1
      (nil))
 (call_insn 531 530 532 43 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd600 HAL_SMBUS_MasterRxCpltCallback>) [0 HAL_SMBUS_MasterRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_MasterRxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd600 HAL_SMBUS_MasterRxCpltCallback>) [0 HAL_SMBUS_MasterRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9890,7 +9890,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2149:7 -1
      (nil))
 (call_insn 67 66 68 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -9939,7 +9939,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2161:7 -1
      (nil))
 (call_insn 78 77 79 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ErrorCallback") [flags 0x3]  <function_decl 0x7faf4e6cdb00 HAL_SMBUS_ErrorCallback>) [0 HAL_SMBUS_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ErrorCallback") [flags 0x3]  <function_decl 0x7fc507ecdb00 HAL_SMBUS_ErrorCallback>) [0 HAL_SMBUS_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10097,7 +10097,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2181:5 -1
      (nil))
 (call_insn 122 121 123 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_AddrCallback") [flags 0x3]  <function_decl 0x7faf4e6cd900 HAL_SMBUS_AddrCallback>) [0 HAL_SMBUS_AddrCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_AddrCallback") [flags 0x3]  <function_decl 0x7fc507ecd900 HAL_SMBUS_AddrCallback>) [0 HAL_SMBUS_AddrCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10374,7 +10374,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2204:9 -1
      (nil))
 (call_insn 199 198 200 15 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10425,7 +10425,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2209:9 -1
      (nil))
 (call_insn 213 212 214 17 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10490,7 +10490,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2222:9 -1
      (nil))
 (call_insn 228 227 229 17 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_SlaveRxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd800 HAL_SMBUS_SlaveRxCpltCallback>) [0 HAL_SMBUS_SlaveRxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_SlaveRxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd800 HAL_SMBUS_SlaveRxCpltCallback>) [0 HAL_SMBUS_SlaveRxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10542,7 +10542,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2228:9 -1
      (nil))
 (call_insn 243 242 244 18 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10714,7 +10714,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2240:11 -1
      (nil))
 (call_insn 294 293 295 23 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -10810,7 +10810,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2247:11 -1
      (nil))
 (call_insn 321 320 322 24 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7faf4e7e5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_TransferConfig") [flags 0x3]  <function_decl 0x7fc507fe5200 SMBUS_TransferConfig>) [0 SMBUS_TransferConfig S4 A32])
                 (const_int 8 [0x8]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11107,7 +11107,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2285:7 -1
      (nil))
 (call_insn 408 407 409 31 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11172,7 +11172,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2296:7 -1
      (nil))
 (call_insn 423 422 424 31 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_SlaveTxCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cd700 HAL_SMBUS_SlaveTxCpltCallback>) [0 HAL_SMBUS_SlaveTxCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_SlaveTxCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecd700 HAL_SMBUS_SlaveTxCpltCallback>) [0 HAL_SMBUS_SlaveTxCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11400,7 +11400,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2327:7 -1
      (nil))
 (call_insn 486 485 487 37 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11418,7 +11418,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2330:7 -1
      (nil))
 (call_insn 489 488 490 37 (parallel [
-            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7faf4e7e1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
+            (call (mem:SI (symbol_ref:SI ("SMBUS_Disable_IRQ") [flags 0x3]  <function_decl 0x7fc507fe1d00 SMBUS_Disable_IRQ>) [0 SMBUS_Disable_IRQ S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11570,7 +11570,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2355:7 -1
      (nil))
 (call_insn 528 527 529 37 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ListenCpltCallback") [flags 0x3]  <function_decl 0x7faf4e6cda00 HAL_SMBUS_ListenCpltCallback>) [0 HAL_SMBUS_ListenCpltCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ListenCpltCallback") [flags 0x3]  <function_decl 0x7fc507ecda00 HAL_SMBUS_ListenCpltCallback>) [0 HAL_SMBUS_ListenCpltCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13039,7 +13039,7 @@ try_optimize_cfg iteration 2
                 (const_int -20 [0xffffffffffffffec])) [8 hsmbus+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_smbus.c":2571:5 -1
      (nil))
 (call_insn 179 178 182 27 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ErrorCallback") [flags 0x3]  <function_decl 0x7faf4e6cdb00 HAL_SMBUS_ErrorCallback>) [0 HAL_SMBUS_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_SMBUS_ErrorCallback") [flags 0x3]  <function_decl 0x7fc507ecdb00 HAL_SMBUS_ErrorCallback>) [0 HAL_SMBUS_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13118,7 +13118,7 @@ try_optimize_cfg iteration 2
 (note 8 6 11 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 11 8 12 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7faf4e7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc507fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13155,7 +13155,7 @@ try_optimize_cfg iteration 2
 (note 19 18 20 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
 (call_insn 20 19 21 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7faf4e7d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc507fd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

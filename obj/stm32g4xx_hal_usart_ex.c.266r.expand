@@ -991,7 +991,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [10 husart+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":334:3 -1
      (nil))
 (call_insn 46 45 47 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USARTEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7fa995de1b00 USARTEx_SetNbDataToProcess>) [0 USARTEx_SetNbDataToProcess S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USARTEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7f97f69e1b00 USARTEx_SetNbDataToProcess>) [0 USARTEx_SetNbDataToProcess S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1430,7 +1430,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [10 husart+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":418:3 -1
      (nil))
 (call_insn 46 45 47 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USARTEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7fa995de1b00 USARTEx_SetNbDataToProcess>) [0 USARTEx_SetNbDataToProcess S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USARTEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7f97f69e1b00 USARTEx_SetNbDataToProcess>) [0 USARTEx_SetNbDataToProcess S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1671,7 +1671,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [10 husart+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":467:3 -1
      (nil))
 (call_insn 46 45 47 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("USARTEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7fa995de1b00 USARTEx_SetNbDataToProcess>) [0 USARTEx_SetNbDataToProcess S4 A32])
+            (call (mem:SI (symbol_ref:SI ("USARTEx_SetNbDataToProcess") [flags 0x3]  <function_decl 0x7f97f69e1b00 USARTEx_SetNbDataToProcess>) [0 USARTEx_SetNbDataToProcess S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1917,7 +1917,7 @@ try_optimize_cfg iteration 2
                     (const_int -4 [0xfffffffffffffffc])) [0 tx_fifo_threshold+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":522:69 -1
      (nil))
 (insn 47 46 48 5 (set (reg/f:SI 160)
-        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7fa995de8bd0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":522:69 -1
+        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7f97f69e8bd0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":522:69 -1
      (nil))
 (insn 48 47 49 5 (set (reg:SI 125 [ _12 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 160)
@@ -1935,7 +1935,7 @@ try_optimize_cfg iteration 2
                     (const_int -4 [0xfffffffffffffffc])) [0 tx_fifo_threshold+0 S1 A32]))) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":523:54 -1
      (nil))
 (insn 52 51 53 5 (set (reg/f:SI 161)
-        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7fa995de8cf0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":523:54 -1
+        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7f97f69e8cf0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":523:54 -1
      (nil))
 (insn 53 52 54 5 (set (reg:SI 129 [ _16 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 161)
@@ -1971,7 +1971,7 @@ try_optimize_cfg iteration 2
                     (const_int -3 [0xfffffffffffffffd])) [0 rx_fifo_threshold+0 S1 A8]))) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":524:69 -1
      (nil))
 (insn 62 61 63 5 (set (reg/f:SI 164)
-        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7fa995de8bd0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":524:69 -1
+        (symbol_ref:SI ("numerator.1") [flags 0x2]  <var_decl 0x7f97f69e8bd0 numerator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":524:69 -1
      (nil))
 (insn 63 62 64 5 (set (reg:SI 135 [ _22 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 164)
@@ -1989,7 +1989,7 @@ try_optimize_cfg iteration 2
                     (const_int -3 [0xfffffffffffffffd])) [0 rx_fifo_threshold+0 S1 A8]))) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":525:54 -1
      (nil))
 (insn 67 66 68 5 (set (reg/f:SI 165)
-        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7fa995de8cf0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":525:54 -1
+        (symbol_ref:SI ("denominator.0") [flags 0x2]  <var_decl 0x7f97f69e8cf0 denominator>)) "lib/HAL/Src/stm32g4xx_hal_usart_ex.c":525:54 -1
      (nil))
 (insn 68 67 69 5 (set (reg:SI 139 [ _26 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 165)

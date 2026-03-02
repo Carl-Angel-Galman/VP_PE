@@ -27,7 +27,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 0 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("AppDisplayDigitsOnSegments") [flags 0x41]  <function_decl 0x7f58e3a92400 AppDisplayDigitsOnSegments>) [0 AppDisplayDigitsOnSegments S4 A32])
+                (call (mem:SI (symbol_ref:SI ("AppDisplayDigitsOnSegments") [flags 0x41]  <function_decl 0x7fd723492400 AppDisplayDigitsOnSegments>) [0 AppDisplayDigitsOnSegments S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -69,7 +69,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("AppPollForButtonEvent") [flags 0x41]  <function_decl 0x7f58e3a92300 AppPollForButtonEvent>) [0 AppPollForButtonEvent S4 A32])
+                (call (mem:SI (symbol_ref:SI ("AppPollForButtonEvent") [flags 0x41]  <function_decl 0x7fd723492300 AppPollForButtonEvent>) [0 AppPollForButtonEvent S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -103,7 +103,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 12 11 15 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("AppSendEvent") [flags 0x41]  <function_decl 0x7f58e3a92200 AppSendEvent>) [0 AppSendEvent S4 A32])
+                (call (mem:SI (symbol_ref:SI ("AppSendEvent") [flags 0x41]  <function_decl 0x7fd723492200 AppSendEvent>) [0 AppSendEvent S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -148,7 +148,7 @@ try_optimize_cfg iteration 2
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 5 2 6 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("AppRun") [flags 0x41]  <function_decl 0x7f58e3a92100 AppRun>) [0 AppRun S4 A32])
+                (call (mem:SI (symbol_ref:SI ("AppRun") [flags 0x41]  <function_decl 0x7fd723492100 AppRun>) [0 AppRun S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -181,7 +181,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 12 11 15 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("AppSendEvent") [flags 0x41]  <function_decl 0x7f58e3a92200 AppSendEvent>) [0 AppSendEvent S4 A32])
+                (call (mem:SI (symbol_ref:SI ("AppSendEvent") [flags 0x41]  <function_decl 0x7fd723492200 AppSendEvent>) [0 AppSendEvent S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

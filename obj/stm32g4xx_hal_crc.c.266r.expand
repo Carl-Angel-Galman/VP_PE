@@ -122,7 +122,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hcrc+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_crc.c":119:5 -1
      (nil))
 (call_insn 27 26 28 6 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspInit") [flags 0x3]  <function_decl 0x7fc8f27c2000 HAL_CRC_MspInit>) [0 HAL_CRC_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspInit") [flags 0x3]  <function_decl 0x7f05af3c2000 HAL_CRC_MspInit>) [0 HAL_CRC_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -242,7 +242,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 61 60 62 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_CRCEx_Polynomial_Set") [flags 0x41]  <function_decl 0x7fc8f27b7b00 HAL_CRCEx_Polynomial_Set>) [0 HAL_CRCEx_Polynomial_Set S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_CRCEx_Polynomial_Set") [flags 0x41]  <function_decl 0x7f05af3b7b00 HAL_CRCEx_Polynomial_Set>) [0 HAL_CRCEx_Polynomial_Set S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -617,7 +617,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [8 hcrc+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_crc.c":206:3 -1
      (nil))
 (call_insn 46 45 47 7 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspDeInit") [flags 0x3]  <function_decl 0x7fc8f27c2100 HAL_CRC_MspDeInit>) [0 HAL_CRC_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_CRC_MspDeInit") [flags 0x3]  <function_decl 0x7f05af3c2100 HAL_CRC_MspDeInit>) [0 HAL_CRC_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -997,7 +997,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 69 68 70 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7fc8f23e1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
+                (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7f05aefe1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1033,7 +1033,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 78 77 79 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7fc8f23e1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
+                (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7f05aefe1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1370,7 +1370,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 76 75 77 12 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7fc8f23e1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
+                (call (mem:SI (symbol_ref:SI ("CRC_Handle_8") [flags 0x3]  <function_decl 0x7f05aefe1b00 CRC_Handle_8>) [0 CRC_Handle_8 S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1406,7 +1406,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 85 84 86 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7fc8f23e1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
+                (call (mem:SI (symbol_ref:SI ("CRC_Handle_16") [flags 0x3]  <function_decl 0x7f05aefe1c00 CRC_Handle_16>) [0 CRC_Handle_16 S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

@@ -60,6 +60,12 @@ Scheduler AppScheduler;
  */
 int main(void)
 {
+	int32_t appInitResult = AppInitialize();
+	if(appInitResult == APP_INIT_ERR)
+	{
+
+		while(1);
+	}
 
     int32_t schedulerInitialized = schedInitialize(&AppScheduler);
 
@@ -74,12 +80,7 @@ int main(void)
 		return APP_INIT_ERR;
 	}
 
-	 int32_t appInitResult = AppInitialize();
-	if(appInitResult == APP_INIT_ERR)
-	{
 
-		while(1);
-	}
 
     while (1)
     {

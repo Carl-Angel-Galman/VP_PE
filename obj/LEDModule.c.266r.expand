@@ -215,7 +215,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/LEDModule.c":53:2 -1
      (nil))
 (call_insn 55 54 56 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -236,7 +236,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":56:2 -1
      (nil))
 (call_insn 59 58 60 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -257,7 +257,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/LEDModule.c":59:2 -1
      (nil))
 (call_insn 63 62 64 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -307,7 +307,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/LEDModule.c":66:2 -1
      (nil))
 (call_insn 75 74 76 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fb1c0404e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f25d2e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -356,7 +356,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":72:2 -1
      (nil))
 (call_insn 87 86 88 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fb1c0404e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f25d2e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -405,7 +405,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/LEDModule.c":79:2 -1
      (nil))
 (call_insn 99 98 100 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7fb1c0404e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f25d2e04e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -425,7 +425,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":81:2 -1
      (nil))
 (call_insn 103 102 104 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -446,7 +446,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/LEDModule.c":83:5 -1
      (nil))
 (call_insn 107 106 108 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -467,7 +467,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":84:2 -1
      (nil))
 (call_insn 111 110 112 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -488,7 +488,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/LEDModule.c":85:5 -1
      (nil))
 (call_insn 115 114 116 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -603,7 +603,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":95:13 -1
      (nil))
 (call_insn 17 16 18 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7fb1c0414200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7f25d2e14200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -627,7 +627,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":99:13 -1
      (nil))
 (call_insn 24 23 25 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7fb1c0414200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7f25d2e14200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -651,7 +651,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/LEDModule.c":103:13 -1
      (nil))
 (call_insn 31 30 32 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7fb1c0414200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7f25d2e14200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -675,7 +675,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":107:13 -1
      (nil))
 (call_insn 38 37 39 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7fb1c0414200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7f25d2e14200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -699,7 +699,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":111:13 -1
      (nil))
 (call_insn 45 44 50 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7fb1c0414200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_TogglePin") [flags 0x41]  <function_decl 0x7f25d2e14200 HAL_GPIO_TogglePin>) [0 HAL_GPIO_TogglePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -821,7 +821,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":124:13 -1
      (nil))
 (call_insn 22 21 23 4 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -853,7 +853,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":128:13 -1
      (nil))
 (call_insn 31 30 32 5 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -885,7 +885,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/LEDModule.c":132:13 -1
      (nil))
 (call_insn 40 39 41 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -917,7 +917,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":136:13 -1
      (nil))
 (call_insn 49 48 50 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -949,7 +949,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":140:13 -1
      (nil))
 (call_insn 58 57 63 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -999,7 +999,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":150:5 -1
      (nil))
 (call_insn 8 7 9 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1020,7 +1020,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":151:5 -1
      (nil))
 (call_insn 12 11 13 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1041,7 +1041,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/LEDModule.c":152:5 -1
      (nil))
 (call_insn 16 15 17 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1062,7 +1062,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":153:2 -1
      (nil))
 (call_insn 20 19 21 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1083,7 +1083,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/LEDModule.c":154:5 -1
      (nil))
 (call_insn 24 23 0 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7fb1c0414100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f25d2e14100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

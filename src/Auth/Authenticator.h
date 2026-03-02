@@ -34,18 +34,28 @@
 #define AUTH_ERR_KEY_LENGHT_BREACH -4
 
 /***** TYPES *****************************************************************/
-
+typedef enum
+{
+	BOOTUP = 0,
+	PREPARE_APPLICATION = 1,
+	FAILURE = 2,
+	START_APPLICATION = 3
+}State;
 
 /***** PROTOTYPES ************************************************************/
 void verify(void) __attribute__((section(".auth"), used, noinline));
 
-int8_t copy_and_decrypt_auth_section(uint8_t key[]);
+int8_t copy_and_decrypt_auth_section(uint8_t key[], uint8_t keylen);
 
 int8_t Auth_WaitForA(void);
 
-int8_t Auth_ReadKey(int8_t key[8], uint8_t *outLen);
+int8_t Auth_ReadKey(uint8_t key[], uint8_t * keylen);
 
-int8_t Auth_init(void);
+int8_t Auth_Init(void);
+
+int8_t Auth_ReadAppSignature(void);
+
+int8_t Auth_goToFailure(void);
 
 
 #endif

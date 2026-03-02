@@ -259,7 +259,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 10 9 11 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("nextIndex") [flags 0x3]  <function_decl 0x7fdf9b090000 nextIndex>) [0 nextIndex S4 A32])
+                (call (mem:SI (symbol_ref:SI ("nextIndex") [flags 0x3]  <function_decl 0x7f6775c90000 nextIndex>) [0 nextIndex S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -520,7 +520,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 12 11 13 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("nextIndex") [flags 0x3]  <function_decl 0x7fdf9b090000 nextIndex>) [0 nextIndex S4 A32])
+                (call (mem:SI (symbol_ref:SI ("nextIndex") [flags 0x3]  <function_decl 0x7f6775c90000 nextIndex>) [0 nextIndex S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -750,7 +750,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 31 30 32 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("nextIndex") [flags 0x3]  <function_decl 0x7fdf9b090000 nextIndex>) [0 nextIndex S4 A32])
+                (call (mem:SI (symbol_ref:SI ("nextIndex") [flags 0x3]  <function_decl 0x7f6775c90000 nextIndex>) [0 nextIndex S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

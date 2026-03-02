@@ -253,7 +253,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 19 18 20 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efd679e3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7ff7cede3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -282,7 +282,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 25 24 26 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7efd679e6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
+                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7ff7cede6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -380,7 +380,7 @@ try_optimize_cfg iteration 2
 (note 50 49 51 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
 (call_insn 51 50 52 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efd679e3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7ff7cede3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -409,7 +409,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 57 56 58 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7efd679e6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
+                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7ff7cede6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -507,7 +507,7 @@ try_optimize_cfg iteration 2
 (note 84 83 85 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
 (call_insn 85 84 86 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efd679e3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7ff7cede3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -536,7 +536,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 91 90 92 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7efd679e6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
+                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7ff7cede6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -634,7 +634,7 @@ try_optimize_cfg iteration 2
 (note 118 117 119 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (call_insn 119 118 120 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7efd679e3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7ff7cede3100 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -663,7 +663,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 125 124 126 17 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7efd679e6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
+                (call (mem:SI (symbol_ref:SI ("schedulerGetElapseTime") [flags 0x3]  <function_decl 0x7ff7cede6d00 schedulerGetElapseTime>) [0 schedulerGetElapseTime S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))

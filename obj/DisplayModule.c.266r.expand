@@ -215,7 +215,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/DisplayModule.c":102:5 -1
      (nil))
 (call_insn 55 54 56 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -236,7 +236,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":105:5 -1
      (nil))
 (call_insn 59 58 60 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -257,7 +257,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/DisplayModule.c":108:5 -1
      (nil))
 (call_insn 63 62 64 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -307,7 +307,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/DisplayModule.c":115:5 -1
      (nil))
 (call_insn 75 74 76 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f3373804e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0663604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -356,7 +356,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":122:5 -1
      (nil))
 (call_insn 87 86 88 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f3373804e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0663604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -405,7 +405,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/DisplayModule.c":129:5 -1
      (nil))
 (call_insn 99 98 100 2 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f3373804e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_Init") [flags 0x41]  <function_decl 0x7f0663604e00 HAL_GPIO_Init>) [0 HAL_GPIO_Init S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -528,7 +528,7 @@ try_optimize_cfg iteration 2
                     (const_int -10 [0xfffffffffffffff6])) [0 digit+0 S1 A8]))) "src/HAL/DisplayModule.c":139:59 -1
      (nil))
 (insn 28 27 29 5 (set (reg/f:SI 162)
-        (symbol_ref:SI ("gSegmentEncodingTable") [flags 0x2]  <var_decl 0x7f3373584d80 gSegmentEncodingTable>)) "src/HAL/DisplayModule.c":139:30 -1
+        (symbol_ref:SI ("gSegmentEncodingTable") [flags 0x2]  <var_decl 0x7f0663384d80 gSegmentEncodingTable>)) "src/HAL/DisplayModule.c":139:30 -1
      (nil))
 (insn 29 28 30 5 (set (reg:SI 163)
         (mem/u:SI (plus:SI (mult:SI (reg:SI 114 [ _1 ])
@@ -831,7 +831,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/DisplayModule.c":154:13 -1
      (nil))
 (call_insn 108 107 109 6 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -859,7 +859,7 @@ try_optimize_cfg iteration 2
         (const_int 1207960576 [0x48000400])) "src/HAL/DisplayModule.c":159:13 -1
      (nil))
 (call_insn 116 115 117 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -897,7 +897,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":163:9 -1
      (nil))
 (call_insn 126 125 127 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -933,7 +933,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":164:9 -1
      (nil))
 (call_insn 134 133 135 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -969,7 +969,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":165:9 -1
      (nil))
 (call_insn 142 141 143 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1005,7 +1005,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":166:9 -1
      (nil))
 (call_insn 150 149 151 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1041,7 +1041,7 @@ try_optimize_cfg iteration 2
         (const_int 1207959552 [0x48000000])) "src/HAL/DisplayModule.c":167:9 -1
      (nil))
 (call_insn 158 157 159 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1077,7 +1077,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/DisplayModule.c":168:9 -1
      (nil))
 (call_insn 166 165 167 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1113,7 +1113,7 @@ try_optimize_cfg iteration 2
         (const_int 1207961600 [0x48000800])) "src/HAL/DisplayModule.c":169:9 -1
      (nil))
 (call_insn 174 173 175 8 (parallel [
-            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f3373814100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
+            (call (mem:SI (symbol_ref:SI ("HAL_GPIO_WritePin") [flags 0x41]  <function_decl 0x7f0663614100 HAL_GPIO_WritePin>) [0 HAL_GPIO_WritePin S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1198,7 +1198,7 @@ try_optimize_cfg iteration 2
 (note 8 7 11 2 NOTE_INSN_FUNCTION_BEG)
 (call_insn 11 8 12 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("alternateDisplays") [flags 0x3]  <function_decl 0x7f33735ea000 alternateDisplays>) [0 alternateDisplays S4 A32])
+                (call (mem:SI (symbol_ref:SI ("alternateDisplays") [flags 0x3]  <function_decl 0x7f06633ea000 alternateDisplays>) [0 alternateDisplays S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1213,7 +1213,7 @@ try_optimize_cfg iteration 2
         (reg:SI 124)) "src/HAL/DisplayModule.c":177:19 -1
      (nil))
 (insn 14 13 15 2 (set (reg/f:SI 125)
-        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f33735eba20 currentDisplay>)) "src/HAL/DisplayModule.c":177:17 discrim 1 -1
+        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f06633eba20 currentDisplay>)) "src/HAL/DisplayModule.c":177:17 discrim 1 -1
      (nil))
 (insn 15 14 16 2 (set (reg:QI 126)
         (subreg/s/v:QI (reg:SI 114 [ _1 ]) 0)) "src/HAL/DisplayModule.c":177:17 discrim 1 -1
@@ -1222,13 +1222,13 @@ try_optimize_cfg iteration 2
         (reg:QI 126)) "src/HAL/DisplayModule.c":177:17 discrim 1 -1
      (nil))
 (insn 17 16 18 2 (set (reg/f:SI 127)
-        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f33735eba20 currentDisplay>)) "src/HAL/DisplayModule.c":179:2 -1
+        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f06633eba20 currentDisplay>)) "src/HAL/DisplayModule.c":179:2 -1
      (nil))
 (insn 18 17 19 2 (set (reg:SI 115 [ currentDisplay.4_2 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 127) [0 currentDisplay+0 S1 A8]))) "src/HAL/DisplayModule.c":179:2 -1
      (nil))
 (insn 19 18 20 2 (set (reg/f:SI 128)
-        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f33735eba20 currentDisplay>)) "src/HAL/DisplayModule.c":179:51 -1
+        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f06633eba20 currentDisplay>)) "src/HAL/DisplayModule.c":179:51 -1
      (nil))
 (insn 20 19 21 2 (set (reg:SI 116 [ currentDisplay.6_3 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 128) [0 currentDisplay+0 S1 A8]))) "src/HAL/DisplayModule.c":179:51 -1
@@ -1270,7 +1270,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 34 33 35 6 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("displayShowDigit") [flags 0x3]  <function_decl 0x7f33735e1e00 displayShowDigit>) [0 displayShowDigit S4 A32])
+                (call (mem:SI (symbol_ref:SI ("displayShowDigit") [flags 0x3]  <function_decl 0x7f06633e1e00 displayShowDigit>) [0 displayShowDigit S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1325,7 +1325,7 @@ try_optimize_cfg iteration 2
 (note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
 (note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
 (insn 5 2 6 2 (set (reg/f:SI 117)
-        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f33735eba20 currentDisplay>)) "src/HAL/DisplayModule.c":187:24 -1
+        (symbol_ref:SI ("currentDisplay") [flags 0x2]  <var_decl 0x7f06633eba20 currentDisplay>)) "src/HAL/DisplayModule.c":187:24 -1
      (nil))
 (insn 6 5 7 2 (set (reg:SI 114 [ currentDisplay.7_1 ])
         (zero_extend:SI (mem/c:QI (reg/f:SI 117) [0 currentDisplay+0 S1 A8]))) "src/HAL/DisplayModule.c":187:24 -1

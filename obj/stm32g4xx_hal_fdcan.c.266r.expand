@@ -189,7 +189,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":363:5 -1
      (nil))
 (call_insn 33 32 34 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_MspInit") [flags 0x3]  <function_decl 0x7f0291def500 HAL_FDCAN_MspInit>) [0 HAL_FDCAN_MspInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_MspInit") [flags 0x3]  <function_decl 0x7fc7c6fef500 HAL_FDCAN_MspInit>) [0 HAL_FDCAN_MspInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -228,7 +228,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 43 42 44 9 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -249,7 +249,7 @@ try_optimize_cfg iteration 2
 (note 47 75 48 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 48 47 49 10 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -379,7 +379,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 86 85 87 13 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -400,7 +400,7 @@ try_optimize_cfg iteration 2
 (note 90 118 91 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
 (call_insn 91 90 92 14 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1352,7 +1352,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":515:3 -1
      (nil))
 (call_insn 364 363 365 37 (parallel [
-            (call (mem:SI (symbol_ref:SI ("FDCAN_CalcultateRamBlockAddresses") [flags 0x3]  <function_decl 0x7f02919e1b00 FDCAN_CalcultateRamBlockAddresses>) [0 FDCAN_CalcultateRamBlockAddresses S4 A32])
+            (call (mem:SI (symbol_ref:SI ("FDCAN_CalcultateRamBlockAddresses") [flags 0x3]  <function_decl 0x7fc7c6be1b00 FDCAN_CalcultateRamBlockAddresses>) [0 FDCAN_CalcultateRamBlockAddresses S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1480,7 +1480,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 16 15 17 5 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_FDCAN_Stop") [flags 0x3]  <function_decl 0x7f0291a19000 HAL_FDCAN_Stop>) [0 HAL_FDCAN_Stop S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_FDCAN_Stop") [flags 0x3]  <function_decl 0x7fc7c6c19000 HAL_FDCAN_Stop>) [0 HAL_FDCAN_Stop S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1520,7 +1520,7 @@ try_optimize_cfg iteration 2
                 (const_int -4 [0xfffffffffffffffc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":563:3 -1
      (nil))
 (call_insn 25 24 26 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_MspDeInit") [flags 0x3]  <function_decl 0x7f0291def600 HAL_FDCAN_MspDeInit>) [0 HAL_FDCAN_MspDeInit S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_MspDeInit") [flags 0x3]  <function_decl 0x7fc7c6fef600 HAL_FDCAN_MspDeInit>) [0 HAL_FDCAN_MspDeInit S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1699,7 +1699,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1720,7 +1720,7 @@ try_optimize_cfg iteration 2
 (note 17 45 18 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1905,7 +1905,7 @@ try_optimize_cfg iteration 2
      (nil))
 (call_insn 13 12 14 2 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -1926,7 +1926,7 @@ try_optimize_cfg iteration 2
 (note 17 45 18 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 4 (parallel [
             (set (reg:SI 0 r0)
-                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7f02919d8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
+                (call (mem:SI (symbol_ref:SI ("HAL_GetTick") [flags 0x41]  <function_decl 0x7fc7c6bd8f00 HAL_GetTick>) [0 HAL_GetTick S4 A32])
                     (const_int 0 [0])))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -6041,7 +6041,7 @@ try_optimize_cfg iteration 2
                 (const_int -12 [0xfffffffffffffff4])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2146:7 -1
      (nil))
 (call_insn 45 44 46 7 (parallel [
-            (call (mem:SI (symbol_ref:SI ("FDCAN_CopyMessageToRAM") [flags 0x3]  <function_decl 0x7f02919e1c00 FDCAN_CopyMessageToRAM>) [0 FDCAN_CopyMessageToRAM S4 A32])
+            (call (mem:SI (symbol_ref:SI ("FDCAN_CopyMessageToRAM") [flags 0x3]  <function_decl 0x7fc7c6be1c00 FDCAN_CopyMessageToRAM>) [0 FDCAN_CopyMessageToRAM S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -7048,7 +7048,7 @@ try_optimize_cfg iteration 2
             (const_int 16 [0x10]))) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2315:74 discrim 1 -1
      (nil))
 (insn 192 191 193 16 (set (reg/f:SI 233)
-        (symbol_ref:SI ("DLCtoBytes") [flags 0x2]  <var_decl 0x7f02919e7120 DLCtoBytes>)) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2315:51 discrim 1 -1
+        (symbol_ref:SI ("DLCtoBytes") [flags 0x2]  <var_decl 0x7fc7c6be7120 DLCtoBytes>)) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2315:51 discrim 1 -1
      (nil))
 (insn 193 192 194 16 (set (reg:SI 166 [ _53 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 233)
@@ -11458,7 +11458,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2914:7 -1
      (nil))
 (call_insn 80 79 81 5 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_HighPriorityMessageCallback") [flags 0x3]  <function_decl 0x7f0291a1e800 HAL_FDCAN_HighPriorityMessageCallback>) [0 HAL_FDCAN_HighPriorityMessageCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_HighPriorityMessageCallback") [flags 0x3]  <function_decl 0x7fc7c6c1e800 HAL_FDCAN_HighPriorityMessageCallback>) [0 HAL_FDCAN_HighPriorityMessageCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11584,7 +11584,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2936:7 -1
      (nil))
 (call_insn 113 112 114 8 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxBufferAbortCallback") [flags 0x3]  <function_decl 0x7f0291a1e700 HAL_FDCAN_TxBufferAbortCallback>) [0 HAL_FDCAN_TxBufferAbortCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxBufferAbortCallback") [flags 0x3]  <function_decl 0x7fc7c6c1e700 HAL_FDCAN_TxBufferAbortCallback>) [0 HAL_FDCAN_TxBufferAbortCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11636,7 +11636,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2952:5 -1
      (nil))
 (call_insn 126 125 127 10 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxEventFifoCallback") [flags 0x3]  <function_decl 0x7f0291a1e200 HAL_FDCAN_TxEventFifoCallback>) [0 HAL_FDCAN_TxEventFifoCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxEventFifoCallback") [flags 0x3]  <function_decl 0x7fc7c6c1e200 HAL_FDCAN_TxEventFifoCallback>) [0 HAL_FDCAN_TxEventFifoCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11688,7 +11688,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2967:5 -1
      (nil))
 (call_insn 139 138 140 12 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_RxFifo0Callback") [flags 0x3]  <function_decl 0x7f0291a1e300 HAL_FDCAN_RxFifo0Callback>) [0 HAL_FDCAN_RxFifo0Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_RxFifo0Callback") [flags 0x3]  <function_decl 0x7fc7c6c1e300 HAL_FDCAN_RxFifo0Callback>) [0 HAL_FDCAN_RxFifo0Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11740,7 +11740,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2982:5 -1
      (nil))
 (call_insn 152 151 153 14 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_RxFifo1Callback") [flags 0x3]  <function_decl 0x7f0291a1e400 HAL_FDCAN_RxFifo1Callback>) [0 HAL_FDCAN_RxFifo1Callback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_RxFifo1Callback") [flags 0x3]  <function_decl 0x7fc7c6c1e400 HAL_FDCAN_RxFifo1Callback>) [0 HAL_FDCAN_RxFifo1Callback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11825,7 +11825,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":2999:7 -1
      (nil))
 (call_insn 174 173 175 17 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxFifoEmptyCallback") [flags 0x3]  <function_decl 0x7f0291a1e500 HAL_FDCAN_TxFifoEmptyCallback>) [0 HAL_FDCAN_TxFifoEmptyCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxFifoEmptyCallback") [flags 0x3]  <function_decl 0x7fc7c6c1e500 HAL_FDCAN_TxFifoEmptyCallback>) [0 HAL_FDCAN_TxFifoEmptyCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -11951,7 +11951,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3021:7 -1
      (nil))
 (call_insn 207 206 208 20 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxBufferCompleteCallback") [flags 0x3]  <function_decl 0x7f0291a1e600 HAL_FDCAN_TxBufferCompleteCallback>) [0 HAL_FDCAN_TxBufferCompleteCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TxBufferCompleteCallback") [flags 0x3]  <function_decl 0x7fc7c6c1e600 HAL_FDCAN_TxBufferCompleteCallback>) [0 HAL_FDCAN_TxBufferCompleteCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12036,7 +12036,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3039:7 -1
      (nil))
 (call_insn 229 228 230 23 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TimestampWraparoundCallback") [flags 0x3]  <function_decl 0x7f0291a1e900 HAL_FDCAN_TimestampWraparoundCallback>) [0 HAL_FDCAN_TimestampWraparoundCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TimestampWraparoundCallback") [flags 0x3]  <function_decl 0x7fc7c6c1e900 HAL_FDCAN_TimestampWraparoundCallback>) [0 HAL_FDCAN_TimestampWraparoundCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12120,7 +12120,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3057:7 -1
      (nil))
 (call_insn 251 250 252 26 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TimeoutOccurredCallback") [flags 0x3]  <function_decl 0x7f0291a1ea00 HAL_FDCAN_TimeoutOccurredCallback>) [0 HAL_FDCAN_TimeoutOccurredCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_TimeoutOccurredCallback") [flags 0x3]  <function_decl 0x7fc7c6c1ea00 HAL_FDCAN_TimeoutOccurredCallback>) [0 HAL_FDCAN_TimeoutOccurredCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12261,7 +12261,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3086:5 -1
      (nil))
 (call_insn 289 288 290 31 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_ErrorStatusCallback") [flags 0x3]  <function_decl 0x7f0291a1ec00 HAL_FDCAN_ErrorStatusCallback>) [0 HAL_FDCAN_ErrorStatusCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_ErrorStatusCallback") [flags 0x3]  <function_decl 0x7fc7c6c1ec00 HAL_FDCAN_ErrorStatusCallback>) [0 HAL_FDCAN_ErrorStatusCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -12355,7 +12355,7 @@ try_optimize_cfg iteration 2
                 (const_int -36 [0xffffffffffffffdc])) [15 hfdcan+0 S4 A32])) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3107:5 -1
      (nil))
 (call_insn 314 313 317 35 (parallel [
-            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_ErrorCallback") [flags 0x3]  <function_decl 0x7f0291a1eb00 HAL_FDCAN_ErrorCallback>) [0 HAL_FDCAN_ErrorCallback S4 A32])
+            (call (mem:SI (symbol_ref/i:SI ("HAL_FDCAN_ErrorCallback") [flags 0x3]  <function_decl 0x7fc7c6c1eb00 HAL_FDCAN_ErrorCallback>) [0 HAL_FDCAN_ErrorCallback S4 A32])
                 (const_int 0 [0]))
             (use (const_int 0 [0]))
             (clobber (reg:SI 14 lr))
@@ -13690,7 +13690,7 @@ try_optimize_cfg iteration 2
             (const_int 16 [0x10]))) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3495:72 discrim 1 -1
      (nil))
 (insn 126 125 127 8 (set (reg/f:SI 204)
-        (symbol_ref:SI ("DLCtoBytes") [flags 0x2]  <var_decl 0x7f02919e7120 DLCtoBytes>)) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3495:49 discrim 1 -1
+        (symbol_ref:SI ("DLCtoBytes") [flags 0x2]  <var_decl 0x7fc7c6be7120 DLCtoBytes>)) "lib/HAL/Src/stm32g4xx_hal_fdcan.c":3495:49 discrim 1 -1
      (nil))
 (insn 127 126 128 8 (set (reg:SI 160 [ _47 ])
         (zero_extend:SI (mem/u:QI (plus:SI (reg/f:SI 204)

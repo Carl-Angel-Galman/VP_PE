@@ -43,6 +43,7 @@
 /***** PRIVATE MACROS ********************************************************/
 
 
+#define APP_SIGNATURE_ADDR ((volatile const uint8_t*)0x08010000u)
 
 #define WAIT_A_TIMEOUT_MS     (15000u)
 
@@ -53,8 +54,6 @@
 #define KEY_MAX_LEN           (8u)
 
 #define APP_STARTHANDLER_ADDR    (0x08010200)
-
-#define APP_SIGNATURE_ADDR (0x08010000)
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -76,51 +75,57 @@ typedef enum
 /***** PRIVATE PROTOTYPES ****************************************************/
 static void switch_to_app(void);
 
-static void wait_for_start_char(void);
-
-
 static void D1_FlashUpdate(int32_t nowMs);
 
 static void Flash_D1(void) ;
 
 /***** PRIVATE VARIABLES *****************************************************/
 
-extern int8_t  _sloadauth;
-extern int8_t  _sauth;
-extern int8_t  _eauth;
+extern uint8_t _sloadauth;
+extern uint8_t _sauth;
+extern uint8_t _eauth;
 
-static int32_t key_len;
 
-int8_t key[] = "VP2026";
+static uint8_t sig_copy_in_RAM[4U];
 
-volatile int8_t *sig = (volatile int8_t *)APP_SIGNATURE_ADDR ;
 
-int8_t key_input_buffer[8u];
-
-bool key_received = false;
-
-int32_t ms_counter = 0UL;
 
 static KEY_INPUT_STAGES key_input_stage = INITIAL;
 
 static Scheduler auth_Scheduler;
 
+// Linker-defined symbol. It is an address, not a variable.
 /***** PUBLIC FUNCTIONS ******************************************************/
 __attribute__((section(".auth"), used, noinline))
 void verify(void)
 {
-	__disable_irq();
+	volatile uint8_t r0 = sig_copy_in_RAM[0];
+	volatile uint8_t r1 = sig_copy_in_RAM[1];
+	volatile uint8_t r2 = sig_copy_in_RAM[2];
+	volatile uint8_t r3 = sig_copy_in_RAM[3];
 
-	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
-	app_start_function start = (app_start_function) *(start_app_ptr);
-	start();
+	if((r0 == 'U' &&
+		r1 == 'M' &&
+		r2 == 'M' &&
+		r3 == 'S'))
+	{
+		__disable_irq();
+
+
+		uint32_t *start_app_ptr = (uint32_t *)(0x08010200 + 4);
+		app_start_function start = (app_start_function) *(start_app_ptr);
+		start();
+
+	}
+
 
 	while (1) { }
+
 }
 
 
 
-int8_t copy_and_decrypt_auth_section(uint8_t key[])
+int8_t copy_and_decrypt_auth_section(uint8_t key[], uint8_t key_len)
 {
 
 	if(key == 0)
@@ -129,77 +134,40 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[])
 	}
 
 	uint8_t  *dst = &_sauth;
-<<<<<<< HEAD
-=======
-    const uint8_t  *src = &_sloadauth;
+
     size_t section_len = (size_t)(&_eauth - &_sauth);
->>>>>>> 2a3d7f89050ac41f2ace7c9242797663db98bf28
 
-	const uint8_t  *src = &_sloadauth;
+	const uint8_t * src = &_sloadauth;
 
-	size_t len = (size_t)(&_eauth - &_sauth);
-
-<<<<<<< HEAD
-//    for (size_t i = 0; i < len; i++)
-//	{
-//		dst[i] ^= key[i % key_len];
-//	}
-//
-//    __DSB();__ISB();
-
-    key_len = (int32_t)strlen(key);   // <-- add this (or make it const)
-
-    memcpy(dst, src, len);  // copy to RAM
-
-=======
     memcpy(dst, src, section_len);
 
-<<<<<<< HEAD
+
     for (size_t i = 0; i < section_len; i++)
 	{
 		dst[i] ^= key[i % key_len];
 	}
 
     __DSB();__ISB();
-=======
-    //__DSB();__ISB();
->>>>>>> c82fa012ab0d65be25b6dd973cb5feed14ecad17
->>>>>>> 2a3d7f89050ac41f2ace7c9242797663db98bf28
+
+
 
     return AUTH_ERR_OK;
 }
 
-
-
-/***** PRIVATE FUNCTIONS *****************************************************/
-
-
-static void switch_to_app(void)
-{
-	__disable_irq();
-
-
-	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
-	app_start_function start = (app_start_function) *(start_app_ptr);
-	start();
-
-	while (1) { }
-
-}
-
-
 int8_t Auth_WaitForA(void)
 {
-    uint32_t start = HAL_GetTick();
-    uint8_t ch;
+	uint8_t ch = 0 ;
 
-
-	int32_t r = uartReceiveData(&ch, 1, 5000u);
+	uint8_t toSend = '\n';
+	int32_t r = uartReceiveData(&ch, 1, 15000u);
+//    if(ch != 0) outputLogf("\r\x1b[K%c",ch);
 
 	if (r == UART_ERR_OK)
 	{
 		if (ch == (uint8_t)'A')
 		{
+			uartSendData(&toSend, 1);
+
 			return AUTH_ERR_OK ;
 		}
 		// ignore other chars
@@ -210,22 +178,26 @@ int8_t Auth_WaitForA(void)
 	}
 
 
-    return -1; // 15s timeout
+    return AUTH_ERR_FAILURE;
 }
 
 
-int8_t Auth_ReadKey(int8_t key[8], uint8_t *outLen)
+int8_t Auth_ReadKey(uint8_t key[], uint8_t *keylen)
 {
+
+
+	if(key == NULL || keylen == NULL)
+	{
+		return AUTH_ERR_INVALID_PTR;
+	}
     uint32_t start = HAL_GetTick();
     uint32_t now;
     uint32_t elapsed;
-
-    uint8_t len = 0;
-    uint8_t ch;
+    uint8_t ch = 0;
 
 	ledSetLED(LED1, LED_OFF);
 
-    *outLen = 0;
+	uint8_t len = 0;
 
     while (1)
     {
@@ -270,52 +242,97 @@ int8_t Auth_ReadKey(int8_t key[8], uint8_t *outLen)
 
         // --- receive next byte with short polling ---
         int32_t r = uartReceiveData(&ch, 1, 20U);
-        //  printf(ch);
-
+//        if(ch != '\r')
+//        	{
+//        	outputLogf("\r\x1b[2K %c",ch);
+//        	}
         if (r == UART_ERR_TIMEOUT)
+		{
+			continue; // no byte this slice
+		}
+		else if (r == UART_ERR_RECEIVE)
+		{
+			return AUTH_ERR_FAILURE;
+		}
+
+        if(ch == (uint8_t)'\n' )
         {
-            continue; // no byte this slice
-        }
-        if (r == UART_ERR_RECEIVE)
-        {
-            return AUTH_ERR_FAILURE;
+        	*keylen = len;
+        	return AUTH_ERR_OK;
         }
 
-        // r == UART_ERR_OK:
-        if (ch == (uint8_t)'\n')
+        else if (len < 8u)
         {
-            *outLen = len;
-            return AUTH_ERR_OK; // key complete
+        	if ((ch >= '0' && ch <= '9') || (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+        	{
+                key[len++] = ch;
+        	}
         }
 
-        // max 8 bytes
-        if (len < 8u)
+        else if(len >= 8u)
         {
-            key[len++] = ch;
-        }
-        else
-        {
-            // too long before '\n' -> failure (strict max length)
             return AUTH_ERR_KEY_LENGHT_BREACH;
         }
-    }
+
+
+	}
+    return AUTH_ERR_FAILURE;
 }
 
-int8_t Auth_init(void)
+int8_t Auth_ReadAppSignature(void)
 {
-	if(schedInitialize(&auth_Scheduler) != SCHED_ERR_OK)
-	{
-		return AUTH_ERR_FAILURE;
-	}
+
+	const volatile uint8_t* signature_in_flash = (const volatile uint8_t*)0x08010000u;
+	sig_copy_in_RAM[0] = signature_in_flash[0];
+	sig_copy_in_RAM[1] = signature_in_flash[1];
+	sig_copy_in_RAM[2] = signature_in_flash[2];
+	sig_copy_in_RAM[3] = signature_in_flash[3];
+
+	return AUTH_ERR_OK;
+}
+
+
+int8_t Auth_Init(void)
+{
+
+	schedInitialize(&auth_Scheduler);
+	auth_Scheduler.pTask_250ms = Flash_D1;
+	ledSetLED(LED0, LED_ON);
 
 
 	return AUTH_ERR_OK;
 }
 
+int8_t Auth_goToFailure(void)
+{
+	ledSetLED(LED4, LED_ON);
+
+	return AUTH_ERR_OK;
+}
+
+
+/***** PRIVATE FUNCTIONS *****************************************************/
+
+
+static void switch_to_app(void)
+{
+	__disable_irq();
+
+
+	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
+	app_start_function start = (app_start_function) *(start_app_ptr);
+	start();
+
+	while (1) { }
+
+}
+
+
+
 static void Flash_D1(void)
 {
     ledToggleLED(LED1);
-
 }
+
 
 
