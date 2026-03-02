@@ -5,17 +5,24 @@
  *      Author: kali
  */
 
+#include <stdbool.h>
 #include "DualChannelGas.h"
-#include "ADCModule.c"
+#include "ADCModule.h"
+#include "Filter.h"
 
 #define NUMBERS_OF_SENSORS 2
 #define CONVERSION_FACTOR  204 //in microvoltage
 #define MIN_SENOSR_VALUE 200 //in ppm
 #define MAX_SENOSR_VALUE 10000 //in ppm
 #define INCONSISTENCY_VALUE 10 //in percent
+#define CHECK_NULL_NEG 0
+#define FILTER_ALPHA 400
+#define FILTER_SCALING 1000
 
 static GasSensor sensorP1;
 static GasSensor sensorP2;
+static EMAFilterData_t filter;
+static bool resetFilter = false;
 
 int32_t dualGasInit()
 {
@@ -31,6 +38,20 @@ int32_t dualGasInit()
 	//Check successful initialization
 	if(initCheck2 != SENSOR_OK)
 			return SENSORS_NOT_OK;
+	if(resetFilter == false)
+	{
+		int32_t filterCheck = filterInitEMA(&filter, FILTER_SCALING, FILTER_ALPHA);
+		if(filterCheck != FILTER_ERR_OK)
+			return FILTER_ERR_GENERAL;
+		resetFilter = true;
+	}
+	else if(resetFilter == true)
+	{
+		int32_t filterCheck = filterResetEMA(&filter);
+		if(filterCheck != FILTER_ERR_OK)
+			return FILTER_ERR_GENERAL;
+	}
+
 
 	return SENSORS_OK;
 }
@@ -87,6 +108,7 @@ int32_t dualGasCheckInconsistency()
 
 	return SENSORS_OK;
 }
+
 int32_t dualGasGetAverage()
 {
 	int32_t ppm_sensor1 = gasSensorGetSensorValue(&sensorP1);
@@ -100,6 +122,7 @@ int32_t dualGasGetAverage()
 
 	//Calculation of the average
 	int32_t average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
+	int32_t filteredAverage = filterEMA(&filter, average);
 
-	return average;
+	return filteredAverage;
 }
