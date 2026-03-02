@@ -1,4 +1,0 @@
-src/App/AppTasks.c:45:6:taskApp1ms	8	static
-src/App/AppTasks.c:54:6:taskApp10ms	16	static
-src/App/AppTasks.c:67:6:taskApp50ms	16	static
-src/App/AppTasks.c:78:6:taskApp250ms	4	static

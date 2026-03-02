@@ -1,3 +1,0 @@
-src/OS/Scheduler.c:44:9:schedInitialize	16	static
-src/OS/Scheduler.c:65:9:schedCycle	24	static
-src/OS/Scheduler.c:143:24:schedulerGetElapseTime	24	static
