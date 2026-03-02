@@ -12,10 +12,12 @@
 #include <stdint.h>
 
 #define SENSOR_OK			0
-#define SENOSR_INVALID_PTR	-1
+#define SENSOR_INVALID_PTR	-1
+#define SENSOR_INVALID_CONVFACTOR -2
 #define SENSOR_INVALID_VALUE -3
+#define SENSOR_DEFECT -5
 
-typedef struct GasSensor
+typedef struct _GasSensor
 {
 	//sensorVoltage in microVolt
 	uint32_t sensorVoltage;
@@ -25,9 +27,13 @@ typedef struct GasSensor
 
 } GasSensor;
 
+//Initalize the gasSensor, return SENSOR_OK if no error occured
 int32_t gasSensorInitalize(GasSensor* pSensor, uint32_t convFactor);
+
+//Input sensorVolt in mircoVoltage,  return SENSOR_OK if no error occured
 int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt);
 
+//Returns the ppm-Value of sensor
 int32_t gasSensorGetSensorValue(GasSensor* pSensor);
 
 
