@@ -16,7 +16,7 @@
 #define _BUTTON_MODULE_H_
 
 /***** INCLUDES **************************************************************/
-
+#include "stdbool.h"
 
 /***** CONSTANTS *************************************************************/
 
@@ -24,8 +24,10 @@
 /***** MACROS ****************************************************************/
 #define BUTTON_ERR_OK      0            //!< No error occured
 
-
+#define IS_BUTTON_PRESSED(button) (buttonGetButtonStatus(button) == BUTTON_PRESSED)
 /***** TYPES *****************************************************************/
+
+
 
 /**
  * @brief Enumeration of available Buttons and their usage
@@ -49,6 +51,7 @@ typedef enum _Button_Status_t
 } Button_Status_t;
 
 /***** PROTOTYPES ************************************************************/
+
 
 /**
  * @brief Initialize the GPIOs for the Button inputs

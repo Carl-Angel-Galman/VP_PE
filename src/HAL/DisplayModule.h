@@ -20,7 +20,6 @@
 
 /***** CONSTANTS *************************************************************/
 
-
 /***** MACROS ****************************************************************/
 #define DISPLAY_ERR_OK                  0           //!< No error occured
 #define DISPLAY_ERR_INIT_FAILURE        -1          //!< Error during display initialization
@@ -32,6 +31,7 @@
 #define DIGIT_OFF                       (19)        //!< Index in the encoding table all segments off
 
 
+
 /***** TYPES *****************************************************************/
 
 /**
@@ -40,8 +40,8 @@
  */
 typedef enum _Display
 {
-    LEFT_DISPLAY,                                  //!< Left 7-Seg display
-    RIGHT_DISPLAY                                  //!< Right 7-Seg Display
+    LEFT_DISPLAY = 0,                                  //!< Left 7-Seg display
+    RIGHT_DISPLAY = 1                                  //!< Right 7-Seg Display
 } Display_t;
 
 
@@ -63,5 +63,8 @@ int32_t displayInitialize();
  * @return Returns DISPLAY_ERR_OK if no error occured
  */
 int32_t displayShowDigit(Display_t outputDisplay, int8_t digit);
+
+int32_t displayTwoDigits(int8_t leftDigit, int8_t rightDigit);
+
 
 #endif

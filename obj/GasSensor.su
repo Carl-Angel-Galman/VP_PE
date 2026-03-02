@@ -1,3 +1,0 @@
-src/Service/GasSensor.c:14:9:gasSensorInitalize	16	static
-src/Service/GasSensor.c:28:9:gasSensorSetSensorVoltage	16	static
-src/Service/GasSensor.c:41:9:gasSensorGetSensorValue	24	static

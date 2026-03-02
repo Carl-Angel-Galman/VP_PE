@@ -71,3 +71,8 @@ int32_t gasSensorGetSensorValue(GasSensor* pSensor)
 
 	return value;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5a5441275a3a915ce293841d1a97457689a6c849

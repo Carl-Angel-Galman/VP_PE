@@ -22,31 +22,31 @@
 
 
 /***** MACROS ****************************************************************/
-#define STATE_ID_INIT        1       //!< Example State for Startup
-#define STATE_ID_OPERATIONAL        2       //!< Example State for Runing
-#define STATE_ID_FAILURE        3       //!< Example State for Failure
-#define STATE_ID_PREOPERATIONAL 4
-#define STATE_ID_TESTMODE 		5
-#define STATE_ID_EMERGENCY		6
+#define STATE_ID_INIT        			1UL       //!< Example State for Startup
+#define STATE_ID_OPERATIONAL        	2UL       //!< Example State for Runing
+#define STATE_ID_FAILURE        		3UL       //!< Example State for Failure
+#define STATE_ID_PREOPERATIONAL 		4UL
+#define STATE_ID_TESTMODE 				5UL
+#define STATE_ID_EMERGENCY				6UL
 
-#define EVT_ID_INIT_READY       1       //!< Event ID for INIT_READY
-#define EVT_ID_SENSOR_FAILED    2       //!< Event ID for Sensor Failure
-#define EVT_ID_SWITCH_OPERATIONAL 3
-#define EVT_ID_SWITCH_PREOPERATIONAL 4
-#define EVT_ID_SENSOR_DEFECT 5
-#define EVT_ID_TO_TESTMODE 6
-#define EVT_ID_ALARM_RESET 7
-#define EVT_ID_TRIGGER_EMERGENCY 8
+#define APP_NO_ERR 				0
+#define APP_INIT_ERR			-1
+#define APP_RUN_ERR 			-2
 
 /***** TYPES *****************************************************************/
 
 
 /***** PROTOTYPES ************************************************************/
 
-int32_t sampleAppInitialize();
+int32_t AppInitialize(void);
 
-int32_t sampleAppRun();
+int32_t AppRun(void);
 
-int32_t sameplAppSendEvent(int32_t eventID);
+int32_t AppSendEvent(int32_t eventID);
+
+int32_t AppPollForButtonEvent(void);
+
+int32_t AppDisplayDigitsOnSegments(void);
+
 
 #endif

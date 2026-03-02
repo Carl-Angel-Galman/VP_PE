@@ -56,7 +56,7 @@ typedef struct _EMAFilterData
  *
  * @return Return FILTER_ERR_OK is no error occured
  */
-int32_t filterInitEMA(EMAFilterData_t* pEMA, int32_t scalingFactor, int32_t alpha, bool resetFilter);
+int32_t filterInitEMA(EMAFilterData_t* pEMA, int32_t scalingFactor, int32_t alpha);
 
 
 /**

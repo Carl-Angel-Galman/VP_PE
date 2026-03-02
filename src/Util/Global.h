@@ -23,8 +23,15 @@
 
 
 /***** MACROS ****************************************************************/
-#define ERROR_OK            0       //!< Error code for "everything is ok"
-#define ERROR_GENERAL       -1      //!< General, unspecific error
+#define NO_EVT							0
+#define EVT_ID_INIT_READY       		1       //!< Event ID for INIT_READY
+#define EVT_ID_ERROR    				2       //!< Event ID for Sensor Failure
+#define EVT_ID_SW1_PRESSED				3
+#define EVT_ID_SW2_PRESSED				4
+#define EVT_ID_B1_PRESSED				5
+#define EVT_ID_TO_TESTMODE 				6
+#define EVT_ID_ALARM_RESET 				7
+#define EVT_ID_TRIGGER_EMERGENCY 		8
 
 /***** TYPES *****************************************************************/
 

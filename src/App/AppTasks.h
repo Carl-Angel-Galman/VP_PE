@@ -30,8 +30,9 @@
 
 /***** PROTOTYPES ************************************************************/
 
-void taskApp10ms();
-void taskApp50ms();
-void taskApp250ms();
+void taskApp1ms(void);
+void taskApp10ms(void);
+void taskApp50ms(void);
+void taskApp250ms(void);
 
 #endif /* SRC_APP_APPTASKS_H_ */

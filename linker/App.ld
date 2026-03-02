@@ -73,14 +73,14 @@ _initial_stack_pointer = _estack;
 /* Define output sections */
 SECTIONS
 {
-  .signature :
-  {
+  .signature  :
+{
+  KEEP(*(.signature))     /* if you later move it to C */
   _signature_adress = .;
-    BYTE(0x55);
-    BYTE(0x4D);
-    BYTE(0x4D);
-    BYTE(0x53);
-  } > FLASH
+  BYTE(0x55); BYTE(0x4D); BYTE(0x4D); BYTE(0x53); /* UMMS */
+    BYTE(0x00); /* '\0' */
+  
+} > FLASH
 
   /* Section for Interrupt Vector Table */
   .isr_vector ALIGN(512):

@@ -1,1 +1,15 @@
-/build
+build/
+.project 
+.cproject
+.settings/
+
+bin/
+out/
+/obj/
+*.o
+*.elf
+*.bin
+
+.log 
+.tmp
+*.xml

@@ -49,13 +49,7 @@
 
 
 /***** PRIVATE TYPES *********************************************************/
-typedef enum
-{
-	BOOTUP = 0,
-	PREPARE_APPLICATION = 1,
-	FAILURE = 2,
-	START_APPLICATION = 3
-}State;
+
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 static int32_t initializePeripherals();
@@ -63,9 +57,10 @@ static int32_t initializePeripherals();
 
 static State current_state = BOOTUP;
 
+extern uint32_t _sauth;
+
 
 /***** PRIVATE VARIABLES *****************************************************/
-
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
@@ -76,6 +71,11 @@ static State current_state = BOOTUP;
  */
 int main(void)
 {
+
+	Auth_ReadAppSignature();
+
+
+
 	while(1)
 	{
 	switch(current_state)
@@ -83,28 +83,51 @@ int main(void)
 
 		case BOOTUP:
 			// Initialize the HAL
-			HAL_Init();
+			if(HAL_Init() != HAL_OK) break;
 
 			SystemClock_Config();
 
+
 			// Initialize Peripherals
-			initializePeripherals();
+			if(initializePeripherals() != AUTH_ERR_OK) break;
+
+			Auth_Init();
 
 			current_state = PREPARE_APPLICATION;
+
 			break;
 
 		case PREPARE_APPLICATION:
-
+		{
 			int8_t res = Auth_WaitForA();
 
 			if(res == AUTH_ERR_TIMEOUT)
 			{
+				Auth_goToFailure();
+
 				current_state = FAILURE;
-			}else{
-				current_state = START_APPLICATION;
+				break;
 			}
 
+			uint8_t key_len = 8U;
 
+			uint8_t key[key_len] = {};
+
+			res = Auth_ReadKey(key, &key_len);
+
+			if(res == AUTH_ERR_KEY_LENGHT_BREACH)
+			{
+				Auth_goToFailure();
+
+				current_state = FAILURE;
+				break;
+			}
+
+			copy_and_decrypt_auth_section(key, key_len);
+
+			current_state = START_APPLICATION;
+
+			}
 			break;
 
 		case FAILURE:
@@ -112,22 +135,16 @@ int main(void)
 			while(1);
 
 			break;
+
 		case START_APPLICATION:
+		{
 
-			{
-				uint8_t key_len = 8U;
+			verify();
 
-				int8_t key[key_len];
-
-				int8_t res = Auth_ReadKey(key, &key_len);
-
-				copy_and_decrypt_auth_section(key);
-
-				verify();
-
-			}
+		}
 
 			break;
+
 		default:
 			break;
 	}
@@ -147,20 +164,20 @@ int main(void)
 static int32_t initializePeripherals()
 {
     // Initialize UART used for Debug-Outputs
-    uartInitialize(115200);
+    if(uartInitialize(115200) != UART_ERR_OK)	return AUTH_ERR_FAILURE;
 
     // Initialize GPIOs for LED and 7-Segment output
-	ledInitialize();
-    displayInitialize();
+	if(ledInitialize()!= LED_ERR_OK) 			return AUTH_ERR_FAILURE ;
+    if(displayInitialize()!= DISPLAY_ERR_OK) 	return AUTH_ERR_FAILURE;
 
     // Initialize GPIOs for Buttons
-    buttonInitialize();
+    if (buttonInitialize()!= BUTTON_ERR_OK) 	return AUTH_ERR_FAILURE;
 
     // Initialize Timer, DMA and ADC for sensor measurements
-    timerInitialize();
-    adcInitialize();
+    if(timerInitialize()!= TIMER_ERR_OK) 		return AUTH_ERR_FAILURE;
+    if(adcInitialize()!= ADC_ERR_OK) 			return AUTH_ERR_FAILURE;
 
-    return ERROR_OK;
+    return AUTH_ERR_OK;
 }
 
 
