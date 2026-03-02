@@ -33,26 +33,40 @@
 
 /***** PUBLIC FUNCTIONS ******************************************************/
 
-int32_t filterInitEMA(EMAFilterData_t* pEMA, int32_t scalingFactor, int32_t alpha, bool resetFilter)
+int32_t filterInitEMA(EMAFilterData_t* pEMA, int32_t scalingFactor, int32_t alpha)
 {
 	if(pEMA == NULL)
 		{
 			return FILTER_ERR_INVALID_PTR;
 		}
-	if(scalingFactor = 0)
+	//Check if scalingFactor is 0 or negative
+	if(scalingFactor <= CHECK_NULL_NEG)
+	{
+		return FILTER_ERR_INVALID_PARAM;
+	}
+	//Check if alpha is between 0 and  1
+	if(alpha <= CHECK_NULL_NEG || alpha > scalingFactor)
 	{
 		return FILTER_ERR_INVALID_PARAM;
 	}
 	pEMA->scalingFactor = scalingFactor;
 	pEMA->alpha = alpha;
-	pEMA->firstValueAvailable  = false;
+	pEMA->firstValueAvailable = false;
 
     return FILTER_ERR_OK;
 }
 
 int32_t filterResetEMA(EMAFilterData_t* pEMA)
 {
-    return 0;
+    if(pEMA == NULL)
+	{
+		return FILTER_ERR_INVALID_PTR;
+	}
+	//Reset filter and overwrite previous Value
+	pEMA->firstValueAvailable = false;
+	pEMA->previousValue = 0;
+
+    return FILTER_ERR_OK;
 }
 
 int32_t filterEMA(EMAFilterData_t* pEMA, int32_t sensorValue)
@@ -61,14 +75,18 @@ int32_t filterEMA(EMAFilterData_t* pEMA, int32_t sensorValue)
 	{
 		return FILTER_ERR_INVALID_PTR;
 	}
-	//First Sensorvalue
+
+    // First sample initializes filter output
 	if(pEMA->firstValueAvailable == false)
 	{
 		pEMA->previousValue = sensorValue;
 		pEMA->firstValueAvailable = true;
 		return sensorValue;
 	}
-	//Calculate new Valute with EMA Filterin
+
+	//Calculate new Value with EMA Filtering
+	//EMA Implementation using scaled integer arithmetic: y[n]= alpha*x[n] + (1-alpha)*y[n-1]
 	int32_t newValue = (int32_t)(pEMA->alpha * sensorValue + (pEMA->scalingFactor-pEMA->alpha)* pEMA->previousValue)/pEMA->scalingFactor;
+	pEMA->previousValue = newValue;
     return newValue;
 }
