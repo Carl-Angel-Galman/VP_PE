@@ -1,7 +1,0 @@
-src/Util/EventQueue/EventQueue.c:16:24:nextIndex	16	static
-src/Util/EventQueue/EventQueue.c:21:6:EventQ_Init	16	static
-src/Util/EventQueue/EventQueue.c:27:6:EventQ_IsEmpty	16	static
-src/Util/EventQueue/EventQueue.c:32:6:EventQ_IsFull	16	static
-src/Util/EventQueue/EventQueue.c:37:10:EventQ_Count	16	static
-src/Util/EventQueue/EventQueue.c:44:6:EventQ_Push	24	static
-src/Util/EventQueue/EventQueue.c:60:6:EventQ_Pop	24	static

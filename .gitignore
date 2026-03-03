@@ -5,10 +5,14 @@ build/
 
 bin/
 out/
+<<<<<<< HEAD
 obj/*.c
 obj/
 
 	
+=======
+/obj/
+>>>>>>> 880810e6325209fd8d45bf8925c76fd1a2659cdc
 *.o
 *.elf
 *.bin
