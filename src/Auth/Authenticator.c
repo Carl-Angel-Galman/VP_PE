@@ -53,7 +53,7 @@
 
 #define KEY_MAX_LEN           (8u)
 
-#define APP_STARTHANDLER_ADDR    (0x08010200)
+#define APP_STARTHANDLER_ADDR    (0x08010204)
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -99,16 +99,11 @@ static Scheduler auth_Scheduler;
 __attribute__((section(".auth"), used, noinline))
 void verify(void)
 {
-	volatile uint8_t r0 = sig_copy_in_RAM[0];
-	volatile uint8_t r1 = sig_copy_in_RAM[1];
-	volatile uint8_t r2 = sig_copy_in_RAM[2];
-	volatile uint8_t r3 = sig_copy_in_RAM[3];
 
-	if((r0 == 'U' &&
-		r1 == 'M' &&
-		r2 == 'M' &&
-		r3 == 'S'))
+	const char signature[] = "UMMS";
+	if(memcmp((const char*)0x08010000u, signature, 4) == 0)
 	{
+		outputLog("[AUTH]: Starting App");
 		__disable_irq();
 
 
@@ -141,7 +136,6 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[], uint8_t key_len)
 
     memcpy(dst, src, section_len);
 
-
     for (size_t i = 0; i < section_len; i++)
 	{
 		dst[i] ^= key[i % key_len];
@@ -159,8 +153,8 @@ int8_t Auth_WaitForA(void)
 	uint8_t ch = 0 ;
 
 	uint8_t toSend = '\n';
+
 	int32_t r = uartReceiveData(&ch, 1, 15000u);
-//    if(ch != 0) outputLogf("\r\x1b[K%c",ch);
 
 	if (r == UART_ERR_OK)
 	{
@@ -184,15 +178,17 @@ int8_t Auth_WaitForA(void)
 
 int8_t Auth_ReadKey(uint8_t key[], uint8_t *keylen)
 {
-
-
 	if(key == NULL || keylen == NULL)
 	{
 		return AUTH_ERR_INVALID_PTR;
 	}
+
     uint32_t start = HAL_GetTick();
+
     uint32_t now;
+
     uint32_t elapsed;
+
     uint8_t ch = 0;
 
 	ledSetLED(LED1, LED_OFF);
@@ -319,7 +315,7 @@ static void switch_to_app(void)
 	__disable_irq();
 
 
-	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR + 4);
+	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR);
 	app_start_function start = (app_start_function) *(start_app_ptr);
 	start();
 

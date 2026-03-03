@@ -6,33 +6,31 @@
  */
 
 #include "DualChannelGas.h"
-#include "ADCModule.c"
+#include "ADCModule.h"
 
 #define NUMBERS_OF_SENSORS 2
 #define CONVERSION_FACTOR  204 //in microvoltage
 #define MIN_SENOSR_VALUE 200 //in ppm
 #define MAX_SENOSR_VALUE 10000 //in ppm
-#define INCONSISTENCY_VALUE 10 //in percent
+#define INCONSISTENCY_VALUE 25 //in percent
 
 static GasSensor sensorP1;
 static GasSensor sensorP2;
 
-int32_t dualGasInit()
+int32_t dualGasInit(void)
 {
 	//Init ADC for reading the data
-	adcInitialize();
-
 	int32_t initCheck1 = gasSensorInitalize(&sensorP1, CONVERSION_FACTOR);
 	//Check successful initialization
 	if(initCheck1 != SENSOR_OK)
-		return SENSORS_NOT_OK;
+		return DUALSENSORS_NOT_OK;
 
 	int32_t initCheck2 = gasSensorInitalize(&sensorP2, CONVERSION_FACTOR);
 	//Check successful initialization
 	if(initCheck2 != SENSOR_OK)
-			return SENSORS_NOT_OK;
+			return DUALSENSORS_NOT_OK;
 
-	return SENSORS_OK;
+	return DUALSENSORS_OK;
 }
 
 int32_t dualGasSetVoltages()
@@ -53,19 +51,19 @@ int32_t dualGasSetVoltages()
 		return checkSetted;
 	}
 
-	return SENSORS_OK;
+	return DUALSENSORS_OK;
 }
 
-int32_t dualGasCheckInconsistency()
+int32_t dualGasCheckInconsistency(void)
 {
 	int32_t maxValue = 0;
 	int32_t ppm_sensor1 = gasSensorGetSensorValue(&sensorP1);
 	int32_t ppm_sensor2 = gasSensorGetSensorValue(&sensorP2);
 
 	//Checking for invalid data or error codes
-	if(ppm_sensor1 < MIN_SENOSR_VALUE || ppm_sensor2 < MIN_SENOSR_VALUE)
+	if((ppm_sensor1 < MIN_SENOSR_VALUE) || (ppm_sensor2 < MIN_SENOSR_VALUE))
 	{
-		return SENSORS_NOT_OK;
+		return DUALSENSORS_NOT_OK;
 	}
 	int32_t diff = ppm_sensor1 - ppm_sensor2;
 	//Check if the difference is negative
@@ -80,26 +78,32 @@ int32_t dualGasCheckInconsistency()
 	}
 
 	//Checking for 10% inconsistency
-	if(diff*INCONSISTENCY_VALUE >= maxValue)
+	if((diff*INCONSISTENCY_VALUE) >= maxValue)
 	{
-		return SENSORS_DEFECT;
+		return DUALSENSORS_DEFECT;
 	}
 
-	return SENSORS_OK;
+	return DUALSENSORS_OK;
 }
-int32_t dualGasGetAverage()
+int32_t dualGasGetAverage(int32_t * average)
 {
+	if(average == NULL)
+	{
+		return DUALSENSORS_INVALID_PTR;
+	}
+
 	int32_t ppm_sensor1 = gasSensorGetSensorValue(&sensorP1);
+
 	int32_t ppm_sensor2 = gasSensorGetSensorValue(&sensorP2);
 
 	//Checking for invalid data or error codes
 	if(ppm_sensor1 < MIN_SENOSR_VALUE || ppm_sensor2 < MIN_SENOSR_VALUE)
 	{
-		return SENSORS_NOT_OK;
+		return DUALSENSORS_NOT_OK;
 	}
 
 	//Calculation of the average
-	int32_t average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
+	*average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
 
-	return average;
+	return DUALSENSORS_OK;
 }

@@ -55,7 +55,7 @@ DEF	= -DSTM32G4xx -DSTM32G474xx -DUSE_HAL_DRIVER -DF_CPU=170000000L -DDEBUG_BUIL
 ASFLAGS = -g -mcpu=cortex-m4 -mthumb
 
 # Compiler Flags
-CFLAGS = -c -O0 -g -mcpu=cortex-m4 -mthumb
+CFLAGS = -c -O0 -g -mcpu=cortex-m4 -mthumb -mlong-calls
 CFLAGS += -Wall -ffunction-sections -fdata-sections -fstack-usage -fdump-rtl-expand
 CFLAGS += -Wno-unused-function -nostdlib
 
@@ -164,19 +164,19 @@ AUTH_SECTION_RAW := $(BLD_DIR)/auth_section.bin
 AUTH_SECTION_ENC := $(BLD_DIR)/auth_section.bin.enc
 ENCRYPT_SCRIPT   := ../Scripts/encrypt_file.py
 
-$(AUTH_ELF_PATCH): $(AUTH_ELF) $(ENCRYPT_SCRIPT) | $(BLD_DIR)
+patched: $(AUTH_ELF) $(ENCRYPT_SCRIPT)
 	@echo "  OBJCOPY dump .auth -> $(notdir $(AUTH_SECTION_RAW))"
 	@$(OBJCOPY) --dump-section .auth=$(AUTH_SECTION_RAW) $(AUTH_ELF)
 	@echo "  PYTHON  encrypt -> $(notdir $(AUTH_SECTION_ENC))"
 	@$(PYTHON) $(ENCRYPT_SCRIPT) -o $(AUTH_SECTION_ENC) $(AUTH_SECTION_RAW)
-	@echo "  OBJCOPY update .auth in $(notdir $@)"
-	@cp $(AUTH_ELF) $@
-	@$(OBJCOPY) --update-section .auth=$(AUTH_SECTION_ENC) $@
-	@$(OBJCOPY) --set-section-flags .auth=alloc,load,readonly $@
+	@echo "  OBJCOPY update .auth in $(notdir $(AUTH_ELF_PATCH))"
+	@cp $(AUTH_ELF) $(AUTH_ELF_PATCH)
+	@$(OBJCOPY) --update-section .auth=$(AUTH_SECTION_ENC) $(AUTH_ELF_PATCH)
+	#@$(OBJCOPY) --set-section-flags .auth=alloc,load,readonly $(AUTH_ELF_PATCH)
 
-$(BLD_DIR)/auth.bin: $(AUTH_ELF_PATCH)
-	@echo "  OBJCOPY $(notdir $@) (from patched ELF)"
-	@$(OBJCOPY) $< -O binary $@
+#$(BLD_DIR)/auth.bin: $(AUTH_ELF_PATCH)
+#	@echo "  OBJCOPY $(notdir $@) (from patched ELF)"
+#	@$(OBJCOPY) $< -O binary $@
 
 ###############################################################################
 # Rules

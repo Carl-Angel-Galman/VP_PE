@@ -5,7 +5,8 @@ build/
 
 bin/
 out/
-/obj/
+
+obj/
 *.o
 *.elf
 *.bin

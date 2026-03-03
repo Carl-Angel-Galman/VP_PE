@@ -52,14 +52,14 @@ int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt)
 int32_t gasSensorGetSensorValue(GasSensor* pSensor)
 {
 	if(pSensor == NULL)
-			{
-				return SENSOR_INVALID_PTR;
-			}
+	{
+		return SENSOR_INVALID_PTR;
+	}
 
-	if(pSensor->sensorVoltage < MIN_VOLT_VALUE|| pSensor->sensorVoltage > MAX_VOLT_VALUE )
-			{
-				return SENSOR_DEFECT;
-			}
+	if((pSensor->sensorVoltage < MIN_VOLT_VALUE )|| (pSensor->sensorVoltage > MAX_VOLT_VALUE))
+	{
+		return SENSOR_DEFECT;
+	}
 	//Difference from sensorVoltage and Offset
 	int32_t deltaVoltage = pSensor->sensorVoltage - VOLT_OFFSET;
 

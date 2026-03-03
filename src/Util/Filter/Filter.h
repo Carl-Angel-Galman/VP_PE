@@ -19,6 +19,8 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+#include "stm32g4xx_hal.h"
+
 /***** CONSTANTS *************************************************************/
 
 

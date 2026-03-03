@@ -10,20 +10,22 @@
 
 #include <stdint.h>
 #include "GasSensor.h"
+#include "stm32g4xx_hal.h"
 
-#define SENSORS_OK 0
-#define SENSORS_NOT_OK -10
-#define SENSORS_DEFECT -11
-
+#define DUALSENSORS_OK 0
+#define DUALSENSORS_NOT_OK -10
+#define DUALSENSORS_DEFECT -11
+#define DUALSENSORS_INVALID_PTR -12
 
 //Init the two gasSensors and the ADCperipherie of the module, return SENSORS_OK, if no error occured
-int32_t dualGasInit();
+int32_t dualGasInit(void);
 
 //Reads the ADC Input and set the Voltage, return SENSORS_OK, if no error occured
-int32_t dualGasSetVoltages();
+int32_t dualGasSetVoltages(void);
 
-int32_t dualGasCheckInconsistency();
-int32_t dualGasGetAverage();
+int32_t dualGasCheckInconsistency(void);
+
+int32_t dualGasGetAverage(int32_t * average);
 
 
 

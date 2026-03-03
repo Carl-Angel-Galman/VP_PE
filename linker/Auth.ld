@@ -126,7 +126,7 @@ SECTIONS
 	  _eauth = .;
 	} >RAM AT>FLASH
 	
-	  	_sloadauth = LOADADDR(.auth);   /* LMA (stored) in FLASH */
+	_sloadauth = LOADADDR(.auth);   /* LMA (stored) in FLASH */
 	
 
   /* Uninitialized data section */

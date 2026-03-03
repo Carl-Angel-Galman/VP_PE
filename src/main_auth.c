@@ -71,9 +71,12 @@ extern uint32_t _sauth;
  */
 int main(void)
 {
+	if(HAL_Init() != HAL_OK)
+				{
+					current_state = FAILURE;
+				}
 
-	Auth_ReadAppSignature();
-
+				SystemClock_Config();
 
 
 	while(1)
@@ -83,9 +86,6 @@ int main(void)
 
 		case BOOTUP:
 			// Initialize the HAL
-			if(HAL_Init() != HAL_OK) break;
-
-			SystemClock_Config();
 
 
 			// Initialize Peripherals

@@ -32,8 +32,13 @@
 
 #include "DisplayModule.h"
 
+#include "DualChannelGas.h"
 
 #include "Util/StateTable/StateTable.h"
+
+#include "ADCModule.h"
+
+#include "TimerModule.h"
 
 #include "System.h"
 
@@ -43,14 +48,21 @@
 
 
 /***** PRIVATE MACROS ********************************************************/
+#define GAS_SENSOR_WARNING_THRESHHOLD 3000
 
+#define GAS_SENSOR_EMERGENCY_THRESHHOLD 5000
+
+#define FIVE_SEC_THRESHOLD_50MS 100
+
+#define THREE_SEC_THRESHOLD_50MS 60
+
+
+#define COUNTER_HAS_REACHED_FIVE_SECS_50MS(counter) (counter >= FIVE_SEC_THRESHOLD_50MS)
+
+#define COUNTER_HAS_REACHED_THREE_SECS_50MS(counter) (counter >= THREE_SEC_THRESHOLD_50MS)
 
 /***** PRIVATE TYPES *********************************************************/
-typedef struct
-{
-    Button_t button;
-    Button_Status_t state;
-} ButtonEvent_t;
+
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 
@@ -90,6 +102,14 @@ static int32_t initializePeripherals(void);
 
 
 /***** PRIVATE VARIABLES *****************************************************/
+
+static uint32_t gasSensorWarningCount = 0;
+
+static uint32_t waterSensorWarningCount = 0;
+
+static uint32_t gasSensorEmergencyCount = 0;
+
+static uint32_t waterSensorEmergencyCount = 0;
 
 
 /**
@@ -148,6 +168,7 @@ static StateTableEntry_t gStateTableEntries[] =
 static StateTable_t gStateTable;
 
 static int8_t leftDigit = DIGIT_DASH;
+
 static int8_t rightDigit = DIGIT_DASH;
 
 
@@ -159,10 +180,11 @@ int32_t AppInitialize(void)
 
 	HAL_Init();
 
-	// Initialize the System Clock
 	SystemClock_Config();
 
 	initializePeripherals();
+
+	int32_t dualGasInitRes = dualGasInit();
 
     gStateTable.pStateList = gStateList;
 
@@ -269,14 +291,14 @@ static int32_t initializePeripherals(void)
     // Initialize GPIOs for LED and 7-Segment output
     ledInitialize();
 
-    //displayInitialize();
+    displayInitialize();
 
     // Initialize GPIOs for Buttons
     buttonInitialize();
     // Initialize Timer, DMA and ADC for sensor measurements
-//    timerInitialize();
-//
-//    adcInitialize();
+    timerInitialize();
+
+    adcInitialize();
 
     return APP_NO_ERR;
 
@@ -292,19 +314,30 @@ static int32_t initOnEntry(State_t* pState, int32_t eventID)
 static int32_t onInit(State_t* pState, int32_t eventID)
 {
 	// check gas Sensor
-    bool validValues = true;
-    if(validValues)
+	int32_t stateTableResult = STATETBL_ERR_OK;
+
+	if(dualGasSetVoltages() != DUALSENSORS_OK)
+	{
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		return stateTableResult;
+	}
+
+	int32_t dualGasSensorConsistencyResult = dualGasCheckInconsistency();
+    if(dualGasSensorConsistencyResult == DUALSENSORS_OK)
     {
-        int32_t result = stateTableSendEvent(&gStateTable, EVT_ID_INIT_READY);
+    	stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_INIT_READY);
+    	return stateTableResult;
     }
 
-    else
+    else if(dualGasSensorConsistencyResult == DUALSENSORS_DEFECT)
     {
-        int32_t result = stateTableSendEvent(&gStateTable, EVT_ID_INIT_READY);
-
+    	stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+    	return stateTableResult;
     }
 
-	return STATETBL_ERR_OK;
+
+
+	return stateTableResult;
 }
 
 static int32_t onPreOperational(State_t * pState, int32_t eventID)
@@ -315,16 +348,64 @@ static int32_t onPreOperational(State_t * pState, int32_t eventID)
 
 static int32_t onOperational(State_t * pState, int32_t eventID)
 {
+	int32_t stateTableResult = STATETBL_ERR_OK;
+
+	int32_t currentAverage = 0;
+
+	gasSensorWarningCount++;
+
+	gasSensorEmergencyCount++;
+
+	if(dualGasSetVoltages() != DUALSENSORS_OK)
+	{
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		return STATETBL_ERR_OK;
+	}
+	if(dualGasCheckInconsistency() == DUALSENSORS_DEFECT)
+	{
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		return STATETBL_ERR_OK;
+	}
+	if(dualGasGetAverage(&currentAverage) != DUALSENSORS_OK)
+	{
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		return STATETBL_ERR_OK;
+	}
+
+	if(currentAverage <= GAS_SENSOR_WARNING_THRESHHOLD)
+	{
+		gasSensorWarningCount = 0;
+	}
+
+	if(currentAverage <=  GAS_SENSOR_EMERGENCY_THRESHHOLD)
+	{
+		gasSensorEmergencyCount = 0;
+	}
+
+	if(COUNTER_HAS_REACHED_FIVE_SECS_50MS(gasSensorWarningCount))
+	{
+		ledSetLED(LED1, LED_ON);
+	}
+
+	if(COUNTER_HAS_REACHED_THREE_SECS_50MS(gasSensorEmergencyCount))
+	{
+		gasSensorEmergencyCount =0 ;
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_TRIGGER_EMERGENCY);
+		return STATETBL_ERR_OK;
+	}
+
+
 
 	leftDigit = 6;
 	rightDigit = 7;
 
 
-	return STATETBL_ERR_OK;
+	return stateTableResult;
 }
 
 static int32_t onEmergency(State_t *pState, int32_t eventID)
 {
+	ledToggleLED(LED1);
 
 	return STATETBL_ERR_OK;
 }
@@ -333,7 +414,8 @@ static int32_t displayDashOnEntry(State_t *pState, int32_t eventID)
 {
 
 	leftDigit = DIGIT_DASH;
-		rightDigit = DIGIT_DASH;
+
+	rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
 }
 
