@@ -34,6 +34,8 @@
 
 #include "DualChannelGas.h"
 
+#include "WaterSensor.h"
+
 #include "Util/StateTable/StateTable.h"
 
 #include "ADCModule.h"
@@ -184,7 +186,15 @@ int32_t AppInitialize(void)
 
 	initializePeripherals();
 
+	//Initialize gasSensor Modul and check if it is ok
 	int32_t dualGasInitRes = dualGasInit();
+	if(dualGasInitRes != DUALSENSORS_OK)
+		AppSendEvent(EVT_ID_ERROR);
+
+	//Initialize WaterSensor Modul and check if it is ok
+	int32_t waterInitRes = waterSensorInitalize();
+	if(waterInitRes != WATER_SENSOR_OK)
+			AppSendEvent(EVT_ID_ERROR);
 
     gStateTable.pStateList = gStateList;
 

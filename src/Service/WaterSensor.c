@@ -7,63 +7,50 @@
 #include <stddef.h>
 #include "WaterSensor.h"
 
-#define MIN_SENOSR_VALUE 50	//in cm
-#define MAX_SENOSR_VALUE 1000//in cm
+#define MIN_SENSOR_VALUE 50	//in cm
+#define MAX_SENSOR_VALUE 1000//in cm
 #define MIN_VOLT_VALUE 500000 //in microVolt
 #define MAX_VOLT_VALUE 2500000
 #define VOLT_OFFSET 500000
+#define CONV_FACTOR 2105 //in microVolt
 
-int32_t waterSensorInitalize(WaterSensor* pSensor, uint32_t convFactor)
+static WaterSensor wSensor;
+
+int32_t waterSensorInitalize()
 {
-	if(pSensor == NULL)
-	{
-		return SENSOR_INVALID_PTR;
-	}
 
-	pSensor->sensorVoltage = 0;
-	if(convFactor == 0)
-	{
-		return SENSOR_INVALID_CONVFACTOR;
-	}
-	pSensor->conversionFactor = convFactor;
+	wSensor.sensorVoltage = 0;
+	wSensor.conversionFactor = CONV_FACTOR;
 
-	return SENSOR_OK;
+	return WATER_SENSOR_OK;
 }
 
-int32_t waterSensorSetSensorVoltage(WaterSensor* pSensor, uint32_t sensorVolt)
+int32_t waterSensorSetSensorVoltage()
 {
-	if(pSensor == NULL)
-			{
-				return SENSOR_INVALID_PTR;
-			}
+	int32_t sensorVolt = readfromPythonScript();
+
 		if(sensorVolt < MIN_VOLT_VALUE|| sensorVolt > MAX_VOLT_VALUE )
 			{
-				return SENSOR_DEFECT;
+				return WATER_SENSOR_DEFECT;
 			}
-		pSensor->sensorVoltage = sensorVolt;
+		wSensor.sensorVoltage = sensorVolt;
 
-		return SENSOR_OK;
+		return WATER_SENSOR_OK;
 }
 
-int32_t waterSensorGetSensorValue(WaterSensor* pSensor)
+int32_t waterSensorGetSensorValue()
 {
-	if(pSensor == NULL)
-	{
-		return SENSOR_INVALID_PTR;
-	}
+	if(wSensor.sensorVoltage < MIN_VOLT_VALUE ||
+	       wSensor.sensorVoltage > MAX_VOLT_VALUE)
+	        return WATER_SENSOR_DEFECT;
 
-		if(pSensor->sensorVoltage < MIN_VOLT_VALUE|| pSensor->sensorVoltage > MAX_VOLT_VALUE )
-		{
-			return SENSOR_DEFECT;
-		}
-		//Difference from sensorVoltage and Offset
-		int32_t deltaVoltage = pSensor->sensorVoltage - VOLT_OFFSET;
+	    int32_t deltaVoltage = wSensor.sensorVoltage - VOLT_OFFSET;
 
-		int32_t value = MIN_SENOSR_VALUE + (int32_t)(deltaVoltage/pSensor->conversionFactor);
+	    int32_t value = MIN_SENSOR_VALUE +
+	                    (deltaVoltage / wSensor.conversionFactor);
 
-		//Validate the sensor value
-		if(value < MIN_SENOSR_VALUE || value > MAX_SENOSR_VALUE)
-			return SENSOR_INVALID_VALUE;
+	    if(value < MIN_SENSOR_VALUE || value > MAX_SENSOR_VALUE)
+	        return WATER_SENSOR_INVALID_VALUE;
 
-		return value;
+	    return value;
 }
