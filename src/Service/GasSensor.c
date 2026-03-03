@@ -45,8 +45,6 @@ int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt)
 	pSensor->sensorVoltage = sensorVolt;
 
 	return SENSOR_OK;
-
-
 }
 
 int32_t gasSensorGetSensorValue(GasSensor* pSensor)
@@ -71,8 +69,3 @@ int32_t gasSensorGetSensorValue(GasSensor* pSensor)
 
 	return value;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5a5441275a3a915ce293841d1a97457689a6c849
