@@ -5,11 +5,19 @@
  *      Author: kali
  */
 
+<<<<<<< HEAD
 #include <stdbool.h>
 #include "DualChannelGas.h"
 #include "ADCModule.h"
 #include "Filter/Filter.h"
 
+=======
+
+#include <stdbool.h>
+#include "DualChannelGas.h"
+#include "ADCModule.h"
+#include "Filter.h"
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
 
 #define NUMBERS_OF_SENSORS 2
 #define CONVERSION_FACTOR  204 //in microvoltage
@@ -24,7 +32,10 @@ static GasSensor sensorP1;
 static GasSensor sensorP2;
 static EMAFilterData_t filter;
 static bool resetFilter = false;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
 
 int32_t dualGasInit()
 {
@@ -53,7 +64,10 @@ int32_t dualGasInit()
 		if(filterCheck != FILTER_ERR_OK)
 			return FILTER_ERR_GENERAL;
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
 	return SENSORS_OK;
 }
 
@@ -123,7 +137,10 @@ int32_t dualGasGetAverage()
 
 	//Calculation of the average
 	int32_t average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
 	int32_t filteredAverage = filterEMA(&filter, average);
 
 	return filteredAverage;
