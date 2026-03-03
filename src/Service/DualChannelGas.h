@@ -9,7 +9,6 @@
 #define SRC_SERVICE_DUALCHANNELGAS_H_
 
 #include <stdint.h>
-#include "GasSensor.h"
 #include "stm32g4xx_hal.h"
 
 #define DUALSENSORS_OK 0

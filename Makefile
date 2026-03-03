@@ -164,7 +164,7 @@ AUTH_SECTION_RAW := $(BLD_DIR)/auth_section.bin
 AUTH_SECTION_ENC := $(BLD_DIR)/auth_section.bin.enc
 ENCRYPT_SCRIPT   := ../Scripts/encrypt_file.py
 
-patched: $(AUTH_ELF) $(ENCRYPT_SCRIPT)
+patched: $(BILD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(BLD_DIR)/auth.bin  $(AUTH_ELF) $(ENCRYPT_SCRIPT)
 	@echo "  OBJCOPY dump .auth -> $(notdir $(AUTH_SECTION_RAW))"
 	@$(OBJCOPY) --dump-section .auth=$(AUTH_SECTION_RAW) $(AUTH_ELF)
 	@echo "  PYTHON  encrypt -> $(notdir $(AUTH_SECTION_ENC))"

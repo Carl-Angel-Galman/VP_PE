@@ -53,7 +53,7 @@
 
 #define KEY_MAX_LEN           (8u)
 
-#define APP_STARTHANDLER_ADDR    (0x08010204)
+#define APP_STARTHANDLER_ADDR  0x08010204
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -107,7 +107,7 @@ void verify(void)
 		__disable_irq();
 
 
-		uint32_t *start_app_ptr = (uint32_t *)(0x08010200 + 4);
+		uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR);
 		app_start_function start = (app_start_function) *(start_app_ptr);
 		start();
 
