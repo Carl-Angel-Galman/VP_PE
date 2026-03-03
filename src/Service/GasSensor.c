@@ -1,7 +1,7 @@
 /*
  * GasSensor.c
  *
- *  Created on: Feb 18, 2026
+ *  Created on: Feb 10, 2026
  *      Author: kali
  */
 
@@ -45,8 +45,6 @@ int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt)
 	pSensor->sensorVoltage = sensorVolt;
 
 	return SENSOR_OK;
-
-
 }
 
 int32_t gasSensorGetSensorValue(GasSensor* pSensor)
@@ -71,5 +69,3 @@ int32_t gasSensorGetSensorValue(GasSensor* pSensor)
 
 	return value;
 }
-
-

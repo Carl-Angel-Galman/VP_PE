@@ -5,11 +5,21 @@ build/
 
 bin/
 out/
+<<<<<<< HEAD
 
 obj/
+=======
+obj/*.c
+obj/
+
+	
+>>>>>>> 9ed7cfd71b9d7246f9e3778a74411fa8dba7b9a3
 *.o
 *.elf
 *.bin
+*.a
+*.d
+*.su
 
 .log 
 .tmp

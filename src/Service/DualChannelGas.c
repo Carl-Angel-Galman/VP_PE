@@ -5,17 +5,44 @@
  *      Author: kali
  */
 
+<<<<<<< HEAD
+#include <stdbool.h>
 #include "DualChannelGas.h"
 #include "ADCModule.h"
+<<<<<<< HEAD
+=======
+#include "Filter/Filter.h"
+
+=======
+
+#include <stdbool.h>
+#include "DualChannelGas.h"
+#include "ADCModule.h"
+#include "Filter.h"
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
+>>>>>>> 9ed7cfd71b9d7246f9e3778a74411fa8dba7b9a3
 
 #define NUMBERS_OF_SENSORS 2
 #define CONVERSION_FACTOR  204 //in microvoltage
 #define MIN_SENOSR_VALUE 200 //in ppm
 #define MAX_SENOSR_VALUE 10000 //in ppm
+<<<<<<< HEAD
 #define INCONSISTENCY_VALUE 25 //in percent
+=======
+#define INCONSISTENCY_VALUE 10 //in percent
+#define CHECK_NULL_NEG 0
+#define FILTER_ALPHA 400
+#define FILTER_SCALING 1000
+>>>>>>> 9ed7cfd71b9d7246f9e3778a74411fa8dba7b9a3
 
 static GasSensor sensorP1;
 static GasSensor sensorP2;
+static EMAFilterData_t filter;
+static bool resetFilter = false;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
 
 int32_t dualGasInit(void)
 {
@@ -28,9 +55,31 @@ int32_t dualGasInit(void)
 	int32_t initCheck2 = gasSensorInitalize(&sensorP2, CONVERSION_FACTOR);
 	//Check successful initialization
 	if(initCheck2 != SENSOR_OK)
+<<<<<<< HEAD
 			return DUALSENSORS_NOT_OK;
 
 	return DUALSENSORS_OK;
+=======
+			return SENSORS_NOT_OK;
+	if(resetFilter == false)
+	{
+		int32_t filterCheck = filterInitEMA(&filter, FILTER_SCALING, FILTER_ALPHA);
+		if(filterCheck != FILTER_ERR_OK)
+			return FILTER_ERR_GENERAL;
+		resetFilter = true;
+	}
+	else if(resetFilter == true)
+	{
+		int32_t filterCheck = filterResetEMA(&filter);
+		if(filterCheck != FILTER_ERR_OK)
+			return FILTER_ERR_GENERAL;
+	}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
+	return SENSORS_OK;
+>>>>>>> 9ed7cfd71b9d7246f9e3778a74411fa8dba7b9a3
 }
 
 int32_t dualGasSetVoltages()
@@ -85,7 +134,12 @@ int32_t dualGasCheckInconsistency(void)
 
 	return DUALSENSORS_OK;
 }
+<<<<<<< HEAD
 int32_t dualGasGetAverage(int32_t * average)
+=======
+
+int32_t dualGasGetAverage()
+>>>>>>> 9ed7cfd71b9d7246f9e3778a74411fa8dba7b9a3
 {
 	if(average == NULL)
 	{
@@ -103,7 +157,18 @@ int32_t dualGasGetAverage(int32_t * average)
 	}
 
 	//Calculation of the average
+<<<<<<< HEAD
 	*average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
 
 	return DUALSENSORS_OK;
+=======
+	int32_t average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9e8db00e9f520b69f82bc906fb1a0682e1ef7199
+	int32_t filteredAverage = filterEMA(&filter, average);
+
+	return filteredAverage;
+>>>>>>> 9ed7cfd71b9d7246f9e3778a74411fa8dba7b9a3
 }
