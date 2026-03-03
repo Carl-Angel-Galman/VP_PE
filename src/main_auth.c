@@ -49,19 +49,15 @@
 
 
 /***** PRIVATE TYPES *********************************************************/
-typedef enum
-{
-	BOOTUP = 0,
-	PREPARE_APPLICATION = 1,
-	FAILURE = 2,
-	START_APPLICATION = 3
-}State;
+
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 static int32_t initializePeripherals();
 
 
 static State current_state = BOOTUP;
+
+extern uint32_t _sauth;
 
 
 /***** PRIVATE VARIABLES *****************************************************/
@@ -75,6 +71,11 @@ static State current_state = BOOTUP;
  */
 int main(void)
 {
+
+	Auth_ReadAppSignature();
+
+
+
 	while(1)
 	{
 	switch(current_state)
@@ -86,8 +87,11 @@ int main(void)
 
 			SystemClock_Config();
 
+
 			// Initialize Peripherals
-			if(initializePeripherals() != ERR_OK) break;
+			if(initializePeripherals() != AUTH_ERR_OK) break;
+
+			Auth_Init();
 
 			current_state = PREPARE_APPLICATION;
 
@@ -99,23 +103,27 @@ int main(void)
 
 			if(res == AUTH_ERR_TIMEOUT)
 			{
+				Auth_goToFailure();
+
 				current_state = FAILURE;
 				break;
 			}
 
 			uint8_t key_len = 8U;
 
-			int8_t key[key_len];
+			uint8_t key[key_len] = {};
 
 			res = Auth_ReadKey(key, &key_len);
 
 			if(res == AUTH_ERR_KEY_LENGHT_BREACH)
 			{
+				Auth_goToFailure();
+
 				current_state = FAILURE;
 				break;
 			}
 
-			copy_and_decrypt_auth_section(key);
+			copy_and_decrypt_auth_section(key, key_len);
 
 			current_state = START_APPLICATION;
 
@@ -130,6 +138,7 @@ int main(void)
 
 		case START_APPLICATION:
 		{
+
 			verify();
 
 		}
@@ -168,7 +177,7 @@ static int32_t initializePeripherals()
     if(timerInitialize()!= TIMER_ERR_OK) 		return AUTH_ERR_FAILURE;
     if(adcInitialize()!= ADC_ERR_OK) 			return AUTH_ERR_FAILURE;
 
-    return ERROR_OK;
+    return AUTH_ERR_OK;
 }
 
 

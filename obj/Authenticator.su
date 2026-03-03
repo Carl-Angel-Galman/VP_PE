@@ -1,7 +1,9 @@
-src/Auth/Authenticator.c:110:6:verify	16	static
-src/Auth/Authenticator.c:123:8:copy_and_decrypt_auth_section	32	static
-src/Auth/Authenticator.c:157:13:switch_to_app	16	static
-src/Auth/Authenticator.c:171:8:Auth_WaitForA	24	static
-src/Auth/Authenticator.c:197:8:Auth_ReadKey	40	static
-src/Auth/Authenticator.c:284:8:Auth_init	8	static
-src/Auth/Authenticator.c:295:13:Flash_D1	8	static
+src/Auth/Authenticator.c:100:6:verify	24	static
+src/Auth/Authenticator.c:128:8:copy_and_decrypt_auth_section	32	static
+src/Auth/Authenticator.c:157:8:Auth_WaitForA	16	static
+src/Auth/Authenticator.c:185:8:Auth_ReadKey	40	static
+src/Auth/Authenticator.c:282:8:Auth_ReadAppSignature	16	static
+src/Auth/Authenticator.c:295:8:Auth_Init	8	static
+src/Auth/Authenticator.c:306:8:Auth_goToFailure	8	static
+src/Auth/Authenticator.c:317:13:switch_to_app	16	static
+src/Auth/Authenticator.c:332:13:Flash_D1	8	static

@@ -1,0 +1,2 @@
+src/main_auth.c:72:5:main	56	dynamic
+src/main_auth.c:170:16:initializePeripherals	8	static
