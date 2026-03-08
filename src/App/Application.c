@@ -253,7 +253,7 @@ int32_t AppPollForButtonEvent(void)
 	}
 	if(b1Status == BUTTON_PRESSED)
 	{
-		return EVT_ID_B1_PRESSED;
+		return EVT_ID_ALARM_RESET;
 	}
 	return NO_EVT;
 }
