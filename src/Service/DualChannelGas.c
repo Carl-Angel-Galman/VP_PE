@@ -18,7 +18,7 @@
 #define MIN_SENOSR_VALUE 200 //in ppm
 #define MAX_SENOSR_VALUE 10000 //in ppm
 
-#define INCONSISTENCY_VALUE 10 //in percent
+#define INCONSISTENCY_VALUE 40 //in percent
 #define CHECK_NULL_NEG 0
 #define FILTER_ALPHA 400
 #define FILTER_SCALING 1000
@@ -63,14 +63,14 @@ int32_t dualGasSetVoltages()
 	//Reading data of ADC
 	int32_t Voltage1 = adcReadChannel(ADC_INPUT0);
 	//No error code possible, validation takes place in the gasSensorSetSensorVoltage
-	int32_t checkSetted = gasSensorSetSensorVoltage(&sensorP1, Voltage1);
+	int32_t checkSetted = gasSensorSetSensorVoltage(&sensorP1, &filter, Voltage1);
 	if(checkSetted != SENSOR_OK)
 	{
 		//CheckSetted return the error codes of gasSensorSetSensorVoltage
 		return checkSetted;
 	}
 	int32_t Voltage2 = adcReadChannel(ADC_INPUT1);
-	checkSetted = gasSensorSetSensorVoltage(&sensorP2, Voltage2);
+	checkSetted = gasSensorSetSensorVoltage(&sensorP2,&filter, Voltage2);
 	if(checkSetted != SENSOR_OK)
 	{
 		return checkSetted;
@@ -103,14 +103,14 @@ int32_t dualGasCheckInconsistency(void)
 	}
 
 	//Checking for 10% inconsistency
-	if((diff*INCONSISTENCY_VALUE) >= maxValue)
+	if((diff * 100 >= maxValue * INCONSISTENCY_VALUE))
 	{
 		return DUALSENSORS_DEFECT;
 	}
 
 	return DUALSENSORS_OK;
 }
-int32_t dualGasGetAverage(int32_t * average)
+int32_t dualGasGetAverage(int32_t* average)
 
 {
 	if(average == NULL)
@@ -131,8 +131,6 @@ int32_t dualGasGetAverage(int32_t * average)
 	//Calculation of the average
 	*average = (int32_t) (ppm_sensor1 + ppm_sensor2)/NUMBERS_OF_SENSORS;
 
-
-	*average = filterEMA(&filter, *average);
 
 	return DUALSENSORS_OK;
 }

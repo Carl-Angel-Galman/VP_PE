@@ -9,6 +9,7 @@
 #define SRC_SERVICE_GASSENSOR_H_
 
 #include <stdint.h>
+#include "Filter/Filter.h"
 
 #define SENSOR_OK			0
 #define SENSOR_INVALID_PTR	-1
@@ -30,7 +31,7 @@ typedef struct _GasSensor
 int32_t gasSensorInitalize(GasSensor* pSensor, uint32_t convFactor);
 
 //Input sensorVolt in mircoVoltage,  return SENSOR_OK if no error occured
-int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt);
+int32_t gasSensorSetSensorVoltage(GasSensor* pSensor,EMAFilterData_t* filter, uint32_t sensorVolt);
 
 //Returns the ppm-Value of sensor
 int32_t gasSensorGetSensorValue(GasSensor* pSensor);
