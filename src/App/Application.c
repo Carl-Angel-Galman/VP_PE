@@ -255,9 +255,9 @@ int32_t AppSendEvent(int32_t eventID)
 //priority 1-> B1 because reset, 2-> SW2, 3-> SW1
 int32_t AppPollForButtonEvent(void)
 {
-	Button_Status_t sw1Status =  buttonGetButtonStatus(BTN_SW1);
-	Button_Status_t sw2Status =  buttonGetButtonStatus(BTN_SW2);
-	Button_Status_t b1Status =  buttonGetButtonStatus(BTN_B1);
+	bool sw1Status =  buttonhasButtonDebounced(BTN_SW1);
+	bool sw2Status =  buttonhasButtonDebounced(BTN_SW2);
+	bool b1Status =  buttonhasButtonDebounced(BTN_B1);
 
 
 
