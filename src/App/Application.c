@@ -199,8 +199,6 @@ static int8_t leftDigit = DIGIT_DASH;
 
 static int8_t rightDigit = DIGIT_DASH;
 
-static bool gasWarningLedTriggered = false;
-static bool waterWarningLedTriggered = false;
 
 
 

@@ -44,7 +44,7 @@
 #define EVT_ID_STACK_CORRUPTION			7
 #define EVT_ID_TRIGGER_EMERGENCY 		8
 
-<<<<<<< HEAD
+
 typedef struct
 {
     int32_t warningThreshold;
@@ -60,8 +60,7 @@ typedef struct
 
 } SensorMonitor_t;
 /***** TYPES *****************************************************************/
-=======
->>>>>>> 674f9765e90ae3ad00dd93a0939352948f21826e
+
 
 /***** TYPES *****************************************************************/
 
