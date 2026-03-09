@@ -102,13 +102,18 @@ static void Flash_D1(uint32_t elapsedTime) ;
 
 static void keyReadingWarningDetermination(uint32_t elapsed);
 
+
+/*******************************************************************************
+ * Global Variables
+ ******************************************************************************/
+
+extern uint32_t _sloadauth;
+
+extern uint32_t _sauth;
+
+extern uint32_t _eauth;
+
 /***** PRIVATE VARIABLES *****************************************************/
-
-extern uint8_t _sloadauth;
-
-extern uint8_t _sauth;
-
-extern uint8_t _eauth;
 
 static KEY_INPUT_WARNING_STAGES keyInputWarningStage;
 

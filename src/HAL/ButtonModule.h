@@ -73,4 +73,9 @@ int32_t buttonInitialize();
 Button_Status_t buttonGetButtonStatus(Button_t button);
 
 bool buttonIsButtonPressed(Button_t button);
+/*
+ * Checks if the button has debounced
+ * @returns bool if debounced or not
+ */
+bool buttonhasButtonDebounced(Button_t button);
 #endif

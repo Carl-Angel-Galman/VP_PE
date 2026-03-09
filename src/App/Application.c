@@ -19,7 +19,6 @@
 
 #include "Application.h"
 
-#include "Util/Global.h"
 
 #include "Util/Log/printf.h"
 
@@ -43,6 +42,8 @@
 #include "TimerModule.h"
 
 #include "System.h"
+
+#include "Global.h"
 
 
 
@@ -181,8 +182,7 @@ static StateTableEntry_t gStateTableEntries[] =
 
 	{STATE_ID_OPERATIONAL, 			STATE_ID_FAILURE, 					EVT_ID_STACK_CORRUPTION, 		FailureGuard,		&gStateList[2],      	&gStateList[3]},
 
-	{STATE_ID_INIT,          		STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,       	FailureGuard,      	&gStateList[0],      	&gStateList[3]},
-
+	{STATE_ID_INIT,          		STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,       	FailureGuard,      	&gStateList[0],      	&gStateList[3]}
 };
 
 
@@ -263,12 +263,9 @@ int32_t AppSendEvent(int32_t eventID)
 //priority 1-> B1 because reset, 2-> SW2, 3-> SW1
 int32_t AppPollForButtonEvent(void)
 {
-	Button_Status_t sw1Status =  buttonGetButtonStatus(BTN_SW1);
-	Button_Status_t sw2Status =  buttonGetButtonStatus(BTN_SW2);
-	Button_Status_t b1Status =  buttonGetButtonStatus(BTN_B1);
-
-
-
+	bool sw1Status =  buttonhasButtonDebounced(BTN_SW1);
+	bool sw2Status =  buttonhasButtonDebounced(BTN_SW2);
+	bool b1Status =  buttonhasButtonDebounced(BTN_B1);
 
 	if(sw1Status == BUTTON_PRESSED)
 	{
