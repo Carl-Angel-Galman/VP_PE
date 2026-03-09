@@ -10,11 +10,10 @@
 
 #include <stdint.h>
 
-#define SENSOR_OK			0
+#define WATER_SENSOR_OK			0
 #define SENSOR_INVALID_PTR	-1
-#define SENSOR_INVALID_CONVFACTOR -2
-#define SENSOR_INVALID_VALUE -3
-#define SENSOR_DEFECT -5
+#define WATER_SENSOR_INVALID_VALUE -3
+#define WATER_SENSOR_DEFECT -5
 #define NO_DATA_GET -7
 
 typedef struct _WaterSensor
@@ -28,13 +27,13 @@ typedef struct _WaterSensor
 } WaterSensor;
 
 //Initalize the WaterSensor, return SENSOR_OK if no error occured
-int32_t waterSensorInitalize(WaterSensor* pSensor, uint32_t convFactor);
+int32_t waterSensorInitalize();
 
-//Input sensorVolt in mircoVoltage,  return SENSOR_OK if no error occured
-int32_t waterSensorSetSensorVoltage(WaterSensor* pSensor, uint32_t sensorVolt);
+//Input from python Script,  return SENSOR_OK if no error occured
+int32_t waterSensorSetSensorVoltage();
 
 //Returns the cm-Value of sensor
-int32_t waterSensorGetSensorValue(WaterSensor* pSensor);
+int32_t waterSensorGetSensorValue(int32_t* waterlevel);
 
 
 

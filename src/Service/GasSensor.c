@@ -8,6 +8,7 @@
 #include <stddef.h>
 #include "GasSensor.h"
 
+
 #define MIN_SENOSR_VALUE 200
 #define MAX_SENOSR_VALUE 10000
 #define MIN_VOLT_VALUE 500000
@@ -32,7 +33,7 @@ int32_t gasSensorInitalize(GasSensor* pSensor, uint32_t convFactor)
 	return SENSOR_OK;
 }
 
-int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt)
+int32_t gasSensorSetSensorVoltage(GasSensor* pSensor,EMAFilterData_t* filter, uint32_t sensorVolt)
 {
 	if(pSensor == NULL)
 		{
@@ -42,7 +43,7 @@ int32_t gasSensorSetSensorVoltage(GasSensor* pSensor, uint32_t sensorVolt)
 		{
 			return SENSOR_DEFECT;
 		}
-	pSensor->sensorVoltage = sensorVolt;
+	pSensor->sensorVoltage = filterEMA(filter, sensorVolt);
 
 	return SENSOR_OK;
 }

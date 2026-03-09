@@ -246,9 +246,14 @@ int8_t AuthWaitForA(void)
 
 		elapsed = currentTime - startTimeStamp;
 
-		int32_t uartReceiveResult = uartReceiveData(&charBuffer, 1, 20u);
+		int32_t uartReceiveResult = uartReceiveData(&charBuffer, 1, KEY_POLL_TIMEOUT_MS);
 
-		if (uartReceiveResult == UART_ERR_OK)
+		if (uartReceiveResult == UART_ERR_TIMEOUT)
+		{
+			continue;
+		}
+
+		else if (uartReceiveResult == UART_ERR_OK)
 		{
 			if (charBuffer == (uint8_t)RECEIVE_CHARACTER)
 			{

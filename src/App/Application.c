@@ -34,6 +34,8 @@
 
 #include "DualChannelGas.h"
 
+#include "WaterSensor.h"
+
 #include "Util/StateTable/StateTable.h"
 
 #include "ADCModule.h"
@@ -52,14 +54,28 @@
 
 #define GAS_SENSOR_EMERGENCY_THRESHHOLD 5000
 
+#define TEN_SEC_THRESHOLD_50MS 200
+
 #define FIVE_SEC_THRESHOLD_50MS 100
 
 #define THREE_SEC_THRESHOLD_50MS 60
 
+#define COUNTER_HAS_REACHED_TEN_SECS_50MS(counter) (counter >= TEN_SEC_THRESHOLD_50MS)
 
 #define COUNTER_HAS_REACHED_FIVE_SECS_50MS(counter) (counter >= FIVE_SEC_THRESHOLD_50MS)
 
 #define COUNTER_HAS_REACHED_THREE_SECS_50MS(counter) (counter >= THREE_SEC_THRESHOLD_50MS)
+
+
+#define WATER_SENSOR_WARNING_THRESHHOLD 250 //in cm
+
+#define WATER_SENSOR_EMERGENCY_THRESHHOLD 300
+
+#define MAX_DISPLAY_NUMBER 999
+
+#define HUNDREDS_DIGIT 100
+
+#define TENS_DIGIT 10
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -186,7 +202,15 @@ int32_t AppInitialize(void)
 
 	initializePeripherals();
 
+	//Initialize gasSensor Modul and check if it is ok
 	int32_t dualGasInitRes = dualGasInit();
+	if(dualGasInitRes != DUALSENSORS_OK)
+		AppSendEvent(EVT_ID_ERROR);
+
+	//Initialize WaterSensor Modul and check if it is ok
+	int32_t waterInitRes = waterSensorInitalize();
+	if(waterInitRes != WATER_SENSOR_OK)
+			AppSendEvent(EVT_ID_ERROR);
 
     gStateTable.pStateList = gStateList;
 
@@ -248,7 +272,7 @@ int32_t AppPollForButtonEvent(void)
 	}
 	if(b1Status == BUTTON_PRESSED)
 	{
-		return EVT_ID_B1_PRESSED;
+		return EVT_ID_ALARM_RESET;
 	}
 	return NO_EVT;
 }
@@ -344,7 +368,6 @@ static int32_t onInit(State_t* pState, int32_t eventID)
     }
 
 
-
 	return stateTableResult;
 }
 
@@ -359,6 +382,8 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 	int32_t stateTableResult = STATETBL_ERR_OK;
 
 	int32_t currentAverage = 0;
+	int32_t currentWaterLevel = 0;
+
 
 	if(dualGasSetVoltages() != DUALSENSORS_OK)
 	{
@@ -417,10 +442,46 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 		return STATETBL_ERR_OK;
 	}
 
+	//Warning, Emergency and Failure Logic for the watersensor
+	if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
+	{
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		return STATETBL_ERR_OK;
+	}
 
+	if(waterSensorGetSensorValue(&currentWaterLevel) != WATER_SENSOR_OK)
+	{
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		return STATETBL_ERR_OK;
+	}
 
-	leftDigit = 6;
-	rightDigit = 7;
+	if(currentWaterLevel <= WATER_SENSOR_WARNING_THRESHHOLD)
+	{
+		waterSensorWarningCount = 0;
+	}
+
+	if(currentWaterLevel <= WATER_SENSOR_EMERGENCY_THRESHHOLD)
+	{
+		waterSensorEmergencyCount = 0;
+	}
+	if(currentWaterLevel > MAX_DISPLAY_NUMBER)
+	{
+		currentWaterLevel = MAX_DISPLAY_NUMBER;
+	}
+	leftDigit = currentWaterLevel/HUNDREDS_DIGIT;
+	rightDigit = currentWaterLevel/TENS_DIGIT;
+
+	if(COUNTER_HAS_REACHED_TEN_SECS_50MS(waterSensorWarningCount))
+	{
+		ledSetLED(LED1, LED_ON);
+	}
+
+	if(COUNTER_HAS_REACHED_FIVE_SECS_50MS(waterSensorEmergencyCount))
+	{
+		waterSensorEmergencyCount = 0;
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_TRIGGER_EMERGENCY);
+		return STATETBL_ERR_OK;
+	}
 
 
 	return stateTableResult;
