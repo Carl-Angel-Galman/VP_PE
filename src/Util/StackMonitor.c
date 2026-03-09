@@ -1,59 +1,87 @@
 /**
- * @file      main_state.c
- * @author    Carl Angel Galman
- * @author 	  Liza Henriette Thöne
- * @date      01.05.2023
+ * @file    StackMonitor.c
+ * @author  Carl Angel Galman
+ * @author  Liza Henriette Thöne
+ * @date    01.05.2023
  *
- * @brief [description]
+ * @brief   Functions for monitoring stack usage and detecting stack corruption.
+ *
+ * This module provides helper functions to:
+ * - determine the amount of free stack space
+ * - determine the amount of used stack space
+ * - calculate the stack usage in percent
+ * - detect whether the stack boundaries have been corrupted
+ *
+ * The implementation assumes that the stack memory is pre-filled with a known
+ * marker value during system initialization. As long as a memory word still
+ * contains this marker, it is considered unused stack space.
+ *
+ * The linker symbols `_sstack` and `_estack` define the lower and upper
+ * boundaries of the stack region.
  */
 
 /*******************************************************************************
-* Includes
-*******************************************************************************/
+ * Includes
+ ******************************************************************************/
 
 #include "StackMonitor.h"
-
-
-#include "stdbool.h"
-
+#include <stdbool.h>
+#include <stdint.h>
 #include "Util/Global.h"
 
 /*******************************************************************************
-* Defines
-*******************************************************************************/
+ * Defines
+ ******************************************************************************/
 
+/**
+ * @brief Marker placed at the stack boundary to detect corruption.
+ *
+ * This value is expected at the configured stack boundary. If it has been
+ * overwritten, the stack is assumed to be corrupted.
+ */
+#define ENDMARKER   0xEA1DADABu
+
+/**
+ * @brief Fill pattern used to initialize unused stack memory.
+ *
+ * During startup, the unused stack area should be filled with this value.
+ * Later, the monitor scans the stack region and counts how many words still
+ * contain this marker.
+ */
+#define MARKER      0xDEC0ADDEu
+
+/**
+ * @brief Total size of the monitored stack region in bytes.
+ *
+ * The value is calculated from linker symbols provided by the linker script.
+ */
+#define STACK_SIZE_BYTES ((uint32_t)((uintptr_t)&_estack - (uintptr_t)&_sstack))
+
+/*******************************************************************************
+ * Global Variables
+ ******************************************************************************/
+
+/**
+ * @brief Linker symbol marking the upper boundary of the stack.
+ */
 extern uint32_t _estack;
 
+/**
+ * @brief Linker symbol marking the lower boundary of the stack.
+ */
 extern uint32_t _sstack;
 
-#define ENDMARKER 0xEA1DADAB
-
-#define MARKER 0xdec0adde
-
-#define STACK_SIZE 0x1000
-
-
 /*******************************************************************************
-* Local Types and Typedefs
-*******************************************************************************/
+ * Static Functions
+ ******************************************************************************/
 
-/*******************************************************************************
-* Global Variables
-*******************************************************************************/
-
-
-/*******************************************************************************
-* Static Function Prototypes
-*******************************************************************************/
-
-/*******************************************************************************
-* Static Variables
-*******************************************************************************/
-
-/*******************************************************************************
-* static Functions
-*******************************************************************************/
-
+/**
+ * @brief Returns the current Main Stack Pointer (MSP) value.
+ *
+ * This helper reads the current MSP register directly using inline assembly.
+ *
+ * @return Current MSP value.
+ */
 static inline uint32_t get_msp(void)
 {
     uint32_t msp;
@@ -61,89 +89,96 @@ static inline uint32_t get_msp(void)
     return msp;
 }
 
-
 /*******************************************************************************
-* Exported Functions
-*******************************************************************************/
+ * Exported Functions
+ ******************************************************************************/
 
-/*<
+/**
+ * @brief Calculates the currently unused stack space in bytes.
  *
- * @brief retrieves the value of free Bytes of in the Stack by iterating through the stack
+ * The function scans the stack memory from the lower stack boundary
+ * (`_sstack`) upwards until it finds a value different from `MARKER`.
  *
- * The Function interates over the stack by using the symbols
- * _sstack and _estack defined in the linker script.
- * The Loop starts at the bottom and runs until the top of the stack
- * or an overwritten memory space.
+ * Every word that still contains `MARKER` is treated as unused stack memory.
+ * The function returns the corresponding size in bytes.
  *
- * @return the ammount of free bytes counted in the loop
+ * @return Number of free stack bytes.
  */
 uint32_t GetFreeBytes(void)
 {
-    uint32_t *p  = &_sstack;
-    uint32_t *high = &_estack;
+    uint32_t *stack_scan = &_sstack;
+    uint32_t *stack_top  = &_estack;
 
-    uint32_t byte_counter = 0;
-
-    while (p < high && *p == MARKER) {
-        p++;
-        byte_counter++;
+    while ((stack_scan < stack_top) && (*stack_scan == MARKER)) {
+        stack_scan++;
     }
 
-    return byte_counter;
+    return (uint32_t)((uintptr_t)stack_scan - (uintptr_t)&_sstack);
 }
 
-
-/*<
+/**
+ * @brief Calculates the currently used stack space in bytes.
  *
- * @brief retrieves the value of used Bytes of in the Stack by iterating through the stack
+ * The used stack space is determined as:
  *
- * * The Function interates over the stack by using the symbols
- * _sstack and _estack defined in the linker script.
- * The Loop starts at the bottom and runs until the top of the stack
- * or an overwritten memory space, counting the free bytes in the stack,
- * and substracting these from the stack size in bytes
+ * used stack = total stack size - free stack size
  *
- * @returns the used bytes as the complement of Free Bytes and Stack Size.
+ * A safety check ensures that the returned value never exceeds the configured
+ * stack size.
  *
+ * @return Number of used stack bytes.
  */
 uint32_t GetUsedBytes(void)
 {
-    uint32_t *p  = &_sstack;
-    uint32_t *high = &_estack;
+    uint32_t free_bytes = GetFreeBytes();
 
-    uint32_t byte_counter = 0;
+    if (free_bytes > STACK_SIZE_BYTES) {
+        return STACK_SIZE_BYTES;
+    }
 
-    while (p < high && *p == MARKER) {
-        p++;
-        byte_counter++;
+    return STACK_SIZE_BYTES - free_bytes;
 }
 
-      return STACK_SIZE - byte_counter;
-
-}
-
+/**
+ * @brief Returns the stack usage as a percentage.
+ *
+ * The function calculates the percentage of used stack memory relative to the
+ * total stack size.
+ *
+ * @return Stack usage in percent (0 to 100).
+ */
 uint8_t GetUsage(void)
 {
-
-    return GetUsedBytes() >> 12;
+    return (uint8_t)((GetUsedBytes() * 100u) / STACK_SIZE_BYTES);
 }
 
-/*<
+/**
+ * @brief Checks whether the stack is corrupted.
  *
- * @brief checks if the bottom of the stack has been overwritten, therefore corrupted
+ * The function performs two checks:
  *
- * @returns bool if the stack is corrupted
+ * 1. Verifies that the stack boundary marker (`ENDMARKER`) is still present.
+ * 2. Verifies that the current Main Stack Pointer (MSP) lies within the
+ *    expected stack boundaries.
  *
+ * If either check fails, the stack is considered corrupted.
+ *
+ * @retVal `true` if stack corruption is detected,
+ * @retVal `false`otherwise.
  */
 bool isCorrupted(void)
 {
-    uint32_t* p = &_estack;
-    if(*p != ENDMARKER)	return true;
+    uint32_t *stack_end_marker = &_estack;
+
+    if (*stack_end_marker != ENDMARKER) {
+        return true;
+    }
 
     uint32_t sp = get_msp();
 
-    if (sp < (uint32_t)&_sstack || sp > (uint32_t)&_estack) return true;
+    if ((sp < (uint32_t)&_sstack) || (sp > (uint32_t)&_estack)) {
+        return true;
+    }
 
     return false;
-
 }

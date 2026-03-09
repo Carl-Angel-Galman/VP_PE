@@ -112,7 +112,7 @@ static bool FailureGuard(StateTableEntry_t * pEntry, int32_t eventID);
 
 static bool TestModeGuard(StateTableEntry_t * pEntry, int32_t eventID);
 
-static void change_vector_table(void);
+static void changeVectorTable(void);
 
 static int32_t initializePeripherals(void);
 
@@ -126,7 +126,6 @@ static uint32_t waterSensorWarningCount = 0;
 static uint32_t gasSensorEmergencyCount = 0;
 
 static uint32_t waterSensorEmergencyCount = 0;
-
 
 /**
  * @brief List of State for the State Machine
@@ -160,22 +159,32 @@ static State_t gStateList[] =
  */
 static StateTableEntry_t gStateTableEntries[] =
 {
-	{STATE_ID_INIT, 			STATE_ID_PREOPERATIONAL,          	EVT_ID_INIT_READY,          	PreOpGuard,      	&gStateList[0],      	&gStateList[1]},
+	{STATE_ID_INIT, 				STATE_ID_PREOPERATIONAL,          	EVT_ID_INIT_READY,          	PreOpGuard,      	&gStateList[0],      	&gStateList[1]},
 
-	{STATE_ID_INIT,          	STATE_ID_FAILURE,           		EVT_ID_ERROR,       	        FailureGuard,      	&gStateList[0],      	&gStateList[3]},
+	{STATE_ID_INIT,          		STATE_ID_FAILURE,           		EVT_ID_ERROR,       	        FailureGuard,      	&gStateList[0],      	&gStateList[3]},
 
-	{STATE_ID_PREOPERATIONAL, 	STATE_ID_OPERATIONAL,           	EVT_ID_SW1_PRESSED,      		OpGuard,      		&gStateList[1],      	&gStateList[2]},
+	{STATE_ID_PREOPERATIONAL, 		STATE_ID_OPERATIONAL,           	EVT_ID_SW1_PRESSED,      		OpGuard,      		&gStateList[1],      	&gStateList[2]},
 
-	{STATE_ID_OPERATIONAL, 		STATE_ID_PREOPERATIONAL, 			EVT_ID_SW1_PRESSED, 			PreOpGuard,			&gStateList[2],      	&gStateList[1]},
+	{STATE_ID_OPERATIONAL, 			STATE_ID_PREOPERATIONAL, 			EVT_ID_SW1_PRESSED, 			PreOpGuard,			&gStateList[2],      	&gStateList[1]},
 
-	{STATE_ID_OPERATIONAL, 		STATE_ID_FAILURE, 					EVT_ID_ERROR, 					FailureGuard,		&gStateList[2],      	&gStateList[3]},
+	{STATE_ID_OPERATIONAL, 			STATE_ID_FAILURE, 					EVT_ID_ERROR, 					FailureGuard,		&gStateList[2],      	&gStateList[3]},
 
-	{STATE_ID_OPERATIONAL, 		STATE_ID_EMERGENCY, 				EVT_ID_TRIGGER_EMERGENCY, 		EmergencyGuard,		&gStateList[2],      	&gStateList[5]},
+	{STATE_ID_OPERATIONAL, 			STATE_ID_EMERGENCY, 				EVT_ID_TRIGGER_EMERGENCY, 		EmergencyGuard,		&gStateList[2],      	&gStateList[5]},
 
-	{STATE_ID_OPERATIONAL, 		STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[5]},
+	{STATE_ID_OPERATIONAL, 			STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[5]},
 
-	{STATE_ID_EMERGENCY, 		STATE_ID_OPERATIONAL, 				EVT_ID_ALARM_RESET, 			OpGuard,			&gStateList[0],      	&gStateList[2]}
+	{STATE_ID_EMERGENCY, 			STATE_ID_OPERATIONAL, 				EVT_ID_B1_PRESSED, 				OpGuard,			&gStateList[0],      	&gStateList[2]},
+
+	{STATE_ID_TESTMODE, 			STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,      	FailureGuard,      	&gStateList[5],      	&gStateList[3]},
+
+	{STATE_ID_PREOPERATIONAL, 		STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,      	FailureGuard,      	&gStateList[1],      	&gStateList[3]},
+
+	{STATE_ID_OPERATIONAL, 			STATE_ID_FAILURE, 					EVT_ID_STACK_CORRUPTION, 		FailureGuard,		&gStateList[2],      	&gStateList[3]},
+
+	{STATE_ID_INIT,          		STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,       	FailureGuard,      	&gStateList[0],      	&gStateList[3]},
+
 };
+
 
 /**
  * @brief Global State Table instance
@@ -194,7 +203,7 @@ static bool warningLedTriggered = false;
 
 int32_t AppInitialize(void)
 {
-	change_vector_table();
+	changeVectorTable();
 
 	HAL_Init();
 
@@ -228,7 +237,6 @@ int32_t AppInitialize(void)
 	{
 		return APP_INIT_ERR;
 	}
-
 
     return APP_NO_ERR;
 }
@@ -272,7 +280,7 @@ int32_t AppPollForButtonEvent(void)
 	}
 	if(b1Status == BUTTON_PRESSED)
 	{
-		return EVT_ID_ALARM_RESET;
+		return EVT_ID_B1_PRESSED;
 	}
 	return NO_EVT;
 }
@@ -283,13 +291,26 @@ int32_t AppDisplayDigitsOnSegments(void)
 	return APP_NO_ERR;
 }
 
+void AppSetCustomMSPIfEnabled(void)
+{
+#if defined(USE_CUSTOM_MSP) && (USE_CUSTOM_MSP == 1)
 
+	extern uint32_t _estack;
+	uint32_t outsideOfStack = _estack + 4;
+   __disable_irq();
+   __set_MSP(outsideOfStack);
+   __DSB();
+   __ISB();
+   __enable_irq();
+#endif
+
+}
 
 
 /***** PRIVATE FUNCTIONS *****************************************************/
 
 
-static void change_vector_table(void)
+static void changeVectorTable(void)
 {
     const uint32_t app_base = 0x08010200;
 
@@ -484,8 +505,12 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 	}
 
 
+
+
 	return stateTableResult;
 }
+
+
 
 static int32_t onEmergency(State_t *pState, int32_t eventID)
 {
@@ -543,7 +568,7 @@ static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID)
 
 static bool OpGuard(StateTableEntry_t * pEntry, int32_t eventID)
 {
-	if((eventID == EVT_ID_SW1_PRESSED) || (eventID == EVT_ID_ALARM_RESET))
+	if((eventID == EVT_ID_SW1_PRESSED) || (eventID == EVT_ID_B1_PRESSED))
 			return true;
 
 		return false;
@@ -568,12 +593,13 @@ static bool TestModeGuard(StateTableEntry_t * pEntry, int32_t eventID)
 
 static bool FailureGuard(StateTableEntry_t *pEntry, int32_t eventID)
 {
-	if((eventID ==STATE_ID_FAILURE) ||  (eventID == EVT_ID_ERROR))
+	if( ((eventID == EVT_ID_ERROR) ||  (eventID == EVT_ID_STACK_CORRUPTION)))
 	{
 		return true;
 	}
 	return false;
 }
+
 
 
 

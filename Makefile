@@ -44,7 +44,9 @@ APP_LD_FILE = linker/App.ld
 AUTH_LD_FILE = linker/Auth.ld
 
 # Pre-Processor defines to configure the HAL library
-DEF	= -DSTM32G4xx -DSTM32G474xx -DUSE_HAL_DRIVER -DF_CPU=170000000L -DDEBUG_BUILD
+DEF = -DSTM32G4xx -DSTM32G474xx -DUSE_HAL_DRIVER -DF_CPU=170000000L -DDEBUG_BUILD
+
+
 
 
 ###############################################################################

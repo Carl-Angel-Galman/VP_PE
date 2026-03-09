@@ -30,8 +30,8 @@
 #define EVT_ID_SW2_PRESSED				4
 #define EVT_ID_B1_PRESSED				5
 #define EVT_ID_TO_TESTMODE 				6
-#define EVT_ID_ALARM_RESET 				7
-#define EVT_ID_TRIGGER_EMERGENCY 		8
+#define EVT_ID_TRIGGER_EMERGENCY 		7
+#define EVT_ID_STACK_CORRUPTION 		8
 
 /***** TYPES *****************************************************************/
 
