@@ -17,6 +17,7 @@
 
 /***** INCLUDES **************************************************************/
 #include <stdint.h>
+#include <stdbool.h>
 
 /***** CONSTANTS *************************************************************/
 
@@ -42,6 +43,20 @@
 #define EVT_ID_TO_TESTMODE 				6
 #define EVT_ID_TRIGGER_EMERGENCY 		8
 
+typedef struct
+{
+    int32_t warningThreshold;
+    int32_t emergencyThreshold;
+
+    uint32_t warningCounter;
+    uint32_t emergencyCounter;
+
+    uint32_t warningTime;
+    uint32_t emergencyTime;
+
+    bool warningLedTriggered;
+
+} SensorMonitor_t;
 /***** TYPES *****************************************************************/
 
 

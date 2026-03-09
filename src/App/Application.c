@@ -115,17 +115,26 @@ static void change_vector_table(void);
 
 static int32_t initializePeripherals(void);
 
+static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor);
+
 
 /***** PRIVATE VARIABLES *****************************************************/
 
-static uint32_t gasSensorWarningCount = 0;
+static SensorMonitor_t gasSensor =
+{
+    .warningThreshold = GAS_SENSOR_WARNING_THRESHHOLD,
+    .emergencyThreshold = GAS_SENSOR_EMERGENCY_THRESHHOLD,
+    .warningTime = FIVE_SEC_THRESHOLD_50MS,
+    .emergencyTime = THREE_SEC_THRESHOLD_50MS
+};
 
-static uint32_t waterSensorWarningCount = 0;
-
-static uint32_t gasSensorEmergencyCount = 0;
-
-static uint32_t waterSensorEmergencyCount = 0;
-
+static SensorMonitor_t waterSensor =
+{
+    .warningThreshold = WATER_SENSOR_WARNING_THRESHHOLD,
+    .emergencyThreshold = WATER_SENSOR_EMERGENCY_THRESHHOLD,
+    .warningTime = TEN_SEC_THRESHOLD_50MS,
+    .emergencyTime = FIVE_SEC_THRESHOLD_50MS
+};
 
 /**
  * @brief List of State for the State Machine
@@ -186,7 +195,10 @@ static int8_t leftDigit = DIGIT_DASH;
 
 static int8_t rightDigit = DIGIT_DASH;
 
-static bool warningLedTriggered = false;
+static bool gasWarningLedTriggered = false;
+static bool waterWarningLedTriggered = false;
+
+
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
@@ -254,19 +266,16 @@ int32_t AppSendEvent(int32_t eventID)
 //priority 1-> B1 because reset, 2-> SW2, 3-> SW1
 int32_t AppPollForButtonEvent(void)
 {
-	bool sw1Status =  buttonhasButtonDebounced(BTN_SW1);
-	bool sw2Status =  buttonhasButtonDebounced(BTN_SW2);
-	bool b1Status =  buttonhasButtonDebounced(BTN_B1);
 
-	if(sw1Status == BUTTON_PRESSED)
+	if(buttonhasButtonDebounced(BTN_SW1))
 	{
 		return EVT_ID_SW1_PRESSED;
 	}
-	if(sw2Status == BUTTON_PRESSED)
+	if(buttonhasButtonDebounced(BTN_SW2))
 	{
 		return EVT_ID_SW2_PRESSED;
 	}
-	if(b1Status == BUTTON_PRESSED)
+	if(buttonhasButtonDebounced(BTN_B1))
 	{
 		return EVT_ID_B1_PRESSED;
 	}
@@ -332,6 +341,38 @@ static int32_t initializePeripherals(void)
 
 }
 
+static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
+{
+    if(value > sensor->warningThreshold)
+        sensor->warningCounter++;
+    else
+    {
+        sensor->warningCounter = 0;
+        sensor->warningLedTriggered = false;
+    }
+
+    if(value > sensor->emergencyThreshold)
+        sensor->emergencyCounter++;
+    else
+        sensor->emergencyCounter = 0;
+
+
+    if(!sensor->warningLedTriggered &&
+       sensor->warningCounter >= sensor->warningTime)
+    {
+        sensor->warningLedTriggered = true;
+        ledSetLED(LED1, LED_ON);
+    }
+
+    if(sensor->emergencyCounter >= sensor->emergencyTime)
+    {
+        sensor->emergencyCounter = 0;
+        return EVT_ID_TRIGGER_EMERGENCY;
+    }
+
+    return NO_EVT;
+}
+
 static int32_t initOnEntry(State_t* pState, int32_t eventID)
 {
 
@@ -380,6 +421,8 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 	int32_t currentAverage = 0;
 	int32_t currentWaterLevel = 0;
 
+	int32_t event;
+
 
 	if(dualGasSetVoltages() != DUALSENSORS_OK)
 	{
@@ -399,43 +442,11 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 	    return STATETBL_ERR_OK;
 	}
 
-	if(currentAverage > GAS_SENSOR_WARNING_THRESHHOLD)
+	event = monitorSensor(currentAverage, &gasSensor);
+	if(event != NO_EVT)
 	{
-	    gasSensorWarningCount++;
-	}
-	else
-	{
-	    gasSensorWarningCount = 0;
-	}
-
-	if(currentAverage > GAS_SENSOR_EMERGENCY_THRESHHOLD)
-	{
-	    gasSensorEmergencyCount++;
-	}
-	else
-	{
-	    gasSensorEmergencyCount = 0;
-	}
-
-	if(currentAverage <= GAS_SENSOR_WARNING_THRESHHOLD)
-	{
-	    warningLedTriggered = false;   // reset if condition clears
-
-		gasSensorWarningCount = 0;
-	}
-
-
-	if(!warningLedTriggered && COUNTER_HAS_REACHED_FIVE_SECS_50MS(gasSensorWarningCount))
-	{
-		warningLedTriggered = true;
-		ledSetLED(LED1, LED_ON);
-	}
-
-	if(COUNTER_HAS_REACHED_THREE_SECS_50MS(gasSensorEmergencyCount))
-	{
-		gasSensorEmergencyCount =0 ;
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_TRIGGER_EMERGENCY);
-		return STATETBL_ERR_OK;
+	    stateTableSendEvent(&gStateTable, event);
+	    return STATETBL_ERR_OK;
 	}
 
 	//Warning, Emergency and Failure Logic for the watersensor
@@ -451,32 +462,22 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 		return STATETBL_ERR_OK;
 	}
 
-	if(currentWaterLevel <= WATER_SENSOR_WARNING_THRESHHOLD)
-	{
-		waterSensorWarningCount = 0;
-	}
-
-	if(currentWaterLevel <= WATER_SENSOR_EMERGENCY_THRESHHOLD)
-	{
-		waterSensorEmergencyCount = 0;
-	}
 	if(currentWaterLevel > MAX_DISPLAY_NUMBER)
-	{
-		currentWaterLevel = MAX_DISPLAY_NUMBER;
-	}
-	leftDigit = currentWaterLevel/HUNDREDS_DIGIT;
-	rightDigit = currentWaterLevel/TENS_DIGIT;
+	    currentWaterLevel = MAX_DISPLAY_NUMBER;
 
-	if(COUNTER_HAS_REACHED_TEN_SECS_50MS(waterSensorWarningCount))
+	leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
+	rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
+
+	event = monitorSensor(currentWaterLevel, &waterSensor);
+	if(event != NO_EVT)
 	{
-		ledSetLED(LED1, LED_ON);
+	    stateTableSendEvent(&gStateTable, event);
+	    return STATETBL_ERR_OK;
 	}
 
-	if(COUNTER_HAS_REACHED_FIVE_SECS_50MS(waterSensorEmergencyCount))
+	if(gasSensor.warningLedTriggered == false && waterSensor.warningLedTriggered == false)
 	{
-		waterSensorEmergencyCount = 0;
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_TRIGGER_EMERGENCY);
-		return STATETBL_ERR_OK;
+		ledSetLED(LED1, LED_OFF);
 	}
 
 

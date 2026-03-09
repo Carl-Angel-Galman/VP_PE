@@ -28,7 +28,7 @@ int32_t waterSensorInitalize()
 int32_t waterSensorSetSensorVoltage()
 {
 	//int32_t sensorVolt = readfromPythonScript();
-	uint32_t sensorVolt = 230;
+	uint32_t sensorVolt = 750000;
 
 		if(sensorVolt < MIN_VOLT_VALUE|| sensorVolt > MAX_VOLT_VALUE )
 			{
