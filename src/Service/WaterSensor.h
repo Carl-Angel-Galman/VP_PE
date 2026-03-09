@@ -33,7 +33,7 @@ int32_t waterSensorInitalize();
 int32_t waterSensorSetSensorVoltage();
 
 //Returns the cm-Value of sensor
-int32_t waterSensorGetSensorValue();
+int32_t waterSensorGetSensorValue(int32_t* waterlevel);
 
 
 

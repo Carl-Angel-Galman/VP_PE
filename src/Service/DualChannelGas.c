@@ -58,7 +58,7 @@ int32_t dualGasInit(void)
 	return DUALSENSORS_OK;
 }
 
-int32_t dualGasSetVoltages()
+int32_t dualGasSetVoltages(void)
 {
 	//Reading data of ADC
 	int32_t Voltage1 = adcReadChannel(ADC_INPUT0);
