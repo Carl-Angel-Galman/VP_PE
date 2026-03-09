@@ -174,7 +174,7 @@ static StateTableEntry_t gStateTableEntries[] =
 
 	{STATE_ID_OPERATIONAL, 		STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[5]},
 
-	{STATE_ID_EMERGENCY, 		STATE_ID_OPERATIONAL, 				EVT_ID_ALARM_RESET, 			OpGuard,			&gStateList[0],      	&gStateList[2]}
+	{STATE_ID_EMERGENCY, 		STATE_ID_OPERATIONAL, 				EVT_ID_B1_PRESSED, 				OpGuard,			&gStateList[0],      	&gStateList[2]}
 };
 
 /**
@@ -259,9 +259,6 @@ int32_t AppPollForButtonEvent(void)
 	bool sw2Status =  buttonhasButtonDebounced(BTN_SW2);
 	bool b1Status =  buttonhasButtonDebounced(BTN_B1);
 
-
-
-
 	if(sw1Status == BUTTON_PRESSED)
 	{
 		return EVT_ID_SW1_PRESSED;
@@ -272,7 +269,7 @@ int32_t AppPollForButtonEvent(void)
 	}
 	if(b1Status == BUTTON_PRESSED)
 	{
-		return EVT_ID_ALARM_RESET;
+		return EVT_ID_B1_PRESSED;
 	}
 	return NO_EVT;
 }
