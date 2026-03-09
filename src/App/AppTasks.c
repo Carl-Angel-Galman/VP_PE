@@ -22,11 +22,13 @@
 #include "Application.h"
 
 #include "StackMonitor.h"
+
+#include "stdbool.h"
 /***** PRIVATE CONSTANTS *****************************************************/
 
 
 /***** PRIVATE MACROS ********************************************************/
-
+#define USE_CUSTOM_MSP 1
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -75,6 +77,33 @@ void taskApp50ms(void)
 
 void taskApp250ms(void)
 {
+
+#if defined(USE_CUSTOM_MSP) && (USE_CUSTOM_MSP == 1)
+
+	extern uint32_t _sstack;
+
+	uint32_t outsideOfStack = (uint32_t)&_sstack - 4U;
+	__disable_irq();
+	__set_MSP(outsideOfStack);
+	__DSB();
+	__ISB();
+	__enable_irq();
+
+#endif
+	uint32_t freeBytes = GetFreeBytes();
+	uint32_t usedBytes = GetUsedBytes();
+	uint8_t usage = GetUsage();
+
+	(void)freeBytes;
+	(void)usedBytes;
+	(void)usage;
+
+	bool stackCorrupted = isCorrupted();
+
+	if(stackCorrupted)
+	{
+		AppSendEvent(EVT_ID_STACK_CORRUPTION);
+	}
 
 }
 

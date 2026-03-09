@@ -50,6 +50,11 @@ Scheduler AppScheduler;
 
 
 
+#include "stm32g4xx.h"
+
+
+
+
 /***** PUBLIC FUNCTIONS ******************************************************/
 
 
@@ -58,6 +63,8 @@ Scheduler AppScheduler;
  */
 int main(void)
 {
+
+
 	int32_t appInitResult = AppInitialize();
 	if(appInitResult == APP_INIT_ERR)
 	{

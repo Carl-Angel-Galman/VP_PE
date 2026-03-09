@@ -102,13 +102,18 @@ static void Flash_D1(uint32_t elapsedTime) ;
 
 static void keyReadingWarningDetermination(uint32_t elapsed);
 
+
+/*******************************************************************************
+ * Global Variables
+ ******************************************************************************/
+
+extern uint32_t _sloadauth;
+
+extern uint32_t _sauth;
+
+extern uint32_t _eauth;
+
 /***** PRIVATE VARIABLES *****************************************************/
-
-extern uint8_t _sloadauth;
-
-extern uint8_t _sauth;
-
-extern uint8_t _eauth;
 
 static KEY_INPUT_WARNING_STAGES keyInputWarningStage;
 
@@ -197,11 +202,11 @@ int8_t AuthCopyAndDecryptVerify(uint8_t key[], uint8_t key_len)
 		return AUTH_ERR_INVALID_PTR;
 	}
 
-	uint8_t  *dst = &_sauth;
+	uint32_t  *dst = &_sauth;
 
     size_t section_len = (size_t)(&_eauth - &_sauth);
 
-	uint8_t * src = &_sloadauth;
+	uint32_t * src = &_sloadauth;
 
     memcpy(dst, src, section_len);
 

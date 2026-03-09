@@ -30,9 +30,9 @@
 #define STATE_ID_TESTMODE 				5UL
 #define STATE_ID_EMERGENCY				6UL
 
-#define APP_NO_ERR 				0
-#define APP_INIT_ERR			-1
-#define APP_RUN_ERR 			-2
+#define APP_NO_ERR 						0
+#define APP_INIT_ERR					-1
+#define APP_RUN_ERR 					-2
 
 #define NO_EVT							0
 #define EVT_ID_INIT_READY       		1       //!< Event ID for INIT_READY
@@ -41,8 +41,10 @@
 #define EVT_ID_SW2_PRESSED				4
 #define EVT_ID_B1_PRESSED				5
 #define EVT_ID_TO_TESTMODE 				6
+#define EVT_ID_STACK_CORRUPTION			7
 #define EVT_ID_TRIGGER_EMERGENCY 		8
 
+<<<<<<< HEAD
 typedef struct
 {
     int32_t warningThreshold;
@@ -58,7 +60,10 @@ typedef struct
 
 } SensorMonitor_t;
 /***** TYPES *****************************************************************/
+=======
+>>>>>>> 674f9765e90ae3ad00dd93a0939352948f21826e
 
+/***** TYPES *****************************************************************/
 
 /***** PROTOTYPES ************************************************************/
 
