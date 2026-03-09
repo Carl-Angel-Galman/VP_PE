@@ -1,16 +1,29 @@
 /******************************************************************************
- * @file <Filename>.h
+ * @file Authenticator.c
  *
- * @author <Author>
- * @date   <Date>
+ * @author Carl Angel Galman and Liza Thöne
+ * @date   08.03.2026
  *
  * @copyright Copyright (c) 2026
  *
  ******************************************************************************
  *
- * @brief <Some short descrition>
+ * @brief Implementation of the Authenticator module.
  *
- * @details <A more detailed description>
+ * @details
+ * The Authenticator is responsible for preparing and starting the UMMS
+ * application. After boot, it waits for the start character 'A' on UART,
+ * receives a decryption key with a maximum length of 8 bytes, copies the
+ * encrypted `.auth` section from FLASH to RAM, decrypts it using a byte-wise
+ * XOR operation, and finally executes the `verify()` function from RAM.
+ *
+ * The `verify()` function checks the application signature stored in FLASH and,
+ * if valid, transfers control to the application's start handler.
+ *
+ * The timeout behavior during key reception is:
+ * - after 10 s: LED D1 on
+ * - after 30 s: LED D1 flashing
+ * - after 45 s: authentication failure
  *
  *
  *****************************************************************************/
@@ -43,87 +56,143 @@
 /***** PRIVATE MACROS ********************************************************/
 
 
-#define APP_SIGNATURE_ADDR ((volatile const uint8_t*)0x08010000u)
+#define WAIT_A_TIMEOUT_MS     		15000u
 
-#define WAIT_A_TIMEOUT_MS     (15000u)
+#define KEY_WARNING_STAGE1_MS       10000u
 
-#define KEY_STAGE1_MS         (10000u)   // D1 on
-#define KEY_STAGE2_MS         (30000u)   // D1 flashing
-#define KEY_FAIL_MS           (45000u)
+#define KEY_WARNING_STAGE2_MS       30000u
 
-#define KEY_MAX_LEN           (8u)
+#define KEY_FAIL_MS           		45000u
 
-#define APP_STARTHANDLER_ADDR  0x08010204
+#define APP_STARTHANDLER_ADDR  		0x08010204u
+
+#define APP_SIGNATURE_ADDR 			0x08010000u
+
+#define RECEIVE_CHARACTER 			'A'
+
+#define NEWLINE_CHARACTER 			'\n'
+
+#define KEY_POLL_TIMEOUT_MS 		20u
+
+#define IS_A_LETTER_OR_NUMBER(ch) 	(ch >= '0' && ch <= '9') || (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')
+
+#define SIZE_OF_SIGNATURE 			4u
+
+#define BLINKY_TIME_THRESHOLD 		500u
 
 /***** PRIVATE TYPES *********************************************************/
-
-
 
 typedef void (*app_start_function)(void);
 
 typedef enum
 {
 	INITIAL = 0,
+
 	FIRST_WARNING = 1,
+
 	SECOND_WARNING = 2,
+
 	TIMEOUT = 3
 
-}KEY_INPUT_STAGES;
-
+}KEY_INPUT_WARNING_STAGES;
 
 
 /***** PRIVATE PROTOTYPES ****************************************************/
-static void switch_to_app(void);
+static void Flash_D1(uint32_t elapsedTime) ;
 
-static void D1_FlashUpdate(int32_t nowMs);
-
-static void Flash_D1(void) ;
+static void keyReadingWarningDetermination(uint32_t elapsed);
 
 /***** PRIVATE VARIABLES *****************************************************/
 
 extern uint8_t _sloadauth;
+
 extern uint8_t _sauth;
+
 extern uint8_t _eauth;
 
+static KEY_INPUT_WARNING_STAGES keyInputWarningStage;
 
-static uint8_t sig_copy_in_RAM[4U];
+static const char ExpectedAppSignature[] = "UMMS";
 
 
-
-static KEY_INPUT_STAGES key_input_stage = INITIAL;
-
-static Scheduler auth_Scheduler;
-
-// Linker-defined symbol. It is an address, not a variable.
 /***** PUBLIC FUNCTIONS ******************************************************/
-__attribute__((section(".auth"), used, noinline))
+
+/**
+ * @brief Verifies the application signature and starts the application.
+ *
+ * @details
+ * This function is linked into the `.auth` section. The section is stored in
+ * FLASH and copied to RAM before execution. After decryption, this function
+ * compares the expected application signature with the signature stored at the
+ * fixed application signature address in FLASH.
+ *
+ * If the signature is valid, interrupts are disabled and control is transferred
+ * to the application start handler via a function pointer.
+ *
+ * @note
+ * This function must only be called after the `.auth` section has been copied
+ * from FLASH to RAM and decrypted successfully.
+ *
+ * @warning
+ * If the signature check fails, this function does not return and remains in an
+ * infinite loop.
+ *
+ * @return None.
+ */
+__attribute__((section(".auth") , noinline))
 void verify(void)
 {
 
-	const char signature[] = "UMMS";
-	if(memcmp((const char*)0x08010000u, signature, 4) == 0)
+	if(memcmp((const char*)APP_SIGNATURE_ADDR, ExpectedAppSignature, SIZE_OF_SIGNATURE) == 0)
 	{
+
 		outputLog("[AUTH]: Starting App");
+
 		__disable_irq();
 
-
 		uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR);
+
 		app_start_function start = (app_start_function) *(start_app_ptr);
+
 		start();
 
 	}
 
-
+	// a super loop to in-case the memcopy goes to failure
 	while (1) { }
 
 }
 
 
-
-int8_t copy_and_decrypt_auth_section(uint8_t key[], uint8_t key_len)
+/**
+ * @brief Copies the `.auth` section from FLASH to RAM and decrypts it.
+ *
+ * @details
+ * This function uses the linker symbols `_sloadauth`, `_sauth`, and `_eauth`
+ * to determine the source address in FLASH, the destination address in RAM,
+ * and the section size. After copying, the RAM image is decrypted in place
+ * using a byte-wise XOR with the provided key.
+ *
+ * A data synchronization barrier and instruction synchronization barrier are
+ * executed afterwards to ensure that the modified RAM contents are visible
+ * before code execution continues.
+ *
+ * @param[in] key
+ * Pointer to the decryption key buffer.
+ *
+ * @param[in] key_len
+ * Length of the decryption key in bytes. Must be greater than 0.
+ *
+ * @return AUTH_ERR_OK
+ * The `.auth` section was copied and decrypted successfully.
+ *
+ * @return AUTH_ERR_INVALID_PTR
+ * `key` is `NULL` or `key_len` is 0.
+ */
+int8_t AuthCopyAndDecryptVerify(uint8_t key[], uint8_t key_len)
 {
 
-	if(key == 0)
+	if(key == NULL || key_len == 0)
 	{
 		return AUTH_ERR_INVALID_PTR;
 	}
@@ -132,7 +201,7 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[], uint8_t key_len)
 
     size_t section_len = (size_t)(&_eauth - &_sauth);
 
-	const uint8_t * src = &_sloadauth;
+	uint8_t * src = &_sloadauth;
 
     memcpy(dst, src, section_len);
 
@@ -143,41 +212,107 @@ int8_t copy_and_decrypt_auth_section(uint8_t key[], uint8_t key_len)
 
     __DSB();__ISB();
 
-
-
     return AUTH_ERR_OK;
 }
 
-int8_t Auth_WaitForA(void)
+
+/**
+ * @brief Waits for the authenticator start character on UART.
+ *
+ * @details
+ * This function waits up to 15 seconds for the character `'A'`. Reception of
+ * this character starts the key input phase of the authenticator.
+ *
+ * @retval AUTH_ERR_OK
+ * The expected start character was received.
+ *
+ * @retval AUTH_ERR_TIMEOUT
+ * No valid start character was received within the 15 second timeout period.
+ *
+ * @retval AUTH_ERR_FAILURE
+ * Another UART failure has occured that has not been considered.
+ */
+int8_t AuthWaitForA(void)
 {
-	uint8_t ch = 0 ;
+	uint8_t charBuffer = 0 ;
 
-	uint8_t toSend = '\n';
+	uint32_t startTimeStamp = HAL_GetTick();
 
-	int32_t r = uartReceiveData(&ch, 1, 15000u);
+	uint32_t elapsed = 0;
 
-	if (r == UART_ERR_OK)
+	while(1)
 	{
-		if (ch == (uint8_t)'A')
+		uint32_t currentTime = HAL_GetTick();
+
+		elapsed = currentTime - startTimeStamp;
+
+		int32_t uartReceiveResult = uartReceiveData(&charBuffer, 1, 20u);
+
+		if (uartReceiveResult == UART_ERR_OK)
 		{
-			uartSendData(&toSend, 1);
+			if (charBuffer == (uint8_t)RECEIVE_CHARACTER)
+			{
 
-			return AUTH_ERR_OK ;
+				outputLogf("%c \r", NEWLINE_CHARACTER);
+
+				return AUTH_ERR_OK ;
+			}
+
+			else
+			{
+				continue;
+			}
 		}
-		// ignore other chars
-	}
-	else if (r == UART_ERR_TIMEOUT)
-	{
-		return AUTH_ERR_TIMEOUT; // treat UART error as failure
-	}
 
+		else if (elapsed >=  WAIT_A_TIMEOUT_MS)
+		{
+
+			return AUTH_ERR_TIMEOUT;
+
+		}
+	}
 
     return AUTH_ERR_FAILURE;
 }
 
-
-int8_t Auth_ReadKey(uint8_t key[], uint8_t *keylen)
+/**
+ * @brief Reads the decryption key from UART.
+ *
+ * @details
+ * This function reads an ASCII key from UART until a newline character is
+ * received or an error condition occurs. Only alphanumeric characters are
+ * accepted. Invalid characters are ignored. The maximum supported key length
+ * is 8 bytes.
+ *
+ * During key reception, the timeout warning state is updated as follows:
+ * - after 10 s: first warning
+ * - after 30 s: second warning
+ * - after 45 s: timeout/failure
+ *
+ * @param[out] key
+ * Destination buffer for the received key bytes.
+ *
+ * @param[out] keylen
+ * Pointer to the variable that receives the actual key length.
+ *
+ * @retval AUTH_ERR_OK
+ * A complete key terminated by newline was received successfully.
+ *
+ * @retval AUTH_ERR_INVALID_PTR
+ * `key` or `keylen` is `NULL`.
+ *
+ * @retval AUTH_ERR_TIMEOUT
+ * Key reception timed out.
+ *
+ * @retval AUTH_ERR_KEY_LENGHT_BREACH
+ * The received key exceeded the maximum supported length.
+ *
+ * @retval AUTH_ERR_FAILURE
+ * UART reception failed.
+ */
+int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
 {
+
 	if(key == NULL || keylen == NULL)
 	{
 		return AUTH_ERR_INVALID_PTR;
@@ -191,116 +326,98 @@ int8_t Auth_ReadKey(uint8_t key[], uint8_t *keylen)
 
     uint8_t ch = 0;
 
+	uint8_t len = 0;
+
 	ledSetLED(LED1, LED_OFF);
 
-	uint8_t len = 0;
+	outputLog("[AUTH] Please enter your key: ");
 
     while (1)
     {
+
         now = HAL_GetTick();
+
         elapsed = now - start;
 
-        switch(key_input_stage)
+        keyReadingWarningDetermination(elapsed);
+
+        if(keyInputWarningStage ==TIMEOUT)
         {
-
-        case INITIAL:
-        	if (elapsed >= 10000u)
-        	{
-        		ledSetLED(LED1, LED_ON);
-        		key_input_stage = FIRST_WARNING;
-        	}
-
-        	break;
-
-        case FIRST_WARNING:
-
-        	if (elapsed >= 30000u)
-        	{
-        		auth_Scheduler.pTask_250ms = Flash_D1;
-        		key_input_stage = SECOND_WARNING;
-        	}
-        	break;
-
-        case SECOND_WARNING:
-        	schedCycle(&auth_Scheduler);
-        	if (elapsed >= 45000u)
-        	{
-        		ledSetLED(LED1, LED_OFF);
-        		key_input_stage = TIMEOUT;
-        	}
-        	break;
-
-        case TIMEOUT:
-        		return AUTH_ERR_TIMEOUT;
-        	break;
+        	return AUTH_ERR_TIMEOUT;
         }
 
+        int32_t r = uartReceiveData(&ch, 1, KEY_POLL_TIMEOUT_MS);
 
-        // --- receive next byte with short polling ---
-        int32_t r = uartReceiveData(&ch, 1, 20U);
-//        if(ch != '\r')
-//        	{
-//        	outputLogf("\r\x1b[2K %c",ch);
-//        	}
         if (r == UART_ERR_TIMEOUT)
 		{
-			continue; // no byte this slice
+			continue;
 		}
 		else if (r == UART_ERR_RECEIVE)
 		{
 			return AUTH_ERR_FAILURE;
 		}
 
-        if(ch == (uint8_t)'\n' )
+		else if(ch == (uint8_t)NEWLINE_CHARACTER)
         {
         	*keylen = len;
+
         	return AUTH_ERR_OK;
         }
 
-        else if (len < 8u)
+        else if (len < MAX_KEY_LEN)
         {
-        	if ((ch >= '0' && ch <= '9') || (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+        	if (IS_A_LETTER_OR_NUMBER(ch))
         	{
+
                 key[len++] = ch;
         	}
         }
 
-        else if(len >= 8u)
+        else if(len >= MAX_KEY_LEN)
         {
             return AUTH_ERR_KEY_LENGHT_BREACH;
         }
 
-
+        // none valid chars will be skipped.
 	}
+
     return AUTH_ERR_FAILURE;
 }
 
-int8_t Auth_ReadAppSignature(void)
+/**
+ * @brief Initializes the Authenticator module state.
+ *
+ * @details
+ * This function initializes the internal warning state machine and activates
+ * LED D0 to indicate that the authenticator is active.
+ *
+ * @retval AUTH_ERR_OK
+ * Initialization was completed successfully.
+ */
+int8_t AuthInit(void)
 {
 
-	const volatile uint8_t* signature_in_flash = (const volatile uint8_t*)0x08010000u;
-	sig_copy_in_RAM[0] = signature_in_flash[0];
-	sig_copy_in_RAM[1] = signature_in_flash[1];
-	sig_copy_in_RAM[2] = signature_in_flash[2];
-	sig_copy_in_RAM[3] = signature_in_flash[3];
+	keyInputWarningStage = INITIAL;
 
-	return AUTH_ERR_OK;
-}
-
-
-int8_t Auth_Init(void)
-{
-
-	schedInitialize(&auth_Scheduler);
-	auth_Scheduler.pTask_250ms = Flash_D1;
 	ledSetLED(LED0, LED_ON);
 
-
 	return AUTH_ERR_OK;
 }
 
-int8_t Auth_goToFailure(void)
+/**
+ * @brief Enters the authenticator failure indication state.
+ *
+ * @details
+ * This function activates LED D4 to indicate an authentication failure.
+ *
+ * @retval AUTH_ERR_OK
+ * Failure indication was activated successfully.
+ */
+int8_t AuthGoToFailure(void)
 {
+	outputLog("[AUTH] Going to Failure. \n");
+
+
 	ledSetLED(LED4, LED_ON);
 
 	return AUTH_ERR_OK;
@@ -309,25 +426,84 @@ int8_t Auth_goToFailure(void)
 
 /***** PRIVATE FUNCTIONS *****************************************************/
 
-
-static void switch_to_app(void)
+/**
+ * @brief Toggles LED D1 for visual timeout warning indication.
+ *
+ * @details
+ * This helper function toggles LED D1 when the elapsed time has reached the
+ * flashing phase threshold.
+ *
+ * @param[in] elapsedTime
+ * Elapsed time in milliseconds since the start of key reception.
+ *
+ * @return None.
+ */
+static void Flash_D1(uint32_t elapsedTime)
 {
-	__disable_irq();
 
-
-	uint32_t *start_app_ptr = (uint32_t *)(APP_STARTHANDLER_ADDR);
-	app_start_function start = (app_start_function) *(start_app_ptr);
-	start();
-
-	while (1) { }
-
+	if(elapsedTime >=  BLINKY_TIME_THRESHOLD)
+	{
+	    ledToggleLED(LED1);
+	}
 }
 
 
-
-static void Flash_D1(void)
+/**
+* @brief Updates the key input warning state based on elapsed time.
+*
+* @details
+* This function implements the timeout warning behavior of the authenticator:
+* - INITIAL: no warning active
+* - FIRST_WARNING: entered after 10 s, LED D1 is turned on
+* - SECOND_WARNING: entered after 30 s, LED D1 starts flashing
+* - TIMEOUT: entered after 45 s, authentication fails
+*
+* @param[in] elapsed
+* Elapsed time in milliseconds since the start of key reception.
+*
+* @return None.
+*/
+static void keyReadingWarningDetermination(uint32_t elapsed)
 {
-    ledToggleLED(LED1);
+    switch(keyInputWarningStage)
+    {
+
+		case INITIAL:
+
+			if (elapsed >= KEY_WARNING_STAGE1_MS)
+			{
+				outputLog("[AUTH]: 10 seconds have passed \n");
+
+				ledSetLED(LED1, LED_ON);
+
+				keyInputWarningStage = FIRST_WARNING;
+			}
+
+			break;
+
+		case FIRST_WARNING:
+
+			if (elapsed >= KEY_WARNING_STAGE2_MS)
+			{
+				outputLog("[AUTH]: 30 seconds have passed \n");
+
+				keyInputWarningStage = SECOND_WARNING;
+			}
+			break;
+
+		case SECOND_WARNING:
+
+			Flash_D1(elapsed);
+
+			if (elapsed >= KEY_FAIL_MS)
+			{
+				ledSetLED(LED1, LED_OFF);
+
+				keyInputWarningStage = TIMEOUT;
+			}
+			break;
+
+    }
 }
 
 

@@ -1,18 +1,34 @@
 /******************************************************************************
  * @file main.c
  *
- * @author Andreas Schmidt (a.v.schmidt81@googlemail.com)
+ * @author Carl Angel Galman and Liza Thöne
  * @date   03.01.2026
  *
  * @copyright Copyright (c) 2026
  *
  ******************************************************************************
  *
- * @brief Main file for the VP Template Authenticator project
+ * @brief Main entry point of the Authenticator application.
  *
+ * @details
+ * This module initializes the hardware and executes the main state machine of
+ * the authenticator.
+ *
+ * The state machine performs the following steps:
+ * - BOOTUP:
+ *   Initializes all required peripherals and the Authenticator module.
+ * - PREPARE_APPLICATION:
+ *   Waits for the start character, reads the authentication key, and copies
+ *   and decrypts the `.auth` section.
+ * - START_APPLICATION:
+ *   Executes the `verify()` function from the decrypted `.auth` section.
+ * - FAILURE:
+ *   Enters a permanent failure state.
+ *
+ * The implementation follows the project specification that only a timeout
+ * while waiting for the start character leads directly to the FAILURE state.
  *
  *****************************************************************************/
-
 
 /***** INCLUDES **************************************************************/
 #include "stm32g4xx.h"
@@ -29,12 +45,8 @@
 #include "Util/Log/LogOutput.h"
 
 #include "UARTModule.h"
-#include "ButtonModule.h"
 #include "LEDModule.h"
-#include "DisplayModule.h"
-#include "ADCModule.h"
 #include "TimerModule.h"
-#include "Scheduler.h"
 
 #include "GlobalObjects.h"
 
@@ -46,38 +58,61 @@
 
 
 /***** PRIVATE MACROS ********************************************************/
-
+#define BAUD_RATE 115200
 
 /***** PRIVATE TYPES *********************************************************/
 
 
+
+/**
+ * @brief Initializes all peripherals required by the authenticator.
+ *
+ * @details
+ * This function initializes the UART interface for debug and key input,
+ * the LED module for status indication, and the timer module used by the
+ * application.
+ *
+ * @retval AUTH_ERR_OK
+ * All peripherals were initialized successfully.
+ *
+ * @retval AUTH_ERR_FAILURE
+ * At least one peripheral initialization failed.
+ */
 /***** PRIVATE PROTOTYPES ****************************************************/
-static int32_t initializePeripherals();
+static int32_t initializePeripherals(void);
 
-
-static State current_state = BOOTUP;
-
-extern uint32_t _sauth;
 
 
 /***** PRIVATE VARIABLES *****************************************************/
+
+/**
+ * @brief Current state of the main authenticator state machine.
+ */
+static State current_state = BOOTUP;
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
 
 
 /**
- * @brief Main function of System
+ * @brief Main function of the authenticator application.
+ *
+ * @details
+ * Initializes the HAL and system clock and then executes the authenticator
+ * state machine forever.
+ *
+ * State flow:
+ * BOOTUP -> PREPARE_APPLICATION -> START_APPLICATION
+ * or
+ * BOOTUP -> PREPARE_APPLICATION -> FAILURE
+ *
+ * @return This function never returns.
  */
 int main(void)
 {
-	if(HAL_Init() != HAL_OK)
-				{
-					current_state = FAILURE;
-				}
+	HAL_Init();
 
-				SystemClock_Config();
-
+	SystemClock_Config();
 
 	while(1)
 	{
@@ -85,65 +120,82 @@ int main(void)
 	{
 
 		case BOOTUP:
-			// Initialize the HAL
 
+			if(initializePeripherals() != AUTH_ERR_OK)
+				break;
 
-			// Initialize Peripherals
-			if(initializePeripherals() != AUTH_ERR_OK) break;
-
-			Auth_Init();
+			AuthInit();
 
 			current_state = PREPARE_APPLICATION;
 
 			break;
 
 		case PREPARE_APPLICATION:
-		{
-			int8_t res = Auth_WaitForA();
-
-			if(res == AUTH_ERR_TIMEOUT)
 			{
-				Auth_goToFailure();
+				int8_t keyReadResult = AuthWaitForA();
 
-				current_state = FAILURE;
-				break;
-			}
+				if(keyReadResult == AUTH_ERR_TIMEOUT)
+				{
+					AuthGoToFailure();
 
-			uint8_t key_len = 8U;
+					current_state = FAILURE;
+					break;
+				}
+				else if(keyReadResult == AUTH_ERR_FAILURE)
+				{
+					break;
+				}
 
-			uint8_t key[key_len] = {};
+				uint8_t key_len = 0U;
 
-			res = Auth_ReadKey(key, &key_len);
+				uint8_t key[MAX_KEY_LEN] = {0};
 
-			if(res == AUTH_ERR_KEY_LENGHT_BREACH)
-			{
-				Auth_goToFailure();
+				keyReadResult = AuthReadKey(key, &key_len);
 
-				current_state = FAILURE;
-				break;
-			}
+				/**
+				 * @note
+				 * According to the project requirement, only a timeout while waiting for the
+				 * start character causes a transition to the FAILURE state. Other non-success
+				 * results keep the system in PREPARE_APPLICATION.
+				 */
+				if(keyReadResult == AUTH_ERR_TIMEOUT)
+				{
+					AuthGoToFailure();
 
-			copy_and_decrypt_auth_section(key, key_len);
+					current_state = FAILURE;
+					break;
+				}
+				else if(keyReadResult == AUTH_ERR_KEY_LENGHT_BREACH)
+				{
+					break;
+				}
 
-			current_state = START_APPLICATION;
+				int32_t copyAndDecryptResult = AuthCopyAndDecryptVerify(key, key_len);
+
+				if(copyAndDecryptResult == AUTH_ERR_INVALID_PTR)
+				{
+					break;
+				}
+
+				current_state = START_APPLICATION;
 
 			}
 			break;
 
 		case FAILURE:
 
-			while(1);
+			while(1)
+			{
+
+			}
 
 			break;
 
 		case START_APPLICATION:
-		{
 
 			verify();
 
-		}
-
-			break;
+		break;
 
 		default:
 			break;
@@ -156,26 +208,28 @@ int main(void)
 /***** PRIVATE FUNCTIONS *****************************************************/
 
 /**
- * @brief Initializes the used peripherals like GPIO,
- * ADC, DMA and Timer Interrupts
+ * @brief Initializes the peripherals used by the authenticator.
  *
- * @return Returns ERROR_OK if no error occurred
+ * @details
+ * Initializes UART for communication, LEDs for status indication, and the
+ * timer module used by the system.
+ *
+ * @retval AUTH_ERR_OK
+ * Initialization completed successfully.
+ *
+ * @retval AUTH_ERR_FAILURE
+ * Initialization of at least one peripheral failed.
  */
-static int32_t initializePeripherals()
+static int32_t initializePeripherals(void)
 {
     // Initialize UART used for Debug-Outputs
-    if(uartInitialize(115200) != UART_ERR_OK)	return AUTH_ERR_FAILURE;
+    if(uartInitialize(BAUD_RATE) != UART_ERR_OK)	return AUTH_ERR_FAILURE;
 
     // Initialize GPIOs for LED and 7-Segment output
 	if(ledInitialize()!= LED_ERR_OK) 			return AUTH_ERR_FAILURE ;
-    if(displayInitialize()!= DISPLAY_ERR_OK) 	return AUTH_ERR_FAILURE;
-
-    // Initialize GPIOs for Buttons
-    if (buttonInitialize()!= BUTTON_ERR_OK) 	return AUTH_ERR_FAILURE;
 
     // Initialize Timer, DMA and ADC for sensor measurements
     if(timerInitialize()!= TIMER_ERR_OK) 		return AUTH_ERR_FAILURE;
-    if(adcInitialize()!= ADC_ERR_OK) 			return AUTH_ERR_FAILURE;
 
     return AUTH_ERR_OK;
 }

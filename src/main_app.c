@@ -63,17 +63,18 @@ int main(void)
 	int32_t appInitResult = AppInitialize();
 	if(appInitResult == APP_INIT_ERR)
 	{
-
 		while(1);
 	}
 
     int32_t schedulerInitialized = schedInitialize(&AppScheduler);
 
     AppScheduler.pTask_1ms = taskApp1ms;
-    AppScheduler.pTask_10ms = taskApp10ms;
-    AppScheduler.pTask_50ms = taskApp50ms;
-    AppScheduler.pTask_250ms = taskApp250ms;
 
+    AppScheduler.pTask_10ms = taskApp10ms;
+
+    AppScheduler.pTask_50ms = taskApp50ms;
+
+    AppScheduler.pTask_250ms = taskApp250ms;
 
 	 if((schedulerInitialized == SCHED_ERR_INVALID_PTR))
 	{
@@ -84,7 +85,12 @@ int main(void)
 
     while (1)
     {
-    	schedCycle(&AppScheduler);
+
+    	int32_t schedulerCylcicResult = schedCycle(&AppScheduler);
+    	if (schedulerCylcicResult != SCHED_ERR_OK)
+    	{
+    		AppSendEvent(EVT_ID_ERROR);
+    	}
     }
 }
 

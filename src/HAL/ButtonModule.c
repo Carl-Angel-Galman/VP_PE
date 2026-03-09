@@ -25,8 +25,9 @@
 
 
 /***** PRIVATE MACROS ********************************************************/
+#define DEBOUNCE_TIME 50
 
-
+#define NUM_BUTTONS 3u
 /***** PRIVATE TYPES *********************************************************/
 
 
@@ -35,6 +36,9 @@
 
 /***** PRIVATE VARIABLES *****************************************************/
 
+static uint32_t lastDebounceTime[NUM_BUTTONS] = {};
+static Button_Status_t lastButtonStates[NUM_BUTTONS] = {BUTTON_RELEASED,BUTTON_RELEASED,BUTTON_RELEASED};
+static Button_Status_t currentButtonStates[NUM_BUTTONS] = {BUTTON_RELEASED,BUTTON_RELEASED,BUTTON_RELEASED};
 
 /***** PUBLIC FUNCTIONS ******************************************************/
 
@@ -114,6 +118,31 @@ Button_Status_t buttonGetButtonStatus(Button_t button)
 
     return buttonStatus;
 }
+
+bool buttonhasButtonDebounced(Button_t button)
+{
+
+	Button_Status_t reading = buttonGetButtonStatus(button);
+	if(reading != lastButtonStates[button])
+	{
+		lastDebounceTime[button] = HAL_GetTick();
+	}
+	if(HAL_GetTick() - lastDebounceTime[button] > DEBOUNCE_TIME)
+	{
+		if(reading != currentButtonStates[button])
+		{
+			currentButtonStates[button] = reading;
+			if(currentButtonStates[button] == BUTTON_RELEASED)
+			{
+				return true;
+			}
+		}
+	}
+	lastButtonStates[button] = reading;
+	return false;
+}
+
+
 
 /***** PRIVATE FUNCTIONS *****************************************************/
 

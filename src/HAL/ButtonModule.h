@@ -35,9 +35,9 @@
  */
 typedef enum _Button_t
 {
-    BTN_B1,
-    BTN_SW1,                        //!< Button (SW1)
-    BTN_SW2,                        //!< Button (SW2)
+    BTN_B1 = 0,
+    BTN_SW1 = 1,                        //!< Button (SW1)
+    BTN_SW2 = 2,                        //!< Button (SW2)
 } Button_t;
 
 /**
@@ -72,5 +72,5 @@ int32_t buttonInitialize();
  */
 Button_Status_t buttonGetButtonStatus(Button_t button);
 
-
+bool buttonIsButtonPressed(Button_t button);
 #endif

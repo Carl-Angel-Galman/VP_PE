@@ -116,17 +116,17 @@ SECTIONS
   } >RAM AT> FLASH
   
  
+ 	_sloadauth = LOADADDR(.auth);   /* LMA (stored) in FLASH */
+ 
   .auth :
 	{
 	  . = ALIGN(4);
 	  _sauth = .;
 	  KEEP(*(.auth))
-	  KEEP(*(.auth*))
 	  . = ALIGN(4);
 	  _eauth = .;
 	} >RAM AT>FLASH
 	
-	_sloadauth = LOADADDR(.auth);   /* LMA (stored) in FLASH */
 	
 
   /* Uninitialized data section */

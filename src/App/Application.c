@@ -171,6 +171,8 @@ static int8_t leftDigit = DIGIT_DASH;
 
 static int8_t rightDigit = DIGIT_DASH;
 
+static bool warningLedTriggered = false;
+
 
 /***** PUBLIC FUNCTIONS ******************************************************/
 
@@ -225,12 +227,15 @@ int32_t AppSendEvent(int32_t eventID)
     return result;
 }
 
+
 //priority 1-> B1 because reset, 2-> SW2, 3-> SW1
 int32_t AppPollForButtonEvent(void)
 {
 	Button_Status_t sw1Status =  buttonGetButtonStatus(BTN_SW1);
 	Button_Status_t sw2Status =  buttonGetButtonStatus(BTN_SW2);
 	Button_Status_t b1Status =  buttonGetButtonStatus(BTN_B1);
+
+
 
 
 	if(sw1Status == BUTTON_PRESSED)
@@ -255,6 +260,8 @@ int32_t AppDisplayDigitsOnSegments(void)
 }
 
 
+
+
 /***** PRIVATE FUNCTIONS *****************************************************/
 
 
@@ -268,6 +275,7 @@ static void change_vector_table(void)
     HAL_DeInit();
 
     SCB->VTOR = app_base;
+
     __DSB(); __ISB();
 
     __HAL_RCC_AHB1_FORCE_RESET();
@@ -352,38 +360,53 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 
 	int32_t currentAverage = 0;
 
-	gasSensorWarningCount++;
-
-	gasSensorEmergencyCount++;
-
 	if(dualGasSetVoltages() != DUALSENSORS_OK)
 	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-		return STATETBL_ERR_OK;
+	    stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+	    return STATETBL_ERR_OK;
 	}
+
 	if(dualGasCheckInconsistency() == DUALSENSORS_DEFECT)
 	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-		return STATETBL_ERR_OK;
+	    stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+	    return STATETBL_ERR_OK;
 	}
+
 	if(dualGasGetAverage(&currentAverage) != DUALSENSORS_OK)
 	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-		return STATETBL_ERR_OK;
+	    stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+	    return STATETBL_ERR_OK;
+	}
+
+	if(currentAverage > GAS_SENSOR_WARNING_THRESHHOLD)
+	{
+	    gasSensorWarningCount++;
+	}
+	else
+	{
+	    gasSensorWarningCount = 0;
+	}
+
+	if(currentAverage > GAS_SENSOR_EMERGENCY_THRESHHOLD)
+	{
+	    gasSensorEmergencyCount++;
+	}
+	else
+	{
+	    gasSensorEmergencyCount = 0;
 	}
 
 	if(currentAverage <= GAS_SENSOR_WARNING_THRESHHOLD)
 	{
+	    warningLedTriggered = false;   // reset if condition clears
+
 		gasSensorWarningCount = 0;
 	}
 
-	if(currentAverage <=  GAS_SENSOR_EMERGENCY_THRESHHOLD)
-	{
-		gasSensorEmergencyCount = 0;
-	}
 
-	if(COUNTER_HAS_REACHED_FIVE_SECS_50MS(gasSensorWarningCount))
+	if(!warningLedTriggered && COUNTER_HAS_REACHED_FIVE_SECS_50MS(gasSensorWarningCount))
 	{
+		warningLedTriggered = true;
 		ledSetLED(LED1, LED_ON);
 	}
 
