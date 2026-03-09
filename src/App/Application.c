@@ -19,7 +19,6 @@
 
 #include "Application.h"
 
-#include "Util/Global.h"
 
 #include "Util/Log/printf.h"
 
@@ -540,7 +539,7 @@ static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID)
 
 static bool OpGuard(StateTableEntry_t * pEntry, int32_t eventID)
 {
-	if((eventID == EVT_ID_SW1_PRESSED) || (eventID == EVT_ID_ALARM_RESET))
+	if((eventID == EVT_ID_SW1_PRESSED) || (eventID == EVT_ID_B1_PRESSED))
 			return true;
 
 		return false;

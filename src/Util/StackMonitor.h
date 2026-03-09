@@ -17,7 +17,7 @@
 
 #include "stm32g4xx_hal.h"
 
-#include "Util/Global.h"
+#include "Application.h"
 
 #include "stdbool.h"
 

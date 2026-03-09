@@ -21,8 +21,6 @@
 
 #include "HardwareConfig.h"
 
-#include "Util/Global.h"
-
 #include "Util/Log/printf.h"
 
 #include "Util/Log/LogOutput.h"

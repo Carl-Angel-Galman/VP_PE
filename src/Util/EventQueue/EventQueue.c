@@ -11,7 +11,7 @@
 // EventQueue.c
 #include "EventQueue.h"
 
-#include "Global.h"
+#include "Application.h"
 
 static inline uint16_t nextIndex(uint16_t i)
 {

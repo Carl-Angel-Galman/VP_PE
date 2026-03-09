@@ -21,8 +21,6 @@
 
 #include "Application.h"
 
-#include "Global.h"
-
 #include "StackMonitor.h"
 /***** PRIVATE CONSTANTS *****************************************************/
 
