@@ -43,7 +43,8 @@
 
 #include "System.h"
 
-#include "Global.h"
+#include "stm32g4xx_hal.h"
+
 
 
 
@@ -55,11 +56,11 @@
 
 #define GAS_SENSOR_EMERGENCY_THRESHHOLD 5000
 
-#define TEN_SEC_THRESHOLD_50MS 200
+#define TEN_SEC_THRESHOLD_50MS 10000
 
-#define FIVE_SEC_THRESHOLD_50MS 100
+#define FIVE_SEC_THRESHOLD_50MS 5000
 
-#define THREE_SEC_THRESHOLD_50MS 60
+#define THREE_SEC_THRESHOLD_50MS 3000
 
 #define COUNTER_HAS_REACHED_TEN_SECS_50MS(counter) (counter >= TEN_SEC_THRESHOLD_50MS)
 
@@ -103,6 +104,8 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID);
 
 static int32_t testModeOnEntry(State_t *pState, int32_t eventID);
 
+static int32_t operationOnExit(State_t *pState, int32_t eventID);
+
 static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID);
 
 static bool OpGuard(StateTableEntry_t * pEntry, int32_t eventID);
@@ -145,7 +148,7 @@ static State_t gStateList[] =
 
 		{STATE_ID_PREOPERATIONAL, 	preOperationOnEntry,  				onPreOperational,           0,              false},
 
-		{STATE_ID_OPERATIONAL, 		operationOnEntry,       			onOperational, 	    		0,  			false},
+		{STATE_ID_OPERATIONAL, 		operationOnEntry,       			onOperational, 	    		operationOnExit,false},
 
 		{STATE_ID_FAILURE, 			failureOnEntry,  					0,                 			0,              false},
 
@@ -359,30 +362,40 @@ static int32_t initializePeripherals(void)
 
 static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
 {
+	uint32_t actualTick = HAL_GetTick();
+	 uint32_t timeElapsed = actualTick - sensor->lastTick;
+	    sensor->lastTick = actualTick;
+
+	 /* Warning Timing */
     if(value > sensor->warningThreshold)
-        sensor->warningCounter++;
+    {
+    	sensor->elapsedWarningTime += timeElapsed;
+    }
     else
     {
-        sensor->warningCounter = 0;
-        sensor->warningLedTriggered = false;
+    	sensor->elapsedWarningTime = 0;
+    	sensor->warningLedTriggered = false;
     }
 
     if(value > sensor->emergencyThreshold)
-        sensor->emergencyCounter++;
+    {
+    	sensor->elapsedEmergencyTime += timeElapsed;
+    }
     else
-        sensor->emergencyCounter = 0;
-
+    {
+        sensor->elapsedEmergencyTime = 0;
+    }
 
     if(!sensor->warningLedTriggered &&
-       sensor->warningCounter >= sensor->warningTime)
+       sensor->elapsedWarningTime >= sensor->warningTime)
     {
         sensor->warningLedTriggered = true;
         ledSetLED(LED1, LED_ON);
     }
 
-    if(sensor->emergencyCounter >= sensor->emergencyTime)
+    if(sensor->elapsedEmergencyTime >= sensor->emergencyTime)
     {
-        sensor->emergencyCounter = 0;
+        sensor->elapsedEmergencyTime = 0;
         return EVT_ID_TRIGGER_EMERGENCY;
     }
 
@@ -523,7 +536,6 @@ static int32_t displayDashOnEntry(State_t *pState, int32_t eventID)
 
 static int32_t preOperationOnEntry(State_t *pState, int32_t eventID)
 {
-	ledSetLED(LED0,LED_OFF);
 	leftDigit = DIGIT_DASH;
 		rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
@@ -540,16 +552,24 @@ static int32_t testModeOnEntry(State_t *pState, int32_t eventID)
 static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 {
 	ledSetLED(LED0,LED_ON);
+	uint32_t actualTick = HAL_GetTick();
+	gasSensor.lastTick = actualTick;
+	waterSensor.lastTick = actualTick;
 	return STATETBL_ERR_OK;
 }
 
 static int32_t failureOnEntry(State_t *pState, int32_t eventID)
 {
-
-	ledSetLED(LED0, LED_OFF);
 	ledSetLED(LED2, LED_ON);
 	leftDigit = DIGIT_DASH;
 	rightDigit = DIGIT_DASH;
+	return STATETBL_ERR_OK;
+}
+
+static int32_t operationOnExit(State_t *pState, int32_t eventID)
+{
+	ledSetLED(LED0,LED_OFF);
+	ledSetLED(LED1, LED_OFF);
 	return STATETBL_ERR_OK;
 }
 

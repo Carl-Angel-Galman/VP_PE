@@ -51,8 +51,9 @@ typedef struct
     int32_t warningThreshold;
     int32_t emergencyThreshold;
 
-    uint32_t warningCounter;
-    uint32_t emergencyCounter;
+    uint32_t elapsedWarningTime;
+    uint32_t elapsedEmergencyTime;
+    uint32_t lastTick;
 
     uint32_t warningTime;
     uint32_t emergencyTime;

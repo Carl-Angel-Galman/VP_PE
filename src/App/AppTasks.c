@@ -78,7 +78,6 @@ void taskApp50ms(void)
 void taskApp250ms(void)
 {
 
-	__NOP();
 #if defined(USE_CUSTOM_MSP) && (USE_CUSTOM_MSP == 1)
 
 	extern uint32_t _sstack;
