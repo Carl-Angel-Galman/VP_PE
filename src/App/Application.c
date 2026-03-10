@@ -123,6 +123,7 @@ static int32_t initializePeripherals(void);
 static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor);
 
 
+
 /***** PRIVATE VARIABLES *****************************************************/
 
 static SensorMonitor_t gasSensor =
@@ -309,6 +310,69 @@ void AppSetCustomMSPIfEnabled(void)
 
 }
 
+int32_t AppUpdatingSensors()
+{
+	if(gStateTable.currentStateID == STATE_ID_OPERATIONAL )
+	{
+			int32_t currentAverage = 0;
+			int32_t currentWaterLevel = 0;
+
+			int32_t event;
+
+
+			if(dualGasSetVoltages() != DUALSENSORS_OK)
+				{
+				    return EVT_ID_ERROR;
+				}
+
+			if(dualGasCheckInconsistency() == DUALSENSORS_DEFECT)
+				{
+				    return EVT_ID_SENSOR_DEFECT;
+				}
+
+			if(dualGasGetAverage(&currentAverage) != DUALSENSORS_OK)
+				{
+				    return EVT_ID_ERROR;
+				}
+
+			event = monitorSensor(currentAverage, &gasSensor);
+			if(event != NO_EVT)
+				{
+				    return event;
+				}
+
+			//Warning, Emergency and Failure Logic for the watersensor
+			if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
+				{
+					return EVT_ID_ERROR;
+				}
+
+			if(waterSensorGetSensorValue(&currentWaterLevel) != WATER_SENSOR_OK)
+				{
+					return EVT_ID_ERROR;
+				}
+
+			if(currentWaterLevel > MAX_DISPLAY_NUMBER)
+				   currentWaterLevel = MAX_DISPLAY_NUMBER;
+
+			leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
+			rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
+
+			event = monitorSensor(currentWaterLevel, &waterSensor);
+			if(event != NO_EVT)
+			{
+				return event;
+			}
+
+			if(gasSensor.warningLedTriggered == false && waterSensor.warningLedTriggered == false)
+			{
+				ledSetLED(LED1, LED_OFF);
+			}
+	}
+
+	return NO_EVT;
+}
+
 
 /***** PRIVATE FUNCTIONS *****************************************************/
 
@@ -448,71 +512,6 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 {
 	int32_t stateTableResult = STATETBL_ERR_OK;
 
-	int32_t currentAverage = 0;
-	int32_t currentWaterLevel = 0;
-
-	int32_t event;
-
-
-	if(dualGasSetVoltages() != DUALSENSORS_OK)
-	{
-	    stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-	    return STATETBL_ERR_OK;
-	}
-
-	if(dualGasCheckInconsistency() == DUALSENSORS_DEFECT)
-	{
-	    stateTableSendEvent(&gStateTable, EVT_ID_SENSOR_DEFECT);
-	    return STATETBL_ERR_OK;
-	}
-
-	if(dualGasGetAverage(&currentAverage) != DUALSENSORS_OK)
-	{
-	    stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-	    return STATETBL_ERR_OK;
-	}
-
-	event = monitorSensor(currentAverage, &gasSensor);
-	if(event != NO_EVT)
-	{
-	    stateTableSendEvent(&gStateTable, event);
-	    return STATETBL_ERR_OK;
-	}
-
-	//Warning, Emergency and Failure Logic for the watersensor
-	if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
-	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_SENSOR_DEFECT);
-		return STATETBL_ERR_OK;
-	}
-
-	if(waterSensorGetSensorValue(&currentWaterLevel) != WATER_SENSOR_OK)
-	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-		return STATETBL_ERR_OK;
-	}
-
-	if(currentWaterLevel > MAX_DISPLAY_NUMBER)
-	    currentWaterLevel = MAX_DISPLAY_NUMBER;
-
-	leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
-	rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
-
-	event = monitorSensor(currentWaterLevel, &waterSensor);
-	if(event != NO_EVT)
-	{
-	    stateTableSendEvent(&gStateTable, event);
-	    return STATETBL_ERR_OK;
-	}
-
-	if(gasSensor.warningLedTriggered == false && waterSensor.warningLedTriggered == false)
-	{
-		ledSetLED(LED1, LED_OFF);
-	}
-
-
-
-
 	return stateTableResult;
 }
 
@@ -555,6 +554,15 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 	uint32_t actualTick = HAL_GetTick();
 	gasSensor.lastTick = actualTick;
 	waterSensor.lastTick = actualTick;
+
+    gasSensor.elapsedWarningTime = 0;
+    gasSensor.elapsedEmergencyTime = 0;
+
+    waterSensor.elapsedWarningTime = 0;
+    waterSensor.elapsedEmergencyTime = 0;
+
+    gasSensor.warningLedTriggered = false;
+    waterSensor.warningLedTriggered = false;
 	return STATETBL_ERR_OK;
 }
 

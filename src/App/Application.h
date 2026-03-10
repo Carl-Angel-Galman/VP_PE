@@ -78,5 +78,7 @@ int32_t AppPollForButtonEvent(void);
 
 int32_t AppDisplayDigitsOnSegments(void);
 
+int32_t AppUpdatingSensors(void);
+
 
 #endif
