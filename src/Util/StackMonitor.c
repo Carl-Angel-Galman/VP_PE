@@ -107,7 +107,7 @@ static inline uint32_t get_msp(void)
  */
 uint32_t GetFreeBytes(void)
 {
-    uint32_t *stack_scan = &_sstack;
+    uint32_t *stack_scan = &_sstack + 4;
     uint32_t *stack_top  = &_estack;
 
     while ((stack_scan < stack_top) && (*stack_scan == MARKER)) {
@@ -169,7 +169,7 @@ uint8_t GetUsage(void)
  */
 bool isCorrupted(void)
 {
-    uint32_t *stack_end_marker = &_estack;
+    uint32_t *stack_end_marker = &_sstack;
 
     if (*stack_end_marker != ENDMARKER) {
         return true;

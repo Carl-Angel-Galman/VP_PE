@@ -175,6 +175,8 @@ static StateTableEntry_t gStateTableEntries[] =
 
 	{STATE_ID_OPERATIONAL, 			STATE_ID_EMERGENCY, 				EVT_ID_TRIGGER_EMERGENCY, 		EmergencyGuard,		&gStateList[2],      	&gStateList[5]},
 
+	{STATE_ID_OPERATIONAL, 			STATE_ID_FAILURE, 					EVT_ID_SENSOR_DEFECT, 			FailureGuard,		&gStateList[2],      	&gStateList[3]},
+
 	{STATE_ID_OPERATIONAL, 			STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[5]},
 
 	{STATE_ID_EMERGENCY, 			STATE_ID_OPERATIONAL, 				EVT_ID_B1_PRESSED, 				OpGuard,			&gStateList[0],      	&gStateList[2]},
@@ -399,6 +401,7 @@ static int32_t onInit(State_t* pState, int32_t eventID)
 	// check gas Sensor
 	int32_t stateTableResult = STATETBL_ERR_OK;
 
+
 	if(dualGasSetVoltages() != DUALSENSORS_OK)
 	{
 		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
@@ -446,7 +449,7 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 
 	if(dualGasCheckInconsistency() == DUALSENSORS_DEFECT)
 	{
-	    stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+	    stateTableSendEvent(&gStateTable, EVT_ID_SENSOR_DEFECT);
 	    return STATETBL_ERR_OK;
 	}
 
@@ -466,7 +469,7 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 	//Warning, Emergency and Failure Logic for the watersensor
 	if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
 	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
+		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_SENSOR_DEFECT);
 		return STATETBL_ERR_OK;
 	}
 
@@ -542,7 +545,9 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 
 static int32_t failureOnEntry(State_t *pState, int32_t eventID)
 {
-	ledTurnOnAllLEDs();
+
+	ledSetLED(LED0, LED_OFF);
+	ledSetLED(LED2, LED_ON);
 	leftDigit = DIGIT_DASH;
 	rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
@@ -583,8 +588,10 @@ static bool TestModeGuard(StateTableEntry_t * pEntry, int32_t eventID)
 
 static bool FailureGuard(StateTableEntry_t *pEntry, int32_t eventID)
 {
-	if( ((eventID == EVT_ID_ERROR) ||  (eventID == EVT_ID_STACK_CORRUPTION)))
+	if( ((eventID == EVT_ID_ERROR) ||  (eventID == EVT_ID_STACK_CORRUPTION) || (eventID == EVT_ID_SENSOR_DEFECT)) )
 	{
+		if(eventID == EVT_ID_SENSOR_DEFECT)
+				ledSetLED(LED4, LED_ON);
 		return true;
 	}
 	return false;

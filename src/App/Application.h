@@ -43,6 +43,7 @@
 #define EVT_ID_TO_TESTMODE 				6
 #define EVT_ID_STACK_CORRUPTION			7
 #define EVT_ID_TRIGGER_EMERGENCY 		8
+#define EVT_ID_SENSOR_DEFECT			9
 
 
 typedef struct
