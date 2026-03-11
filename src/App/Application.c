@@ -29,6 +29,8 @@
 
 #include "LEDModule.h"
 
+#include "HMI/LEDHandler.h"
+
 #include "DisplayModule.h"
 
 #include "DualChannelGas.h"
@@ -104,9 +106,7 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID);
 
 static int32_t testModeOnEntry(State_t *pState, int32_t eventID);
 
-static int32_t operationOnExit(State_t *pState, int32_t eventID);
 
-static int32_t testmodeOnExit(State_t *pState, int32_t eventID);
 
 static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID);
 
@@ -151,11 +151,11 @@ static State_t gStateList[] =
 
 		{STATE_ID_PREOPERATIONAL, 	preOperationOnEntry,  				onPreOperational,           0,              false},
 
-		{STATE_ID_OPERATIONAL, 		operationOnEntry,       			onOperational, 	    		operationOnExit,false},
+		{STATE_ID_OPERATIONAL, 		operationOnEntry,       			onOperational, 	    		0,				false},
 
 		{STATE_ID_FAILURE, 			failureOnEntry,  					0,                 			0,              false},
 
-		{STATE_ID_TESTMODE, 		testModeOnEntry,  				    0,                  	 	testmodeOnExit,	false},
+		{STATE_ID_TESTMODE, 		testModeOnEntry,  				    0,                  	 	0,				false},
 
 		{STATE_ID_EMERGENCY, 		displayDashOnEntry,  				onEmergency,                0,              false}
 };
@@ -207,7 +207,8 @@ static StateTable_t gStateTable;
 
 
 
-
+static bool warningMode = false;
+static bool sensorDefect = false;
 
 
 
@@ -256,6 +257,7 @@ int32_t AppInitialize(void)
 int32_t AppRun(void)
 {
     int32_t StateTableResult = stateTableRunCyclic(&gStateTable);
+
 
     if(StateTableResult == STATETBL_ERR_INVALID_PTR)
     {
@@ -441,7 +443,7 @@ static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
        sensor->elapsedWarningTime >= sensor->warningTime)
     {
         sensor->warningLedTriggered = true;
-        ledSetLED(LED1, LED_ON);
+        warningMode =true;
     }
 
     if(sensor->elapsedEmergencyTime >= sensor->emergencyTime)
@@ -456,6 +458,7 @@ static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
 static int32_t initOnEntry(State_t* pState, int32_t eventID)
 {
 
+	LEDHandler_AllOff();
 
 	return STATETBL_ERR_OK;
 }
@@ -499,6 +502,8 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 {
 	int32_t stateTableResult = STATETBL_ERR_OK;
 
+	LEDHandler_OperationalMode(warningMode);
+
 	return stateTableResult;
 }
 
@@ -506,7 +511,7 @@ static int32_t onOperational(State_t * pState, int32_t eventID)
 
 static int32_t onEmergency(State_t *pState, int32_t eventID)
 {
-	ledToggleLED(LED1);
+	LEDHandler_EmergencyMode();
 
 	return STATETBL_ERR_OK;
 }
@@ -529,7 +534,7 @@ static int32_t preOperationOnEntry(State_t *pState, int32_t eventID)
 
 static int32_t testModeOnEntry(State_t *pState, int32_t eventID)
 {
-	ledSetLED(LED3,LED_ON);
+	LEDHandler_TestMode();
 	leftDigit = DIGIT_DASH;
 	rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
@@ -537,7 +542,6 @@ static int32_t testModeOnEntry(State_t *pState, int32_t eventID)
 
 static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 {
-	ledSetLED(LED0,LED_ON);
 	uint32_t actualTick = HAL_GetTick();
 	gasSensor.lastTick = actualTick;
 	waterSensor.lastTick = actualTick;
@@ -555,23 +559,12 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 
 static int32_t failureOnEntry(State_t *pState, int32_t eventID)
 {
-	ledSetLED(LED2, LED_ON);
+	LEDHandler_FailureMode(sensorDefect);
 	leftDigit = DIGIT_DASH;
 	rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
 }
 
-static int32_t operationOnExit(State_t *pState, int32_t eventID)
-{
-	ledSetLED(LED0,LED_OFF);
-	ledSetLED(LED1, LED_OFF);
-	return STATETBL_ERR_OK;
-}
-static int32_t testmodeOnExit(State_t *pState, int32_t eventID)
-{
-	ledSetLED(LED3, LED_OFF);
-	return STATETBL_ERR_OK;
-}
 
 static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID)
 {
@@ -611,7 +604,7 @@ static bool FailureGuard(StateTableEntry_t *pEntry, int32_t eventID)
 	if( ((eventID == EVT_ID_ERROR) ||  (eventID == EVT_ID_STACK_CORRUPTION) || (eventID == EVT_ID_SENSOR_DEFECT)) )
 	{
 		if(eventID == EVT_ID_SENSOR_DEFECT)
-				ledSetLED(LED4, LED_ON);
+				sensorDefect = true;
 		return true;
 	}
 	return false;
