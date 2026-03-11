@@ -72,8 +72,10 @@
  *
  * @return Elapsed time in ticks.
  */
-static uint32_t schedulerGetElapseTime(uint32_t savedTimeStamp, uint32_t currentTime);
+static inline uint32_t schedulerGetElapseTime(uint32_t savedTimeStamp, uint32_t currentTime);
 
+
+static int32_t executeCyclicTask(CyclicFunction task, uint32_t* tick ,uint32_t threshold);
 /***** PUBLIC FUNCTIONS ******************************************************/
 
 /**
@@ -104,10 +106,10 @@ int32_t schedInitialize(Scheduler* pScheduler)
 	pScheduler->halTick_50ms = 0;
 	pScheduler->halTick_250ms = 0;
 
-	pScheduler->halTick_1ms = 0;
-	pScheduler->halTick_10ms = 0;
-	pScheduler->halTick_50ms = 0;
-	pScheduler->halTick_250ms = 0;
+	pScheduler->pTask_1ms = 0;
+	pScheduler->pTask_10ms = 0;
+	pScheduler->pTask_50ms = 0;
+	pScheduler->pTask_250ms = 0;
 
 
 
@@ -144,69 +146,32 @@ int32_t schedCycle(Scheduler* pScheduler)
 		return SCHED_ERR_INVALID_PTR;
 	}
 
+	uint32_t executionResult= 0u;
 
-	uint32_t timeElapsed = 0;
-	uint32_t actualTick= 0;
+	executionResult = executeCyclicTask(pScheduler->pTask_1ms, &pScheduler->halTick_1ms ,HAL_TICK_VALUE_1MS );
 
-	actualTick = HAL_GetTick();
-	timeElapsed = schedulerGetElapseTime(pScheduler->halTick_1ms, actualTick);
-	if(timeElapsed >= HAL_TICK_VALUE_1MS)
+	if(executionResult == SCHED_ERR_INVALID_PTR)
 	{
-		pScheduler->halTick_1ms = actualTick;
-		if(pScheduler->pTask_1ms != 0)
-		{
-			pScheduler->pTask_1ms();
-		}else
-		{
-			return SCHED_ERR_INVALID_PTR;
-
-		}
+		//Do nothing
 	}
+	executionResult = executeCyclicTask(pScheduler->pTask_10ms, &pScheduler->halTick_10ms ,HAL_TICK_VALUE_10MS );
 
-	actualTick = HAL_GetTick();
-	timeElapsed = schedulerGetElapseTime(pScheduler->halTick_10ms, actualTick);
-	if(timeElapsed >= HAL_TICK_VALUE_50MS)
-	{
-		pScheduler->halTick_10ms = actualTick;
-		if(pScheduler->pTask_10ms != 0)
+	if(executionResult == SCHED_ERR_INVALID_PTR)
 		{
-			pScheduler->pTask_10ms();
-		}else
-		{
-			return SCHED_ERR_INVALID_PTR;
-
+			//Do nothing
 		}
-	}
+	executionResult = executeCyclicTask(pScheduler->pTask_50ms, &pScheduler->halTick_50ms ,HAL_TICK_VALUE_50MS );
 
-	actualTick = HAL_GetTick();
-	timeElapsed = schedulerGetElapseTime(pScheduler->halTick_50ms, actualTick);
-	if(timeElapsed >= HAL_TICK_VALUE_50MS)
-	{
-		pScheduler->halTick_50ms = actualTick;
-		if(pScheduler->pTask_50ms != 0)
+	if(executionResult == SCHED_ERR_INVALID_PTR)
 		{
-			pScheduler->pTask_50ms();
-		}else
-		{
-			return SCHED_ERR_INVALID_PTR;
-
+			//Do nothing
 		}
-	}
+	executionResult = executeCyclicTask(pScheduler->pTask_250ms, &pScheduler->halTick_250ms ,HAL_TICK_VALUE_250MS );
 
-	actualTick = HAL_GetTick();
-	timeElapsed = schedulerGetElapseTime(pScheduler->halTick_250ms, actualTick);
-	if(timeElapsed >= HAL_TICK_VALUE_250MS)
-	{
-		pScheduler->halTick_250ms = actualTick;
-		if(pScheduler->pTask_250ms != NULL)
+	if(executionResult == SCHED_ERR_INVALID_PTR)
 		{
-			pScheduler->pTask_250ms();
-		}else
-		{
-			return SCHED_ERR_INVALID_PTR;
-
+			//Do nothing
 		}
-	}
 
 
 	return SCHED_ERR_OK;
@@ -230,5 +195,26 @@ static inline uint32_t schedulerGetElapseTime(uint32_t savedTimeStamp, uint32_t 
 {
 	uint32_t dt = currentTime - savedTimeStamp;
 	return dt;
+}
+
+static int32_t executeCyclicTask(CyclicFunction task, uint32_t* tick ,uint32_t threshold)
+{
+
+	uint32_t actualTick = HAL_GetTick();
+	uint32_t timeElapsed = schedulerGetElapseTime(*tick, actualTick);
+		if(timeElapsed >= threshold)
+		{
+			*tick = actualTick;
+			if(task != 0)
+			{
+				task();
+			}else
+			{
+				return SCHED_ERR_INVALID_PTR;
+
+			}
+		}
+
+	return SCHED_ERR_OK;
 }
 

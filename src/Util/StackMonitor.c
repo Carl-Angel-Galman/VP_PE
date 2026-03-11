@@ -58,6 +58,8 @@
  */
 #define STACK_SIZE_BYTES ((uint32_t)((uintptr_t)&_estack - (uintptr_t)&_sstack))
 
+#define STACK_FULL_USAGE 100u
+
 /*******************************************************************************
  * Global Variables
  ******************************************************************************/
@@ -76,19 +78,7 @@ extern uint32_t _sstack;
  * Static Functions
  ******************************************************************************/
 
-/**
- * @brief Returns the current Main Stack Pointer (MSP) value.
- *
- * This helper reads the current MSP register directly using inline assembly.
- *
- * @return Current MSP value.
- */
-static inline uint32_t get_msp(void)
-{
-    uint32_t msp;
-    __asm volatile ("mrs %0, msp" : "=r"(msp));
-    return msp;
-}
+
 
 /*******************************************************************************
  * Exported Functions
@@ -107,7 +97,7 @@ static inline uint32_t get_msp(void)
  */
 uint32_t GetFreeBytes(void)
 {
-    uint32_t *stack_scan = &_sstack;
+    uint32_t *stack_scan = &_sstack + 1;
     uint32_t *stack_top  = &_estack;
 
     while ((stack_scan < stack_top) && (*stack_scan == MARKER)) {
@@ -150,7 +140,7 @@ uint32_t GetUsedBytes(void)
  */
 uint8_t GetUsage(void)
 {
-    return (uint8_t)((GetUsedBytes() * 100u) / STACK_SIZE_BYTES);
+    return (uint8_t)((GetUsedBytes() * STACK_FULL_USAGE) / STACK_SIZE_BYTES);
 }
 
 /**
@@ -169,15 +159,23 @@ uint8_t GetUsage(void)
  */
 bool isCorrupted(void)
 {
-    uint32_t *stack_end_marker = &_estack;
+    uint32_t *stack_end_marker = &_sstack;
 
-    if (*stack_end_marker != ENDMARKER) {
+    uint8_t usage = GetUsage();
+
+    uint32_t msp = __get_MSP();
+
+
+    if(usage <= STACK_FULL_USAGE)
+    {
+    	return true;
+    }
+
+    else if (*stack_end_marker != ENDMARKER) {
         return true;
     }
 
-    uint32_t sp = get_msp();
-
-    if ((sp < (uint32_t)&_sstack) || (sp > (uint32_t)&_estack)) {
+    else if ((msp < (uint32_t)&_sstack) || (msp > (uint32_t)&_estack)) {
         return true;
     }
 

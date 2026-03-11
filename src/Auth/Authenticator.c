@@ -68,7 +68,7 @@
 
 #define APP_SIGNATURE_ADDR 			0x08010000u
 
-#define RECEIVE_CHARACTER 			'A'
+#define RECEIVE_CHARACTER 			(uint8_t)('A')
 
 #define NEWLINE_CHARACTER 			'\n'
 
@@ -79,6 +79,8 @@
 #define SIZE_OF_SIGNATURE 			4u
 
 #define BLINKY_TIME_THRESHOLD 		500u
+
+#define MIN_KEY_LEN 1u
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -107,11 +109,11 @@ static void keyReadingWarningDetermination(uint32_t elapsed);
  * Global Variables
  ******************************************************************************/
 
-extern uint32_t _sloadauth;
+extern uint8_t _sloadauth;
 
-extern uint32_t _sauth;
+extern uint8_t _sauth;
 
-extern uint32_t _eauth;
+extern uint8_t _eauth;
 
 /***** PRIVATE VARIABLES *****************************************************/
 
@@ -196,30 +198,26 @@ void verify(void)
  */
 int8_t AuthCopyAndDecryptVerify(uint8_t key[], uint8_t key_len)
 {
+    if(key == NULL || key_len == 0)
+        return AUTH_ERR_INVALID_PTR;
 
-	if(key == NULL || key_len == 0)
-	{
-		return AUTH_ERR_INVALID_PTR;
-	}
-
-	uint32_t  *dst = &_sauth;
+    uint8_t *dst = &_sauth;
+    uint8_t *src = &_sloadauth;
 
     size_t section_len = (size_t)(&_eauth - &_sauth);
 
-	uint32_t * src = &_sloadauth;
-
     memcpy(dst, src, section_len);
 
-    for (size_t i = 0; i < section_len; i++)
-	{
-		dst[i] ^= key[i % key_len];
-	}
+    for(size_t i = 0; i < section_len; i++)
+    {
+        dst[i] ^= key[i % key_len];
+    }
 
-    __DSB();__ISB();
+    __DSB();
+    __ISB();
 
     return AUTH_ERR_OK;
 }
-
 
 /**
  * @brief Waits for the authenticator start character on UART.
@@ -245,40 +243,43 @@ int8_t AuthWaitForA(void)
 
 	uint32_t elapsed = 0;
 
+	bool hasData = 0;
+
+	int32_t hasDataResult = 0;
+
+
 	while(1)
 	{
 		uint32_t currentTime = HAL_GetTick();
 
 		elapsed = currentTime - startTimeStamp;
 
-		int32_t uartReceiveResult = uartReceiveData(&charBuffer, 1, KEY_POLL_TIMEOUT_MS);
-
-		if (uartReceiveResult == UART_ERR_TIMEOUT)
+		if (elapsed >=  WAIT_A_TIMEOUT_MS)
 		{
-			continue;
-		}
-
-		else if (uartReceiveResult == UART_ERR_OK)
-		{
-			if (charBuffer == (uint8_t)RECEIVE_CHARACTER)
-			{
-
-				outputLogf("%c \r", NEWLINE_CHARACTER);
-
-				return AUTH_ERR_OK ;
-			}
-
-			else
-			{
-				continue;
-			}
-		}
-
-		else if (elapsed >=  WAIT_A_TIMEOUT_MS)
-		{
+			outputLogf("[AUTH] going to timeout, with elapsed: %d \n", (uint32_t)elapsed/1000);
 
 			return AUTH_ERR_TIMEOUT;
 
+		}
+
+		hasDataResult = uartHasData(&hasData);
+
+		if((hasDataResult == UART_ERR_OK) && (hasData == true))
+		{
+
+			int32_t uartReceiveResult = uartReceiveData(&charBuffer, 1, KEY_POLL_TIMEOUT_MS);
+
+			if(uartReceiveResult == UART_ERR_OK)
+			{
+
+				if(charBuffer == RECEIVE_CHARACTER)
+				{
+
+					outputLogf("%c \r", NEWLINE_CHARACTER);
+
+					return AUTH_ERR_OK ;
+				}
+			}
 		}
 	}
 
@@ -330,13 +331,17 @@ int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
 
     uint32_t start = HAL_GetTick();
 
-    uint32_t now;
+    uint32_t now = 0;
 
-    uint32_t elapsed;
+    uint32_t elapsed = 0;
 
-    uint8_t ch = 0;
+    uint8_t ch = 0u;
 
-	uint8_t len = 0;
+	uint8_t len = 0u;
+
+	int32_t hasDataResult = 0;
+
+	bool hasData = false;
 
 	ledSetLED(LED1, LED_OFF);
 
@@ -352,43 +357,45 @@ int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
         keyReadingWarningDetermination(elapsed);
 
         if(keyInputWarningStage ==TIMEOUT)
-        {
+		{
+
         	return AUTH_ERR_TIMEOUT;
-        }
-
-        int32_t r = uartReceiveData(&ch, 1, KEY_POLL_TIMEOUT_MS);
-
-        if (r == UART_ERR_TIMEOUT)
-		{
-			continue;
-		}
-		else if (r == UART_ERR_RECEIVE)
-		{
-			return AUTH_ERR_FAILURE;
 		}
 
-		else if(ch == (uint8_t)NEWLINE_CHARACTER)
-        {
-        	*keylen = len;
+        hasDataResult = uartHasData(&hasData);
 
-        	return AUTH_ERR_OK;
+		if((hasDataResult == UART_ERR_OK) && (hasData == true))
+		{
+
+            int32_t r = uartReceiveData(&ch, 1, KEY_POLL_TIMEOUT_MS);
+
+            if (r == UART_ERR_RECEIVE)
+			{
+
+				return AUTH_ERR_FAILURE;
+			}
+
+
+			else if((ch == (uint8_t)NEWLINE_CHARACTER) && len >= MIN_KEY_LEN)
+			{
+				*keylen = len;
+
+				return AUTH_ERR_OK;
+			}
+
+			else if (len < MAX_KEY_LEN)
+			{
+				if (IS_A_LETTER_OR_NUMBER(ch))
+				{
+					  key[len++] = ch;
+				}
+			}
+			else if(len >= MAX_KEY_LEN)
+			{
+			// do nothing.
+			}
         }
-
-        else if (len < MAX_KEY_LEN)
-        {
-        	if (IS_A_LETTER_OR_NUMBER(ch))
-        	{
-
-                key[len++] = ch;
-        	}
-        }
-
-        else if(len >= MAX_KEY_LEN)
-        {
-            return AUTH_ERR_KEY_LENGHT_BREACH;
-        }
-
-        // none valid chars will be skipped.
+        // implicitly none valid chars will be skipped.
 	}
 
     return AUTH_ERR_FAILURE;
@@ -427,7 +434,6 @@ int8_t AuthGoToFailure(void)
 {
 	outputLog("[AUTH] Going to Failure. \n");
 
-
 	ledSetLED(LED4, LED_ON);
 
 	return AUTH_ERR_OK;
@@ -451,9 +457,12 @@ int8_t AuthGoToFailure(void)
 static void Flash_D1(uint32_t elapsedTime)
 {
 
-	if(elapsedTime >=  BLINKY_TIME_THRESHOLD)
+	static uint32_t lastBlinkTime = 0;
+
+	if((elapsedTime - lastBlinkTime) >= BLINKY_TIME_THRESHOLD)
 	{
 	    ledToggleLED(LED1);
+	    lastBlinkTime = elapsedTime;
 	}
 }
 
@@ -482,11 +491,12 @@ static void keyReadingWarningDetermination(uint32_t elapsed)
 
 			if (elapsed >= KEY_WARNING_STAGE1_MS)
 			{
-				outputLog("[AUTH]: 10 seconds have passed \n");
+				outputLog("[AUTH]: 10 seconds have passed \n\r");
 
 				ledSetLED(LED1, LED_ON);
 
 				keyInputWarningStage = FIRST_WARNING;
+
 			}
 
 			break;
@@ -513,6 +523,9 @@ static void keyReadingWarningDetermination(uint32_t elapsed)
 			}
 			break;
 
+		case TIMEOUT:
+
+			break;
     }
 }
 

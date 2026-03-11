@@ -17,7 +17,7 @@
 
 /***** INCLUDES **************************************************************/
 #include <stdint.h>
-
+#include <stdbool.h>
 /***** CONSTANTS *************************************************************/
 
 
@@ -66,5 +66,10 @@ int32_t uartSendData(uint8_t* pDataBuffer, int32_t bufferLength);
  * @return Returns UART_ERR_OK if no error occured, otherwise UART_ERR_RECEIVE
  */
 int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength, uint32_t timeout);
+
+/**
+ *
+ */
+int32_t uartHasData(bool* pHasData);
 
 #endif

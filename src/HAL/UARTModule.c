@@ -15,7 +15,9 @@
 
 
 /***** INCLUDES **************************************************************/
+#include "UARTModule.h"
 #include "stm32g4xx_hal.h"
+#include "stm32g4xx_hal_uart.h"
 
 #include "System.h"
 #include "HardwareConfig.h"
@@ -125,7 +127,7 @@ int32_t uartSendData(uint8_t* pDataBuffer, int32_t bufferLength)
 int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength, uint32_t timeout)
 {
 
-    HAL_StatusTypeDef halStatus = HAL_UART_Receive(&gUARTHandle, pDataBuffer, bufferLength, timeout);
+    HAL_StatusTypeDef halStatus = HAL_UART_Receive(&gUARTHandle, pDataBuffer, bufferLength, HAL_MAX_DELAY);
 
 
     if(halStatus == HAL_TIMEOUT)
@@ -141,6 +143,23 @@ int32_t uartReceiveData(uint8_t* pDataBuffer, int32_t bufferLength, uint32_t tim
 
 
     return UART_ERR_OK;
+}
+
+
+int32_t uartHasData(bool* pHasData)
+{
+	int32_t result = UART_ERR_OK;
+
+	if (__HAL_UART_GET_FLAG(&gUARTHandle, UART_FLAG_RXNE)==SET)
+	{
+		*pHasData = true;
+	}
+	else
+	{
+		*pHasData = false;
+	}
+
+	return result;
 }
 
 /***** PRIVATE FUNCTIONS *****************************************************/

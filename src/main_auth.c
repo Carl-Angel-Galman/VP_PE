@@ -116,91 +116,80 @@ int main(void)
 
 	while(1)
 	{
-	switch(current_state)
-	{
 
-		case BOOTUP:
+		switch(current_state)
+		{
 
-			if(initializePeripherals() != AUTH_ERR_OK)
+			case BOOTUP:
+
+				if(initializePeripherals() != AUTH_ERR_OK)
+					break;
+
+				AuthInit();
+
+				current_state = PREPARE_APPLICATION;
+
 				break;
 
-			AuthInit();
+			case PREPARE_APPLICATION:
+				{
+					int8_t keyReadResult = AuthWaitForA();
 
-			current_state = PREPARE_APPLICATION;
+					if(keyReadResult == AUTH_ERR_TIMEOUT)
+					{
+						AuthGoToFailure();
+
+						current_state = FAILURE;
+						break;
+					}
+					else if(keyReadResult == AUTH_ERR_FAILURE)
+					{
+						break;
+					}
+
+					uint8_t key_len = 0U;
+
+					uint8_t key[MAX_KEY_LEN] = {0u};
+
+					keyReadResult = AuthReadKey(key, &key_len);
+
+					if(keyReadResult == AUTH_ERR_TIMEOUT)
+					{
+						AuthGoToFailure();
+
+						current_state = FAILURE;
+						break;
+					}
+
+					int32_t copyAndDecryptResult = AuthCopyAndDecryptVerify(key, key_len);
+
+					if(copyAndDecryptResult == AUTH_ERR_INVALID_PTR)
+					{
+						break;
+					}
+
+					current_state = START_APPLICATION;
+				}
+
+				break;
+
+			case FAILURE:
+
+				while(1)
+				{
+
+				}
+				break;
+
+			case START_APPLICATION:
+
+				verify();
 
 			break;
 
-		case PREPARE_APPLICATION:
-			{
-				int8_t keyReadResult = AuthWaitForA();
-
-				if(keyReadResult == AUTH_ERR_TIMEOUT)
-				{
-					AuthGoToFailure();
-
-					current_state = FAILURE;
-					break;
-				}
-				else if(keyReadResult == AUTH_ERR_FAILURE)
-				{
-					break;
-				}
-
-				uint8_t key_len = 0U;
-
-				uint8_t key[MAX_KEY_LEN] = {0};
-
-				keyReadResult = AuthReadKey(key, &key_len);
-
-				/**
-				 * @note
-				 * According to the project requirement, only a timeout while waiting for the
-				 * start character causes a transition to the FAILURE state. Other non-success
-				 * results keep the system in PREPARE_APPLICATION.
-				 */
-				if(keyReadResult == AUTH_ERR_TIMEOUT)
-				{
-					AuthGoToFailure();
-
-					current_state = FAILURE;
-					break;
-				}
-				else if(keyReadResult == AUTH_ERR_KEY_LENGHT_BREACH)
-				{
-					break;
-				}
-
-				int32_t copyAndDecryptResult = AuthCopyAndDecryptVerify(key, key_len);
-
-				if(copyAndDecryptResult == AUTH_ERR_INVALID_PTR)
-				{
-					break;
-				}
-
-				current_state = START_APPLICATION;
-
-			}
-			break;
-
-		case FAILURE:
-
-			while(1)
-			{
-
-			}
-
-			break;
-
-		case START_APPLICATION:
-
-			verify();
-
-		break;
-
-		default:
-			break;
-	}
-
+			default:
+				break;
+		}
 
 	}
 }
@@ -223,13 +212,16 @@ int main(void)
 static int32_t initializePeripherals(void)
 {
     // Initialize UART used for Debug-Outputs
-    if(uartInitialize(BAUD_RATE) != UART_ERR_OK)	return AUTH_ERR_FAILURE;
+    if(uartInitialize(BAUD_RATE) != UART_ERR_OK)
+    	return AUTH_ERR_FAILURE;
 
     // Initialize GPIOs for LED and 7-Segment output
-	if(ledInitialize()!= LED_ERR_OK) 			return AUTH_ERR_FAILURE ;
+	if(ledInitialize()!= LED_ERR_OK)
+		return AUTH_ERR_FAILURE;
 
     // Initialize Timer, DMA and ADC for sensor measurements
-    if(timerInitialize()!= TIMER_ERR_OK) 		return AUTH_ERR_FAILURE;
+    if(timerInitialize()!= TIMER_ERR_OK)
+    	return AUTH_ERR_FAILURE;
 
     return AUTH_ERR_OK;
 }
