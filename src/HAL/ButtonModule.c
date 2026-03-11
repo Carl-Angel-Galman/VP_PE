@@ -132,7 +132,7 @@ bool buttonhasButtonDebounced(Button_t button)
 		if(reading != currentButtonStates[button])
 		{
 			currentButtonStates[button] = reading;
-			if(currentButtonStates[button] == BUTTON_RELEASED)
+			if(currentButtonStates[button] == BUTTON_PRESSED)
 			{
 				return true;
 			}

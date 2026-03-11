@@ -170,7 +170,7 @@ SECTIONS
  
   .stack (NOLOAD):
   {
-      . = ORIGIN(RAM) + LENGTH(RAM) - _size_of_stack;
+      . = ORIGIN(RAM) + LENGTH(RAM)  - _size_of_stack;
 	
     	
       _sstack = . ;

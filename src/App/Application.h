@@ -17,6 +17,7 @@
 
 /***** INCLUDES **************************************************************/
 #include <stdint.h>
+#include <stdbool.h>
 
 /***** CONSTANTS *************************************************************/
 
@@ -42,6 +43,25 @@
 #define EVT_ID_TO_TESTMODE 				6
 #define EVT_ID_STACK_CORRUPTION			7
 #define EVT_ID_TRIGGER_EMERGENCY 		8
+#define EVT_ID_SENSOR_DEFECT			9
+
+
+typedef struct
+{
+    int32_t warningThreshold;
+    int32_t emergencyThreshold;
+
+    uint32_t elapsedWarningTime;
+    uint32_t elapsedEmergencyTime;
+    uint32_t lastTick;
+
+    uint32_t warningTime;
+    uint32_t emergencyTime;
+
+    bool warningLedTriggered;
+
+} SensorMonitor_t;
+/***** TYPES *****************************************************************/
 
 
 /***** TYPES *****************************************************************/
@@ -57,6 +77,8 @@ int32_t AppSendEvent(int32_t eventID);
 int32_t AppPollForButtonEvent(void);
 
 int32_t AppDisplayDigitsOnSegments(void);
+
+int32_t AppUpdatingSensors(void);
 
 
 #endif

@@ -27,17 +27,13 @@
 /***** PRIVATE CONSTANTS *****************************************************/
 
 
-/***** PRIVATE MACROS ********************************************************/
-#define USE_CUSTOM_MSP 1
 
 /***** PRIVATE TYPES *********************************************************/
 
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 
-
 /***** PRIVATE VARIABLES *****************************************************/
-
 
 /***** PUBLIC FUNCTIONS ******************************************************/
 
@@ -45,8 +41,6 @@
 void taskApp1ms(void)
 {
 	AppDisplayDigitsOnSegments();
-
-
 }
 
 
@@ -60,6 +54,12 @@ void taskApp10ms(void)
 		AppSendEvent(ButtonPollResult);
 	}
 
+	int32_t SensorPollResult = AppUpdatingSensors();
+
+	if(SensorPollResult != NO_EVT)
+	{
+		AppSendEvent(SensorPollResult);
+	}
 
 }
 

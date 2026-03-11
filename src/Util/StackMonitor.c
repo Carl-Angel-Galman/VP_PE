@@ -98,6 +98,7 @@ extern uint32_t _sstack;
 uint32_t GetFreeBytes(void)
 {
     uint32_t *stack_scan = &_sstack + 1;
+
     uint32_t *stack_top  = &_estack;
 
     while ((stack_scan < stack_top) && (*stack_scan == MARKER)) {
