@@ -106,6 +106,8 @@ static int32_t testModeOnEntry(State_t *pState, int32_t eventID);
 
 static int32_t operationOnExit(State_t *pState, int32_t eventID);
 
+static int32_t testmodeOnExit(State_t *pState, int32_t eventID);
+
 static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID);
 
 static bool OpGuard(StateTableEntry_t * pEntry, int32_t eventID);
@@ -153,7 +155,7 @@ static State_t gStateList[] =
 
 		{STATE_ID_FAILURE, 			failureOnEntry,  					0,                 			0,              false},
 
-		{STATE_ID_TESTMODE, 		testModeOnEntry,  				    0,                  		0,              false},
+		{STATE_ID_TESTMODE, 		testModeOnEntry,  				    0,                  	 	testmodeOnExit,	false},
 
 		{STATE_ID_EMERGENCY, 		displayDashOnEntry,  				onEmergency,                0,              false}
 };
@@ -183,9 +185,11 @@ static StateTableEntry_t gStateTableEntries[] =
 
 	{STATE_ID_OPERATIONAL, 			STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[5]},
 
-	{STATE_ID_EMERGENCY, 			STATE_ID_OPERATIONAL, 				EVT_ID_B1_PRESSED, 				OpGuard,			&gStateList[0],      	&gStateList[2]},
+	{STATE_ID_EMERGENCY, 			STATE_ID_OPERATIONAL, 				EVT_ID_B1_PRESSED, 				OpGuard,			&gStateList[5],      	&gStateList[2]},
 
-	{STATE_ID_TESTMODE, 			STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,      	FailureGuard,      	&gStateList[5],      	&gStateList[3]},
+	{STATE_ID_TESTMODE, 			STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,      	FailureGuard,      	&gStateList[4],      	&gStateList[3]},
+
+	{STATE_ID_EMERGENCY, 			STATE_ID_FAILURE, 					EVT_ID_STACK_CORRUPTION, 		FailureGuard,		&gStateList[5],      	&gStateList[3]},
 
 	{STATE_ID_PREOPERATIONAL, 		STATE_ID_FAILURE,           		EVT_ID_STACK_CORRUPTION,      	FailureGuard,      	&gStateList[1],      	&gStateList[3]},
 
@@ -578,6 +582,11 @@ static int32_t operationOnExit(State_t *pState, int32_t eventID)
 {
 	ledSetLED(LED0,LED_OFF);
 	ledSetLED(LED1, LED_OFF);
+	return STATETBL_ERR_OK;
+}
+static int32_t testmodeOnExit(State_t *pState, int32_t eventID)
+{
+	ledSetLED(LED3, LED_OFF);
 	return STATETBL_ERR_OK;
 }
 

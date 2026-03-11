@@ -43,14 +43,22 @@ int32_t gasSensorSetSensorVoltage(GasSensor* pSensor,EMAFilterData_t* filter, ui
 		{
 			return SENSOR_DEFECT;
 		}
-	pSensor->sensorVoltage = filterEMA(filter, sensorVolt);
+	 int32_t checkFilter = filterEMA(filter, sensorVolt,&pSensor->sensorVoltage );
+	 if(checkFilter != FILTER_ERR_OK)
+	 {
+		 return checkFilter;
+	 }
 
 	return SENSOR_OK;
 }
 
-int32_t gasSensorGetSensorValue(GasSensor* pSensor)
+int32_t gasSensorGetSensorValue(GasSensor* pSensor, int32_t* pValue)
 {
 	if(pSensor == NULL)
+	{
+		return SENSOR_INVALID_PTR;
+	}
+	if(pValue == NULL)
 	{
 		return SENSOR_INVALID_PTR;
 	}
@@ -67,6 +75,7 @@ int32_t gasSensorGetSensorValue(GasSensor* pSensor)
 	//Validate the sensor value
 	if(value < MIN_SENOSR_VALUE || value > MAX_SENOSR_VALUE)
 		return SENSOR_INVALID_VALUE;
+	*pValue =value;
 
-	return value;
+	return SENSOR_OK;
 }

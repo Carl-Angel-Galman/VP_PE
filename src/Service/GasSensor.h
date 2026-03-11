@@ -20,10 +20,10 @@
 typedef struct _GasSensor
 {
 	//sensorVoltage in microVolt
-	uint32_t sensorVoltage;
+	int32_t sensorVoltage;
 
 	//Conversion Factor microVolt per ppm
-	uint32_t conversionFactor;
+	int32_t conversionFactor;
 
 } GasSensor;
 
@@ -34,7 +34,7 @@ int32_t gasSensorInitalize(GasSensor* pSensor, uint32_t convFactor);
 int32_t gasSensorSetSensorVoltage(GasSensor* pSensor,EMAFilterData_t* filter, uint32_t sensorVolt);
 
 //Returns the ppm-Value of sensor
-int32_t gasSensorGetSensorValue(GasSensor* pSensor);
+int32_t gasSensorGetSensorValue(GasSensor* pSensor, int32_t* pValue);
 
 
 #endif /* SRC_SERVICE_GASSENSOR_H_ */

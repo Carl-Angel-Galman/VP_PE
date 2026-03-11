@@ -167,7 +167,7 @@ bool isCorrupted(void)
     uint32_t msp = __get_MSP();
 
 
-    if(usage <= STACK_FULL_USAGE)
+    if(usage >= STACK_FULL_USAGE)
     {
     	return true;
     }

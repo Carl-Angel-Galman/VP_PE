@@ -18,7 +18,7 @@
 #define MIN_SENOSR_VALUE 200 //in ppm
 #define MAX_SENOSR_VALUE 10000 //in ppm
 
-#define INCONSISTENCY_VALUE 40 //in percent
+#define INCONSISTENCY_VALUE 30 //in percent
 #define CHECK_NULL_NEG 0
 #define FILTER_ALPHA 400
 #define FILTER_SCALING 1000
@@ -82,8 +82,20 @@ int32_t dualGasSetVoltages(void)
 int32_t dualGasCheckInconsistency(void)
 {
 	int32_t maxValue = 0;
-	int32_t ppm_sensor1 = gasSensorGetSensorValue(&sensorP1);
-	int32_t ppm_sensor2 = gasSensorGetSensorValue(&sensorP2);
+	int32_t ppm_sensor1 =0;
+	int32_t ppm_sensor2 =0;
+	int32_t checkSuccess = gasSensorGetSensorValue(&sensorP1, &ppm_sensor1);
+	if(checkSuccess != SENSOR_OK)
+	{
+		//CheckSuccess return the error codes of gasSensorSetSensorVoltage
+		return checkSuccess;
+	}
+
+	checkSuccess = gasSensorGetSensorValue(&sensorP2,&ppm_sensor2);
+	if(checkSuccess != SENSOR_OK)
+	{
+		return checkSuccess;
+	}
 
 	//Checking for invalid data or error codes
 	if((ppm_sensor1 < MIN_SENOSR_VALUE) || (ppm_sensor2 < MIN_SENOSR_VALUE))
@@ -118,9 +130,20 @@ int32_t dualGasGetAverage(int32_t* average)
 		return DUALSENSORS_INVALID_PTR;
 	}
 
-	int32_t ppm_sensor1 = gasSensorGetSensorValue(&sensorP1);
+	int32_t ppm_sensor1 =0;
+	int32_t ppm_sensor2 =0;
+	int32_t checkSuccess = gasSensorGetSensorValue(&sensorP1, &ppm_sensor1);
+	if(checkSuccess != SENSOR_OK)
+	{
+		//CheckSuccess return the error codes of gasSensorSetSensorVoltage
+		return checkSuccess;
+	}
 
-	int32_t ppm_sensor2 = gasSensorGetSensorValue(&sensorP2);
+	checkSuccess = gasSensorGetSensorValue(&sensorP2,&ppm_sensor2);
+	if(checkSuccess != SENSOR_OK)
+	{
+		return checkSuccess;
+	}
 
 	//Checking for invalid data or error codes
 	if(ppm_sensor1 < MIN_SENOSR_VALUE || ppm_sensor2 < MIN_SENOSR_VALUE)

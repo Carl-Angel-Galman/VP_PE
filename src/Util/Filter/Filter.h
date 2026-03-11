@@ -78,6 +78,6 @@ int32_t filterResetEMA(EMAFilterData_t* pEMA);
  *
  * @return The filtered sensor value
  */
-int32_t filterEMA(EMAFilterData_t* pEMA, int32_t sensorValue);
+int32_t filterEMA(EMAFilterData_t* pEMA, int32_t sensorValue, int32_t* value);
 
 #endif
