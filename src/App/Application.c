@@ -295,21 +295,6 @@ int32_t AppDisplayDigitsOnSegments(void)
 	return APP_NO_ERR;
 }
 
-void AppSetCustomMSPIfEnabled(void)
-{
-#if defined(USE_CUSTOM_MSP) && (USE_CUSTOM_MSP == 1)
-
-	extern uint32_t _estack;
-	uint32_t outsideOfStack = _estack + 4;
-   __disable_irq();
-   __set_MSP(outsideOfStack);
-   __DSB();
-   __ISB();
-   __enable_irq();
-#endif
-
-}
-
 int32_t AppUpdatingSensors()
 {
 	if(gStateTable.currentStateID == STATE_ID_OPERATIONAL )

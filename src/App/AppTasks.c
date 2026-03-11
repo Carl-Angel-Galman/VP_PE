@@ -26,10 +26,7 @@
 #include "stdbool.h"
 /***** PRIVATE CONSTANTS *****************************************************/
 
-
-
 /***** PRIVATE TYPES *********************************************************/
-
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 
@@ -80,16 +77,19 @@ void taskApp250ms(void)
 
 #if defined(USE_CUSTOM_MSP) && (USE_CUSTOM_MSP == 1)
 
-	extern uint32_t _sstack;
+	extern uint8_t _sstack;
 
-	uint32_t outsideOfStack = (uint32_t)&_sstack - 4U;
+	uintptr_t stackScanner = (uintptr_t)&_sstack;
+	stackScanner--;
+
 	__disable_irq();
-	__set_MSP(outsideOfStack);
+	__set_MSP((uint32_t)stackScanner);
 	__DSB();
 	__ISB();
 	__enable_irq();
 
 #endif
+
 	uint32_t freeBytes = GetFreeBytes();
 	uint32_t usedBytes = GetUsedBytes();
 	uint8_t usage = GetUsage();

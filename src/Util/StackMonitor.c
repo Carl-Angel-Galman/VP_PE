@@ -97,9 +97,11 @@ extern uint32_t _sstack;
  */
 uint32_t GetFreeBytes(void)
 {
-    uint32_t *stack_scan = &_sstack + 1;
+    uint32_t *stack_scan = &_sstack;
 
     uint32_t *stack_top  = &_estack;
+
+    stack_scan++;
 
     while ((stack_scan < stack_top) && (*stack_scan == MARKER)) {
         stack_scan++;
@@ -166,19 +168,22 @@ bool isCorrupted(void)
 
     uint32_t msp = __get_MSP();
 
-
-    if(usage <= STACK_FULL_USAGE)
+    if ((msp < (uint32_t)&_sstack) || (msp > (uint32_t)&_estack))
     {
     	return true;
     }
 
-    else if (*stack_end_marker != ENDMARKER) {
-        return true;
+    else if(*stack_end_marker != ENDMARKER)
+    {
+    	return true;
     }
 
-    else if ((msp < (uint32_t)&_sstack) || (msp > (uint32_t)&_estack)) {
-        return true;
+    else if(usage >= STACK_FULL_USAGE)
+    {
+    	return true;
     }
+
+
 
     return false;
 }
