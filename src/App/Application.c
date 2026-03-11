@@ -27,8 +27,6 @@
 
 #include "ButtonModule.h"
 
-#include "LEDModule.h"
-
 #include "HMI/LEDHandler.h"
 
 #include "DisplayModule.h"
