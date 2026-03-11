@@ -23,7 +23,6 @@ LD		= arm-none-eabi-gcc
 OBJCOPY = arm-none-eabi-objcopy
 SIZE    = arm-none-eabi-size
 
-
 ###############################################################################
 # Project specific options
 ###############################################################################
@@ -45,9 +44,7 @@ AUTH_LD_FILE = linker/Auth.ld
 
 # Pre-Processor defines to configure the HAL library
 DEF = -DSTM32G4xx -DSTM32G474xx -DUSE_HAL_DRIVER -DF_CPU=170000000L -DDEBUG_BUILD
-
-
-
+DEF += -DUNPATCHED=0
 
 ###############################################################################
 # Flags for the Assembler, Compiler and Linker
@@ -155,18 +152,9 @@ vpath %.c $(dir $(AUTH_SRC_C))
 
 DEPS := $(APP_OBJS_C:.o=.d)
 
-patched: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF) $(AUTH_ELF_PATCH)
-
-
-PYTHON ?= python3
-
-AUTH_ELF         := $(BLD_DIR)/auth.elf
-AUTH_ELF_PATCH   := $(BLD_DIR)/auth_patched.elf
-AUTH_SECTION_RAW := $(BLD_DIR)/auth_section.bin
-AUTH_SECTION_ENC := $(BLD_DIR)/auth_section.bin.enc
-ENCRYPT_SCRIPT   := ../Scripts/encrypt_file.py
-
-all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) $(BLD_DIR)/auth.bin
+all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) 
+all: DEF += -DUNPATCHED=0
+all: $(BLD_DIR)/auth.bin
 
 PYTHON ?= python3
 
@@ -176,21 +164,14 @@ AUTH_SECTION_RAW := $(BLD_DIR)/auth_section.bin
 AUTH_SECTION_ENC := $(BLD_DIR)/auth_section.bin.enc
 ENCRYPT_SCRIPT   := ../Scripts/encrypt_file.py
 
-patched: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH)
+patched: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) 
+patched: DEF += -DUNPATCHED=1
+patched: $(BLD_DIR)/auth.bin 
 
-$(AUTH_ELF_PATCH): $(AUTH_ELF) $(ENCRYPT_SCRIPT) | $(BLD_DIR)
-	@echo "  OBJCOPY dump .auth -> $(notdir $(AUTH_SECTION_RAW))"
-	@$(OBJCOPY) --dump-section .auth=$(AUTH_SECTION_RAW) $(AUTH_ELF)
-	@echo "  PYTHON  encrypt -> $(notdir $(AUTH_SECTION_ENC))"
-	@$(PYTHON) $(ENCRYPT_SCRIPT) -o $(AUTH_SECTION_ENC) $(AUTH_SECTION_RAW)
-	@echo "  OBJCOPY update .auth in $(notdir $(AUTH_ELF_PATCH))"
-	@cp $(AUTH_ELF) $(AUTH_ELF_PATCH)
-	@$(OBJCOPY) --update-section .auth=$(AUTH_SECTION_ENC) $(AUTH_ELF_PATCH)
-	
-$(BLD_DIR)/auth.bin: $(AUTH_ELF_PATCH)
-	@echo "  OBJCOPY $(notdir $@)"
-	@$(OBJCOPY) $< -O binary $@
-
+unpatched: DEF += -DUNPATCHED=1
+unpatched: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(BLD_DIR)/auth.bin 
+		
+		
 ###############################################################################
 # Rules
 ###############################################################################
@@ -229,6 +210,15 @@ $(BLD_DIR)/auth.elf: $(OBJ_DIR)/libstm32.a $(OBJS_ASM_AUTH) $(AUTH_OBJS_C) | $(A
 $(BLD_DIR)/%.bin: $(BLD_DIR)/%.elf
 	@echo "  OBJCOPY $(notdir $@)"
 	@arm-none-eabi-objcopy $< -O binary $@
+	
+$(AUTH_ELF_PATCH): $(AUTH_ELF) $(ENCRYPT_SCRIPT) | $(BLD_DIR)
+	@echo "  OBJCOPY dump .auth -> $(notdir $(AUTH_SECTION_RAW))"
+	@$(OBJCOPY) --dump-section .auth=$(AUTH_SECTION_RAW) $(AUTH_ELF)
+	@echo "  PYTHON  encrypt -> $(notdir $(AUTH_SECTION_ENC))"
+	@$(PYTHON) $(ENCRYPT_SCRIPT) -o $(AUTH_SECTION_ENC) $(AUTH_SECTION_RAW)
+	@echo "  OBJCOPY update .auth in $(notdir $(AUTH_ELF_PATCH))"
+	@cp $(AUTH_ELF) $(AUTH_ELF_PATCH)
+	@$(OBJCOPY) --update-section .auth=$(AUTH_SECTION_ENC) $(AUTH_ELF_PATCH)
 
 clean:
 	rm -f $(BLD_DIR)/*.elf

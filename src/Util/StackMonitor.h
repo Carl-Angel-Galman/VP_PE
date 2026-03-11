@@ -55,6 +55,9 @@ uint8_t GetUsage(void);
  *
  *	The functions reads if the bottom of the stack is reaced and is therefore corrupted.
  *
+ * 	@retVal true if the stack is corrupted
+ *
+ * 	@retVal false if the stack is not corrupted
  */
 bool isCorrupted(void);
 

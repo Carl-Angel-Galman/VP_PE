@@ -183,6 +183,8 @@ int main(void)
 
 			case START_APPLICATION:
 
+				AuthGoToApplicationStart();
+
 				verify();
 
 			break;

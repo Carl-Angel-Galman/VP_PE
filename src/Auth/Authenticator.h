@@ -180,11 +180,8 @@ int8_t AuthInit(void);
  */
 int8_t AuthGoToFailure(void);
 
-/**
- * @brief Returns the current state of the Authenticator state machine.
- *
- * @return Current authenticator state.
- */
-State AuthGetCurrentState(void);
+
+
+int32_t AuthGoToApplicationStart(void);
 
 #endif

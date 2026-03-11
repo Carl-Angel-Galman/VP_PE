@@ -54,7 +54,7 @@
 
 
 /***** PRIVATE MACROS ********************************************************/
-
+#define UNPATCHED 0
 
 #define WAIT_A_TIMEOUT_MS     		15000u
 
@@ -208,10 +208,12 @@ int8_t AuthCopyAndDecryptVerify(uint8_t key[], uint8_t key_len)
 
     memcpy(dst, src, section_len);
 
+#if defined(UNPATCHED) && UNPATCHED == 0
     for(size_t i = 0; i < section_len; i++)
     {
         dst[i] ^= key[i % key_len];
     }
+#endif
 
     __DSB();
     __ISB();
@@ -527,6 +529,13 @@ static void keyReadingWarningDetermination(uint32_t elapsed)
 
 			break;
     }
+}
+
+int32_t AuthGoToApplicationStart(void)
+{
+	ledSetLED(LED0, LED_OFF);
+
+	return AUTH_ERR_OK;
 }
 
 
