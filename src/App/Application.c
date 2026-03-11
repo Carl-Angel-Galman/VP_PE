@@ -203,9 +203,7 @@ static StateTableEntry_t gStateTableEntries[] =
  */
 static StateTable_t gStateTable;
 
-static int8_t leftDigit = DIGIT_DASH;
 
-static int8_t rightDigit = DIGIT_DASH;
 
 static bool warningMode = false;
 static bool sensorDefect = false;
