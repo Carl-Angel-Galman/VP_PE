@@ -27,7 +27,11 @@
 
 #include "ButtonModule.h"
 
-#include "HMI/LEDHandler.h"
+#include "HMI/ButtonHandler.h"
+
+#include "LEDModule.h"
+
+#include "LEDHandler.h"
 
 #include "DisplayModule.h"
 
@@ -276,15 +280,15 @@ int32_t AppSendEvent(int32_t eventID)
 int32_t AppPollForButtonEvent(void)
 {
 
-	if(buttonhasButtonDebounced(BTN_SW1))
+	if(ButtonHandlerhasDebounced(BTN_SW1))
 	{
 		return EVT_ID_SW1_PRESSED;
 	}
-	if(buttonhasButtonDebounced(BTN_SW2))
+	if(ButtonHandlerhasDebounced(BTN_SW2))
 	{
 		return EVT_ID_SW2_PRESSED;
 	}
-	if(buttonhasButtonDebounced(BTN_B1))
+	if(ButtonHandlerhasDebounced(BTN_B1))
 	{
 		return EVT_ID_B1_PRESSED;
 	}
@@ -293,7 +297,7 @@ int32_t AppPollForButtonEvent(void)
 
 int32_t AppDisplayDigitsOnSegments(void)
 {
-	displayTwoDigits(leftDigit, rightDigit);
+	//displayTwoDigits(leftDigit, rightDigit);
 	return APP_NO_ERR;
 }
 
@@ -342,8 +346,8 @@ int32_t AppUpdatingSensors()
 			if(currentWaterLevel > MAX_DISPLAY_NUMBER)
 				   currentWaterLevel = MAX_DISPLAY_NUMBER;
 
-			leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
-			rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
+			//leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
+			//rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
 
 			event = monitorSensor(currentWaterLevel, &waterSensor);
 			if(event != NO_EVT)
@@ -353,7 +357,7 @@ int32_t AppUpdatingSensors()
 
 			if(gasSensor.warningLedTriggered == false && waterSensor.warningLedTriggered == false)
 			{
-				ledSetLED(LED1, LED_OFF);
+				warningMode =false;
 			}
 	}
 
@@ -396,12 +400,16 @@ static int32_t initializePeripherals(void)
     uartInitialize(115200);
 
     // Initialize GPIOs for LED and 7-Segment output
-    ledInitialize();
+    int32_t checkInit = LEDHandler_Init();
+    if(checkInit != LED_ERR_OK)
+    	return APP_INIT_ERR;
 
     displayInitialize();
 
     // Initialize GPIOs for Buttons
-    buttonInitialize();
+    checkInit =ButtonHandlerInit();
+    if(checkInit != BUTTON_ERR_OK)
+    	return APP_INIT_ERR;
     // Initialize Timer, DMA and ADC for sensor measurements
     timerInitialize();
 
@@ -517,24 +525,24 @@ static int32_t onEmergency(State_t *pState, int32_t eventID)
 static int32_t displayDashOnEntry(State_t *pState, int32_t eventID)
 {
 
-	leftDigit = DIGIT_DASH;
+	//leftDigit = DIGIT_DASH;
 
-	rightDigit = DIGIT_DASH;
+	//rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
 }
 
 static int32_t preOperationOnEntry(State_t *pState, int32_t eventID)
 {
-	leftDigit = DIGIT_DASH;
-		rightDigit = DIGIT_DASH;
+	//leftDigit = DIGIT_DASH;
+	//rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
 }
 
 static int32_t testModeOnEntry(State_t *pState, int32_t eventID)
 {
 	LEDHandler_TestMode();
-	leftDigit = DIGIT_DASH;
-	rightDigit = DIGIT_DASH;
+	//leftDigit = DIGIT_DASH;
+	//rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
 }
 
@@ -558,8 +566,8 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 static int32_t failureOnEntry(State_t *pState, int32_t eventID)
 {
 	LEDHandler_FailureMode(sensorDefect);
-	leftDigit = DIGIT_DASH;
-	rightDigit = DIGIT_DASH;
+	//leftDigit = DIGIT_DASH;
+	//rightDigit = DIGIT_DASH;
 	return STATETBL_ERR_OK;
 }
 

@@ -92,3 +92,11 @@ void LEDHandler_FailureMode(bool sensorFailure)
         ledSetLED(LED4, LED_OFF);
 }
 
+int32_t LEDHandler_Init(void)
+{
+	int32_t initCheck =ledInitialize();
+	if(initCheck != LED_ERR_OK)
+		return initCheck;
+
+	return LED_ERR_OK;
+}
