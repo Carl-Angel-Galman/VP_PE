@@ -37,7 +37,7 @@
 
 void taskApp1ms(void)
 {
-	AppDisplayDigitsOnSegments();
+	DisplayHandlerDisplayTwoDigits();
 }
 
 

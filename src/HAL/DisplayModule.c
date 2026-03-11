@@ -50,7 +50,6 @@ typedef struct _SegmentEncodingEntry
 
 /***** PRIVATE PROTOTYPES ****************************************************/
 
-static inline Display_t  alternateDisplays(void);
 /***** PRIVATE VARIABLES *****************************************************/
 
 /**
@@ -83,7 +82,6 @@ static const SegmentEncodingEntry gSegmentEncodingTable[] =
     {0, 0, 0, 0, 0, 0, 0},  // Off (DIGIT_OFF)
 };
 
-static Display_t currentDisplay = LEFT_DISPLAY;
 
 /***** PUBLIC FUNCTIONS ******************************************************/
 
@@ -172,17 +170,4 @@ int32_t displayShowDigit(Display_t outputDisplay, int8_t digit)
     return DISPLAY_ERR_OK;
 }
 
-int32_t displayTwoDigits(int8_t leftDigit, int8_t rightDigit)
-{
-	currentDisplay = alternateDisplays();
 
-	displayShowDigit(currentDisplay, (currentDisplay ?  rightDigit: leftDigit));
-
-	return DISPLAY_ERR_OK;
-}
-
-/***** PRIVATE FUNCTIONS *****************************************************/
-static inline Display_t  alternateDisplays(void)
-{
-	return currentDisplay ^ 1 ;
-}

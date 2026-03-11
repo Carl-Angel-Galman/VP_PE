@@ -19,9 +19,7 @@
 
 #include "Application.h"
 
-
 #include "Util/Log/printf.h"
-
 
 #include "UARTModule.h"
 
@@ -29,9 +27,9 @@
 
 #include "LEDModule.h"
 
-#include "HMI/LEDHandler.h"
+#include "LEDHandler.h"
 
-#include "DisplayModule.h"
+#include "DisplayHandler.h"
 
 #include "DualChannelGas.h"
 
@@ -39,9 +37,9 @@
 
 #include "Util/StateTable/StateTable.h"
 
-#include "ADCModule.h"
-
 #include "TimerModule.h"
+
+#include "ADCModule.h"
 
 #include "System.h"
 
@@ -224,6 +222,8 @@ int32_t AppInitialize(void)
 
 	initializePeripherals();
 
+	DisplayHandlerInit();
+
 	//Initialize gasSensor Modul and check if it is ok
 	int32_t dualGasInitRes = dualGasInit();
 	if(dualGasInitRes != DUALSENSORS_OK)
@@ -258,7 +258,6 @@ int32_t AppRun(void)
 {
     int32_t StateTableResult = stateTableRunCyclic(&gStateTable);
 
-
     if(StateTableResult == STATETBL_ERR_INVALID_PTR)
     {
     	return APP_RUN_ERR;
@@ -269,7 +268,9 @@ int32_t AppRun(void)
 
 int32_t AppSendEvent(int32_t eventID)
 {
+
     int32_t result = stateTableSendEvent(&gStateTable, eventID);
+
     return result;
 }
 
@@ -291,12 +292,6 @@ int32_t AppPollForButtonEvent(void)
 		return EVT_ID_B1_PRESSED;
 	}
 	return NO_EVT;
-}
-
-int32_t AppDisplayDigitsOnSegments(void)
-{
-	displayTwoDigits(leftDigit, rightDigit);
-	return APP_NO_ERR;
 }
 
 int32_t AppUpdatingSensors()
@@ -344,8 +339,9 @@ int32_t AppUpdatingSensors()
 			if(currentWaterLevel > MAX_DISPLAY_NUMBER)
 				   currentWaterLevel = MAX_DISPLAY_NUMBER;
 
-			leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
-			rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
+			int8_t leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
+			int8_t rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
+			DisplayHandlerSetDigits(leftDigit, rightDigit);
 
 			event = monitorSensor(currentWaterLevel, &waterSensor);
 			if(event != NO_EVT)
@@ -399,9 +395,6 @@ static int32_t initializePeripherals(void)
 
     // Initialize GPIOs for LED and 7-Segment output
     ledInitialize();
-
-    displayInitialize();
-
     // Initialize GPIOs for Buttons
     buttonInitialize();
     // Initialize Timer, DMA and ADC for sensor measurements
@@ -488,7 +481,6 @@ static int32_t onInit(State_t* pState, int32_t eventID)
     	return stateTableResult;
     }
 
-
 	return stateTableResult;
 }
 
@@ -518,25 +510,21 @@ static int32_t onEmergency(State_t *pState, int32_t eventID)
 
 static int32_t displayDashOnEntry(State_t *pState, int32_t eventID)
 {
-
-	leftDigit = DIGIT_DASH;
-
-	rightDigit = DIGIT_DASH;
+	DisplayHandlerSetToIdle();
 	return STATETBL_ERR_OK;
 }
 
 static int32_t preOperationOnEntry(State_t *pState, int32_t eventID)
 {
-	leftDigit = DIGIT_DASH;
-		rightDigit = DIGIT_DASH;
+
+	DisplayHandlerSetToIdle();
 	return STATETBL_ERR_OK;
 }
 
 static int32_t testModeOnEntry(State_t *pState, int32_t eventID)
 {
 	LEDHandler_TestMode();
-	leftDigit = DIGIT_DASH;
-	rightDigit = DIGIT_DASH;
+	DisplayHandlerSetToIdle();
 	return STATETBL_ERR_OK;
 }
 
@@ -560,8 +548,7 @@ static int32_t operationOnEntry(State_t *pState, int32_t eventID)
 static int32_t failureOnEntry(State_t *pState, int32_t eventID)
 {
 	LEDHandler_FailureMode(sensorDefect);
-	leftDigit = DIGIT_DASH;
-	rightDigit = DIGIT_DASH;
+	DisplayHandlerSetToIdle();
 	return STATETBL_ERR_OK;
 }
 

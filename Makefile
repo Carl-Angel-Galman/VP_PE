@@ -77,10 +77,13 @@ CFLAGS += -I$(SRC_DIR)/Auth
 
 # Include files for HAL
 CFLAGS += -I$(SRC_DIR)/HAL
+
 # Include files for OS
 CFLAGS += -I$(SRC_DIR)/OS
+
 # Include files for Service
 CFLAGS += -I$(SRC_DIR)/Service
+
 # Include files for Utils
 CFLAGS += -I$(SRC_DIR)/Util
 
@@ -130,7 +133,6 @@ APP_SRC_C += $(wildcard $(SRC_DIR)/Util/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Util/Log/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Util/Filter/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Util/StateTable/*.c)
-APP_SRC_C += $(wildcard $(SRC_DIR)/Util/EventQueue/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/HMI/*.c)
 APP_FILENAMES_S	= $(notdir $(APP_SRC_C))
 APP_OBJS_C = $(addprefix $(OBJ_DIR)/, $(APP_FILENAMES_S:.c=.o))

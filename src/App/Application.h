@@ -18,7 +18,7 @@
 /***** INCLUDES **************************************************************/
 #include <stdint.h>
 #include <stdbool.h>
-
+#include "DisplayHandler.h"
 /***** CONSTANTS *************************************************************/
 
 
@@ -75,8 +75,6 @@ int32_t AppRun(void);
 int32_t AppSendEvent(int32_t eventID);
 
 int32_t AppPollForButtonEvent(void);
-
-int32_t AppDisplayDigitsOnSegments(void);
 
 int32_t AppUpdatingSensors(void);
 
