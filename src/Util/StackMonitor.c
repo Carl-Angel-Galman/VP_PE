@@ -150,9 +150,6 @@ uint8_t GetUsage(void)
  *
  * The function performs two checks:
  *
- * 1. Verifies that the stack boundary marker (`ENDMARKER`) is still present.
- * 2. Verifies that the current Main Stack Pointer (MSP) lies within the
- *    expected stack boundaries.
  *
  * If either check fails, the stack is considered corrupted.
  *
@@ -183,8 +180,5 @@ bool isCorrupted(void)
     {
     	return true;
     }
-
-
-
     return false;
 }

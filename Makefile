@@ -54,7 +54,7 @@ DEF += -DUNPATCHED=0
 ASFLAGS = -g -mcpu=cortex-m4 -mthumb
 
 # Compiler Flags
-CFLAGS = -c -O0 -g -mcpu=cortex-m4 -mthumb -mlong-calls
+CFLAGS = -c -O0 -g -mcpu=cortex-m4 -mthumb #-mlong-calls#
 CFLAGS += -Wall -ffunction-sections -fdata-sections -fstack-usage -fdump-rtl-expand
 CFLAGS += -Wno-unused-function -nostdlib
 
