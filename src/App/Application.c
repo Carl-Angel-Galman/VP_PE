@@ -15,7 +15,6 @@
 
 
 /***** INCLUDES **************************************************************/
-#include <string.h>
 
 #include "Application.h"
 
@@ -25,11 +24,13 @@
 
 #include "ButtonModule.h"
 
+#include "HMI/ButtonHandler.h"
+
 #include "LEDModule.h"
 
-#include "LEDHandler.h"
+#include "HMI/LEDHandler.h"
 
-#include "DisplayHandler.h"
+#include "HMI/DisplayHandler.h"
 
 #include "DualChannelGas.h"
 
@@ -45,7 +46,14 @@
 
 #include "stm32g4xx_hal.h"
 
+#include "AppContext.h"
 
+#include "OnStates/AppOnStates.h"
+
+#include "Guards/AppGuards.h"
+
+
+#include "OnEntry/AppOnEntry.h"
 
 
 /***** PRIVATE CONSTANTS *****************************************************/
@@ -62,13 +70,6 @@
 
 #define THREE_SEC_THRESHOLD_50MS 3000
 
-#define COUNTER_HAS_REACHED_TEN_SECS_50MS(counter) (counter >= TEN_SEC_THRESHOLD_50MS)
-
-#define COUNTER_HAS_REACHED_FIVE_SECS_50MS(counter) (counter >= FIVE_SEC_THRESHOLD_50MS)
-
-#define COUNTER_HAS_REACHED_THREE_SECS_50MS(counter) (counter >= THREE_SEC_THRESHOLD_50MS)
-
-
 #define WATER_SENSOR_WARNING_THRESHHOLD 250 //in cm
 
 #define WATER_SENSOR_EMERGENCY_THRESHHOLD 300
@@ -77,70 +78,22 @@
 
 #define HUNDREDS_DIGIT 100
 
-#define TENS_DIGIT 10
+#define TENTH_DIGIT 10
+
 
 /***** PRIVATE TYPES *********************************************************/
 
 
 /***** PRIVATE PROTOTYPES ****************************************************/
-
-static int32_t initOnEntry(State_t* pState, int32_t eventID);
-
-static int32_t onInit(State_t* pState, int32_t eventID);
-
-static int32_t onPreOperational(State_t* pState, int32_t eventID);
-
-static int32_t onOperational(State_t* pState, int32_t eventID);
-
-static int32_t onEmergency(State_t* pState, int32_t eventID);
-
-static int32_t displayDashOnEntry(State_t *pState, int32_t eventID);
-
-static int32_t failureOnEntry(State_t *pState, int32_t eventID);
-
-static int32_t preOperationOnEntry(State_t *pState, int32_t eventID);
-
-static int32_t operationOnEntry(State_t *pState, int32_t eventID);
-
-static int32_t testModeOnEntry(State_t *pState, int32_t eventID);
-
-
-
-static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID);
-
-static bool OpGuard(StateTableEntry_t * pEntry, int32_t eventID);
-
-static bool EmergencyGuard(StateTableEntry_t * pEntry, int32_t eventID);
-
-static bool FailureGuard(StateTableEntry_t * pEntry, int32_t eventID);
-
-static bool TestModeGuard(StateTableEntry_t * pEntry, int32_t eventID);
-
-static void changeVectorTable(void);
+static void changeVectorTableReset(void);
 
 static int32_t initializePeripherals(void);
 
 static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor);
 
-
+static void initApplicationContext(void);
 
 /***** PRIVATE VARIABLES *****************************************************/
-
-static SensorMonitor_t gasSensor =
-{
-    .warningThreshold = GAS_SENSOR_WARNING_THRESHHOLD,
-    .emergencyThreshold = GAS_SENSOR_EMERGENCY_THRESHHOLD,
-    .warningTime = FIVE_SEC_THRESHOLD_50MS,
-    .emergencyTime = THREE_SEC_THRESHOLD_50MS
-};
-
-static SensorMonitor_t waterSensor =
-{
-    .warningThreshold = WATER_SENSOR_WARNING_THRESHHOLD,
-    .emergencyThreshold = WATER_SENSOR_EMERGENCY_THRESHHOLD,
-    .warningTime = TEN_SEC_THRESHOLD_50MS,
-    .emergencyTime = FIVE_SEC_THRESHOLD_50MS
-};
 
 
 static State_t gStateList[] =
@@ -181,7 +134,7 @@ static StateTableEntry_t gStateTableEntries[] =
 
 	{STATE_ID_OPERATIONAL, 			STATE_ID_FAILURE, 					EVT_ID_SENSOR_DEFECT, 			FailureGuard,		&gStateList[2],      	&gStateList[3]},
 
-	{STATE_ID_OPERATIONAL, 			STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[5]},
+	{STATE_ID_OPERATIONAL, 			STATE_ID_TESTMODE, 					EVT_ID_SW2_PRESSED, 			TestModeGuard,		&gStateList[2],      	&gStateList[4]},
 
 	{STATE_ID_EMERGENCY, 			STATE_ID_OPERATIONAL, 				EVT_ID_B1_PRESSED, 				OpGuard,			&gStateList[5],      	&gStateList[2]},
 
@@ -201,12 +154,14 @@ static StateTableEntry_t gStateTableEntries[] =
  * @brief Global State Table instance
  *
  */
-static StateTable_t gStateTable;
+//static StateTable_t gStateTable;
+//
+//static bool warningMode = false;
+//
+//static bool sensorDefect = false;
 
+static ApplicationContext_t context = {0};
 
-
-static bool warningMode = false;
-static bool sensorDefect = false;
 
 
 
@@ -214,7 +169,7 @@ static bool sensorDefect = false;
 
 int32_t AppInitialize(void)
 {
-	changeVectorTable();
+	changeVectorTableReset();
 
 	HAL_Init();
 
@@ -222,33 +177,56 @@ int32_t AppInitialize(void)
 
 	initializePeripherals();
 
-	DisplayHandlerInit();
 
+	AppContext_Set(&context);
+
+	int32_t initResult = AppOnStates_Init();
+
+	if(initResult != APP_ON_STATE_OK)
+		return APP_INIT_ERR;
+
+	initResult = AppGuard_Init();
+
+	if(initResult != APP_GUARD_ERR_OK )
+		return APP_INIT_ERR;
+
+	initResult = AppOnEntry_Init();
+	if(initResult != APP_ON_ENTRY_OK )
+			return APP_INIT_ERR;
+
+
+	context.stateTable.pStateList = gStateList;
+
+	context.stateTable.stateCount = sizeof(gStateList) / sizeof(State_t);
+
+	int32_t tableInitialized = stateTableInitialize(&context.stateTable,
+			gStateTableEntries,
+			sizeof(gStateTableEntries) / sizeof(StateTableEntry_t),
+			STATE_ID_INIT);
+
+	if((tableInitialized == STATETBL_ERR_INVALID_PTR))
+	{
+		return APP_INIT_ERR;
+	}
+
+    initApplicationContext();
 	//Initialize gasSensor Modul and check if it is ok
 	int32_t dualGasInitRes = dualGasInit();
+
 	if(dualGasInitRes != DUALSENSORS_OK)
+	{
 		AppSendEvent(EVT_ID_ERROR);
+		return APP_NO_ERR;
+	}
+
 
 	//Initialize WaterSensor Modul and check if it is ok
 	int32_t waterInitRes = waterSensorInitalize();
+
 	if(waterInitRes != WATER_SENSOR_OK)
-			AppSendEvent(EVT_ID_ERROR);
-
-    gStateTable.pStateList = gStateList;
-
-    gStateTable.stateCount = sizeof(gStateList) / sizeof(State_t);
-
-    int32_t tableInitialized = stateTableInitialize(&gStateTable,
-
-    		gStateTableEntries,
-
-			sizeof(gStateTableEntries) / sizeof(StateTableEntry_t),
-
-			STATE_ID_INIT);
-
-    if((tableInitialized == STATETBL_ERR_INVALID_PTR))
 	{
-		return APP_INIT_ERR;
+		AppSendEvent(EVT_ID_ERROR);
+		return APP_NO_ERR;
 	}
 
     return APP_NO_ERR;
@@ -256,7 +234,7 @@ int32_t AppInitialize(void)
 
 int32_t AppRun(void)
 {
-    int32_t StateTableResult = stateTableRunCyclic(&gStateTable);
+    int32_t StateTableResult = stateTableRunCyclic(&context.stateTable);
 
     if(StateTableResult == STATETBL_ERR_INVALID_PTR)
     {
@@ -269,7 +247,7 @@ int32_t AppRun(void)
 int32_t AppSendEvent(int32_t eventID)
 {
 
-    int32_t result = stateTableSendEvent(&gStateTable, eventID);
+    int32_t result = stateTableSendEvent(&context.stateTable, eventID);
 
     return result;
 }
@@ -279,24 +257,26 @@ int32_t AppSendEvent(int32_t eventID)
 int32_t AppPollForButtonEvent(void)
 {
 
-	if(buttonhasButtonDebounced(BTN_SW1))
+	if(ButtonHandlerhasDebounced(BTN_B1))
 	{
-		return EVT_ID_SW1_PRESSED;
+	    return EVT_ID_B1_PRESSED;
 	}
-	if(buttonhasButtonDebounced(BTN_SW2))
+	if(ButtonHandlerhasDebounced(BTN_SW2))
 	{
-		return EVT_ID_SW2_PRESSED;
+	    return EVT_ID_SW2_PRESSED;
 	}
-	if(buttonhasButtonDebounced(BTN_B1))
+	if(ButtonHandlerhasDebounced(BTN_SW1))
 	{
-		return EVT_ID_B1_PRESSED;
+	    return EVT_ID_SW1_PRESSED;
 	}
 	return NO_EVT;
 }
 
+
+
 int32_t AppUpdatingSensors()
 {
-	if(gStateTable.currentStateID == STATE_ID_OPERATIONAL )
+	if(context.stateTable.currentStateID == STATE_ID_OPERATIONAL )
 	{
 			int32_t currentAverage = 0;
 			int32_t currentWaterLevel = 0;
@@ -305,53 +285,54 @@ int32_t AppUpdatingSensors()
 
 
 			if(dualGasSetVoltages() != DUALSENSORS_OK)
-				{
-				    return EVT_ID_ERROR;
-				}
+			{
+				return EVT_ID_ERROR;
+			}
 
 			if(dualGasCheckInconsistency() == DUALSENSORS_DEFECT)
-				{
-				    return EVT_ID_SENSOR_DEFECT;
-				}
+			{
+				return EVT_ID_SENSOR_DEFECT;
+			}
 
 			if(dualGasGetAverage(&currentAverage) != DUALSENSORS_OK)
-				{
-				    return EVT_ID_ERROR;
-				}
+			{
+				return EVT_ID_ERROR;
+			}
 
-			event = monitorSensor(currentAverage, &gasSensor);
-			if(event != NO_EVT)
-				{
-				    return event;
-				}
-
-			//Warning, Emergency and Failure Logic for the watersensor
-			if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
-				{
-					return EVT_ID_ERROR;
-				}
-
-			if(waterSensorGetSensorValue(&currentWaterLevel) != WATER_SENSOR_OK)
-				{
-					return EVT_ID_ERROR;
-				}
-
-			if(currentWaterLevel > MAX_DISPLAY_NUMBER)
-				   currentWaterLevel = MAX_DISPLAY_NUMBER;
-
-			int8_t leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
-			int8_t rightDigit = (currentWaterLevel / TENS_DIGIT) % TENS_DIGIT;
-			DisplayHandlerSetDigits(leftDigit, rightDigit);
-
-			event = monitorSensor(currentWaterLevel, &waterSensor);
+			event = monitorSensor(currentAverage, &context.gasSensor);
 			if(event != NO_EVT)
 			{
 				return event;
 			}
 
-			if(gasSensor.warningLedTriggered == false && waterSensor.warningLedTriggered == false)
+			//Warning, Emergency and Failure Logic for the watersensor
+			if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
 			{
-				ledSetLED(LED1, LED_OFF);
+				return EVT_ID_ERROR;
+			}
+
+			if(waterSensorGetSensorValue(&currentWaterLevel) != WATER_SENSOR_OK)
+			{
+				return EVT_ID_ERROR;
+			}
+
+			if(currentWaterLevel > MAX_DISPLAY_NUMBER)
+				   currentWaterLevel = MAX_DISPLAY_NUMBER;
+
+			int8_t leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
+			int8_t rightDigit = (currentWaterLevel / TENTH_DIGIT) % TENTH_DIGIT;
+			DisplayHandlerSetDigits(leftDigit, rightDigit);
+
+
+			event = monitorSensor(currentWaterLevel, &context.waterSensor);
+			if(event != NO_EVT)
+			{
+				return event;
+			}
+
+			if(context.gasSensor.warningLedTriggered == false && context.waterSensor.warningLedTriggered == false)
+			{
+				context.warningMode =false;
 			}
 	}
 
@@ -362,7 +343,7 @@ int32_t AppUpdatingSensors()
 /***** PRIVATE FUNCTIONS *****************************************************/
 
 
-static void changeVectorTable(void)
+static void changeVectorTableReset(void)
 {
     const uint32_t app_base = 0x08010200;
 
@@ -394,11 +375,26 @@ static int32_t initializePeripherals(void)
     uartInitialize(115200);
 
     // Initialize GPIOs for LED and 7-Segment output
+
     ledInitialize();
-    // Initialize GPIOs for Buttons
-    buttonInitialize();
+
+    int32_t checkInit = LEDHandler_Init();
+    if(checkInit != LH_ERR_OK)
+    	return APP_INIT_ERR;
+
+    checkInit = DisplayHandlerInit();
+    if(checkInit != DH_ERR_OK)
+        	return APP_INIT_ERR;
+
+    checkInit =ButtonHandlerInit();
+    if(checkInit != BH_ERR_OK)
+    	return APP_INIT_ERR;
     // Initialize Timer, DMA and ADC for sensor measurements
-    timerInitialize();
+    int32_t timerInitRes = timerInitialize();
+    if(timerInitRes != TIMER_ERR_OK)
+    {
+    	return APP_INIT_ERR;
+    }
 
     adcInitialize();
 
@@ -408,6 +404,12 @@ static int32_t initializePeripherals(void)
 
 static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
 {
+
+	if(sensor == NULL)
+	{
+		return EVT_ID_ERROR;
+	}
+
 	uint32_t actualTick = HAL_GetTick();
 	 uint32_t timeElapsed = actualTick - sensor->lastTick;
 	    sensor->lastTick = actualTick;
@@ -435,8 +437,8 @@ static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
     if(!sensor->warningLedTriggered &&
        sensor->elapsedWarningTime >= sensor->warningTime)
     {
-        sensor->warningLedTriggered = true;
-        warningMode =true;
+        sensor->warningLedTriggered = true; // @suppress("Symbol is not resolved")
+        context.warningMode =true;
     }
 
     if(sensor->elapsedEmergencyTime >= sensor->emergencyTime)
@@ -448,154 +450,32 @@ static int32_t monitorSensor(int32_t value, SensorMonitor_t *sensor)
     return NO_EVT;
 }
 
-static int32_t initOnEntry(State_t* pState, int32_t eventID)
+static void initApplicationContext(void)
 {
+    context.gasSensor = (SensorMonitor_t){
+        .warningThreshold = GAS_SENSOR_WARNING_THRESHHOLD,
+        .emergencyThreshold = GAS_SENSOR_EMERGENCY_THRESHHOLD,
+        .warningTime = FIVE_SEC_THRESHOLD_50MS,
+        .emergencyTime = THREE_SEC_THRESHOLD_50MS,
+        .elapsedWarningTime = 0U,
+        .elapsedEmergencyTime = 0U,
+        .lastTick = 0U,
+        .warningLedTriggered = false
+    };
 
-	LEDHandler_AllOff();
-
-	return STATETBL_ERR_OK;
-}
-
-static int32_t onInit(State_t* pState, int32_t eventID)
-{
-	// check gas Sensor
-	int32_t stateTableResult = STATETBL_ERR_OK;
-
-
-	if(dualGasSetVoltages() != DUALSENSORS_OK)
-	{
-		stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-		return stateTableResult;
-	}
-
-	int32_t dualGasSensorConsistencyResult = dualGasCheckInconsistency();
-    if(dualGasSensorConsistencyResult == DUALSENSORS_OK)
-    {
-    	stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_INIT_READY);
-    	return stateTableResult;
-    }
-
-    else if(dualGasSensorConsistencyResult == DUALSENSORS_DEFECT)
-    {
-    	stateTableResult = stateTableSendEvent(&gStateTable, EVT_ID_ERROR);
-    	return stateTableResult;
-    }
-
-	return stateTableResult;
-}
-
-static int32_t onPreOperational(State_t * pState, int32_t eventID)
-{
-
-	return STATETBL_ERR_OK;
-}
-
-static int32_t onOperational(State_t * pState, int32_t eventID)
-{
-	int32_t stateTableResult = STATETBL_ERR_OK;
-
-	LEDHandler_OperationalMode(warningMode);
-
-	return stateTableResult;
+    context.waterSensor = (SensorMonitor_t){
+        .warningThreshold = WATER_SENSOR_WARNING_THRESHHOLD,
+        .emergencyThreshold = WATER_SENSOR_EMERGENCY_THRESHHOLD,
+        .warningTime = TEN_SEC_THRESHOLD_50MS,
+        .emergencyTime = FIVE_SEC_THRESHOLD_50MS,
+        .elapsedWarningTime = 0U,
+        .elapsedEmergencyTime = 0U,
+        .lastTick = 0U,
+        .warningLedTriggered = false
+    };
 }
 
 
-
-static int32_t onEmergency(State_t *pState, int32_t eventID)
-{
-	LEDHandler_EmergencyMode();
-
-	return STATETBL_ERR_OK;
-}
-
-static int32_t displayDashOnEntry(State_t *pState, int32_t eventID)
-{
-	DisplayHandlerSetToIdle();
-	return STATETBL_ERR_OK;
-}
-
-static int32_t preOperationOnEntry(State_t *pState, int32_t eventID)
-{
-
-	DisplayHandlerSetToIdle();
-	return STATETBL_ERR_OK;
-}
-
-static int32_t testModeOnEntry(State_t *pState, int32_t eventID)
-{
-	LEDHandler_TestMode();
-	DisplayHandlerSetToIdle();
-	return STATETBL_ERR_OK;
-}
-
-static int32_t operationOnEntry(State_t *pState, int32_t eventID)
-{
-	uint32_t actualTick = HAL_GetTick();
-	gasSensor.lastTick = actualTick;
-	waterSensor.lastTick = actualTick;
-
-    gasSensor.elapsedWarningTime = 0;
-    gasSensor.elapsedEmergencyTime = 0;
-
-    waterSensor.elapsedWarningTime = 0;
-    waterSensor.elapsedEmergencyTime = 0;
-
-    gasSensor.warningLedTriggered = false;
-    waterSensor.warningLedTriggered = false;
-	return STATETBL_ERR_OK;
-}
-
-static int32_t failureOnEntry(State_t *pState, int32_t eventID)
-{
-	LEDHandler_FailureMode(sensorDefect);
-	DisplayHandlerSetToIdle();
-	return STATETBL_ERR_OK;
-}
-
-
-static bool PreOpGuard(StateTableEntry_t* pEntry, int32_t eventID)
-{
-	if((eventID == EVT_ID_INIT_READY) || (eventID == EVT_ID_SW1_PRESSED))
-		return true;
-
-	return false;
-}
-
-static bool OpGuard(StateTableEntry_t * pEntry, int32_t eventID)
-{
-	if((eventID == EVT_ID_SW1_PRESSED) || (eventID == EVT_ID_B1_PRESSED))
-			return true;
-
-		return false;
-
-}
-
-static bool EmergencyGuard(StateTableEntry_t * pEntry, int32_t eventID)
-{
-	if((eventID == EVT_ID_TRIGGER_EMERGENCY))
-			return true;
-
-		return false;
-}
-
-static bool TestModeGuard(StateTableEntry_t * pEntry, int32_t eventID)
-{
-	if((eventID == EVT_ID_SW2_PRESSED))
-			return true;
-
-		return false;
-}
-
-static bool FailureGuard(StateTableEntry_t *pEntry, int32_t eventID)
-{
-	if( ((eventID == EVT_ID_ERROR) ||  (eventID == EVT_ID_STACK_CORRUPTION) || (eventID == EVT_ID_SENSOR_DEFECT)) )
-	{
-		if(eventID == EVT_ID_SENSOR_DEFECT)
-				sensorDefect = true;
-		return true;
-	}
-	return false;
-}
 
 
 

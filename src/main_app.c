@@ -29,7 +29,10 @@
 
 #include "Application.h"
 
-#include "AppTasks.h"
+#include "Tasks/AppTasks.h"
+
+#include "AppContext.h"
+
 
 #include "Scheduler.h"
 

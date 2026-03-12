@@ -87,8 +87,6 @@ CFLAGS += -I$(SRC_DIR)/Service
 # Include files for Utils
 CFLAGS += -I$(SRC_DIR)/Util
 
-CFLAGS += -I$(SRC_DIR)/HMI
-
 
 ###############################################################################
 # Source files for the HAL library
@@ -126,6 +124,13 @@ vpath %.S $(dir $(SRC_ASM_APP))
 APP_SRC_C += $(SRC_DIR)/main_app.c
 APP_SRC_C += $(SRC_DIR)/System.c
 APP_SRC_C += $(wildcard $(SRC_DIR)/App/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/App/HMI/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/App/Guards/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/App/OnEntry/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/App/OnStates/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/App/OnExit/*.c)
+APP_SRC_C += $(wildcard $(SRC_DIR)/App/Tasks/*.c)
+
 APP_SRC_C += $(wildcard $(SRC_DIR)/HAL/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/OS/*.c)
 APP_SRC_C += $(wildcard $(SRC_DIR)/Service/*.c)
@@ -157,9 +162,7 @@ vpath %.c $(dir $(AUTH_SRC_C))
 
 DEPS := $(APP_OBJS_C:.o=.d)
 
-all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) 
-all: DEF += -DUNPATCHED=0
-all: $(BLD_DIR)/auth.bin
+
 
 PYTHON ?= python3
 
@@ -176,6 +179,9 @@ patched: $(BLD_DIR)/auth.bin
 unpatched: DEF += -DUNPATCHED=1
 unpatched: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(BLD_DIR)/auth.bin 
 		
+all: $(BLD_DIR) $(OBJ_DIR) $(BLD_DIR)/app.bin $(AUTH_ELF_PATCH) 
+all: DEF += -DUNPATCHED=0
+all: $(BLD_DIR)/auth.bin
 		
 ###############################################################################
 # Rules

@@ -145,13 +145,4 @@ void ledSetLED(LED_t led, LED_Status_t ledStatus)
     }
 }
 
-void ledTurnOnAllLEDs(void)
-{
-    HAL_GPIO_WritePin(LED0_GPIO_PORT, LED0_PIN, LED_ON);
-    HAL_GPIO_WritePin(LED1_GPIO_PORT, LED1_PIN, LED_ON);
-    HAL_GPIO_WritePin(LED2_GPIO_PORT, LED2_PIN, LED_ON);
-	HAL_GPIO_WritePin(LED3_GPIO_PORT, LED3_PIN, LED_ON);
-    HAL_GPIO_WritePin(LED4_GPIO_PORT, LED4_PIN, LED_ON);
-
-}
 /***** PRIVATE FUNCTIONS *****************************************************/

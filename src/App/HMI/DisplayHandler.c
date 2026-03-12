@@ -54,6 +54,9 @@ static Display_t currentDisplay = LEFT_DISPLAY;
 
 int32_t DisplayHandlerInit(void)
 {
+
+    displayInitialize();
+
 	leftDigit = DIGIT_DASH;
 	rightDigit = DIGIT_DASH;
 	return DH_ERR_OK;

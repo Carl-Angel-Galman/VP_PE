@@ -78,6 +78,4 @@ void ledToggleLED(LED_t led);
 void ledSetLED(LED_t led, LED_Status_t ledStatus);
 
 
-void ledTurnOnAllLEDs(void);
-
 #endif

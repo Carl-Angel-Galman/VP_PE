@@ -14,23 +14,27 @@
  *
  *
  *****************************************************************************/
-#ifndef _FILENAME_H
-#define _FILENAME_H
+#ifndef _BUTTONHANDLER_H_
+#define _BUTTONHANDLER_H_
 
 
 /***** INCLUDES **************************************************************/
-
+#include "ButtonModule.h"
+#include <stdbool.h>
+#include <stdint.h>
 
 /***** CONSTANTS *************************************************************/
 
 
 /***** MACROS ****************************************************************/
 
-
+#define BH_ERR_OK 0
 /***** TYPES *****************************************************************/
 
 
 /***** PROTOTYPES ************************************************************/
+bool ButtonHandlerhasDebounced(Button_t button);
 
+int32_t ButtonHandlerInit(void);
 
 #endif

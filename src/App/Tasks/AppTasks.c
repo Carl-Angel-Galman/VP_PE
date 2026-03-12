@@ -23,7 +23,11 @@
 
 #include "StackMonitor.h"
 
+#include "HMI/DisplayHandler.h"
+
 #include "stdbool.h"
+
+#include "AppContext.h"
 /***** PRIVATE CONSTANTS *****************************************************/
 
 /***** PRIVATE TYPES *********************************************************/

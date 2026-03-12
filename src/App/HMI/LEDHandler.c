@@ -49,6 +49,9 @@ void LEDHandler_AllOff(void)
     ledSetLED(LED3, LED_OFF);
     ledSetLED(LED4, LED_OFF);
 }
+
+
+
 void LEDHandler_OperationalMode(bool warning)
 {
     ledSetLED(LED0, LED_ON);   // Operational indicator
@@ -75,7 +78,7 @@ void LEDHandler_TestMode(void)
     ledSetLED(LED0, LED_OFF);
     ledSetLED(LED1, LED_OFF);
     ledSetLED(LED2, LED_OFF);
-    ledSetLED(LED3, LED_ON); // test mode indicator
+    ledSetLED(LED3, LED_OFF); // test mode indicator
     ledSetLED(LED4, LED_OFF);
 }
 
@@ -92,3 +95,11 @@ void LEDHandler_FailureMode(bool sensorFailure)
         ledSetLED(LED4, LED_OFF);
 }
 
+int32_t LEDHandler_Init(void)
+{
+	int32_t initCheck =ledInitialize();
+	if(initCheck != LED_ERR_OK)
+		return initCheck;
+
+	return LH_ERR_OK;
+}

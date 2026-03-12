@@ -14,19 +14,20 @@
  *
  *
  *****************************************************************************/
-#ifndef _FILENAME_H
-#define _FILENAME_H
+#ifndef _LEDHANDLER_H_
+#define _LEDHANDLER_H_
 
 
 /***** INCLUDES **************************************************************/
 #include <stdbool.h>
+#include <stdint.h>
 #include "LEDModule.h"
 
 /***** CONSTANTS *************************************************************/
 
 
 /***** MACROS ****************************************************************/
-
+#define LH_ERR_OK 0
 
 /***** TYPES *****************************************************************/
 
@@ -69,4 +70,7 @@ void LEDHandler_TestMode(void);
  * @param sensorFailure true if the failure was caused by a sensor defect
  */
 void LEDHandler_FailureMode(bool sensorFailure);
+
+
+int32_t LEDHandler_Init(void);
 #endif
