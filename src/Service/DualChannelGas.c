@@ -38,7 +38,7 @@
 #define MIN_SENSOR_VALUE         200
 #define MAX_SENSOR_VALUE         10000
 
-#define INCONSISTENCY_VALUE      30
+#define INCONSISTENCY_VALUE      40
 
 #define FILTER_ALPHA             400
 #define FILTER_SCALING           1000

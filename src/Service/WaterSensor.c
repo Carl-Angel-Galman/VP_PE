@@ -135,10 +135,11 @@ static void waterSensorStorePacket(const uint8_t *packet);
  */
 int32_t waterSensorInitalize(void)
 {
+    (void)memset(&gWaterSensor, 0, sizeof(gWaterSensor));
+
 	gWaterSensor.sensorVoltage = 0;
 	gWaterSensor.conversionFactor = CONV_FACTOR;
 
-    (void)memset(&gWaterSensor, 0, sizeof(gWaterSensor));
     gWaterSensor.lastValidPacketTick = HAL_GetTick();
     gWaterSensor.initialized = true;
     gWaterSensor.newValueAvailable = false;

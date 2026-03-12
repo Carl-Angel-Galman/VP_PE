@@ -29,7 +29,7 @@
 
 #include "AppContext.h"
 /***** PRIVATE CONSTANTS *****************************************************/
-#define USE_CUSTOM_MSP 1
+#define USE_CUSTOM_MSP 0
 /***** PRIVATE TYPES *********************************************************/
 
 /***** PRIVATE PROTOTYPES ****************************************************/
