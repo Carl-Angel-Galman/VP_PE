@@ -298,6 +298,11 @@ int32_t AppUpdatingSensors()
 			}
 
 			//Warning, Emergency and Failure Logic for the watersensor
+			/*
+			if(waterSensorReceiveUartData() != WATER_SENSOR_OK)
+			{
+    			return EVT_ID_ERROR;
+			}*/
 			if(waterSensorSetSensorVoltage() != WATER_SENSOR_OK)
 			{
 				return EVT_ID_ERROR;
