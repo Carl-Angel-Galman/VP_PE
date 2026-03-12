@@ -47,4 +47,5 @@ ApplicationContext_t* AppContext_Get(void)
 {
     return gAppData;
 }
+
 /***** PRIVATE FUNCTIONS *****************************************************/

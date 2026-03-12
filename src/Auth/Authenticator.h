@@ -55,6 +55,8 @@
 /** @brief Entered key exceeds the supported maximum length. */
 #define AUTH_ERR_KEY_LENGHT_BREACH    -5
 
+#define AUTH_ERR_INVALID_ARG        -6
+
 
 #define MAX_KEY_LEN 8u
 /***** TYPES *****************************************************************/

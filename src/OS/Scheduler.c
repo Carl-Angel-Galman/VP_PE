@@ -32,6 +32,8 @@
 
 #include "stm32g4xx_hal.h"
 
+#include <stddef.h>
+
 /***** PRIVATE CONSTANTS *****************************************************/
 
 
@@ -199,6 +201,10 @@ static inline uint32_t schedulerGetElapseTime(uint32_t savedTimeStamp, uint32_t 
 
 static int32_t executeCyclicTask(CyclicFunction task, uint32_t* tick ,uint32_t threshold)
 {
+	if(tick == NULL || threshold < 0)
+	{
+		return SCHED_ERR_INVALID_PTR;
+	}
 
 	uint32_t actualTick = HAL_GetTick();
 	uint32_t timeElapsed = schedulerGetElapseTime(*tick, actualTick);

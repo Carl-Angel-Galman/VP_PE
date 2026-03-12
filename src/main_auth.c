@@ -140,7 +140,7 @@ int main(void)
 						current_state = FAILURE;
 						break;
 					}
-					else if(keyReadResult == AUTH_ERR_FAILURE)
+					else if(keyReadResult == AUTH_ERR_INVALID_PTR)
 					{
 						break;
 					}
@@ -158,6 +158,7 @@ int main(void)
 						current_state = FAILURE;
 						break;
 					}
+				
 
 					int32_t copyAndDecryptResult = AuthCopyAndDecryptVerify(key, key_len);
 

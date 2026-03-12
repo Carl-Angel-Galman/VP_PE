@@ -105,6 +105,12 @@ static void keyReadingWarningDetermination(uint32_t elapsed);
 
 
 /*******************************************************************************
+ * Constants
+ ******************************************************************************/
+
+static const char ExpectedAppSignature[] = "UMMS";
+
+/*******************************************************************************
  * Global Variables
  ******************************************************************************/
 
@@ -118,7 +124,7 @@ extern uint8_t _eauth;
 
 static KEY_INPUT_WARNING_STAGES keyInputWarningStage;
 
-static const char ExpectedAppSignature[] = "UMMS";
+static uint32_t lastBlinkTime = 0;
 
 
 /***** PUBLIC FUNCTIONS ******************************************************/
@@ -161,9 +167,7 @@ void verify(void)
 		app_start_function start = (app_start_function) *(start_app_ptr);
 
 		start();
-
 	}
-
 	// a super loop to in-case the memcopy goes to failure
 	while (1) { }
 
@@ -200,6 +204,7 @@ int8_t AuthCopyAndDecryptVerify(uint8_t key[], uint8_t key_len)
     if(key == NULL || key_len == 0)
         return AUTH_ERR_INVALID_PTR;
 
+	// for compatibilty of the data types for the XOR operation the linker symbols are casted to uint8_t pointers.
     uint8_t *dst = &_sauth;
     uint8_t *src = &_sloadauth;
 
@@ -264,8 +269,12 @@ int8_t AuthWaitForA(void)
 		}
 
 		hasDataResult = uartHasData(&hasData);
+		if(hasDataResult != UART_ERR_OK)
+		{
+			return AUTH_ERR_FAILURE;
+		}
 
-		if((hasDataResult == UART_ERR_OK) && (hasData == true))
+		if(hasData == true)
 		{
 
 			int32_t uartReceiveResult = uartReceiveData(&charBuffer, 1, KEY_POLL_TIMEOUT_MS);
@@ -316,9 +325,6 @@ int8_t AuthWaitForA(void)
  * @retval AUTH_ERR_TIMEOUT
  * Key reception timed out.
  *
- * @retval AUTH_ERR_KEY_LENGHT_BREACH
- * The received key exceeded the maximum supported length.
- *
  * @retval AUTH_ERR_FAILURE
  * UART reception failed.
  */
@@ -332,17 +338,19 @@ int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
 
     uint32_t start = HAL_GetTick();
 
-    uint32_t now = 0;
+    uint32_t now = 0u;
 
-    uint32_t elapsed = 0;
+    uint32_t elapsed = 0u;
 
     uint8_t ch = 0u;
 
 	uint8_t len = 0u;
 
-	int32_t hasDataResult = 0;
+	int32_t hasDataResult = 0u;
 
 	bool hasData = false;
+
+	*keylen = 0u; // make sure this is set to 0 in case of unexpected invalid value.
 
 	ledSetLED(LED1, LED_OFF);
 
@@ -365,7 +373,12 @@ int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
 
         hasDataResult = uartHasData(&hasData);
 
-		if((hasDataResult == UART_ERR_OK) && (hasData == true))
+		if(hasDataResult != UART_ERR_OK)
+		{
+			return AUTH_ERR_FAILURE;
+		}
+
+		if(hasData == true)
 		{
 
             int32_t r = uartReceiveData(&ch, 1, KEY_POLL_TIMEOUT_MS);
@@ -375,7 +388,6 @@ int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
 
 				return AUTH_ERR_FAILURE;
 			}
-
 
 			else if((ch == (uint8_t)NEWLINE_CHARACTER) && len >= MIN_KEY_LEN)
 			{
@@ -415,6 +427,8 @@ int8_t AuthReadKey(uint8_t key[], uint8_t *keylen)
 int8_t AuthInit(void)
 {
 
+	lastBlinkTime = 0u;
+	
 	keyInputWarningStage = INITIAL;
 
 	ledSetLED(LED0, LED_ON);
@@ -458,8 +472,6 @@ int8_t AuthGoToFailure(void)
 static void Flash_D1(uint32_t elapsedTime)
 {
 
-	static uint32_t lastBlinkTime = 0;
-
 	if((elapsedTime - lastBlinkTime) >= BLINKY_TIME_THRESHOLD)
 	{
 	    ledToggleLED(LED1);
@@ -485,6 +497,7 @@ static void Flash_D1(uint32_t elapsedTime)
 */
 static void keyReadingWarningDetermination(uint32_t elapsed)
 {
+	
     switch(keyInputWarningStage)
     {
 
