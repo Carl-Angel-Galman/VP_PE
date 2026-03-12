@@ -40,6 +40,7 @@
 
 #define INCONSISTENCY_VALUE      10
 
+
 #define FILTER_ALPHA             400
 #define FILTER_SCALING           1000
 

@@ -28,6 +28,8 @@
 #include "stdbool.h"
 
 #include "AppContext.h"
+
+#include "Log/LogOutput.h"
 /***** PRIVATE CONSTANTS *****************************************************/
 #define USE_CUSTOM_MSP 0
 /***** PRIVATE TYPES *********************************************************/
@@ -99,9 +101,7 @@ void taskApp250ms(void)
 	uint32_t usedBytes = GetUsedBytes();
 	uint8_t usage = GetUsage();
 
-	(void)freeBytes;
-	(void)usedBytes;
-	(void)usage;
+	outputLogf("free bytes: %d, used bytes: %d, usage: %d \r\n", freeBytes, usedBytes, usage);
 
 	bool stackCorrupted = isCorrupted();
 
