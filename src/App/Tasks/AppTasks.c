@@ -29,7 +29,7 @@
 
 #include "AppContext.h"
 /***** PRIVATE CONSTANTS *****************************************************/
-#define USE_CUSTOM_MSP 1
+#define USE_CUSTOM_MSP 0
 /***** PRIVATE TYPES *********************************************************/
 
 /***** PRIVATE PROTOTYPES ****************************************************/
@@ -83,7 +83,7 @@ void taskApp250ms(void)
 
 	extern uint32_t _estack;
 	extern uint32_t _sstack;
-	uintptr_t sstartPointer = (uintptr_t)&_estack;
+	uintptr_t sstartPointer = (uintptr_t)&_estack; // chekcinf for the start adress oft the value
 	uintptr_t stackScanner 	= (uintptr_t)&_sstack;
 	stackScanner--;
 

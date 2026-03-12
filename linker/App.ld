@@ -75,10 +75,10 @@ SECTIONS
 {
   .signature  :
 {
-  KEEP(*(.signature))     /* if you later move it to C */
+  KEEP(*(.signature))    
   _signature_adress = .;
   BYTE(0x55); BYTE(0x4D); BYTE(0x4D); BYTE(0x53); /* UMMS */
-    BYTE(0x00); /* '\0' */
+    BYTE(0x00); 
   
 } > FLASH
 
