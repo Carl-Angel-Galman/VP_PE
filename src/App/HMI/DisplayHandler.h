@@ -42,7 +42,7 @@ int32_t DisplayHandlerInit(void);
 
 int32_t DisplayHandlerSetToIdle(void);
 
-int32_t DisplayHandlerSetDigits(int8_t leftValue, int8_t rightValue);
+int32_t DisplayHandlerSetDigits(uint32_t waterLevel);
 
 int32_t DisplayHandlerDisplayTwoDigits(void);
 #endif

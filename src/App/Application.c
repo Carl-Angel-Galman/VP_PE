@@ -18,15 +18,9 @@
 
 #include "Application.h"
 
-#include "Util/Log/printf.h"
-
 #include "UARTModule.h"
 
-#include "ButtonModule.h"
-
 #include "HMI/ButtonHandler.h"
-
-#include "LEDModule.h"
 
 #include "HMI/LEDHandler.h"
 
@@ -52,7 +46,6 @@
 
 #include "Guards/AppGuards.h"
 
-
 #include "OnEntry/AppOnEntry.h"
 
 
@@ -76,9 +69,6 @@
 
 #define MAX_DISPLAY_NUMBER 999
 
-#define HUNDREDS_DIGIT 100
-
-#define TENTH_DIGIT 10
 
 
 /***** PRIVATE TYPES *********************************************************/
@@ -319,10 +309,8 @@ int32_t AppUpdatingSensors()
 			if(currentWaterLevel > MAX_DISPLAY_NUMBER)
 				   currentWaterLevel = MAX_DISPLAY_NUMBER;
 
-			int8_t leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
-			int8_t rightDigit = (currentWaterLevel / TENTH_DIGIT) % TENTH_DIGIT;
-			DisplayHandlerSetDigits(leftDigit, rightDigit);
 
+			DisplayHandlerSetDigits(currentWaterLevel);
 
 			event = monitorSensor(currentWaterLevel, &context.waterSensor);
 			if(event != NO_EVT)

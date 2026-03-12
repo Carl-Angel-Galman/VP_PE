@@ -43,7 +43,6 @@
 
 #include "Scheduler.h"
 
-#include "Util/Global.h"
 
 #include "Util/Log/printf.h"
 

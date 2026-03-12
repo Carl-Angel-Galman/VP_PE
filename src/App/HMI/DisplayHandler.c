@@ -32,6 +32,9 @@
 
 /***** PRIVATE MACROS ********************************************************/
 
+#define HUNDREDS_DIGIT 100
+
+#define TENTH_DIGIT 10
 
 /***** PRIVATE TYPES *********************************************************/
 
@@ -64,16 +67,17 @@ int32_t DisplayHandlerInit(void)
 
 int32_t DisplayHandlerSetToIdle(void)
 {
-	DisplayHandlerSetDigits(DIGIT_DASH, DIGIT_DASH);
-
+	leftDigit = DIGIT_DASH;
+		rightDigit = DIGIT_DASH;
 	return DH_ERR_OK;
 }
 
-int32_t DisplayHandlerSetDigits(int8_t leftValue, int8_t rightValue)
+int32_t DisplayHandlerSetDigits(uint32_t currentWaterLevel)
 {
-	leftDigit = leftValue;
 
-	rightDigit = rightValue;
+	leftDigit  = currentWaterLevel / HUNDREDS_DIGIT;
+	rightDigit = (currentWaterLevel / TENTH_DIGIT) % TENTH_DIGIT;
+
 
 	return DISPLAY_ERR_OK;
 }

@@ -38,7 +38,7 @@
 #define MIN_SENSOR_VALUE         200
 #define MAX_SENSOR_VALUE         10000
 
-#define INCONSISTENCY_VALUE      10
+#define INCONSISTENCY_VALUE      30
 
 #define FILTER_ALPHA             400
 #define FILTER_SCALING           1000
@@ -214,10 +214,11 @@ int32_t dualGasGetAverage(int32_t* average)
     /* Overflow-safe average */
     *average = ppm_sensor1 / NUMBERS_OF_SENSORS + ppm_sensor2 / NUMBERS_OF_SENSORS;
 
+    /*Check if both division had a 0.5, then add 1 too average*/
     if((ppm_sensor1 % NUMBERS_OF_SENSORS + ppm_sensor2 % NUMBERS_OF_SENSORS) >= NUMBERS_OF_SENSORS)
     {
         (*average)++;
-    }
+   }
 
     return DUALSENSORS_OK;
 }

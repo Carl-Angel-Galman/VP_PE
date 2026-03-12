@@ -27,7 +27,6 @@
 #include "StackMonitor.h"
 #include <stdbool.h>
 #include <stdint.h>
-#include "Util/Global.h"
 
 
 /*******************************************************************************

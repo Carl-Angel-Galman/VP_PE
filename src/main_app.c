@@ -25,7 +25,6 @@
 
 #include "Util/Log/LogOutput.h"
 
-#include "GlobalObjects.h"
 
 #include "Application.h"
 
