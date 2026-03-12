@@ -140,7 +140,7 @@ int main(void)
 						current_state = FAILURE;
 						break;
 					}
-					else if(keyReadResult == AUTH_ERR_INVALID_PTR)
+					else if(keyReadResult == AUTH_ERR_FAILURE)
 					{
 						break;
 					}
