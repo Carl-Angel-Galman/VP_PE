@@ -98,6 +98,16 @@ typedef struct _WaterSensor
 	 */
 	uint32_t conversionFactor;
 
+    uint8_t rxBuffer[WATER_SENSOR_PACKET_SIZE];
+    uint8_t rxIndex;
+
+    uint8_t lastPacketCounter;
+    bool hasPreviousPacket;
+
+    uint32_t lastValidPacketTick;
+    bool initialized;
+    bool newValueAvailable;
+
 } WaterSensor;
 
 /*******************************************************************************
@@ -186,20 +196,6 @@ int32_t waterSensorReceiveUartData(void);
  */
 int32_t waterSensorCheckTimeout(void);
 
-/**
- * @brief Indicates whether a new valid UART value is available.
- *
- * @return `true` if a new valid value has been received.
- * @return `false` otherwise.
- */
-bool waterSensorHasNewValue(void);
 
-/**
- * @brief Resets the new-value flag of the water sensor module.
- *
- * This function clears the internal information that a new valid UART
- * value has been received.
- */
-void waterSensorResetNewValueFlag(void);
 
 #endif /* SRC_SERVICE_WATERSENSOR_H_ */

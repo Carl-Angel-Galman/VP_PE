@@ -101,34 +101,15 @@
  */
 #define WATER_SENSOR_CRC_DATA_LENGTH (WATER_SENSOR_PACKET_SIZE - 1U)
 
+#define WATER_SENSOR_PLACEHOLDER 952315
+
 /*******************************************************************************
  * Static Variables
  ******************************************************************************/
-
-/**
- * @brief Internal UART reception context of the water sensor.
- */
-typedef struct
-{
-    uint8_t rxBuffer[WATER_SENSOR_PACKET_SIZE];
-    uint8_t rxIndex;
-
-    uint8_t lastPacketCounter;
-    bool hasPreviousPacket;
-
-    uint32_t lastValidPacketTick;
-    bool initialized;
-    bool newValueAvailable;
-
-    uint32_t latestVoltage;
-} WaterSensorContext_t;
-
-static WaterSensorContext_t gWaterSensor = {0};
-
 /**
  * @brief Static instance of the water sensor.
  */
-static WaterSensor wSensor;
+static WaterSensor gWaterSensor;
 
 /*******************************************************************************
  * Private Prototypes
@@ -154,8 +135,8 @@ static void waterSensorStorePacket(const uint8_t *packet);
  */
 int32_t waterSensorInitalize(void)
 {
-	wSensor.sensorVoltage = 0;
-	wSensor.conversionFactor = CONV_FACTOR;
+	gWaterSensor.sensorVoltage = 0;
+	gWaterSensor.conversionFactor = CONV_FACTOR;
 
     (void)memset(&gWaterSensor, 0, sizeof(gWaterSensor));
     gWaterSensor.lastValidPacketTick = HAL_GetTick();
@@ -178,16 +159,29 @@ int32_t waterSensorInitalize(void)
  */
 int32_t waterSensorSetSensorVoltage(void)
 {
-	//int32_t sensorVolt = readfromPythonScript();
-	//uint32_t sensorVolt = 750000;
-	uint32_t sensorVolt = 952315;
+
+    if(gWaterSensor.initialized == false)
+    {
+        return WATER_SENSOR_ERR;
+    }
+    /*
+    if(gWaterSensor.newValueAvailable == false)
+    {
+    	if(waterSensorCheckTimeout() != WATER_SENSOR_OK)
+    		return WATER_SENSOR_ERR;
+        return WATER_SENSOR_OK;
+    }*/
+
+	uint32_t sensorVolt = WATER_SENSOR_PLACEHOLDER;
+
+	/*Missing the code to get sensorVoltage from UARTPacket*/
 
 	if(sensorVolt < MIN_VOLT_VALUE || sensorVolt > MAX_VOLT_VALUE)
 	{
 		return WATER_SENSOR_DEFECT;
 	}
 
-	wSensor.sensorVoltage = sensorVolt;
+	gWaterSensor.sensorVoltage = sensorVolt;
 
 	return WATER_SENSOR_OK;
 }
@@ -219,21 +213,28 @@ int32_t waterSensorGetSensorValue(int32_t* waterlevel)
 	{
 		return WATER_SENSOR_INVALID_PTR;
 	}
-	if(wSensor.sensorVoltage < MIN_VOLT_VALUE ||
-	   wSensor.sensorVoltage > MAX_VOLT_VALUE)
+    if(gWaterSensor.initialized == false)
+    {
+        return WATER_SENSOR_ERR;
+    }
+
+
+	if(gWaterSensor.sensorVoltage < MIN_VOLT_VALUE ||
+			gWaterSensor.sensorVoltage > MAX_VOLT_VALUE)
 	{
 	    return WATER_SENSOR_DEFECT;
 	}
 
-	int32_t deltaVoltage = wSensor.sensorVoltage - VOLT_OFFSET;
+	int32_t deltaVoltage = gWaterSensor.sensorVoltage - VOLT_OFFSET;
 
-	*waterlevel = MIN_SENSOR_VALUE + (deltaVoltage / wSensor.conversionFactor);
+	*waterlevel = MIN_SENSOR_VALUE + (deltaVoltage / gWaterSensor.conversionFactor);
 
 	if(*waterlevel < MIN_SENSOR_VALUE || *waterlevel > MAX_SENSOR_VALUE)
 	{
 	    return WATER_SENSOR_INVALID_VALUE;
 	}
 
+	//gWaterSensor.newValueAvailable = false;
 	return WATER_SENSOR_OK;
 }
 
@@ -334,25 +335,6 @@ int32_t waterSensorCheckTimeout(void)
     }
 
     return WATER_SENSOR_OK;
-}
-
-/**
- * @brief Returns whether a new valid UART value has been received.
- *
- * @return `true` if a new valid value is available.
- * @return `false` otherwise.
- */
-bool waterSensorHasNewValue(void)
-{
-    return gWaterSensor.newValueAvailable;
-}
-
-/**
- * @brief Resets the flag indicating a newly received valid UART value.
- */
-void waterSensorResetNewValueFlag(void)
-{
-    gWaterSensor.newValueAvailable = false;
 }
 
 /*******************************************************************************
@@ -457,8 +439,7 @@ static void waterSensorStorePacket(const uint8_t *packet)
     gWaterSensor.lastPacketCounter = packet[WATER_SENSOR_COUNTER_INDEX];
     gWaterSensor.hasPreviousPacket = true;
     gWaterSensor.lastValidPacketTick = HAL_GetTick();
-    gWaterSensor.latestVoltage = sensorVolt;
     gWaterSensor.newValueAvailable = true;
 
-    wSensor.sensorVoltage = sensorVolt;
+    gWaterSensor.sensorVoltage = sensorVolt;
 }
