@@ -29,7 +29,7 @@
 
 #include "AppContext.h"
 /***** PRIVATE CONSTANTS *****************************************************/
-
+#define USE_CUSTOM_MSP 1
 /***** PRIVATE TYPES *********************************************************/
 
 /***** PRIVATE PROTOTYPES ****************************************************/
@@ -81,9 +81,10 @@ void taskApp250ms(void)
 
 #if defined(USE_CUSTOM_MSP) && (USE_CUSTOM_MSP == 1)
 
-	extern uint8_t _sstack;
-
-	uintptr_t stackScanner = (uintptr_t)&_sstack;
+	extern uint32_t _estack;
+	extern uint32_t _sstack;
+	uintptr_t sstartPointer = (uintptr_t)&_estack;
+	uintptr_t stackScanner 	= (uintptr_t)&_sstack;
 	stackScanner--;
 
 	__disable_irq();

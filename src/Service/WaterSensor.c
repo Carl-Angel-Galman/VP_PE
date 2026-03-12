@@ -74,7 +74,7 @@
 /**
  * @brief Timeout threshold for missing UART packets in milliseconds.
  */
-#define WATER_SENSOR_TIMEOUT_MS 1500U
+#define WATER_SENSOR_TIMEOUT_MS 15000
 
 /**
  * @brief Byte index of the packet counter.

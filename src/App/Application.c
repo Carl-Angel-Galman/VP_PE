@@ -159,6 +159,8 @@ static ApplicationContext_t context = {0};
 
 int32_t AppInitialize(void)
 {
+
+
 	changeVectorTableReset();
 
 	HAL_Init();

@@ -99,7 +99,6 @@ int32_t onOperational(State_t * pState, int32_t eventID)
 {
 	int32_t stateTableResult = STATETBL_ERR_OK;
 
-
 	LEDHandler_OperationalMode(appContext->warningMode);
 
 	return stateTableResult;
